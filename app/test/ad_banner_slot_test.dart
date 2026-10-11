@@ -35,6 +35,9 @@ void main() {
 
     expect(kAdBannerSlotHeight, kAdBannerHeight + kAdBannerGap);
     expect(_contentHeight(tester), closeTo(screen - kAdBannerSlotHeight, 0.5));
+
+    // Let the load time out so no timer is left pending.
+    await tester.pump(const Duration(seconds: 31));
   });
 
   testWidgets('slot collapses to zero after the ad fails to load',

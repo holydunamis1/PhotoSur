@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:katharerase/core/providers/image_edit_provider.dart';
 import 'package:katharerase/core/providers/settings_provider.dart';
+import 'package:katharerase/core/providers/subscription_provider.dart';
 import 'package:katharerase/core/providers/theme_provider.dart';
 import 'package:katharerase/core/theme/app_theme.dart';
 import 'package:katharerase/generated/l10n/app_localizations.dart';
@@ -156,6 +157,9 @@ void main() {
         providers: [
           Provider<ThemeProvider>.value(value: ThemeProvider()),
           Provider<SettingsProvider>.value(value: SettingsProvider()),
+          Provider<SubscriptionProvider>.value(
+            value: SubscriptionProvider(SettingsProvider())..value = true,
+          ),
         ],
         child: MaterialApp(
           theme: buildAppTheme(Brightness.light),
