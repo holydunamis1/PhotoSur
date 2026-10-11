@@ -126,5 +126,12 @@
   "unsupportedNoCameraMessage": "此裝置沒有可用的相機。",
   "unsupportedLowMemoryMessage": "此裝置記憶體不足，無法穩定執行 KatharErase 編輯器。",
   "unsupportedManualImportHint": "你仍可從相簿匯入相片並使用手動筆刷。",
-  "unsupportedUseGalleryButton": "從相簿匯入"
+  "unsupportedUseGalleryButton": "從相簿匯入",
+  "editorToolLayout": "版面",
+  "layoutAutoCenter": "自動置中",
+  "layoutSizeLabel": "大小",
+  "layoutShadowLabel": "陰影",
+  "backgroundPhoto": "相片",
+  "backgroundPhotoFailed": "無法載入該相片。",
+  "editorLayoutHint": "拖曳可移動，雙指捏合可縮放。"
 }

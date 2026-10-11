@@ -126,5 +126,12 @@
   "unsupportedNoCameraMessage": "اس آلے پر کوئی کیمرا دستیاب نہیں ہے۔",
   "unsupportedLowMemoryMessage": "اس آلے میں KatharErase کے ایڈیٹر کو قابلِ اعتماد طریقے سے چلانے کے لیے کافی میموری نہیں ہے۔",
   "unsupportedManualImportHint": "آپ پھر بھی گیلری سے تصویر امپورٹ کر کے دستی برش استعمال کر سکتے ہیں۔",
-  "unsupportedUseGalleryButton": "گیلری سے امپورٹ کریں"
+  "unsupportedUseGalleryButton": "گیلری سے امپورٹ کریں",
+  "editorToolLayout": "لے آؤٹ",
+  "layoutAutoCenter": "آٹو سینٹر",
+  "layoutSizeLabel": "سائز",
+  "layoutShadowLabel": "سایہ",
+  "backgroundPhoto": "تصویر",
+  "backgroundPhotoFailed": "وہ تصویر لوڈ نہیں ہو سکی۔",
+  "editorLayoutHint": "منتقل کرنے کے لیے گھسیٹیں۔ سائز بدلنے کے لیے دو انگلیوں سے چٹکی لیں۔"
 }

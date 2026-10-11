@@ -293,6 +293,7 @@ class _EditorCanvasState extends State<EditorCanvas> {
   // --- Layout tool: drag to move the subject, pinch to scale it. ---
 
   void _moveDown(PointerDownEvent e) {
+    if (!_hintDismissed) setState(() => _hintDismissed = true);
     _movePointers[e.pointer] = e.localPosition;
     _restartPinch();
   }
@@ -433,7 +434,7 @@ class _EditorCanvasState extends State<EditorCanvas> {
                     ),
                   ),
                 ),
-                if (widget.brushEnabled && !_hintDismissed)
+                if ((widget.brushEnabled || widget.moveEnabled) && !_hintDismissed)
                   Positioned(
                     left: 16,
                     right: 16,
@@ -451,7 +452,9 @@ class _EditorCanvasState extends State<EditorCanvas> {
                               vertical: 8,
                             ),
                             child: Text(
-                              AppLocalizations.of(context).editorBrushHint,
+                              widget.moveEnabled
+                                  ? AppLocalizations.of(context).editorLayoutHint
+                                  : AppLocalizations.of(context).editorBrushHint,
                               textAlign: TextAlign.center,
                               style: const TextStyle(
                                 color: Colors.white,

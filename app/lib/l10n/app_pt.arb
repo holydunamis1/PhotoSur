@@ -126,5 +126,12 @@
   "unsupportedNoCameraMessage": "Este aparelho não tem uma câmera disponível.",
   "unsupportedLowMemoryMessage": "Este aparelho não tem memória suficiente para executar o editor do KatharErase com confiabilidade.",
   "unsupportedManualImportHint": "Você ainda pode importar uma foto da galeria e usar o pincel manual.",
-  "unsupportedUseGalleryButton": "Importar da galeria"
+  "unsupportedUseGalleryButton": "Importar da galeria",
+  "editorToolLayout": "Layout",
+  "layoutAutoCenter": "Centralizar",
+  "layoutSizeLabel": "Tamanho",
+  "layoutShadowLabel": "Sombra",
+  "backgroundPhoto": "Foto",
+  "backgroundPhotoFailed": "Não foi possível carregar essa foto.",
+  "editorLayoutHint": "Arraste para mover. Use dois dedos para redimensionar."
 }

@@ -126,5 +126,12 @@
   "unsupportedNoCameraMessage": "Den här enheten har ingen tillgänglig kamera.",
   "unsupportedLowMemoryMessage": "Den här enheten har inte tillräckligt med minne för att köra KatharErases redigerare pålitligt.",
   "unsupportedManualImportHint": "Du kan fortfarande importera ett foto från galleriet och använda den manuella penseln.",
-  "unsupportedUseGalleryButton": "Importera från Galleri"
+  "unsupportedUseGalleryButton": "Importera från Galleri",
+  "editorToolLayout": "Layout",
+  "layoutAutoCenter": "Centrera auto",
+  "layoutSizeLabel": "Storlek",
+  "layoutShadowLabel": "Skugga",
+  "backgroundPhoto": "Foto",
+  "backgroundPhotoFailed": "Det gick inte att läsa in fotot.",
+  "editorLayoutHint": "Dra för att flytta. Nyp med två fingrar för att ändra storlek."
 }

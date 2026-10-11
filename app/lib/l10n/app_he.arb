@@ -126,5 +126,12 @@
   "unsupportedNoCameraMessage": "אין מצלמה זמינה במכשיר זה.",
   "unsupportedLowMemoryMessage": "אין במכשיר זה מספיק זיכרון להפעלה אמינה של העורך של KatharErase.",
   "unsupportedManualImportHint": "עדיין אפשר לייבא תמונה מהגלריה ולהשתמש במכחול הידני.",
-  "unsupportedUseGalleryButton": "ייבוא מהגלריה"
+  "unsupportedUseGalleryButton": "ייבוא מהגלריה",
+  "editorToolLayout": "פריסה",
+  "layoutAutoCenter": "מירכוז אוטומטי",
+  "layoutSizeLabel": "גודל",
+  "layoutShadowLabel": "צל",
+  "backgroundPhoto": "תמונה",
+  "backgroundPhotoFailed": "לא ניתן לטעון את התמונה.",
+  "editorLayoutHint": "גררו כדי להזיז. צבטו עם שתי אצבעות כדי לשנות גודל."
 }

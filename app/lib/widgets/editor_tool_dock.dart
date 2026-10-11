@@ -4,9 +4,9 @@ import 'package:flutter/services.dart';
 import '../core/theme/app_tokens.dart';
 import '../generated/l10n/app_localizations.dart';
 
-/// The three editing tools, shown as a bottom dock. Each tool shows its own
+/// The editing tools, shown as a bottom dock. Each tool shows its own
 /// controls in the panel above the dock, one tool at a time.
-enum EditorTool { cutout, brush, background }
+enum EditorTool { cutout, brush, background, layout }
 
 class EditorToolDock extends StatelessWidget {
   const EditorToolDock({
@@ -26,6 +26,7 @@ class EditorToolDock extends StatelessWidget {
       (EditorTool.cutout, Icons.content_cut_rounded, l10n.editorToolCutout),
       (EditorTool.brush, Icons.brush_rounded, l10n.editorToolBrush),
       (EditorTool.background, Icons.wallpaper_rounded, l10n.editorToolBackground),
+      (EditorTool.layout, Icons.open_with_rounded, l10n.editorToolLayout),
     ];
 
     return DecoratedBox(

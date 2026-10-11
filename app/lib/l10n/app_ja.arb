@@ -126,5 +126,12 @@
   "unsupportedNoCameraMessage": "このデバイスでは利用できるカメラがありません。",
   "unsupportedLowMemoryMessage": "このデバイスには、KatharErase のエディタを安定して動かすためのメモリが足りません。",
   "unsupportedManualImportHint": "ギャラリーから写真を読み込んで、手動ブラシを使うことはできます。",
-  "unsupportedUseGalleryButton": "ギャラリーから読み込む"
+  "unsupportedUseGalleryButton": "ギャラリーから読み込む",
+  "editorToolLayout": "レイアウト",
+  "layoutAutoCenter": "自動で中央に",
+  "layoutSizeLabel": "サイズ",
+  "layoutShadowLabel": "影",
+  "backgroundPhoto": "写真",
+  "backgroundPhotoFailed": "その写真を読み込めませんでした。",
+  "editorLayoutHint": "ドラッグで移動、2本指のピンチでサイズ変更できます。"
 }

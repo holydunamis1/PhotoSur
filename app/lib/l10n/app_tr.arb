@@ -126,5 +126,12 @@
   "unsupportedNoCameraMessage": "Bu cihazda kullanılabilir bir kamera yok.",
   "unsupportedLowMemoryMessage": "Bu cihazda KatharErase düzenleyicisini güvenilir şekilde çalıştırmak için yeterli bellek yok.",
   "unsupportedManualImportHint": "Yine de galeriden fotoğraf içe aktarıp manuel fırçayı kullanabilirsiniz.",
-  "unsupportedUseGalleryButton": "Galeriden İçe Aktar"
+  "unsupportedUseGalleryButton": "Galeriden İçe Aktar",
+  "editorToolLayout": "Düzen",
+  "layoutAutoCenter": "Otomatik ortala",
+  "layoutSizeLabel": "Boyut",
+  "layoutShadowLabel": "Gölge",
+  "backgroundPhoto": "Fotoğraf",
+  "backgroundPhotoFailed": "Bu fotoğraf yüklenemedi.",
+  "editorLayoutHint": "Taşımak için sürükleyin. Boyutlandırmak için iki parmakla sıkıştırın."
 }

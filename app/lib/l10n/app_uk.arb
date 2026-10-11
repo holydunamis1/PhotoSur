@@ -126,5 +126,12 @@
   "unsupportedNoCameraMessage": "На цьому пристрої немає доступної камери.",
   "unsupportedLowMemoryMessage": "На цьому пристрої недостатньо пам'яті для стабільної роботи редактора KatharErase.",
   "unsupportedManualImportHint": "Ви все одно можете імпортувати фото з галереї та користуватися ручним пензлем.",
-  "unsupportedUseGalleryButton": "Імпорт із галереї"
+  "unsupportedUseGalleryButton": "Імпорт із галереї",
+  "editorToolLayout": "Макет",
+  "layoutAutoCenter": "Автоцентр",
+  "layoutSizeLabel": "Розмір",
+  "layoutShadowLabel": "Тінь",
+  "backgroundPhoto": "Фото",
+  "backgroundPhotoFailed": "Не вдалося завантажити це фото.",
+  "editorLayoutHint": "Перетягніть, щоб перемістити. Зведіть два пальці, щоб змінити розмір."
 }

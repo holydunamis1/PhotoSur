@@ -126,5 +126,12 @@
   "unsupportedNoCameraMessage": "এই ডিভাইসে কোনো ক্যামেরা নেই।",
   "unsupportedLowMemoryMessage": "KatharErase-এর এডিটর নির্ভরযোগ্যভাবে চালানোর জন্য এই ডিভাইসে যথেষ্ট মেমরি নেই।",
   "unsupportedManualImportHint": "আপনি এখনও গ্যালারি থেকে ছবি ইমপোর্ট করে ম্যানুয়াল ব্রাশ ব্যবহার করতে পারেন।",
-  "unsupportedUseGalleryButton": "গ্যালারি থেকে ইমপোর্ট"
+  "unsupportedUseGalleryButton": "গ্যালারি থেকে ইমপোর্ট",
+  "editorToolLayout": "লেআউট",
+  "layoutAutoCenter": "অটো-সেন্টার",
+  "layoutSizeLabel": "আকার",
+  "layoutShadowLabel": "ছায়া",
+  "backgroundPhoto": "ছবি",
+  "backgroundPhotoFailed": "ওই ছবি লোড করা যায়নি।",
+  "editorLayoutHint": "সরাতে টেনে নিন। আকার বদলাতে দুই আঙুলে চিমটি কাটুন।"
 }

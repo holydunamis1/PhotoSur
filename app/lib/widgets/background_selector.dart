@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';
 
 import '../core/models/editable_image_state.dart';
 import '../core/providers/image_edit_provider.dart';
 import '../core/theme/app_tokens.dart';
+import '../core/utils/background_presets.dart';
 import '../core/utils/constants.dart';
 import '../generated/l10n/app_localizations.dart';
 import 'labeled_slider.dart';
@@ -62,6 +64,25 @@ class BackgroundSelector extends StatelessWidget {
                     selected: state.backgroundType == BackgroundType.black,
                     onTap: () => provider.setBackgroundType(BackgroundType.black),
                   ),
+                  for (var i = 0; i < kGradientPresets.length; i++)
+                    _Swatch(
+                      label: null,
+                      color: null,
+                      gradient: [
+                        Color(kGradientPresets[i][0]),
+                        Color(kGradientPresets[i][1]),
+                      ],
+                      selected: state.backgroundType == BackgroundType.gradient &&
+                          state.gradientIndex == i,
+                      onTap: () => provider.setGradient(i),
+                    ),
+                  _Swatch(
+                    label: l10n.backgroundPhoto,
+                    color: null,
+                    icon: Icons.add_photo_alternate_outlined,
+                    selected: state.backgroundType == BackgroundType.image,
+                    onTap: () => _pickPhoto(context, provider),
+                  ),
                   for (final swatch in _presetSwatches)
                     _Swatch(
                       label: null,
@@ -88,13 +109,37 @@ class BackgroundSelector extends StatelessWidget {
   }
 }
 
+Future<void> _pickPhoto(BuildContext context, ImageEditProvider provider) async {
+  final l10n = AppLocalizations.of(context);
+  final messenger = ScaffoldMessenger.maybeOf(context);
+  try {
+    final picked = await ImagePicker().pickImage(
+      source: ImageSource.gallery,
+      maxWidth: 2048,
+      maxHeight: 2048,
+    );
+    if (picked == null) return;
+    provider.setBackgroundImage(await picked.readAsBytes());
+  } catch (_) {
+    messenger?.showSnackBar(SnackBar(content: Text(l10n.backgroundPhotoFailed)));
+  }
+}
+
 class _Swatch extends StatelessWidget {
   const _Swatch({
     required this.label,
     required this.color,
     required this.selected,
     required this.onTap,
+    this.gradient,
+    this.icon,
   });
+
+  /// Two colours, top to bottom (gradient swatch).
+  final List<Color>? gradient;
+
+  /// Glyph shown instead of a fill (the "Photo" swatch).
+  final IconData? icon;
 
   final String? label;
   final Color? color; // null = transparent (checkerboard)
@@ -127,12 +172,21 @@ class _Swatch extends StatelessWidget {
                 child: DecoratedBox(
                   decoration: BoxDecoration(
                     color: color,
+                    gradient: gradient == null
+                        ? null
+                        : LinearGradient(
+                            begin: Alignment.topCenter,
+                            end: Alignment.bottomCenter,
+                            colors: gradient!,
+                          ),
                     shape: BoxShape.circle,
                     border: Border.all(color: p.separator, width: 0.5),
                   ),
-                  child: color == null
-                      ? const CustomPaint(painter: _CheckerPainter())
-                      : null,
+                  child: icon != null
+                      ? Icon(icon, size: 22, color: p.text2)
+                      : (color == null && gradient == null
+                          ? const CustomPaint(painter: _CheckerPainter())
+                          : null),
                 ),
               ),
             ),

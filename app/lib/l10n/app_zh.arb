@@ -126,5 +126,12 @@
   "unsupportedNoCameraMessage": "此设备没有可用的相机。",
   "unsupportedLowMemoryMessage": "此设备内存不足，无法稳定运行 KatharErase 编辑器。",
   "unsupportedManualImportHint": "你仍可从相册导入照片并使用手动画笔。",
-  "unsupportedUseGalleryButton": "从相册导入"
+  "unsupportedUseGalleryButton": "从相册导入",
+  "editorToolLayout": "布局",
+  "layoutAutoCenter": "自动居中",
+  "layoutSizeLabel": "大小",
+  "layoutShadowLabel": "阴影",
+  "backgroundPhoto": "照片",
+  "backgroundPhotoFailed": "无法加载该照片。",
+  "editorLayoutHint": "拖动可移动，双指捏合可缩放。"
 }

@@ -126,5 +126,12 @@
   "unsupportedNoCameraMessage": "Walang available na camera ang device na ito.",
   "unsupportedLowMemoryMessage": "Kulang ang memory ng device na ito para patakbuhin nang maaasahan ang editor ng KatharErase.",
   "unsupportedManualImportHint": "Maaari ka pa ring mag-import ng larawan mula sa gallery at gamitin ang manual na brush.",
-  "unsupportedUseGalleryButton": "Mag-import mula sa Gallery"
+  "unsupportedUseGalleryButton": "Mag-import mula sa Gallery",
+  "editorToolLayout": "Layout",
+  "layoutAutoCenter": "Auto-center",
+  "layoutSizeLabel": "Laki",
+  "layoutShadowLabel": "Anino",
+  "backgroundPhoto": "Larawan",
+  "backgroundPhotoFailed": "Hindi ma-load ang larawang iyon.",
+  "editorLayoutHint": "I-drag para ilipat. Mag-pinch gamit ang dalawang daliri para i-resize."
 }

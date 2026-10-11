@@ -126,5 +126,12 @@
   "unsupportedNoCameraMessage": "Dit apparaat heeft geen beschikbare camera.",
   "unsupportedLowMemoryMessage": "Dit apparaat heeft niet genoeg geheugen om de editor van KatharErase betrouwbaar te draaien.",
   "unsupportedManualImportHint": "Je kunt nog steeds een foto uit je galerij importeren en het handmatige penseel gebruiken.",
-  "unsupportedUseGalleryButton": "Importeren uit Galerij"
+  "unsupportedUseGalleryButton": "Importeren uit Galerij",
+  "editorToolLayout": "Indeling",
+  "layoutAutoCenter": "Automatisch centreren",
+  "layoutSizeLabel": "Grootte",
+  "layoutShadowLabel": "Schaduw",
+  "backgroundPhoto": "Foto",
+  "backgroundPhotoFailed": "Die foto kon niet worden geladen.",
+  "editorLayoutHint": "Sleep om te verplaatsen. Knijp met twee vingers om het formaat te wijzigen."
 }

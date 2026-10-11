@@ -126,5 +126,12 @@
   "unsupportedNoCameraMessage": "इस डिवाइस पर कैमरा उपलब्ध नहीं है।",
   "unsupportedLowMemoryMessage": "इस डिवाइस में KatharErase का एडिटर भरोसेमंद ढंग से चलाने के लिए पर्याप्त मेमोरी नहीं है।",
   "unsupportedManualImportHint": "आप फिर भी गैलरी से फ़ोटो इंपोर्ट करके मैन्युअल ब्रश इस्तेमाल कर सकते हैं।",
-  "unsupportedUseGalleryButton": "गैलरी से इंपोर्ट करें"
+  "unsupportedUseGalleryButton": "गैलरी से इंपोर्ट करें",
+  "editorToolLayout": "लेआउट",
+  "layoutAutoCenter": "ऑटो-सेंटर",
+  "layoutSizeLabel": "आकार",
+  "layoutShadowLabel": "छाया",
+  "backgroundPhoto": "फ़ोटो",
+  "backgroundPhotoFailed": "वह फ़ोटो लोड नहीं हो सकी।",
+  "editorLayoutHint": "हिलाने के लिए खींचें। आकार बदलने के लिए दो उँगलियों से पिंच करें।"
 }

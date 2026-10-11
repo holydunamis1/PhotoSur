@@ -126,5 +126,12 @@
   "unsupportedNoCameraMessage": "อุปกรณ์นี้ไม่มีกล้องที่ใช้งานได้",
   "unsupportedLowMemoryMessage": "อุปกรณ์นี้มีหน่วยความจำไม่เพียงพอที่จะเรียกใช้ตัวแก้ไขของ KatharErase ได้อย่างเสถียร",
   "unsupportedManualImportHint": "คุณยังนำเข้ารูปจากแกลเลอรีและใช้แปรงแมนนวลได้",
-  "unsupportedUseGalleryButton": "นำเข้าจากแกลเลอรี"
+  "unsupportedUseGalleryButton": "นำเข้าจากแกลเลอรี",
+  "editorToolLayout": "เลย์เอาต์",
+  "layoutAutoCenter": "จัดกึ่งกลางอัตโนมัติ",
+  "layoutSizeLabel": "ขนาด",
+  "layoutShadowLabel": "เงา",
+  "backgroundPhoto": "รูปภาพ",
+  "backgroundPhotoFailed": "ไม่สามารถโหลดรูปภาพนั้นได้",
+  "editorLayoutHint": "ลากเพื่อย้าย บีบสองนิ้วเพื่อปรับขนาด"
 }

@@ -1,6 +1,5 @@
 import 'dart:typed_data';
 
-import 'package:flutter/painting.dart' show Offset;
 import 'package:flutter_test/flutter_test.dart';
 import 'package:image/image.dart' as img;
 import 'package:katharerase/core/models/editable_image_state.dart';

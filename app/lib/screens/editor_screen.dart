@@ -171,6 +171,7 @@ class _EditorScreenState extends State<EditorScreen>
                                 children: [
                                   EditorCanvas(
                                     brushEnabled: _tool == EditorTool.brush,
+                                    moveEnabled: _tool == EditorTool.layout,
                                   ),
                                   LoadingOverlay(visible: state.isProcessing),
                                 ],

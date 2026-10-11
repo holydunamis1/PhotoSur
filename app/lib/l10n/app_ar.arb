@@ -126,5 +126,12 @@
   "unsupportedNoCameraMessage": "لا تتوفر كاميرا على هذا الجهاز.",
   "unsupportedLowMemoryMessage": "لا يملك هذا الجهاز ذاكرة كافية لتشغيل محرر KatharErase بشكل موثوق.",
   "unsupportedManualImportHint": "لا يزال بإمكانك استيراد صورة من المعرض واستخدام الفرشاة اليدوية.",
-  "unsupportedUseGalleryButton": "استيراد من المعرض"
+  "unsupportedUseGalleryButton": "استيراد من المعرض",
+  "editorToolLayout": "التخطيط",
+  "layoutAutoCenter": "توسيط تلقائي",
+  "layoutSizeLabel": "الحجم",
+  "layoutShadowLabel": "الظل",
+  "backgroundPhoto": "صورة",
+  "backgroundPhotoFailed": "تعذّر تحميل تلك الصورة.",
+  "editorLayoutHint": "اسحب للتحريك. اضغط بإصبعين لتغيير الحجم."
 }

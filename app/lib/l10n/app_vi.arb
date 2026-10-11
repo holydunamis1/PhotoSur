@@ -126,5 +126,12 @@
   "unsupportedNoCameraMessage": "Thiết bị này không có máy ảnh khả dụng.",
   "unsupportedLowMemoryMessage": "Thiết bị này không đủ bộ nhớ để chạy trình chỉnh sửa của KatharErase một cách ổn định.",
   "unsupportedManualImportHint": "Bạn vẫn có thể nhập ảnh từ thư viện và dùng cọ thủ công.",
-  "unsupportedUseGalleryButton": "Nhập từ Thư viện"
+  "unsupportedUseGalleryButton": "Nhập từ Thư viện",
+  "editorToolLayout": "Bố cục",
+  "layoutAutoCenter": "Tự căn giữa",
+  "layoutSizeLabel": "Kích thước",
+  "layoutShadowLabel": "Bóng đổ",
+  "backgroundPhoto": "Ảnh",
+  "backgroundPhotoFailed": "Không thể tải ảnh đó.",
+  "editorLayoutHint": "Kéo để di chuyển. Chụm hai ngón tay để đổi kích thước."
 }

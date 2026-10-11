@@ -126,5 +126,12 @@
   "unsupportedNoCameraMessage": "Perangkat ini tidak memiliki kamera yang tersedia.",
   "unsupportedLowMemoryMessage": "Perangkat ini tidak memiliki cukup memori untuk menjalankan editor KatharErase dengan andal.",
   "unsupportedManualImportHint": "Anda tetap dapat mengimpor foto dari galeri dan menggunakan kuas manual.",
-  "unsupportedUseGalleryButton": "Impor dari Galeri"
+  "unsupportedUseGalleryButton": "Impor dari Galeri",
+  "editorToolLayout": "Tata letak",
+  "layoutAutoCenter": "Pusatkan otomatis",
+  "layoutSizeLabel": "Ukuran",
+  "layoutShadowLabel": "Bayangan",
+  "backgroundPhoto": "Foto",
+  "backgroundPhotoFailed": "Tidak dapat memuat foto itu.",
+  "editorLayoutHint": "Seret untuk memindahkan. Cubit dengan dua jari untuk mengubah ukuran."
 }
