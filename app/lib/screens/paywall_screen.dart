@@ -111,7 +111,7 @@ class _PaywallScreenState extends State<PaywallScreen> {
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    _Hero(icon: Icons.verified_rounded),
+                    const _Hero(icon: Icons.verified_rounded),
                     const SizedBox(height: AppSpace.xl),
                     Text(
                       l10n.paywallAlreadyAdFree,
