@@ -30,7 +30,25 @@ const Map<String, String> kLanguageNativeNames = {
   'pl': 'Polski',
   'vi': 'Tiếng Việt',
   'th': 'ไทย',
+  'zh_Hant': '繁體中文',
+  'nl': 'Nederlands',
+  'uk': 'Українська',
+  'sv': 'Svenska',
+  'bn': 'বাংলা',
+  'ur': 'اردو',
+  'fa': 'فارسی',
+  'fil': 'Filipino',
+  'ms': 'Bahasa Melayu',
 };
+
+/// The stored/setting code for a locale: the language code, plus the
+/// script when one distinguishes variants (e.g. `zh` vs `zh_Hant`).
+String languageCodeOf(Locale locale) {
+  final script = locale.scriptCode;
+  return script == null || script.isEmpty
+      ? locale.languageCode
+      : '${locale.languageCode}_$script';
+}
 
 String languageLabel(AppLocalizations l10n, String code) {
   if (code == kLanguageSystem) return l10n.languageSystemDefault;
@@ -41,7 +59,7 @@ String languageLabel(AppLocalizations l10n, String code) {
 Locale? localeForSetting(String code) {
   if (code == kLanguageSystem) return null;
   for (final locale in AppLocalizations.supportedLocales) {
-    if (locale.languageCode == code) return locale;
+    if (languageCodeOf(locale) == code) return locale;
   }
   return null;
 }
@@ -61,18 +79,21 @@ Future<void> showLanguageSheet(BuildContext context) {
   final settings = Provider.of<SettingsProvider>(context, listen: false);
   final codes = <String>[
     kLanguageSystem,
-    for (final locale in AppLocalizations.supportedLocales) locale.languageCode,
+    for (final locale in AppLocalizations.supportedLocales)
+      languageCodeOf(locale),
   ];
   return showModalBottomSheet<void>(
     context: context,
+    isScrollControlled: true,
     builder: (sheetContext) {
       final l10n = AppLocalizations.of(sheetContext);
       return SafeArea(
         child: ValueListenableBuilder<UserSettings>(
           valueListenable: settings,
           builder: (context, current, _) {
-            return Column(
-              mainAxisSize: MainAxisSize.min,
+            // 27 languages do not fit on a phone: the list scrolls.
+            return ListView(
+              shrinkWrap: true,
               children: [
                 ListTile(
                   title: Text(

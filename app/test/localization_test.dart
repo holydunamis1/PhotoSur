@@ -16,11 +16,12 @@ import 'package:katharerase/widgets/preference_sheets.dart';
 
 const _languages = [
   'es', 'pt', 'fr', 'de', 'hi', 'id', 'ar', 'tr', //
-  'he', 'ja', 'ko', 'zh', 'ru', 'it', 'pl', 'vi', 'th',
+  'he', 'ja', 'ko', 'zh', 'ru', 'it', 'pl', 'vi', 'th', //
+  'zh_Hant', 'nl', 'uk', 'sv', 'bn', 'ur', 'fa', 'fil', 'ms',
 ];
 
 /// Languages written right-to-left.
-const _rtl = {'ar', 'he'};
+const _rtl = {'ar', 'he', 'ur', 'fa'};
 
 Map<String, dynamic> _arb(String code) =>
     jsonDecode(File('lib/l10n/app_$code.arb').readAsStringSync())
@@ -100,8 +101,8 @@ void main() {
   group('language list', () {
     test('every supported locale has a native name', () {
       for (final locale in AppLocalizations.supportedLocales) {
-        expect(kLanguageNativeNames.containsKey(locale.languageCode), isTrue,
-            reason: locale.languageCode);
+        expect(kLanguageNativeNames.containsKey(languageCodeOf(locale)), isTrue,
+            reason: languageCodeOf(locale));
       }
       expect(AppLocalizations.supportedLocales.length, _languages.length + 1);
     });
@@ -124,7 +125,7 @@ void main() {
           Directionality.of(context),
           _rtl.contains(code) ? TextDirection.rtl : TextDirection.ltr,
         );
-        expect(Localizations.localeOf(context).languageCode, code);
+        expect(languageCodeOf(Localizations.localeOf(context)), code);
       });
 
       testWidgets('$code: home screen has no layout overflow', (tester) async {

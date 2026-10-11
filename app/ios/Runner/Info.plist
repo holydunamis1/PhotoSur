@@ -24,6 +24,15 @@
 		<string>pl</string>
 		<string>vi</string>
 		<string>th</string>
+		<string>zh-Hant</string>
+		<string>nl</string>
+		<string>uk</string>
+		<string>sv</string>
+		<string>bn</string>
+		<string>ur</string>
+		<string>fa</string>
+		<string>fil</string>
+		<string>ms</string>
 	</array>
 	<key>CFBundleDisplayName</key>
 	<string>KatharErase</string>
