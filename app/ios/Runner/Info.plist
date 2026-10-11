@@ -39,6 +39,11 @@
 		<string>gu</string>
 		<string>sw</string>
 		<string>ro</string>
+		<string>ml</string>
+		<string>el</string>
+		<string>cs</string>
+		<string>hu</string>
+		<string>da</string>
 	</array>
 	<key>CFBundleDisplayName</key>
 	<string>KatharErase</string>
