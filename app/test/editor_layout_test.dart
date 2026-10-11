@@ -35,7 +35,7 @@ void main() {
   });
 
   group('tool dock', () {
-    testWidgets('shows the three tools and reports taps', (tester) async {
+    testWidgets('shows every tool and reports taps', (tester) async {
       EditorTool? tapped;
       await tester.pumpWidget(
         _app(
@@ -53,6 +53,7 @@ void main() {
       expect(find.text('Cut-out'), findsOneWidget);
       expect(find.text('Brush'), findsOneWidget);
       expect(find.text('Background'), findsOneWidget);
+      expect(find.text('Layout'), findsOneWidget);
 
       await tester.tap(find.text('Brush'));
       expect(tapped, EditorTool.brush);
@@ -76,8 +77,8 @@ void main() {
       await tester.pump();
 
       final items = find.byType(InkWell);
-      expect(items, findsNWidgets(3));
-      for (var i = 0; i < 3; i++) {
+      expect(items, findsNWidgets(EditorTool.values.length));
+      for (var i = 0; i < EditorTool.values.length; i++) {
         final size = tester.getSize(items.at(i));
         expect(size.height, greaterThanOrEqualTo(48));
         expect(size.width, greaterThanOrEqualTo(48));
