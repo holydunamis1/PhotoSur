@@ -88,7 +88,7 @@ void main() {
     final arb = jsonDecode(File('lib/l10n/app_en.arb').readAsStringSync())
         as Map<String, dynamic>;
     final banned = RegExp(
-      r'\b(ads?|advert\w*|purchase|buy|subscri\w*|pay\w*|paid|price|premium|pro|free|\$)\b',
+      r'\b(ads?|advert\w*|purchase|buy|subscri\w*|pay\w*|paid|price|premium|pro|\$)\b',
       caseSensitive: false,
     );
     for (final key in arb.keys.where((k) => k.startsWith('onboarding'))) {
@@ -96,6 +96,12 @@ void main() {
       if (text is! String) continue;
       expect(banned.hasMatch(text), isFalse, reason: '$key: "$text"');
     }
+  });
+
+  test('onboarding tells users every feature is free', () {
+    final arb = jsonDecode(File('lib/l10n/app_en.arb').readAsStringSync())
+        as Map<String, dynamic>;
+    expect(arb['onboardingPage3Body'], contains('Every feature is free'));
   });
 
   test('every onboarding illustration exists', () {
