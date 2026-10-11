@@ -23,6 +23,7 @@ void main() {
     });
 
     // Ad-free: the banner slot loads nothing (this test is about cropping).
+    Provider.debugCheckInvalidValueType = null;
     final subscription = SubscriptionProvider(SettingsProvider())..value = true;
     final app = Provider<SubscriptionProvider>.value(
       value: subscription,
