@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 import '../generated/l10n/app_localizations.dart';
+import '../widgets/ad_banner_slot.dart';
 import '../widgets/app_scaffold.dart';
 import '../widgets/primary_button.dart';
 
@@ -65,7 +66,10 @@ class UnsupportedDeviceScreen extends StatelessWidget {
 
     return AppScaffold(
       appBar: AppBar(title: Text(l10n.unsupportedTitle)),
-      body: Padding(
+      body: Column(
+        children: [
+          Expanded(
+            child: Padding(
         padding: const EdgeInsets.all(24.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -96,6 +100,10 @@ class UnsupportedDeviceScreen extends StatelessWidget {
             ),
           ],
         ),
+            ),
+          ),
+          const AdBannerSlot(personalized: false),
+        ],
       ),
     );
   }

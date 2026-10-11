@@ -5,10 +5,18 @@ import 'package:provider/provider.dart';
 import '../core/providers/subscription_provider.dart';
 import '../platform/ad_service.dart';
 
-const double kAdBannerSlotHeight = 60.0;
+/// Standard banner (AdSize.banner) is 320x50 dp. The slot reserves exactly
+/// that, plus a small gap above it so the ad never touches the controls
+/// right above it.
+const double kAdBannerHeight = 50.0;
+const double kAdBannerWidth = 320.0;
+const double kAdBannerGap = 8.0;
+const double kAdBannerSlotHeight = kAdBannerHeight + kAdBannerGap;
 
-/// Fixed-height banner. Collapses to 0dp while loading, on failure, and
-/// when ad-free — never a broken placeholder.
+/// Fixed-height banner. While the ad loads the slot already holds its final
+/// height (blank), so nothing on screen jumps when the ad arrives. It
+/// collapses to 0dp on failure and when ad-free — never a broken
+/// placeholder.
 ///
 /// Every slot owns its OWN BannerAd (created on mount, disposed on
 /// unmount). A single shared ad cannot be shown in two places at once, and
@@ -30,6 +38,7 @@ class _AdBannerSlotState extends State<AdBannerSlot> {
   late final SubscriptionProvider _subscriptionProvider;
   BannerAd? _banner;
   bool _loaded = false;
+  bool _failed = false;
 
   @override
   void initState() {
@@ -50,6 +59,7 @@ class _AdBannerSlotState extends State<AdBannerSlot> {
         if (mounted) {
           setState(() {
             _loaded = false;
+            _failed = true;
             _banner = null;
           });
         }
@@ -59,7 +69,11 @@ class _AdBannerSlotState extends State<AdBannerSlot> {
       banner?.dispose();
       return;
     }
-    if (banner != null) setState(() => _banner = banner);
+    if (banner != null) {
+      setState(() => _banner = banner);
+    } else {
+      setState(() => _failed = true);
+    }
   }
 
   @override
@@ -74,13 +88,22 @@ class _AdBannerSlotState extends State<AdBannerSlot> {
       valueListenable: _subscriptionProvider,
       builder: (context, isAdFree, _) {
         final banner = _banner;
-        if (isAdFree || banner == null || !_loaded) {
-          return const SizedBox.shrink();
-        }
+        if (isAdFree || _failed) return const SizedBox.shrink();
         return SizedBox(
           height: kAdBannerSlotHeight,
           width: double.infinity,
-          child: AdWidget(ad: banner),
+          child: Padding(
+            padding: const EdgeInsets.only(top: kAdBannerGap),
+            child: (banner == null || !_loaded)
+                ? null // loading: space is held, nothing drawn
+                : Center(
+                    child: SizedBox(
+                      width: kAdBannerWidth,
+                      height: kAdBannerHeight,
+                      child: AdWidget(ad: banner),
+                    ),
+                  ),
+          ),
         );
       },
     );

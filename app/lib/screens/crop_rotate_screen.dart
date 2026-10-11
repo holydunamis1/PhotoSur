@@ -9,6 +9,7 @@ import 'package:path/path.dart' as p;
 
 import '../core/services/storage_service.dart';
 import '../generated/l10n/app_localizations.dart';
+import '../widgets/ad_banner_slot.dart';
 import '../widgets/app_scaffold.dart';
 import '../widgets/loading_overlay.dart';
 import '../widgets/primary_button.dart';
@@ -194,6 +195,7 @@ class _CropRotateScreenState extends State<CropRotateScreen> {
               ],
             ),
           ),
+          const AdBannerSlot(personalized: false),
         ],
       ),
     );

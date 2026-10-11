@@ -11,6 +11,7 @@ import '../core/theme/app_tokens.dart';
 import '../generated/l10n/app_localizations.dart';
 import '../platform/iap_service.dart';
 import '../platform/notification_service.dart';
+import '../widgets/ad_banner_slot.dart';
 import '../widgets/app_scaffold.dart';
 import '../widgets/preference_sheets.dart';
 import '../widgets/toast_notification.dart';
@@ -94,7 +95,10 @@ class SettingsScreen extends StatelessWidget {
 
     return AppScaffold(
       appBar: AppBar(title: Text(l10n.settingsTitle)),
-      body: ValueListenableBuilder<ThemeMode>(
+      body: Column(
+        children: [
+          Expanded(
+            child: ValueListenableBuilder<ThemeMode>(
         valueListenable: themeProvider,
         builder: (context, themeMode, _) {
           return ListView(
@@ -205,6 +209,10 @@ class SettingsScreen extends StatelessWidget {
             ],
           );
         },
+            ),
+          ),
+          const AdBannerSlot(personalized: false),
+        ],
       ),
     );
   }
