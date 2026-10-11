@@ -6,7 +6,15 @@ import 'package:freezed_annotation/freezed_annotation.dart';
 part 'editable_image_state.freezed.dart';
 
 /// Background fill type for Feature 4 (Replace Background).
-enum BackgroundType { white, transparent, black, solidColor, gaussianBlur }
+enum BackgroundType {
+  white,
+  transparent,
+  black,
+  solidColor,
+  gaussianBlur,
+  gradient,
+  image,
+}
 
 /// A single brush stroke event, used to reconstruct undo/redo history
 /// (Feature 6) without storing a full bitmap per step.
@@ -70,5 +78,12 @@ abstract class EditableImageState with _$EditableImageState {
     @Default(false) bool currentBrushIsRestore, // false = erase (primary tool), true = restore
     @Default(1.0) double currentBrushOpacity,
     @Default(false) bool autoSegmentationFailed,
+    // Phase 4: custom backgrounds, drop shadow, subject layout.
+    @Default(0) int gradientIndex,
+    Uint8List? bgImageBytes,
+    @Default(0.0) double shadowOpacity, // 0 = off, max kShadowMaxOpacity
+    @Default(1.0) double subjectScale,
+    @Default(Offset.zero) Offset subjectOffset, // fractions of the canvas
+    double? canvasAspect, // width / height; null = same as the photo
   }) = _EditableImageState;
 }

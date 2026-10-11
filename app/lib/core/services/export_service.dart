@@ -1,3 +1,4 @@
+import 'dart:math' as math;
 import 'dart:typed_data';
 import 'dart:ui';
 
@@ -7,7 +8,9 @@ import 'package:image/image.dart' as img;
 
 import '../models/editable_image_state.dart';
 import '../models/export_job.dart';
+import '../utils/background_presets.dart';
 import '../utils/constants.dart';
+import '../utils/subject_layout.dart';
 
 class ExportException implements Exception {
   const ExportException(this.message, [this.cause]);
@@ -76,6 +79,12 @@ class ExportService {
     required ResizeMode resizeMode,
     int? customWidth,
     int? customHeight,
+    int gradientIndex = 0,
+    Uint8List? bgImageBytes,
+    double shadowOpacity = 0.0,
+    double subjectScale = 1.0,
+    Offset subjectOffset = Offset.zero,
+    double? canvasAspect,
   }) async {
     try {
       final args = _ExportArgs(
@@ -90,6 +99,13 @@ class ExportService {
         resizeMode: resizeMode,
         customWidth: customWidth,
         customHeight: customHeight,
+        gradientIndex: gradientIndex,
+        bgImageBytes: bgImageBytes,
+        shadowOpacity: shadowOpacity,
+        subjectScale: subjectScale,
+        subjectOffsetX: subjectOffset.dx,
+        subjectOffsetY: subjectOffset.dy,
+        canvasAspect: canvasAspect,
       );
       final bytes = await compute(_exportInIsolate, args);
       if (format == ExportFormat.webp) {
@@ -111,21 +127,26 @@ class ExportService {
       throw const ExportException('Could not decode source image.');
     }
 
-    var composited = _applyMaskAndBackground(
-      original: original,
-      maskBytes: a.maskBytes,
-      backgroundType: a.backgroundType,
-      bgColor: a.bgColorArgb == null ? null : Color(a.bgColorArgb!),
-      blurRadius: a.blurRadius,
-      edgeFeather: a.edgeFeather,
-    );
+    final canvasSize = _canvasSize(a, original.width, original.height);
+    final plainLayout = canvasSize.$1 == original.width &&
+        canvasSize.$2 == original.height &&
+        a.subjectScale == 1.0 &&
+        a.subjectOffsetX == 0.0 &&
+        a.subjectOffsetY == 0.0 &&
+        a.shadowOpacity <= 0 &&
+        a.backgroundType != BackgroundType.gradient &&
+        a.backgroundType != BackgroundType.image;
 
-    composited = _applyResize(
-      composited,
-      resizeMode: a.resizeMode,
-      customWidth: a.customWidth,
-      customHeight: a.customHeight,
-    );
+    final composited = plainLayout
+        ? _applyMaskAndBackground(
+            original: original,
+            maskBytes: a.maskBytes,
+            backgroundType: a.backgroundType,
+            bgColor: a.bgColorArgb == null ? null : Color(a.bgColorArgb!),
+            blurRadius: a.blurRadius,
+            edgeFeather: a.edgeFeather,
+          )
+        : _composeOnCanvas(a, original, canvasSize.$1, canvasSize.$2);
 
     switch (a.format) {
       case ExportFormat.png:
@@ -143,6 +164,212 @@ class ExportService {
           img.encodeJpg(flattened, quality: a.quality),
         );
     }
+  }
+
+
+  /// Output canvas size. A resize preset / custom size defines the canvas
+  /// shape; "original" keeps the photo's longer side and applies the
+  /// editor's chosen aspect (or the photo's own shape).
+  (int, int) _canvasSize(_ExportArgs a, int iw, int ih) {
+    switch (a.resizeMode) {
+      case ResizeMode.original:
+        final aspect = a.canvasAspect;
+        if (aspect == null) return (iw, ih);
+        final longer = iw > ih ? iw : ih;
+        return aspect >= 1
+            ? (longer, (longer / aspect).round().clamp(1, 1 << 14))
+            : ((longer * aspect).round().clamp(1, 1 << 14), longer);
+      case ResizeMode.square1x1:
+        return (kResizePreset1x1.width.round(), kResizePreset1x1.height.round());
+      case ResizeMode.portrait4x5:
+        return (kResizePreset4x5.width.round(), kResizePreset4x5.height.round());
+      case ResizeMode.portrait9x16:
+        return (kResizePreset9x16.width.round(), kResizePreset9x16.height.round());
+      case ResizeMode.custom:
+        if (a.customWidth == null || a.customHeight == null) {
+          throw const ExportException(
+            'Custom resize selected but width/height not provided.',
+          );
+        }
+        return (a.customWidth!, a.customHeight!);
+    }
+  }
+
+  /// General path: background fills the canvas, the cut-out subject is
+  /// fitted (never stretched), scaled and moved, with an optional shadow.
+  img.Image _composeOnCanvas(_ExportArgs a, img.Image original, int cw, int ch) {
+    final subject = _applyMaskAndBackground(
+      original: original,
+      maskBytes: a.maskBytes,
+      backgroundType: BackgroundType.transparent,
+      blurRadius: 0,
+      edgeFeather: a.edgeFeather,
+    );
+    final place = placeSubject(
+      imageWidth: original.width.toDouble(),
+      imageHeight: original.height.toDouble(),
+      canvasWidth: cw.toDouble(),
+      canvasHeight: ch.toDouble(),
+      scale: a.subjectScale,
+      offsetX: a.subjectOffsetX,
+      offsetY: a.subjectOffsetY,
+    );
+    final pw = place.width.round().clamp(1, 1 << 14);
+    final ph = place.height.round().clamp(1, 1 << 14);
+    final layer = (pw == original.width && ph == original.height)
+        ? subject
+        : img.copyResize(
+            subject,
+            width: pw,
+            height: ph,
+            interpolation: img.Interpolation.linear,
+          );
+    final left = place.left.round();
+    final top = place.top.round();
+
+    final canvas = _buildBackground(a, original, cw, ch);
+    if (a.shadowOpacity > 0) {
+      _paintShadow(canvas, layer, left, top, a.shadowOpacity);
+    }
+    _drawOver(canvas, layer, left, top);
+    return canvas;
+  }
+
+  img.Image _buildBackground(_ExportArgs a, img.Image original, int cw, int ch) {
+    final canvas = img.Image(width: cw, height: ch, numChannels: 4);
+    switch (a.backgroundType) {
+      case BackgroundType.transparent:
+        return canvas; // all zero = fully transparent
+      case BackgroundType.white:
+        return canvas..clear(img.ColorRgba8(255, 255, 255, 255));
+      case BackgroundType.black:
+        return canvas..clear(img.ColorRgba8(0, 0, 0, 255));
+      case BackgroundType.solidColor:
+        final c = a.bgColorArgb == null ? const Color(0xFFFFFFFF) : Color(a.bgColorArgb!);
+        return canvas
+          ..clear(img.ColorRgba8(
+            (c.r * 255).round(),
+            (c.g * 255).round(),
+            (c.b * 255).round(),
+            255,
+          ));
+      case BackgroundType.gradient:
+        final stops = kGradientPresets[a.gradientIndex.clamp(0, kGradientPresets.length - 1)];
+        final top = Color(stops[0]);
+        final bottom = Color(stops[1]);
+        for (var y = 0; y < ch; y++) {
+          final t = ch <= 1 ? 0.0 : y / (ch - 1);
+          final r = ((top.r + (bottom.r - top.r) * t) * 255).round();
+          final g = ((top.g + (bottom.g - top.g) * t) * 255).round();
+          final b = ((top.b + (bottom.b - top.b) * t) * 255).round();
+          for (var x = 0; x < cw; x++) {
+            canvas.setPixelRgba(x, y, r, g, b, 255);
+          }
+        }
+        return canvas;
+      case BackgroundType.gaussianBlur:
+        final blurred = img.gaussianBlur(
+          img.Image.from(original),
+          radius: a.blurRadius.round().clamp(
+                kBackgroundBlurMinPx.round(),
+                kBackgroundBlurMaxPx.round(),
+              ),
+        );
+        return _coverFill(canvas, blurred);
+      case BackgroundType.image:
+        final bytes = a.bgImageBytes;
+        final decoded = bytes == null ? null : img.decodeImage(bytes);
+        if (decoded == null) {
+          return canvas..clear(img.ColorRgba8(255, 255, 255, 255));
+        }
+        return _coverFill(canvas, decoded);
+    }
+  }
+
+  /// Fill [canvas] with [source] scaled to cover it (centre-cropped).
+  img.Image _coverFill(img.Image canvas, img.Image source) {
+    final scale = math.max(
+      canvas.width / source.width,
+      canvas.height / source.height,
+    );
+    final w = (source.width * scale).ceil().clamp(canvas.width, 1 << 14);
+    final h = (source.height * scale).ceil().clamp(canvas.height, 1 << 14);
+    final resized = img.copyResize(
+      source,
+      width: w,
+      height: h,
+      interpolation: img.Interpolation.linear,
+    );
+    final x0 = (w - canvas.width) ~/ 2;
+    final y0 = (h - canvas.height) ~/ 2;
+    for (var y = 0; y < canvas.height; y++) {
+      for (var x = 0; x < canvas.width; x++) {
+        final p = resized.getPixel(x + x0, y + y0);
+        canvas.setPixelRgba(x, y, p.r.toInt(), p.g.toInt(), p.b.toInt(), 255);
+      }
+    }
+    return canvas;
+  }
+
+  /// Soft black shadow from the subject's own alpha, dropped slightly.
+  void _paintShadow(
+    img.Image canvas,
+    img.Image layer,
+    int left,
+    int top,
+    double opacity,
+  ) {
+    final longSide = math.max(canvas.width, canvas.height);
+    final radius = math.max(1, (longSide * kShadowBlurFraction).round());
+    final drop = (longSide * kShadowDropFraction).round();
+    final pad = radius * 2;
+    final sw = layer.width + pad * 2;
+    final sh = layer.height + pad * 2;
+    final alpha = img.Image(width: sw, height: sh, numChannels: 1);
+    for (var y = 0; y < layer.height; y++) {
+      for (var x = 0; x < layer.width; x++) {
+        alpha.setPixelR(x + pad, y + pad, layer.getPixel(x, y).a.toInt());
+      }
+    }
+    final blurred = img.gaussianBlur(alpha, radius: radius);
+    for (var y = 0; y < sh; y++) {
+      final cy = top - pad + y + drop;
+      if (cy < 0 || cy >= canvas.height) continue;
+      for (var x = 0; x < sw; x++) {
+        final cx = left - pad + x;
+        if (cx < 0 || cx >= canvas.width) continue;
+        final a = blurred.getPixel(x, y).r.toInt() / 255.0 * opacity;
+        if (a <= 0) continue;
+        _blendPixel(canvas, cx, cy, 0, 0, 0, a);
+      }
+    }
+  }
+
+  /// Standard "over" composite of [src] onto [dst] at (x0, y0), clipped.
+  void _drawOver(img.Image dst, img.Image src, int x0, int y0) {
+    for (var sy = 0; sy < src.height; sy++) {
+      final dy = y0 + sy;
+      if (dy < 0 || dy >= dst.height) continue;
+      for (var sx = 0; sx < src.width; sx++) {
+        final dx = x0 + sx;
+        if (dx < 0 || dx >= dst.width) continue;
+        final p = src.getPixel(sx, sy);
+        final a = p.a.toInt() / 255.0;
+        if (a <= 0) continue;
+        _blendPixel(dst, dx, dy, p.r.toInt(), p.g.toInt(), p.b.toInt(), a);
+      }
+    }
+  }
+
+  void _blendPixel(img.Image dst, int x, int y, int r, int g, int b, double a) {
+    final d = dst.getPixel(x, y);
+    final da = d.a.toInt() / 255.0;
+    final outA = a + da * (1 - a);
+    if (outA <= 0) return;
+    final or = ((r * a + d.r.toInt() * da * (1 - a)) / outA).round();
+    final og = ((g * a + d.g.toInt() * da * (1 - a)) / outA).round();
+    final ob = ((b * a + d.b.toInt() * da * (1 - a)) / outA).round();
+    dst.setPixelRgba(x, y, or, og, ob, (outA * 255).round());
   }
 
   img.Image _applyMaskAndBackground({
@@ -279,41 +506,6 @@ class ExportService {
     return flat;
   }
 
-  img.Image _applyResize(
-    img.Image source, {
-    required ResizeMode resizeMode,
-    int? customWidth,
-    int? customHeight,
-  }) {
-    Size? target;
-    switch (resizeMode) {
-      case ResizeMode.original:
-        return source;
-      case ResizeMode.square1x1:
-        target = kResizePreset1x1;
-        break;
-      case ResizeMode.portrait4x5:
-        target = kResizePreset4x5;
-        break;
-      case ResizeMode.portrait9x16:
-        target = kResizePreset9x16;
-        break;
-      case ResizeMode.custom:
-        if (customWidth == null || customHeight == null) {
-          throw const ExportException(
-            'Custom resize selected but width/height not provided.',
-          );
-        }
-        target = Size(customWidth.toDouble(), customHeight.toDouble());
-        break;
-    }
-    return img.copyResize(
-      source,
-      width: target.width.round(),
-      height: target.height.round(),
-    );
-  }
-
   /// WEBP has no encoder in package:image (confirmed decode-only). Route
   /// through the injectable _webpEncoder (flutter_image_compress by
   /// default) instead, encoding the already-composited PNG bytes. Falls
@@ -361,6 +553,13 @@ class _ExportArgs {
     required this.resizeMode,
     required this.customWidth,
     required this.customHeight,
+    this.gradientIndex = 0,
+    this.bgImageBytes,
+    this.shadowOpacity = 0.0,
+    this.subjectScale = 1.0,
+    this.subjectOffsetX = 0.0,
+    this.subjectOffsetY = 0.0,
+    this.canvasAspect,
   });
 
   final Uint8List originalBytes;
@@ -374,6 +573,13 @@ class _ExportArgs {
   final ResizeMode resizeMode;
   final int? customWidth;
   final int? customHeight;
+  final int gradientIndex;
+  final Uint8List? bgImageBytes;
+  final double shadowOpacity;
+  final double subjectScale;
+  final double subjectOffsetX;
+  final double subjectOffsetY;
+  final double? canvasAspect;
 }
 
 Future<Uint8List> _unavailableWebpEncoder(Uint8List pngBytes, int quality) {

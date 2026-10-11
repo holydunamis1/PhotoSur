@@ -6,6 +6,8 @@ import 'package:flutter/foundation.dart';
 import '../models/editable_image_state.dart';
 import '../services/mask_pipeline.dart';
 import '../services/segmentation_service.dart';
+import '../utils/background_presets.dart';
+import '../utils/subject_layout.dart';
 
 /// Arguments for [_postprocessInIsolate] (kept sendable: only typed data).
 class _PostprocessArgs {
@@ -248,6 +250,75 @@ class ImageEditProvider extends ValueNotifier<EditableImageState> {
     value = value.copyWith(
       backgroundType: BackgroundType.gaussianBlur,
       blurRadius: radiusPx,
+    );
+  }
+
+  void setGradient(int index) {
+    value = value.copyWith(
+      backgroundType: BackgroundType.gradient,
+      gradientIndex: index,
+    );
+  }
+
+  void setBackgroundImage(Uint8List bytes) {
+    value = value.copyWith(
+      backgroundType: BackgroundType.image,
+      bgImageBytes: bytes,
+    );
+  }
+
+  void setShadow(double opacity) {
+    value = value.copyWith(shadowOpacity: opacity.clamp(0.0, kShadowMaxOpacity));
+  }
+
+  void setSubjectScale(double scale) {
+    value = value.copyWith(subjectScale: scale.clamp(0.2, 3.0));
+  }
+
+  void setSubjectOffset(Offset offset) {
+    value = value.copyWith(subjectOffset: offset);
+  }
+
+  void setCanvasAspect(double? aspect) {
+    value = value.copyWith(canvasAspect: aspect);
+  }
+
+  /// Reset move/scale to the photo as framed.
+  void resetSubjectLayout() {
+    value = value.copyWith(subjectScale: 1.0, subjectOffset: Offset.zero);
+  }
+
+  /// Centre the cut-out subject on the canvas and size it to fill it.
+  void autoCenterSubject() {
+    final mask = value.maskBytes;
+    final size = value.imageSize;
+    if (mask == null || size == null) return;
+    final bounds = subjectBounds(mask, size.width.round(), size.height.round());
+    if (bounds == null) return;
+    var cw = size.width;
+    var ch = size.height;
+    final aspect = value.canvasAspect;
+    if (aspect != null) {
+      // Canvas keeps the photo's longer side; only the shape changes.
+      final longer = cw > ch ? cw : ch;
+      if (aspect >= 1) {
+        cw = longer;
+        ch = longer / aspect;
+      } else {
+        ch = longer;
+        cw = longer * aspect;
+      }
+    }
+    final layout = autoCenterLayout(
+      bounds: bounds,
+      imageWidth: size.width,
+      imageHeight: size.height,
+      canvasWidth: cw,
+      canvasHeight: ch,
+    );
+    value = value.copyWith(
+      subjectScale: layout.scale,
+      subjectOffset: Offset(layout.offsetX, layout.offsetY),
     );
   }
 
