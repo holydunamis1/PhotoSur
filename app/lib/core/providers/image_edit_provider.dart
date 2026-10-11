@@ -295,20 +295,8 @@ class ImageEditProvider extends ValueNotifier<EditableImageState> {
     if (mask == null || size == null) return;
     final bounds = subjectBounds(mask, size.width.round(), size.height.round());
     if (bounds == null) return;
-    var cw = size.width;
-    var ch = size.height;
-    final aspect = value.canvasAspect;
-    if (aspect != null) {
-      // Canvas keeps the photo's longer side; only the shape changes.
-      final longer = cw > ch ? cw : ch;
-      if (aspect >= 1) {
-        cw = longer;
-        ch = longer / aspect;
-      } else {
-        ch = longer;
-        cw = longer * aspect;
-      }
-    }
+    final (cw, ch) =
+        canvasDimensions(size.width, size.height, value.canvasAspect);
     final layout = autoCenterLayout(
       bounds: bounds,
       imageWidth: size.width,

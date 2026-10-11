@@ -8,7 +8,9 @@ import 'package:provider/provider.dart';
 
 import '../core/models/editable_image_state.dart';
 import '../core/providers/image_edit_provider.dart';
+import '../core/utils/background_presets.dart';
 import '../core/utils/constants.dart';
+import '../core/utils/subject_layout.dart';
 import '../generated/l10n/app_localizations.dart';
 
 /// Where a photo of [image] size sits inside [viewport]: scaled uniformly
@@ -44,9 +46,16 @@ class _LiveStroke {
 class EditorCanvas extends StatefulWidget {
   /// [brushEnabled]: one finger paints (Manual tool); two fingers still
   /// pinch-zoom. When false, one finger pans the zoomed photo instead.
-  const EditorCanvas({super.key, this.brushEnabled = false});
+  const EditorCanvas({
+    super.key,
+    this.brushEnabled = false,
+    this.moveEnabled = false,
+  });
 
   final bool brushEnabled;
+
+  /// Layout tool: one finger drags the subject, two fingers pinch-scale it.
+  final bool moveEnabled;
 
   @override
   State<EditorCanvas> createState() => _EditorCanvasState();
@@ -76,7 +85,17 @@ class _EditorCanvasState extends State<EditorCanvas> {
 
   // Layout of the photo inside the viewport, refreshed on every build.
   Rect _fit = Rect.zero;
+  Rect _canvasRect = Rect.zero;
   double _fitScale = 1.0;
+
+  // Custom background photo, decoded once per picked file.
+  ui.Image? _bgImage;
+  Uint8List? _bgImageSource;
+
+  // Layout-tool gestures.
+  final Map<int, Offset> _movePointers = {};
+  double _pinchStartDistance = 0;
+  double _pinchStartScale = 1;
 
   @override
   void initState() {
@@ -93,6 +112,7 @@ class _EditorCanvasState extends State<EditorCanvas> {
     _live.dispose();
     _originalImage?.dispose();
     _maskImage?.dispose();
+    _bgImage?.dispose();
     super.dispose();
   }
 
@@ -100,6 +120,10 @@ class _EditorCanvasState extends State<EditorCanvas> {
     final state = _provider.value;
     if (state.originalPath != null && state.originalPath != _decodedForPath) {
       _decodeOriginalImage(state.originalPath!);
+    }
+    if (!identical(state.bgImageBytes, _bgImageSource)) {
+      _bgImageSource = state.bgImageBytes;
+      _decodeBackgroundImage(state.bgImageBytes);
     }
     if (!identical(state.maskBytes, _maskSource)) {
       _maskSource = state.maskBytes;
@@ -112,6 +136,30 @@ class _EditorCanvasState extends State<EditorCanvas> {
           _maskImage = null;
         });
       }
+    }
+  }
+
+  Future<void> _decodeBackgroundImage(Uint8List? bytes) async {
+    if (bytes == null) {
+      setState(() {
+        _bgImage?.dispose();
+        _bgImage = null;
+      });
+      return;
+    }
+    try {
+      final codec = await ui.instantiateImageCodec(bytes);
+      final frame = await codec.getNextFrame();
+      if (!mounted || !identical(bytes, _bgImageSource)) {
+        frame.image.dispose();
+        return;
+      }
+      setState(() {
+        _bgImage?.dispose();
+        _bgImage = frame.image;
+      });
+    } catch (e) {
+      debugPrint('Failed to decode background image: $e');
     }
   }
 
@@ -191,6 +239,10 @@ class _EditorCanvasState extends State<EditorCanvas> {
 
   void _onPointerDown(PointerDownEvent e) {
     _pointers++;
+    if (widget.moveEnabled) {
+      _moveDown(e);
+      return;
+    }
     if (!_brushActive) return;
     if (_pointers == 1) {
       _strokeActive = true;
@@ -204,6 +256,10 @@ class _EditorCanvasState extends State<EditorCanvas> {
   }
 
   void _onPointerMove(PointerMoveEvent e) {
+    if (widget.moveEnabled) {
+      _moveMove(e);
+      return;
+    }
     if (!_strokeActive || _pointers != 1) return;
     _strokeImagePoints.add(_toImage(e.localPosition));
     _live.value = _LiveStroke(_strokeImagePoints, e.localPosition);
@@ -212,6 +268,11 @@ class _EditorCanvasState extends State<EditorCanvas> {
   void _onPointerUp(PointerUpEvent e) {
     final wasSingle = _pointers == 1;
     _pointers = math.max(0, _pointers - 1);
+    if (widget.moveEnabled) {
+      _movePointers.remove(e.pointer);
+      _restartPinch();
+      return;
+    }
     if (_strokeActive && wasSingle) {
       _commitStroke();
     } else {
@@ -221,7 +282,45 @@ class _EditorCanvasState extends State<EditorCanvas> {
 
   void _onPointerCancel(PointerCancelEvent e) {
     _pointers = math.max(0, _pointers - 1);
+    if (widget.moveEnabled) {
+      _movePointers.remove(e.pointer);
+      _restartPinch();
+      return;
+    }
     _cancelStroke();
+  }
+
+  // --- Layout tool: drag to move the subject, pinch to scale it. ---
+
+  void _moveDown(PointerDownEvent e) {
+    _movePointers[e.pointer] = e.localPosition;
+    _restartPinch();
+  }
+
+  void _restartPinch() {
+    if (_movePointers.length == 2) {
+      final pts = _movePointers.values.toList();
+      _pinchStartDistance = (pts[0] - pts[1]).distance;
+      _pinchStartScale = _provider.value.subjectScale;
+    }
+  }
+
+  void _moveMove(PointerMoveEvent e) {
+    if (!_movePointers.containsKey(e.pointer)) return;
+    _movePointers[e.pointer] = e.localPosition;
+    if (_movePointers.length == 1) {
+      final w = _canvasRect.width;
+      final h = _canvasRect.height;
+      if (w <= 0 || h <= 0) return;
+      final cur = _provider.value.subjectOffset;
+      _provider.setSubjectOffset(
+        Offset(cur.dx + e.delta.dx / w, cur.dy + e.delta.dy / h),
+      );
+    } else if (_movePointers.length == 2 && _pinchStartDistance > 0) {
+      final pts = _movePointers.values.toList();
+      final d = (pts[0] - pts[1]).distance;
+      _provider.setSubjectScale(_pinchStartScale * d / _pinchStartDistance);
+    }
   }
 
   void _cancelStroke() {
@@ -256,7 +355,27 @@ class _EditorCanvasState extends State<EditorCanvas> {
         return LayoutBuilder(
           builder: (context, constraints) {
             final viewport = constraints.biggest;
-            _fit = fitImageRect(imageSize, viewport);
+            final (canvasW, canvasH) = canvasDimensions(
+              imageSize.width,
+              imageSize.height,
+              state.canvasAspect,
+            );
+            _canvasRect = fitImageRect(Size(canvasW, canvasH), viewport);
+            final place = placeSubject(
+              imageWidth: imageSize.width,
+              imageHeight: imageSize.height,
+              canvasWidth: _canvasRect.width,
+              canvasHeight: _canvasRect.height,
+              scale: state.subjectScale,
+              offsetX: state.subjectOffset.dx,
+              offsetY: state.subjectOffset.dy,
+            );
+            _fit = Rect.fromLTWH(
+              _canvasRect.left + place.left,
+              _canvasRect.top + place.top,
+              place.width,
+              place.height,
+            );
             _fitScale = imageSize.width > 0 ? _fit.width / imageSize.width : 1.0;
 
             return Stack(
@@ -266,7 +385,8 @@ class _EditorCanvasState extends State<EditorCanvas> {
                   transformationController: _transformController,
                   minScale: kZoomMin,
                   maxScale: kZoomMax,
-                  panEnabled: !widget.brushEnabled,
+                  panEnabled: !widget.brushEnabled && !widget.moveEnabled,
+                  scaleEnabled: !widget.moveEnabled,
                   child: SizedBox(
                     width: viewport.width,
                     height: viewport.height,
@@ -289,7 +409,11 @@ class _EditorCanvasState extends State<EditorCanvas> {
                               blurRadius: state.blurRadius,
                               edgeFeather: state.edgeFeather,
                               fit: _fit,
+                              canvasRect: _canvasRect,
                               fitScale: _fitScale,
+                              gradientIndex: state.gradientIndex,
+                              bgImage: _bgImage,
+                              shadowOpacity: state.shadowOpacity,
                             ),
                           ),
                           if (widget.brushEnabled)
@@ -439,7 +563,11 @@ class _EditorPainter extends CustomPainter {
     required this.blurRadius,
     required this.edgeFeather,
     required this.fit,
+    required this.canvasRect,
     required this.fitScale,
+    required this.gradientIndex,
+    this.bgImage,
+    required this.shadowOpacity,
   });
 
   final ui.Image original;
@@ -449,8 +577,16 @@ class _EditorPainter extends CustomPainter {
   final Color? bgColor;
   final double blurRadius;
   final double edgeFeather;
+
+  /// Where the photo (the subject layer) is drawn; may extend past the canvas.
   final Rect fit;
+
+  /// The output canvas. Backgrounds fill it; everything is clipped to it.
+  final Rect canvasRect;
   final double fitScale;
+  final int gradientIndex;
+  final ui.Image? bgImage;
+  final double shadowOpacity;
 
   Rect get _src =>
       Rect.fromLTWH(0, 0, original.width.toDouble(), original.height.toDouble());
@@ -459,10 +595,10 @@ class _EditorPainter extends CustomPainter {
   void paint(Canvas canvas, Size size) {
     final rect = fit;
     canvas.save();
-    canvas.clipRect(rect);
+    canvas.clipRect(canvasRect);
 
     if (showBeforeAfter) {
-      // "Before": the untouched original.
+      // "Before": the untouched original at its natural framing.
       canvas.drawImageRect(original, _src, rect, Paint());
       canvas.restore();
       return;
@@ -470,52 +606,106 @@ class _EditorPainter extends CustomPainter {
 
     switch (backgroundType) {
       case BackgroundType.white:
-        canvas.drawRect(rect, Paint()..color = Colors.white);
+        canvas.drawRect(canvasRect, Paint()..color = Colors.white);
         break;
       case BackgroundType.black:
-        canvas.drawRect(rect, Paint()..color = Colors.black);
+        canvas.drawRect(canvasRect, Paint()..color = Colors.black);
         break;
       case BackgroundType.solidColor:
-        canvas.drawRect(rect, Paint()..color = bgColor ?? Colors.white);
+        canvas.drawRect(canvasRect, Paint()..color = bgColor ?? Colors.white);
         break;
       case BackgroundType.gaussianBlur:
-        _drawBlurredBackground(canvas, rect);
+        _drawBlurredBackground(canvas);
+        break;
+      case BackgroundType.gradient:
+        final stops = kGradientPresets[gradientIndex.clamp(0, kGradientPresets.length - 1)];
+        canvas.drawRect(
+          canvasRect,
+          Paint()
+            ..shader = ui.Gradient.linear(
+              canvasRect.topCenter,
+              canvasRect.bottomCenter,
+              [Color(stops[0]), Color(stops[1])],
+            ),
+        );
+        break;
+      case BackgroundType.image:
+        if (bgImage != null) {
+          _drawCover(canvas, bgImage!, canvasRect);
+        } else {
+          canvas.drawRect(canvasRect, Paint()..color = Colors.white);
+        }
         break;
       case BackgroundType.transparent:
-        _drawTransparencyCheckerboard(canvas, rect);
+        _drawTransparencyCheckerboard(canvas, canvasRect);
         break;
     }
 
     if (maskImage != null) {
-      canvas.saveLayer(rect, Paint());
-      canvas.drawImageRect(original, _src, rect, Paint());
-      final maskPaint = Paint()..blendMode = BlendMode.dstIn;
-      // Feather is specified in image pixels; scale it to what's on screen.
-      final sigma = edgeFeather * fitScale;
-      if (sigma > 0) {
-        maskPaint.imageFilter = ui.ImageFilter.blur(sigmaX: sigma, sigmaY: sigma);
-      }
-      canvas.drawImageRect(
-        maskImage!,
-        Rect.fromLTWH(0, 0, maskImage!.width.toDouble(), maskImage!.height.toDouble()),
-        rect,
-        maskPaint,
-      );
-      canvas.restore();
+      if (shadowOpacity > 0) _drawShadow(canvas, rect);
+      _drawSubject(canvas, rect);
     } else {
       canvas.drawImageRect(original, _src, rect, Paint());
     }
     canvas.restore();
   }
 
-  void _drawBlurredBackground(Canvas canvas, Rect rect) {
+  /// The cut-out subject: photo masked by the (optionally feathered) mask.
+  void _drawSubject(Canvas canvas, Rect rect, {Paint? layerPaint}) {
+    canvas.saveLayer(rect.inflate(1), layerPaint ?? Paint());
+    canvas.drawImageRect(original, _src, rect, Paint());
+    final maskPaint = Paint()..blendMode = BlendMode.dstIn;
+    // Feather is specified in image pixels; scale it to what's on screen.
+    final sigma = edgeFeather * fitScale;
+    if (sigma > 0) {
+      maskPaint.imageFilter = ui.ImageFilter.blur(sigmaX: sigma, sigmaY: sigma);
+    }
+    canvas.drawImageRect(
+      maskImage!,
+      Rect.fromLTWH(0, 0, maskImage!.width.toDouble(), maskImage!.height.toDouble()),
+      rect,
+      maskPaint,
+    );
+    canvas.restore();
+  }
+
+  /// Soft black silhouette under the subject, dropped slightly.
+  void _drawShadow(Canvas canvas, Rect rect) {
+    final longSide = math.max(canvasRect.width, canvasRect.height);
+    final sigma = longSide * kShadowBlurFraction / 2;
+    final drop = longSide * kShadowDropFraction;
+    final layerPaint = Paint()
+      ..colorFilter = ColorFilter.mode(
+        Colors.black.withValues(alpha: shadowOpacity),
+        BlendMode.srcIn,
+      )
+      ..imageFilter = ui.ImageFilter.blur(sigmaX: sigma, sigmaY: sigma);
+    _drawSubject(
+      canvas,
+      rect.shift(Offset(0, drop)).inflate(sigma * 4),
+      layerPaint: layerPaint,
+    );
+  }
+
+  /// Draw [image] scaled to cover [target], centre-cropped.
+  void _drawCover(Canvas canvas, ui.Image image, Rect target) {
+    final iw = image.width.toDouble();
+    final ih = image.height.toDouble();
+    final scale = math.max(target.width / iw, target.height / ih);
+    final srcW = target.width / scale;
+    final srcH = target.height / scale;
+    final src = Rect.fromLTWH((iw - srcW) / 2, (ih - srcH) / 2, srcW, srcH);
+    canvas.drawImageRect(image, src, target, Paint());
+  }
+
+  void _drawBlurredBackground(Canvas canvas) {
     final sigma = blurRadius * fitScale;
     canvas.saveLayer(
-      rect,
+      canvasRect,
       Paint()
         ..imageFilter = ui.ImageFilter.blur(sigmaX: sigma, sigmaY: sigma),
     );
-    canvas.drawImageRect(original, _src, rect, Paint());
+    _drawCover(canvas, original, canvasRect);
     canvas.restore();
   }
 
@@ -544,6 +734,10 @@ class _EditorPainter extends CustomPainter {
         oldDelegate.blurRadius != blurRadius ||
         oldDelegate.edgeFeather != edgeFeather ||
         oldDelegate.fit != fit ||
-        oldDelegate.fitScale != fitScale;
+        oldDelegate.canvasRect != canvasRect ||
+        oldDelegate.fitScale != fitScale ||
+        oldDelegate.gradientIndex != gradientIndex ||
+        oldDelegate.bgImage != bgImage ||
+        oldDelegate.shadowOpacity != shadowOpacity;
   }
 }

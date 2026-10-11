@@ -422,6 +422,9 @@ class ExportService {
         );
         break;
       case BackgroundType.transparent:
+      case BackgroundType.gradient:
+      case BackgroundType.image:
+        // gradient/image take the general canvas path; never reach here.
         backgroundLayer = null; // leave alpha=0 where mask says background
         break;
     }

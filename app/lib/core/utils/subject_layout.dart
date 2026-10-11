@@ -92,3 +92,12 @@ SubjectPlacement placeSubject({
     offsetY: offPxY / canvasHeight,
   );
 }
+
+/// Canvas shape for an optional aspect ratio (width / height). The canvas
+/// keeps the photo's longer side so detail is never thrown away; null means
+/// the canvas is exactly the photo.
+(double, double) canvasDimensions(double imageWidth, double imageHeight, double? aspect) {
+  if (aspect == null) return (imageWidth, imageHeight);
+  final longer = math.max(imageWidth, imageHeight);
+  return aspect >= 1 ? (longer, longer / aspect) : (longer * aspect, longer);
+}
