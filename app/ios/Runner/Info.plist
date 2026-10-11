@@ -33,6 +33,12 @@
 		<string>fa</string>
 		<string>fil</string>
 		<string>ms</string>
+		<string>ta</string>
+		<string>te</string>
+		<string>mr</string>
+		<string>gu</string>
+		<string>sw</string>
+		<string>ro</string>
 	</array>
 	<key>CFBundleDisplayName</key>
 	<string>KatharErase</string>

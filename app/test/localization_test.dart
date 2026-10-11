@@ -17,7 +17,8 @@ import 'package:katharerase/widgets/preference_sheets.dart';
 const _languages = [
   'es', 'pt', 'fr', 'de', 'hi', 'id', 'ar', 'tr', //
   'he', 'ja', 'ko', 'zh', 'ru', 'it', 'pl', 'vi', 'th', //
-  'zh_Hant', 'nl', 'uk', 'sv', 'bn', 'ur', 'fa', 'fil', 'ms',
+  'zh_Hant', 'nl', 'uk', 'sv', 'bn', 'ur', 'fa', 'fil', 'ms', //
+  'ta', 'te', 'mr', 'gu', 'sw', 'ro',
 ];
 
 /// Languages written right-to-left.

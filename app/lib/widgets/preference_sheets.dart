@@ -39,6 +39,12 @@ const Map<String, String> kLanguageNativeNames = {
   'fa': 'فارسی',
   'fil': 'Filipino',
   'ms': 'Bahasa Melayu',
+  'ta': 'தமிழ்',
+  'te': 'తెలుగు',
+  'mr': 'मराठी',
+  'gu': 'ગુજરાતી',
+  'sw': 'Kiswahili',
+  'ro': 'Română',
 };
 
 /// The stored/setting code for a locale: the language code, plus the
