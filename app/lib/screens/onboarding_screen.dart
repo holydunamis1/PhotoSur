@@ -3,25 +3,18 @@ import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
 import '../core/providers/settings_provider.dart';
-import '../core/utils/constants.dart';
+import '../core/theme/app_tokens.dart';
 import '../generated/l10n/app_localizations.dart';
 import '../platform/ad_service.dart';
 import '../widgets/app_scaffold.dart';
 import '../widgets/primary_button.dart';
 
-/// 3 pages: Auto-remove demo, Manual brush demo, "Free with ads — go
-/// ad-free with a one-time purchase" explanation. "Get Started" button.
+/// 3 pages that teach the product, with no mention of ads or payment:
+/// automatic removal, brush clean-up, studio backgrounds. "Get Started"
+/// button. Illustrations live in assets/images/onboarding_*.png.
 ///
-/// Asset note: assets/images/onboarding_*.png are Phase 9 files (74-76),
-/// not yet placed on disk at the time this screen is written. Image.asset
-/// calls below use errorBuilder fallbacks so this screen doesn't crash
-/// before those assets exist — once Phase 9 places the real files, the
-/// fallback path simply stops triggering.
-///
-/// Retrofit note: page title/body strings now come from AppLocalizations
-/// rather than a static const list — AppLocalizations lookups are runtime
-/// instance method calls, not compile-time constants, so _pages moved
-/// from a static const field to a build-time method taking BuildContext.
+/// Title/body strings come from AppLocalizations at build time, so the page
+/// list is built from a method taking BuildContext.
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({super.key});
 
@@ -36,7 +29,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   static const _assets = [
     'assets/images/onboarding_auto.png',
     'assets/images/onboarding_manual.png',
-    'assets/images/onboarding_ads.png',
+    'assets/images/onboarding_studio.png',
   ];
 
   List<_OnboardingPageData> _pages(BuildContext context) {
@@ -89,10 +82,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
-    final accent =
-        Theme.of(context).brightness == Brightness.dark
-            ? AppColors.accentDark
-            : AppColors.accentLight;
+    final accent = context.palette.accent;
     final pages = _pages(context);
 
     return AppScaffold(
@@ -107,7 +97,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.all(24.0),
+            padding: const EdgeInsets.fromLTRB(24, 8, 24, 24),
             child: Column(
               children: [
                 Row(
@@ -126,7 +116,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     );
                   }),
                 ),
-                const SizedBox(height: 24),
+                const SizedBox(height: 28),
                 PrimaryButton(
                   label: _page == pages.length - 1
                       ? l10n.onboardingGetStarted
@@ -168,35 +158,52 @@ class _OnboardingPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(32.0),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Expanded(
-            child: Image.asset(
-              data.asset,
-              fit: BoxFit.contain,
-              errorBuilder: (context, error, stackTrace) => Icon(
-                Icons.image_outlined,
-                size: 96,
-                color: Theme.of(context).colorScheme.onSurfaceVariant,
+    final theme = Theme.of(context);
+    final p = context.palette;
+    // One-shot entrance (finite, so tests can settle): the text and picture
+    // rise and fade in when the page is first built.
+    return TweenAnimationBuilder<double>(
+      tween: Tween(begin: 0, end: 1),
+      duration: const Duration(milliseconds: 520),
+      curve: Curves.easeOutCubic,
+      builder: (context, t, child) => Opacity(
+        opacity: t,
+        child: Transform.translate(offset: Offset(0, 16 * (1 - t)), child: child),
+      ),
+      child: Padding(
+        padding: const EdgeInsets.fromLTRB(28, 16, 28, 0),
+        child: Column(
+          children: [
+            Expanded(
+              flex: 5,
+              child: Center(
+                child: Image.asset(
+                  data.asset,
+                  fit: BoxFit.contain,
+                  excludeFromSemantics: true,
+                  errorBuilder: (context, error, stackTrace) => Icon(
+                    Icons.image_outlined,
+                    size: 96,
+                    color: p.text3,
+                  ),
+                ),
               ),
             ),
-          ),
-          const SizedBox(height: 24),
-          Text(
-            data.title,
-            style: Theme.of(context).textTheme.headlineSmall,
-            textAlign: TextAlign.center,
-          ),
-          const SizedBox(height: 12),
-          Text(
-            data.body,
-            style: Theme.of(context).textTheme.bodyMedium,
-            textAlign: TextAlign.center,
-          ),
-        ],
+            const SizedBox(height: AppSpace.l),
+            Text(
+              data.title,
+              style: theme.textTheme.headlineMedium,
+              textAlign: TextAlign.center,
+            ),
+            const SizedBox(height: AppSpace.m),
+            Text(
+              data.body,
+              style: theme.textTheme.bodyLarge?.copyWith(color: p.text2),
+              textAlign: TextAlign.center,
+            ),
+            const Spacer(),
+          ],
+        ),
       ),
     );
   }

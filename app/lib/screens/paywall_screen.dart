@@ -3,15 +3,15 @@ import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
 import '../core/providers/subscription_provider.dart';
+import '../core/theme/app_tokens.dart';
 import '../generated/l10n/app_localizations.dart';
 import '../platform/iap_service.dart';
 import '../widgets/app_scaffold.dart';
 import '../widgets/primary_button.dart';
 import '../widgets/toast_notification.dart';
 
-/// Non-blocking. "Go Ad-Free." Comparison: Free (with ads) vs Ad-Free
-/// (one-time purchase, price from the store). Restore Purchases button. No feature list — because all
-/// features are free (Section 5 File 46's own stated reasoning).
+/// Non-blocking. "Go Ad-Free." Hero, store price, Free vs Ad-Free comparison,
+/// purchase and Restore buttons. Every feature stays free either way.
 class PaywallScreen extends StatefulWidget {
   const PaywallScreen({super.key});
 
@@ -88,14 +88,16 @@ class _PaywallScreenState extends State<PaywallScreen> {
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
+    final theme = Theme.of(context);
+    final palette = context.palette;
     final subscriptionProvider =
         Provider.of<SubscriptionProvider>(context, listen: false);
 
     return AppScaffold(
       appBar: AppBar(
-        title: Text(l10n.paywallTitle),
         leading: IconButton(
-          icon: const Icon(Icons.close),
+          tooltip: MaterialLocalizations.of(context).closeButtonTooltip,
+          icon: const Icon(Icons.close_rounded),
           onPressed: () => context.pop(),
         ),
       ),
@@ -106,54 +108,128 @@ class _PaywallScreenState extends State<PaywallScreen> {
             return Center(
               child: Padding(
                 padding: const EdgeInsets.all(32),
-                child: Text(l10n.paywallAlreadyAdFree),
-              ),
-            );
-          }
-          return Padding(
-            padding: const EdgeInsets.all(24.0),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [
-                Row(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
                   children: [
-                    Expanded(
-                      child: _PlanCard(
-                        title: l10n.paywallPlanFreeTitle,
-                        price: l10n.paywallPlanFreePrice,
-                        bullets: [l10n.paywallFeatureAllFeatures, l10n.paywallFeatureAdSupported],
-                        highlighted: false,
-                      ),
-                    ),
-                    const SizedBox(width: 12),
-                    Expanded(
-                      child: _PlanCard(
-                        title: l10n.paywallPlanAdFreeTitle,
-                        price: _price ?? l10n.paywallPlanAdFreePrice,
-                        bullets: [l10n.paywallFeatureAllFeatures, l10n.paywallFeatureZeroAds],
-                        highlighted: true,
-                      ),
+                    _Hero(icon: Icons.verified_rounded),
+                    const SizedBox(height: AppSpace.xl),
+                    Text(
+                      l10n.paywallAlreadyAdFree,
+                      style: theme.textTheme.titleLarge,
+                      textAlign: TextAlign.center,
                     ),
                   ],
                 ),
-                const SizedBox(height: 24),
-                PrimaryButton(
-                  label: _price == null
-                      ? l10n.paywallPurchaseButton
-                      : l10n.paywallPurchaseButtonPrice(_price!),
-                  isLoading: _isPurchasing,
-                  onPressed: () => _purchase(context),
+              ),
+            );
+          }
+          return Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Expanded(
+                child: SingleChildScrollView(
+                  padding: const EdgeInsets.fromLTRB(24, 8, 24, 16),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      const Center(child: _Hero(icon: Icons.block_rounded)),
+                      const SizedBox(height: AppSpace.xl),
+                      Text(
+                        l10n.paywallTitle,
+                        style: theme.textTheme.headlineMedium,
+                        textAlign: TextAlign.center,
+                      ),
+                      const SizedBox(height: AppSpace.s),
+                      if (_price != null) ...[
+                        Text(
+                          _price!,
+                          style: theme.textTheme.displaySmall
+                              ?.copyWith(color: palette.accentText),
+                          textAlign: TextAlign.center,
+                        ),
+                        const SizedBox(height: AppSpace.xs),
+                      ],
+                      Text(
+                        l10n.paywallPlanAdFreePrice,
+                        style: theme.textTheme.bodyLarge
+                            ?.copyWith(color: palette.text2),
+                        textAlign: TextAlign.center,
+                      ),
+                      const SizedBox(height: AppSpace.xxl),
+                      IntrinsicHeight(
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.stretch,
+                          children: [
+                            Expanded(
+                              child: _PlanCard(
+                                title: l10n.paywallPlanFreeTitle,
+                                price: l10n.paywallPlanFreePrice,
+                                bullets: [
+                                  (Icons.check_circle_rounded, l10n.paywallFeatureAllFeatures),
+                                  (Icons.campaign_outlined, l10n.paywallFeatureAdSupported),
+                                ],
+                                highlighted: false,
+                              ),
+                            ),
+                            const SizedBox(width: AppSpace.m),
+                            Expanded(
+                              child: _PlanCard(
+                                title: l10n.paywallPlanAdFreeTitle,
+                                price: _price ?? l10n.paywallPlanAdFreePrice,
+                                bullets: [
+                                  (Icons.check_circle_rounded, l10n.paywallFeatureAllFeatures),
+                                  (Icons.check_circle_rounded, l10n.paywallFeatureZeroAds),
+                                ],
+                                highlighted: true,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
-                const SizedBox(height: 8),
-                TextButton(
-                  onPressed: () => _restore(context),
-                  child: Text(l10n.paywallRestorePurchases),
+              ),
+              Padding(
+                padding: const EdgeInsets.fromLTRB(24, 0, 24, 8),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    PrimaryButton(
+                      label: _price == null
+                          ? l10n.paywallPurchaseButton
+                          : l10n.paywallPurchaseButtonPrice(_price!),
+                      isLoading: _isPurchasing,
+                      onPressed: () => _purchase(context),
+                    ),
+                    const SizedBox(height: AppSpace.xs),
+                    TextButton(
+                      onPressed: () => _restore(context),
+                      child: Text(l10n.paywallRestorePurchases),
+                    ),
+                  ],
                 ),
-              ],
-            ),
+              ),
+            ],
           );
         },
       ),
+    );
+  }
+}
+
+class _Hero extends StatelessWidget {
+  const _Hero({required this.icon});
+  final IconData icon;
+
+  @override
+  Widget build(BuildContext context) {
+    final p = context.palette;
+    return Container(
+      width: 96,
+      height: 96,
+      decoration: BoxDecoration(color: p.accentTint, shape: BoxShape.circle),
+      child: Icon(icon, size: 44, color: p.accentText),
     );
   }
 }
@@ -168,37 +244,44 @@ class _PlanCard extends StatelessWidget {
 
   final String title;
   final String price;
-  final List<String> bullets;
+  final List<(IconData, String)> bullets;
   final bool highlighted;
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final p = context.palette;
     return Container(
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.all(AppSpace.l),
       decoration: BoxDecoration(
+        color: highlighted ? p.accentTint : p.surface,
         border: Border.all(
-          color: highlighted
-              ? Theme.of(context).colorScheme.primary
-              : Theme.of(context).colorScheme.outlineVariant,
+          color: highlighted ? p.accent : p.separator,
           width: highlighted ? 2 : 1,
         ),
-        borderRadius: BorderRadius.circular(12),
+        borderRadius: BorderRadius.circular(AppRadius.l),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(title, style: Theme.of(context).textTheme.titleMedium),
-          const SizedBox(height: 4),
-          Text(price, style: Theme.of(context).textTheme.headlineSmall),
-          const SizedBox(height: 12),
-          for (final b in bullets)
+          Text(
+            title,
+            style: theme.textTheme.titleMedium?.copyWith(
+              color: highlighted ? p.accentText : p.text,
+            ),
+          ),
+          const SizedBox(height: AppSpace.xs),
+          Text(price, style: theme.textTheme.titleLarge),
+          const SizedBox(height: AppSpace.m),
+          for (final (icon, label) in bullets)
             Padding(
-              padding: const EdgeInsets.only(bottom: 4),
+              padding: const EdgeInsets.only(bottom: AppSpace.s),
               child: Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Icon(Icons.check, size: 16),
-                  const SizedBox(width: 6),
-                  Expanded(child: Text(b, style: Theme.of(context).textTheme.bodySmall)),
+                  Icon(icon, size: 18, color: highlighted ? p.accentText : p.text3),
+                  const SizedBox(width: AppSpace.s),
+                  Expanded(child: Text(label, style: theme.textTheme.bodySmall)),
                 ],
               ),
             ),

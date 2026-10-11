@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Placeholder until flutter_native_splash:create runs (Phase 9, File 59)
-     against assets/logo_1024.png — this is a minimal, honest white
-     background matching Section 7's light bgPrimary token (#FFFFFF), not
-     a fake branded splash. -->
+<!-- Splash for Android 8-11: app background colour (matches the Home screen so
+     the hand-off to Flutter is seamless) with the app icon centred. -->
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@android:color/white" />
+    <item android:drawable="@color/splash_background" />
+    <item
+        android:width="144dp"
+        android:height="144dp"
+        android:gravity="center"
+        android:drawable="@drawable/splash_logo" />
 </layer-list>

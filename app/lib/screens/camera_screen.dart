@@ -1,18 +1,18 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
 import 'package:image_picker/image_picker.dart';
 
 import '../generated/l10n/app_localizations.dart';
 import '../platform/permission_service.dart';
 import '../widgets/app_scaffold.dart';
-import '../widgets/icon_button_48.dart';
 import '../widgets/loading_overlay.dart';
 import '../widgets/toast_notification.dart';
 import 'unsupported_device_screen.dart';
 
-/// CameraPreview + white overlay guide rectangle + capture button + flash
-/// toggle + gallery shortcut.
+/// Full-screen preview (cover-fit, not stretched), corner framing guide,
+/// shutter, flash toggle and gallery shortcut.
 class CameraScreen extends StatefulWidget {
   const CameraScreen({super.key});
 
@@ -152,83 +152,142 @@ class _CameraScreenState extends State<CameraScreen> {
     };
   }
 
+  /// Fills the screen without stretching: the preview is scaled to cover
+  /// and the overflow is clipped.
+  Widget _preview(BuildContext context, CameraController controller) {
+    final sensorRatio = controller.value.aspectRatio; // long side / short side
+    final landscape =
+        MediaQuery.orientationOf(context) == Orientation.landscape;
+    final ratio = landscape ? sensorRatio : 1 / sensorRatio; // width / height
+    return ClipRect(
+      child: FittedBox(
+        fit: BoxFit.cover,
+        child: SizedBox(
+          width: 1000,
+          height: 1000 / ratio,
+          child: CameraPreview(controller),
+        ),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
     final errorMessage = _errorMessage(l10n);
+    final ready = _controller != null && _controller!.value.isInitialized;
 
     return AppScaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.black,
-        foregroundColor: Colors.white,
-        title: Text(l10n.cameraTitle),
-      ),
       resizeToAvoidBottomInset: false,
       body: Container(
         color: Colors.black,
         child: Stack(
           fit: StackFit.expand,
           children: [
-            if (_controller != null && _controller!.value.isInitialized)
-              CameraPreview(_controller!)
+            if (ready)
+              _preview(context, _controller!)
             else if (errorMessage != null)
               Center(
                 child: Padding(
-                  padding: const EdgeInsets.all(24.0),
+                  padding: const EdgeInsets.all(32.0),
                   child: Text(
                     errorMessage,
-                    style: const TextStyle(color: Colors.white),
+                    style: Theme.of(context)
+                        .textTheme
+                        .bodyLarge
+                        ?.copyWith(color: Colors.white),
                     textAlign: TextAlign.center,
                   ),
                 ),
               ),
-            // White overlay guide rectangle — helps the user frame the
-            // subject for background removal.
-            if (_controller != null)
-              IgnorePointer(
+            // Corner guide: frames the subject for background removal.
+            if (ready)
+              const IgnorePointer(
                 child: Center(
                   child: FractionallySizedBox(
                     widthFactor: 0.8,
                     heightFactor: 0.6,
-                    child: DecoratedBox(
-                      decoration: BoxDecoration(
-                        border: Border.all(color: Colors.white, width: 2),
-                        borderRadius: BorderRadius.circular(8),
-                      ),
-                    ),
+                    child: CustomPaint(painter: _CornerGuidePainter()),
                   ),
                 ),
               ),
-            if (_controller != null)
-              Positioned(
-                bottom: 32,
-                left: 0,
-                right: 0,
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    IconButton48(
-                      icon: _flashOn ? Icons.flash_on : Icons.flash_off,
-                      tooltip: l10n.cameraFlashTooltip,
-                      onPressed: _toggleFlash,
-                    ),
-                    GestureDetector(
-                      onTap: () => _capture(context),
-                      child: Container(
-                        width: 72,
-                        height: 72,
-                        decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          border: Border.all(color: Colors.white, width: 4),
+            // Top bar: back + title over a soft scrim.
+            PositionedDirectional(
+              top: 0,
+              start: 0,
+              end: 0,
+              child: DecoratedBox(
+                decoration: const BoxDecoration(
+                  gradient: LinearGradient(
+                    begin: Alignment.topCenter,
+                    end: Alignment.bottomCenter,
+                    colors: [Color(0x99000000), Color(0x00000000)],
+                  ),
+                ),
+                child: Padding(
+                  padding: const EdgeInsetsDirectional.fromSTEB(8, 8, 16, 16),
+                  child: Row(
+                    children: [
+                      _RoundButton(
+                        icon: Icons.arrow_back_ios_new_rounded,
+                        mirror: true,
+                        tooltip: MaterialLocalizations.of(context)
+                            .backButtonTooltip,
+                        onPressed: () => context.pop(),
+                      ),
+                      const SizedBox(width: 12),
+                      Expanded(
+                        child: Text(
+                          l10n.cameraTitle,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                          style: Theme.of(context)
+                              .textTheme
+                              .titleLarge
+                              ?.copyWith(color: Colors.white),
                         ),
                       ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            if (ready)
+              Positioned(
+                left: 0,
+                right: 0,
+                bottom: 0,
+                child: DecoratedBox(
+                  decoration: const BoxDecoration(
+                    gradient: LinearGradient(
+                      begin: Alignment.topCenter,
+                      end: Alignment.bottomCenter,
+                      colors: [Color(0x00000000), Color(0xB3000000)],
                     ),
-                    IconButton48(
-                      icon: Icons.photo_library_outlined,
-                      tooltip: l10n.cameraGalleryTooltip,
-                      onPressed: () => _pickFromGallery(context),
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.fromLTRB(24, 40, 24, 28),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        _RoundButton(
+                          icon: _flashOn ? Icons.flash_on_rounded : Icons.flash_off_rounded,
+                          tooltip: l10n.cameraFlashTooltip,
+                          highlighted: _flashOn,
+                          onPressed: _toggleFlash,
+                        ),
+                        _ShutterButton(
+                          semanticLabel: l10n.cameraTitle,
+                          onPressed: () => _capture(context),
+                        ),
+                        _RoundButton(
+                          icon: Icons.photo_library_outlined,
+                          tooltip: l10n.cameraGalleryTooltip,
+                          onPressed: () => _pickFromGallery(context),
+                        ),
+                      ],
                     ),
-                  ],
+                  ),
                 ),
               ),
             if (_errorType == _CameraErrorType.permissionPermanentlyDenied)
@@ -247,6 +306,151 @@ class _CameraScreenState extends State<CameraScreen> {
       ),
     );
   }
+}
+
+/// 56 dp translucent circular control used over the live preview.
+class _RoundButton extends StatelessWidget {
+  const _RoundButton({
+    required this.icon,
+    required this.onPressed,
+    required this.tooltip,
+    this.mirror = false,
+    this.highlighted = false,
+  });
+
+  final IconData icon;
+  final VoidCallback onPressed;
+  final String tooltip;
+  final bool mirror;
+  final bool highlighted;
+
+  @override
+  Widget build(BuildContext context) {
+    final flip = mirror && Directionality.of(context) == TextDirection.rtl;
+    return Tooltip(
+      message: tooltip,
+      child: SizedBox(
+        width: 52,
+        height: 52,
+        child: Material(
+          color: highlighted
+              ? Colors.white
+              : Colors.black.withValues(alpha: 0.35),
+          shape: const CircleBorder(),
+          child: InkWell(
+            customBorder: const CircleBorder(),
+            onTap: () {
+              HapticFeedback.selectionClick();
+              onPressed();
+            },
+            child: Transform.flip(
+              flipX: flip,
+              child: Icon(
+                icon,
+                size: 24,
+                color: highlighted ? Colors.black : Colors.white,
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// 80 dp shutter: white ring with an inner disc that shrinks while pressed.
+class _ShutterButton extends StatefulWidget {
+  const _ShutterButton({required this.onPressed, required this.semanticLabel});
+
+  final VoidCallback onPressed;
+  final String semanticLabel;
+
+  @override
+  State<_ShutterButton> createState() => _ShutterButtonState();
+}
+
+class _ShutterButtonState extends State<_ShutterButton> {
+  bool _down = false;
+
+  @override
+  Widget build(BuildContext context) {
+    return Semantics(
+      button: true,
+      label: widget.semanticLabel,
+      child: GestureDetector(
+        behavior: HitTestBehavior.opaque,
+        onTapDown: (_) => setState(() => _down = true),
+        onTapCancel: () => setState(() => _down = false),
+        onTapUp: (_) => setState(() => _down = false),
+        onTap: () {
+          HapticFeedback.mediumImpact();
+          widget.onPressed();
+        },
+        child: Container(
+          width: 80,
+          height: 80,
+          padding: const EdgeInsets.all(6),
+          decoration: BoxDecoration(
+            shape: BoxShape.circle,
+            border: Border.all(color: Colors.white, width: 4),
+          ),
+          child: AnimatedScale(
+            scale: _down ? 0.86 : 1,
+            duration: const Duration(milliseconds: 90),
+            child: const DecoratedBox(
+              decoration: BoxDecoration(
+                color: Colors.white,
+                shape: BoxShape.circle,
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// Four white corner brackets marking the framing area.
+class _CornerGuidePainter extends CustomPainter {
+  const _CornerGuidePainter();
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    final paint = Paint()
+      ..color = Colors.white
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = 3
+      ..strokeCap = StrokeCap.round;
+    const len = 30.0;
+    const r = 14.0;
+    final w = size.width;
+    final h = size.height;
+    final path = Path()
+      // top-left
+      ..moveTo(0, len)
+      ..lineTo(0, r)
+      ..quadraticBezierTo(0, 0, r, 0)
+      ..lineTo(len, 0)
+      // top-right
+      ..moveTo(w - len, 0)
+      ..lineTo(w - r, 0)
+      ..quadraticBezierTo(w, 0, w, r)
+      ..lineTo(w, len)
+      // bottom-right
+      ..moveTo(w, h - len)
+      ..lineTo(w, h - r)
+      ..quadraticBezierTo(w, h, w - r, h)
+      ..lineTo(w - len, h)
+      // bottom-left
+      ..moveTo(len, h)
+      ..lineTo(r, h)
+      ..quadraticBezierTo(0, h, 0, h - r)
+      ..lineTo(0, h - len);
+    canvas.drawPath(path, paint);
+  }
+
+  @override
+  bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
 }
 
 enum _CameraErrorType {

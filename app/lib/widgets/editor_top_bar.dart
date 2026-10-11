@@ -37,43 +37,60 @@ class EditorTopBar extends StatelessWidget {
             tooltip: MaterialLocalizations.of(context).backButtonTooltip,
             onPressed: onBack,
           ),
-          const Spacer(),
-          if (showEditActions)
-            ValueListenableBuilder<EditableImageState>(
-              valueListenable: provider,
-              builder: (context, state, _) {
-                return Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    IconButton48(
-                      icon: Icons.undo_rounded,
-                      mirror: true,
-                      tooltip: l10n.toolbarUndo,
-                      onPressed: provider.canUndo ? provider.undo : null,
-                    ),
-                    IconButton48(
-                      icon: Icons.redo_rounded,
-                      mirror: true,
-                      tooltip: l10n.toolbarRedo,
-                      onPressed: provider.canRedo ? provider.redo : null,
-                    ),
-                    const BeforeAfterToggle(),
-                  ],
-                );
-              },
+          // The edit actions shrink to fit when the screen is narrow or the
+          // Export label is long, instead of overflowing.
+          Expanded(
+            child: Align(
+              alignment: AlignmentDirectional.centerEnd,
+              child: showEditActions
+                  ? FittedBox(
+                      fit: BoxFit.scaleDown,
+                      child: ValueListenableBuilder<EditableImageState>(
+                        valueListenable: provider,
+                        builder: (context, state, _) {
+                          return Row(
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              IconButton48(
+                                icon: Icons.undo_rounded,
+                                mirror: true,
+                                tooltip: l10n.toolbarUndo,
+                                onPressed: provider.canUndo ? provider.undo : null,
+                              ),
+                              IconButton48(
+                                icon: Icons.redo_rounded,
+                                mirror: true,
+                                tooltip: l10n.toolbarRedo,
+                                onPressed: provider.canRedo ? provider.redo : null,
+                              ),
+                              const BeforeAfterToggle(),
+                            ],
+                          );
+                        },
+                      ),
+                    )
+                  : const SizedBox.shrink(),
             ),
+          ),
           const SizedBox(width: 8),
-          FilledButton(
-            style: FilledButton.styleFrom(
-              minimumSize: const Size(0, 40),
-              padding: const EdgeInsets.symmetric(horizontal: 20),
-              shape: const StadiumBorder(),
+          ConstrainedBox(
+            constraints: const BoxConstraints(maxWidth: 132),
+            child: FilledButton(
+              style: FilledButton.styleFrom(
+                minimumSize: const Size(0, 40),
+                padding: const EdgeInsets.symmetric(horizontal: 18),
+                shape: const StadiumBorder(),
+              ),
+              onPressed: () {
+                HapticFeedback.lightImpact();
+                onExport();
+              },
+              child: Text(
+                l10n.toolbarExport,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+              ),
             ),
-            onPressed: () {
-              HapticFeedback.lightImpact();
-              onExport();
-            },
-            child: Text(l10n.toolbarExport),
           ),
         ],
       ),

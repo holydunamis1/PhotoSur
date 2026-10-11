@@ -8,6 +8,7 @@ import 'package:image/image.dart' as img;
 import 'package:path/path.dart' as p;
 
 import '../core/services/storage_service.dart';
+import '../core/theme/app_tokens.dart';
 import '../generated/l10n/app_localizations.dart';
 import '../widgets/ad_banner_slot.dart';
 import '../widgets/app_scaffold.dart';
@@ -156,35 +157,48 @@ class _CropRotateScreenState extends State<CropRotateScreen> {
               ],
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.all(16.0),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.fromLTRB(16, 14, 16, 16),
+            decoration: BoxDecoration(
+              color: context.palette.surface,
+              borderRadius: const BorderRadius.vertical(
+                top: Radius.circular(AppRadius.xl),
+              ),
+              border: Border(
+                top: BorderSide(color: context.palette.separator, width: 0.5),
+              ),
+            ),
             child: Column(
               children: [
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    IconButton(
-                      icon: const Icon(Icons.rotate_left),
+                    IconButton.filledTonal(
+                      icon: const Icon(Icons.rotate_left_rounded),
                       onPressed: () => _rotate(false),
                     ),
                     const SizedBox(width: 16),
-                    IconButton(
-                      icon: const Icon(Icons.rotate_right),
+                    IconButton.filledTonal(
+                      icon: const Icon(Icons.rotate_right_rounded),
                       onPressed: () => _rotate(true),
                     ),
                   ],
                 ),
-                const SizedBox(height: 8),
-                SegmentedButton<_AspectOption>(
-                  showSelectedIcon: false,
-                  segments: [
-                    ButtonSegment(value: _AspectOption.free, label: Text(l10n.cropAspectFree)),
-                    ButtonSegment(value: _AspectOption.square1x1, label: Text(l10n.cropAspect1x1)),
-                    ButtonSegment(value: _AspectOption.portrait4x5, label: Text(l10n.cropAspect4x5)),
-                    ButtonSegment(value: _AspectOption.portrait9x16, label: Text(l10n.cropAspect9x16)),
-                  ],
-                  selected: {_aspect},
-                  onSelectionChanged: (s) => setState(() => _aspect = s.first),
+                const SizedBox(height: 12),
+                SizedBox(
+                  width: double.infinity,
+                  child: SegmentedButton<_AspectOption>(
+                    showSelectedIcon: false,
+                    segments: [
+                      ButtonSegment(value: _AspectOption.free, label: Text(l10n.cropAspectFree)),
+                      ButtonSegment(value: _AspectOption.square1x1, label: Text(l10n.cropAspect1x1)),
+                      ButtonSegment(value: _AspectOption.portrait4x5, label: Text(l10n.cropAspect4x5)),
+                      ButtonSegment(value: _AspectOption.portrait9x16, label: Text(l10n.cropAspect9x16)),
+                    ],
+                    selected: {_aspect},
+                    onSelectionChanged: (s) => setState(() => _aspect = s.first),
+                  ),
                 ),
                 const SizedBox(height: 16),
                 PrimaryButton(
