@@ -120,6 +120,7 @@ class _EditorScreenState extends State<EditorScreen>
         prepared.modelInput,
         prepared.width,
         prepared.height,
+        guideGray: prepared.guideGray,
       );
     } catch (_) {
       if (!mounted) return;

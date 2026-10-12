@@ -25,7 +25,7 @@ class LabeledSlider extends StatelessWidget {
     return Row(
       children: [
         SizedBox(
-          width: 104,
+          width: 124,
           child: Text(
             label,
             maxLines: 1,
