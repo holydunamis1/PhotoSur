@@ -431,14 +431,10 @@ class _Swatch extends StatelessWidget {
     required this.selected,
     required this.onTap,
     this.gradient,
-    this.icon,
   });
 
   /// Two colours, top to bottom (gradient swatch).
   final List<Color>? gradient;
-
-  /// Glyph shown instead of a fill (the "Photo" swatch).
-  final IconData? icon;
 
   final String? label;
   final Color? color; // null = transparent (checkerboard)
@@ -481,11 +477,9 @@ class _Swatch extends StatelessWidget {
                     shape: BoxShape.circle,
                     border: Border.all(color: p.separator, width: 0.5),
                   ),
-                  child: icon != null
-                      ? Icon(icon, size: 22, color: p.text2)
-                      : (color == null && gradient == null
-                          ? const CustomPaint(painter: _CheckerPainter())
-                          : null),
+                  child: color == null && gradient == null
+                      ? const CustomPaint(painter: _CheckerPainter())
+                      : null,
                 ),
               ),
             ),
