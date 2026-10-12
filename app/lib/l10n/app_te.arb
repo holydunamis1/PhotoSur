@@ -152,5 +152,16 @@
   "unsupportedNoCameraMessage": "ఈ పరికరంలో కెమెరా అందుబాటులో లేదు.",
   "unsupportedLowMemoryMessage": "KatharErase ఎడిటర్‌ను నమ్మకంగా నడపడానికి ఈ పరికరంలో తగినంత మెమరీ లేదు.",
   "unsupportedManualImportHint": "గ్యాలరీ నుండి ఫోటోను దిగుమతి చేసి మాన్యువల్ బ్రష్ టూల్‌ను ఇప్పటికీ ఉపయోగించవచ్చు.",
-  "unsupportedUseGalleryButton": "గ్యాలరీ నుండి దిగుమతి"
+  "unsupportedUseGalleryButton": "గ్యాలరీ నుండి దిగుమతి",
+  "homeBatchButton": "బ్యాచ్",
+  "batchTitle": "బ్యాచ్ కట్-అవుట్",
+  "batchOutputTransparent": "పారదర్శక PNG",
+  "batchOutputWhite": "తెల్లని నేపథ్యం (JPG)",
+  "batchStart": "ప్రారంభించు",
+  "batchStop": "ఆపు",
+  "batchDone": "పూర్తయింది",
+  "batchProgress": "{total}లో {done} పూర్తయ్యాయి",
+  "batchSaved": "{count} ఫోటోలు మీ గ్యాలరీలో సేవ్ అయ్యాయి",
+  "batchSomeFailed": "{count} ఫోటోలను ప్రాసెస్ చేయలేకపోయాం",
+  "batchTooMany": "ఒకేసారి గరిష్ఠంగా {max} ఫోటోలు"
 }

@@ -152,5 +152,16 @@
   "unsupportedNoCameraMessage": "Aquest dispositiu no té cap càmera disponible.",
   "unsupportedLowMemoryMessage": "Aquest dispositiu no té prou memòria per executar l'editor de KatharErase de manera fiable.",
   "unsupportedManualImportHint": "Encara pots importar una foto de la galeria i fer servir l'eina de pinzell manual.",
-  "unsupportedUseGalleryButton": "Importa de la Galeria"
+  "unsupportedUseGalleryButton": "Importa de la Galeria",
+  "homeBatchButton": "Lot",
+  "batchTitle": "Retall per lots",
+  "batchOutputTransparent": "PNG transparent",
+  "batchOutputWhite": "Fons blanc (JPG)",
+  "batchStart": "Inicia",
+  "batchStop": "Atura",
+  "batchDone": "Fet",
+  "batchProgress": "{done} de {total} fetes",
+  "batchSaved": "{count} desades a la galeria",
+  "batchSomeFailed": "{count} no s’han pogut processar",
+  "batchTooMany": "Fins a {max} fotos alhora"
 }

@@ -133,5 +133,16 @@
   "layoutShadowLabel": "צל",
   "backgroundPhoto": "תמונה",
   "backgroundPhotoFailed": "לא ניתן לטעון את התמונה.",
-  "editorLayoutHint": "גררו כדי להזיז. צבטו עם שתי אצבעות כדי לשנות גודל."
+  "editorLayoutHint": "גררו כדי להזיז. צבטו עם שתי אצבעות כדי לשנות גודל.",
+  "homeBatchButton": "אצווה",
+  "batchTitle": "חיתוך אצווה",
+  "batchOutputTransparent": "PNG שקוף",
+  "batchOutputWhite": "רקע לבן (JPG)",
+  "batchStart": "התחל",
+  "batchStop": "עצור",
+  "batchDone": "סיום",
+  "batchProgress": "{done} מתוך {total} הושלמו",
+  "batchSaved": "{count} נשמרו בגלריה שלך",
+  "batchSomeFailed": "לא ניתן היה לעבד {count}",
+  "batchTooMany": "עד {max} תמונות בכל פעם"
 }

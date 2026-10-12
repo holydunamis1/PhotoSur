@@ -152,5 +152,16 @@
   "unsupportedNoCameraMessage": "Αυτή η συσκευή δεν διαθέτει διαθέσιμη κάμερα.",
   "unsupportedLowMemoryMessage": "Αυτή η συσκευή δεν έχει αρκετή μνήμη για να εκτελεί αξιόπιστα τον επεξεργαστή του KatharErase.",
   "unsupportedManualImportHint": "Μπορείτε ακόμη να εισαγάγετε μια φωτογραφία από τη συλλογή και να χρησιμοποιήσετε το χειροκίνητο πινέλο.",
-  "unsupportedUseGalleryButton": "Εισαγωγή από Συλλογή"
+  "unsupportedUseGalleryButton": "Εισαγωγή από Συλλογή",
+  "homeBatchButton": "Παρτίδα",
+  "batchTitle": "Αποκοπή παρτίδας",
+  "batchOutputTransparent": "Διαφανές PNG",
+  "batchOutputWhite": "Λευκό φόντο (JPG)",
+  "batchStart": "Έναρξη",
+  "batchStop": "Διακοπή",
+  "batchDone": "Έτοιμο",
+  "batchProgress": "{done} από {total} ολοκληρώθηκαν",
+  "batchSaved": "{count} αποθηκεύτηκαν στη συλλογή σας",
+  "batchSomeFailed": "{count} δεν μπόρεσαν να επεξεργαστούν",
+  "batchTooMany": "Έως {max} φωτογραφίες τη φορά"
 }

@@ -133,5 +133,16 @@
   "layoutShadowLabel": "Ombre",
   "backgroundPhoto": "Photo",
   "backgroundPhotoFailed": "Impossible de charger cette photo.",
-  "editorLayoutHint": "Faites glisser pour déplacer. Pincez avec deux doigts pour redimensionner."
+  "editorLayoutHint": "Faites glisser pour déplacer. Pincez avec deux doigts pour redimensionner.",
+  "homeBatchButton": "Lot",
+  "batchTitle": "Détourage par lot",
+  "batchOutputTransparent": "PNG transparent",
+  "batchOutputWhite": "Fond blanc (JPG)",
+  "batchStart": "Démarrer",
+  "batchStop": "Arrêter",
+  "batchDone": "Terminé",
+  "batchProgress": "{done} sur {total} terminées",
+  "batchSaved": "{count} enregistrées dans votre galerie",
+  "batchSomeFailed": "{count} n’ont pas pu être traitées",
+  "batchTooMany": "Jusqu’à {max} photos à la fois"
 }

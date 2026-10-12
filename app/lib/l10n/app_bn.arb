@@ -133,5 +133,16 @@
   "layoutShadowLabel": "ছায়া",
   "backgroundPhoto": "ছবি",
   "backgroundPhotoFailed": "ওই ছবি লোড করা যায়নি।",
-  "editorLayoutHint": "সরাতে টেনে নিন। আকার বদলাতে দুই আঙুলে চিমটি কাটুন।"
+  "editorLayoutHint": "সরাতে টেনে নিন। আকার বদলাতে দুই আঙুলে চিমটি কাটুন।",
+  "homeBatchButton": "ব্যাচ",
+  "batchTitle": "ব্যাচ কাট-আউট",
+  "batchOutputTransparent": "স্বচ্ছ PNG",
+  "batchOutputWhite": "সাদা ব্যাকগ্রাউন্ড (JPG)",
+  "batchStart": "শুরু করুন",
+  "batchStop": "থামান",
+  "batchDone": "হয়ে গেছে",
+  "batchProgress": "{total}টির মধ্যে {done}টি সম্পন্ন",
+  "batchSaved": "{count}টি আপনার গ্যালারিতে সংরক্ষিত হয়েছে",
+  "batchSomeFailed": "{count}টি প্রসেস করা যায়নি",
+  "batchTooMany": "একবারে সর্বোচ্চ {max}টি ছবি"
 }

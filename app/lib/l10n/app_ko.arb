@@ -133,5 +133,16 @@
   "layoutShadowLabel": "그림자",
   "backgroundPhoto": "사진",
   "backgroundPhotoFailed": "해당 사진을 불러올 수 없습니다.",
-  "editorLayoutHint": "드래그해서 이동하고, 두 손가락으로 모아 크기를 조절하세요."
+  "editorLayoutHint": "드래그해서 이동하고, 두 손가락으로 모아 크기를 조절하세요.",
+  "homeBatchButton": "일괄",
+  "batchTitle": "일괄 누끼",
+  "batchOutputTransparent": "투명 PNG",
+  "batchOutputWhite": "흰색 배경(JPG)",
+  "batchStart": "시작",
+  "batchStop": "중지",
+  "batchDone": "완료",
+  "batchProgress": "{total}장 중 {done}장 완료",
+  "batchSaved": "{count}장이 갤러리에 저장되었습니다",
+  "batchSomeFailed": "{count}장을 처리하지 못했습니다",
+  "batchTooMany": "한 번에 최대 {max}장"
 }

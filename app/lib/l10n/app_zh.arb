@@ -133,5 +133,16 @@
   "layoutShadowLabel": "阴影",
   "backgroundPhoto": "照片",
   "backgroundPhotoFailed": "无法加载该照片。",
-  "editorLayoutHint": "拖动可移动，双指捏合可缩放。"
+  "editorLayoutHint": "拖动可移动，双指捏合可缩放。",
+  "homeBatchButton": "批量",
+  "batchTitle": "批量抠图",
+  "batchOutputTransparent": "透明 PNG",
+  "batchOutputWhite": "白色背景（JPG）",
+  "batchStart": "开始",
+  "batchStop": "停止",
+  "batchDone": "完成",
+  "batchProgress": "已完成 {done}/{total}",
+  "batchSaved": "已将 {count} 张保存到相册",
+  "batchSomeFailed": "有 {count} 张无法处理",
+  "batchTooMany": "一次最多 {max} 张照片"
 }

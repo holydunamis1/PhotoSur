@@ -133,5 +133,16 @@
   "layoutShadowLabel": "Bayangan",
   "backgroundPhoto": "Foto",
   "backgroundPhotoFailed": "Tidak dapat memuat foto itu.",
-  "editorLayoutHint": "Seret untuk memindahkan. Cubit dengan dua jari untuk mengubah ukuran."
+  "editorLayoutHint": "Seret untuk memindahkan. Cubit dengan dua jari untuk mengubah ukuran.",
+  "homeBatchButton": "Massal",
+  "batchTitle": "Potong massal",
+  "batchOutputTransparent": "PNG transparan",
+  "batchOutputWhite": "Latar putih (JPG)",
+  "batchStart": "Mulai",
+  "batchStop": "Berhenti",
+  "batchDone": "Selesai",
+  "batchProgress": "{done} dari {total} selesai",
+  "batchSaved": "{count} disimpan ke galeri Anda",
+  "batchSomeFailed": "{count} tidak dapat diproses",
+  "batchTooMany": "Maksimal {max} foto sekaligus"
 }

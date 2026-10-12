@@ -133,5 +133,16 @@
   "layoutShadowLabel": "Bayang",
   "backgroundPhoto": "Foto",
   "backgroundPhotoFailed": "Tidak dapat memuatkan foto itu.",
-  "editorLayoutHint": "Seret untuk alih. Cubit dengan dua jari untuk ubah saiz."
+  "editorLayoutHint": "Seret untuk alih. Cubit dengan dua jari untuk ubah saiz.",
+  "homeBatchButton": "Kelompok",
+  "batchTitle": "Potongan kelompok",
+  "batchOutputTransparent": "PNG lutsinar",
+  "batchOutputWhite": "Latar putih (JPG)",
+  "batchStart": "Mula",
+  "batchStop": "Henti",
+  "batchDone": "Selesai",
+  "batchProgress": "{done} daripada {total} selesai",
+  "batchSaved": "{count} disimpan ke galeri anda",
+  "batchSomeFailed": "{count} tidak dapat diproses",
+  "batchTooMany": "Sehingga {max} foto sekali gus"
 }

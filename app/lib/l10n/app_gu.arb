@@ -152,5 +152,16 @@
   "unsupportedNoCameraMessage": "આ ડિવાઇસ પર કેમેરા ઉપલબ્ધ નથી.",
   "unsupportedLowMemoryMessage": "KatharErase નું એડિટર વિશ્વસનીય રીતે ચલાવવા માટે આ ડિવાઇસ પર પૂરતી મેમરી નથી.",
   "unsupportedManualImportHint": "તમે હજી પણ ગેલેરીમાંથી ફોટો ઇમ્પોર્ટ કરીને મેન્યુઅલ બ્રશ ટૂલ વાપરી શકો છો.",
-  "unsupportedUseGalleryButton": "ગેલેરીમાંથી ઇમ્પોર્ટ"
+  "unsupportedUseGalleryButton": "ગેલેરીમાંથી ઇમ્પોર્ટ",
+  "homeBatchButton": "બૅચ",
+  "batchTitle": "બૅચ કટ-આઉટ",
+  "batchOutputTransparent": "પારદર્શક PNG",
+  "batchOutputWhite": "સફેદ બૅકગ્રાઉન્ડ (JPG)",
+  "batchStart": "શરૂ કરો",
+  "batchStop": "રોકો",
+  "batchDone": "પૂર્ણ",
+  "batchProgress": "{total} માંથી {done} પૂર્ણ",
+  "batchSaved": "{count} ફોટા તમારી ગૅલેરીમાં સાચવ્યા",
+  "batchSomeFailed": "{count} ફોટા પ્રોસેસ થઈ શક્યા નથી",
+  "batchTooMany": "એક સમયે વધુમાં વધુ {max} ફોટા"
 }

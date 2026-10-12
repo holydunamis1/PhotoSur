@@ -133,5 +133,16 @@
   "layoutShadowLabel": "Schatten",
   "backgroundPhoto": "Foto",
   "backgroundPhotoFailed": "Das Foto konnte nicht geladen werden.",
-  "editorLayoutHint": "Ziehen zum Verschieben. Mit zwei Fingern zum Skalieren zusammenziehen."
+  "editorLayoutHint": "Ziehen zum Verschieben. Mit zwei Fingern zum Skalieren zusammenziehen.",
+  "homeBatchButton": "Stapel",
+  "batchTitle": "Stapel-Freistellung",
+  "batchOutputTransparent": "Transparentes PNG",
+  "batchOutputWhite": "Weißer Hintergrund (JPG)",
+  "batchStart": "Starten",
+  "batchStop": "Stopp",
+  "batchDone": "Fertig",
+  "batchProgress": "{done} von {total} fertig",
+  "batchSaved": "{count} in deiner Galerie gespeichert",
+  "batchSomeFailed": "{count} konnten nicht verarbeitet werden",
+  "batchTooMany": "Bis zu {max} Fotos auf einmal"
 }

@@ -152,5 +152,16 @@
   "unsupportedNoCameraMessage": "Ezen az eszközön nem érhető el kamera.",
   "unsupportedLowMemoryMessage": "Ennek az eszköznek nincs elég memóriája a KatharErase szerkesztő megbízható futtatásához.",
   "unsupportedManualImportHint": "Továbbra is importálhatsz fotót a galériából, és használhatod a kézi ecsetet.",
-  "unsupportedUseGalleryButton": "Importálás a Galériából"
+  "unsupportedUseGalleryButton": "Importálás a Galériából",
+  "homeBatchButton": "Köteg",
+  "batchTitle": "Kötegelt kivágás",
+  "batchOutputTransparent": "Átlátszó PNG",
+  "batchOutputWhite": "Fehér háttér (JPG)",
+  "batchStart": "Indítás",
+  "batchStop": "Leállítás",
+  "batchDone": "Kész",
+  "batchProgress": "{done} / {total} kész",
+  "batchSaved": "{count} mentve a galériádba",
+  "batchSomeFailed": "{count} nem dolgozható fel",
+  "batchTooMany": "Egyszerre legfeljebb {max} fotó"
 }

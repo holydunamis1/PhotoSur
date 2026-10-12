@@ -152,5 +152,16 @@
   "unsupportedNoCameraMessage": "Kifaa hiki hakina kamera inayopatikana.",
   "unsupportedLowMemoryMessage": "Kifaa hiki hakina kumbukumbu ya kutosha kuendesha kihariri cha KatharErase kwa uhakika.",
   "unsupportedManualImportHint": "Bado unaweza kuleta picha kutoka ghala na kutumia zana ya brashi ya mkono.",
-  "unsupportedUseGalleryButton": "Leta kutoka Ghala"
+  "unsupportedUseGalleryButton": "Leta kutoka Ghala",
+  "homeBatchButton": "Kundi",
+  "batchTitle": "Kukata kwa kundi",
+  "batchOutputTransparent": "PNG yenye uwazi",
+  "batchOutputWhite": "Mandharinyuma meupe (JPG)",
+  "batchStart": "Anza",
+  "batchStop": "Simama",
+  "batchDone": "Imekamilika",
+  "batchProgress": "{done} kati ya {total} zimekamilika",
+  "batchSaved": "{count} zimehifadhiwa kwenye ghala yako",
+  "batchSomeFailed": "{count} hazikuweza kuchakatwa",
+  "batchTooMany": "Hadi picha {max} kwa wakati mmoja"
 }

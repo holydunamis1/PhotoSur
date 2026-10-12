@@ -152,5 +152,20 @@
   "unsupportedNoCameraMessage": "This device doesn't have a camera available.",
   "unsupportedLowMemoryMessage": "This device doesn't have enough memory to run KatharErase's editor reliably.",
   "unsupportedManualImportHint": "You can still import a photo from your gallery and use the manual brush tool.",
-  "unsupportedUseGalleryButton": "Import from Gallery"
+  "unsupportedUseGalleryButton": "Import from Gallery",
+  "homeBatchButton": "Batch",
+  "batchTitle": "Batch cut-out",
+  "batchOutputTransparent": "Transparent PNG",
+  "batchOutputWhite": "White background (JPG)",
+  "batchStart": "Start",
+  "batchStop": "Stop",
+  "batchDone": "Done",
+  "batchProgress": "{done} of {total} done",
+  "@batchProgress": {"placeholders": {"done": {"type": "int"}, "total": {"type": "int"}}},
+  "batchSaved": "{count} saved to your gallery",
+  "@batchSaved": {"placeholders": {"count": {"type": "int"}}},
+  "batchSomeFailed": "{count} could not be processed",
+  "@batchSomeFailed": {"placeholders": {"count": {"type": "int"}}},
+  "batchTooMany": "Up to {max} photos at a time",
+  "@batchTooMany": {"placeholders": {"max": {"type": "int"}}}
 }

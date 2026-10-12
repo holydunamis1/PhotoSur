@@ -133,5 +133,16 @@
   "layoutShadowLabel": "陰影",
   "backgroundPhoto": "相片",
   "backgroundPhotoFailed": "無法載入該相片。",
-  "editorLayoutHint": "拖曳可移動，雙指捏合可縮放。"
+  "editorLayoutHint": "拖曳可移動，雙指捏合可縮放。",
+  "homeBatchButton": "批次",
+  "batchTitle": "批次去背",
+  "batchOutputTransparent": "透明 PNG",
+  "batchOutputWhite": "白色背景（JPG）",
+  "batchStart": "開始",
+  "batchStop": "停止",
+  "batchDone": "完成",
+  "batchProgress": "已完成 {done}/{total}",
+  "batchSaved": "已將 {count} 張儲存至相簿",
+  "batchSomeFailed": "有 {count} 張無法處理",
+  "batchTooMany": "一次最多 {max} 張照片"
 }

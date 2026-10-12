@@ -152,5 +152,16 @@
   "unsupportedNoCameraMessage": "Denne enheten har ikke et tilgjengelig kamera.",
   "unsupportedLowMemoryMessage": "Denne enheten har ikke nok minne til å kjøre KatharErases editor pålitelig.",
   "unsupportedManualImportHint": "Du kan fortsatt importere et bilde fra galleriet og bruke det manuelle penselverktøyet.",
-  "unsupportedUseGalleryButton": "Importer fra Galleri"
+  "unsupportedUseGalleryButton": "Importer fra Galleri",
+  "homeBatchButton": "Parti",
+  "batchTitle": "Utklipp i parti",
+  "batchOutputTransparent": "Gjennomsiktig PNG",
+  "batchOutputWhite": "Hvit bakgrunn (JPG)",
+  "batchStart": "Start",
+  "batchStop": "Stopp",
+  "batchDone": "Ferdig",
+  "batchProgress": "{done} av {total} ferdige",
+  "batchSaved": "{count} lagret i galleriet ditt",
+  "batchSomeFailed": "{count} kunne ikke behandles",
+  "batchTooMany": "Opptil {max} bilder om gangen"
 }

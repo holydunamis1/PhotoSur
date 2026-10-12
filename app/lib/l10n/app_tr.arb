@@ -133,5 +133,16 @@
   "layoutShadowLabel": "Gölge",
   "backgroundPhoto": "Fotoğraf",
   "backgroundPhotoFailed": "Bu fotoğraf yüklenemedi.",
-  "editorLayoutHint": "Taşımak için sürükleyin. Boyutlandırmak için iki parmakla sıkıştırın."
+  "editorLayoutHint": "Taşımak için sürükleyin. Boyutlandırmak için iki parmakla sıkıştırın.",
+  "homeBatchButton": "Toplu",
+  "batchTitle": "Toplu kesim",
+  "batchOutputTransparent": "Şeffaf PNG",
+  "batchOutputWhite": "Beyaz arka plan (JPG)",
+  "batchStart": "Başlat",
+  "batchStop": "Durdur",
+  "batchDone": "Bitti",
+  "batchProgress": "{total} fotoğrafın {done} tanesi tamam",
+  "batchSaved": "{count} fotoğraf galerine kaydedildi",
+  "batchSomeFailed": "{count} fotoğraf işlenemedi",
+  "batchTooMany": "Tek seferde en fazla {max} fotoğraf"
 }

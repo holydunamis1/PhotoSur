@@ -133,5 +133,16 @@
   "layoutShadowLabel": "Anino",
   "backgroundPhoto": "Larawan",
   "backgroundPhotoFailed": "Hindi ma-load ang larawang iyon.",
-  "editorLayoutHint": "I-drag para ilipat. Mag-pinch gamit ang dalawang daliri para i-resize."
+  "editorLayoutHint": "I-drag para ilipat. Mag-pinch gamit ang dalawang daliri para i-resize.",
+  "homeBatchButton": "Batch",
+  "batchTitle": "Batch na cut-out",
+  "batchOutputTransparent": "Transparent na PNG",
+  "batchOutputWhite": "Puting background (JPG)",
+  "batchStart": "Simulan",
+  "batchStop": "Ihinto",
+  "batchDone": "Tapos na",
+  "batchProgress": "{done} sa {total} ang tapos na",
+  "batchSaved": "{count} ang na-save sa iyong gallery",
+  "batchSomeFailed": "{count} ang hindi naproseso",
+  "batchTooMany": "Hanggang {max} larawan nang sabay-sabay"
 }

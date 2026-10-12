@@ -152,5 +152,16 @@
   "unsupportedNoCameraMessage": "ഈ ഉപകരണത്തിൽ ക്യാമറ ലഭ്യമല്ല.",
   "unsupportedLowMemoryMessage": "KatharErase എഡിറ്റർ വിശ്വസനീയമായി പ്രവർത്തിപ്പിക്കാൻ ഈ ഉപകരണത്തിൽ മതിയായ മെമ്മറി ഇല്ല.",
   "unsupportedManualImportHint": "ഗാലറിയിൽ നിന്ന് ഫോട്ടോ ഇമ്പോർട്ട് ചെയ്ത് മാനുവൽ ബ്രഷ് ടൂൾ ഉപയോഗിക്കാം.",
-  "unsupportedUseGalleryButton": "ഗാലറിയിൽ നിന്ന് ഇമ്പോർട്ട്"
+  "unsupportedUseGalleryButton": "ഗാലറിയിൽ നിന്ന് ഇമ്പോർട്ട്",
+  "homeBatchButton": "ബാച്ച്",
+  "batchTitle": "ബാച്ച് കട്ട്-ഔട്ട്",
+  "batchOutputTransparent": "സുതാര്യമായ PNG",
+  "batchOutputWhite": "വെള്ള പശ്ചാത്തലം (JPG)",
+  "batchStart": "ആരംഭിക്കുക",
+  "batchStop": "നിർത്തുക",
+  "batchDone": "പൂർത്തിയായി",
+  "batchProgress": "{total}-ൽ {done} പൂർത്തിയായി",
+  "batchSaved": "{count} എണ്ണം ഗാലറിയിൽ സേവ് ചെയ്തു",
+  "batchSomeFailed": "{count} എണ്ണം പ്രോസസ് ചെയ്യാനായില്ല",
+  "batchTooMany": "ഒരേസമയം പരമാവധി {max} ഫോട്ടോകൾ"
 }
