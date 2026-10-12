@@ -144,5 +144,12 @@
   "batchProgress": "{total}টির মধ্যে {done}টি সম্পন্ন",
   "batchSaved": "{count}টি আপনার গ্যালারিতে সংরক্ষিত হয়েছে",
   "batchSomeFailed": "{count}টি প্রসেস করা যায়নি",
-  "batchTooMany": "একবারে সর্বোচ্চ {max}টি ছবি"
+  "batchTooMany": "একবারে সর্বোচ্চ {max}টি ছবি",
+  "backgroundAddCustom": "কাস্টম ব্যাকগ্রাউন্ড যোগ করুন",
+  "backgroundCustomColor": "কাস্টম রঙ",
+  "colorHue": "বর্ণ",
+  "colorSaturation": "সম্পৃক্ততা",
+  "colorBrightness": "উজ্জ্বলতা",
+  "colorHexLabel": "হেক্স কোড",
+  "colorPickerDone": "হয়ে গেছে"
 }

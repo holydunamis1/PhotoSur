@@ -163,5 +163,12 @@
   "batchProgress": "{done} / {total} valmis",
   "batchSaved": "{count} tallennettu galleriaan",
   "batchSomeFailed": "{count} ei voitu käsitellä",
-  "batchTooMany": "Enintään {max} kuvaa kerrallaan"
+  "batchTooMany": "Enintään {max} kuvaa kerrallaan",
+  "backgroundAddCustom": "Lisää oma tausta",
+  "backgroundCustomColor": "Oma väri",
+  "colorHue": "Sävy",
+  "colorSaturation": "Kylläisyys",
+  "colorBrightness": "Kirkkaus",
+  "colorHexLabel": "Heksakoodi",
+  "colorPickerDone": "Valmis"
 }

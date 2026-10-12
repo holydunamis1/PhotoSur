@@ -144,5 +144,12 @@
   "batchProgress": "{done} sa {total} ang tapos na",
   "batchSaved": "{count} ang na-save sa iyong gallery",
   "batchSomeFailed": "{count} ang hindi naproseso",
-  "batchTooMany": "Hanggang {max} larawan nang sabay-sabay"
+  "batchTooMany": "Hanggang {max} larawan nang sabay-sabay",
+  "backgroundAddCustom": "Magdagdag ng custom na background",
+  "backgroundCustomColor": "Custom na kulay",
+  "colorHue": "Hue",
+  "colorSaturation": "Saturation",
+  "colorBrightness": "Liwanag",
+  "colorHexLabel": "Hex code",
+  "colorPickerDone": "Tapos na"
 }

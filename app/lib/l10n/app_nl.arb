@@ -144,5 +144,12 @@
   "batchProgress": "{done} van {total} klaar",
   "batchSaved": "{count} opgeslagen in je galerij",
   "batchSomeFailed": "{count} konden niet worden verwerkt",
-  "batchTooMany": "Maximaal {max} foto’s tegelijk"
+  "batchTooMany": "Maximaal {max} foto’s tegelijk",
+  "backgroundAddCustom": "Eigen achtergrond toevoegen",
+  "backgroundCustomColor": "Eigen kleur",
+  "colorHue": "Tint",
+  "colorSaturation": "Verzadiging",
+  "colorBrightness": "Helderheid",
+  "colorHexLabel": "Hexcode",
+  "colorPickerDone": "Klaar"
 }

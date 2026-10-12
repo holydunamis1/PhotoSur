@@ -144,5 +144,12 @@
   "batchProgress": "{total}장 중 {done}장 완료",
   "batchSaved": "{count}장이 갤러리에 저장되었습니다",
   "batchSomeFailed": "{count}장을 처리하지 못했습니다",
-  "batchTooMany": "한 번에 최대 {max}장"
+  "batchTooMany": "한 번에 최대 {max}장",
+  "backgroundAddCustom": "사용자 지정 배경 추가",
+  "backgroundCustomColor": "사용자 지정 색상",
+  "colorHue": "색조",
+  "colorSaturation": "채도",
+  "colorBrightness": "밝기",
+  "colorHexLabel": "16진수 코드",
+  "colorPickerDone": "완료"
 }

@@ -144,5 +144,12 @@
   "batchProgress": "Готово: {done} из {total}",
   "batchSaved": "Сохранено в галерею: {count}",
   "batchSomeFailed": "Не удалось обработать: {count}",
-  "batchTooMany": "Не более {max} фото за раз"
+  "batchTooMany": "Не более {max} фото за раз",
+  "backgroundAddCustom": "Добавить свой фон",
+  "backgroundCustomColor": "Свой цвет",
+  "colorHue": "Оттенок",
+  "colorSaturation": "Насыщенность",
+  "colorBrightness": "Яркость",
+  "colorHexLabel": "HEX-код",
+  "colorPickerDone": "Готово"
 }

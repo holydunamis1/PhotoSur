@@ -163,5 +163,12 @@
   "batchProgress": "{done} av {total} ferdige",
   "batchSaved": "{count} lagret i galleriet ditt",
   "batchSomeFailed": "{count} kunne ikke behandles",
-  "batchTooMany": "Opptil {max} bilder om gangen"
+  "batchTooMany": "Opptil {max} bilder om gangen",
+  "backgroundAddCustom": "Legg til egen bakgrunn",
+  "backgroundCustomColor": "Egen farge",
+  "colorHue": "Fargetone",
+  "colorSaturation": "Metning",
+  "colorBrightness": "Lysstyrke",
+  "colorHexLabel": "Heksakode",
+  "colorPickerDone": "Ferdig"
 }

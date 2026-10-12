@@ -144,5 +144,12 @@
   "batchProgress": "Gotowe: {done} z {total}",
   "batchSaved": "Zapisano w galerii: {count}",
   "batchSomeFailed": "Nie udało się przetworzyć: {count}",
-  "batchTooMany": "Do {max} zdjęć naraz"
+  "batchTooMany": "Do {max} zdjęć naraz",
+  "backgroundAddCustom": "Dodaj własne tło",
+  "backgroundCustomColor": "Własny kolor",
+  "colorHue": "Odcień",
+  "colorSaturation": "Nasycenie",
+  "colorBrightness": "Jasność",
+  "colorHexLabel": "Kod HEX",
+  "colorPickerDone": "Gotowe"
 }

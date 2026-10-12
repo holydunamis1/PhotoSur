@@ -163,5 +163,12 @@
   "batchProgress": "{total} पैकी {done} पूर्ण",
   "batchSaved": "{count} फोटो तुमच्या गॅलरीत सेव्ह झाले",
   "batchSomeFailed": "{count} फोटो प्रक्रिया करता आले नाहीत",
-  "batchTooMany": "एका वेळी जास्तीत जास्त {max} फोटो"
+  "batchTooMany": "एका वेळी जास्तीत जास्त {max} फोटो",
+  "backgroundAddCustom": "सानुकूल पार्श्वभूमी जोडा",
+  "backgroundCustomColor": "सानुकूल रंग",
+  "colorHue": "छटा",
+  "colorSaturation": "संपृक्तता",
+  "colorBrightness": "तेजस्विता",
+  "colorHexLabel": "हेक्स कोड",
+  "colorPickerDone": "झाले"
 }

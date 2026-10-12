@@ -163,5 +163,12 @@
   "batchProgress": "{total} માંથી {done} પૂર્ણ",
   "batchSaved": "{count} ફોટા તમારી ગૅલેરીમાં સાચવ્યા",
   "batchSomeFailed": "{count} ફોટા પ્રોસેસ થઈ શક્યા નથી",
-  "batchTooMany": "એક સમયે વધુમાં વધુ {max} ફોટા"
+  "batchTooMany": "એક સમયે વધુમાં વધુ {max} ફોટા",
+  "backgroundAddCustom": "કસ્ટમ બૅકગ્રાઉન્ડ ઉમેરો",
+  "backgroundCustomColor": "કસ્ટમ રંગ",
+  "colorHue": "રંગછટા",
+  "colorSaturation": "સંતૃપ્તિ",
+  "colorBrightness": "તેજસ્વિતા",
+  "colorHexLabel": "હેક્સ કોડ",
+  "colorPickerDone": "પૂર્ણ"
 }

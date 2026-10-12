@@ -163,5 +163,12 @@
   "batchProgress": "{total}లో {done} పూర్తయ్యాయి",
   "batchSaved": "{count} ఫోటోలు మీ గ్యాలరీలో సేవ్ అయ్యాయి",
   "batchSomeFailed": "{count} ఫోటోలను ప్రాసెస్ చేయలేకపోయాం",
-  "batchTooMany": "ఒకేసారి గరిష్ఠంగా {max} ఫోటోలు"
+  "batchTooMany": "ఒకేసారి గరిష్ఠంగా {max} ఫోటోలు",
+  "backgroundAddCustom": "అనుకూల నేపథ్యాన్ని జోడించు",
+  "backgroundCustomColor": "అనుకూల రంగు",
+  "colorHue": "హ్యూ",
+  "colorSaturation": "సంతృప్తత",
+  "colorBrightness": "ప్రకాశం",
+  "colorHexLabel": "హెక్స్ కోడ్",
+  "colorPickerDone": "పూర్తయింది"
 }

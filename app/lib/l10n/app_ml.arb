@@ -163,5 +163,12 @@
   "batchProgress": "{total}-ൽ {done} പൂർത്തിയായി",
   "batchSaved": "{count} എണ്ണം ഗാലറിയിൽ സേവ് ചെയ്തു",
   "batchSomeFailed": "{count} എണ്ണം പ്രോസസ് ചെയ്യാനായില്ല",
-  "batchTooMany": "ഒരേസമയം പരമാവധി {max} ഫോട്ടോകൾ"
+  "batchTooMany": "ഒരേസമയം പരമാവധി {max} ഫോട്ടോകൾ",
+  "backgroundAddCustom": "ഇഷ്ടാനുസൃത പശ്ചാത്തലം ചേർക്കുക",
+  "backgroundCustomColor": "ഇഷ്ടാനുസൃത നിറം",
+  "colorHue": "ഹ്യൂ",
+  "colorSaturation": "സാച്ചുറേഷൻ",
+  "colorBrightness": "തെളിച്ചം",
+  "colorHexLabel": "ഹെക്സ് കോഡ്",
+  "colorPickerDone": "പൂർത്തിയായി"
 }

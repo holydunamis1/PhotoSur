@@ -144,5 +144,12 @@
   "batchProgress": "{done} מתוך {total} הושלמו",
   "batchSaved": "{count} נשמרו בגלריה שלך",
   "batchSomeFailed": "לא ניתן היה לעבד {count}",
-  "batchTooMany": "עד {max} תמונות בכל פעם"
+  "batchTooMany": "עד {max} תמונות בכל פעם",
+  "backgroundAddCustom": "הוספת רקע מותאם אישית",
+  "backgroundCustomColor": "צבע מותאם אישית",
+  "colorHue": "גוון",
+  "colorSaturation": "רוויה",
+  "colorBrightness": "בהירות",
+  "colorHexLabel": "קוד Hex",
+  "colorPickerDone": "סיום"
 }

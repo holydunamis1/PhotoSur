@@ -163,5 +163,12 @@
   "batchProgress": "Готови {done} от {total}",
   "batchSaved": "Запазени в галерията: {count}",
   "batchSomeFailed": "Не можаха да се обработят: {count}",
-  "batchTooMany": "До {max} снимки наведнъж"
+  "batchTooMany": "До {max} снимки наведнъж",
+  "backgroundAddCustom": "Добавяне на собствен фон",
+  "backgroundCustomColor": "Собствен цвят",
+  "colorHue": "Нюанс",
+  "colorSaturation": "Наситеност",
+  "colorBrightness": "Яркост",
+  "colorHexLabel": "HEX код",
+  "colorPickerDone": "Готово"
 }

@@ -144,5 +144,12 @@
   "batchProgress": "اكتمل {done} من {total}",
   "batchSaved": "تم حفظ {count} في معرض الصور",
   "batchSomeFailed": "تعذّرت معالجة {count}",
-  "batchTooMany": "حتى {max} صورة في المرة الواحدة"
+  "batchTooMany": "حتى {max} صورة في المرة الواحدة",
+  "backgroundAddCustom": "إضافة خلفية مخصصة",
+  "backgroundCustomColor": "لون مخصص",
+  "colorHue": "درجة اللون",
+  "colorSaturation": "التشبّع",
+  "colorBrightness": "السطوع",
+  "colorHexLabel": "رمز Hex",
+  "colorPickerDone": "تم"
 }

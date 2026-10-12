@@ -163,5 +163,12 @@
   "batchProgress": "{done} από {total} ολοκληρώθηκαν",
   "batchSaved": "{count} αποθηκεύτηκαν στη συλλογή σας",
   "batchSomeFailed": "{count} δεν μπόρεσαν να επεξεργαστούν",
-  "batchTooMany": "Έως {max} φωτογραφίες τη φορά"
+  "batchTooMany": "Έως {max} φωτογραφίες τη φορά",
+  "backgroundAddCustom": "Προσθήκη προσαρμοσμένου φόντου",
+  "backgroundCustomColor": "Προσαρμοσμένο χρώμα",
+  "colorHue": "Απόχρωση",
+  "colorSaturation": "Κορεσμός",
+  "colorBrightness": "Φωτεινότητα",
+  "colorHexLabel": "Κωδικός hex",
+  "colorPickerDone": "Έτοιμο"
 }

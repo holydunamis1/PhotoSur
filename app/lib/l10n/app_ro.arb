@@ -163,5 +163,12 @@
   "batchProgress": "{done} din {total} finalizate",
   "batchSaved": "{count} salvate în galerie",
   "batchSomeFailed": "{count} nu au putut fi procesate",
-  "batchTooMany": "Până la {max} fotografii o dată"
+  "batchTooMany": "Până la {max} fotografii o dată",
+  "backgroundAddCustom": "Adaugă fundal personalizat",
+  "backgroundCustomColor": "Culoare personalizată",
+  "colorHue": "Nuanță",
+  "colorSaturation": "Saturație",
+  "colorBrightness": "Luminozitate",
+  "colorHexLabel": "Cod hex",
+  "colorPickerDone": "Gata"
 }

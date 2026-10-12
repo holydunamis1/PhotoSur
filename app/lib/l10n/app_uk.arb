@@ -144,5 +144,12 @@
   "batchProgress": "Готово: {done} з {total}",
   "batchSaved": "Збережено в галерею: {count}",
   "batchSomeFailed": "Не вдалося обробити: {count}",
-  "batchTooMany": "До {max} фото за раз"
+  "batchTooMany": "До {max} фото за раз",
+  "backgroundAddCustom": "Додати власний фон",
+  "backgroundCustomColor": "Власний колір",
+  "colorHue": "Відтінок",
+  "colorSaturation": "Насиченість",
+  "colorBrightness": "Яскравість",
+  "colorHexLabel": "HEX-код",
+  "colorPickerDone": "Готово"
 }

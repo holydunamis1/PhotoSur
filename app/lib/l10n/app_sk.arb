@@ -163,5 +163,12 @@
   "batchProgress": "Hotovo {done} z {total}",
   "batchSaved": "Uložené do galérie: {count}",
   "batchSomeFailed": "Nepodarilo sa spracovať: {count}",
-  "batchTooMany": "Naraz až {max} fotiek"
+  "batchTooMany": "Naraz až {max} fotiek",
+  "backgroundAddCustom": "Pridať vlastné pozadie",
+  "backgroundCustomColor": "Vlastná farba",
+  "colorHue": "Odtieň",
+  "colorSaturation": "Sýtosť",
+  "colorBrightness": "Jas",
+  "colorHexLabel": "Kód HEX",
+  "colorPickerDone": "Hotovo"
 }

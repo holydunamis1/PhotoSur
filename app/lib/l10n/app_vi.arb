@@ -144,5 +144,12 @@
   "batchProgress": "Đã xong {done}/{total}",
   "batchSaved": "Đã lưu {count} ảnh vào thư viện",
   "batchSomeFailed": "Không xử lý được {count} ảnh",
-  "batchTooMany": "Tối đa {max} ảnh mỗi lần"
+  "batchTooMany": "Tối đa {max} ảnh mỗi lần",
+  "backgroundAddCustom": "Thêm nền tùy chỉnh",
+  "backgroundCustomColor": "Màu tùy chỉnh",
+  "colorHue": "Sắc độ",
+  "colorSaturation": "Độ bão hòa",
+  "colorBrightness": "Độ sáng",
+  "colorHexLabel": "Mã hex",
+  "colorPickerDone": "Xong"
 }

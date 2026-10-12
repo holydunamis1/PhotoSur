@@ -163,5 +163,12 @@
   "batchProgress": "{done} de {total} fetes",
   "batchSaved": "{count} desades a la galeria",
   "batchSomeFailed": "{count} no s’han pogut processar",
-  "batchTooMany": "Fins a {max} fotos alhora"
+  "batchTooMany": "Fins a {max} fotos alhora",
+  "backgroundAddCustom": "Afegeix un fons personalitzat",
+  "backgroundCustomColor": "Color personalitzat",
+  "colorHue": "To",
+  "colorSaturation": "Saturació",
+  "colorBrightness": "Brillantor",
+  "colorHexLabel": "Codi hexadecimal",
+  "colorPickerDone": "Fet"
 }

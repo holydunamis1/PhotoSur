@@ -144,5 +144,12 @@
   "batchProgress": "{total} fotoğrafın {done} tanesi tamam",
   "batchSaved": "{count} fotoğraf galerine kaydedildi",
   "batchSomeFailed": "{count} fotoğraf işlenemedi",
-  "batchTooMany": "Tek seferde en fazla {max} fotoğraf"
+  "batchTooMany": "Tek seferde en fazla {max} fotoğraf",
+  "backgroundAddCustom": "Özel arka plan ekle",
+  "backgroundCustomColor": "Özel renk",
+  "colorHue": "Ton",
+  "colorSaturation": "Doygunluk",
+  "colorBrightness": "Parlaklık",
+  "colorHexLabel": "Hex kodu",
+  "colorPickerDone": "Bitti"
 }

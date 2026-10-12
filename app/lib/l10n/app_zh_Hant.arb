@@ -144,5 +144,12 @@
   "batchProgress": "已完成 {done}/{total}",
   "batchSaved": "已將 {count} 張儲存至相簿",
   "batchSomeFailed": "有 {count} 張無法處理",
-  "batchTooMany": "一次最多 {max} 張照片"
+  "batchTooMany": "一次最多 {max} 張照片",
+  "backgroundAddCustom": "新增自訂背景",
+  "backgroundCustomColor": "自訂顏色",
+  "colorHue": "色相",
+  "colorSaturation": "飽和度",
+  "colorBrightness": "亮度",
+  "colorHexLabel": "十六進位代碼",
+  "colorPickerDone": "完成"
 }

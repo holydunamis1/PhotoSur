@@ -144,5 +144,12 @@
   "batchProgress": "{done} از {total} انجام شد",
   "batchSaved": "{count} عکس در گالری شما ذخیره شد",
   "batchSomeFailed": "پردازش {count} عکس ممکن نشد",
-  "batchTooMany": "حداکثر {max} عکس در هر بار"
+  "batchTooMany": "حداکثر {max} عکس در هر بار",
+  "backgroundAddCustom": "افزودن پس‌زمینهٔ دلخواه",
+  "backgroundCustomColor": "رنگ دلخواه",
+  "colorHue": "فام",
+  "colorSaturation": "اشباع",
+  "colorBrightness": "روشنایی",
+  "colorHexLabel": "کد هگز",
+  "colorPickerDone": "انجام شد"
 }

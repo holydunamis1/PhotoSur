@@ -167,5 +167,12 @@
   "batchSomeFailed": "{count} could not be processed",
   "@batchSomeFailed": {"placeholders": {"count": {"type": "int"}}},
   "batchTooMany": "Up to {max} photos at a time",
-  "@batchTooMany": {"placeholders": {"max": {"type": "int"}}}
+  "@batchTooMany": {"placeholders": {"max": {"type": "int"}}},
+  "backgroundAddCustom": "Add custom background",
+  "backgroundCustomColor": "Custom color",
+  "colorHue": "Hue",
+  "colorSaturation": "Saturation",
+  "colorBrightness": "Brightness",
+  "colorHexLabel": "Hex code",
+  "colorPickerDone": "Done"
 }

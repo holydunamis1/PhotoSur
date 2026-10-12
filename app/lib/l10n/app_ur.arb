@@ -144,5 +144,12 @@
   "batchProgress": "{total} میں سے {done} مکمل",
   "batchSaved": "{count} آپ کی گیلری میں محفوظ ہو گئیں",
   "batchSomeFailed": "{count} پر کارروائی نہ ہو سکی",
-  "batchTooMany": "ایک وقت میں زیادہ سے زیادہ {max} تصاویر"
+  "batchTooMany": "ایک وقت میں زیادہ سے زیادہ {max} تصاویر",
+  "backgroundAddCustom": "حسبِ ضرورت پس منظر شامل کریں",
+  "backgroundCustomColor": "حسبِ ضرورت رنگ",
+  "colorHue": "رنگت",
+  "colorSaturation": "سیرابی",
+  "colorBrightness": "روشنی",
+  "colorHexLabel": "ہیکس کوڈ",
+  "colorPickerDone": "مکمل"
 }

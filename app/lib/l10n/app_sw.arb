@@ -163,5 +163,12 @@
   "batchProgress": "{done} kati ya {total} zimekamilika",
   "batchSaved": "{count} zimehifadhiwa kwenye ghala yako",
   "batchSomeFailed": "{count} hazikuweza kuchakatwa",
-  "batchTooMany": "Hadi picha {max} kwa wakati mmoja"
+  "batchTooMany": "Hadi picha {max} kwa wakati mmoja",
+  "backgroundAddCustom": "Ongeza mandharinyuma maalum",
+  "backgroundCustomColor": "Rangi maalum",
+  "colorHue": "Rangi msingi",
+  "colorSaturation": "Ujazo wa rangi",
+  "colorBrightness": "Mwangaza",
+  "colorHexLabel": "Msimbo wa hex",
+  "colorPickerDone": "Imekamilika"
 }

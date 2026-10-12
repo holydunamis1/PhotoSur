@@ -144,5 +144,12 @@
   "batchProgress": "เสร็จแล้ว {done} จาก {total}",
   "batchSaved": "บันทึก {count} รูปลงแกลเลอรีแล้ว",
   "batchSomeFailed": "ประมวลผล {count} รูปไม่ได้",
-  "batchTooMany": "ได้สูงสุด {max} รูปต่อครั้ง"
+  "batchTooMany": "ได้สูงสุด {max} รูปต่อครั้ง",
+  "backgroundAddCustom": "เพิ่มพื้นหลังที่กำหนดเอง",
+  "backgroundCustomColor": "สีที่กำหนดเอง",
+  "colorHue": "เฉดสี",
+  "colorSaturation": "ความอิ่มตัว",
+  "colorBrightness": "ความสว่าง",
+  "colorHexLabel": "รหัสเลขฐานสิบหก",
+  "colorPickerDone": "เสร็จสิ้น"
 }

@@ -144,5 +144,12 @@
   "batchProgress": "{done} av {total} klara",
   "batchSaved": "{count} sparade i ditt galleri",
   "batchSomeFailed": "{count} kunde inte bearbetas",
-  "batchTooMany": "Upp till {max} bilder åt gången"
+  "batchTooMany": "Upp till {max} bilder åt gången",
+  "backgroundAddCustom": "Lägg till egen bakgrund",
+  "backgroundCustomColor": "Egen färg",
+  "colorHue": "Nyans",
+  "colorSaturation": "Mättnad",
+  "colorBrightness": "Ljusstyrka",
+  "colorHexLabel": "Hexkod",
+  "colorPickerDone": "Klart"
 }

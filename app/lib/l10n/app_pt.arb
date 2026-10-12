@@ -144,5 +144,12 @@
   "batchProgress": "{done} de {total} concluídas",
   "batchSaved": "{count} salvas na sua galeria",
   "batchSomeFailed": "{count} não puderam ser processadas",
-  "batchTooMany": "Até {max} fotos por vez"
+  "batchTooMany": "Até {max} fotos por vez",
+  "backgroundAddCustom": "Adicionar fundo personalizado",
+  "backgroundCustomColor": "Cor personalizada",
+  "colorHue": "Matiz",
+  "colorSaturation": "Saturação",
+  "colorBrightness": "Brilho",
+  "colorHexLabel": "Código hexadecimal",
+  "colorPickerDone": "Concluído"
 }

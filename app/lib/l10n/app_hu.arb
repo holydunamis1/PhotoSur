@@ -163,5 +163,12 @@
   "batchProgress": "{done} / {total} kész",
   "batchSaved": "{count} mentve a galériádba",
   "batchSomeFailed": "{count} nem dolgozható fel",
-  "batchTooMany": "Egyszerre legfeljebb {max} fotó"
+  "batchTooMany": "Egyszerre legfeljebb {max} fotó",
+  "backgroundAddCustom": "Egyéni háttér hozzáadása",
+  "backgroundCustomColor": "Egyéni szín",
+  "colorHue": "Árnyalat",
+  "colorSaturation": "Telítettség",
+  "colorBrightness": "Fényerő",
+  "colorHexLabel": "Hex kód",
+  "colorPickerDone": "Kész"
 }

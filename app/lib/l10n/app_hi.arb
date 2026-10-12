@@ -144,5 +144,12 @@
   "batchProgress": "{total} में से {done} पूरे",
   "batchSaved": "{count} आपकी गैलरी में सहेजे गए",
   "batchSomeFailed": "{count} प्रोसेस नहीं हो सके",
-  "batchTooMany": "एक बार में {max} तक फ़ोटो"
+  "batchTooMany": "एक बार में {max} तक फ़ोटो",
+  "backgroundAddCustom": "कस्टम बैकग्राउंड जोड़ें",
+  "backgroundCustomColor": "कस्टम रंग",
+  "colorHue": "रंगत",
+  "colorSaturation": "संतृप्ति",
+  "colorBrightness": "चमक",
+  "colorHexLabel": "हेक्स कोड",
+  "colorPickerDone": "हो गया"
 }

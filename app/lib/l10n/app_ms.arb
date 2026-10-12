@@ -144,5 +144,12 @@
   "batchProgress": "{done} daripada {total} selesai",
   "batchSaved": "{count} disimpan ke galeri anda",
   "batchSomeFailed": "{count} tidak dapat diproses",
-  "batchTooMany": "Sehingga {max} foto sekali gus"
+  "batchTooMany": "Sehingga {max} foto sekali gus",
+  "backgroundAddCustom": "Tambah latar belakang tersuai",
+  "backgroundCustomColor": "Warna tersuai",
+  "colorHue": "Rona",
+  "colorSaturation": "Ketepuan",
+  "colorBrightness": "Kecerahan",
+  "colorHexLabel": "Kod hex",
+  "colorPickerDone": "Selesai"
 }
