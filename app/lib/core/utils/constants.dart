@@ -120,3 +120,6 @@ const String kReminderChannelId = 'unfinished_edit';
 /// phone-only tester can report what went wrong. Switch to false before
 /// store release.
 const bool kShowExportDiagnostics = true;
+
+/// Most photos one batch run accepts (keeps memory and run time sane).
+const int kMaxBatchPhotos = 30;

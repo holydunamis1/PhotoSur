@@ -133,5 +133,16 @@
   "layoutShadowLabel": "เงา",
   "backgroundPhoto": "รูปภาพ",
   "backgroundPhotoFailed": "ไม่สามารถโหลดรูปภาพนั้นได้",
-  "editorLayoutHint": "ลากเพื่อย้าย บีบสองนิ้วเพื่อปรับขนาด"
+  "editorLayoutHint": "ลากเพื่อย้าย บีบสองนิ้วเพื่อปรับขนาด",
+  "homeBatchButton": "เป็นชุด",
+  "batchTitle": "ตัดพื้นหลังเป็นชุด",
+  "batchOutputTransparent": "PNG โปร่งใส",
+  "batchOutputWhite": "พื้นหลังสีขาว (JPG)",
+  "batchStart": "เริ่ม",
+  "batchStop": "หยุด",
+  "batchDone": "เสร็จสิ้น",
+  "batchProgress": "เสร็จแล้ว {done} จาก {total}",
+  "batchSaved": "บันทึก {count} รูปลงแกลเลอรีแล้ว",
+  "batchSomeFailed": "ประมวลผล {count} รูปไม่ได้",
+  "batchTooMany": "ได้สูงสุด {max} รูปต่อครั้ง"
 }

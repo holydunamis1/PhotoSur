@@ -133,5 +133,16 @@
   "layoutShadowLabel": "Bóng đổ",
   "backgroundPhoto": "Ảnh",
   "backgroundPhotoFailed": "Không thể tải ảnh đó.",
-  "editorLayoutHint": "Kéo để di chuyển. Chụm hai ngón tay để đổi kích thước."
+  "editorLayoutHint": "Kéo để di chuyển. Chụm hai ngón tay để đổi kích thước.",
+  "homeBatchButton": "Hàng loạt",
+  "batchTitle": "Tách nền hàng loạt",
+  "batchOutputTransparent": "PNG trong suốt",
+  "batchOutputWhite": "Nền trắng (JPG)",
+  "batchStart": "Bắt đầu",
+  "batchStop": "Dừng",
+  "batchDone": "Xong",
+  "batchProgress": "Đã xong {done}/{total}",
+  "batchSaved": "Đã lưu {count} ảnh vào thư viện",
+  "batchSomeFailed": "Không xử lý được {count} ảnh",
+  "batchTooMany": "Tối đa {max} ảnh mỗi lần"
 }

@@ -133,5 +133,16 @@
   "layoutShadowLabel": "Sombra",
   "backgroundPhoto": "Foto",
   "backgroundPhotoFailed": "No se pudo cargar esa foto.",
-  "editorLayoutHint": "Arrastra para mover. Pellizca con dos dedos para cambiar el tamaño."
+  "editorLayoutHint": "Arrastra para mover. Pellizca con dos dedos para cambiar el tamaño.",
+  "homeBatchButton": "Lote",
+  "batchTitle": "Recorte por lotes",
+  "batchOutputTransparent": "PNG transparente",
+  "batchOutputWhite": "Fondo blanco (JPG)",
+  "batchStart": "Iniciar",
+  "batchStop": "Detener",
+  "batchDone": "Listo",
+  "batchProgress": "{done} de {total} listas",
+  "batchSaved": "{count} guardadas en tu galería",
+  "batchSomeFailed": "{count} no se pudieron procesar",
+  "batchTooMany": "Hasta {max} fotos a la vez"
 }

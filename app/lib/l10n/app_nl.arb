@@ -133,5 +133,16 @@
   "layoutShadowLabel": "Schaduw",
   "backgroundPhoto": "Foto",
   "backgroundPhotoFailed": "Die foto kon niet worden geladen.",
-  "editorLayoutHint": "Sleep om te verplaatsen. Knijp met twee vingers om het formaat te wijzigen."
+  "editorLayoutHint": "Sleep om te verplaatsen. Knijp met twee vingers om het formaat te wijzigen.",
+  "homeBatchButton": "Batch",
+  "batchTitle": "Batch-uitsnede",
+  "batchOutputTransparent": "Transparante PNG",
+  "batchOutputWhite": "Witte achtergrond (JPG)",
+  "batchStart": "Starten",
+  "batchStop": "Stoppen",
+  "batchDone": "Klaar",
+  "batchProgress": "{done} van {total} klaar",
+  "batchSaved": "{count} opgeslagen in je galerij",
+  "batchSomeFailed": "{count} konden niet worden verwerkt",
+  "batchTooMany": "Maximaal {max} foto’s tegelijk"
 }

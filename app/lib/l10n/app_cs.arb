@@ -152,5 +152,16 @@
   "unsupportedNoCameraMessage": "Toto zařízení nemá dostupný fotoaparát.",
   "unsupportedLowMemoryMessage": "Toto zařízení nemá dostatek paměti pro spolehlivý chod editoru KatharErase.",
   "unsupportedManualImportHint": "Stále můžete importovat fotku z galerie a použít ruční štětec.",
-  "unsupportedUseGalleryButton": "Importovat z Galerie"
+  "unsupportedUseGalleryButton": "Importovat z Galerie",
+  "homeBatchButton": "Dávka",
+  "batchTitle": "Dávkové vystřižení",
+  "batchOutputTransparent": "Průhledné PNG",
+  "batchOutputWhite": "Bílé pozadí (JPG)",
+  "batchStart": "Spustit",
+  "batchStop": "Zastavit",
+  "batchDone": "Hotovo",
+  "batchProgress": "Hotovo {done} z {total}",
+  "batchSaved": "Uloženo do galerie: {count}",
+  "batchSomeFailed": "Nepodařilo se zpracovat: {count}",
+  "batchTooMany": "Najednou až {max} fotek"
 }

@@ -133,5 +133,16 @@
   "layoutShadowLabel": "छाया",
   "backgroundPhoto": "फ़ोटो",
   "backgroundPhotoFailed": "वह फ़ोटो लोड नहीं हो सकी।",
-  "editorLayoutHint": "हिलाने के लिए खींचें। आकार बदलने के लिए दो उँगलियों से पिंच करें।"
+  "editorLayoutHint": "हिलाने के लिए खींचें। आकार बदलने के लिए दो उँगलियों से पिंच करें।",
+  "homeBatchButton": "बैच",
+  "batchTitle": "बैच कट-आउट",
+  "batchOutputTransparent": "पारदर्शी PNG",
+  "batchOutputWhite": "सफ़ेद बैकग्राउंड (JPG)",
+  "batchStart": "शुरू करें",
+  "batchStop": "रोकें",
+  "batchDone": "हो गया",
+  "batchProgress": "{total} में से {done} पूरे",
+  "batchSaved": "{count} आपकी गैलरी में सहेजे गए",
+  "batchSomeFailed": "{count} प्रोसेस नहीं हो सके",
+  "batchTooMany": "एक बार में {max} तक फ़ोटो"
 }

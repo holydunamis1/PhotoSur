@@ -152,5 +152,16 @@
   "unsupportedNoCameraMessage": "Tällä laitteella ei ole käytettävissä olevaa kameraa.",
   "unsupportedLowMemoryMessage": "Tällä laitteella ei ole tarpeeksi muistia KatharErasen editorin luotettavaan ajamiseen.",
   "unsupportedManualImportHint": "Voit silti tuoda kuvan galleriasta ja käyttää manuaalista sivellintä.",
-  "unsupportedUseGalleryButton": "Tuo Galleriasta"
+  "unsupportedUseGalleryButton": "Tuo Galleriasta",
+  "homeBatchButton": "Erä",
+  "batchTitle": "Erä-leikkaus",
+  "batchOutputTransparent": "Läpinäkyvä PNG",
+  "batchOutputWhite": "Valkoinen tausta (JPG)",
+  "batchStart": "Aloita",
+  "batchStop": "Pysäytä",
+  "batchDone": "Valmis",
+  "batchProgress": "{done} / {total} valmis",
+  "batchSaved": "{count} tallennettu galleriaan",
+  "batchSomeFailed": "{count} ei voitu käsitellä",
+  "batchTooMany": "Enintään {max} kuvaa kerrallaan"
 }

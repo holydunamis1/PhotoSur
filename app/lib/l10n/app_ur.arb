@@ -133,5 +133,16 @@
   "layoutShadowLabel": "سایہ",
   "backgroundPhoto": "تصویر",
   "backgroundPhotoFailed": "وہ تصویر لوڈ نہیں ہو سکی۔",
-  "editorLayoutHint": "منتقل کرنے کے لیے گھسیٹیں۔ سائز بدلنے کے لیے دو انگلیوں سے چٹکی لیں۔"
+  "editorLayoutHint": "منتقل کرنے کے لیے گھسیٹیں۔ سائز بدلنے کے لیے دو انگلیوں سے چٹکی لیں۔",
+  "homeBatchButton": "بیچ",
+  "batchTitle": "بیچ کٹ آؤٹ",
+  "batchOutputTransparent": "شفاف PNG",
+  "batchOutputWhite": "سفید پس منظر (JPG)",
+  "batchStart": "شروع کریں",
+  "batchStop": "روکیں",
+  "batchDone": "مکمل",
+  "batchProgress": "{total} میں سے {done} مکمل",
+  "batchSaved": "{count} آپ کی گیلری میں محفوظ ہو گئیں",
+  "batchSomeFailed": "{count} پر کارروائی نہ ہو سکی",
+  "batchTooMany": "ایک وقت میں زیادہ سے زیادہ {max} تصاویر"
 }

@@ -133,5 +133,16 @@
   "layoutShadowLabel": "سایه",
   "backgroundPhoto": "عکس",
   "backgroundPhotoFailed": "بارگذاری آن عکس ممکن نشد.",
-  "editorLayoutHint": "برای جابه‌جایی بکشید. برای تغییر اندازه با دو انگشت بزرگ یا کوچک کنید."
+  "editorLayoutHint": "برای جابه‌جایی بکشید. برای تغییر اندازه با دو انگشت بزرگ یا کوچک کنید.",
+  "homeBatchButton": "دسته‌ای",
+  "batchTitle": "برش دسته‌ای",
+  "batchOutputTransparent": "PNG شفاف",
+  "batchOutputWhite": "پس‌زمینهٔ سفید (JPG)",
+  "batchStart": "شروع",
+  "batchStop": "توقف",
+  "batchDone": "انجام شد",
+  "batchProgress": "{done} از {total} انجام شد",
+  "batchSaved": "{count} عکس در گالری شما ذخیره شد",
+  "batchSomeFailed": "پردازش {count} عکس ممکن نشد",
+  "batchTooMany": "حداکثر {max} عکس در هر بار"
 }

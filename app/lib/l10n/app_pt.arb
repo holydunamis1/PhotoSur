@@ -133,5 +133,16 @@
   "layoutShadowLabel": "Sombra",
   "backgroundPhoto": "Foto",
   "backgroundPhotoFailed": "Não foi possível carregar essa foto.",
-  "editorLayoutHint": "Arraste para mover. Use dois dedos para redimensionar."
+  "editorLayoutHint": "Arraste para mover. Use dois dedos para redimensionar.",
+  "homeBatchButton": "Lote",
+  "batchTitle": "Recorte em lote",
+  "batchOutputTransparent": "PNG transparente",
+  "batchOutputWhite": "Fundo branco (JPG)",
+  "batchStart": "Iniciar",
+  "batchStop": "Parar",
+  "batchDone": "Concluído",
+  "batchProgress": "{done} de {total} concluídas",
+  "batchSaved": "{count} salvas na sua galeria",
+  "batchSomeFailed": "{count} não puderam ser processadas",
+  "batchTooMany": "Até {max} fotos por vez"
 }

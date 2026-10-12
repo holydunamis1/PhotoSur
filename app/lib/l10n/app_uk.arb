@@ -133,5 +133,16 @@
   "layoutShadowLabel": "Тінь",
   "backgroundPhoto": "Фото",
   "backgroundPhotoFailed": "Не вдалося завантажити це фото.",
-  "editorLayoutHint": "Перетягніть, щоб перемістити. Зведіть два пальці, щоб змінити розмір."
+  "editorLayoutHint": "Перетягніть, щоб перемістити. Зведіть два пальці, щоб змінити розмір.",
+  "homeBatchButton": "Пакет",
+  "batchTitle": "Пакетне вирізання",
+  "batchOutputTransparent": "Прозорий PNG",
+  "batchOutputWhite": "Білий фон (JPG)",
+  "batchStart": "Почати",
+  "batchStop": "Стоп",
+  "batchDone": "Готово",
+  "batchProgress": "Готово: {done} з {total}",
+  "batchSaved": "Збережено в галерею: {count}",
+  "batchSomeFailed": "Не вдалося обробити: {count}",
+  "batchTooMany": "До {max} фото за раз"
 }

@@ -152,5 +152,16 @@
   "unsupportedNoCameraMessage": "Това устройство няма налична камера.",
   "unsupportedLowMemoryMessage": "Това устройство няма достатъчно памет, за да работи надеждно редакторът на KatharErase.",
   "unsupportedManualImportHint": "Все пак можете да импортирате снимка от галерията и да използвате ръчната четка.",
-  "unsupportedUseGalleryButton": "Импорт от Галерия"
+  "unsupportedUseGalleryButton": "Импорт от Галерия",
+  "homeBatchButton": "Пакет",
+  "batchTitle": "Пакетно изрязване",
+  "batchOutputTransparent": "Прозрачен PNG",
+  "batchOutputWhite": "Бял фон (JPG)",
+  "batchStart": "Старт",
+  "batchStop": "Стоп",
+  "batchDone": "Готово",
+  "batchProgress": "Готови {done} от {total}",
+  "batchSaved": "Запазени в галерията: {count}",
+  "batchSomeFailed": "Не можаха да се обработят: {count}",
+  "batchTooMany": "До {max} снимки наведнъж"
 }

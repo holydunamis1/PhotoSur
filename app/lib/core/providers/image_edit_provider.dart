@@ -10,16 +10,16 @@ import '../services/segmentation_service.dart';
 import '../utils/background_presets.dart';
 import '../utils/subject_layout.dart';
 
-/// Arguments for [_postprocessInIsolate] (kept sendable: only typed data).
-class _PostprocessArgs {
-  const _PostprocessArgs(this.probs, this.width, this.height, this.guideGray);
+/// Arguments for [postprocessInIsolate] (kept sendable: only typed data).
+class PostprocessArgs {
+  const PostprocessArgs(this.probs, this.width, this.height, this.guideGray);
   final Float32List probs;
   final int width;
   final int height;
   final Uint8List? guideGray;
 }
 
-Uint8List _postprocessInIsolate(_PostprocessArgs args) {
+Uint8List postprocessInIsolate(PostprocessArgs args) {
   final mask = postprocessMask(args.probs, args.width, args.height);
   final guide = args.guideGray;
   if (guide == null) return mask;
@@ -71,8 +71,8 @@ class ImageEditProvider extends ValueNotifier<EditableImageState> {
     try {
       final probs = await SegmentationService.instance.infer(modelInput);
       final mask = await compute(
-        _postprocessInIsolate,
-        _PostprocessArgs(probs, width, height, guideGray),
+        postprocessInIsolate,
+        PostprocessArgs(probs, width, height, guideGray),
       );
       if (token != _loadToken) return;
       value = value.copyWith(

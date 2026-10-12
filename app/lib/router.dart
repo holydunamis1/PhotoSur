@@ -1,6 +1,7 @@
 import 'package:go_router/go_router.dart';
 
 import 'core/providers/settings_provider.dart';
+import 'screens/batch_screen.dart';
 import 'screens/camera_screen.dart';
 import 'screens/crop_rotate_screen.dart';
 import 'screens/editor_screen.dart';
@@ -69,6 +70,14 @@ GoRouter buildRouter(SettingsProvider settingsProvider) {
           final imagePath = state.extra as String?;
           if (imagePath == null) return const HomeScreen();
           return EditorScreen(imagePath: imagePath);
+        },
+      ),
+      GoRoute(
+        path: '/batch',
+        builder: (context, state) {
+          final paths = state.extra as List<String>?;
+          if (paths == null || paths.isEmpty) return const HomeScreen();
+          return BatchScreen(imagePaths: paths);
         },
       ),
       GoRoute(

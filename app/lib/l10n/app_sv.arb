@@ -133,5 +133,16 @@
   "layoutShadowLabel": "Skugga",
   "backgroundPhoto": "Foto",
   "backgroundPhotoFailed": "Det gick inte att läsa in fotot.",
-  "editorLayoutHint": "Dra för att flytta. Nyp med två fingrar för att ändra storlek."
+  "editorLayoutHint": "Dra för att flytta. Nyp med två fingrar för att ändra storlek.",
+  "homeBatchButton": "Batch",
+  "batchTitle": "Batch-urklipp",
+  "batchOutputTransparent": "Transparent PNG",
+  "batchOutputWhite": "Vit bakgrund (JPG)",
+  "batchStart": "Starta",
+  "batchStop": "Stoppa",
+  "batchDone": "Klart",
+  "batchProgress": "{done} av {total} klara",
+  "batchSaved": "{count} sparade i ditt galleri",
+  "batchSomeFailed": "{count} kunde inte bearbetas",
+  "batchTooMany": "Upp till {max} bilder åt gången"
 }

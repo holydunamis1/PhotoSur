@@ -133,5 +133,16 @@
   "layoutShadowLabel": "Ombra",
   "backgroundPhoto": "Foto",
   "backgroundPhotoFailed": "Impossibile caricare quella foto.",
-  "editorLayoutHint": "Trascina per spostare. Pizzica con due dita per ridimensionare."
+  "editorLayoutHint": "Trascina per spostare. Pizzica con due dita per ridimensionare.",
+  "homeBatchButton": "Gruppo",
+  "batchTitle": "Ritaglio in gruppo",
+  "batchOutputTransparent": "PNG trasparente",
+  "batchOutputWhite": "Sfondo bianco (JPG)",
+  "batchStart": "Avvia",
+  "batchStop": "Ferma",
+  "batchDone": "Fatto",
+  "batchProgress": "{done} di {total} completate",
+  "batchSaved": "{count} salvate nella tua galleria",
+  "batchSomeFailed": "{count} non è stato possibile elaborarle",
+  "batchTooMany": "Fino a {max} foto alla volta"
 }

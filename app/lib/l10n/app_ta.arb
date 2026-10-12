@@ -152,5 +152,16 @@
   "unsupportedNoCameraMessage": "இந்தச் சாதனத்தில் கேமரா கிடைக்கவில்லை.",
   "unsupportedLowMemoryMessage": "KatharErase எடிட்டரை நம்பகமாக இயக்க இந்தச் சாதனத்தில் போதுமான நினைவகம் இல்லை.",
   "unsupportedManualImportHint": "கேலரியிலிருந்து புகைப்படத்தை இறக்குமதி செய்து கைமுறை பிரஷ் கருவியைப் பயன்படுத்தலாம்.",
-  "unsupportedUseGalleryButton": "கேலரியிலிருந்து இறக்குமதி"
+  "unsupportedUseGalleryButton": "கேலரியிலிருந்து இறக்குமதி",
+  "homeBatchButton": "தொகுப்பு",
+  "batchTitle": "தொகுப்பு கட்-அவுட்",
+  "batchOutputTransparent": "வெளிப்படையான PNG",
+  "batchOutputWhite": "வெள்ளைப் பின்னணி (JPG)",
+  "batchStart": "தொடங்கு",
+  "batchStop": "நிறுத்து",
+  "batchDone": "முடிந்தது",
+  "batchProgress": "{total}-இல் {done} முடிந்தது",
+  "batchSaved": "{count} படங்கள் உங்கள் கேலரியில் சேமிக்கப்பட்டன",
+  "batchSomeFailed": "{count} படங்களைச் செயலாக்க முடியவில்லை",
+  "batchTooMany": "ஒரே நேரத்தில் அதிகபட்சம் {max} படங்கள்"
 }

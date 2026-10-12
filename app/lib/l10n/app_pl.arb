@@ -133,5 +133,16 @@
   "layoutShadowLabel": "Cień",
   "backgroundPhoto": "Zdjęcie",
   "backgroundPhotoFailed": "Nie udało się wczytać tego zdjęcia.",
-  "editorLayoutHint": "Przeciągnij, aby przesunąć. Zsuń dwa palce, aby zmienić rozmiar."
+  "editorLayoutHint": "Przeciągnij, aby przesunąć. Zsuń dwa palce, aby zmienić rozmiar.",
+  "homeBatchButton": "Wsadowo",
+  "batchTitle": "Wycinanie wsadowe",
+  "batchOutputTransparent": "Przezroczysty PNG",
+  "batchOutputWhite": "Białe tło (JPG)",
+  "batchStart": "Start",
+  "batchStop": "Zatrzymaj",
+  "batchDone": "Gotowe",
+  "batchProgress": "Gotowe: {done} z {total}",
+  "batchSaved": "Zapisano w galerii: {count}",
+  "batchSomeFailed": "Nie udało się przetworzyć: {count}",
+  "batchTooMany": "Do {max} zdjęć naraz"
 }

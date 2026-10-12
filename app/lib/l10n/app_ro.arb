@@ -152,5 +152,16 @@
   "unsupportedNoCameraMessage": "Acest dispozitiv nu are o cameră disponibilă.",
   "unsupportedLowMemoryMessage": "Acest dispozitiv nu are suficientă memorie pentru a rula editorul KatharErase în mod fiabil.",
   "unsupportedManualImportHint": "Poți totuși să imporți o fotografie din galerie și să folosești pensula manuală.",
-  "unsupportedUseGalleryButton": "Importă din Galerie"
+  "unsupportedUseGalleryButton": "Importă din Galerie",
+  "homeBatchButton": "Lot",
+  "batchTitle": "Decupare în lot",
+  "batchOutputTransparent": "PNG transparent",
+  "batchOutputWhite": "Fundal alb (JPG)",
+  "batchStart": "Pornește",
+  "batchStop": "Oprește",
+  "batchDone": "Gata",
+  "batchProgress": "{done} din {total} finalizate",
+  "batchSaved": "{count} salvate în galerie",
+  "batchSomeFailed": "{count} nu au putut fi procesate",
+  "batchTooMany": "Până la {max} fotografii o dată"
 }

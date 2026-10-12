@@ -7,6 +7,7 @@ import 'package:image_picker/image_picker.dart';
 import '../core/models/export_job.dart';
 import '../core/services/share_service.dart';
 import '../core/services/storage_service.dart';
+import '../core/utils/constants.dart';
 import '../core/theme/app_tokens.dart';
 import '../generated/l10n/app_localizations.dart';
 import '../widgets/ad_banner_slot.dart';
@@ -55,6 +56,33 @@ class _HomeScreenState extends State<HomeScreen> {
       final picked = await picker.pickImage(source: ImageSource.gallery);
       if (picked == null || !context.mounted) return;
       context.push('/crop', extra: picked.path);
+    } catch (e) {
+      if (context.mounted) {
+        ToastNotification.show(
+          context,
+          message: l10n.homeGalleryOpenFailed,
+          type: ToastType.error,
+        );
+      }
+    }
+  }
+
+  /// Several photos at once, cut out one after another on the batch screen.
+  Future<void> _pickBatch(BuildContext context) async {
+    final l10n = AppLocalizations.of(context);
+    try {
+      final picked =
+          await ImagePicker().pickMultiImage(limit: kMaxBatchPhotos);
+      if (picked.isEmpty || !context.mounted) return;
+      final paths = [for (final f in picked.take(kMaxBatchPhotos)) f.path];
+      if (picked.length > kMaxBatchPhotos) {
+        ToastNotification.show(
+          context,
+          message: l10n.batchTooMany(kMaxBatchPhotos),
+          type: ToastType.info,
+        );
+      }
+      context.push('/batch', extra: paths);
     } catch (e) {
       if (context.mounted) {
         ToastNotification.show(
@@ -156,6 +184,11 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ],
               ),
+              const SizedBox(height: 12),
+              _BatchTile(
+                label: l10n.homeBatchButton,
+                onTap: () => _pickBatch(context),
+              ),
               const SizedBox(height: 24),
               Text(l10n.homeRecentExports, style: Theme.of(context).textTheme.titleMedium),
               const SizedBox(height: 12),
@@ -242,6 +275,63 @@ class _ActionCard extends StatelessWidget {
                 ),
                 const SizedBox(height: AppSpace.xl),
                 Text(label, style: Theme.of(context).textTheme.titleMedium),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _BatchTile extends StatelessWidget {
+  const _BatchTile({required this.label, required this.onTap});
+
+  final String label;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final p = context.palette;
+    return Semantics(
+      button: true,
+      label: label,
+      excludeSemantics: true,
+      child: Material(
+        color: p.surface,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(AppRadius.l),
+          side: BorderSide(color: p.separator, width: 0.5),
+        ),
+        child: InkWell(
+          customBorder: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(AppRadius.l),
+          ),
+          onTap: onTap,
+          child: Padding(
+            padding: const EdgeInsets.symmetric(
+              horizontal: AppSpace.l,
+              vertical: AppSpace.m,
+            ),
+            child: Row(
+              children: [
+                Container(
+                  width: 40,
+                  height: 40,
+                  decoration: BoxDecoration(
+                    color: p.accentTint,
+                    borderRadius: BorderRadius.circular(AppRadius.m),
+                  ),
+                  child: Icon(Icons.collections_rounded,
+                      size: 22, color: p.accentText),
+                ),
+                const SizedBox(width: AppSpace.m),
+                Expanded(
+                  child: Text(
+                    label,
+                    style: Theme.of(context).textTheme.titleMedium,
+                  ),
+                ),
               ],
             ),
           ),
