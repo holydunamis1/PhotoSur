@@ -13,6 +13,7 @@ import '../core/providers/subscription_provider.dart';
 import '../core/services/export_service.dart';
 import '../core/services/share_service.dart';
 import '../core/services/storage_service.dart';
+import '../core/utils/constants.dart' show kShowExportDiagnostics;
 import '../generated/l10n/app_localizations.dart';
 import '../platform/notification_service.dart';
 import '../widgets/loading_overlay.dart';
@@ -34,6 +35,7 @@ class _ExportBottomSheetState extends State<ExportBottomSheet> {
   // Shown INSIDE the sheet: a toast would appear on the page behind it,
   // hidden by the sheet itself.
   String? _errorMessage;
+  String? _errorDetail;
   final TextEditingController _customWidthController = TextEditingController();
   final TextEditingController _customHeightController = TextEditingController();
 
@@ -54,13 +56,19 @@ class _ExportBottomSheetState extends State<ExportBottomSheet> {
   }
 
   Future<void> _export(BuildContext context, {required bool alsoShare}) async {
-    if (_errorMessage != null) setState(() => _errorMessage = null);
+    if (_errorMessage != null) {
+      setState(() {
+        _errorMessage = null;
+        _errorDetail = null;
+      });
+    }
     final l10n = AppLocalizations.of(context);
     final imageProvider = Provider.of<ImageEditProvider>(context, listen: false);
     final state = imageProvider.value;
     if (state.originalPath == null || state.imageSize == null) return;
 
     setState(() => _isExporting = true);
+    var stage = 'read photo';
     try {
       final originalBytes = await File(state.originalPath!).readAsBytes();
 
@@ -69,6 +77,7 @@ class _ExportBottomSheetState extends State<ExportBottomSheet> {
       final maskBytes = state.maskBytes ??
           (Uint8List(maskLength)..fillRange(0, maskLength, 255));
 
+      stage = 'compose image';
       final exportBytes = await ExportService.instance.compositeAndExport(
         originalBytes: originalBytes,
         maskBytes: maskBytes,
@@ -93,6 +102,7 @@ class _ExportBottomSheetState extends State<ExportBottomSheet> {
             : null,
       );
 
+      stage = 'write file';
       final exportsDir = await StorageService.instance.getExportsDirectoryPath();
       final ext = switch (_format) {
         ExportFormat.png => 'png',
@@ -103,24 +113,33 @@ class _ExportBottomSheetState extends State<ExportBottomSheet> {
       final filePath = p.join(exportsDir, filename);
       await File(filePath).writeAsBytes(exportBytes);
 
-      final job = ExportJob(
-        id: _generateId(),
-        format: _format,
-        quality: _quality,
-        width: state.imageSize!.width.round(),
-        height: state.imageSize!.height.round(),
-        resizeMode: _resizeMode,
-        filePath: filePath,
-        status: ExportStatus.complete,
-        createdAt: DateTime.now(),
-      );
-      await StorageService.instance.saveExportJob(job);
+      // Recent-exports history is a convenience: if it can't be written the
+      // export itself still succeeded, so carry on to save/share.
+      try {
+        stage = 'save history';
+        final job = ExportJob(
+          id: _generateId(),
+          format: _format,
+          quality: _quality,
+          width: state.imageSize!.width.round(),
+          height: state.imageSize!.height.round(),
+          resizeMode: _resizeMode,
+          filePath: filePath,
+          status: ExportStatus.complete,
+          createdAt: DateTime.now(),
+        );
+        await StorageService.instance.saveExportJob(job);
+      } catch (e) {
+        debugPrint('Saving export history failed: $e');
+      }
 
       // The edit is finished: no reminder needed.
       imageProvider.markExported();
       await NotificationService.instance.cancelUnfinishedEditReminder();
 
+      stage = 'save to gallery';
       final saved = await ShareService.instance.saveToGallery(exportBytes);
+      stage = 'share';
       if (!saved && context.mounted) {
         await ShareService.instance.shareImage(exportBytes, filename: filename);
       } else if (alsoShare) {
@@ -146,7 +165,13 @@ class _ExportBottomSheetState extends State<ExportBottomSheet> {
       }
     } catch (e, stack) {
       debugPrint('EXPORT FAILED: $e\n$stack');
-      if (mounted) setState(() => _errorMessage = l10n.exportFailed);
+      if (mounted) {
+        setState(() {
+          _errorMessage = l10n.exportFailed;
+          final text = '$stage: ${e.runtimeType}: $e';
+          _errorDetail = text.length > 240 ? '${text.substring(0, 240)}…' : text;
+        });
+      }
       if (context.mounted) {
         ToastNotification.show(context, message: l10n.exportFailed, type: ToastType.error);
       }
@@ -187,6 +212,14 @@ class _ExportBottomSheetState extends State<ExportBottomSheet> {
                     _errorMessage!,
                     style: TextStyle(color: Theme.of(context).colorScheme.error),
                   ),
+                  if (kShowExportDiagnostics && _errorDetail != null)
+                    Padding(
+                      padding: const EdgeInsets.only(top: 4),
+                      child: SelectableText(
+                        _errorDetail!,
+                        style: Theme.of(context).textTheme.labelSmall,
+                      ),
+                    ),
                 ],
                 const SizedBox(height: 16),
                 SegmentedButton<ExportFormat>(

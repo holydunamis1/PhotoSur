@@ -115,3 +115,8 @@ const int kMaxWorkingEdgePx = 2048;
 const Duration kUnfinishedEditReminderDelay = Duration(hours: 3);
 const String kReminderChannelId = 'unfinished_edit';
 
+
+/// Shows the failing step and error type under the export-failed message so a
+/// phone-only tester can report what went wrong. Switch to false before
+/// store release.
+const bool kShowExportDiagnostics = true;
