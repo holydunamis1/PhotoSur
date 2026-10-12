@@ -19,7 +19,8 @@ const _languages = [
   'he', 'ja', 'ko', 'zh', 'ru', 'it', 'pl', 'vi', 'th', //
   'zh_Hant', 'nl', 'uk', 'sv', 'bn', 'ur', 'fa', 'fil', 'ms', //
   'ta', 'te', 'mr', 'gu', 'sw', 'ro', //
-  'ml', 'el', 'cs', 'hu', 'da',
+  'ml', 'el', 'cs', 'hu', 'da', //
+  'fi', 'nb', 'sk', 'bg', 'ca',
 ];
 
 /// Languages written right-to-left.
