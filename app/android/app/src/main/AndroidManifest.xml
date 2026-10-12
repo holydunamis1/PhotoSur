@@ -47,6 +47,7 @@
         android:label="KatharErase"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
+        android:localeConfig="@xml/locales_config"
         android:requestLegacyExternalStorage="true">
         <!--
             requestLegacyExternalStorage="true" — Gap 14 addition

@@ -89,13 +89,17 @@ class _AdBannerSlotState extends State<AdBannerSlot> {
       builder: (context, isAdFree, _) {
         final banner = _banner;
         if (isAdFree || _failed) return const SizedBox.shrink();
+        // A screen covered by another full page (Home under the Editor) has
+        // its tickers switched off by the Navigator. Hold the slot's space
+        // but do not draw the ad, so only one banner is live on screen.
+        final covered = !TickerMode.of(context);
         return SizedBox(
           height: kAdBannerSlotHeight,
           width: double.infinity,
           child: Padding(
             padding: const EdgeInsets.only(top: kAdBannerGap),
-            child: (banner == null || !_loaded)
-                ? null // loading: space is held, nothing drawn
+            child: (banner == null || !_loaded || covered)
+                ? null // loading or covered: space is held, nothing drawn
                 : Center(
                     child: SizedBox(
                       width: kAdBannerWidth,
