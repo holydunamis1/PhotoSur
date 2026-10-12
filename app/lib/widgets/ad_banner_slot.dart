@@ -92,7 +92,7 @@ class _AdBannerSlotState extends State<AdBannerSlot> {
         // A screen covered by another full page (Home under the Editor) has
         // its tickers switched off by the Navigator. Hold the slot's space
         // but do not draw the ad, so only one banner is live on screen.
-        final covered = !TickerMode.of(context);
+        final covered = !TickerMode.valuesOf(context).enabled;
         return SizedBox(
           height: kAdBannerSlotHeight,
           width: double.infinity,
