@@ -23,12 +23,17 @@ class PreparedImage {
     required this.width,
     required this.height,
     required this.modelInput,
+    required this.guideGray,
   });
 
   final String path;
   final int width;
   final int height;
   final Float32List modelInput;
+
+  /// 8-bit luminance of the working image (width x height), used to snap the
+  /// mask's edges to the photo's real edges.
+  final Uint8List guideGray;
 }
 
 /// Decodes [sourcePath], fixes EXIF rotation, caps the longest edge at
@@ -96,12 +101,18 @@ Future<PreparedImage> _prepare(String sourcePath, String workDir) async {
   // Model input: RGB only. Transparent pixels are flattened onto white so
   // PNGs with alpha don't feed black holes to the model.
   final rgb = Uint8List(image.width * image.height * 3);
+  final gray = Uint8List(image.width * image.height);
   var o = 0;
+  var g = 0;
   for (final p in image) {
     final a = hasAlpha ? p.a / 255.0 : 1.0;
-    rgb[o++] = (p.r * a + 255 * (1 - a)).round();
-    rgb[o++] = (p.g * a + 255 * (1 - a)).round();
-    rgb[o++] = (p.b * a + 255 * (1 - a)).round();
+    final r = (p.r * a + 255 * (1 - a)).round();
+    final gr = (p.g * a + 255 * (1 - a)).round();
+    final b = (p.b * a + 255 * (1 - a)).round();
+    rgb[o++] = r;
+    rgb[o++] = gr;
+    rgb[o++] = b;
+    gray[g++] = (0.299 * r + 0.587 * gr + 0.114 * b).round().clamp(0, 255);
   }
 
   return PreparedImage(
@@ -109,5 +120,6 @@ Future<PreparedImage> _prepare(String sourcePath, String workDir) async {
     width: image.width,
     height: image.height,
     modelInput: preprocessRgb(rgb, image.width, image.height),
+    guideGray: gray,
   );
 }

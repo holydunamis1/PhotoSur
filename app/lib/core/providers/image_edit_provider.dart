@@ -5,20 +5,30 @@ import 'package:flutter/foundation.dart';
 
 import '../models/editable_image_state.dart';
 import '../services/mask_pipeline.dart';
+import '../services/mask_refine.dart';
 import '../services/segmentation_service.dart';
 import '../utils/background_presets.dart';
 import '../utils/subject_layout.dart';
 
 /// Arguments for [_postprocessInIsolate] (kept sendable: only typed data).
 class _PostprocessArgs {
-  const _PostprocessArgs(this.probs, this.width, this.height);
+  const _PostprocessArgs(this.probs, this.width, this.height, this.guideGray);
   final Float32List probs;
   final int width;
   final int height;
+  final Uint8List? guideGray;
 }
 
-Uint8List _postprocessInIsolate(_PostprocessArgs args) =>
-    postprocessMask(args.probs, args.width, args.height);
+Uint8List _postprocessInIsolate(_PostprocessArgs args) {
+  final mask = postprocessMask(args.probs, args.width, args.height);
+  final guide = args.guideGray;
+  if (guide == null) return mask;
+  try {
+    return refineMask(mask, guide, args.width, args.height);
+  } catch (_) {
+    return mask; // refinement is an extra: never let it break a cut-out
+  }
+}
 
 class ImageEditProvider extends ValueNotifier<EditableImageState> {
   ImageEditProvider() : super(const EditableImageState());
@@ -53,15 +63,16 @@ class ImageEditProvider extends ValueNotifier<EditableImageState> {
   Future<void> autoSegment(
     Float32List modelInput,
     int width,
-    int height,
-  ) async {
+    int height, {
+    Uint8List? guideGray,
+  }) async {
     final token = _loadToken;
     value = value.copyWith(isProcessing: true, autoSegmentationFailed: false);
     try {
       final probs = await SegmentationService.instance.infer(modelInput);
       final mask = await compute(
         _postprocessInIsolate,
-        _PostprocessArgs(probs, width, height),
+        _PostprocessArgs(probs, width, height, guideGray),
       );
       if (token != _loadToken) return;
       value = value.copyWith(
