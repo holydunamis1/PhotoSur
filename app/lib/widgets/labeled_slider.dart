@@ -10,6 +10,7 @@ class LabeledSlider extends StatelessWidget {
     required this.max,
     required this.onChanged,
     required this.valueText,
+    this.compact = false,
   });
 
   final String label;
@@ -18,6 +19,9 @@ class LabeledSlider extends StatelessWidget {
   final double max;
   final ValueChanged<double> onChanged;
   final String valueText;
+
+  /// A shorter row (36 px) for panels that are tight on height.
+  final bool compact;
 
   @override
   Widget build(BuildContext context) {
@@ -34,11 +38,14 @@ class LabeledSlider extends StatelessWidget {
           ),
         ),
         Expanded(
-          child: Slider(
-            value: value.clamp(min, max),
-            min: min,
-            max: max,
-            onChanged: onChanged,
+          child: SizedBox(
+            height: compact ? 36 : null,
+            child: Slider(
+              value: value.clamp(min, max),
+              min: min,
+              max: max,
+              onChanged: onChanged,
+            ),
           ),
         ),
         SizedBox(

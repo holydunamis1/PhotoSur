@@ -25,6 +25,10 @@ const List<Color> _presetSwatches = [
   Color(0xFF6B7280),
 ];
 
+/// Fixed part of the swatch row's height (circle + gap + safety); the label's
+/// own height is added on top, scaled with the user's text size.
+const double kSwatchRowBaseHeight = 40;
+
 /// Background tool: two labelled buttons (custom background photo, custom
 /// colour) that are always visible, one row of quick choices and preset
 /// colours (the only sideways-scrolling part, with a fade at the edge), and
@@ -68,9 +72,10 @@ class BackgroundSelector extends StatelessWidget {
                 ),
               ],
             ),
-            const SizedBox(height: 6),
+            const SizedBox(height: 4),
             SizedBox(
-              height: 70,
+              height: kSwatchRowBaseHeight +
+                  MediaQuery.textScalerOf(context).scale(16),
               child: _FadingRow(
                 children: [
                   _Swatch(
@@ -127,6 +132,7 @@ class BackgroundSelector extends StatelessWidget {
               max: kBackgroundBlurMaxPx,
               onChanged: provider.setBlurRadius,
               valueText: state.blurRadius.round().toString(),
+              compact: true,
             ),
           ],
         );
@@ -195,14 +201,14 @@ class _BigChoice extends StatelessWidget {
         ),
         onTap: onTap,
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
           child: Row(
             children: [
               swatch == null
-                  ? Icon(icon, size: 22, color: p.accentText)
+                  ? Icon(icon, size: 20, color: p.accentText)
                   : Container(
-                      width: 22,
-                      height: 22,
+                      width: 20,
+                      height: 20,
                       decoration: BoxDecoration(
                         color: swatch,
                         shape: BoxShape.circle,
@@ -215,7 +221,7 @@ class _BigChoice extends StatelessWidget {
                   label,
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
-                  style: Theme.of(context).textTheme.labelLarge,
+                  style: Theme.of(context).textTheme.labelMedium,
                 ),
               ),
             ],
@@ -332,6 +338,26 @@ class _CustomColorSheetState extends State<_CustomColorSheet> {
                   HSVColor.fromAHSV(1, h.toDouble(), 1, 1).toColor(),
               ],
               onChanged: (v) => _setHsv(_hsv.withHue(v)),
+            ),
+            _GradientSlider(
+              label: l10n.colorSaturation,
+              value: _hsv.saturation,
+              max: 1,
+              colors: [
+                _hsv.withSaturation(0).toColor(),
+                _hsv.withSaturation(1).toColor(),
+              ],
+              onChanged: (v) => _setHsv(_hsv.withSaturation(v)),
+            ),
+            _GradientSlider(
+              label: l10n.colorBrightness,
+              value: _hsv.value,
+              max: 1,
+              colors: [
+                _hsv.withValue(0).toColor(),
+                _hsv.withValue(1).toColor(),
+              ],
+              onChanged: (v) => _setHsv(_hsv.withValue(v)),
             ),
             const SizedBox(height: 8),
             TextField(
@@ -453,17 +479,17 @@ class _Swatch extends StatelessWidget {
   Widget build(BuildContext context) {
     final p = context.palette;
     return SizedBox(
-      width: 68,
+      width: 60,
       child: InkResponse(
         onTap: onTap,
-        radius: 34,
+        radius: 30,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
-              width: 44,
-              height: 44,
-              padding: const EdgeInsets.all(3),
+              width: 36,
+              height: 36,
+              padding: const EdgeInsets.all(2),
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
                 border: Border.all(

@@ -1,11 +1,13 @@
-// Measurement only (no assertions): prints the natural height of the
-// Background tool's content so the panel height can be chosen from numbers.
+// Regression guard: the Background tool's content must fit the fixed tool
+// panel at normal text size (so nothing needs scrolling and the photo never
+// loses space). Large text is only reported.
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:katharerase/core/providers/image_edit_provider.dart';
 import 'package:katharerase/core/theme/app_theme.dart';
 import 'package:katharerase/generated/l10n/app_localizations.dart';
 import 'package:katharerase/widgets/background_selector.dart';
+import 'package:katharerase/widgets/editor_tool_panel.dart';
 import 'package:provider/provider.dart';
 
 Future<double> _measure(
@@ -32,7 +34,7 @@ Future<double> _measure(
         ),
         home: const Scaffold(
           body: SingleChildScrollView(
-            padding: EdgeInsetsDirectional.fromSTEB(16, 8, 12, 4),
+            padding: EdgeInsetsDirectional.fromSTEB(16, 6, 12, 2),
             child: BackgroundSelector(),
           ),
         ),
@@ -46,13 +48,17 @@ Future<double> _measure(
 void main() {
   setUpAll(() => Provider.debugCheckInvalidValueType = null);
 
-  testWidgets('MEASURE summary', (tester) async {
+  testWidgets('background content fits the panel at normal text', (tester) async {
     final out = <String>[];
     for (final code in ['en', 'de', 'ru', 'fil', 'vi', 'ta']) {
       final cells = <String>[];
       for (final width in [320.0, 360.0]) {
         for (final scale in [1.0, 1.3]) {
           final h = await _measure(tester, code, width, scale);
+          if (scale == 1.0) {
+            expect(h, lessThanOrEqualTo(kEditorToolPanelHeight - 8),
+                reason: '$code ${width.toInt()}');
+          }
           cells.add('${width.toInt()}x$scale=${h.toStringAsFixed(0)}');
         }
       }
