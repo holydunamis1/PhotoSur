@@ -154,6 +154,6 @@
   "colorPickerDone": "Gotowe",
   "exportMarketplaceLabel": "Marketplace",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
-  "exportMarketplaceWhiteFill": "Czysto biały fundament, produkt wypełnia kadr",
+  "exportMarketplaceWhiteFill": "Czysto białe tło, produkt wypełnia kadr",
   "exportMarketplaceSizeCap": "Plik poniżej {size} MB"
 }
