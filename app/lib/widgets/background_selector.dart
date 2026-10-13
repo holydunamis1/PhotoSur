@@ -145,13 +145,14 @@ class _FadingRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final rtl = Directionality.maybeOf(context) == TextDirection.rtl;
     return ShaderMask(
       blendMode: BlendMode.dstIn,
-      shaderCallback: (rect) => const LinearGradient(
-        begin: AlignmentDirectional.centerStart,
-        end: AlignmentDirectional.centerEnd,
-        colors: [Colors.black, Colors.black, Colors.transparent],
-        stops: [0, 0.88, 1],
+      shaderCallback: (rect) => LinearGradient(
+        begin: rtl ? Alignment.centerRight : Alignment.centerLeft,
+        end: rtl ? Alignment.centerLeft : Alignment.centerRight,
+        colors: const [Colors.black, Colors.black, Colors.transparent],
+        stops: const [0, 0.88, 1],
       ).createShader(rect),
       child: ListView(
         scrollDirection: Axis.horizontal,
