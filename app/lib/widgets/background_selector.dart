@@ -70,7 +70,7 @@ class BackgroundSelector extends StatelessWidget {
             ),
             const SizedBox(height: 6),
             SizedBox(
-              height: 62,
+              height: 70,
               child: _FadingRow(
                 children: [
                   _Swatch(
