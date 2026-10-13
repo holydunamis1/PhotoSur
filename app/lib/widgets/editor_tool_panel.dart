@@ -10,7 +10,7 @@ import 'editor_tool_dock.dart';
 /// Every tool's panel is exactly this tall, so the photo canvas above never
 /// changes size when you switch tools (it used to jump, which made the photo
 /// look stretched).
-const double kEditorToolPanelHeight = 148;
+const double kEditorToolPanelHeight = 176;
 
 class EditorToolPanel extends StatelessWidget {
   const EditorToolPanel({super.key, required this.tool});
@@ -24,23 +24,16 @@ class EditorToolPanel extends StatelessWidget {
       height: kEditorToolPanelHeight,
       child: DecoratedBox(
         decoration: BoxDecoration(color: p.surface),
-        child: switch (tool) {
-          // Pins its own two main buttons; only its swatches scroll.
-          EditorTool.background => const Padding(
-              padding: EdgeInsetsDirectional.fromSTEB(16, 8, 12, 4),
-              child: BackgroundSelector(),
-            ),
-          // The others scroll instead of overflowing when text is scaled up.
-          _ => SingleChildScrollView(
-              padding: const EdgeInsetsDirectional.fromSTEB(16, 8, 12, 4),
-              child: switch (tool) {
-                EditorTool.cutout => const EdgeFeatherSlider(),
-                EditorTool.brush => const BrushControls(),
-                EditorTool.layout => const LayoutControls(),
-                EditorTool.background => const SizedBox.shrink(),
-              },
-            ),
-        },
+        // Scrolls instead of overflowing when text is scaled up.
+        child: SingleChildScrollView(
+          padding: const EdgeInsetsDirectional.fromSTEB(16, 8, 12, 4),
+          child: switch (tool) {
+            EditorTool.cutout => const EdgeFeatherSlider(),
+            EditorTool.brush => const BrushControls(),
+            EditorTool.background => const BackgroundSelector(),
+            EditorTool.layout => const LayoutControls(),
+          },
+        ),
       ),
     );
   }

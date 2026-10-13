@@ -25,9 +25,10 @@ const List<Color> _presetSwatches = [
   Color(0xFF6B7280),
 ];
 
-/// Background tool. Everything is on screen at once (no sideways scrolling):
-/// two labelled buttons (custom background photo, custom colour), the quick
-/// choices, the preset colours as shortcuts, and Blur.
+/// Background tool: two labelled buttons (custom background photo, custom
+/// colour) that are always visible, one row of quick choices and preset
+/// colours (the only sideways-scrolling part, with a fade at the edge), and
+/// Blur.
 class BackgroundSelector extends StatelessWidget {
   const BackgroundSelector({super.key});
 
@@ -41,10 +42,8 @@ class BackgroundSelector extends StatelessWidget {
         final customColor = state.backgroundType == BackgroundType.solidColor
             ? state.bgColor
             : null;
-        // The two main actions are pinned and always visible; only the
-        // wrapped swatches below them scroll (vertically, with the next row
-        // peeking), because the tool panel keeps a fixed height.
         return Column(
+          mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Row(
@@ -69,55 +68,57 @@ class BackgroundSelector extends StatelessWidget {
                 ),
               ],
             ),
-            const SizedBox(height: 4),
-            Expanded(
-              child: SingleChildScrollView(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-            Wrap(
-              alignment: WrapAlignment.start,
-              children: [
-                _Swatch(
-                  label: l10n.backgroundWhite,
-                  color: Colors.white,
-                  selected: state.backgroundType == BackgroundType.white,
-                  onTap: () => provider.setBackgroundType(BackgroundType.white),
-                ),
-                _Swatch(
-                  label: l10n.backgroundTransparent,
-                  color: null,
-                  selected: state.backgroundType == BackgroundType.transparent,
-                  onTap: () =>
-                      provider.setBackgroundType(BackgroundType.transparent),
-                ),
-                _Swatch(
-                  label: l10n.backgroundBlack,
-                  color: Colors.black,
-                  selected: state.backgroundType == BackgroundType.black,
-                  onTap: () => provider.setBackgroundType(BackgroundType.black),
-                ),
-                for (var i = 0; i < kGradientPresets.length; i++)
+            const SizedBox(height: 6),
+            SizedBox(
+              height: 62,
+              child: _FadingRow(
+                children: [
                   _Swatch(
-                    label: null,
+                    label: l10n.backgroundWhite,
+                    color: Colors.white,
+                    selected: state.backgroundType == BackgroundType.white,
+                    onTap: () =>
+                        provider.setBackgroundType(BackgroundType.white),
+                  ),
+                  _Swatch(
+                    label: l10n.backgroundTransparent,
                     color: null,
-                    gradient: [
-                      Color(kGradientPresets[i][0]),
-                      Color(kGradientPresets[i][1]),
-                    ],
-                    selected: state.backgroundType == BackgroundType.gradient &&
-                        state.gradientIndex == i,
-                    onTap: () => provider.setGradient(i),
+                    selected:
+                        state.backgroundType == BackgroundType.transparent,
+                    onTap: () =>
+                        provider.setBackgroundType(BackgroundType.transparent),
                   ),
-                for (final swatch in _presetSwatches)
                   _Swatch(
-                    label: null,
-                    color: swatch,
-                    selected: state.backgroundType == BackgroundType.solidColor &&
-                        state.bgColor == swatch,
-                    onTap: () => provider.setBgColor(swatch),
+                    label: l10n.backgroundBlack,
+                    color: Colors.black,
+                    selected: state.backgroundType == BackgroundType.black,
+                    onTap: () =>
+                        provider.setBackgroundType(BackgroundType.black),
                   ),
-              ],
+                  for (var i = 0; i < kGradientPresets.length; i++)
+                    _Swatch(
+                      label: null,
+                      color: null,
+                      gradient: [
+                        Color(kGradientPresets[i][0]),
+                        Color(kGradientPresets[i][1]),
+                      ],
+                      selected:
+                          state.backgroundType == BackgroundType.gradient &&
+                              state.gradientIndex == i,
+                      onTap: () => provider.setGradient(i),
+                    ),
+                  for (final swatch in _presetSwatches)
+                    _Swatch(
+                      label: null,
+                      color: swatch,
+                      selected:
+                          state.backgroundType == BackgroundType.solidColor &&
+                              state.bgColor == swatch,
+                      onTap: () => provider.setBgColor(swatch),
+                    ),
+                ],
+              ),
             ),
             LabeledSlider(
               label: l10n.backgroundBlurLabel,
@@ -127,10 +128,6 @@ class BackgroundSelector extends StatelessWidget {
               onChanged: provider.setBlurRadius,
               valueText: state.blurRadius.round().toString(),
             ),
-                  ],
-                ),
-              ),
-            ),
           ],
         );
       },
@@ -138,7 +135,32 @@ class BackgroundSelector extends StatelessWidget {
   }
 }
 
-/// A full-width, labelled choice button (never hidden in a scroll row).
+/// A sideways row of quick choices with a soft fade at the trailing edge, so
+/// it is obvious there is more. Only shortcuts live here: the two main
+/// actions above it are never inside a scroll.
+class _FadingRow extends StatelessWidget {
+  const _FadingRow({required this.children});
+
+  final List<Widget> children;
+
+  @override
+  Widget build(BuildContext context) {
+    return ShaderMask(
+      blendMode: BlendMode.dstIn,
+      shaderCallback: (rect) => const LinearGradient(
+        begin: AlignmentDirectional.centerStart,
+        end: AlignmentDirectional.centerEnd,
+        colors: [Colors.black, Colors.black, Colors.transparent],
+        stops: [0, 0.88, 1],
+      ).createShader(rect),
+      child: ListView(
+        scrollDirection: Axis.horizontal,
+        children: children,
+      ),
+    );
+  }
+}
+
 class _BigChoice extends StatelessWidget {
   const _BigChoice({
     required this.icon,
@@ -295,6 +317,11 @@ class _CustomColorSheetState extends State<_CustomColorSheet> {
               ),
             ),
             const SizedBox(height: 12),
+            _SatValueSquare(
+              hsv: _hsv,
+              onChanged: _setHsv,
+            ),
+            const SizedBox(height: 8),
             _GradientSlider(
               label: l10n.colorHue,
               value: _hsv.hue,
@@ -304,26 +331,6 @@ class _CustomColorSheetState extends State<_CustomColorSheet> {
                   HSVColor.fromAHSV(1, h.toDouble(), 1, 1).toColor(),
               ],
               onChanged: (v) => _setHsv(_hsv.withHue(v)),
-            ),
-            _GradientSlider(
-              label: l10n.colorSaturation,
-              value: _hsv.saturation,
-              max: 1,
-              colors: [
-                _hsv.withSaturation(0).toColor(),
-                _hsv.withSaturation(1).toColor(),
-              ],
-              onChanged: (v) => _setHsv(_hsv.withSaturation(v)),
-            ),
-            _GradientSlider(
-              label: l10n.colorBrightness,
-              value: _hsv.value,
-              max: 1,
-              colors: [
-                _hsv.withValue(0).toColor(),
-                _hsv.withValue(1).toColor(),
-              ],
-              onChanged: (v) => _setHsv(_hsv.withValue(v)),
             ),
             const SizedBox(height: 8),
             TextField(
@@ -519,4 +526,82 @@ class _CheckerPainter extends CustomPainter {
 
   @override
   bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
+}
+
+/// Saturation (left to right) and brightness (bottom to top) for the current
+/// hue, picked by touching or dragging on the square.
+class _SatValueSquare extends StatelessWidget {
+  const _SatValueSquare({required this.hsv, required this.onChanged});
+
+  final HSVColor hsv;
+  final ValueChanged<HSVColor> onChanged;
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      height: 180,
+      child: LayoutBuilder(
+        builder: (context, box) {
+          void pick(Offset o) {
+            final s = (o.dx / box.maxWidth).clamp(0.0, 1.0);
+            final v = 1 - (o.dy / box.maxHeight).clamp(0.0, 1.0);
+            onChanged(hsv.withSaturation(s).withValue(v));
+          }
+
+          return GestureDetector(
+            onPanDown: (d) => pick(d.localPosition),
+            onPanUpdate: (d) => pick(d.localPosition),
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(AppRadius.m),
+              child: Stack(
+                children: [
+                  Positioned.fill(
+                    child: DecoratedBox(
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                          colors: [
+                            Colors.white,
+                            HSVColor.fromAHSV(1, hsv.hue, 1, 1).toColor(),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  const Positioned.fill(
+                    child: DecoratedBox(
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                          begin: Alignment.topCenter,
+                          end: Alignment.bottomCenter,
+                          colors: [Colors.transparent, Colors.black],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Positioned(
+                    left: hsv.saturation * box.maxWidth - 11,
+                    top: (1 - hsv.value) * box.maxHeight - 11,
+                    child: IgnorePointer(
+                      child: Container(
+                        width: 22,
+                        height: 22,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          color: hsv.toColor(),
+                          border: Border.all(color: Colors.white, width: 3),
+                          boxShadow: const [
+                            BoxShadow(color: Colors.black38, blurRadius: 4),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          );
+        },
+      ),
+    );
+  }
 }
