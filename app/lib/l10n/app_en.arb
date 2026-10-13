@@ -174,5 +174,11 @@
   "colorSaturation": "Saturation",
   "colorBrightness": "Brightness",
   "colorHexLabel": "Hex code",
-  "colorPickerDone": "Done"
+  "colorPickerDone": "Done",
+  "exportMarketplaceLabel": "Marketplace",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "@exportMarketplaceSummary": {"placeholders": {"width": {"type": "int"}, "height": {"type": "int"}, "format": {"type": "String"}}},
+  "exportMarketplaceWhiteFill": "Pure white background, product fills the frame",
+  "exportMarketplaceSizeCap": "File kept under {size} MB",
+  "@exportMarketplaceSizeCap": {"placeholders": {"size": {"type": "String"}}}
 }

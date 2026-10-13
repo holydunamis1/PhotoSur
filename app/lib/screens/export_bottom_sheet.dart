@@ -14,6 +14,8 @@ import '../core/services/export_service.dart';
 import '../core/services/share_service.dart';
 import '../core/services/storage_service.dart';
 import '../core/utils/constants.dart' show kShowExportDiagnostics;
+import '../core/utils/marketplace_presets.dart';
+import '../core/models/editable_image_state.dart' show BackgroundType;
 import '../generated/l10n/app_localizations.dart';
 import '../platform/notification_service.dart';
 import '../widgets/loading_overlay.dart';
@@ -31,6 +33,9 @@ class _ExportBottomSheetState extends State<ExportBottomSheet> {
   ExportFormat _format = ExportFormat.png;
   int _quality = 90;
   ResizeMode _resizeMode = ResizeMode.original;
+  // When set, the marketplace's size, format, file-size cap and layout rules
+  // replace the manual format / resize choices.
+  MarketplacePreset? _marketplace;
   bool _isExporting = false;
   // Shown INSIDE the sheet: a toast would appear on the page behind it,
   // hidden by the sheet itself.
@@ -48,6 +53,16 @@ class _ExportBottomSheetState extends State<ExportBottomSheet> {
 
   bool get _showQualitySlider =>
       _format == ExportFormat.jpg || _format == ExportFormat.webp;
+
+  void _chooseMarketplace(MarketplacePreset? preset) {
+    setState(() {
+      _marketplace = preset;
+      if (preset != null) {
+        _format = preset.format;
+        _quality = preset.quality;
+      }
+    });
+  }
 
   String _generateId() {
     final now = DateTime.now().microsecondsSinceEpoch;
@@ -78,28 +93,48 @@ class _ExportBottomSheetState extends State<ExportBottomSheet> {
           (Uint8List(maskLength)..fillRange(0, maskLength, 255));
 
       stage = 'compose image';
+      final preset = _marketplace;
+      final fit = preset == null
+          ? null
+          : marketplaceSubjectLayout(
+              preset,
+              maskBytes,
+              state.imageSize!.width.round(),
+              state.imageSize!.height.round(),
+            );
       final exportBytes = await ExportService.instance.compositeAndExport(
         originalBytes: originalBytes,
         maskBytes: maskBytes,
-        backgroundType: state.backgroundType,
+        backgroundType: (preset?.pureWhite ?? false)
+            ? BackgroundType.white
+            : state.backgroundType,
         bgColor: state.bgColor,
         blurRadius: state.blurRadius,
         edgeFeather: state.edgeFeather,
         gradientIndex: state.gradientIndex,
         bgImageBytes: state.bgImageBytes,
-        shadowOpacity: state.shadowOpacity,
-        subjectScale: state.subjectScale,
-        subjectOffset: state.subjectOffset,
-        canvasAspect: state.canvasAspect,
+        shadowOpacity:
+            (preset?.pureWhite ?? false) ? 0.0 : state.shadowOpacity,
+        subjectScale: fit?.scale ?? state.subjectScale,
+        subjectOffset: fit == null
+            ? state.subjectOffset
+            : Offset(fit.offsetX, fit.offsetY),
+        canvasAspect: preset == null ? state.canvasAspect : null,
         format: _format,
         quality: _quality,
-        resizeMode: _resizeMode,
-        customWidth: _resizeMode == ResizeMode.custom
-            ? int.tryParse(_customWidthController.text)
-            : null,
-        customHeight: _resizeMode == ResizeMode.custom
-            ? int.tryParse(_customHeightController.text)
-            : null,
+        resizeMode: preset == null ? _resizeMode : ResizeMode.custom,
+        customWidth: preset != null
+            ? preset.width
+            : (_resizeMode == ResizeMode.custom
+                ? int.tryParse(_customWidthController.text)
+                : null),
+        customHeight: preset != null
+            ? preset.height
+            : (_resizeMode == ResizeMode.custom
+                ? int.tryParse(_customHeightController.text)
+                : null),
+        maxBytes: preset?.maxBytes,
+        minQuality: preset?.minQuality ?? 60,
       );
 
       stage = 'write file';
@@ -121,9 +156,9 @@ class _ExportBottomSheetState extends State<ExportBottomSheet> {
           id: _generateId(),
           format: _format,
           quality: _quality,
-          width: state.imageSize!.width.round(),
-          height: state.imageSize!.height.round(),
-          resizeMode: _resizeMode,
+          width: _marketplace?.width ?? state.imageSize!.width.round(),
+          height: _marketplace?.height ?? state.imageSize!.height.round(),
+          resizeMode: _marketplace == null ? _resizeMode : ResizeMode.custom,
           filePath: filePath,
           status: ExportStatus.complete,
           createdAt: DateTime.now(),
@@ -230,7 +265,10 @@ class _ExportBottomSheetState extends State<ExportBottomSheet> {
                     ButtonSegment(value: ExportFormat.webp, label: Text(l10n.exportFormatWebp)),
                   ],
                   selected: {_format},
-                  onSelectionChanged: (s) => setState(() => _format = s.first),
+                  onSelectionChanged: (s) => setState(() {
+                    _format = s.first;
+                    _marketplace = null;
+                  }),
                 ),
                 if (_showQualitySlider) ...[
                   const SizedBox(height: 12),
@@ -246,38 +284,90 @@ class _ExportBottomSheetState extends State<ExportBottomSheet> {
                   ),
                 ],
                 const SizedBox(height: 12),
+                Text(l10n.exportMarketplaceLabel, style: Theme.of(context).textTheme.labelMedium),
+                Wrap(
+                  spacing: 8,
+                  children: [
+                    for (final preset in kMarketplacePresets)
+                      ChoiceChip(
+                        label: Text(preset.name),
+                        selected: _marketplace == preset,
+                        onSelected: (on) => _chooseMarketplace(on ? preset : null),
+                      ),
+                  ],
+                ),
+                if (_marketplace != null) ...[
+                  const SizedBox(height: 6),
+                  Text(
+                    [
+                      l10n.exportMarketplaceSummary(
+                        _marketplace!.width,
+                        _marketplace!.height,
+                        switch (_marketplace!.format) {
+                          ExportFormat.png => 'PNG',
+                          ExportFormat.jpg => 'JPG',
+                          ExportFormat.webp => 'WEBP',
+                        },
+                      ),
+                      if (_marketplace!.pureWhite) l10n.exportMarketplaceWhiteFill,
+                      if (_marketplace!.maxBytes != null)
+                        l10n.exportMarketplaceSizeCap(
+                          (_marketplace!.maxBytes! / 1000000).toStringAsFixed(
+                            _marketplace!.maxBytes! % 1000000 == 0 ? 0 : 1,
+                          ),
+                        ),
+                    ].join('\n'),
+                    style: Theme.of(context).textTheme.bodySmall,
+                  ),
+                ],
+                const SizedBox(height: 12),
                 Text(l10n.exportResizeLabel, style: Theme.of(context).textTheme.labelMedium),
                 Wrap(
                   spacing: 8,
                   children: [
                     ChoiceChip(
                       label: Text(l10n.exportResizeOriginal),
-                      selected: _resizeMode == ResizeMode.original,
-                      onSelected: (_) => setState(() => _resizeMode = ResizeMode.original),
+                      selected: _marketplace == null && _resizeMode == ResizeMode.original,
+                      onSelected: (_) => setState(() {
+                        _resizeMode = ResizeMode.original;
+                        _marketplace = null;
+                      }),
                     ),
                     ChoiceChip(
                       label: Text(l10n.cropAspect1x1),
-                      selected: _resizeMode == ResizeMode.square1x1,
-                      onSelected: (_) => setState(() => _resizeMode = ResizeMode.square1x1),
+                      selected: _marketplace == null && _resizeMode == ResizeMode.square1x1,
+                      onSelected: (_) => setState(() {
+                        _resizeMode = ResizeMode.square1x1;
+                        _marketplace = null;
+                      }),
                     ),
                     ChoiceChip(
                       label: Text(l10n.cropAspect4x5),
-                      selected: _resizeMode == ResizeMode.portrait4x5,
-                      onSelected: (_) => setState(() => _resizeMode = ResizeMode.portrait4x5),
+                      selected: _marketplace == null && _resizeMode == ResizeMode.portrait4x5,
+                      onSelected: (_) => setState(() {
+                        _resizeMode = ResizeMode.portrait4x5;
+                        _marketplace = null;
+                      }),
                     ),
                     ChoiceChip(
                       label: Text(l10n.cropAspect9x16),
-                      selected: _resizeMode == ResizeMode.portrait9x16,
-                      onSelected: (_) => setState(() => _resizeMode = ResizeMode.portrait9x16),
+                      selected: _marketplace == null && _resizeMode == ResizeMode.portrait9x16,
+                      onSelected: (_) => setState(() {
+                        _resizeMode = ResizeMode.portrait9x16;
+                        _marketplace = null;
+                      }),
                     ),
                     ChoiceChip(
                       label: Text(l10n.exportResizeCustom),
-                      selected: _resizeMode == ResizeMode.custom,
-                      onSelected: (_) => setState(() => _resizeMode = ResizeMode.custom),
+                      selected: _marketplace == null && _resizeMode == ResizeMode.custom,
+                      onSelected: (_) => setState(() {
+                        _resizeMode = ResizeMode.custom;
+                        _marketplace = null;
+                      }),
                     ),
                   ],
                 ),
-                if (_resizeMode == ResizeMode.custom) ...[
+                if (_marketplace == null && _resizeMode == ResizeMode.custom) ...[
                   const SizedBox(height: 8),
                   Row(
                     children: [

@@ -151,5 +151,9 @@
   "colorSaturation": "Verzadiging",
   "colorBrightness": "Helderheid",
   "colorHexLabel": "Hexcode",
-  "colorPickerDone": "Klaar"
+  "colorPickerDone": "Klaar",
+  "exportMarketplaceLabel": "Marktplaats",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "Zuiver witte achtergrond, product vult het beeld",
+  "exportMarketplaceSizeCap": "Bestand kleiner dan {size} MB"
 }

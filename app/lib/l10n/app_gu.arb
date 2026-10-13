@@ -170,5 +170,9 @@
   "colorSaturation": "સંતૃપ્તિ",
   "colorBrightness": "તેજસ્વિતા",
   "colorHexLabel": "હેક્સ કોડ",
-  "colorPickerDone": "પૂર્ણ"
+  "colorPickerDone": "પૂર્ણ",
+  "exportMarketplaceLabel": "માર્કેટપ્લેસ",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "શુદ્ધ સફેદ બૅકગ્રાઉન્ડ, પ્રોડક્ટ ફ્રેમ ભરે છે",
+  "exportMarketplaceSizeCap": "ફાઇલ {size} MB થી ઓછી"
 }

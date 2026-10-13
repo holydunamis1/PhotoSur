@@ -6,7 +6,9 @@ import 'package:provider/provider.dart';
 
 import '../core/models/batch_progress.dart';
 import '../core/providers/ad_provider.dart';
+import '../core/models/export_job.dart' show ExportFormat;
 import '../core/theme/app_tokens.dart';
+import '../core/utils/marketplace_presets.dart';
 import '../generated/l10n/app_localizations.dart';
 import '../platform/batch_service.dart';
 import '../widgets/ad_banner_slot.dart';
@@ -28,6 +30,7 @@ class BatchScreen extends StatefulWidget {
 class _BatchScreenState extends State<BatchScreen> {
   late final ValueNotifier<BatchProgress> _progress;
   bool _white = false;
+  MarketplacePreset? _marketplace;
   bool _stopRequested = false;
 
   @override
@@ -56,6 +59,7 @@ class _BatchScreenState extends State<BatchScreen> {
         widget.imagePaths[i],
         whiteBackground: _white,
         serial: i,
+        preset: _marketplace,
       );
       if (!mounted) return;
       _progress.value = _progress.value
@@ -116,8 +120,49 @@ class _BatchScreenState extends State<BatchScreen> {
                       selected: {_white},
                       onSelectionChanged: progress.running
                           ? null
-                          : (s) => setState(() => _white = s.first),
+                          : (s) => setState(() {
+                                _white = s.first;
+                                _marketplace = null;
+                              }),
                     ),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(16, 0, 16, 4),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(l10n.exportMarketplaceLabel,
+                          style: theme.textTheme.labelMedium),
+                      Wrap(
+                        spacing: 8,
+                        children: [
+                          for (final preset in kMarketplacePresets)
+                            ChoiceChip(
+                              label: Text(preset.name),
+                              selected: _marketplace == preset,
+                              onSelected: progress.running
+                                  ? null
+                                  : (on) => setState(
+                                      () => _marketplace = on ? preset : null),
+                            ),
+                        ],
+                      ),
+                      if (_marketplace != null)
+                        Padding(
+                          padding: const EdgeInsets.only(top: 4),
+                          child: Text(
+                            l10n.exportMarketplaceSummary(
+                              _marketplace!.width,
+                              _marketplace!.height,
+                              _marketplace!.format == ExportFormat.png
+                                  ? 'PNG'
+                                  : 'JPG',
+                            ),
+                            style: theme.textTheme.bodySmall,
+                          ),
+                        ),
+                    ],
                   ),
                 ),
                 Expanded(

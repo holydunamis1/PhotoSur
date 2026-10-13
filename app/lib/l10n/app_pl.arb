@@ -151,5 +151,9 @@
   "colorSaturation": "Nasycenie",
   "colorBrightness": "Jasność",
   "colorHexLabel": "Kod HEX",
-  "colorPickerDone": "Gotowe"
+  "colorPickerDone": "Gotowe",
+  "exportMarketplaceLabel": "Marketplace",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "Czysto biały fundament, produkt wypełnia kadr",
+  "exportMarketplaceSizeCap": "Plik poniżej {size} MB"
 }

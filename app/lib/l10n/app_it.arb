@@ -151,5 +151,9 @@
   "colorSaturation": "Saturazione",
   "colorBrightness": "Luminosità",
   "colorHexLabel": "Codice esadecimale",
-  "colorPickerDone": "Fatto"
+  "colorPickerDone": "Fatto",
+  "exportMarketplaceLabel": "Marketplace",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "Sfondo bianco puro, il prodotto riempie l’inquadratura",
+  "exportMarketplaceSizeCap": "File sotto i {size} MB"
 }

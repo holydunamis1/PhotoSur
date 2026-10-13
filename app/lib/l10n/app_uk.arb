@@ -151,5 +151,9 @@
   "colorSaturation": "Насиченість",
   "colorBrightness": "Яскравість",
   "colorHexLabel": "HEX-код",
-  "colorPickerDone": "Готово"
+  "colorPickerDone": "Готово",
+  "exportMarketplaceLabel": "Маркетплейс",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "Чисто білий фон, товар заповнює кадр",
+  "exportMarketplaceSizeCap": "Файл менший за {size} МБ"
 }

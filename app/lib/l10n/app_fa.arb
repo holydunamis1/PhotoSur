@@ -151,5 +151,9 @@
   "colorSaturation": "اشباع",
   "colorBrightness": "روشنایی",
   "colorHexLabel": "کد هگز",
-  "colorPickerDone": "انجام شد"
+  "colorPickerDone": "انجام شد",
+  "exportMarketplaceLabel": "بازار آنلاین",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "پس‌زمینهٔ سفید خالص، محصول کادر را پر می‌کند",
+  "exportMarketplaceSizeCap": "حجم فایل کمتر از {size} مگابایت"
 }

@@ -151,5 +151,9 @@
   "colorSaturation": "سیرابی",
   "colorBrightness": "روشنی",
   "colorHexLabel": "ہیکس کوڈ",
-  "colorPickerDone": "مکمل"
+  "colorPickerDone": "مکمل",
+  "exportMarketplaceLabel": "مارکیٹ پلیس",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "خالص سفید پس منظر، پروڈکٹ فریم بھر دیتی ہے",
+  "exportMarketplaceSizeCap": "فائل {size} MB سے کم"
 }

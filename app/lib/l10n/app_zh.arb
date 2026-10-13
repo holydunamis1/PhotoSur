@@ -151,5 +151,9 @@
   "colorSaturation": "饱和度",
   "colorBrightness": "亮度",
   "colorHexLabel": "十六进制代码",
-  "colorPickerDone": "完成"
+  "colorPickerDone": "完成",
+  "exportMarketplaceLabel": "电商平台",
+  "exportMarketplaceSummary": "{width} × {height} 像素 · {format}",
+  "exportMarketplaceWhiteFill": "纯白背景，产品占满画面",
+  "exportMarketplaceSizeCap": "文件小于 {size} MB"
 }

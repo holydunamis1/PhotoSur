@@ -170,5 +170,9 @@
   "colorSaturation": "Sytost",
   "colorBrightness": "Jas",
   "colorHexLabel": "Kód HEX",
-  "colorPickerDone": "Hotovo"
+  "colorPickerDone": "Hotovo",
+  "exportMarketplaceLabel": "Tržiště",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "Čistě bílé pozadí, produkt vyplňuje záběr",
+  "exportMarketplaceSizeCap": "Soubor pod {size} MB"
 }

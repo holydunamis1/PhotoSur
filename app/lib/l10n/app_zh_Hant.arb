@@ -151,5 +151,9 @@
   "colorSaturation": "飽和度",
   "colorBrightness": "亮度",
   "colorHexLabel": "十六進位代碼",
-  "colorPickerDone": "完成"
+  "colorPickerDone": "完成",
+  "exportMarketplaceLabel": "電商平台",
+  "exportMarketplaceSummary": "{width} × {height} 像素 · {format}",
+  "exportMarketplaceWhiteFill": "純白背景，產品佔滿畫面",
+  "exportMarketplaceSizeCap": "檔案小於 {size} MB"
 }

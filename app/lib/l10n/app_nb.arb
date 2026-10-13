@@ -170,5 +170,9 @@
   "colorSaturation": "Metning",
   "colorBrightness": "Lysstyrke",
   "colorHexLabel": "Heksakode",
-  "colorPickerDone": "Ferdig"
+  "colorPickerDone": "Ferdig",
+  "exportMarketplaceLabel": "Markedsplass",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "Helt hvit bakgrunn, produktet fyller bildet",
+  "exportMarketplaceSizeCap": "Filen under {size} MB"
 }

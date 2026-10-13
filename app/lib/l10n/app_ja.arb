@@ -151,5 +151,9 @@
   "colorSaturation": "彩度",
   "colorBrightness": "明るさ",
   "colorHexLabel": "16進コード",
-  "colorPickerDone": "完了"
+  "colorPickerDone": "完了",
+  "exportMarketplaceLabel": "マーケットプレイス",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "真っ白な背景、商品がフレームいっぱい",
+  "exportMarketplaceSizeCap": "ファイルサイズ {size} MB 未満"
 }

@@ -151,5 +151,9 @@
   "colorSaturation": "Doygunluk",
   "colorBrightness": "Parlaklık",
   "colorHexLabel": "Hex kodu",
-  "colorPickerDone": "Bitti"
+  "colorPickerDone": "Bitti",
+  "exportMarketplaceLabel": "Pazar yeri",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "Saf beyaz arka plan, ürün kareyi doldurur",
+  "exportMarketplaceSizeCap": "Dosya {size} MB altında"
 }

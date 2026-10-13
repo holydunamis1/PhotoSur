@@ -151,5 +151,9 @@
   "colorSaturation": "Насыщенность",
   "colorBrightness": "Яркость",
   "colorHexLabel": "HEX-код",
-  "colorPickerDone": "Готово"
+  "colorPickerDone": "Готово",
+  "exportMarketplaceLabel": "Маркетплейс",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "Чисто белый фон, товар заполняет кадр",
+  "exportMarketplaceSizeCap": "Файл меньше {size} МБ"
 }

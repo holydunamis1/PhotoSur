@@ -151,5 +151,9 @@
   "colorSaturation": "채도",
   "colorBrightness": "밝기",
   "colorHexLabel": "16진수 코드",
-  "colorPickerDone": "완료"
+  "colorPickerDone": "완료",
+  "exportMarketplaceLabel": "마켓플레이스",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "순백 배경, 제품이 프레임을 가득 채움",
+  "exportMarketplaceSizeCap": "파일 크기 {size}MB 미만"
 }

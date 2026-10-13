@@ -170,5 +170,9 @@
   "colorSaturation": "సంతృప్తత",
   "colorBrightness": "ప్రకాశం",
   "colorHexLabel": "హెక్స్ కోడ్",
-  "colorPickerDone": "పూర్తయింది"
+  "colorPickerDone": "పూర్తయింది",
+  "exportMarketplaceLabel": "మార్కెట్‌ప్లేస్",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "స్వచ్ఛమైన తెల్లని నేపథ్యం, ఉత్పత్తి ఫ్రేమ్‌ను నింపుతుంది",
+  "exportMarketplaceSizeCap": "ఫైల్ {size} MB కంటే తక్కువ"
 }

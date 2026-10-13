@@ -151,5 +151,9 @@
   "colorSaturation": "Saturasi",
   "colorBrightness": "Kecerahan",
   "colorHexLabel": "Kode hex",
-  "colorPickerDone": "Selesai"
+  "colorPickerDone": "Selesai",
+  "exportMarketplaceLabel": "Marketplace",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "Latar putih murni, produk memenuhi bingkai",
+  "exportMarketplaceSizeCap": "Ukuran file di bawah {size} MB"
 }

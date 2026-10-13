@@ -170,5 +170,9 @@
   "colorSaturation": "Наситеност",
   "colorBrightness": "Яркост",
   "colorHexLabel": "HEX код",
-  "colorPickerDone": "Готово"
+  "colorPickerDone": "Готово",
+  "exportMarketplaceLabel": "Пазар онлайн",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "Чисто бял фон, продуктът запълва кадъра",
+  "exportMarketplaceSizeCap": "Файл под {size} MB"
 }

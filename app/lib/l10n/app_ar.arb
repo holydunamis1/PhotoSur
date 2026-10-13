@@ -151,5 +151,9 @@
   "colorSaturation": "التشبّع",
   "colorBrightness": "السطوع",
   "colorHexLabel": "رمز Hex",
-  "colorPickerDone": "تم"
+  "colorPickerDone": "تم",
+  "exportMarketplaceLabel": "السوق الإلكتروني",
+  "exportMarketplaceSummary": "{width} × {height} بكسل · {format}",
+  "exportMarketplaceWhiteFill": "خلفية بيضاء نقية والمنتج يملأ الإطار",
+  "exportMarketplaceSizeCap": "حجم الملف أقل من {size} ميغابايت"
 }

@@ -151,5 +151,9 @@
   "colorSaturation": "संतृप्ति",
   "colorBrightness": "चमक",
   "colorHexLabel": "हेक्स कोड",
-  "colorPickerDone": "हो गया"
+  "colorPickerDone": "हो गया",
+  "exportMarketplaceLabel": "मार्केटप्लेस",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "शुद्ध सफ़ेद बैकग्राउंड, प्रोडक्ट फ़्रेम भरता है",
+  "exportMarketplaceSizeCap": "फ़ाइल {size} MB से कम"
 }

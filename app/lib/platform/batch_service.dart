@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'dart:ui' show Color;
+import 'dart:ui' show Color, Offset;
 
 import 'package:flutter/foundation.dart';
 import 'package:path/path.dart' as p;
@@ -13,6 +13,7 @@ import '../core/services/export_service.dart';
 import '../core/services/segmentation_service.dart';
 import '../core/services/share_service.dart';
 import '../core/services/storage_service.dart';
+import '../core/utils/marketplace_presets.dart';
 import 'image_prep_service.dart';
 
 /// Cuts the background out of one photo with no editing step and saves the
@@ -28,6 +29,7 @@ class BatchService {
     String path, {
     required bool whiteBackground,
     required int serial,
+    MarketplacePreset? preset,
   }) async {
     try {
       final tempDir = await getTemporaryDirectory();
@@ -39,22 +41,39 @@ class BatchService {
       );
       final originalBytes = await File(prepared.path).readAsBytes();
 
-      final format = whiteBackground ? ExportFormat.jpg : ExportFormat.png;
+      final format = preset?.format ??
+          (whiteBackground ? ExportFormat.jpg : ExportFormat.png);
+      // A JPG cannot hold transparency, so it always gets a white background.
+      final white = preset != null
+          ? (preset.pureWhite || preset.format == ExportFormat.jpg)
+          : whiteBackground;
+      final fit = preset == null
+          ? null
+          : marketplaceSubjectLayout(
+              preset, mask, prepared.width, prepared.height);
+      final quality = preset?.quality ?? 92;
       final bytes = await ExportService.instance.compositeAndExport(
         originalBytes: originalBytes,
         maskBytes: mask,
-        backgroundType:
-            whiteBackground ? BackgroundType.white : BackgroundType.transparent,
+        backgroundType: white ? BackgroundType.white : BackgroundType.transparent,
         bgColor: const Color(0xFFFFFFFF),
         format: format,
-        quality: 92,
-        resizeMode: ResizeMode.original,
+        quality: quality,
+        resizeMode: preset == null ? ResizeMode.original : ResizeMode.custom,
+        customWidth: preset?.width,
+        customHeight: preset?.height,
+        subjectScale: fit?.scale ?? 1.0,
+        subjectOffset: fit == null ? Offset.zero : Offset(fit.offsetX, fit.offsetY),
+        maxBytes: preset?.maxBytes,
+        minQuality: preset?.minQuality ?? 60,
       );
 
       final exportsDir = await StorageService.instance.getExportsDirectoryPath();
       final id = '${DateTime.now().microsecondsSinceEpoch}_$serial';
-      final filePath =
-          p.join(exportsDir, '$id.${whiteBackground ? 'jpg' : 'png'}');
+      final filePath = p.join(
+        exportsDir,
+        '$id.${format == ExportFormat.jpg ? 'jpg' : 'png'}',
+      );
       await File(filePath).writeAsBytes(bytes);
 
       try {
@@ -62,10 +81,10 @@ class BatchService {
           ExportJob(
             id: id,
             format: format,
-            quality: 92,
-            width: prepared.width,
-            height: prepared.height,
-            resizeMode: ResizeMode.original,
+            quality: quality,
+            width: preset?.width ?? prepared.width,
+            height: preset?.height ?? prepared.height,
+            resizeMode: preset == null ? ResizeMode.original : ResizeMode.custom,
             filePath: filePath,
             status: ExportStatus.complete,
             createdAt: DateTime.now(),

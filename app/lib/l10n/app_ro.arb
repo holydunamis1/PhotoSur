@@ -170,5 +170,9 @@
   "colorSaturation": "Saturație",
   "colorBrightness": "Luminozitate",
   "colorHexLabel": "Cod hex",
-  "colorPickerDone": "Gata"
+  "colorPickerDone": "Gata",
+  "exportMarketplaceLabel": "Marketplace",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "Fundal alb pur, produsul umple cadrul",
+  "exportMarketplaceSizeCap": "Fișier sub {size} MB"
 }

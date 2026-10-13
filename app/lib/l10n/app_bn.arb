@@ -151,5 +151,9 @@
   "colorSaturation": "সম্পৃক্ততা",
   "colorBrightness": "উজ্জ্বলতা",
   "colorHexLabel": "হেক্স কোড",
-  "colorPickerDone": "হয়ে গেছে"
+  "colorPickerDone": "হয়ে গেছে",
+  "exportMarketplaceLabel": "মার্কেটপ্লেস",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "খাঁটি সাদা ব্যাকগ্রাউন্ড, পণ্য ফ্রেম ভরে রাখে",
+  "exportMarketplaceSizeCap": "ফাইল {size} MB-এর কম"
 }

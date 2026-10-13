@@ -170,5 +170,9 @@
   "colorSaturation": "Kylläisyys",
   "colorBrightness": "Kirkkaus",
   "colorHexLabel": "Heksakoodi",
-  "colorPickerDone": "Valmis"
+  "colorPickerDone": "Valmis",
+  "exportMarketplaceLabel": "Verkkomarkkinapaikka",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "Puhtaan valkoinen tausta, tuote täyttää kuvan",
+  "exportMarketplaceSizeCap": "Tiedosto alle {size} Mt"
 }

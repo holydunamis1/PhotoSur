@@ -151,5 +151,9 @@
   "colorSaturation": "Mättnad",
   "colorBrightness": "Ljusstyrka",
   "colorHexLabel": "Hexkod",
-  "colorPickerDone": "Klart"
+  "colorPickerDone": "Klart",
+  "exportMarketplaceLabel": "Marknadsplats",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "Rent vit bakgrund, produkten fyller bilden",
+  "exportMarketplaceSizeCap": "Filen under {size} MB"
 }

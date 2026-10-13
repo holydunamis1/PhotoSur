@@ -170,5 +170,9 @@
   "colorSaturation": "സാച്ചുറേഷൻ",
   "colorBrightness": "തെളിച്ചം",
   "colorHexLabel": "ഹെക്സ് കോഡ്",
-  "colorPickerDone": "പൂർത്തിയായി"
+  "colorPickerDone": "പൂർത്തിയായി",
+  "exportMarketplaceLabel": "മാർക്കറ്റ്പ്ലേസ്",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "ശുദ്ധ വെള്ള പശ്ചാത്തലം, ഉൽപ്പന്നം ഫ്രെയിം നിറയ്ക്കുന്നു",
+  "exportMarketplaceSizeCap": "ഫയൽ {size} MB-ൽ താഴെ"
 }

@@ -151,5 +151,9 @@
   "colorSaturation": "Saturation",
   "colorBrightness": "Luminosité",
   "colorHexLabel": "Code hexadécimal",
-  "colorPickerDone": "Terminé"
+  "colorPickerDone": "Terminé",
+  "exportMarketplaceLabel": "Place de marché",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "Fond blanc pur, le produit remplit le cadre",
+  "exportMarketplaceSizeCap": "Fichier de moins de {size} Mo"
 }

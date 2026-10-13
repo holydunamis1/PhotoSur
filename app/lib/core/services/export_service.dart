@@ -85,6 +85,8 @@ class ExportService {
     double subjectScale = 1.0,
     Offset subjectOffset = Offset.zero,
     double? canvasAspect,
+    int? maxBytes,
+    int minQuality = 60,
   }) async {
     try {
       final args = _ExportArgs(
@@ -106,6 +108,8 @@ class ExportService {
         subjectOffsetX: subjectOffset.dx,
         subjectOffsetY: subjectOffset.dy,
         canvasAspect: canvasAspect,
+        maxBytes: maxBytes,
+        minQuality: minQuality,
       );
       final bytes = await compute(_exportInIsolate, args);
       if (format == ExportFormat.webp) {
@@ -160,10 +164,34 @@ class ExportService {
         final flattened = a.backgroundType == BackgroundType.transparent
             ? _flattenOntoWhite(composited)
             : composited;
-        return Uint8List.fromList(
-          img.encodeJpg(flattened, quality: a.quality),
+        return _encodeJpgWithin(
+          flattened,
+          quality: a.quality,
+          maxBytes: a.maxBytes,
+          minQuality: a.minQuality,
         );
     }
+  }
+
+  /// JPG at [quality]; when [maxBytes] is set and the file is too big, the
+  /// quality steps down by 5 until it fits or reaches [minQuality] (a file
+  /// that still does not fit is returned as is: quality is never sacrificed
+  /// below the floor).
+  Uint8List _encodeJpgWithin(
+    img.Image image, {
+    required int quality,
+    required int? maxBytes,
+    required int minQuality,
+  }) {
+    var q = quality.clamp(1, 100);
+    var bytes = Uint8List.fromList(img.encodeJpg(image, quality: q));
+    if (maxBytes == null) return bytes;
+    final floor = minQuality.clamp(1, q);
+    while (bytes.length > maxBytes && q > floor) {
+      q = (q - 5).clamp(floor, 100);
+      bytes = Uint8List.fromList(img.encodeJpg(image, quality: q));
+    }
+    return bytes;
   }
 
 
@@ -563,6 +591,8 @@ class _ExportArgs {
     this.subjectOffsetX = 0.0,
     this.subjectOffsetY = 0.0,
     this.canvasAspect,
+    this.maxBytes,
+    this.minQuality = 60,
   });
 
   final Uint8List originalBytes;
@@ -583,6 +613,8 @@ class _ExportArgs {
   final double subjectOffsetX;
   final double subjectOffsetY;
   final double? canvasAspect;
+  final int? maxBytes;
+  final int minQuality;
 }
 
 Future<Uint8List> _unavailableWebpEncoder(Uint8List pngBytes, int quality) {

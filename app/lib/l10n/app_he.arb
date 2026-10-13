@@ -151,5 +151,9 @@
   "colorSaturation": "רוויה",
   "colorBrightness": "בהירות",
   "colorHexLabel": "קוד Hex",
-  "colorPickerDone": "סיום"
+  "colorPickerDone": "סיום",
+  "exportMarketplaceLabel": "שוק מקוון",
+  "exportMarketplaceSummary": "{width} × {height} פיקסלים · {format}",
+  "exportMarketplaceWhiteFill": "רקע לבן טהור, המוצר ממלא את הפריים",
+  "exportMarketplaceSizeCap": "הקובץ קטן מ-{size} MB"
 }

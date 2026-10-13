@@ -170,5 +170,9 @@
   "colorSaturation": "செறிவு",
   "colorBrightness": "பிரகாசம்",
   "colorHexLabel": "ஹெக்ஸ் குறியீடு",
-  "colorPickerDone": "முடிந்தது"
+  "colorPickerDone": "முடிந்தது",
+  "exportMarketplaceLabel": "மார்க்கெட்பிளேஸ்",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "தூய வெள்ளைப் பின்னணி, பொருள் சட்டத்தை நிரப்பும்",
+  "exportMarketplaceSizeCap": "கோப்பு {size} MB-க்குக் கீழ்"
 }

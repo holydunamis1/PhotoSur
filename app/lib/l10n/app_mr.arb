@@ -170,5 +170,9 @@
   "colorSaturation": "संपृक्तता",
   "colorBrightness": "तेजस्विता",
   "colorHexLabel": "हेक्स कोड",
-  "colorPickerDone": "झाले"
+  "colorPickerDone": "झाले",
+  "exportMarketplaceLabel": "मार्केटप्लेस",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "शुद्ध पांढरी पार्श्वभूमी, उत्पादन फ्रेम भरते",
+  "exportMarketplaceSizeCap": "फाइल {size} MB पेक्षा कमी"
 }

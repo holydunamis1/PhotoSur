@@ -170,5 +170,9 @@
   "colorSaturation": "Κορεσμός",
   "colorBrightness": "Φωτεινότητα",
   "colorHexLabel": "Κωδικός hex",
-  "colorPickerDone": "Έτοιμο"
+  "colorPickerDone": "Έτοιμο",
+  "exportMarketplaceLabel": "Marketplace",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "Καθαρό λευκό φόντο, το προϊόν γεμίζει το κάδρο",
+  "exportMarketplaceSizeCap": "Αρχείο κάτω από {size} MB"
 }

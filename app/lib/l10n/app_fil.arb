@@ -151,5 +151,9 @@
   "colorSaturation": "Saturation",
   "colorBrightness": "Liwanag",
   "colorHexLabel": "Hex code",
-  "colorPickerDone": "Tapos na"
+  "colorPickerDone": "Tapos na",
+  "exportMarketplaceLabel": "Marketplace",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "Purong puting background, puno ng produkto ang frame",
+  "exportMarketplaceSizeCap": "Wala pang {size} MB ang file"
 }

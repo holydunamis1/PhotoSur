@@ -170,5 +170,9 @@
   "colorSaturation": "Ujazo wa rangi",
   "colorBrightness": "Mwangaza",
   "colorHexLabel": "Msimbo wa hex",
-  "colorPickerDone": "Imekamilika"
+  "colorPickerDone": "Imekamilika",
+  "exportMarketplaceLabel": "Soko la mtandaoni",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "Mandharinyuma meupe kabisa, bidhaa inajaza fremu",
+  "exportMarketplaceSizeCap": "Faili chini ya MB {size}"
 }

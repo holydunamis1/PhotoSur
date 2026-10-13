@@ -170,5 +170,9 @@
   "colorSaturation": "Saturació",
   "colorBrightness": "Brillantor",
   "colorHexLabel": "Codi hexadecimal",
-  "colorPickerDone": "Fet"
+  "colorPickerDone": "Fet",
+  "exportMarketplaceLabel": "Marketplace",
+  "exportMarketplaceSummary": "{width} × {height} px · {format}",
+  "exportMarketplaceWhiteFill": "Fons blanc pur, el producte omple el marc",
+  "exportMarketplaceSizeCap": "Fitxer de menys de {size} MB"
 }
