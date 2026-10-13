@@ -122,5 +122,7 @@ const List<MarketplacePreset> kMarketplacePresets = [
     canvasWidth: preset.width.toDouble(),
     canvasHeight: preset.height.toDouble(),
     margin: (1 - fill) / 2,
+    // A small product in a wide frame needs more than the editor's 3x cap.
+    maxScale: 20,
   );
 }
