@@ -1,7 +1,7 @@
 {
   "@@locale": "te",
 
-  "appTitle": "KatharErase",
+  "appTitle": "PhotoSur",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
   "onboardingPage1Title": "బ్యాక్‌గ్రౌండ్‌ను తక్షణమే తొలగించండి",
@@ -101,7 +101,7 @@
   "reminderBody": "ఆపిన చోటి నుండి కొనసాగించి మీ ఫోటోను ఎగుమతి చేయండి.",
   "settingsReminders": "ఎడిట్ రిమైండర్‌లు",
   "settingsRemindersSubtitle": "పూర్తి కాని ఎడిట్‌ల గురించి గుర్తు చేయి",
-  "settingsRemindersBlocked": "మీ ఫోన్ సెట్టింగ్‌లలో KatharErase నోటిఫికేషన్‌లు ఆఫ్ చేయబడ్డాయి.",
+  "settingsRemindersBlocked": "మీ ఫోన్ సెట్టింగ్‌లలో PhotoSur నోటిఫికేషన్‌లు ఆఫ్ చేయబడ్డాయి.",
   "editorBrushHint": "గీయడానికి లాగండి. జూమ్ చేయడానికి రెండు వేళ్లతో పించ్ చేయండి.",
   "editorToolCutout": "కట్-అవుట్",
   "editorToolBrush": "బ్రష్",
@@ -124,7 +124,7 @@
   "settingsRestoreRequested": "పునరుద్ధరణ అభ్యర్థించబడింది — కాసేపటి తర్వాత చూడండి.",
   "settingsRestoreFailed": "పునరుద్ధరణ విఫలమైంది.",
   "settingsShareFailed": "షేర్ చేయడం సాధ్యం కాలేదు.",
-  "settingsShareAppMessage": "KatharErase తో ఫోటో బ్యాక్‌గ్రౌండ్‌లను తక్షణమే తొలగించండి — ఉచితం, వాటర్‌మార్క్ లేదు.",
+  "settingsShareAppMessage": "PhotoSur తో ఫోటో బ్యాక్‌గ్రౌండ్‌లను తక్షణమే తొలగించండి — ఉచితం, వాటర్‌మార్క్ లేదు.",
 
   "paywallTitle": "ప్రకటనలు లేకుండా వాడండి",
   "paywallAlreadyAdFree": "మీరు ఇప్పటికే ప్రకటనలు లేకుండా వాడుతున్నారు. ధన్యవాదాలు!",
@@ -150,7 +150,7 @@
 
   "unsupportedTitle": "పరికరానికి మద్దతు లేదు",
   "unsupportedNoCameraMessage": "ఈ పరికరంలో కెమెరా అందుబాటులో లేదు.",
-  "unsupportedLowMemoryMessage": "KatharErase ఎడిటర్‌ను నమ్మకంగా నడపడానికి ఈ పరికరంలో తగినంత మెమరీ లేదు.",
+  "unsupportedLowMemoryMessage": "PhotoSur ఎడిటర్‌ను నమ్మకంగా నడపడానికి ఈ పరికరంలో తగినంత మెమరీ లేదు.",
   "unsupportedManualImportHint": "గ్యాలరీ నుండి ఫోటోను దిగుమతి చేసి మాన్యువల్ బ్రష్ టూల్‌ను ఇప్పటికీ ఉపయోగించవచ్చు.",
   "unsupportedUseGalleryButton": "గ్యాలరీ నుండి దిగుమతి",
   "homeBatchButton": "బ్యాచ్",

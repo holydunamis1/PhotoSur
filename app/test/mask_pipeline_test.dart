@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:katharerase/core/services/mask_pipeline.dart';
+import 'package:photosur/core/services/mask_pipeline.dart';
 
 // Expected values below were produced by an independent float64 Python
 // reference implementation of the same algorithm, not by running this code.

@@ -16,7 +16,7 @@ def flutterVersionCode = localProperties.getProperty('flutter.versionCode') ?: '
 def flutterVersionName = localProperties.getProperty('flutter.versionName') ?: '1.0.0'
 
 android {
-    namespace "com.zdmgold.katharerase"
+    namespace "com.zdmgold.photosur"
     // compileSdk 36, not 37 — a considered step-back, not another CI-
     // mechanics guess. Two consecutive attempts to install
     // platforms;android-37 failed with "Failed to find package" even via
@@ -53,7 +53,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.zdmgold.katharerase"
+        applicationId "com.zdmgold.photosur"
         // minSdk 26 — corrected from the original blueprint's baseline of
         // 21. tflite_flutter (Path B default, Section 6) documents a hard
         // minimum of Android API 26; this is not an assumed value.

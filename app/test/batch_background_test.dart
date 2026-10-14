@@ -1,10 +1,10 @@
 import 'dart:ui';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:katharerase/core/models/batch_background.dart';
-import 'package:katharerase/core/models/editable_image_state.dart';
-import 'package:katharerase/core/models/export_job.dart';
-import 'package:katharerase/core/utils/marketplace_presets.dart';
+import 'package:photosur/core/models/batch_background.dart';
+import 'package:photosur/core/models/editable_image_state.dart';
+import 'package:photosur/core/models/export_job.dart';
+import 'package:photosur/core/utils/marketplace_presets.dart';
 
 MarketplacePreset _p(Marketplace m) =>
     kMarketplacePresets.firstWhere((e) => e.marketplace == m);

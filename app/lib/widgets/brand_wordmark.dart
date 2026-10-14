@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// Two-tone "KatharErase" wordmark for the left of the home header.
+/// Two-tone "PhotoSur" wordmark for the left of the home header.
 /// Brand name, intentionally not localized.
 class BrandWordmark extends StatelessWidget {
   const BrandWordmark({super.key});
@@ -26,7 +26,7 @@ class BrandWordmark extends StatelessWidget {
         ],
       ),
       style: base,
-      semanticsLabel: 'KatharErase',
+      semanticsLabel: 'PhotoSur',
     );
   }
 }

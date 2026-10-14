@@ -1,7 +1,7 @@
 {
   "@@locale": "ro",
 
-  "appTitle": "KatharErase",
+  "appTitle": "PhotoSur",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
   "onboardingPage1Title": "Elimină fundalul instantaneu",
@@ -101,7 +101,7 @@
   "reminderBody": "Reia de unde ai rămas și exportă-ți fotografia.",
   "settingsReminders": "Mementouri de editare",
   "settingsRemindersSubtitle": "Amintește-mi de editările neterminate",
-  "settingsRemindersBlocked": "Notificările sunt dezactivate pentru KatharErase în setările telefonului.",
+  "settingsRemindersBlocked": "Notificările sunt dezactivate pentru PhotoSur în setările telefonului.",
   "editorBrushHint": "Trage pentru a picta. Ciupește cu două degete pentru a mări.",
   "editorToolCutout": "Decupare",
   "editorToolBrush": "Pensulă",
@@ -124,7 +124,7 @@
   "settingsRestoreRequested": "Restaurare solicitată — revino în câteva momente.",
   "settingsRestoreFailed": "Restaurarea a eșuat.",
   "settingsShareFailed": "Nu s-a putut distribui.",
-  "settingsShareAppMessage": "Elimină instantaneu fundalul fotografiilor cu KatharErase — gratuit, fără filigran.",
+  "settingsShareAppMessage": "Elimină instantaneu fundalul fotografiilor cu PhotoSur — gratuit, fără filigran.",
 
   "paywallTitle": "Fără reclame",
   "paywallAlreadyAdFree": "Folosești deja aplicația fără reclame. Mulțumim!",
@@ -150,7 +150,7 @@
 
   "unsupportedTitle": "Dispozitiv neacceptat",
   "unsupportedNoCameraMessage": "Acest dispozitiv nu are o cameră disponibilă.",
-  "unsupportedLowMemoryMessage": "Acest dispozitiv nu are suficientă memorie pentru a rula editorul KatharErase în mod fiabil.",
+  "unsupportedLowMemoryMessage": "Acest dispozitiv nu are suficientă memorie pentru a rula editorul PhotoSur în mod fiabil.",
   "unsupportedManualImportHint": "Poți totuși să imporți o fotografie din galerie și să folosești pensula manuală.",
   "unsupportedUseGalleryButton": "Importă din Galerie",
   "homeBatchButton": "Lot",

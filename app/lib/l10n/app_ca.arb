@@ -1,7 +1,7 @@
 {
   "@@locale": "ca",
 
-  "appTitle": "KatharErase",
+  "appTitle": "PhotoSur",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
   "onboardingPage1Title": "Elimina el fons a l'instant",
@@ -101,7 +101,7 @@
   "reminderBody": "Continua on ho havies deixat i exporta la teva foto.",
   "settingsReminders": "Recordatoris d'edició",
   "settingsRemindersSubtitle": "Recorda'm les edicions sense acabar",
-  "settingsRemindersBlocked": "Les notificacions de KatharErase estan desactivades a la configuració del telèfon.",
+  "settingsRemindersBlocked": "Les notificacions de PhotoSur estan desactivades a la configuració del telèfon.",
   "editorBrushHint": "Arrossega per pintar. Pessiga amb dos dits per fer zoom.",
   "editorToolCutout": "Retall",
   "editorToolBrush": "Pinzell",
@@ -124,7 +124,7 @@
   "settingsRestoreRequested": "Restauració sol·licitada — torna-ho a mirar d'aquí a una estona.",
   "settingsRestoreFailed": "La restauració ha fallat.",
   "settingsShareFailed": "No s'ha pogut compartir.",
-  "settingsShareAppMessage": "Elimina el fons de les fotos a l'instant amb KatharErase — gratis i sense marca d'aigua.",
+  "settingsShareAppMessage": "Elimina el fons de les fotos a l'instant amb PhotoSur — gratis i sense marca d'aigua.",
 
   "paywallTitle": "Sense anuncis",
   "paywallAlreadyAdFree": "Ja no veus anuncis. Gràcies!",
@@ -150,7 +150,7 @@
 
   "unsupportedTitle": "Dispositiu no compatible",
   "unsupportedNoCameraMessage": "Aquest dispositiu no té cap càmera disponible.",
-  "unsupportedLowMemoryMessage": "Aquest dispositiu no té prou memòria per executar l'editor de KatharErase de manera fiable.",
+  "unsupportedLowMemoryMessage": "Aquest dispositiu no té prou memòria per executar l'editor de PhotoSur de manera fiable.",
   "unsupportedManualImportHint": "Encara pots importar una foto de la galeria i fer servir l'eina de pinzell manual.",
   "unsupportedUseGalleryButton": "Importa de la Galeria",
   "homeBatchButton": "Lot",

@@ -1,7 +1,7 @@
 {
   "@@locale": "ta",
 
-  "appTitle": "KatharErase",
+  "appTitle": "PhotoSur",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
   "onboardingPage1Title": "பின்னணியை உடனே நீக்குங்கள்",
@@ -101,7 +101,7 @@
   "reminderBody": "விட்ட இடத்திலிருந்து தொடர்ந்து உங்கள் புகைப்படத்தை ஏற்றுமதி செய்யுங்கள்.",
   "settingsReminders": "திருத்த நினைவூட்டல்கள்",
   "settingsRemindersSubtitle": "முடிக்காத திருத்தங்கள் பற்றி நினைவூட்டு",
-  "settingsRemindersBlocked": "உங்கள் மொபைல் அமைப்புகளில் KatharErase-க்கான அறிவிப்புகள் அணைக்கப்பட்டுள்ளன.",
+  "settingsRemindersBlocked": "உங்கள் மொபைல் அமைப்புகளில் PhotoSur-க்கான அறிவிப்புகள் அணைக்கப்பட்டுள்ளன.",
   "editorBrushHint": "வரைய இழுக்கவும். பெரிதாக்க இரு விரல்களால் கிள்ளவும்.",
   "editorToolCutout": "வெட்டு",
   "editorToolBrush": "பிரஷ்",
@@ -124,7 +124,7 @@
   "settingsRestoreRequested": "மீட்டெடுப்பு கோரப்பட்டது — சிறிது நேரம் கழித்துப் பாருங்கள்.",
   "settingsRestoreFailed": "மீட்டெடுப்பு தோல்வியடைந்தது.",
   "settingsShareFailed": "பகிர முடியவில்லை.",
-  "settingsShareAppMessage": "KatharErase மூலம் புகைப்படப் பின்னணிகளை உடனே நீக்குங்கள் — இலவசம், வாட்டர்மார்க் இல்லை.",
+  "settingsShareAppMessage": "PhotoSur மூலம் புகைப்படப் பின்னணிகளை உடனே நீக்குங்கள் — இலவசம், வாட்டர்மார்க் இல்லை.",
 
   "paywallTitle": "விளம்பரமின்றிப் பயன்படுத்து",
   "paywallAlreadyAdFree": "நீங்கள் ஏற்கெனவே விளம்பரமின்றிப் பயன்படுத்துகிறீர்கள். நன்றி!",
@@ -150,7 +150,7 @@
 
   "unsupportedTitle": "சாதனம் ஆதரிக்கப்படவில்லை",
   "unsupportedNoCameraMessage": "இந்தச் சாதனத்தில் கேமரா கிடைக்கவில்லை.",
-  "unsupportedLowMemoryMessage": "KatharErase எடிட்டரை நம்பகமாக இயக்க இந்தச் சாதனத்தில் போதுமான நினைவகம் இல்லை.",
+  "unsupportedLowMemoryMessage": "PhotoSur எடிட்டரை நம்பகமாக இயக்க இந்தச் சாதனத்தில் போதுமான நினைவகம் இல்லை.",
   "unsupportedManualImportHint": "கேலரியிலிருந்து புகைப்படத்தை இறக்குமதி செய்து கைமுறை பிரஷ் கருவியைப் பயன்படுத்தலாம்.",
   "unsupportedUseGalleryButton": "கேலரியிலிருந்து இறக்குமதி",
   "homeBatchButton": "தொகுப்பு",

@@ -1,7 +1,7 @@
 import 'package:flutter/painting.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:katharerase/core/providers/image_edit_provider.dart';
-import 'package:katharerase/platform/notification_service.dart';
+import 'package:photosur/core/providers/image_edit_provider.dart';
+import 'package:photosur/platform/notification_service.dart';
 
 void main() {
   group('unfinished-edit tracking', () {

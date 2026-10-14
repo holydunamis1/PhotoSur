@@ -2,10 +2,10 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:katharerase/core/theme/app_theme.dart';
-import 'package:katharerase/core/utils/template_catalog.dart';
-import 'package:katharerase/generated/l10n/app_localizations.dart';
-import 'package:katharerase/widgets/editor_tool_dock.dart';
+import 'package:photosur/core/theme/app_theme.dart';
+import 'package:photosur/core/utils/template_catalog.dart';
+import 'package:photosur/generated/l10n/app_localizations.dart';
+import 'package:photosur/widgets/editor_tool_dock.dart';
 
 void main() {
   test('template ids are unique and every bundled scene exists', () {

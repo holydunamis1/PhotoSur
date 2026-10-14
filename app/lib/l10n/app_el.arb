@@ -1,7 +1,7 @@
 {
   "@@locale": "el",
 
-  "appTitle": "KatharErase",
+  "appTitle": "PhotoSur",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
   "onboardingPage1Title": "Αφαιρέστε το φόντο άμεσα",
@@ -101,7 +101,7 @@
   "reminderBody": "Συνεχίστε από εκεί που μείνατε και εξαγάγετε τη φωτογραφία σας.",
   "settingsReminders": "Υπενθυμίσεις επεξεργασίας",
   "settingsRemindersSubtitle": "Υπενθύμιση για ημιτελείς επεξεργασίες",
-  "settingsRemindersBlocked": "Οι ειδοποιήσεις του KatharErase είναι απενεργοποιημένες στις ρυθμίσεις του τηλεφώνου σας.",
+  "settingsRemindersBlocked": "Οι ειδοποιήσεις του PhotoSur είναι απενεργοποιημένες στις ρυθμίσεις του τηλεφώνου σας.",
   "editorBrushHint": "Σύρετε για να ζωγραφίσετε. Τσιμπήστε με δύο δάχτυλα για ζουμ.",
   "editorToolCutout": "Αποκοπή",
   "editorToolBrush": "Πινέλο",
@@ -124,7 +124,7 @@
   "settingsRestoreRequested": "Ζητήθηκε επαναφορά — ελέγξτε ξανά σε λίγο.",
   "settingsRestoreFailed": "Η επαναφορά απέτυχε.",
   "settingsShareFailed": "Δεν ήταν δυνατή η κοινοποίηση.",
-  "settingsShareAppMessage": "Αφαιρέστε άμεσα το φόντο των φωτογραφιών με το KatharErase — δωρεάν, χωρίς υδατογράφημα.",
+  "settingsShareAppMessage": "Αφαιρέστε άμεσα το φόντο των φωτογραφιών με το PhotoSur — δωρεάν, χωρίς υδατογράφημα.",
 
   "paywallTitle": "Χωρίς διαφημίσεις",
   "paywallAlreadyAdFree": "Δεν βλέπετε ήδη διαφημίσεις. Ευχαριστούμε!",
@@ -150,7 +150,7 @@
 
   "unsupportedTitle": "Η συσκευή δεν υποστηρίζεται",
   "unsupportedNoCameraMessage": "Αυτή η συσκευή δεν διαθέτει διαθέσιμη κάμερα.",
-  "unsupportedLowMemoryMessage": "Αυτή η συσκευή δεν έχει αρκετή μνήμη για να εκτελεί αξιόπιστα τον επεξεργαστή του KatharErase.",
+  "unsupportedLowMemoryMessage": "Αυτή η συσκευή δεν έχει αρκετή μνήμη για να εκτελεί αξιόπιστα τον επεξεργαστή του PhotoSur.",
   "unsupportedManualImportHint": "Μπορείτε ακόμη να εισαγάγετε μια φωτογραφία από τη συλλογή και να χρησιμοποιήσετε το χειροκίνητο πινέλο.",
   "unsupportedUseGalleryButton": "Εισαγωγή από Συλλογή",
   "homeBatchButton": "Παρτίδα",

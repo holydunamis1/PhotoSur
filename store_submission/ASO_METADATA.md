@@ -1,8 +1,8 @@
-# ASO Metadata — KatharErase
+# ASO Metadata — PhotoSur
 
 ## App Store (iOS)
 
-**App Name (30 char max):** KatharErase: BG Remover
+**App Name (30 char max):** PhotoSur: BG Remover
 
 **Subtitle (30 char max):** No Watermark, No Subscription
 
@@ -18,7 +18,7 @@ background remover,remove bg,photo editor,eraser,transparent,cutout,depop,produc
 Remove photo backgrounds in one tap — free, with no watermark and no
 account required.
 
-KatharErase uses on-device AI to remove backgrounds instantly, with a
+PhotoSur uses on-device AI to remove backgrounds instantly, with a
 manual brush tool to fine-tune any edges the AI misses. Every one of
 our 14 features is completely free — we only ask you to view ads to
 keep the app running, and you can remove those with a one-time $14.99 purchase if
@@ -39,7 +39,7 @@ ever.
 
 ## Google Play
 
-**Title (30 char max):** KatharErase: Remove BG
+**Title (30 char max):** PhotoSur: Remove BG
 
 **Short Description (80 char max):**
 Remove photo backgrounds free. No watermark, no account. $14.99 once removes ads.

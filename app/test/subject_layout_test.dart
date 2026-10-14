@@ -2,10 +2,10 @@ import 'dart:typed_data';
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:image/image.dart' as img;
-import 'package:katharerase/core/models/editable_image_state.dart';
-import 'package:katharerase/core/models/export_job.dart';
-import 'package:katharerase/core/services/export_service.dart';
-import 'package:katharerase/core/utils/subject_layout.dart';
+import 'package:photosur/core/models/editable_image_state.dart';
+import 'package:photosur/core/models/export_job.dart';
+import 'package:photosur/core/services/export_service.dart';
+import 'package:photosur/core/utils/subject_layout.dart';
 
 ExportService _service() => ExportService.forTesting(
       (png, q) async => throw UnsupportedError('unused'),

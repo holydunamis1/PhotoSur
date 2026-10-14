@@ -3,13 +3,13 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:katharerase/core/providers/image_edit_provider.dart';
-import 'package:katharerase/core/providers/settings_provider.dart';
-import 'package:katharerase/core/providers/subscription_provider.dart';
-import 'package:katharerase/core/theme/app_theme.dart';
-import 'package:katharerase/generated/l10n/app_localizations.dart';
-import 'package:katharerase/screens/paywall_screen.dart';
-import 'package:katharerase/widgets/editor_top_bar.dart';
+import 'package:photosur/core/providers/image_edit_provider.dart';
+import 'package:photosur/core/providers/settings_provider.dart';
+import 'package:photosur/core/providers/subscription_provider.dart';
+import 'package:photosur/core/theme/app_theme.dart';
+import 'package:photosur/generated/l10n/app_localizations.dart';
+import 'package:photosur/screens/paywall_screen.dart';
+import 'package:photosur/widgets/editor_top_bar.dart';
 import 'package:provider/provider.dart';
 
 Widget _app(Widget home, {required String locale, double textScale = 1.0}) {

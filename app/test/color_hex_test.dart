@@ -1,7 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:katharerase/core/utils/color_hex.dart';
+import 'package:photosur/core/utils/color_hex.dart';
 
 void main() {
   test('parses long, short, prefixed and mixed-case forms', () {

@@ -2,11 +2,11 @@ import 'dart:typed_data';
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:image/image.dart' as img;
-import 'package:katharerase/core/models/export_job.dart';
-import 'package:katharerase/core/models/editable_image_state.dart'
+import 'package:photosur/core/models/export_job.dart';
+import 'package:photosur/core/models/editable_image_state.dart'
     show BackgroundType;
-import 'package:katharerase/core/services/export_service.dart';
-import 'package:katharerase/core/utils/marketplace_presets.dart';
+import 'package:photosur/core/services/export_service.dart';
+import 'package:photosur/core/utils/marketplace_presets.dart';
 
 Uint8List _noisyPng(int size) {
   final image = img.Image(width: size, height: size);

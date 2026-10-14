@@ -3,16 +3,16 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:katharerase/app.dart';
-import 'package:katharerase/core/providers/ad_provider.dart';
-import 'package:katharerase/core/providers/image_edit_provider.dart';
-import 'package:katharerase/core/providers/settings_provider.dart';
-import 'package:katharerase/core/providers/subscription_provider.dart';
-import 'package:katharerase/core/providers/theme_provider.dart';
-import 'package:katharerase/generated/l10n/app_localizations.dart';
-import 'package:katharerase/screens/home_screen.dart';
-import 'package:katharerase/screens/onboarding_screen.dart';
-import 'package:katharerase/widgets/preference_sheets.dart';
+import 'package:photosur/app.dart';
+import 'package:photosur/core/providers/ad_provider.dart';
+import 'package:photosur/core/providers/image_edit_provider.dart';
+import 'package:photosur/core/providers/settings_provider.dart';
+import 'package:photosur/core/providers/subscription_provider.dart';
+import 'package:photosur/core/providers/theme_provider.dart';
+import 'package:photosur/generated/l10n/app_localizations.dart';
+import 'package:photosur/screens/home_screen.dart';
+import 'package:photosur/screens/onboarding_screen.dart';
+import 'package:photosur/widgets/preference_sheets.dart';
 
 const _languages = [
   'es', 'pt', 'fr', 'de', 'hi', 'id', 'ar', 'tr', //
@@ -36,9 +36,9 @@ Set<String> _keys(Map<String, dynamic> arb) =>
 Set<String> _placeholders(String text) =>
     RegExp(r'\{(\w+)\}').allMatches(text).map((m) => m.group(1)!).toSet();
 
-KatharEraseApp _app(SettingsProvider settings) {
+PhotoSurApp _app(SettingsProvider settings) {
   final subscription = SubscriptionProvider(settings);
-  return KatharEraseApp(
+  return PhotoSurApp(
     themeProvider: ThemeProvider(),
     settingsProvider: settings,
     subscriptionProvider: subscription,

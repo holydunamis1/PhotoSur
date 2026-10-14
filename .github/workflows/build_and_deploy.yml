@@ -1,4 +1,4 @@
-name: Build KatharErase Android
+name: Build PhotoSur Android
 
 on:
   workflow_dispatch:
@@ -125,12 +125,12 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: katharerase-release-aab
+          name: photosur-release-aab
           path: app/build/app/outputs/bundle/release/*.aab
 
       - uses: actions/upload-artifact@v4
         with:
-          name: katharerase-release-apk
+          name: photosur-release-apk
           path: app/build/app/outputs/flutter-apk/*-release.apk
 
   build-debug:
@@ -246,5 +246,5 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: katharerase-debug-apk
+          name: photosur-debug-apk
           path: app/build/app/outputs/flutter-apk/*-debug.apk

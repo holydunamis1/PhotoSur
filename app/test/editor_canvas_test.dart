@@ -4,14 +4,14 @@ import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:image/image.dart' as img;
-import 'package:katharerase/core/providers/image_edit_provider.dart';
-import 'package:katharerase/generated/l10n/app_localizations.dart';
-import 'package:katharerase/widgets/editor_canvas.dart';
+import 'package:photosur/core/providers/image_edit_provider.dart';
+import 'package:photosur/generated/l10n/app_localizations.dart';
+import 'package:photosur/widgets/editor_canvas.dart';
 import 'package:provider/provider.dart';
 
 void main() {
   setUpAll(() {
-    // The real app switches this off in KatharEraseApp.build; tests that
+    // The real app switches this off in PhotoSurApp.build; tests that
     // host the provider directly must do the same.
     Provider.debugCheckInvalidValueType = null;
   });

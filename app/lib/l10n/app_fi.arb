@@ -1,7 +1,7 @@
 {
   "@@locale": "fi",
 
-  "appTitle": "KatharErase",
+  "appTitle": "PhotoSur",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
   "onboardingPage1Title": "Poista tausta hetkessä",
@@ -101,7 +101,7 @@
   "reminderBody": "Jatka siitä, mihin jäit, ja vie kuvasi.",
   "settingsReminders": "Muokkausmuistutukset",
   "settingsRemindersSubtitle": "Muistuta keskeneräisistä muokkauksista",
-  "settingsRemindersBlocked": "KatharErasen ilmoitukset on kytketty pois puhelimen asetuksissa.",
+  "settingsRemindersBlocked": "PhotoSurn ilmoitukset on kytketty pois puhelimen asetuksissa.",
   "editorBrushHint": "Maalaa vetämällä. Zoomaa nipistämällä kahdella sormella.",
   "editorToolCutout": "Rajaus",
   "editorToolBrush": "Sivellin",
@@ -124,7 +124,7 @@
   "settingsRestoreRequested": "Palautus pyydetty — tarkista hetken kuluttua.",
   "settingsRestoreFailed": "Palautus epäonnistui.",
   "settingsShareFailed": "Jakaminen epäonnistui.",
-  "settingsShareAppMessage": "Poista kuvien taustat hetkessä KatharErasella — ilmaiseksi ja ilman vesileimaa.",
+  "settingsShareAppMessage": "Poista kuvien taustat hetkessä PhotoSurlla — ilmaiseksi ja ilman vesileimaa.",
 
   "paywallTitle": "Poista mainokset",
   "paywallAlreadyAdFree": "Käytät jo sovellusta ilman mainoksia. Kiitos!",
@@ -150,7 +150,7 @@
 
   "unsupportedTitle": "Laitetta ei tueta",
   "unsupportedNoCameraMessage": "Tällä laitteella ei ole käytettävissä olevaa kameraa.",
-  "unsupportedLowMemoryMessage": "Tällä laitteella ei ole tarpeeksi muistia KatharErasen editorin luotettavaan ajamiseen.",
+  "unsupportedLowMemoryMessage": "Tällä laitteella ei ole tarpeeksi muistia PhotoSurn editorin luotettavaan ajamiseen.",
   "unsupportedManualImportHint": "Voit silti tuoda kuvan galleriasta ja käyttää manuaalista sivellintä.",
   "unsupportedUseGalleryButton": "Tuo Galleriasta",
   "homeBatchButton": "Erä",

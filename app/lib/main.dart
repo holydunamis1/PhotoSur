@@ -125,7 +125,7 @@ Future<void> main() async {
 
   _boot('calling runApp');
   runApp(
-    KatharEraseApp(
+    PhotoSurApp(
       themeProvider: themeProvider,
       settingsProvider: settingsProvider,
       subscriptionProvider: subscriptionProvider,

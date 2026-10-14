@@ -1,4 +1,4 @@
-# KatharErase lint configuration
+# PhotoSur lint configuration
 # flutter_lints ^6.0.0 (re-verified live Aug 2026 — see pubspec.yaml comment)
 
 include: package:flutter_lints/flutter.yaml

@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:katharerase/core/services/mask_refine.dart';
+import 'package:photosur/core/services/mask_refine.dart';
 
 Uint8List _blank(int w, int h, [int v = 0]) =>
     Uint8List(w * h)..fillRange(0, w * h, v);

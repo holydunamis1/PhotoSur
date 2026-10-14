@@ -1,7 +1,7 @@
 {
   "@@locale": "en",
 
-  "appTitle": "KatharErase",
+  "appTitle": "PhotoSur",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
   "onboardingPage1Title": "Remove backgrounds instantly",
@@ -101,7 +101,7 @@
   "reminderBody": "Pick up where you left off and export your photo.",
   "settingsReminders": "Edit reminders",
   "settingsRemindersSubtitle": "Remind me about unfinished edits",
-  "settingsRemindersBlocked": "Notifications are turned off for KatharErase in your phone's settings.",
+  "settingsRemindersBlocked": "Notifications are turned off for PhotoSur in your phone's settings.",
   "editorBrushHint": "Drag to paint. Pinch with two fingers to zoom.",
   "editorToolCutout": "Cut-out",
   "editorToolBrush": "Brush",
@@ -124,7 +124,7 @@
   "settingsRestoreRequested": "Restore requested — check back in a moment.",
   "settingsRestoreFailed": "Restore failed.",
   "settingsShareFailed": "Could not share.",
-  "settingsShareAppMessage": "Remove photo backgrounds instantly with KatharErase — free, no watermark.",
+  "settingsShareAppMessage": "Remove photo backgrounds instantly with PhotoSur — free, no watermark.",
 
   "paywallTitle": "Go Ad-Free",
   "paywallAlreadyAdFree": "You're already ad-free. Thank you!",
@@ -150,7 +150,7 @@
 
   "unsupportedTitle": "Device Not Supported",
   "unsupportedNoCameraMessage": "This device doesn't have a camera available.",
-  "unsupportedLowMemoryMessage": "This device doesn't have enough memory to run KatharErase's editor reliably.",
+  "unsupportedLowMemoryMessage": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
   "unsupportedManualImportHint": "You can still import a photo from your gallery and use the manual brush tool.",
   "unsupportedUseGalleryButton": "Import from Gallery",
   "homeBatchButton": "Batch",
