@@ -104,6 +104,15 @@ const Size kResizePreset9x16 = Size(1080, 1920);
 
 // --- Segmentation pipeline (U2-Netp, see assets/models/MODEL_NOTICE.md) ---
 const String kSegmentationModelAsset = 'assets/models/segmentation.tflite';
+// Optional HD cut-out model (full U2-Net, fp16), downloaded on demand from a
+// GitHub release of this repository and cached in app storage.
+const String kHdModelUrl =
+    'https://github.com/holydunamis1/katharErase/releases/download/models-v1/segmentation_hd.tflite';
+const String kHdModelFileName = 'segmentation_hd.tflite';
+const String kHdModelSha256 =
+    '7b898381005a2f6efb931f4cd59ec4f1ba7e806a12e9feb6b9efb504b92b556b';
+const int kHdModelBytes = 88085892;
+const int kHdModelMegabytes = 88;
 const int kModelInputSize = 320; // model tensors: [1,320,320,3] -> [1,320,320,1]
 // Longest edge of the image the editor works on. Larger photos are scaled
 // down once at load so mask building, brush replay and export stay fast and

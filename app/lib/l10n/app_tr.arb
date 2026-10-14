@@ -162,5 +162,16 @@
   "templatesColorBlock": "Renk blokları",
   "templatesTextures": "Dokular",
   "templatesLight": "Işık ve gölge",
-  "templatesPatterns": "Geçişler ve desenler"
+  "templatesPatterns": "Geçişler ve desenler",
+  "hdGetAction": "HD kesim al ({size} MB)",
+  "hdRedoAction": "Kesimi HD ile yeniden yap",
+  "hdDownloading": "İndiriliyor… %{percent}",
+  "hdConfirmTitle": "HD kesim modeli indirilsin mi?",
+  "hdConfirmBody": "Ayakkabı, çanta ve şişe gibi zor nesnelerde daha temiz kenarlar. Bir kez indirilir ({size} MB), telefonunuzda kalır ve sonra çevrimdışı çalışır. Mobil veri ücreti alınabilir.",
+  "hdDownload": "İndir",
+  "hdFailed": "İndirme tamamlanmadı. Bağlantınızı kontrol edip tekrar deneyin.",
+  "settingsHdTitle": "HD kesim modeli",
+  "settingsHdNotInstalled": "İndirilmedi · {size} MB",
+  "settingsHdInstalled": "Yüklü · çevrimdışı çalışır",
+  "settingsHdRemove": "Kaldır"
 }

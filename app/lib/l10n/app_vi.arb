@@ -162,5 +162,16 @@
   "templatesColorBlock": "Khối màu",
   "templatesTextures": "Chất liệu",
   "templatesLight": "Ánh sáng & bóng đổ",
-  "templatesPatterns": "Chuyển sắc & hoa văn"
+  "templatesPatterns": "Chuyển sắc & hoa văn",
+  "hdGetAction": "Tải tách nền HD ({size} MB)",
+  "hdRedoAction": "Tách nền lại bằng HD",
+  "hdDownloading": "Đang tải… {percent}%",
+  "hdConfirmTitle": "Tải mô hình tách nền HD?",
+  "hdConfirmBody": "Viền sạch hơn với vật thể khó như giày, túi và chai. Chỉ tải một lần ({size} MB), lưu trên điện thoại rồi dùng được ngoại tuyến. Có thể phát sinh phí dữ liệu di động.",
+  "hdDownload": "Tải xuống",
+  "hdFailed": "Tải xuống chưa hoàn tất. Hãy kiểm tra kết nối và thử lại.",
+  "settingsHdTitle": "Mô hình tách nền HD",
+  "settingsHdNotInstalled": "Chưa tải · {size} MB",
+  "settingsHdInstalled": "Đã cài · dùng được ngoại tuyến",
+  "settingsHdRemove": "Xóa"
 }

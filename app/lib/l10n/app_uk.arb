@@ -162,5 +162,16 @@
   "templatesColorBlock": "Кольорові блоки",
   "templatesTextures": "Текстури",
   "templatesLight": "Світло й тінь",
-  "templatesPatterns": "Градієнти й візерунки"
+  "templatesPatterns": "Градієнти й візерунки",
+  "hdGetAction": "Отримати HD-вирізання ({size} МБ)",
+  "hdRedoAction": "Повторити вирізання в HD",
+  "hdDownloading": "Завантаження… {percent}%",
+  "hdConfirmTitle": "Завантажити модель HD-вирізання?",
+  "hdConfirmBody": "Чистіші краї складних предметів: взуття, сумок, пляшок. Завантажується один раз ({size} МБ), зберігається на телефоні й далі працює офлайн. Може стягуватися плата за мобільний інтернет.",
+  "hdDownload": "Завантажити",
+  "hdFailed": "Завантаження не завершилося. Перевірте з’єднання й повторіть.",
+  "settingsHdTitle": "Модель HD-вирізання",
+  "settingsHdNotInstalled": "Не завантажено · {size} МБ",
+  "settingsHdInstalled": "Встановлено · працює офлайн",
+  "settingsHdRemove": "Видалити"
 }

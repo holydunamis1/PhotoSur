@@ -162,5 +162,16 @@
   "templatesColorBlock": "كتل لونية",
   "templatesTextures": "خامات",
   "templatesLight": "ضوء وظل",
-  "templatesPatterns": "تدرجات وأنماط"
+  "templatesPatterns": "تدرجات وأنماط",
+  "hdGetAction": "احصل على القص عالي الدقة ({size} ميغابايت)",
+  "hdRedoAction": "أعد القص بدقة عالية",
+  "hdDownloading": "جارٍ التنزيل… {percent}٪",
+  "hdConfirmTitle": "تنزيل نموذج القص عالي الدقة؟",
+  "hdConfirmBody": "حواف أنظف للأشياء الصعبة مثل الأحذية والحقائب والزجاجات. يُنزَّل مرة واحدة ({size} ميغابايت) ويبقى على هاتفك ثم يعمل دون إنترنت. قد تُطبَّق رسوم بيانات الجوال.",
+  "hdDownload": "تنزيل",
+  "hdFailed": "لم يكتمل التنزيل. تحقق من اتصالك وحاول مرة أخرى.",
+  "settingsHdTitle": "نموذج القص عالي الدقة",
+  "settingsHdNotInstalled": "غير منزَّل · {size} ميغابايت",
+  "settingsHdInstalled": "مثبَّت · يعمل دون إنترنت",
+  "settingsHdRemove": "إزالة"
 }

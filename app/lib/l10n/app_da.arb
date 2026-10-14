@@ -181,5 +181,16 @@
   "templatesColorBlock": "Farveblokke",
   "templatesTextures": "Teksturer",
   "templatesLight": "Lys og skygge",
-  "templatesPatterns": "Farveforløb og mønstre"
+  "templatesPatterns": "Farveforløb og mønstre",
+  "hdGetAction": "Hent HD-frilæg ({size} MB)",
+  "hdRedoAction": "Lav frilægningen om i HD",
+  "hdDownloading": "Henter… {percent} %",
+  "hdConfirmTitle": "Hent HD-frilægningsmodellen?",
+  "hdConfirmBody": "Renere kanter på svære objekter som sko, tasker og flasker. Hentes én gang ({size} MB), bliver på din telefon og virker derefter offline. Der kan påløbe udgifter til mobildata.",
+  "hdDownload": "Hent",
+  "hdFailed": "Overførslen blev ikke færdig. Tjek din forbindelse, og prøv igen.",
+  "settingsHdTitle": "HD-frilægningsmodel",
+  "settingsHdNotInstalled": "Ikke hentet · {size} MB",
+  "settingsHdInstalled": "Installeret · virker offline",
+  "settingsHdRemove": "Fjern"
 }

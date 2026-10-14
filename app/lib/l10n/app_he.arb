@@ -162,5 +162,16 @@
   "templatesColorBlock": "בלוקי צבע",
   "templatesTextures": "מרקמים",
   "templatesLight": "אור וצל",
-  "templatesPatterns": "מעברי צבע ודוגמאות"
+  "templatesPatterns": "מעברי צבע ודוגמאות",
+  "hdGetAction": "קבלת חיתוך HD ({size} MB)",
+  "hdRedoAction": "חיתוך מחדש ב-HD",
+  "hdDownloading": "מוריד… {percent}%",
+  "hdConfirmTitle": "להוריד את מודל החיתוך HD?",
+  "hdConfirmBody": "קצוות נקיים יותר באובייקטים מורכבים כמו נעליים, תיקים ובקבוקים. מורידים פעם אחת ({size} MB), נשמר בטלפון ואז עובד גם ללא חיבור. ייתכנו חיובי גלישה.",
+  "hdDownload": "הורדה",
+  "hdFailed": "ההורדה לא הסתיימה. בדקו את החיבור ונסו שוב.",
+  "settingsHdTitle": "מודל חיתוך HD",
+  "settingsHdNotInstalled": "לא הורד · {size} MB",
+  "settingsHdInstalled": "מותקן · עובד ללא חיבור",
+  "settingsHdRemove": "הסרה"
 }

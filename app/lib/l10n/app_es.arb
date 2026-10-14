@@ -162,5 +162,16 @@
   "templatesColorBlock": "Bloques de color",
   "templatesTextures": "Texturas",
   "templatesLight": "Luz y sombra",
-  "templatesPatterns": "Degradados y patrones"
+  "templatesPatterns": "Degradados y patrones",
+  "hdGetAction": "Obtener recorte HD ({size} MB)",
+  "hdRedoAction": "Rehacer el recorte en HD",
+  "hdDownloading": "Descargando… {percent}%",
+  "hdConfirmTitle": "¿Descargar el modelo de recorte HD?",
+  "hdConfirmBody": "Bordes más limpios en objetos difíciles como zapatos, bolsos y botellas. Se descarga una sola vez ({size} MB), se guarda en tu teléfono y luego funciona sin conexión. Puede consumir datos móviles.",
+  "hdDownload": "Descargar",
+  "hdFailed": "La descarga no terminó. Revisa tu conexión e inténtalo de nuevo.",
+  "settingsHdTitle": "Modelo de recorte HD",
+  "settingsHdNotInstalled": "Sin descargar · {size} MB",
+  "settingsHdInstalled": "Instalado · funciona sin conexión",
+  "settingsHdRemove": "Quitar"
 }

@@ -181,5 +181,16 @@
   "templatesColorBlock": "Blocuri de culoare",
   "templatesTextures": "Texturi",
   "templatesLight": "Lumină și umbră",
-  "templatesPatterns": "Gradiente și modele"
+  "templatesPatterns": "Gradiente și modele",
+  "hdGetAction": "Obține decuparea HD ({size} MB)",
+  "hdRedoAction": "Refă decuparea în HD",
+  "hdDownloading": "Se descarcă… {percent}%",
+  "hdConfirmTitle": "Descarci modelul de decupare HD?",
+  "hdConfirmBody": "Margini mai curate la obiecte dificile, precum pantofi, genți și sticle. Se descarcă o singură dată ({size} MB), rămâne pe telefon și apoi funcționează offline. Se pot aplica costuri pentru date mobile.",
+  "hdDownload": "Descarcă",
+  "hdFailed": "Descărcarea nu s-a încheiat. Verifică conexiunea și încearcă din nou.",
+  "settingsHdTitle": "Model de decupare HD",
+  "settingsHdNotInstalled": "Nedescărcat · {size} MB",
+  "settingsHdInstalled": "Instalat · funcționează offline",
+  "settingsHdRemove": "Elimină"
 }

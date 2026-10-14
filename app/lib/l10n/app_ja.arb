@@ -162,5 +162,16 @@
   "templatesColorBlock": "カラーブロック",
   "templatesTextures": "テクスチャ",
   "templatesLight": "光と影",
-  "templatesPatterns": "グラデーションとパターン"
+  "templatesPatterns": "グラデーションとパターン",
+  "hdGetAction": "HD切り抜きを入手（{size} MB）",
+  "hdRedoAction": "HDで切り抜きをやり直す",
+  "hdDownloading": "ダウンロード中… {percent}%",
+  "hdConfirmTitle": "HD切り抜きモデルをダウンロードしますか？",
+  "hdConfirmBody": "靴・バッグ・ボトルなど難しい被写体でも輪郭がよりきれいに。ダウンロードは1回だけ（{size} MB）で、端末に保存され、その後はオフラインで使えます。モバイルデータ通信料がかかる場合があります。",
+  "hdDownload": "ダウンロード",
+  "hdFailed": "ダウンロードが完了しませんでした。接続を確認してもう一度お試しください。",
+  "settingsHdTitle": "HD切り抜きモデル",
+  "settingsHdNotInstalled": "未ダウンロード · {size} MB",
+  "settingsHdInstalled": "インストール済み · オフライン対応",
+  "settingsHdRemove": "削除"
 }

@@ -181,5 +181,16 @@
   "templatesColorBlock": "Värilohkot",
   "templatesTextures": "Rakenteet",
   "templatesLight": "Valo ja varjo",
-  "templatesPatterns": "Liukuvärit ja kuviot"
+  "templatesPatterns": "Liukuvärit ja kuviot",
+  "hdGetAction": "Hanki HD-rajaus ({size} Mt)",
+  "hdRedoAction": "Tee rajaus uudelleen HD:nä",
+  "hdDownloading": "Ladataan… {percent} %",
+  "hdConfirmTitle": "Ladataanko HD-rajausmalli?",
+  "hdConfirmBody": "Siistimmät reunat hankaliin kohteisiin, kuten kenkiin, laukkuihin ja pulloihin. Ladataan kerran ({size} Mt), pysyy puhelimessa ja toimii sen jälkeen offline-tilassa. Mobiilidatamaksuja voi tulla.",
+  "hdDownload": "Lataa",
+  "hdFailed": "Lataus ei valmistunut. Tarkista yhteys ja yritä uudelleen.",
+  "settingsHdTitle": "HD-rajausmalli",
+  "settingsHdNotInstalled": "Ei ladattu · {size} Mt",
+  "settingsHdInstalled": "Asennettu · toimii offline-tilassa",
+  "settingsHdRemove": "Poista"
 }

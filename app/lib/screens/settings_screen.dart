@@ -13,6 +13,7 @@ import '../platform/iap_service.dart';
 import '../platform/notification_service.dart';
 import '../widgets/ad_banner_slot.dart';
 import '../widgets/app_scaffold.dart';
+import '../widgets/hd_model_ui.dart';
 import '../widgets/preference_sheets.dart';
 import '../widgets/toast_notification.dart';
 
@@ -162,6 +163,8 @@ class SettingsScreen extends StatelessWidget {
                 },
               ),
               ]),
+              const SizedBox(height: AppSpace.l),
+              const _Group(children: [HdModelTile()]),
               const SizedBox(height: AppSpace.l),
               _Group(children: [
               ListTile(

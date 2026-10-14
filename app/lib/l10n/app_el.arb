@@ -181,5 +181,16 @@
   "templatesColorBlock": "Μπλοκ χρώματος",
   "templatesTextures": "Υφές",
   "templatesLight": "Φως και σκιά",
-  "templatesPatterns": "Διαβαθμίσεις και μοτίβα"
+  "templatesPatterns": "Διαβαθμίσεις και μοτίβα",
+  "hdGetAction": "Λήψη HD αποκοπής ({size} MB)",
+  "hdRedoAction": "Επανάληψη αποκοπής σε HD",
+  "hdDownloading": "Λήψη… {percent}%",
+  "hdConfirmTitle": "Λήψη μοντέλου HD αποκοπής;",
+  "hdConfirmBody": "Πιο καθαρές άκρες σε δύσκολα αντικείμενα όπως παπούτσια, τσάντες και μπουκάλια. Κατεβαίνει μία φορά ({size} MB), μένει στο τηλέφωνό σας και μετά λειτουργεί χωρίς σύνδεση. Ενδέχεται να ισχύουν χρεώσεις δεδομένων κινητής.",
+  "hdDownload": "Λήψη",
+  "hdFailed": "Η λήψη δεν ολοκληρώθηκε. Ελέγξτε τη σύνδεση και δοκιμάστε ξανά.",
+  "settingsHdTitle": "Μοντέλο HD αποκοπής",
+  "settingsHdNotInstalled": "Δεν έχει γίνει λήψη · {size} MB",
+  "settingsHdInstalled": "Εγκατεστημένο · λειτουργεί χωρίς σύνδεση",
+  "settingsHdRemove": "Αφαίρεση"
 }

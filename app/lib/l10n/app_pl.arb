@@ -162,5 +162,16 @@
   "templatesColorBlock": "Bloki kolorów",
   "templatesTextures": "Tekstury",
   "templatesLight": "Światło i cień",
-  "templatesPatterns": "Gradienty i wzory"
+  "templatesPatterns": "Gradienty i wzory",
+  "hdGetAction": "Pobierz wycinanie HD ({size} MB)",
+  "hdRedoAction": "Wytnij ponownie w HD",
+  "hdDownloading": "Pobieranie… {percent}%",
+  "hdConfirmTitle": "Pobrać model wycinania HD?",
+  "hdConfirmBody": "Czystsze krawędzie trudnych obiektów, jak buty, torby i butelki. Pobiera się raz ({size} MB), zostaje w telefonie i potem działa offline. Mogą obowiązywać opłaty za transmisję danych.",
+  "hdDownload": "Pobierz",
+  "hdFailed": "Pobieranie nie zakończyło się. Sprawdź połączenie i spróbuj ponownie.",
+  "settingsHdTitle": "Model wycinania HD",
+  "settingsHdNotInstalled": "Nie pobrano · {size} MB",
+  "settingsHdInstalled": "Zainstalowano · działa offline",
+  "settingsHdRemove": "Usuń"
 }

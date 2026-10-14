@@ -162,5 +162,16 @@
   "templatesColorBlock": "Цветные блоки",
   "templatesTextures": "Текстуры",
   "templatesLight": "Свет и тень",
-  "templatesPatterns": "Градиенты и узоры"
+  "templatesPatterns": "Градиенты и узоры",
+  "hdGetAction": "Загрузить HD-вырезание ({size} МБ)",
+  "hdRedoAction": "Повторить вырезание в HD",
+  "hdDownloading": "Загрузка… {percent}%",
+  "hdConfirmTitle": "Загрузить модель HD-вырезания?",
+  "hdConfirmBody": "Чище края у сложных предметов: обуви, сумок, бутылок. Загружается один раз ({size} МБ), хранится на телефоне и дальше работает офлайн. Возможна плата за мобильный интернет.",
+  "hdDownload": "Загрузить",
+  "hdFailed": "Загрузка не завершилась. Проверьте соединение и повторите.",
+  "settingsHdTitle": "Модель HD-вырезания",
+  "settingsHdNotInstalled": "Не загружено · {size} МБ",
+  "settingsHdInstalled": "Установлено · работает офлайн",
+  "settingsHdRemove": "Удалить"
 }

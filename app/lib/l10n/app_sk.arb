@@ -181,5 +181,16 @@
   "templatesColorBlock": "Farebné bloky",
   "templatesTextures": "Textúry",
   "templatesLight": "Svetlo a tieň",
-  "templatesPatterns": "Prechody a vzory"
+  "templatesPatterns": "Prechody a vzory",
+  "hdGetAction": "Stiahnuť HD vyrezanie ({size} MB)",
+  "hdRedoAction": "Vyrezať znova v HD",
+  "hdDownloading": "Sťahovanie… {percent} %",
+  "hdConfirmTitle": "Stiahnuť model HD vyrezania?",
+  "hdConfirmBody": "Čistejšie okraje pri náročných predmetoch, ako sú topánky, tašky a fľaše. Stiahne sa raz ({size} MB), zostane v telefóne a potom funguje offline. Môžu sa účtovať mobilné dáta.",
+  "hdDownload": "Stiahnuť",
+  "hdFailed": "Sťahovanie sa nedokončilo. Skontrolujte pripojenie a skúste to znova.",
+  "settingsHdTitle": "Model HD vyrezania",
+  "settingsHdNotInstalled": "Nestiahnuté · {size} MB",
+  "settingsHdInstalled": "Nainštalované · funguje offline",
+  "settingsHdRemove": "Odstrániť"
 }

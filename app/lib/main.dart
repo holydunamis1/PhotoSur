@@ -15,6 +15,7 @@ import 'core/services/storage_service.dart';
 import 'core/utils/error_handler.dart';
 import 'platform/ad_service.dart';
 import 'core/utils/constants.dart';
+import 'platform/model_download_service.dart';
 import 'platform/notification_service.dart';
 
 void _boot(String step) => debugPrint('BOOT $step');
@@ -87,7 +88,9 @@ Future<void> main() async {
       'Osmar R. Zaiane and Martin Jagersand. Pattern Recognition, 2020.\n'
       'https://github.com/xuebinqin/U-2-Net\n\n'
       'Changes: the pretrained u2netp weights were converted to TensorFlow '
-      'Lite format and the model was trimmed to its single fused output.\n\n'
+      'Lite format and the model was trimmed to its single fused output. '
+      'The optional HD model (full U2-Net weights, downloaded on request) '
+      'was converted and trimmed the same way.\n\n'
       '$text',
     );
   });
@@ -97,6 +100,10 @@ Future<void> main() async {
   // silently on first export/history read.
   await _guard('storage', StorageService.instance.initialize,
       const Duration(seconds: 8));
+
+  // Pick up an HD cut-out model downloaded in an earlier session (if any).
+  await _guard('hd model', ModelDownloadService.instance.init,
+      const Duration(seconds: 4));
 
   // Providers are created here (not inside app.dart) so their async load
   // steps can complete before the first frame — avoids a flash of the

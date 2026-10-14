@@ -181,5 +181,16 @@
   "templatesColorBlock": "Цветни блокове",
   "templatesTextures": "Текстури",
   "templatesLight": "Светлина и сянка",
-  "templatesPatterns": "Преливки и шарки"
+  "templatesPatterns": "Преливки и шарки",
+  "hdGetAction": "Вземи HD изрязване ({size} MB)",
+  "hdRedoAction": "Изрежи отново в HD",
+  "hdDownloading": "Изтегляне… {percent}%",
+  "hdConfirmTitle": "Да се изтегли ли моделът за HD изрязване?",
+  "hdConfirmBody": "По-чисти ръбове при трудни предмети като обувки, чанти и бутилки. Изтегля се веднъж ({size} MB), остава в телефона и после работи офлайн. Може да се начислят такси за мобилни данни.",
+  "hdDownload": "Изтегли",
+  "hdFailed": "Изтеглянето не завърши. Проверете връзката и опитайте отново.",
+  "settingsHdTitle": "Модел за HD изрязване",
+  "settingsHdNotInstalled": "Не е изтеглен · {size} MB",
+  "settingsHdInstalled": "Инсталиран · работи офлайн",
+  "settingsHdRemove": "Премахни"
 }

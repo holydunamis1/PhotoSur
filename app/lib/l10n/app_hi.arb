@@ -162,5 +162,16 @@
   "templatesColorBlock": "कलर ब्लॉक",
   "templatesTextures": "टेक्सचर",
   "templatesLight": "रोशनी और छाया",
-  "templatesPatterns": "ग्रेडिएंट और पैटर्न"
+  "templatesPatterns": "ग्रेडिएंट और पैटर्न",
+  "hdGetAction": "HD कटआउट पाएँ ({size} MB)",
+  "hdRedoAction": "HD में कटआउट दोबारा बनाएँ",
+  "hdDownloading": "डाउनलोड हो रहा है… {percent}%",
+  "hdConfirmTitle": "HD कटआउट मॉडल डाउनलोड करें?",
+  "hdConfirmBody": "जूते, बैग और बोतल जैसी मुश्किल चीज़ों के किनारे ज़्यादा साफ़। यह एक बार डाउनलोड होता है ({size} MB), आपके फ़ोन में रहता है और फिर ऑफ़लाइन चलता है। मोबाइल डेटा शुल्क लग सकता है।",
+  "hdDownload": "डाउनलोड करें",
+  "hdFailed": "डाउनलोड पूरा नहीं हुआ। अपना कनेक्शन जाँचें और फिर कोशिश करें।",
+  "settingsHdTitle": "HD कटआउट मॉडल",
+  "settingsHdNotInstalled": "डाउनलोड नहीं किया · {size} MB",
+  "settingsHdInstalled": "इंस्टॉल है · ऑफ़लाइन चलता है",
+  "settingsHdRemove": "हटाएँ"
 }

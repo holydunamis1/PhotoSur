@@ -32,6 +32,9 @@ dependencies:
   path_provider: ^2.1.6
   path: ^1.9.1
   shared_preferences: ^2.5.5
+  # SHA-256 check of the downloaded HD model. Version verified live on pub.dev
+  # (latest stable 3.0.7).
+  crypto: ^3.0.7
 
   # --- Local notifications (unfinished-edit reminders) ---
   # Versions verified live on pub.dev: flutter_local_notifications latest is

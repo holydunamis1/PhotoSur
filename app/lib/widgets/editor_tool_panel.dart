@@ -4,7 +4,7 @@ import '../core/theme/app_tokens.dart';
 import 'background_selector.dart';
 import 'layout_controls.dart';
 import 'brush_controls.dart';
-import 'edge_feather_slider.dart';
+import 'hd_model_ui.dart';
 import 'editor_tool_dock.dart';
 import 'template_selector.dart';
 
@@ -29,7 +29,7 @@ class EditorToolPanel extends StatelessWidget {
         child: SingleChildScrollView(
           padding: const EdgeInsetsDirectional.fromSTEB(16, 6, 12, 2),
           child: switch (tool) {
-            EditorTool.cutout => const EdgeFeatherSlider(),
+            EditorTool.cutout => const CutoutControls(),
             EditorTool.brush => const BrushControls(),
             EditorTool.background => const BackgroundSelector(),
             EditorTool.templates => const TemplateSelector(),

@@ -162,5 +162,16 @@
   "templatesColorBlock": "บล็อกสี",
   "templatesTextures": "พื้นผิว",
   "templatesLight": "แสงและเงา",
-  "templatesPatterns": "ไล่เฉดสีและลวดลาย"
+  "templatesPatterns": "ไล่เฉดสีและลวดลาย",
+  "hdGetAction": "รับการตัดภาพ HD ({size} MB)",
+  "hdRedoAction": "ตัดภาพใหม่ด้วย HD",
+  "hdDownloading": "กำลังดาวน์โหลด… {percent}%",
+  "hdConfirmTitle": "ดาวน์โหลดโมเดลตัดภาพ HD ไหม",
+  "hdConfirmBody": "ขอบคมสะอาดขึ้นกับวัตถุที่ตัดยาก เช่น รองเท้า กระเป๋า และขวด ดาวน์โหลดครั้งเดียว ({size} MB) เก็บไว้ในโทรศัพท์ แล้วใช้งานออฟไลน์ได้ อาจมีค่าบริการข้อมูลมือถือ",
+  "hdDownload": "ดาวน์โหลด",
+  "hdFailed": "ดาวน์โหลดไม่เสร็จสมบูรณ์ ตรวจสอบการเชื่อมต่อแล้วลองอีกครั้ง",
+  "settingsHdTitle": "โมเดลตัดภาพ HD",
+  "settingsHdNotInstalled": "ยังไม่ได้ดาวน์โหลด · {size} MB",
+  "settingsHdInstalled": "ติดตั้งแล้ว · ใช้งานออฟไลน์ได้",
+  "settingsHdRemove": "ลบ"
 }

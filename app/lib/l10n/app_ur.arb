@@ -162,5 +162,16 @@
   "templatesColorBlock": "رنگ بلاکس",
   "templatesTextures": "ٹیکسچر",
   "templatesLight": "روشنی اور سایہ",
-  "templatesPatterns": "گریڈینٹ اور پیٹرن"
+  "templatesPatterns": "گریڈینٹ اور پیٹرن",
+  "hdGetAction": "HD کٹ آؤٹ حاصل کریں ({size} MB)",
+  "hdRedoAction": "HD میں کٹ آؤٹ دوبارہ بنائیں",
+  "hdDownloading": "ڈاؤن لوڈ ہو رہا ہے… {percent}%",
+  "hdConfirmTitle": "HD کٹ آؤٹ ماڈل ڈاؤن لوڈ کریں؟",
+  "hdConfirmBody": "جوتوں، بیگز اور بوتلوں جیسی مشکل چیزوں کے کنارے زیادہ صاف۔ ایک بار ڈاؤن لوڈ ہوتا ہے ({size} MB)، آپ کے فون میں رہتا ہے اور پھر آف لائن چلتا ہے۔ موبائل ڈیٹا چارجز لگ سکتے ہیں۔",
+  "hdDownload": "ڈاؤن لوڈ",
+  "hdFailed": "ڈاؤن لوڈ مکمل نہیں ہوا۔ اپنا کنکشن چیک کریں اور دوبارہ کوشش کریں۔",
+  "settingsHdTitle": "HD کٹ آؤٹ ماڈل",
+  "settingsHdNotInstalled": "ڈاؤن لوڈ نہیں ہوا · {size} MB",
+  "settingsHdInstalled": "انسٹال ہے · آف لائن چلتا ہے",
+  "settingsHdRemove": "ہٹائیں"
 }

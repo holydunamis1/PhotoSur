@@ -181,5 +181,16 @@
   "templatesColorBlock": "Barevné bloky",
   "templatesTextures": "Textury",
   "templatesLight": "Světlo a stín",
-  "templatesPatterns": "Přechody a vzory"
+  "templatesPatterns": "Přechody a vzory",
+  "hdGetAction": "Stáhnout HD vyříznutí ({size} MB)",
+  "hdRedoAction": "Vyříznout znovu v HD",
+  "hdDownloading": "Stahování… {percent} %",
+  "hdConfirmTitle": "Stáhnout model HD vyříznutí?",
+  "hdConfirmBody": "Čistší okraje u náročných předmětů, jako jsou boty, tašky a lahve. Stáhne se jednou ({size} MB), zůstane v telefonu a pak funguje offline. Mohou se účtovat mobilní data.",
+  "hdDownload": "Stáhnout",
+  "hdFailed": "Stahování se nedokončilo. Zkontrolujte připojení a zkuste to znovu.",
+  "settingsHdTitle": "Model HD vyříznutí",
+  "settingsHdNotInstalled": "Nestaženo · {size} MB",
+  "settingsHdInstalled": "Nainstalováno · funguje offline",
+  "settingsHdRemove": "Odebrat"
 }

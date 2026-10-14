@@ -1,3 +1,4 @@
+import 'dart:io';
 import 'dart:isolate';
 import 'dart:typed_data';
 
@@ -27,7 +28,7 @@ typedef SegmentationRunner = Future<Float32List> Function(Float32List input);
 /// Inference runs in a background isolate (with a main-thread retry if that
 /// fails) so a slow phone doesn't freeze the UI. Pre/post-processing lives in mask_pipeline.dart.
 class SegmentationService {
-  SegmentationService._() : _runner = _defaultRunner;
+  SegmentationService._() : _runner = null;
 
   static final SegmentationService instance = SegmentationService._();
 
@@ -36,8 +37,13 @@ class SegmentationService {
   @visibleForTesting
   SegmentationService.forTesting(SegmentationRunner runner) : _runner = runner;
 
-  final SegmentationRunner _runner;
+  final SegmentationRunner? _runner;
   String? _lastError;
+
+  /// Path of the downloaded HD model, or null when it is not installed.
+  /// Set by the model download service; when set, inference uses it and
+  /// quietly falls back to the bundled model if it can't be run.
+  String? hdModelPath;
 
   String? get lastError => _lastError;
 
@@ -53,7 +59,7 @@ class SegmentationService {
       throw SegmentationException(err);
     }
     try {
-      final output = await _runner(input);
+      final output = await (_runner?.call(input) ?? _defaultRunner(input, hdModelPath));
       if (output.length != expectedOut) {
         throw StateError(
           'Model returned ${output.length} values, expected $expectedOut.',
@@ -70,7 +76,19 @@ class SegmentationService {
     }
   }
 
-  static Future<Float32List> _defaultRunner(Float32List input) async {
+  static Future<Float32List> _defaultRunner(
+    Float32List input,
+    String? hdPath,
+  ) async {
+    if (hdPath != null) {
+      try {
+        if (File(hdPath).existsSync()) {
+          return await Isolate.run(() => _inferFileInIsolate(hdPath, input));
+        }
+      } catch (_) {
+        // HD model unusable on this phone: use the bundled one below.
+      }
+    }
     final data = await rootBundle.load(kSegmentationModelAsset);
     final modelBytes = data.buffer.asUint8List(
       data.offsetInBytes,
@@ -97,7 +115,23 @@ bool _sameShape(List<int> a, List<int> b) {
 
 Float32List _inferInIsolate(Uint8List modelBytes, Float32List input) {
   final options = InterpreterOptions()..threads = 4;
-  final interpreter = Interpreter.fromBuffer(modelBytes, options: options);
+  return _runInterpreter(
+    Interpreter.fromBuffer(modelBytes, options: options),
+    input,
+  );
+}
+
+/// Same as [_inferInIsolate] but maps the model straight from a file, so the
+/// 88 MB HD model is never copied into Dart memory.
+Float32List _inferFileInIsolate(String path, Float32List input) {
+  final options = InterpreterOptions()..threads = 4;
+  return _runInterpreter(
+    Interpreter.fromFile(File(path), options: options),
+    input,
+  );
+}
+
+Float32List _runInterpreter(Interpreter interpreter, Float32List input) {
   try {
     final inputShape = interpreter.getInputTensor(0).shape;
     final outputShape = interpreter.getOutputTensor(0).shape;

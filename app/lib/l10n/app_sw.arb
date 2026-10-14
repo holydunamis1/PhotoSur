@@ -181,5 +181,16 @@
   "templatesColorBlock": "Vitalu vya rangi",
   "templatesTextures": "Umbile",
   "templatesLight": "Mwanga na kivuli",
-  "templatesPatterns": "Mchanganyiko wa rangi na michoro"
+  "templatesPatterns": "Mchanganyiko wa rangi na michoro",
+  "hdGetAction": "Pata ukataji wa HD (MB {size})",
+  "hdRedoAction": "Rudia ukataji kwa HD",
+  "hdDownloading": "Inapakua… {percent}%",
+  "hdConfirmTitle": "Pakua modeli ya ukataji wa HD?",
+  "hdConfirmBody": "Kingo safi zaidi kwenye vitu vigumu kama viatu, mikoba na chupa. Hupakuliwa mara moja (MB {size}), hubaki kwenye simu yako kisha hufanya kazi bila mtandao. Gharama za data ya simu zinaweza kutumika.",
+  "hdDownload": "Pakua",
+  "hdFailed": "Upakuaji haukukamilika. Angalia muunganisho wako na ujaribu tena.",
+  "settingsHdTitle": "Modeli ya ukataji wa HD",
+  "settingsHdNotInstalled": "Haijapakuliwa · MB {size}",
+  "settingsHdInstalled": "Imesakinishwa · inafanya kazi bila mtandao",
+  "settingsHdRemove": "Ondoa"
 }

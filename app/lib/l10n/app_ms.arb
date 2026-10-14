@@ -162,5 +162,16 @@
   "templatesColorBlock": "Blok warna",
   "templatesTextures": "Tekstur",
   "templatesLight": "Cahaya & bayang",
-  "templatesPatterns": "Kecerunan & corak"
+  "templatesPatterns": "Kecerunan & corak",
+  "hdGetAction": "Dapatkan potongan HD ({size} MB)",
+  "hdRedoAction": "Ulang potongan dalam HD",
+  "hdDownloading": "Memuat turun… {percent}%",
+  "hdConfirmTitle": "Muat turun model potongan HD?",
+  "hdConfirmBody": "Tepi lebih bersih pada objek sukar seperti kasut, beg dan botol. Dimuat turun sekali ({size} MB), disimpan dalam telefon dan kemudian berfungsi luar talian. Caj data mudah alih mungkin dikenakan.",
+  "hdDownload": "Muat turun",
+  "hdFailed": "Muat turun tidak selesai. Semak sambungan anda dan cuba lagi.",
+  "settingsHdTitle": "Model potongan HD",
+  "settingsHdNotInstalled": "Belum dimuat turun · {size} MB",
+  "settingsHdInstalled": "Dipasang · berfungsi luar talian",
+  "settingsHdRemove": "Alih keluar"
 }

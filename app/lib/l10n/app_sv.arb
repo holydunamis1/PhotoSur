@@ -162,5 +162,16 @@
   "templatesColorBlock": "Färgblock",
   "templatesTextures": "Texturer",
   "templatesLight": "Ljus & skugga",
-  "templatesPatterns": "Toningar & mönster"
+  "templatesPatterns": "Toningar & mönster",
+  "hdGetAction": "Hämta HD-frilägg ({size} MB)",
+  "hdRedoAction": "Gör om frilägget i HD",
+  "hdDownloading": "Laddar ned… {percent} %",
+  "hdConfirmTitle": "Ladda ned HD-friläggsmodellen?",
+  "hdConfirmBody": "Renare kanter på svåra objekt som skor, väskor och flaskor. Laddas ned en gång ({size} MB), ligger kvar på telefonen och fungerar sedan offline. Kostnader för mobildata kan tillkomma.",
+  "hdDownload": "Ladda ned",
+  "hdFailed": "Nedladdningen blev inte klar. Kontrollera anslutningen och försök igen.",
+  "settingsHdTitle": "HD-friläggsmodell",
+  "settingsHdNotInstalled": "Inte nedladdad · {size} MB",
+  "settingsHdInstalled": "Installerad · fungerar offline",
+  "settingsHdRemove": "Ta bort"
 }
