@@ -5,7 +5,7 @@ import 'package:flutter/foundation.dart';
 import 'package:path/path.dart' as p;
 import 'package:path_provider/path_provider.dart';
 
-import '../core/models/editable_image_state.dart';
+import '../core/models/batch_background.dart';
 import '../core/models/export_job.dart';
 import '../core/providers/image_edit_provider.dart'
     show PostprocessArgs, postprocessInIsolate;
@@ -27,7 +27,7 @@ class BatchService {
   /// any failure for this photo is reported as false so the batch carries on.
   Future<bool> processOne(
     String path, {
-    required bool whiteBackground,
+    required BatchBackground background,
     required int serial,
     MarketplacePreset? preset,
   }) async {
@@ -41,12 +41,9 @@ class BatchService {
       );
       final originalBytes = await File(prepared.path).readAsBytes();
 
-      final format = preset?.format ??
-          (whiteBackground ? ExportFormat.jpg : ExportFormat.png);
-      // A JPG cannot hold transparency, so it always gets a white background.
-      final white = preset != null
-          ? (preset.pureWhite || preset.format == ExportFormat.jpg)
-          : whiteBackground;
+      final out = resolveBatchOutput(background, preset);
+      final format = out.format;
+      final bg = out.background;
       final fit = preset == null
           ? null
           : marketplaceSubjectLayout(
@@ -55,8 +52,11 @@ class BatchService {
       final bytes = await ExportService.instance.compositeAndExport(
         originalBytes: originalBytes,
         maskBytes: mask,
-        backgroundType: white ? BackgroundType.white : BackgroundType.transparent,
-        bgColor: const Color(0xFFFFFFFF),
+        backgroundType: bg.type,
+        bgColor: bg.color ?? const Color(0xFFFFFFFF),
+        gradientIndex: bg.gradientIndex,
+        bgImageBytes: bg.imageBytes,
+        blurRadius: bg.blurRadius,
         format: format,
         quality: quality,
         resizeMode: preset == null ? ResizeMode.original : ResizeMode.custom,

@@ -4,16 +4,21 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
+import '../core/models/batch_background.dart';
 import '../core/models/batch_progress.dart';
+import '../core/models/editable_image_state.dart' show BackgroundType;
 import '../core/providers/ad_provider.dart';
 import '../core/models/export_job.dart' show ExportFormat;
 import '../core/theme/app_tokens.dart';
+import '../core/utils/background_presets.dart';
 import '../core/utils/marketplace_presets.dart';
 import '../generated/l10n/app_localizations.dart';
 import '../platform/batch_service.dart';
 import '../widgets/ad_banner_slot.dart';
 import '../widgets/app_scaffold.dart';
+import '../widgets/background_selector.dart';
 import '../widgets/primary_button.dart';
+import '../widgets/template_selector.dart';
 
 /// Batch cut-out: several photos, one background choice, one tap. Photos
 /// are processed one after another (the model runs one image at a time) and
@@ -29,7 +34,7 @@ class BatchScreen extends StatefulWidget {
 
 class _BatchScreenState extends State<BatchScreen> {
   late final ValueNotifier<BatchProgress> _progress;
-  bool _white = false;
+  BatchBackground _bg = const BatchBackground();
   MarketplacePreset? _marketplace;
   bool _stopRequested = false;
 
@@ -57,7 +62,7 @@ class _BatchScreenState extends State<BatchScreen> {
       _progress.value = _progress.value.withItem(i, BatchItemStatus.working);
       final ok = await BatchService.instance.processOne(
         widget.imagePaths[i],
-        whiteBackground: _white,
+        background: _bg,
         serial: i,
         preset: _marketplace,
       );
@@ -78,6 +83,183 @@ class _BatchScreenState extends State<BatchScreen> {
     }
   }
 
+  void _setBackground(BatchBackground bg) {
+    setState(() {
+      _bg = bg;
+      // A pure-white marketplace preset forces white, so picking another
+      // background means leaving that preset.
+      if (_marketplace?.pureWhite == true && bg.type != BackgroundType.white) {
+        _marketplace = null;
+      }
+    });
+  }
+
+  Future<void> _pickPhoto() async {
+    final bytes = await pickBackgroundPhoto(context);
+    if (bytes != null && mounted) {
+      _setBackground(BatchBackground(type: BackgroundType.image, imageBytes: bytes));
+    }
+  }
+
+  Future<void> _pickTemplate() {
+    return showTemplatePicker(context, (sheetContext, t) async {
+      final bytes = await loadTemplateBytes(sheetContext, t);
+      if (bytes == null || !mounted) return false;
+      _setBackground(BatchBackground(type: BackgroundType.image, imageBytes: bytes));
+      return true;
+    });
+  }
+
+  Widget _options(BuildContext context, bool running) {
+    final l10n = AppLocalizations.of(context);
+    final theme = Theme.of(context);
+    const grey = Color(0xFFB0BEC5);
+
+    Widget swatch({
+      String? label,
+      Color? color,
+      List<Color>? gradient,
+      required bool selected,
+      required BatchBackground value,
+    }) =>
+        BackgroundSwatch(
+          label: label,
+          color: color,
+          gradient: gradient,
+          selected: selected,
+          onTap: running ? () {} : () => _setBackground(value),
+        );
+
+    return Padding(
+      padding: const EdgeInsets.only(top: 8, bottom: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(l10n.editorToolBackground, style: theme.textTheme.labelMedium),
+          const SizedBox(height: 6),
+          Row(
+            children: [
+              Expanded(
+                child: BackgroundChoiceButton(
+                  icon: Icons.add_photo_alternate_outlined,
+                  label: l10n.backgroundAddCustom,
+                  selected: _bg.type == BackgroundType.image,
+                  onTap: running ? () {} : _pickPhoto,
+                ),
+              ),
+              const SizedBox(width: 8),
+              Expanded(
+                child: BackgroundChoiceButton(
+                  icon: Icons.palette_outlined,
+                  label: l10n.backgroundCustomColor,
+                  selected: _bg.type == BackgroundType.solidColor &&
+                      !kPresetBackgroundColors.contains(_bg.color),
+                  swatch: _bg.type == BackgroundType.solidColor ? _bg.color : null,
+                  onTap: running
+                      ? () {}
+                      : () => showColorPickerSheet(
+                            context,
+                            initial: _bg.color ?? kPresetBackgroundColors[4],
+                            onChanged: (c) => _setBackground(
+                              BatchBackground(
+                                  type: BackgroundType.solidColor, color: c),
+                            ),
+                          ),
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 8),
+          BackgroundChoiceButton(
+            icon: Icons.auto_awesome_mosaic_rounded,
+            label: l10n.editorToolTemplates,
+            selected: false,
+            onTap: running ? () {} : _pickTemplate,
+          ),
+          const SizedBox(height: 8),
+          Wrap(
+            runSpacing: 4,
+            children: [
+              swatch(
+                label: l10n.backgroundWhite,
+                color: Colors.white,
+                selected: _bg.type == BackgroundType.white,
+                value: const BatchBackground(type: BackgroundType.white),
+              ),
+              swatch(
+                label: l10n.backgroundTransparent,
+                selected: _bg.type == BackgroundType.transparent,
+                value: const BatchBackground(),
+              ),
+              swatch(
+                label: l10n.backgroundBlack,
+                color: Colors.black,
+                selected: _bg.type == BackgroundType.black,
+                value: const BatchBackground(type: BackgroundType.black),
+              ),
+              swatch(
+                label: l10n.backgroundBlurLabel,
+                color: grey,
+                selected: _bg.type == BackgroundType.gaussianBlur,
+                value: const BatchBackground(type: BackgroundType.gaussianBlur),
+              ),
+              for (var i = 0; i < kGradientPresets.length; i++)
+                swatch(
+                  gradient: [
+                    Color(kGradientPresets[i][0]),
+                    Color(kGradientPresets[i][1]),
+                  ],
+                  selected: _bg.type == BackgroundType.gradient &&
+                      _bg.gradientIndex == i,
+                  value: BatchBackground(
+                      type: BackgroundType.gradient, gradientIndex: i),
+                ),
+              for (final c in kPresetBackgroundColors)
+                swatch(
+                  color: c,
+                  selected: _bg.type == BackgroundType.solidColor && _bg.color == c,
+                  value: BatchBackground(type: BackgroundType.solidColor, color: c),
+                ),
+            ],
+          ),
+          const SizedBox(height: 8),
+          Text(l10n.exportMarketplaceLabel, style: theme.textTheme.labelMedium),
+          Wrap(
+            spacing: 8,
+            children: [
+              for (final preset in kMarketplacePresets)
+                ChoiceChip(
+                  label: Text(preset.name),
+                  selected: _marketplace == preset,
+                  onSelected: running
+                      ? null
+                      : (on) => setState(() {
+                            _marketplace = on ? preset : null;
+                            if (on && preset.pureWhite) {
+                              _bg = const BatchBackground(type: BackgroundType.white);
+                            }
+                          }),
+                ),
+            ],
+          ),
+          if (_marketplace != null)
+            Padding(
+              padding: const EdgeInsets.only(top: 4),
+              child: Text(
+                l10n.exportMarketplaceSummary(
+                  _marketplace!.width,
+                  _marketplace!.height,
+                  _marketplace!.format == ExportFormat.png ? 'PNG' : 'JPG',
+                ),
+                style: theme.textTheme.bodySmall,
+              ),
+            ),
+          const SizedBox(height: 4),
+        ],
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
@@ -93,86 +275,16 @@ class _BatchScreenState extends State<BatchScreen> {
             appBar: AppBar(title: Text(l10n.batchTitle)),
             body: Column(
               children: [
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
-                  child: SizedBox(
-                    width: double.infinity,
-                    child: SegmentedButton<bool>(
-                      showSelectedIcon: false,
-                      segments: [
-                        ButtonSegment(
-                          value: false,
-                          label: Text(
-                            l10n.batchOutputTransparent,
-                            maxLines: 2,
-                            textAlign: TextAlign.center,
-                          ),
-                        ),
-                        ButtonSegment(
-                          value: true,
-                          label: Text(
-                            l10n.batchOutputWhite,
-                            maxLines: 2,
-                            textAlign: TextAlign.center,
-                          ),
-                        ),
-                      ],
-                      selected: {_white},
-                      onSelectionChanged: progress.running
-                          ? null
-                          : (s) => setState(() {
-                                _white = s.first;
-                                _marketplace = null;
-                              }),
-                    ),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(16, 0, 16, 4),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(l10n.exportMarketplaceLabel,
-                          style: theme.textTheme.labelMedium),
-                      Wrap(
-                        spacing: 8,
-                        children: [
-                          for (final preset in kMarketplacePresets)
-                            ChoiceChip(
-                              label: Text(preset.name),
-                              selected: _marketplace == preset,
-                              onSelected: progress.running
-                                  ? null
-                                  : (on) => setState(
-                                      () => _marketplace = on ? preset : null),
-                            ),
-                        ],
-                      ),
-                      if (_marketplace != null)
-                        Padding(
-                          padding: const EdgeInsets.only(top: 4),
-                          child: Text(
-                            l10n.exportMarketplaceSummary(
-                              _marketplace!.width,
-                              _marketplace!.height,
-                              _marketplace!.format == ExportFormat.png
-                                  ? 'PNG'
-                                  : 'JPG',
-                            ),
-                            style: theme.textTheme.bodySmall,
-                          ),
-                        ),
-                    ],
-                  ),
-                ),
                 Expanded(
                   child: ListView.builder(
                     padding: const EdgeInsets.symmetric(horizontal: 16),
-                    itemCount: widget.imagePaths.length,
-                    itemBuilder: (context, i) => _Row(
-                      path: widget.imagePaths[i],
-                      status: progress.items[i],
-                    ),
+                    itemCount: widget.imagePaths.length + 1,
+                    itemBuilder: (context, i) => i == 0
+                        ? _options(context, progress.running)
+                        : _Row(
+                            path: widget.imagePaths[i - 1],
+                            status: progress.items[i - 1],
+                          ),
                   ),
                 ),
                 Container(

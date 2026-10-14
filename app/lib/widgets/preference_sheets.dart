@@ -199,6 +199,8 @@ class _LanguageSheetState extends State<_LanguageSheet> {
               ),
               Expanded(
                 child: ListView.builder(
+                  padding: EdgeInsets.only(
+                      bottom: MediaQuery.viewPaddingOf(context).bottom),
                   itemCount: shown.length,
                   itemBuilder: (context, i) {
                     final code = shown[i];

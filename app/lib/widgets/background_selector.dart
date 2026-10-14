@@ -1,3 +1,5 @@
+import 'dart:typed_data';
+
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';
@@ -12,7 +14,7 @@ import '../generated/l10n/app_localizations.dart';
 import 'labeled_slider.dart';
 
 /// Preset colours, kept as one-tap shortcuts next to the custom colour picker.
-const List<Color> _presetSwatches = [
+const List<Color> kPresetBackgroundColors = [
   Color(0xFFEF4444),
   Color(0xFFF59E0B),
   Color(0xFFEAB308),
@@ -53,7 +55,7 @@ class BackgroundSelector extends StatelessWidget {
             Row(
               children: [
                 Expanded(
-                  child: _BigChoice(
+                  child: BackgroundChoiceButton(
                     icon: Icons.add_photo_alternate_outlined,
                     label: l10n.backgroundAddCustom,
                     selected: state.backgroundType == BackgroundType.image,
@@ -62,7 +64,7 @@ class BackgroundSelector extends StatelessWidget {
                 ),
                 const SizedBox(width: 8),
                 Expanded(
-                  child: _BigChoice(
+                  child: BackgroundChoiceButton(
                     icon: Icons.palette_outlined,
                     label: l10n.backgroundCustomColor,
                     swatch: customColor,
@@ -78,14 +80,14 @@ class BackgroundSelector extends StatelessWidget {
                   MediaQuery.textScalerOf(context).scale(16),
               child: _FadingRow(
                 children: [
-                  _Swatch(
+                  BackgroundSwatch(
                     label: l10n.backgroundWhite,
                     color: Colors.white,
                     selected: state.backgroundType == BackgroundType.white,
                     onTap: () =>
                         provider.setBackgroundType(BackgroundType.white),
                   ),
-                  _Swatch(
+                  BackgroundSwatch(
                     label: l10n.backgroundTransparent,
                     color: null,
                     selected:
@@ -93,7 +95,7 @@ class BackgroundSelector extends StatelessWidget {
                     onTap: () =>
                         provider.setBackgroundType(BackgroundType.transparent),
                   ),
-                  _Swatch(
+                  BackgroundSwatch(
                     label: l10n.backgroundBlack,
                     color: Colors.black,
                     selected: state.backgroundType == BackgroundType.black,
@@ -101,7 +103,7 @@ class BackgroundSelector extends StatelessWidget {
                         provider.setBackgroundType(BackgroundType.black),
                   ),
                   for (var i = 0; i < kGradientPresets.length; i++)
-                    _Swatch(
+                    BackgroundSwatch(
                       label: null,
                       color: null,
                       gradient: [
@@ -113,8 +115,8 @@ class BackgroundSelector extends StatelessWidget {
                               state.gradientIndex == i,
                       onTap: () => provider.setGradient(i),
                     ),
-                  for (final swatch in _presetSwatches)
-                    _Swatch(
+                  for (final swatch in kPresetBackgroundColors)
+                    BackgroundSwatch(
                       label: null,
                       color: swatch,
                       selected:
@@ -168,8 +170,8 @@ class _FadingRow extends StatelessWidget {
   }
 }
 
-class _BigChoice extends StatelessWidget {
-  const _BigChoice({
+class BackgroundChoiceButton extends StatelessWidget {
+  const BackgroundChoiceButton({
     required this.icon,
     required this.label,
     required this.selected,
@@ -238,19 +240,32 @@ Future<void> showCustomColorSheet(
   BuildContext context,
   ImageEditProvider provider,
 ) {
-  final start = provider.value.bgColor ?? _presetSwatches[4];
+  return showColorPickerSheet(
+    context,
+    initial: provider.value.bgColor ?? kPresetBackgroundColors[4],
+    onChanged: provider.setBgColor,
+  );
+}
+
+/// The same picker for any caller (editor and batch): [onChanged] fires on
+/// every change.
+Future<void> showColorPickerSheet(
+  BuildContext context, {
+  required Color initial,
+  required ValueChanged<Color> onChanged,
+}) {
   return showModalBottomSheet<void>(
     context: context,
     isScrollControlled: true,
     useSafeArea: true,
-    builder: (_) => _CustomColorSheet(provider: provider, initial: start),
+    builder: (_) => _CustomColorSheet(onChanged: onChanged, initial: initial),
   );
 }
 
 class _CustomColorSheet extends StatefulWidget {
-  const _CustomColorSheet({required this.provider, required this.initial});
+  const _CustomColorSheet({required this.onChanged, required this.initial});
 
-  final ImageEditProvider provider;
+  final ValueChanged<Color> onChanged;
   final Color initial;
 
   @override
@@ -281,7 +296,7 @@ class _CustomColorSheetState extends State<_CustomColorSheet> {
       _hexInvalid = false;
       _hex.text = colorToHex(hsv.toColor());
     });
-    widget.provider.setBgColor(hsv.toColor());
+    widget.onChanged(hsv.toColor());
   }
 
   void _onHexChanged(String text) {
@@ -294,7 +309,7 @@ class _CustomColorSheetState extends State<_CustomColorSheet> {
       _hsv = HSVColor.fromColor(c);
       _hexInvalid = false;
     });
-    widget.provider.setBgColor(c);
+    widget.onChanged(c);
   }
 
   @override
@@ -302,8 +317,12 @@ class _CustomColorSheetState extends State<_CustomColorSheet> {
     final l10n = AppLocalizations.of(context);
     final p = context.palette;
     final color = _hsv.toColor();
+    final insets = MediaQuery.viewInsetsOf(context).bottom;
+    // The sheet reaches the screen's bottom edge, so keep the Done button
+    // clear of the system navigation bar (or above the keyboard).
+    final bottom = insets > 0 ? insets : MediaQuery.viewPaddingOf(context).bottom;
     return Padding(
-      padding: EdgeInsets.only(bottom: MediaQuery.of(context).viewInsets.bottom),
+      padding: EdgeInsets.only(bottom: bottom),
       child: SingleChildScrollView(
         padding: const EdgeInsets.fromLTRB(20, 16, 20, 16),
         child: Column(
@@ -443,6 +462,14 @@ class _GradientSlider extends StatelessWidget {
 }
 
 Future<void> _pickPhoto(BuildContext context, ImageEditProvider provider) async {
+  final bytes = await pickBackgroundPhoto(context);
+  if (bytes != null) provider.setBackgroundImage(bytes);
+}
+
+/// Lets the user choose a photo from the gallery to use as a background.
+/// Returns null when cancelled or when the photo can't be read (a message is
+/// shown in that case).
+Future<Uint8List?> pickBackgroundPhoto(BuildContext context) async {
   final l10n = AppLocalizations.of(context);
   final messenger = ScaffoldMessenger.maybeOf(context);
   try {
@@ -451,15 +478,16 @@ Future<void> _pickPhoto(BuildContext context, ImageEditProvider provider) async 
       maxWidth: 2048,
       maxHeight: 2048,
     );
-    if (picked == null) return;
-    provider.setBackgroundImage(await picked.readAsBytes());
+    if (picked == null) return null;
+    return await picked.readAsBytes();
   } catch (_) {
     messenger?.showSnackBar(SnackBar(content: Text(l10n.backgroundPhotoFailed)));
+    return null;
   }
 }
 
-class _Swatch extends StatelessWidget {
-  const _Swatch({
+class BackgroundSwatch extends StatelessWidget {
+  const BackgroundSwatch({
     required this.label,
     required this.color,
     required this.selected,

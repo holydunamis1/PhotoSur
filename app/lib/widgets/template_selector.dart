@@ -1,3 +1,5 @@
+import 'dart:typed_data';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
@@ -22,17 +24,26 @@ Future<bool> applyTemplate(
   ImageEditProvider provider,
   BackgroundTemplate t,
 ) async {
+  final bytes = await loadTemplateBytes(context, t);
+  if (bytes == null) return false;
+  provider.setBackgroundImage(bytes);
+  return true;
+}
+
+/// Reads a bundled scene. Returns null (and shows a message) if it can't be
+/// loaded.
+Future<Uint8List?> loadTemplateBytes(
+  BuildContext context,
+  BackgroundTemplate t,
+) async {
   final l10n = AppLocalizations.of(context);
   final messenger = ScaffoldMessenger.maybeOf(context);
   try {
     final data = await rootBundle.load(t.asset);
-    provider.setBackgroundImage(
-      data.buffer.asUint8List(data.offsetInBytes, data.lengthInBytes),
-    );
-    return true;
+    return data.buffer.asUint8List(data.offsetInBytes, data.lengthInBytes);
   } catch (_) {
     messenger?.showSnackBar(SnackBar(content: Text(l10n.backgroundPhotoFailed)));
-    return false;
+    return null;
   }
 }
 
@@ -152,6 +163,18 @@ Future<void> showTemplateGallery(
   BuildContext context,
   ImageEditProvider provider,
 ) {
+  return showTemplatePicker(
+    context,
+    (sheetContext, t) => applyTemplate(sheetContext, provider, t),
+  );
+}
+
+/// The gallery for any caller: [onPick] returns true when the scene was
+/// applied, which closes the sheet.
+Future<void> showTemplatePicker(
+  BuildContext context,
+  Future<bool> Function(BuildContext sheetContext, BackgroundTemplate t) onPick,
+) {
   return showModalBottomSheet<void>(
     context: context,
     isScrollControlled: true,
@@ -166,7 +189,8 @@ Future<void> showTemplateGallery(
         maxChildSize: 0.95,
         builder: (_, controller) => ListView(
           controller: controller,
-          padding: const EdgeInsets.fromLTRB(16, 0, 16, 24),
+          padding: EdgeInsets.fromLTRB(
+              16, 0, 16, 24 + MediaQuery.viewPaddingOf(sheetContext).bottom),
           children: [
             Text(l10n.templatesTitle,
                 style: Theme.of(sheetContext).textTheme.titleLarge),
@@ -189,7 +213,7 @@ Future<void> showTemplateGallery(
                     _TemplateThumb(
                       template: t,
                       onTap: (t) async {
-                        final ok = await applyTemplate(sheetContext, provider, t);
+                        final ok = await onPick(sheetContext, t);
                         if (ok && sheetContext.mounted) {
                           Navigator.of(sheetContext).pop();
                         }
