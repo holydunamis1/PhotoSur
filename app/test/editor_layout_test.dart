@@ -151,7 +151,7 @@ void main() {
     );
   });
 
-  testWidgets('settings screen builds with three grouped cards',
+  testWidgets('settings screen builds with four grouped cards',
       (tester) async {
     await tester.pumpWidget(
       MultiProvider(
@@ -173,7 +173,8 @@ void main() {
     await tester.pump();
 
     expect(tester.takeException(), isNull);
-    expect(find.byType(Card), findsNWidgets(3));
+    expect(find.byType(Card), findsNWidgets(4));
+    expect(find.text('HD cut-out model'), findsOneWidget);
     expect(find.text('Open-source licenses'), findsOneWidget);
   });
 }

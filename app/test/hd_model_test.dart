@@ -46,7 +46,7 @@ void main() {
     expect(kHdModelUrl.startsWith('https://'), isTrue);
     expect(RegExp(r'^[0-9a-f]{64}$').hasMatch(kHdModelSha256), isTrue);
     expect(kHdModelBytes, greaterThan(50 * 1024 * 1024));
-    expect((kHdModelBytes / (1024 * 1024)).round(), kHdModelMegabytes);
+    expect((kHdModelBytes / 1000000).round(), kHdModelMegabytes);
   });
 
   testWidgets('cut-out content fits the panel at normal text', (tester) async {
