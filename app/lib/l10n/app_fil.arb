@@ -158,9 +158,9 @@
   "exportMarketplaceSizeCap": "Wala pang {size} MB ang file",
   "editorToolTemplates": "Mga template",
   "templatesTitle": "Pumili ng template",
-  "templatesStudio": "Studio",
-  "templatesColorBlock": "Color block",
-  "templatesTextures": "Mga texture",
+  "templatesStudio": "Estudyo",
+  "templatesColorBlock": "Mga bloke ng kulay",
+  "templatesTextures": "Mga tekstura",
   "templatesLight": "Liwanag at anino",
-  "templatesPatterns": "Gradient at pattern"
+  "templatesPatterns": "Mga gradient at disenyo"
 }
