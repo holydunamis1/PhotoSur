@@ -172,6 +172,7 @@ class _FadingRow extends StatelessWidget {
 
 class BackgroundChoiceButton extends StatelessWidget {
   const BackgroundChoiceButton({
+    super.key,
     required this.icon,
     required this.label,
     required this.selected,
@@ -488,6 +489,7 @@ Future<Uint8List?> pickBackgroundPhoto(BuildContext context) async {
 
 class BackgroundSwatch extends StatelessWidget {
   const BackgroundSwatch({
+    super.key,
     required this.label,
     required this.color,
     required this.selected,
