@@ -1,7 +1,7 @@
 {
   "@@locale": "th",
   "appTitle": "KatharErase",
-  "onboardingPage1Title": "ลบพื้นหลังได้ทันที",
+  "onboardingPage1Title": "ลบพื้นหลังทันที ทุกฟีเจอร์ใช้ฟรี",
   "onboardingPage1Body": "เปิดรูปภาพ แล้ว AI ในเครื่องจะลบพื้นหลังให้อัตโนมัติ ไม่ต้องใช้อินเทอร์เน็ต",
   "onboardingPage2Title": "ปรับแต่งละเอียดด้วยแปรง",
   "onboardingPage2Body": "ซูมเข้าแล้วลบส่วนที่ AI พลาดไป หรือเรียกคืนส่วนที่ต้องการเก็บไว้",
@@ -173,5 +173,6 @@
   "settingsHdTitle": "โมเดลตัดภาพ HD",
   "settingsHdNotInstalled": "ยังไม่ได้ดาวน์โหลด · {size} MB",
   "settingsHdInstalled": "ติดตั้งแล้ว · ใช้งานออฟไลน์ได้",
-  "settingsHdRemove": "ลบ"
+  "settingsHdRemove": "ลบ",
+  "settingsReplayIntro": "ดูบทแนะนำอีกครั้ง"
 }

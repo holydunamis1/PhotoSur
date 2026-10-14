@@ -4,7 +4,7 @@
   "appTitle": "KatharErase",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
-  "onboardingPage1Title": "Премахнете фона мигновено",
+  "onboardingPage1Title": "Премахвайте фонове мигновено. Всички функции безплатни.",
   "onboardingPage1Body": "Отворете снимка и изкуственият интелект на устройството ви автоматично премахва фона — без интернет.",
   "onboardingPage2Title": "Дооформете с четката",
   "onboardingPage2Body": "Увеличете и изтрийте онова, което изкуственият интелект е пропуснал, или възстановете частите, които искате да запазите.",
@@ -192,5 +192,6 @@
   "settingsHdTitle": "Модел за HD изрязване",
   "settingsHdNotInstalled": "Не е изтеглен · {size} MB",
   "settingsHdInstalled": "Инсталиран · работи офлайн",
-  "settingsHdRemove": "Премахни"
+  "settingsHdRemove": "Премахни",
+  "settingsReplayIntro": "Покажи въведението отново"
 }

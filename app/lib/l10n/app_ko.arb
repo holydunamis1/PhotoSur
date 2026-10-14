@@ -1,7 +1,7 @@
 {
   "@@locale": "ko",
   "appTitle": "KatharErase",
-  "onboardingPage1Title": "배경을 즉시 제거하세요",
+  "onboardingPage1Title": "배경을 즉시 제거하세요. 모든 기능 무료.",
   "onboardingPage1Body": "사진을 열면 기기 내 AI가 배경을 자동으로 제거합니다. 인터넷이 필요 없습니다.",
   "onboardingPage2Title": "브러시로 세밀하게 다듬기",
   "onboardingPage2Body": "확대해서 AI가 놓친 부분을 지우거나, 남기고 싶은 부분을 복원하세요.",
@@ -173,5 +173,6 @@
   "settingsHdTitle": "HD 누끼 모델",
   "settingsHdNotInstalled": "다운로드 안 됨 · {size}MB",
   "settingsHdInstalled": "설치됨 · 오프라인 작동",
-  "settingsHdRemove": "삭제"
+  "settingsHdRemove": "삭제",
+  "settingsReplayIntro": "소개 다시 보기"
 }

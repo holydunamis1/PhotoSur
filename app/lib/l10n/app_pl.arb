@@ -1,7 +1,7 @@
 {
   "@@locale": "pl",
   "appTitle": "KatharErase",
-  "onboardingPage1Title": "Usuwaj tła w mgnieniu oka",
+  "onboardingPage1Title": "Usuwaj tła w mgnieniu oka. Wszystkie funkcje za darmo.",
   "onboardingPage1Body": "Otwórz zdjęcie, a sztuczna inteligencja na urządzeniu automatycznie usunie tło — bez internetu.",
   "onboardingPage2Title": "Dopracuj pędzlem",
   "onboardingPage2Body": "Powiększ i zetrzyj to, co pominęła AI, albo przywróć fragmenty, które chcesz zachować.",
@@ -173,5 +173,6 @@
   "settingsHdTitle": "Model wycinania HD",
   "settingsHdNotInstalled": "Nie pobrano · {size} MB",
   "settingsHdInstalled": "Zainstalowano · działa offline",
-  "settingsHdRemove": "Usuń"
+  "settingsHdRemove": "Usuń",
+  "settingsReplayIntro": "Pokaż wprowadzenie ponownie"
 }

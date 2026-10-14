@@ -1,7 +1,7 @@
 {
   "@@locale": "fil",
   "appTitle": "KatharErase",
-  "onboardingPage1Title": "Alisin agad ang background",
+  "onboardingPage1Title": "Alisin agad ang mga background. Libre ang lahat ng feature.",
   "onboardingPage1Body": "Magbukas ng larawan at awtomatikong aalisin ng AI sa device mo ang background — walang internet na kailangan.",
   "onboardingPage2Title": "I-fine-tune gamit ang brush",
   "onboardingPage2Body": "Mag-zoom in at burahin ang hindi nakuha ng AI, o ibalik ang mga bahaging gusto mong panatilihin.",
@@ -173,5 +173,6 @@
   "settingsHdTitle": "HD cutout model",
   "settingsHdNotInstalled": "Hindi pa na-download · {size} MB",
   "settingsHdInstalled": "Naka-install · gumagana offline",
-  "settingsHdRemove": "Alisin"
+  "settingsHdRemove": "Alisin",
+  "settingsReplayIntro": "Panoorin ulit ang intro"
 }

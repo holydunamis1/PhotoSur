@@ -4,7 +4,7 @@
   "appTitle": "KatharErase",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
-  "onboardingPage1Title": "Αφαιρέστε το φόντο άμεσα",
+  "onboardingPage1Title": "Αφαιρέστε φόντο άμεσα. Όλες οι λειτουργίες δωρεάν.",
   "onboardingPage1Body": "Ανοίξτε μια φωτογραφία και η τεχνητή νοημοσύνη της συσκευής σας αφαιρεί αυτόματα το φόντο — χωρίς σύνδεση στο διαδίκτυο.",
   "onboardingPage2Title": "Τελειοποιήστε με το πινέλο",
   "onboardingPage2Body": "Κάντε ζουμ και σβήστε ό,τι ξέφυγε από την τεχνητή νοημοσύνη ή επαναφέρετε τα τμήματα που θέλετε να κρατήσετε.",
@@ -192,5 +192,6 @@
   "settingsHdTitle": "Μοντέλο HD αποκοπής",
   "settingsHdNotInstalled": "Δεν έχει γίνει λήψη · {size} MB",
   "settingsHdInstalled": "Εγκατεστημένο · λειτουργεί χωρίς σύνδεση",
-  "settingsHdRemove": "Αφαίρεση"
+  "settingsHdRemove": "Αφαίρεση",
+  "settingsReplayIntro": "Επανάληψη της εισαγωγής"
 }

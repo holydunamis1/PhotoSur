@@ -1,7 +1,7 @@
 {
   "@@locale": "sv",
   "appTitle": "KatharErase",
-  "onboardingPage1Title": "Ta bort bakgrunder direkt",
+  "onboardingPage1Title": "Ta bort bakgrunder direkt. Alla funktioner gratis.",
   "onboardingPage1Body": "Öppna ett foto så tar AI:n på din enhet bort bakgrunden automatiskt — utan internet.",
   "onboardingPage2Title": "Finjustera med penseln",
   "onboardingPage2Body": "Zooma in och sudda bort det AI:n missade, eller återställ delar du vill behålla.",
@@ -173,5 +173,6 @@
   "settingsHdTitle": "HD-friläggsmodell",
   "settingsHdNotInstalled": "Inte nedladdad · {size} MB",
   "settingsHdInstalled": "Installerad · fungerar offline",
-  "settingsHdRemove": "Ta bort"
+  "settingsHdRemove": "Ta bort",
+  "settingsReplayIntro": "Visa introt igen"
 }

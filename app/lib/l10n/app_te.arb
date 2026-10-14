@@ -4,7 +4,7 @@
   "appTitle": "KatharErase",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
-  "onboardingPage1Title": "బ్యాక్‌గ్రౌండ్‌ను తక్షణమే తొలగించండి",
+  "onboardingPage1Title": "బ్యాక్‌గ్రౌండ్‌లను తక్షణమే తొలగించండి. అన్ని ఫీచర్లు ఉచితం.",
   "onboardingPage1Body": "ఫోటోను తెరవండి చాలు, మీ ఫోన్‌లోనే పనిచేసే AI ఆటోమేటిక్‌గా బ్యాక్‌గ్రౌండ్‌ను తొలగిస్తుంది — ఇంటర్నెట్ అవసరం లేదు.",
   "onboardingPage2Title": "బ్రష్‌తో మరింత మెరుగుపరచండి",
   "onboardingPage2Body": "జూమ్ చేసి, AI వదిలేసిన భాగాలను చెరపండి లేదా ఉంచుకోవాల్సిన భాగాలను తిరిగి తీసుకురండి.",
@@ -192,5 +192,6 @@
   "settingsHdTitle": "HD కటౌట్ మోడల్",
   "settingsHdNotInstalled": "డౌన్‌లోడ్ కాలేదు · {size} MB",
   "settingsHdInstalled": "ఇన్‌స్టాల్ అయింది · ఆఫ్‌లైన్‌లో పనిచేస్తుంది",
-  "settingsHdRemove": "తొలగించు"
+  "settingsHdRemove": "తొలగించు",
+  "settingsReplayIntro": "పరిచయాన్ని మళ్లీ చూడండి"
 }

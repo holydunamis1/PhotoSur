@@ -44,6 +44,10 @@ GoRouter buildRouter(SettingsProvider settingsProvider) {
         builder: (context, state) => const OnboardingScreen(),
       ),
       GoRoute(
+        path: '/intro',
+        builder: (context, state) => const OnboardingScreen(replay: true),
+      ),
+      GoRoute(
         path: '/',
         builder: (context, state) => const HomeScreen(),
       ),

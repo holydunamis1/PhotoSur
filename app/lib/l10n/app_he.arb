@@ -1,7 +1,7 @@
 {
   "@@locale": "he",
   "appTitle": "KatharErase",
-  "onboardingPage1Title": "הסרת רקעים באופן מיידי",
+  "onboardingPage1Title": "הסרת רקעים באופן מיידי. כל התכונות בחינם.",
   "onboardingPage1Body": "פותחים תמונה, וה-AI שעל המכשיר מסיר את הרקע אוטומטית — בלי אינטרנט.",
   "onboardingPage2Title": "כוונון עדין עם המכחול",
   "onboardingPage2Body": "מתקרבים ומוחקים מה שה-AI פספס, או משחזרים חלקים שרוצים לשמור.",
@@ -173,5 +173,6 @@
   "settingsHdTitle": "מודל חיתוך HD",
   "settingsHdNotInstalled": "לא הורד · {size} MB",
   "settingsHdInstalled": "מותקן · עובד ללא חיבור",
-  "settingsHdRemove": "הסרה"
+  "settingsHdRemove": "הסרה",
+  "settingsReplayIntro": "הצגת ההקדמה שוב"
 }

@@ -1,7 +1,7 @@
 {
   "@@locale": "hi",
   "appTitle": "KatharErase",
-  "onboardingPage1Title": "बैकग्राउंड तुरंत हटाएँ",
+  "onboardingPage1Title": "बैकग्राउंड तुरंत हटाएँ। सभी फ़ीचर मुफ़्त।",
   "onboardingPage1Body": "फ़ोटो खोलें और हमारा ऑन-डिवाइस AI बैकग्राउंड अपने-आप हटा देता है — इंटरनेट की ज़रूरत नहीं।",
   "onboardingPage2Title": "ब्रश से बारीकी से सुधारें",
   "onboardingPage2Body": "ज़ूम करें और जो AI से छूट गया उसे मिटाएँ, या जो रखना चाहते हैं उसे वापस लाएँ।",
@@ -173,5 +173,6 @@
   "settingsHdTitle": "HD कटआउट मॉडल",
   "settingsHdNotInstalled": "डाउनलोड नहीं किया · {size} MB",
   "settingsHdInstalled": "इंस्टॉल है · ऑफ़लाइन चलता है",
-  "settingsHdRemove": "हटाएँ"
+  "settingsHdRemove": "हटाएँ",
+  "settingsReplayIntro": "इंट्रो दोबारा देखें"
 }

@@ -1,7 +1,7 @@
 {
   "@@locale": "ja",
   "appTitle": "KatharErase",
-  "onboardingPage1Title": "背景をすぐに削除",
+  "onboardingPage1Title": "背景を一瞬で削除。全機能無料。",
   "onboardingPage1Body": "写真を開くと、端末内のAIが自動で背景を削除します。インターネット接続は不要です。",
   "onboardingPage2Title": "ブラシで細かく調整",
   "onboardingPage2Body": "拡大してAIが残した部分を消したり、残したい部分を元に戻したりできます。",
@@ -173,5 +173,6 @@
   "settingsHdTitle": "HD切り抜きモデル",
   "settingsHdNotInstalled": "未ダウンロード · {size} MB",
   "settingsHdInstalled": "インストール済み · オフライン対応",
-  "settingsHdRemove": "削除"
+  "settingsHdRemove": "削除",
+  "settingsReplayIntro": "イントロをもう一度見る"
 }

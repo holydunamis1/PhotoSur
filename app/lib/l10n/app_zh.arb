@@ -1,7 +1,7 @@
 {
   "@@locale": "zh",
   "appTitle": "KatharErase",
-  "onboardingPage1Title": "一键快速去除背景",
+  "onboardingPage1Title": "秒速去除背景，全部功能免费。",
   "onboardingPage1Body": "打开照片，设备上的 AI 会自动去除背景，无需联网。",
   "onboardingPage2Title": "用画笔精细调整",
   "onboardingPage2Body": "放大后擦除 AI 漏掉的部分，或恢复想保留的内容。",
@@ -173,5 +173,6 @@
   "settingsHdTitle": "高清抠图模型",
   "settingsHdNotInstalled": "未下载 · {size} MB",
   "settingsHdInstalled": "已安装 · 可离线使用",
-  "settingsHdRemove": "移除"
+  "settingsHdRemove": "移除",
+  "settingsReplayIntro": "重新观看介绍"
 }

@@ -4,7 +4,7 @@
   "appTitle": "KatharErase",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
-  "onboardingPage1Title": "பின்னணியை உடனே நீக்குங்கள்",
+  "onboardingPage1Title": "பின்னணிகளை உடனே நீக்குங்கள். எல்லா அம்சங்களும் இலவசம்.",
   "onboardingPage1Body": "புகைப்படத்தைத் திறந்தால் போதும், சாதனத்திலேயே இயங்கும் AI தானாகப் பின்னணியை நீக்கும் — இணையம் தேவையில்லை.",
   "onboardingPage2Title": "பிரஷ் மூலம் நுட்பமாகச் செம்மைப்படுத்துங்கள்",
   "onboardingPage2Body": "பெரிதாக்கி, AI தவறவிட்டதை அழியுங்கள் அல்லது வைத்திருக்க வேண்டிய பகுதிகளை மீட்டெடுங்கள்.",
@@ -192,5 +192,6 @@
   "settingsHdTitle": "HD கட்அவுட் மாடல்",
   "settingsHdNotInstalled": "பதிவிறக்கப்படவில்லை · {size} MB",
   "settingsHdInstalled": "நிறுவப்பட்டது · ஆஃப்லைனில் வேலை செய்யும்",
-  "settingsHdRemove": "நீக்கு"
+  "settingsHdRemove": "நீக்கு",
+  "settingsReplayIntro": "அறிமுகத்தை மீண்டும் காண்க"
 }

@@ -4,7 +4,7 @@
   "appTitle": "KatharErase",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
-  "onboardingPage1Title": "Elimina el fons a l'instant",
+  "onboardingPage1Title": "Elimina fons a l’instant. Totes les funcions gratis.",
   "onboardingPage1Body": "Obre una foto i la IA del dispositiu elimina el fons automàticament — sense internet.",
   "onboardingPage2Title": "Afina amb el pinzell",
   "onboardingPage2Body": "Amplia i esborra el que la IA hagi deixat, o restaura les parts que vulguis conservar.",
@@ -192,5 +192,6 @@
   "settingsHdTitle": "Model de retall HD",
   "settingsHdNotInstalled": "Sense baixar · {size} MB",
   "settingsHdInstalled": "Instal·lat · funciona sense connexió",
-  "settingsHdRemove": "Elimina"
+  "settingsHdRemove": "Elimina",
+  "settingsReplayIntro": "Torna a veure la introducció"
 }

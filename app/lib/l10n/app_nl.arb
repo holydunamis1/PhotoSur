@@ -1,7 +1,7 @@
 {
   "@@locale": "nl",
   "appTitle": "KatharErase",
-  "onboardingPage1Title": "Verwijder achtergronden direct",
+  "onboardingPage1Title": "Verwijder achtergronden direct. Alle functies gratis.",
   "onboardingPage1Body": "Open een foto en onze AI op je apparaat verwijdert de achtergrond automatisch — zonder internet.",
   "onboardingPage2Title": "Verfijn met de penseel",
   "onboardingPage2Body": "Zoom in en wis wat de AI gemist heeft, of herstel delen die je wilt houden.",
@@ -173,5 +173,6 @@
   "settingsHdTitle": "HD-uitsnedemodel",
   "settingsHdNotInstalled": "Niet gedownload · {size} MB",
   "settingsHdInstalled": "Geïnstalleerd · werkt offline",
-  "settingsHdRemove": "Verwijderen"
+  "settingsHdRemove": "Verwijderen",
+  "settingsReplayIntro": "Introductie opnieuw bekijken"
 }

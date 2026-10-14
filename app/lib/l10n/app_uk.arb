@@ -1,7 +1,7 @@
 {
   "@@locale": "uk",
   "appTitle": "KatharErase",
-  "onboardingPage1Title": "Видаляйте фон миттєво",
+  "onboardingPage1Title": "Видаляйте фон миттєво. Усі функції безкоштовно.",
   "onboardingPage1Body": "Відкрийте фото, і ШІ на пристрої автоматично видалить фон — інтернет не потрібен.",
   "onboardingPage2Title": "Доопрацюйте пензлем",
   "onboardingPage2Body": "Збільште масштаб і зітріть те, що пропустив ШІ, або поверніть потрібні частини.",
@@ -173,5 +173,6 @@
   "settingsHdTitle": "Модель HD-вирізання",
   "settingsHdNotInstalled": "Не завантажено · {size} МБ",
   "settingsHdInstalled": "Встановлено · працює офлайн",
-  "settingsHdRemove": "Видалити"
+  "settingsHdRemove": "Видалити",
+  "settingsReplayIntro": "Переглянути вступ ще раз"
 }

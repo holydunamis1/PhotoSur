@@ -4,7 +4,7 @@
   "appTitle": "KatharErase",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
-  "onboardingPage1Title": "Elimină fundalul instantaneu",
+  "onboardingPage1Title": "Elimină fundalurile instant. Toate funcțiile gratuite.",
   "onboardingPage1Body": "Deschide o fotografie, iar AI-ul de pe dispozitiv elimină automat fundalul — fără internet.",
   "onboardingPage2Title": "Rafinează cu pensula",
   "onboardingPage2Body": "Mărește imaginea și șterge ce a ratat AI-ul sau restaurează părțile pe care vrei să le păstrezi.",
@@ -192,5 +192,6 @@
   "settingsHdTitle": "Model de decupare HD",
   "settingsHdNotInstalled": "Nedescărcat · {size} MB",
   "settingsHdInstalled": "Instalat · funcționează offline",
-  "settingsHdRemove": "Elimină"
+  "settingsHdRemove": "Elimină",
+  "settingsReplayIntro": "Revezi introducerea"
 }

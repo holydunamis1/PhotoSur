@@ -4,7 +4,7 @@
   "appTitle": "KatharErase",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
-  "onboardingPage1Title": "Odstráňte pozadie okamžite",
+  "onboardingPage1Title": "Odstráňte pozadie okamžite. Všetky funkcie zadarmo.",
   "onboardingPage1Body": "Otvorte fotku a umelá inteligencia vo vašom zariadení automaticky odstráni pozadie — bez pripojenia na internet.",
   "onboardingPage2Title": "Doladte štetcom",
   "onboardingPage2Body": "Priblížte a zmažte, čo umelá inteligencia prehliadla, alebo obnovte časti, ktoré chcete zachovať.",
@@ -192,5 +192,6 @@
   "settingsHdTitle": "Model HD vyrezania",
   "settingsHdNotInstalled": "Nestiahnuté · {size} MB",
   "settingsHdInstalled": "Nainštalované · funguje offline",
-  "settingsHdRemove": "Odstrániť"
+  "settingsHdRemove": "Odstrániť",
+  "settingsReplayIntro": "Znova prehrať úvod"
 }

@@ -1,7 +1,7 @@
 {
   "@@locale": "bn",
   "appTitle": "KatharErase",
-  "onboardingPage1Title": "মুহূর্তেই ব্যাকগ্রাউন্ড সরান",
+  "onboardingPage1Title": "ব্যাকগ্রাউন্ড তাৎক্ষণিকভাবে মুছুন। সব ফিচার বিনামূল্যে।",
   "onboardingPage1Body": "একটি ছবি খুলুন, আর আপনার ডিভাইসের AI স্বয়ংক্রিয়ভাবে ব্যাকগ্রাউন্ড সরিয়ে দেবে — ইন্টারনেট লাগবে না।",
   "onboardingPage2Title": "ব্রাশ দিয়ে সূক্ষ্মভাবে ঠিক করুন",
   "onboardingPage2Body": "জুম করে AI যা বাদ দিয়েছে তা মুছুন, অথবা যে অংশ রাখতে চান তা ফিরিয়ে আনুন।",
@@ -173,5 +173,6 @@
   "settingsHdTitle": "HD কাটআউট মডেল",
   "settingsHdNotInstalled": "ডাউনলোড হয়নি · {size} MB",
   "settingsHdInstalled": "ইনস্টল করা · অফলাইনে কাজ করে",
-  "settingsHdRemove": "সরান"
+  "settingsHdRemove": "সরান",
+  "settingsReplayIntro": "ইন্ট্রো আবার দেখুন"
 }

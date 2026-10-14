@@ -1,7 +1,7 @@
 {
   "@@locale": "ur",
   "appTitle": "KatharErase",
-  "onboardingPage1Title": "بیک گراؤنڈ فوراً ہٹائیں",
+  "onboardingPage1Title": "بیک گراؤنڈ فوراً ہٹائیں۔ تمام فیچرز مفت۔",
   "onboardingPage1Body": "تصویر کھولیں اور آپ کے آلے پر موجود AI خودکار طور پر بیک گراؤنڈ ہٹا دے گا — انٹرنیٹ کی ضرورت نہیں۔",
   "onboardingPage2Title": "برش سے باریکی سے درست کریں",
   "onboardingPage2Body": "زوم کریں اور جو AI سے رہ گیا اسے مٹائیں، یا جو رکھنا چاہتے ہیں اسے بحال کریں۔",
@@ -173,5 +173,6 @@
   "settingsHdTitle": "HD کٹ آؤٹ ماڈل",
   "settingsHdNotInstalled": "ڈاؤن لوڈ نہیں ہوا · {size} MB",
   "settingsHdInstalled": "انسٹال ہے · آف لائن چلتا ہے",
-  "settingsHdRemove": "ہٹائیں"
+  "settingsHdRemove": "ہٹائیں",
+  "settingsReplayIntro": "تعارف دوبارہ دیکھیں"
 }

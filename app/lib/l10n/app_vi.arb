@@ -1,7 +1,7 @@
 {
   "@@locale": "vi",
   "appTitle": "KatharErase",
-  "onboardingPage1Title": "Xóa nền ngay lập tức",
+  "onboardingPage1Title": "Xóa nền ngay lập tức. Mọi tính năng đều miễn phí.",
   "onboardingPage1Body": "Mở ảnh và AI ngay trên thiết bị sẽ tự động xóa nền — không cần internet.",
   "onboardingPage2Title": "Tinh chỉnh bằng cọ",
   "onboardingPage2Body": "Phóng to và xóa phần AI bỏ sót, hoặc khôi phục phần bạn muốn giữ lại.",
@@ -173,5 +173,6 @@
   "settingsHdTitle": "Mô hình tách nền HD",
   "settingsHdNotInstalled": "Chưa tải · {size} MB",
   "settingsHdInstalled": "Đã cài · dùng được ngoại tuyến",
-  "settingsHdRemove": "Xóa"
+  "settingsHdRemove": "Xóa",
+  "settingsReplayIntro": "Xem lại phần giới thiệu"
 }

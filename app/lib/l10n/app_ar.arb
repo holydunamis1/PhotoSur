@@ -1,7 +1,7 @@
 {
   "@@locale": "ar",
   "appTitle": "KatharErase",
-  "onboardingPage1Title": "أزل الخلفيات فورًا",
+  "onboardingPage1Title": "أزل الخلفيات فورًا. جميع الميزات مجانية.",
   "onboardingPage1Body": "افتح صورة وسيزيل الذكاء الاصطناعي على جهازك الخلفية تلقائيًا — دون حاجة إلى الإنترنت.",
   "onboardingPage2Title": "حسّن النتيجة بالفرشاة",
   "onboardingPage2Body": "قرّب الصورة وامسح ما فاته الذكاء الاصطناعي، أو استعد الأجزاء التي تريد الاحتفاظ بها.",
@@ -173,5 +173,6 @@
   "settingsHdTitle": "نموذج القص عالي الدقة",
   "settingsHdNotInstalled": "غير منزَّل · {size} ميغابايت",
   "settingsHdInstalled": "مثبَّت · يعمل دون إنترنت",
-  "settingsHdRemove": "إزالة"
+  "settingsHdRemove": "إزالة",
+  "settingsReplayIntro": "إعادة عرض المقدمة"
 }

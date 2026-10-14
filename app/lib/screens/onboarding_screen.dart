@@ -16,7 +16,11 @@ import '../widgets/primary_button.dart';
 /// Title/body strings come from AppLocalizations at build time, so the page
 /// list is built from a method taking BuildContext.
 class OnboardingScreen extends StatefulWidget {
-  const OnboardingScreen({super.key});
+  const OnboardingScreen({super.key, this.replay = false});
+
+  /// Opened from Settings: just shows the pages again and returns, without
+  /// touching onboarding state or asking for any permission.
+  final bool replay;
 
   @override
   State<OnboardingScreen> createState() => _OnboardingScreenState();
@@ -60,6 +64,10 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   }
 
   Future<void> _finish(BuildContext context) async {
+    if (widget.replay) {
+      if (context.mounted) context.pop();
+      return;
+    }
     final settings = Provider.of<SettingsProvider>(context, listen: false);
     await settings.completeOnboarding();
 

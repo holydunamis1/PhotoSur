@@ -4,7 +4,7 @@
   "appTitle": "KatharErase",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
-  "onboardingPage1Title": "બેકગ્રાઉન્ડ તરત દૂર કરો",
+  "onboardingPage1Title": "બૅકગ્રાઉન્ડ તરત દૂર કરો. બધા ફીચર્સ મફત.",
   "onboardingPage1Body": "ફોટો ખોલો અને તમારા ફોનમાં ચાલતું AI આપમેળે બેકગ્રાઉન્ડ દૂર કરશે — ઇન્ટરનેટની જરૂર નથી.",
   "onboardingPage2Title": "બ્રશથી બારીકાઈથી સુધારો",
   "onboardingPage2Body": "ઝૂમ કરો અને AI એ છોડેલો ભાગ ભૂંસી નાખો, અથવા રાખવાના ભાગો પાછા લાવો.",
@@ -192,5 +192,6 @@
   "settingsHdTitle": "HD કટઆઉટ મૉડલ",
   "settingsHdNotInstalled": "ડાઉનલોડ કર્યું નથી · {size} MB",
   "settingsHdInstalled": "ઇન્સ્ટૉલ છે · ઑફલાઇન ચાલે છે",
-  "settingsHdRemove": "દૂર કરો"
+  "settingsHdRemove": "દૂર કરો",
+  "settingsReplayIntro": "ઇન્ટ્રો ફરી જુઓ"
 }

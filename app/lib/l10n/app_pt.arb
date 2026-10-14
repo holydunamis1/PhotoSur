@@ -1,7 +1,7 @@
 {
   "@@locale": "pt",
   "appTitle": "KatharErase",
-  "onboardingPage1Title": "Remova fundos na hora",
+  "onboardingPage1Title": "Remova fundos na hora. Todos os recursos grátis.",
   "onboardingPage1Body": "Abra uma foto e nossa IA no aparelho remove o fundo automaticamente, sem internet.",
   "onboardingPage2Title": "Ajuste com o pincel",
   "onboardingPage2Body": "Dê zoom e apague o que a IA deixou passar, ou restaure o que quiser manter.",
@@ -173,5 +173,6 @@
   "settingsHdTitle": "Modelo de recorte HD",
   "settingsHdNotInstalled": "Não baixado · {size} MB",
   "settingsHdInstalled": "Instalado · funciona offline",
-  "settingsHdRemove": "Remover"
+  "settingsHdRemove": "Remover",
+  "settingsReplayIntro": "Rever a introdução"
 }

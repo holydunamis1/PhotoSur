@@ -1,7 +1,7 @@
 {
   "@@locale": "tr",
   "appTitle": "KatharErase",
-  "onboardingPage1Title": "Arka planları anında kaldırın",
+  "onboardingPage1Title": "Arka planları anında kaldırın. Tüm özellikler ücretsiz.",
   "onboardingPage1Body": "Bir fotoğraf açın, cihazdaki yapay zekâmız arka planı otomatik olarak kaldırsın — internet gerekmez.",
   "onboardingPage2Title": "Fırçayla ince ayar yapın",
   "onboardingPage2Body": "Yakınlaştırın ve yapay zekânın kaçırdığı yerleri silin ya da tutmak istediklerinizi geri getirin.",
@@ -173,5 +173,6 @@
   "settingsHdTitle": "HD kesim modeli",
   "settingsHdNotInstalled": "İndirilmedi · {size} MB",
   "settingsHdInstalled": "Yüklü · çevrimdışı çalışır",
-  "settingsHdRemove": "Kaldır"
+  "settingsHdRemove": "Kaldır",
+  "settingsReplayIntro": "Tanıtımı yeniden izle"
 }

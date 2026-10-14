@@ -1,7 +1,7 @@
 {
   "@@locale": "ms",
   "appTitle": "KatharErase",
-  "onboardingPage1Title": "Buang latar belakang serta-merta",
+  "onboardingPage1Title": "Alih keluar latar belakang serta-merta. Semua ciri percuma.",
   "onboardingPage1Body": "Buka foto dan AI pada peranti anda membuang latar belakang secara automatik — tanpa internet.",
   "onboardingPage2Title": "Halusi dengan berus",
   "onboardingPage2Body": "Zum masuk dan padam bahagian yang terlepas oleh AI, atau pulihkan bahagian yang mahu disimpan.",
@@ -173,5 +173,6 @@
   "settingsHdTitle": "Model potongan HD",
   "settingsHdNotInstalled": "Belum dimuat turun · {size} MB",
   "settingsHdInstalled": "Dipasang · berfungsi luar talian",
-  "settingsHdRemove": "Alih keluar"
+  "settingsHdRemove": "Alih keluar",
+  "settingsReplayIntro": "Main semula pengenalan"
 }

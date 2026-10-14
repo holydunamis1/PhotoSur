@@ -1,7 +1,7 @@
 {
   "@@locale": "de",
   "appTitle": "KatharErase",
-  "onboardingPage1Title": "Hintergründe sofort entfernen",
+  "onboardingPage1Title": "Hintergründe sofort entfernen. Alle Funktionen kostenlos.",
   "onboardingPage1Body": "Öffne ein Foto und unsere KI auf dem Gerät entfernt den Hintergrund automatisch, ganz ohne Internet.",
   "onboardingPage2Title": "Feinschliff mit dem Pinsel",
   "onboardingPage2Body": "Zoome hinein und male weg, was die KI übersehen hat, oder stelle Teile wieder her.",
@@ -173,5 +173,6 @@
   "settingsHdTitle": "HD-Freistellungsmodell",
   "settingsHdNotInstalled": "Nicht geladen · {size} MB",
   "settingsHdInstalled": "Installiert · funktioniert offline",
-  "settingsHdRemove": "Entfernen"
+  "settingsHdRemove": "Entfernen",
+  "settingsReplayIntro": "Einführung erneut ansehen"
 }

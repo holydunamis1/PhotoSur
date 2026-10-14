@@ -4,7 +4,7 @@
   "appTitle": "KatharErase",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
-  "onboardingPage1Title": "Remove backgrounds instantly",
+  "onboardingPage1Title": "Remove backgrounds instantly. All features free.",
   "onboardingPage1Body": "Open a photo and our on-device AI removes the background automatically — no internet required.",
   "onboardingPage2Title": "Fine-tune with the brush",
   "onboardingPage2Body": "Zoom in and paint away anything the AI missed, or restore parts you want to keep.",
@@ -202,5 +202,6 @@
   "settingsHdNotInstalled": "Not downloaded · {size} MB",
   "@settingsHdNotInstalled": {"placeholders": {"size": {"type": "String"}}},
   "settingsHdInstalled": "Installed · works offline",
-  "settingsHdRemove": "Remove"
+  "settingsHdRemove": "Remove",
+  "settingsReplayIntro": "Replay intro"
 }

@@ -4,7 +4,7 @@
   "appTitle": "KatharErase",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
-  "onboardingPage1Title": "Távolítsd el a hátteret azonnal",
+  "onboardingPage1Title": "Háttér eltávolítása azonnal. Minden funkció ingyenes.",
   "onboardingPage1Body": "Nyiss meg egy fotót, és az eszközön futó mesterséges intelligencia automatikusan eltávolítja a hátteret — internet nélkül.",
   "onboardingPage2Title": "Finomíts ecsettel",
   "onboardingPage2Body": "Nagyíts rá, és told ki, amit az MI kihagyott, vagy állítsd vissza a megtartandó részeket.",
@@ -192,5 +192,6 @@
   "settingsHdTitle": "HD kivágási modell",
   "settingsHdNotInstalled": "Nincs letöltve · {size} MB",
   "settingsHdInstalled": "Telepítve · offline is működik",
-  "settingsHdRemove": "Eltávolítás"
+  "settingsHdRemove": "Eltávolítás",
+  "settingsReplayIntro": "Bemutató újralejátszása"
 }

@@ -4,7 +4,7 @@
   "appTitle": "KatharErase",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
-  "onboardingPage1Title": "Fjern baggrunden med det samme",
+  "onboardingPage1Title": "Fjern baggrunde med det samme. Alle funktioner gratis.",
   "onboardingPage1Body": "Åbn et foto, og AI'en på din enhed fjerner automatisk baggrunden — uden internet.",
   "onboardingPage2Title": "Finjuster med penslen",
   "onboardingPage2Body": "Zoom ind og mal væk det, AI'en overså, eller gendan de dele, du vil beholde.",
@@ -192,5 +192,6 @@
   "settingsHdTitle": "HD-frilægningsmodel",
   "settingsHdNotInstalled": "Ikke hentet · {size} MB",
   "settingsHdInstalled": "Installeret · virker offline",
-  "settingsHdRemove": "Fjern"
+  "settingsHdRemove": "Fjern",
+  "settingsReplayIntro": "Afspil introen igen"
 }

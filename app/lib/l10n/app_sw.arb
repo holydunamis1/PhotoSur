@@ -4,7 +4,7 @@
   "appTitle": "KatharErase",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
-  "onboardingPage1Title": "Ondoa mandharinyuma papo hapo",
+  "onboardingPage1Title": "Ondoa mandharinyuma papo hapo. Vipengele vyote bure.",
   "onboardingPage1Body": "Fungua picha na AI iliyo ndani ya simu yako itaondoa mandharinyuma kiotomatiki — hakuna intaneti inayohitajika.",
   "onboardingPage2Title": "Boresha kwa brashi",
   "onboardingPage2Body": "Kuza na ufute chochote ambacho AI imekikosa, au rudisha sehemu unazotaka kuzihifadhi.",
@@ -192,5 +192,6 @@
   "settingsHdTitle": "Modeli ya ukataji wa HD",
   "settingsHdNotInstalled": "Haijapakuliwa · MB {size}",
   "settingsHdInstalled": "Imesakinishwa · inafanya kazi bila mtandao",
-  "settingsHdRemove": "Ondoa"
+  "settingsHdRemove": "Ondoa",
+  "settingsReplayIntro": "Tazama utangulizi tena"
 }

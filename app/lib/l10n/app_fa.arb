@@ -1,7 +1,7 @@
 {
   "@@locale": "fa",
   "appTitle": "KatharErase",
-  "onboardingPage1Title": "پس‌زمینه را فوری حذف کنید",
+  "onboardingPage1Title": "پس‌زمینه را فوری حذف کنید. همهٔ امکانات رایگان.",
   "onboardingPage1Body": "یک عکس باز کنید تا هوش مصنوعی روی دستگاه، پس‌زمینه را خودکار حذف کند — بدون نیاز به اینترنت.",
   "onboardingPage2Title": "با قلم‌مو دقیق‌تر کنید",
   "onboardingPage2Body": "بزرگ‌نمایی کنید و آنچه هوش مصنوعی جا انداخته را پاک کنید، یا بخش‌هایی را که می‌خواهید نگه دارید برگردانید.",
@@ -173,5 +173,6 @@
   "settingsHdTitle": "مدل برش HD",
   "settingsHdNotInstalled": "دانلود نشده · {size} مگابایت",
   "settingsHdInstalled": "نصب شده · آفلاین کار می‌کند",
-  "settingsHdRemove": "حذف"
+  "settingsHdRemove": "حذف",
+  "settingsReplayIntro": "پخش دوبارهٔ معرفی"
 }

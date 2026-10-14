@@ -1,7 +1,7 @@
 {
   "@@locale": "id",
   "appTitle": "KatharErase",
-  "onboardingPage1Title": "Hapus latar belakang seketika",
+  "onboardingPage1Title": "Hapus latar belakang seketika. Semua fitur gratis.",
   "onboardingPage1Body": "Buka foto dan AI di perangkat kami menghapus latar belakang secara otomatis, tanpa internet.",
   "onboardingPage2Title": "Sempurnakan dengan kuas",
   "onboardingPage2Body": "Perbesar dan hapus bagian yang terlewat oleh AI, atau pulihkan bagian yang ingin dipertahankan.",
@@ -173,5 +173,6 @@
   "settingsHdTitle": "Model potongan HD",
   "settingsHdNotInstalled": "Belum diunduh · {size} MB",
   "settingsHdInstalled": "Terpasang · berfungsi offline",
-  "settingsHdRemove": "Hapus"
+  "settingsHdRemove": "Hapus",
+  "settingsReplayIntro": "Putar ulang pengenalan"
 }

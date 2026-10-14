@@ -4,7 +4,7 @@
   "appTitle": "KatharErase",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
-  "onboardingPage1Title": "Poista tausta hetkessä",
+  "onboardingPage1Title": "Poista taustat heti. Kaikki ominaisuudet ilmaisia.",
   "onboardingPage1Body": "Avaa kuva, niin laitteellasi toimiva tekoäly poistaa taustan automaattisesti — ilman internetyhteyttä.",
   "onboardingPage2Title": "Hienosäädä siveltimellä",
   "onboardingPage2Body": "Zoomaa lähelle ja pyyhi pois se, minkä tekoäly ohitti, tai palauta osat, jotka haluat pitää.",
@@ -192,5 +192,6 @@
   "settingsHdTitle": "HD-rajausmalli",
   "settingsHdNotInstalled": "Ei ladattu · {size} Mt",
   "settingsHdInstalled": "Asennettu · toimii offline-tilassa",
-  "settingsHdRemove": "Poista"
+  "settingsHdRemove": "Poista",
+  "settingsReplayIntro": "Katso esittely uudelleen"
 }
