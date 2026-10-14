@@ -1,7 +1,7 @@
 {
   "@@locale": "mr",
 
-  "appTitle": "KatharErase",
+  "appTitle": "PhotoSur",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
   "onboardingPage1Title": "बॅकग्राउंड त्वरित काढा. सर्व फीचर्स मोफत.",
@@ -101,7 +101,7 @@
   "reminderBody": "जिथे थांबला होतात तिथून पुढे सुरू करा आणि तुमचा फोटो एक्सपोर्ट करा.",
   "settingsReminders": "एडिट स्मरणपत्रे",
   "settingsRemindersSubtitle": "अपूर्ण एडिटची आठवण करून द्या",
-  "settingsRemindersBlocked": "तुमच्या फोनच्या सेटिंग्जमध्ये KatharErase साठी सूचना बंद आहेत.",
+  "settingsRemindersBlocked": "तुमच्या फोनच्या सेटिंग्जमध्ये PhotoSur साठी सूचना बंद आहेत.",
   "editorBrushHint": "रंगवण्यासाठी ड्रॅग करा. झूम करण्यासाठी दोन बोटांनी पिंच करा.",
   "editorToolCutout": "कट-आउट",
   "editorToolBrush": "ब्रश",
@@ -124,7 +124,7 @@
   "settingsRestoreRequested": "पुनर्संचयनाची विनंती केली — थोड्या वेळाने पुन्हा पहा.",
   "settingsRestoreFailed": "पुनर्संचयन अयशस्वी.",
   "settingsShareFailed": "शेअर करता आले नाही.",
-  "settingsShareAppMessage": "KatharErase सह फोटोचे बॅकग्राउंड क्षणात काढा — मोफत, वॉटरमार्क नाही.",
+  "settingsShareAppMessage": "PhotoSur सह फोटोचे बॅकग्राउंड क्षणात काढा — मोफत, वॉटरमार्क नाही.",
 
   "paywallTitle": "जाहिरातमुक्त व्हा",
   "paywallAlreadyAdFree": "तुम्ही आधीच जाहिरातमुक्त आहात. धन्यवाद!",
@@ -150,7 +150,7 @@
 
   "unsupportedTitle": "डिव्हाइस समर्थित नाही",
   "unsupportedNoCameraMessage": "या डिव्हाइसवर कॅमेरा उपलब्ध नाही.",
-  "unsupportedLowMemoryMessage": "KatharErase चे एडिटर विश्वासार्हपणे चालवण्यासाठी या डिव्हाइसवर पुरेशी मेमरी नाही.",
+  "unsupportedLowMemoryMessage": "PhotoSur चे एडिटर विश्वासार्हपणे चालवण्यासाठी या डिव्हाइसवर पुरेशी मेमरी नाही.",
   "unsupportedManualImportHint": "तुम्ही तरीही गॅलरीतून फोटो इंपोर्ट करून मॅन्युअल ब्रश टूल वापरू शकता.",
   "unsupportedUseGalleryButton": "गॅलरीतून इंपोर्ट करा",
   "homeBatchButton": "बॅच",

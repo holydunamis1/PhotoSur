@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:katharerase/generated/l10n/app_localizations.dart';
-import 'package:katharerase/widgets/preference_sheets.dart';
+import 'package:photosur/generated/l10n/app_localizations.dart';
+import 'package:photosur/widgets/preference_sheets.dart';
 
 void main() {
   test('every shipped language has native and English names', () {

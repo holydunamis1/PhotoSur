@@ -1,8 +1,8 @@
 import 'dart:typed_data';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:katharerase/core/services/segmentation_service.dart';
-import 'package:katharerase/core/utils/constants.dart';
+import 'package:photosur/core/services/segmentation_service.dart';
+import 'package:photosur/core/utils/constants.dart';
 
 const int _inLen = kModelInputSize * kModelInputSize * 3;
 const int _outLen = kModelInputSize * kModelInputSize;

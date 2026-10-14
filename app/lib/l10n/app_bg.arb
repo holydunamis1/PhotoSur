@@ -1,7 +1,7 @@
 {
   "@@locale": "bg",
 
-  "appTitle": "KatharErase",
+  "appTitle": "PhotoSur",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
   "onboardingPage1Title": "Премахвайте фонове мигновено. Всички функции безплатни.",
@@ -101,7 +101,7 @@
   "reminderBody": "Продължете оттам, докъдето сте стигнали, и експортирайте снимката си.",
   "settingsReminders": "Напомняния за редакция",
   "settingsRemindersSubtitle": "Напомняй ми за незавършени редакции",
-  "settingsRemindersBlocked": "Известията за KatharErase са изключени в настройките на телефона ви.",
+  "settingsRemindersBlocked": "Известията за PhotoSur са изключени в настройките на телефона ви.",
   "editorBrushHint": "Плъзнете, за да рисувате. Прищипнете с два пръста, за да увеличите.",
   "editorToolCutout": "Изрязване",
   "editorToolBrush": "Четка",
@@ -124,7 +124,7 @@
   "settingsRestoreRequested": "Заявено е възстановяване — проверете отново след малко.",
   "settingsRestoreFailed": "Възстановяването не успя.",
   "settingsShareFailed": "Споделянето не успя.",
-  "settingsShareAppMessage": "Премахвайте фона на снимки мигновено с KatharErase — безплатно, без воден знак.",
+  "settingsShareAppMessage": "Премахвайте фона на снимки мигновено с PhotoSur — безплатно, без воден знак.",
 
   "paywallTitle": "Без реклами",
   "paywallAlreadyAdFree": "Вече сте без реклами. Благодарим ви!",
@@ -150,7 +150,7 @@
 
   "unsupportedTitle": "Устройството не се поддържа",
   "unsupportedNoCameraMessage": "Това устройство няма налична камера.",
-  "unsupportedLowMemoryMessage": "Това устройство няма достатъчно памет, за да работи надеждно редакторът на KatharErase.",
+  "unsupportedLowMemoryMessage": "Това устройство няма достатъчно памет, за да работи надеждно редакторът на PhotoSur.",
   "unsupportedManualImportHint": "Все пак можете да импортирате снимка от галерията и да използвате ръчната четка.",
   "unsupportedUseGalleryButton": "Импорт от Галерия",
   "homeBatchButton": "Пакет",

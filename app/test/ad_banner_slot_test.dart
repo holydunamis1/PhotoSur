@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:katharerase/core/providers/settings_provider.dart';
-import 'package:katharerase/core/providers/subscription_provider.dart';
-import 'package:katharerase/widgets/ad_banner_slot.dart';
+import 'package:photosur/core/providers/settings_provider.dart';
+import 'package:photosur/core/providers/subscription_provider.dart';
+import 'package:photosur/widgets/ad_banner_slot.dart';
 import 'package:provider/provider.dart';
 
 Widget _host(SubscriptionProvider subscription) {

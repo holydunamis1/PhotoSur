@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:katharerase/core/providers/image_edit_provider.dart';
-import 'package:katharerase/core/providers/settings_provider.dart';
-import 'package:katharerase/core/providers/subscription_provider.dart';
-import 'package:katharerase/core/providers/theme_provider.dart';
-import 'package:katharerase/core/theme/app_theme.dart';
-import 'package:katharerase/generated/l10n/app_localizations.dart';
-import 'package:katharerase/screens/settings_screen.dart';
-import 'package:katharerase/widgets/editor_tool_dock.dart';
-import 'package:katharerase/widgets/editor_tool_panel.dart';
+import 'package:photosur/core/providers/image_edit_provider.dart';
+import 'package:photosur/core/providers/settings_provider.dart';
+import 'package:photosur/core/providers/subscription_provider.dart';
+import 'package:photosur/core/providers/theme_provider.dart';
+import 'package:photosur/core/theme/app_theme.dart';
+import 'package:photosur/generated/l10n/app_localizations.dart';
+import 'package:photosur/screens/settings_screen.dart';
+import 'package:photosur/widgets/editor_tool_dock.dart';
+import 'package:photosur/widgets/editor_tool_panel.dart';
 import 'package:provider/provider.dart';
 
 Widget _app(Widget home, {double textScale = 1.0, ImageEditProvider? edit}) {
@@ -31,7 +31,7 @@ Widget _app(Widget home, {double textScale = 1.0, ImageEditProvider? edit}) {
 
 void main() {
   setUpAll(() {
-    // The real app switches this off in KatharEraseApp.build.
+    // The real app switches this off in PhotoSurApp.build.
     Provider.debugCheckInvalidValueType = null;
   });
 

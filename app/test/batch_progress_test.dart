@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:katharerase/core/models/batch_progress.dart';
+import 'package:photosur/core/models/batch_progress.dart';
 
 void main() {
   test('starts with every photo waiting', () {

@@ -38,7 +38,7 @@ class ShareService {
         final granted = await Gal.requestAccess();
         if (!granted) return false;
       }
-      await Gal.putImageBytes(imageBytes, album: album ?? 'KatharErase');
+      await Gal.putImageBytes(imageBytes, album: album ?? 'PhotoSur');
       return true;
     } on GalException catch (e) {
       // Known, typed failure (permission denied, unsupported format, out

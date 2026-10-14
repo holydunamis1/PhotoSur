@@ -2,7 +2,7 @@ import 'dart:typed_data';
 import 'dart:ui';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:katharerase/core/providers/image_edit_provider.dart';
+import 'package:photosur/core/providers/image_edit_provider.dart';
 
 const int _w = 12;
 const int _h = 10;

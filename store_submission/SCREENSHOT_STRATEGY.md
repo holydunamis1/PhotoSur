@@ -1,4 +1,4 @@
-# Screenshot Strategy — KatharErase
+# Screenshot Strategy — PhotoSur
 
 ## Required sizes
 

@@ -4,10 +4,10 @@ import 'package:crop_your_image/crop_your_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:image/image.dart' as img;
-import 'package:katharerase/core/providers/settings_provider.dart';
-import 'package:katharerase/core/providers/subscription_provider.dart';
-import 'package:katharerase/generated/l10n/app_localizations.dart';
-import 'package:katharerase/screens/crop_rotate_screen.dart';
+import 'package:photosur/core/providers/settings_provider.dart';
+import 'package:photosur/core/providers/subscription_provider.dart';
+import 'package:photosur/generated/l10n/app_localizations.dart';
+import 'package:photosur/screens/crop_rotate_screen.dart';
 import 'package:provider/provider.dart';
 
 void main() {

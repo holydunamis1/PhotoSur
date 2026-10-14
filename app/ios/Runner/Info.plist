@@ -51,15 +51,15 @@
 		<string>ca</string>
 	</array>
 	<key>CFBundleDisplayName</key>
-	<string>KatharErase</string>
+	<string>PhotoSur</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.zdmgold.katharerase</string>
+	<string>com.zdmgold.photosur</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>katharerase</string>
+	<string>photosur</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -92,7 +92,7 @@
 
 	<!-- Camera (Feature 12, camera package) -->
 	<key>NSCameraUsageDescription</key>
-	<string>KatharErase needs camera access to take product photos for background removal.</string>
+	<string>PhotoSur needs camera access to take product photos for background removal.</string>
 
 	<!--
 		Photo library — TWO keys required, not one. Section 5's original
@@ -106,9 +106,9 @@
 		(home_screen.dart / camera_screen.dart's gallery shortcut).
 	-->
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>KatharErase saves your edited photos to your photo library.</string>
+	<string>PhotoSur saves your edited photos to your photo library.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>KatharErase needs photo library access so you can pick a photo to edit.</string>
+	<string>PhotoSur needs photo library access so you can pick a photo to edit.</string>
 
 	<!-- ATT (Section 11 compliance table, A10) -->
 	<key>NSUserTrackingUsageDescription</key>

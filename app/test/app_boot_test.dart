@@ -1,12 +1,12 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:katharerase/app.dart';
-import 'package:katharerase/core/providers/ad_provider.dart';
-import 'package:katharerase/core/providers/image_edit_provider.dart';
-import 'package:katharerase/core/providers/settings_provider.dart';
-import 'package:katharerase/core/providers/subscription_provider.dart';
-import 'package:katharerase/core/providers/theme_provider.dart';
-import 'package:katharerase/screens/home_screen.dart';
-import 'package:katharerase/screens/onboarding_screen.dart';
+import 'package:photosur/app.dart';
+import 'package:photosur/core/providers/ad_provider.dart';
+import 'package:photosur/core/providers/image_edit_provider.dart';
+import 'package:photosur/core/providers/settings_provider.dart';
+import 'package:photosur/core/providers/subscription_provider.dart';
+import 'package:photosur/core/providers/theme_provider.dart';
+import 'package:photosur/screens/home_screen.dart';
+import 'package:photosur/screens/onboarding_screen.dart';
 
 /// Boots the REAL app widget tree (real router, real providers, real
 /// localization) the way main() does, in debug mode where framework
@@ -14,9 +14,9 @@ import 'package:katharerase/screens/onboarding_screen.dart';
 /// "Tried to use Provider with a subtype of Listenable" crash that left
 /// debug builds frozen on the splash screen — fails this test, with no
 /// APK or device needed.
-KatharEraseApp _buildApp(SettingsProvider settings) {
+PhotoSurApp _buildApp(SettingsProvider settings) {
   final subscription = SubscriptionProvider(settings);
-  return KatharEraseApp(
+  return PhotoSurApp(
     themeProvider: ThemeProvider(),
     settingsProvider: settings,
     subscriptionProvider: subscription,

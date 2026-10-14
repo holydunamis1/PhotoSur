@@ -21,10 +21,10 @@ import '../widgets/toast_notification.dart';
 // Support URL both show "Pending" there). Bracket placeholders, not
 // invented-looking values — matches the convention already established
 // for AdMob unit IDs in constants.dart.
-const String _kPrivacyPolicyUrl = 'https://katharerase.holydunamis1.workers.dev/privacy';
-const String _kSupportUrl = 'https://katharerase.holydunamis1.workers.dev/support';
+const String _kPrivacyPolicyUrl = 'https://photosur.holydunamis1.workers.dev/privacy';
+const String _kSupportUrl = 'https://photosur.holydunamis1.workers.dev/support';
 const String _kIosAppStoreId = '[YOUR_IOS_APP_STORE_ID]';
-const String _kAndroidPackageId = 'com.zdmgold.katharerase'; // locked, Section 1a
+const String _kAndroidPackageId = 'com.zdmgold.photosur'; // locked, Section 1a
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
@@ -210,7 +210,7 @@ class SettingsScreen extends StatelessWidget {
                 leading: const Icon(Icons.description_outlined),
                 onTap: () => showLicensePage(
                   context: context,
-                  applicationName: 'KatharErase',
+                  applicationName: 'PhotoSur',
                 ),
               ),
               ]),

@@ -1,7 +1,7 @@
 {
   "@@locale": "sw",
 
-  "appTitle": "KatharErase",
+  "appTitle": "PhotoSur",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
   "onboardingPage1Title": "Ondoa mandharinyuma papo hapo. Vipengele vyote bure.",
@@ -101,7 +101,7 @@
   "reminderBody": "Endelea ulipoachia na utoe picha yako.",
   "settingsReminders": "Vikumbusho vya uhariri",
   "settingsRemindersSubtitle": "Nikumbushe kuhusu uhariri ambao haujakamilika",
-  "settingsRemindersBlocked": "Arifa zimezimwa kwa KatharErase kwenye mipangilio ya simu yako.",
+  "settingsRemindersBlocked": "Arifa zimezimwa kwa PhotoSur kwenye mipangilio ya simu yako.",
   "editorBrushHint": "Buruta ili kupaka. Bana kwa vidole viwili ili kukuza.",
   "editorToolCutout": "Kata",
   "editorToolBrush": "Brashi",
@@ -124,7 +124,7 @@
   "settingsRestoreRequested": "Ombi la kurejesha limetumwa — angalia tena baada ya muda mfupi.",
   "settingsRestoreFailed": "Kurejesha kumeshindikana.",
   "settingsShareFailed": "Imeshindwa kushiriki.",
-  "settingsShareAppMessage": "Ondoa mandharinyuma ya picha papo hapo ukitumia KatharErase — bila malipo, bila alama ya maji.",
+  "settingsShareAppMessage": "Ondoa mandharinyuma ya picha papo hapo ukitumia PhotoSur — bila malipo, bila alama ya maji.",
 
   "paywallTitle": "Ondoa Matangazo",
   "paywallAlreadyAdFree": "Tayari huna matangazo. Asante!",
@@ -150,7 +150,7 @@
 
   "unsupportedTitle": "Kifaa Hakitumiki",
   "unsupportedNoCameraMessage": "Kifaa hiki hakina kamera inayopatikana.",
-  "unsupportedLowMemoryMessage": "Kifaa hiki hakina kumbukumbu ya kutosha kuendesha kihariri cha KatharErase kwa uhakika.",
+  "unsupportedLowMemoryMessage": "Kifaa hiki hakina kumbukumbu ya kutosha kuendesha kihariri cha PhotoSur kwa uhakika.",
   "unsupportedManualImportHint": "Bado unaweza kuleta picha kutoka ghala na kutumia zana ya brashi ya mkono.",
   "unsupportedUseGalleryButton": "Leta kutoka Ghala",
   "homeBatchButton": "Kundi",

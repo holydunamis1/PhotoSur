@@ -3,7 +3,7 @@
 # collect the app's own startup log so a hang/crash can be diagnosed
 # without a phone. Output is split into <4 KB annotations.
 APK=app/build/app/outputs/flutter-apk/app-debug.apk
-PKG=com.zdmgold.katharerase
+PKG=com.zdmgold.photosur
 adb wait-for-device
 adb install -r "$APK" > /tmp/install.txt 2>&1
 adb logcat -c

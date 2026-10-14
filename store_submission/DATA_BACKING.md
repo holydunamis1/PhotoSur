@@ -1,4 +1,4 @@
-# Data Safety / App Privacy Backing — KatharErase
+# Data Safety / App Privacy Backing — PhotoSur
 
 Reference document for filling out Play Console's Data Safety form and
 App Store Connect's App Privacy questionnaire. Not the disclosures

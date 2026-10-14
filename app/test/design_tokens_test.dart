@@ -3,8 +3,8 @@ import 'dart:math' as math;
 import 'package:flutter/cupertino.dart' show CupertinoPageTransitionsBuilder;
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:katharerase/core/theme/app_theme.dart';
-import 'package:katharerase/core/theme/app_tokens.dart';
+import 'package:photosur/core/theme/app_theme.dart';
+import 'package:photosur/core/theme/app_tokens.dart';
 
 double _channel(double v) =>
     v <= 0.03928 ? v / 12.92 : math.pow((v + 0.055) / 1.055, 2.4).toDouble();

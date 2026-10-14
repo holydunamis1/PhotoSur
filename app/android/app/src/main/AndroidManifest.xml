@@ -44,7 +44,7 @@
     </queries>
 
     <application
-        android:label="KatharErase"
+        android:label="PhotoSur"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:localeConfig="@xml/locales_config"

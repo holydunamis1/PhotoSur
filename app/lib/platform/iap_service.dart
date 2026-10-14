@@ -5,7 +5,7 @@ import 'package:in_app_purchase/in_app_purchase.dart';
 /// One-time, non-consumable "remove ads" product. Create it in App Store
 /// Connect and Play Console with exactly this ID (type: non-consumable /
 /// one-time in-app product, price $14.99). There is no subscription.
-const String kAdFreeProductId = 'com.zdmgold.katharerase.adfree';
+const String kAdFreeProductId = 'com.zdmgold.photosur.adfree';
 
 class IapException implements Exception {
   const IapException(this.message, [this.cause]);

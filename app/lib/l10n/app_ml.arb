@@ -1,7 +1,7 @@
 {
   "@@locale": "ml",
 
-  "appTitle": "KatharErase",
+  "appTitle": "PhotoSur",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
   "onboardingPage1Title": "ബാക്ക്ഗ്രൗണ്ടുകൾ തൽക്ഷണം നീക്കം ചെയ്യൂ. എല്ലാ ഫീച്ചറുകളും സൗജന്യം.",
@@ -101,7 +101,7 @@
   "reminderBody": "നിർത്തിയിടത്തുനിന്ന് തുടർന്ന് നിങ്ങളുടെ ഫോട്ടോ എക്സ്പോർട്ട് ചെയ്യൂ.",
   "settingsReminders": "എഡിറ്റ് ഓർമ്മപ്പെടുത്തലുകൾ",
   "settingsRemindersSubtitle": "പൂർത്തിയാകാത്ത എഡിറ്റുകൾ ഓർമ്മിപ്പിക്കൂ",
-  "settingsRemindersBlocked": "നിങ്ങളുടെ ഫോൺ ക്രമീകരണങ്ങളിൽ KatharErase-ന്റെ അറിയിപ്പുകൾ ഓഫാണ്.",
+  "settingsRemindersBlocked": "നിങ്ങളുടെ ഫോൺ ക്രമീകരണങ്ങളിൽ PhotoSur-ന്റെ അറിയിപ്പുകൾ ഓഫാണ്.",
   "editorBrushHint": "വരയ്ക്കാൻ വലിക്കൂ. സൂം ചെയ്യാൻ രണ്ട് വിരലുകൾ കൊണ്ട് പിഞ്ച് ചെയ്യൂ.",
   "editorToolCutout": "കട്ട്-ഔട്ട്",
   "editorToolBrush": "ബ്രഷ്",
@@ -124,7 +124,7 @@
   "settingsRestoreRequested": "പുനഃസ്ഥാപിക്കൽ അഭ്യർത്ഥിച്ചു — അൽപ്പസമയം കഴിഞ്ഞ് നോക്കൂ.",
   "settingsRestoreFailed": "പുനഃസ്ഥാപിക്കൽ പരാജയപ്പെട്ടു.",
   "settingsShareFailed": "പങ്കിടാൻ കഴിഞ്ഞില്ല.",
-  "settingsShareAppMessage": "KatharErase ഉപയോഗിച്ച് ഫോട്ടോ പശ്ചാത്തലങ്ങൾ ഉടനടി നീക്കൂ — സൗജന്യം, വാട്ടർമാർക്ക് ഇല്ല.",
+  "settingsShareAppMessage": "PhotoSur ഉപയോഗിച്ച് ഫോട്ടോ പശ്ചാത്തലങ്ങൾ ഉടനടി നീക്കൂ — സൗജന്യം, വാട്ടർമാർക്ക് ഇല്ല.",
 
   "paywallTitle": "പരസ്യങ്ങൾ ഒഴിവാക്കൂ",
   "paywallAlreadyAdFree": "നിങ്ങൾ ഇതിനകം പരസ്യരഹിതമാണ്. നന്ദി!",
@@ -150,7 +150,7 @@
 
   "unsupportedTitle": "ഉപകരണം പിന്തുണയ്ക്കുന്നില്ല",
   "unsupportedNoCameraMessage": "ഈ ഉപകരണത്തിൽ ക്യാമറ ലഭ്യമല്ല.",
-  "unsupportedLowMemoryMessage": "KatharErase എഡിറ്റർ വിശ്വസനീയമായി പ്രവർത്തിപ്പിക്കാൻ ഈ ഉപകരണത്തിൽ മതിയായ മെമ്മറി ഇല്ല.",
+  "unsupportedLowMemoryMessage": "PhotoSur എഡിറ്റർ വിശ്വസനീയമായി പ്രവർത്തിപ്പിക്കാൻ ഈ ഉപകരണത്തിൽ മതിയായ മെമ്മറി ഇല്ല.",
   "unsupportedManualImportHint": "ഗാലറിയിൽ നിന്ന് ഫോട്ടോ ഇമ്പോർട്ട് ചെയ്ത് മാനുവൽ ബ്രഷ് ടൂൾ ഉപയോഗിക്കാം.",
   "unsupportedUseGalleryButton": "ഗാലറിയിൽ നിന്ന് ഇമ്പോർട്ട്",
   "homeBatchButton": "ബാച്ച്",

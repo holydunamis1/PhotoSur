@@ -59,7 +59,7 @@ class StorageService {
     if (existing != null) return existing;
     try {
       final dir = await getApplicationDocumentsDirectory();
-      final dbPath = p.join(dir.path, 'katharerase.db');
+      final dbPath = p.join(dir.path, 'photosur.db');
       final db = await openDatabase(
         dbPath,
         version: _dbVersion,

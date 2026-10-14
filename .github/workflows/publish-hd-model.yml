@@ -25,4 +25,4 @@ jobs:
           gh release create models-v1 segmentation_hd.tflite \
             --repo "$GITHUB_REPOSITORY" \
             --title "HD cut-out model v1" \
-            --notes "U2-Net (full) converted to TensorFlow Lite fp16, single output. Downloaded on demand by KatharErase. SHA-256 7b898381005a2f6efb931f4cd59ec4f1ba7e806a12e9feb6b9efb504b92b556b."
+            --notes "U2-Net (full) converted to TensorFlow Lite fp16, single output. Downloaded on demand by PhotoSur. SHA-256 7b898381005a2f6efb931f4cd59ec4f1ba7e806a12e9feb6b9efb504b92b556b."

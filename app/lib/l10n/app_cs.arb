@@ -1,7 +1,7 @@
 {
   "@@locale": "cs",
 
-  "appTitle": "KatharErase",
+  "appTitle": "PhotoSur",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
   "onboardingPage1Title": "Odstraňte pozadí okamžitě. Všechny funkce zdarma.",
@@ -101,7 +101,7 @@
   "reminderBody": "Navažte, kde jste skončili, a exportujte svou fotku.",
   "settingsReminders": "Připomenutí úprav",
   "settingsRemindersSubtitle": "Připomínat nedokončené úpravy",
-  "settingsRemindersBlocked": "Oznámení pro KatharErase jsou vypnutá v nastavení telefonu.",
+  "settingsRemindersBlocked": "Oznámení pro PhotoSur jsou vypnutá v nastavení telefonu.",
   "editorBrushHint": "Tažením malujte. Dvěma prsty přibližujte.",
   "editorToolCutout": "Vyříznutí",
   "editorToolBrush": "Štětec",
@@ -124,7 +124,7 @@
   "settingsRestoreRequested": "Obnovení vyžádáno — zkuste to za chvíli.",
   "settingsRestoreFailed": "Obnovení se nezdařilo.",
   "settingsShareFailed": "Sdílení se nezdařilo.",
-  "settingsShareAppMessage": "Odstraňte pozadí fotek okamžitě s KatharErase — zdarma, bez vodoznaku.",
+  "settingsShareAppMessage": "Odstraňte pozadí fotek okamžitě s PhotoSur — zdarma, bez vodoznaku.",
 
   "paywallTitle": "Bez reklam",
   "paywallAlreadyAdFree": "Reklamy už nevidíte. Děkujeme!",
@@ -150,7 +150,7 @@
 
   "unsupportedTitle": "Zařízení není podporováno",
   "unsupportedNoCameraMessage": "Toto zařízení nemá dostupný fotoaparát.",
-  "unsupportedLowMemoryMessage": "Toto zařízení nemá dostatek paměti pro spolehlivý chod editoru KatharErase.",
+  "unsupportedLowMemoryMessage": "Toto zařízení nemá dostatek paměti pro spolehlivý chod editoru PhotoSur.",
   "unsupportedManualImportHint": "Stále můžete importovat fotku z galerie a použít ruční štětec.",
   "unsupportedUseGalleryButton": "Importovat z Galerie",
   "homeBatchButton": "Dávka",

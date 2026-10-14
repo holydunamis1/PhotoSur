@@ -23,8 +23,8 @@ import 'widgets/preference_sheets.dart';
 /// below, not from package:provider's own change-notification mechanism,
 /// consistent with the "ValueNotifier + ListenableBuilder, provider is
 /// DI-only" architecture rule.
-class KatharEraseApp extends StatelessWidget {
-  const KatharEraseApp({
+class PhotoSurApp extends StatelessWidget {
+  const PhotoSurApp({
     super.key,
     required this.themeProvider,
     required this.settingsProvider,
@@ -69,7 +69,7 @@ class KatharEraseApp extends StatelessWidget {
             valueListenable: settingsProvider,
             builder: (context, settings, _) {
               return MaterialApp.router(
-                  title: 'KatharErase',
+                  title: 'PhotoSur',
                   debugShowCheckedModeBanner: false,
                   themeMode: themeMode,
                   theme: buildAppTheme(Brightness.light),

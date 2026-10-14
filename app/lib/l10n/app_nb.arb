@@ -1,7 +1,7 @@
 {
   "@@locale": "nb",
 
-  "appTitle": "KatharErase",
+  "appTitle": "PhotoSur",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
   "onboardingPage1Title": "Fjern bakgrunner umiddelbart. Alle funksjoner gratis.",
@@ -101,7 +101,7 @@
   "reminderBody": "Fortsett der du slapp, og eksporter bildet ditt.",
   "settingsReminders": "Påminnelser om redigering",
   "settingsRemindersSubtitle": "Minn meg på uferdige redigeringer",
-  "settingsRemindersBlocked": "Varsler er slått av for KatharErase i telefonens innstillinger.",
+  "settingsRemindersBlocked": "Varsler er slått av for PhotoSur i telefonens innstillinger.",
   "editorBrushHint": "Dra for å male. Knip med to fingre for å zoome.",
   "editorToolCutout": "Frilegging",
   "editorToolBrush": "Pensel",
@@ -124,7 +124,7 @@
   "settingsRestoreRequested": "Gjenoppretting forespurt — sjekk igjen om litt.",
   "settingsRestoreFailed": "Gjenopprettingen mislyktes.",
   "settingsShareFailed": "Kunne ikke dele.",
-  "settingsShareAppMessage": "Fjern bildebakgrunner umiddelbart med KatharErase — gratis og uten vannmerke.",
+  "settingsShareAppMessage": "Fjern bildebakgrunner umiddelbart med PhotoSur — gratis og uten vannmerke.",
 
   "paywallTitle": "Fjern reklame",
   "paywallAlreadyAdFree": "Du har allerede ingen reklame. Takk!",
@@ -150,7 +150,7 @@
 
   "unsupportedTitle": "Enheten støttes ikke",
   "unsupportedNoCameraMessage": "Denne enheten har ikke et tilgjengelig kamera.",
-  "unsupportedLowMemoryMessage": "Denne enheten har ikke nok minne til å kjøre KatharErases editor pålitelig.",
+  "unsupportedLowMemoryMessage": "Denne enheten har ikke nok minne til å kjøre PhotoSurs editor pålitelig.",
   "unsupportedManualImportHint": "Du kan fortsatt importere et bilde fra galleriet og bruke det manuelle penselverktøyet.",
   "unsupportedUseGalleryButton": "Importer fra Galleri",
   "homeBatchButton": "Parti",

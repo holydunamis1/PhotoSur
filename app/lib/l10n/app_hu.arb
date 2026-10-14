@@ -1,7 +1,7 @@
 {
   "@@locale": "hu",
 
-  "appTitle": "KatharErase",
+  "appTitle": "PhotoSur",
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
   "onboardingPage1Title": "Háttér eltávolítása azonnal. Minden funkció ingyenes.",
@@ -101,7 +101,7 @@
   "reminderBody": "Folytasd ott, ahol abbahagytad, és exportáld a fotódat.",
   "settingsReminders": "Szerkesztési emlékeztetők",
   "settingsRemindersSubtitle": "Emlékeztessen a befejezetlen szerkesztésekre",
-  "settingsRemindersBlocked": "A KatharErase értesítései ki vannak kapcsolva a telefon beállításaiban.",
+  "settingsRemindersBlocked": "A PhotoSur értesítései ki vannak kapcsolva a telefon beállításaiban.",
   "editorBrushHint": "Húzással festhetsz. Két ujjal csippentve nagyíthatsz.",
   "editorToolCutout": "Kivágás",
   "editorToolBrush": "Ecset",
@@ -124,7 +124,7 @@
   "settingsRestoreRequested": "Visszaállítás kérve — nézz vissza kicsit később.",
   "settingsRestoreFailed": "A visszaállítás nem sikerült.",
   "settingsShareFailed": "A megosztás nem sikerült.",
-  "settingsShareAppMessage": "Távolítsd el a fotók hátterét azonnal a KatharErase-zel — ingyenes, vízjel nélkül.",
+  "settingsShareAppMessage": "Távolítsd el a fotók hátterét azonnal a PhotoSur-zel — ingyenes, vízjel nélkül.",
 
   "paywallTitle": "Reklámmentes verzió",
   "paywallAlreadyAdFree": "Már reklámmentesen használod. Köszönjük!",
@@ -150,7 +150,7 @@
 
   "unsupportedTitle": "Nem támogatott eszköz",
   "unsupportedNoCameraMessage": "Ezen az eszközön nem érhető el kamera.",
-  "unsupportedLowMemoryMessage": "Ennek az eszköznek nincs elég memóriája a KatharErase szerkesztő megbízható futtatásához.",
+  "unsupportedLowMemoryMessage": "Ennek az eszköznek nincs elég memóriája a PhotoSur szerkesztő megbízható futtatásához.",
   "unsupportedManualImportHint": "Továbbra is importálhatsz fotót a galériából, és használhatod a kézi ecsetet.",
   "unsupportedUseGalleryButton": "Importálás a Galériából",
   "homeBatchButton": "Köteg",

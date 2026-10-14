@@ -2,9 +2,9 @@ import 'dart:typed_data';
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:image/image.dart' as img;
-import 'package:katharerase/core/models/editable_image_state.dart';
-import 'package:katharerase/core/models/export_job.dart';
-import 'package:katharerase/core/services/export_service.dart';
+import 'package:photosur/core/models/editable_image_state.dart';
+import 'package:photosur/core/models/export_job.dart';
+import 'package:photosur/core/services/export_service.dart';
 
 /// Builds a small synthetic source image programmatically — no binary
 /// test fixture files committed to the repo, keeps this test

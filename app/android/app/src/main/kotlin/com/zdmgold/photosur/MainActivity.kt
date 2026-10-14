@@ -1,4 +1,4 @@
-package com.zdmgold.katharerase
+package com.zdmgold.photosur
 
 import io.flutter.embedding.android.FlutterActivity
 
