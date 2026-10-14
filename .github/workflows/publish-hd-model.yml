@@ -1,0 +1,28 @@
+name: Publish HD model (manual)
+
+# Run by hand from the Actions tab. Publishes the staged HD cut-out model
+# (branch models-stage) as release "models-v1", the file the app downloads.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: models-stage
+      - name: Verify checksum
+        run: |
+          echo "7b898381005a2f6efb931f4cd59ec4f1ba7e806a12e9feb6b9efb504b92b556b  segmentation_hd.tflite" | sha256sum -c -
+      - name: Create release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create models-v1 segmentation_hd.tflite \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "HD cut-out model v1" \
+            --notes "U2-Net (full) converted to TensorFlow Lite fp16, single output. Downloaded on demand by KatharErase. SHA-256 7b898381005a2f6efb931f4cd59ec4f1ba7e806a12e9feb6b9efb504b92b556b."
