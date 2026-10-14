@@ -180,5 +180,12 @@
   "@exportMarketplaceSummary": {"placeholders": {"width": {"type": "int"}, "height": {"type": "int"}, "format": {"type": "String"}}},
   "exportMarketplaceWhiteFill": "Pure white background, product fills the frame",
   "exportMarketplaceSizeCap": "File kept under {size} MB",
-  "@exportMarketplaceSizeCap": {"placeholders": {"size": {"type": "String"}}}
+  "@exportMarketplaceSizeCap": {"placeholders": {"size": {"type": "String"}}},
+  "editorToolTemplates": "Templates",
+  "templatesTitle": "Choose a template",
+  "templatesStudio": "Studio",
+  "templatesColorBlock": "Color block",
+  "templatesTextures": "Textures",
+  "templatesLight": "Light & shadow",
+  "templatesPatterns": "Gradients & patterns"
 }

@@ -155,5 +155,12 @@
   "exportMarketplaceLabel": "Marketplace",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "Latar putih murni, produk memenuhi bingkai",
-  "exportMarketplaceSizeCap": "Ukuran file di bawah {size} MB"
+  "exportMarketplaceSizeCap": "Ukuran file di bawah {size} MB",
+  "editorToolTemplates": "Templat",
+  "templatesTitle": "Pilih templat",
+  "templatesStudio": "Studio",
+  "templatesColorBlock": "Blok warna",
+  "templatesTextures": "Tekstur",
+  "templatesLight": "Cahaya & bayangan",
+  "templatesPatterns": "Gradasi & pola"
 }

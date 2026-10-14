@@ -155,5 +155,12 @@
   "exportMarketplaceLabel": "मार्केटप्लेस",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "शुद्ध सफ़ेद बैकग्राउंड, प्रोडक्ट फ़्रेम भरता है",
-  "exportMarketplaceSizeCap": "फ़ाइल {size} MB से कम"
+  "exportMarketplaceSizeCap": "फ़ाइल {size} MB से कम",
+  "editorToolTemplates": "टेम्पलेट",
+  "templatesTitle": "टेम्पलेट चुनें",
+  "templatesStudio": "स्टूडियो",
+  "templatesColorBlock": "कलर ब्लॉक",
+  "templatesTextures": "टेक्सचर",
+  "templatesLight": "रोशनी और छाया",
+  "templatesPatterns": "ग्रेडिएंट और पैटर्न"
 }

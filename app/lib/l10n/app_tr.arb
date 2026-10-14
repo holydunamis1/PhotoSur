@@ -155,5 +155,12 @@
   "exportMarketplaceLabel": "Pazar yeri",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "Saf beyaz arka plan, ürün kareyi doldurur",
-  "exportMarketplaceSizeCap": "Dosya {size} MB altında"
+  "exportMarketplaceSizeCap": "Dosya {size} MB altında",
+  "editorToolTemplates": "Şablonlar",
+  "templatesTitle": "Şablon seç",
+  "templatesStudio": "Stüdyo",
+  "templatesColorBlock": "Renk blokları",
+  "templatesTextures": "Dokular",
+  "templatesLight": "Işık ve gölge",
+  "templatesPatterns": "Geçişler ve desenler"
 }

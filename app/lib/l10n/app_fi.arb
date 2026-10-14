@@ -174,5 +174,12 @@
   "exportMarketplaceLabel": "Verkkomarkkinapaikka",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "Puhtaan valkoinen tausta, tuote täyttää kuvan",
-  "exportMarketplaceSizeCap": "Tiedosto alle {size} Mt"
+  "exportMarketplaceSizeCap": "Tiedosto alle {size} Mt",
+  "editorToolTemplates": "Mallit",
+  "templatesTitle": "Valitse malli",
+  "templatesStudio": "Studio",
+  "templatesColorBlock": "Värilohkot",
+  "templatesTextures": "Rakenteet",
+  "templatesLight": "Valo ja varjo",
+  "templatesPatterns": "Liukuvärit ja kuviot"
 }

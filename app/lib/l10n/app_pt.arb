@@ -155,5 +155,12 @@
   "exportMarketplaceLabel": "Marketplace",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "Fundo branco puro, produto preenche o quadro",
-  "exportMarketplaceSizeCap": "Arquivo com menos de {size} MB"
+  "exportMarketplaceSizeCap": "Arquivo com menos de {size} MB",
+  "editorToolTemplates": "Modelos",
+  "templatesTitle": "Escolher um modelo",
+  "templatesStudio": "Estúdio",
+  "templatesColorBlock": "Blocos de cor",
+  "templatesTextures": "Texturas",
+  "templatesLight": "Luz e sombra",
+  "templatesPatterns": "Gradientes e padrões"
 }

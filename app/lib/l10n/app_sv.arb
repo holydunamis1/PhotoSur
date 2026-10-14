@@ -155,5 +155,12 @@
   "exportMarketplaceLabel": "Marknadsplats",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "Rent vit bakgrund, produkten fyller bilden",
-  "exportMarketplaceSizeCap": "Filen under {size} MB"
+  "exportMarketplaceSizeCap": "Filen under {size} MB",
+  "editorToolTemplates": "Mallar",
+  "templatesTitle": "Välj en mall",
+  "templatesStudio": "Studio",
+  "templatesColorBlock": "Färgblock",
+  "templatesTextures": "Texturer",
+  "templatesLight": "Ljus & skugga",
+  "templatesPatterns": "Toningar & mönster"
 }

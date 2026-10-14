@@ -155,5 +155,12 @@
   "exportMarketplaceLabel": "มาร์เก็ตเพลส",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "พื้นหลังขาวบริสุทธิ์ สินค้าเต็มเฟรม",
-  "exportMarketplaceSizeCap": "ไฟล์ไม่เกิน {size} MB"
+  "exportMarketplaceSizeCap": "ไฟล์ไม่เกิน {size} MB",
+  "editorToolTemplates": "เทมเพลต",
+  "templatesTitle": "เลือกเทมเพลต",
+  "templatesStudio": "สตูดิโอ",
+  "templatesColorBlock": "บล็อกสี",
+  "templatesTextures": "พื้นผิว",
+  "templatesLight": "แสงและเงา",
+  "templatesPatterns": "ไล่เฉดสีและลวดลาย"
 }

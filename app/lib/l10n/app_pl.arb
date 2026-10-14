@@ -155,5 +155,12 @@
   "exportMarketplaceLabel": "Marketplace",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "Czysto białe tło, produkt wypełnia kadr",
-  "exportMarketplaceSizeCap": "Plik poniżej {size} MB"
+  "exportMarketplaceSizeCap": "Plik poniżej {size} MB",
+  "editorToolTemplates": "Szablony",
+  "templatesTitle": "Wybierz szablon",
+  "templatesStudio": "Studio",
+  "templatesColorBlock": "Bloki kolorów",
+  "templatesTextures": "Tekstury",
+  "templatesLight": "Światło i cień",
+  "templatesPatterns": "Gradienty i wzory"
 }

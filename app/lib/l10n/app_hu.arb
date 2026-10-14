@@ -174,5 +174,12 @@
   "exportMarketplaceLabel": "Piactér",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "Tiszta fehér háttér, a termék kitölti a kockát",
-  "exportMarketplaceSizeCap": "A fájl {size} MB alatt marad"
+  "exportMarketplaceSizeCap": "A fájl {size} MB alatt marad",
+  "editorToolTemplates": "Sablonok",
+  "templatesTitle": "Válassz sablont",
+  "templatesStudio": "Stúdió",
+  "templatesColorBlock": "Színblokkok",
+  "templatesTextures": "Textúrák",
+  "templatesLight": "Fény és árnyék",
+  "templatesPatterns": "Színátmenetek és minták"
 }

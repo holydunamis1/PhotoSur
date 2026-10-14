@@ -174,5 +174,12 @@
   "exportMarketplaceLabel": "Markedsplass",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "Helt hvit bakgrunn, produktet fyller bildet",
-  "exportMarketplaceSizeCap": "Filen under {size} MB"
+  "exportMarketplaceSizeCap": "Filen under {size} MB",
+  "editorToolTemplates": "Maler",
+  "templatesTitle": "Velg en mal",
+  "templatesStudio": "Studio",
+  "templatesColorBlock": "Fargeblokker",
+  "templatesTextures": "Teksturer",
+  "templatesLight": "Lys og skygge",
+  "templatesPatterns": "Fargeoverganger og mønstre"
 }

@@ -155,5 +155,12 @@
   "exportMarketplaceLabel": "Маркетплейс",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "Чисто белый фон, товар заполняет кадр",
-  "exportMarketplaceSizeCap": "Файл меньше {size} МБ"
+  "exportMarketplaceSizeCap": "Файл меньше {size} МБ",
+  "editorToolTemplates": "Шаблоны",
+  "templatesTitle": "Выберите шаблон",
+  "templatesStudio": "Студия",
+  "templatesColorBlock": "Цветные блоки",
+  "templatesTextures": "Текстуры",
+  "templatesLight": "Свет и тень",
+  "templatesPatterns": "Градиенты и узоры"
 }

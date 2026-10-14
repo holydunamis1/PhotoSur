@@ -6,7 +6,7 @@ import '../generated/l10n/app_localizations.dart';
 
 /// The editing tools, shown as a bottom dock. Each tool shows its own
 /// controls in the panel above the dock, one tool at a time.
-enum EditorTool { cutout, brush, background, layout }
+enum EditorTool { cutout, brush, background, templates, layout }
 
 class EditorToolDock extends StatelessWidget {
   const EditorToolDock({
@@ -26,6 +26,7 @@ class EditorToolDock extends StatelessWidget {
       (EditorTool.cutout, Icons.content_cut_rounded, l10n.editorToolCutout),
       (EditorTool.brush, Icons.brush_rounded, l10n.editorToolBrush),
       (EditorTool.background, Icons.wallpaper_rounded, l10n.editorToolBackground),
+      (EditorTool.templates, Icons.auto_awesome_mosaic_rounded, l10n.editorToolTemplates),
       (EditorTool.layout, Icons.open_with_rounded, l10n.editorToolLayout),
     ];
 

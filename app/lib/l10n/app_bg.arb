@@ -174,5 +174,12 @@
   "exportMarketplaceLabel": "Пазар онлайн",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "Чисто бял фон, продуктът запълва кадъра",
-  "exportMarketplaceSizeCap": "Файл под {size} MB"
+  "exportMarketplaceSizeCap": "Файл под {size} MB",
+  "editorToolTemplates": "Шаблони",
+  "templatesTitle": "Изберете шаблон",
+  "templatesStudio": "Студио",
+  "templatesColorBlock": "Цветни блокове",
+  "templatesTextures": "Текстури",
+  "templatesLight": "Светлина и сянка",
+  "templatesPatterns": "Преливки и шарки"
 }

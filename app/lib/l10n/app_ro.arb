@@ -174,5 +174,12 @@
   "exportMarketplaceLabel": "Marketplace",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "Fundal alb pur, produsul umple cadrul",
-  "exportMarketplaceSizeCap": "Fișier sub {size} MB"
+  "exportMarketplaceSizeCap": "Fișier sub {size} MB",
+  "editorToolTemplates": "Șabloane",
+  "templatesTitle": "Alege un șablon",
+  "templatesStudio": "Studio",
+  "templatesColorBlock": "Blocuri de culoare",
+  "templatesTextures": "Texturi",
+  "templatesLight": "Lumină și umbră",
+  "templatesPatterns": "Gradiente și modele"
 }

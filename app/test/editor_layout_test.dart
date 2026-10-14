@@ -54,6 +54,7 @@ void main() {
       expect(find.text('Cut-out'), findsOneWidget);
       expect(find.text('Brush'), findsOneWidget);
       expect(find.text('Background'), findsOneWidget);
+      expect(find.text('Templates'), findsOneWidget);
       expect(find.text('Layout'), findsOneWidget);
 
       await tester.tap(find.text('Brush'));

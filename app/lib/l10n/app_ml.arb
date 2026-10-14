@@ -174,5 +174,12 @@
   "exportMarketplaceLabel": "മാർക്കറ്റ്പ്ലേസ്",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "ശുദ്ധ വെള്ള പശ്ചാത്തലം, ഉൽപ്പന്നം ഫ്രെയിം നിറയ്ക്കുന്നു",
-  "exportMarketplaceSizeCap": "ഫയൽ {size} MB-ൽ താഴെ"
+  "exportMarketplaceSizeCap": "ഫയൽ {size} MB-ൽ താഴെ",
+  "editorToolTemplates": "ടെംപ്ലേറ്റുകൾ",
+  "templatesTitle": "ടെംപ്ലേറ്റ് തിരഞ്ഞെടുക്കുക",
+  "templatesStudio": "സ്റ്റുഡിയോ",
+  "templatesColorBlock": "കളർ ബ്ലോക്കുകൾ",
+  "templatesTextures": "ടെക്സ്ചറുകൾ",
+  "templatesLight": "വെളിച്ചവും നിഴലും",
+  "templatesPatterns": "ഗ്രേഡിയന്റുകളും പാറ്റേണുകളും"
 }

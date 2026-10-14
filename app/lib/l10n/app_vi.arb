@@ -155,5 +155,12 @@
   "exportMarketplaceLabel": "Sàn thương mại",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "Nền trắng tinh, sản phẩm lấp đầy khung hình",
-  "exportMarketplaceSizeCap": "Tệp dưới {size} MB"
+  "exportMarketplaceSizeCap": "Tệp dưới {size} MB",
+  "editorToolTemplates": "Mẫu",
+  "templatesTitle": "Chọn một mẫu",
+  "templatesStudio": "Studio",
+  "templatesColorBlock": "Khối màu",
+  "templatesTextures": "Chất liệu",
+  "templatesLight": "Ánh sáng & bóng đổ",
+  "templatesPatterns": "Chuyển sắc & hoa văn"
 }

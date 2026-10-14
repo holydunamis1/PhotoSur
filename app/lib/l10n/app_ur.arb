@@ -155,5 +155,12 @@
   "exportMarketplaceLabel": "مارکیٹ پلیس",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "خالص سفید پس منظر، پروڈکٹ فریم بھر دیتی ہے",
-  "exportMarketplaceSizeCap": "فائل {size} MB سے کم"
+  "exportMarketplaceSizeCap": "فائل {size} MB سے کم",
+  "editorToolTemplates": "ٹیمپلیٹس",
+  "templatesTitle": "ٹیمپلیٹ منتخب کریں",
+  "templatesStudio": "اسٹوڈیو",
+  "templatesColorBlock": "رنگ بلاکس",
+  "templatesTextures": "ٹیکسچر",
+  "templatesLight": "روشنی اور سایہ",
+  "templatesPatterns": "گریڈینٹ اور پیٹرن"
 }

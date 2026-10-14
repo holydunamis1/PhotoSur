@@ -155,5 +155,12 @@
   "exportMarketplaceLabel": "السوق الإلكتروني",
   "exportMarketplaceSummary": "{width} × {height} بكسل · {format}",
   "exportMarketplaceWhiteFill": "خلفية بيضاء نقية والمنتج يملأ الإطار",
-  "exportMarketplaceSizeCap": "حجم الملف أقل من {size} ميغابايت"
+  "exportMarketplaceSizeCap": "حجم الملف أقل من {size} ميغابايت",
+  "editorToolTemplates": "قوالب",
+  "templatesTitle": "اختر قالبًا",
+  "templatesStudio": "استوديو",
+  "templatesColorBlock": "كتل لونية",
+  "templatesTextures": "خامات",
+  "templatesLight": "ضوء وظل",
+  "templatesPatterns": "تدرجات وأنماط"
 }

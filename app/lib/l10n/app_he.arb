@@ -155,5 +155,12 @@
   "exportMarketplaceLabel": "שוק מקוון",
   "exportMarketplaceSummary": "{width} × {height} פיקסלים · {format}",
   "exportMarketplaceWhiteFill": "רקע לבן טהור, המוצר ממלא את הפריים",
-  "exportMarketplaceSizeCap": "הקובץ קטן מ-{size} MB"
+  "exportMarketplaceSizeCap": "הקובץ קטן מ-{size} MB",
+  "editorToolTemplates": "תבניות",
+  "templatesTitle": "בחירת תבנית",
+  "templatesStudio": "סטודיו",
+  "templatesColorBlock": "בלוקי צבע",
+  "templatesTextures": "מרקמים",
+  "templatesLight": "אור וצל",
+  "templatesPatterns": "מעברי צבע ודוגמאות"
 }

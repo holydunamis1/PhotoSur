@@ -155,5 +155,12 @@
   "exportMarketplaceLabel": "Pasar dalam talian",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "Latar putih tulen, produk memenuhi bingkai",
-  "exportMarketplaceSizeCap": "Fail di bawah {size} MB"
+  "exportMarketplaceSizeCap": "Fail di bawah {size} MB",
+  "editorToolTemplates": "Templat",
+  "templatesTitle": "Pilih templat",
+  "templatesStudio": "Studio",
+  "templatesColorBlock": "Blok warna",
+  "templatesTextures": "Tekstur",
+  "templatesLight": "Cahaya & bayang",
+  "templatesPatterns": "Kecerunan & corak"
 }

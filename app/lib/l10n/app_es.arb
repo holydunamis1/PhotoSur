@@ -155,5 +155,12 @@
   "exportMarketplaceLabel": "Tienda online",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "Fondo blanco puro, el producto llena el encuadre",
-  "exportMarketplaceSizeCap": "Archivo de menos de {size} MB"
+  "exportMarketplaceSizeCap": "Archivo de menos de {size} MB",
+  "editorToolTemplates": "Plantillas",
+  "templatesTitle": "Elegir una plantilla",
+  "templatesStudio": "Estudio",
+  "templatesColorBlock": "Bloques de color",
+  "templatesTextures": "Texturas",
+  "templatesLight": "Luz y sombra",
+  "templatesPatterns": "Degradados y patrones"
 }

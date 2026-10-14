@@ -155,5 +155,12 @@
   "exportMarketplaceLabel": "Маркетплейс",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "Чисто білий фон, товар заповнює кадр",
-  "exportMarketplaceSizeCap": "Файл менший за {size} МБ"
+  "exportMarketplaceSizeCap": "Файл менший за {size} МБ",
+  "editorToolTemplates": "Шаблони",
+  "templatesTitle": "Оберіть шаблон",
+  "templatesStudio": "Студія",
+  "templatesColorBlock": "Кольорові блоки",
+  "templatesTextures": "Текстури",
+  "templatesLight": "Світло й тінь",
+  "templatesPatterns": "Градієнти й візерунки"
 }

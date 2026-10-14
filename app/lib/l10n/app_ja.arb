@@ -155,5 +155,12 @@
   "exportMarketplaceLabel": "マーケットプレイス",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "真っ白な背景、商品がフレームいっぱい",
-  "exportMarketplaceSizeCap": "ファイルサイズ {size} MB 未満"
+  "exportMarketplaceSizeCap": "ファイルサイズ {size} MB 未満",
+  "editorToolTemplates": "テンプレート",
+  "templatesTitle": "テンプレートを選ぶ",
+  "templatesStudio": "スタジオ",
+  "templatesColorBlock": "カラーブロック",
+  "templatesTextures": "テクスチャ",
+  "templatesLight": "光と影",
+  "templatesPatterns": "グラデーションとパターン"
 }

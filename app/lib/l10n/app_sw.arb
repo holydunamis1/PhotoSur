@@ -174,5 +174,12 @@
   "exportMarketplaceLabel": "Soko la mtandaoni",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "Mandharinyuma meupe kabisa, bidhaa inajaza fremu",
-  "exportMarketplaceSizeCap": "Faili chini ya MB {size}"
+  "exportMarketplaceSizeCap": "Faili chini ya MB {size}",
+  "editorToolTemplates": "Violezo",
+  "templatesTitle": "Chagua kiolezo",
+  "templatesStudio": "Studio",
+  "templatesColorBlock": "Vitalu vya rangi",
+  "templatesTextures": "Umbile",
+  "templatesLight": "Mwanga na kivuli",
+  "templatesPatterns": "Mchanganyiko wa rangi na michoro"
 }

@@ -79,6 +79,7 @@ flutter:
   assets:
     - assets/logo.svg
     - assets/images/
+    - assets/templates/
     - assets/models/segmentation.tflite
     - assets/licenses/u2net_apache2.txt
     - assets/licenses/inter_ofl.txt

@@ -174,5 +174,12 @@
   "exportMarketplaceLabel": "మార్కెట్‌ప్లేస్",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "స్వచ్ఛమైన తెల్లని నేపథ్యం, ఉత్పత్తి ఫ్రేమ్‌ను నింపుతుంది",
-  "exportMarketplaceSizeCap": "ఫైల్ {size} MB కంటే తక్కువ"
+  "exportMarketplaceSizeCap": "ఫైల్ {size} MB కంటే తక్కువ",
+  "editorToolTemplates": "టెంప్లేట్లు",
+  "templatesTitle": "టెంప్లేట్‌ను ఎంచుకోండి",
+  "templatesStudio": "స్టూడియో",
+  "templatesColorBlock": "కలర్ బ్లాక్‌లు",
+  "templatesTextures": "టెక్స్చర్లు",
+  "templatesLight": "కాంతి & నీడ",
+  "templatesPatterns": "గ్రేడియంట్లు & నమూనాలు"
 }

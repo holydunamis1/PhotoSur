@@ -155,5 +155,12 @@
   "exportMarketplaceLabel": "Marketplace",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "Purong puting background, puno ng produkto ang frame",
-  "exportMarketplaceSizeCap": "Wala pang {size} MB ang file"
+  "exportMarketplaceSizeCap": "Wala pang {size} MB ang file",
+  "editorToolTemplates": "Mga template",
+  "templatesTitle": "Pumili ng template",
+  "templatesStudio": "Studio",
+  "templatesColorBlock": "Color block",
+  "templatesTextures": "Mga texture",
+  "templatesLight": "Liwanag at anino",
+  "templatesPatterns": "Gradient at pattern"
 }

@@ -155,5 +155,12 @@
   "exportMarketplaceLabel": "Marktplaats",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "Zuiver witte achtergrond, product vult het beeld",
-  "exportMarketplaceSizeCap": "Bestand kleiner dan {size} MB"
+  "exportMarketplaceSizeCap": "Bestand kleiner dan {size} MB",
+  "editorToolTemplates": "Sjablonen",
+  "templatesTitle": "Kies een sjabloon",
+  "templatesStudio": "Studio",
+  "templatesColorBlock": "Kleurvlakken",
+  "templatesTextures": "Texturen",
+  "templatesLight": "Licht & schaduw",
+  "templatesPatterns": "Verlopen & patronen"
 }

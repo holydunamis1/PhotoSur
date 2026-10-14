@@ -174,5 +174,12 @@
   "exportMarketplaceLabel": "மார்க்கெட்பிளேஸ்",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "தூய வெள்ளைப் பின்னணி, பொருள் சட்டத்தை நிரப்பும்",
-  "exportMarketplaceSizeCap": "கோப்பு {size} MB-க்குக் கீழ்"
+  "exportMarketplaceSizeCap": "கோப்பு {size} MB-க்குக் கீழ்",
+  "editorToolTemplates": "டெம்ப்ளேட்கள்",
+  "templatesTitle": "டெம்ப்ளேட்டைத் தேர்ந்தெடுக்கவும்",
+  "templatesStudio": "ஸ்டுடியோ",
+  "templatesColorBlock": "வண்ணத் தொகுதிகள்",
+  "templatesTextures": "அமைப்புகள்",
+  "templatesLight": "ஒளி & நிழல்",
+  "templatesPatterns": "கிரேடியண்ட் & வடிவங்கள்"
 }

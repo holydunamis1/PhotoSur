@@ -155,5 +155,12 @@
   "exportMarketplaceLabel": "마켓플레이스",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "순백 배경, 제품이 프레임을 가득 채움",
-  "exportMarketplaceSizeCap": "파일 크기 {size}MB 미만"
+  "exportMarketplaceSizeCap": "파일 크기 {size}MB 미만",
+  "editorToolTemplates": "템플릿",
+  "templatesTitle": "템플릿 선택",
+  "templatesStudio": "스튜디오",
+  "templatesColorBlock": "컬러 블록",
+  "templatesTextures": "텍스처",
+  "templatesLight": "빛과 그림자",
+  "templatesPatterns": "그라데이션 및 패턴"
 }

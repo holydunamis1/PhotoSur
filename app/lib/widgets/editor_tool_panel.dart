@@ -6,6 +6,7 @@ import 'layout_controls.dart';
 import 'brush_controls.dart';
 import 'edge_feather_slider.dart';
 import 'editor_tool_dock.dart';
+import 'template_selector.dart';
 
 /// Every tool's panel is exactly this tall, so the photo canvas above never
 /// changes size when you switch tools (it used to jump, which made the photo
@@ -31,6 +32,7 @@ class EditorToolPanel extends StatelessWidget {
             EditorTool.cutout => const EdgeFeatherSlider(),
             EditorTool.brush => const BrushControls(),
             EditorTool.background => const BackgroundSelector(),
+            EditorTool.templates => const TemplateSelector(),
             EditorTool.layout => const LayoutControls(),
           },
         ),

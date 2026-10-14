@@ -174,5 +174,12 @@
   "exportMarketplaceLabel": "માર્કેટપ્લેસ",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "શુદ્ધ સફેદ બૅકગ્રાઉન્ડ, પ્રોડક્ટ ફ્રેમ ભરે છે",
-  "exportMarketplaceSizeCap": "ફાઇલ {size} MB થી ઓછી"
+  "exportMarketplaceSizeCap": "ફાઇલ {size} MB થી ઓછી",
+  "editorToolTemplates": "ટેમ્પલેટ",
+  "templatesTitle": "ટેમ્પલેટ પસંદ કરો",
+  "templatesStudio": "સ્ટુડિયો",
+  "templatesColorBlock": "કલર બ્લોક",
+  "templatesTextures": "ટેક્સચર",
+  "templatesLight": "પ્રકાશ અને પડછાયો",
+  "templatesPatterns": "ગ્રેડિયન્ટ અને પેટર્ન"
 }

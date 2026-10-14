@@ -174,5 +174,12 @@
   "exportMarketplaceLabel": "Marketplace",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "Fons blanc pur, el producte omple el marc",
-  "exportMarketplaceSizeCap": "Fitxer de menys de {size} MB"
+  "exportMarketplaceSizeCap": "Fitxer de menys de {size} MB",
+  "editorToolTemplates": "Plantilles",
+  "templatesTitle": "Tria una plantilla",
+  "templatesStudio": "Estudi",
+  "templatesColorBlock": "Blocs de color",
+  "templatesTextures": "Textures",
+  "templatesLight": "Llum i ombra",
+  "templatesPatterns": "Degradats i patrons"
 }

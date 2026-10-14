@@ -155,5 +155,12 @@
   "exportMarketplaceLabel": "電商平台",
   "exportMarketplaceSummary": "{width} × {height} 像素 · {format}",
   "exportMarketplaceWhiteFill": "純白背景，產品佔滿畫面",
-  "exportMarketplaceSizeCap": "檔案小於 {size} MB"
+  "exportMarketplaceSizeCap": "檔案小於 {size} MB",
+  "editorToolTemplates": "範本",
+  "templatesTitle": "選擇範本",
+  "templatesStudio": "攝影棚",
+  "templatesColorBlock": "色塊",
+  "templatesTextures": "紋理",
+  "templatesLight": "光影",
+  "templatesPatterns": "漸層與圖案"
 }

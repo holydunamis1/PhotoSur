@@ -174,5 +174,12 @@
   "exportMarketplaceLabel": "Tržiště",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "Čistě bílé pozadí, produkt vyplňuje záběr",
-  "exportMarketplaceSizeCap": "Soubor pod {size} MB"
+  "exportMarketplaceSizeCap": "Soubor pod {size} MB",
+  "editorToolTemplates": "Šablony",
+  "templatesTitle": "Vyberte šablonu",
+  "templatesStudio": "Studio",
+  "templatesColorBlock": "Barevné bloky",
+  "templatesTextures": "Textury",
+  "templatesLight": "Světlo a stín",
+  "templatesPatterns": "Přechody a vzory"
 }

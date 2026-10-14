@@ -155,5 +155,12 @@
   "exportMarketplaceLabel": "بازار آنلاین",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "پس‌زمینهٔ سفید خالص، محصول کادر را پر می‌کند",
-  "exportMarketplaceSizeCap": "حجم فایل کمتر از {size} مگابایت"
+  "exportMarketplaceSizeCap": "حجم فایل کمتر از {size} مگابایت",
+  "editorToolTemplates": "قالب‌ها",
+  "templatesTitle": "یک قالب انتخاب کنید",
+  "templatesStudio": "استودیو",
+  "templatesColorBlock": "بلوک‌های رنگی",
+  "templatesTextures": "بافت‌ها",
+  "templatesLight": "نور و سایه",
+  "templatesPatterns": "گرادیان و الگو"
 }

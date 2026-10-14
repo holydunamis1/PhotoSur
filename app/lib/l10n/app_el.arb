@@ -174,5 +174,12 @@
   "exportMarketplaceLabel": "Marketplace",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "Καθαρό λευκό φόντο, το προϊόν γεμίζει το κάδρο",
-  "exportMarketplaceSizeCap": "Αρχείο κάτω από {size} MB"
+  "exportMarketplaceSizeCap": "Αρχείο κάτω από {size} MB",
+  "editorToolTemplates": "Πρότυπα",
+  "templatesTitle": "Επιλέξτε πρότυπο",
+  "templatesStudio": "Στούντιο",
+  "templatesColorBlock": "Μπλοκ χρώματος",
+  "templatesTextures": "Υφές",
+  "templatesLight": "Φως και σκιά",
+  "templatesPatterns": "Διαβαθμίσεις και μοτίβα"
 }
