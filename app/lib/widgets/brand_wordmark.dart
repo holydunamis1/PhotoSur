@@ -16,11 +16,11 @@ class BrandWordmark extends StatelessWidget {
       TextSpan(
         children: [
           TextSpan(
-            text: 'Kathar',
+            text: 'Photo',
             style: TextStyle(color: theme.colorScheme.onSurface),
           ),
           TextSpan(
-            text: 'Erase',
+            text: 'Sur',
             style: TextStyle(color: theme.colorScheme.primary),
           ),
         ],
