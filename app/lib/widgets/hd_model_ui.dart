@@ -5,7 +5,6 @@ import 'package:provider/provider.dart';
 import '../core/models/editable_image_state.dart';
 import '../core/providers/image_edit_provider.dart';
 import '../core/theme/app_tokens.dart';
-import '../core/utils/constants.dart';
 import '../generated/l10n/app_localizations.dart';
 import '../platform/image_prep_service.dart';
 import '../platform/model_download_service.dart';
@@ -19,7 +18,7 @@ Future<bool> confirmHdDownload(BuildContext context) async {
     context: context,
     builder: (ctx) => AlertDialog(
       title: Text(l10n.hdConfirmTitle),
-      content: Text(l10n.hdConfirmBody(kHdModelMegabytes.toString())),
+      content: Text(l10n.hdConfirmBody),
       actions: [
         TextButton(
           onPressed: () => Navigator.of(ctx).pop(false),
@@ -113,7 +112,7 @@ class _HdCutoutChip extends StatelessWidget {
             } else {
               chip = ActionChip(
                 avatar: Icon(Icons.download_rounded, size: 18, color: p.accentText),
-                label: Text(l10n.hdGetAction(kHdModelMegabytes.toString())),
+                label: Text(l10n.hdGetAction),
                 onPressed: () => confirmHdDownload(context),
               );
             }
@@ -180,7 +179,7 @@ class HdModelTile extends StatelessWidget {
             subtitle = l10n.hdFailed;
             onTap = () => confirmHdDownload(context);
           case HdModelStatus.notInstalled:
-            subtitle = l10n.settingsHdNotInstalled(kHdModelMegabytes.toString());
+            subtitle = l10n.settingsHdNotInstalled;
             onTap = () => confirmHdDownload(context);
         }
         return ListTile(
