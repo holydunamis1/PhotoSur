@@ -8,6 +8,7 @@ import 'dart:io';
 // doesn't differ by platform; only files that branch on OS belong in
 // lib/platform/. sqflite and path_provider both fall on the core/ side of
 // that line despite pulling in dart:io transitively.
+import 'package:flutter/foundation.dart' show ValueNotifier;
 import 'package:path/path.dart' as p;
 import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -30,6 +31,46 @@ const String _exportJobsTable = 'export_jobs';
 const String _userSettingsKey = 'user_settings';
 const int _dbVersion = 1;
 
+/// Column names of the export_jobs table, exactly as created in
+/// [StorageService._database]. json_serializable is configured with
+/// `field_rename: snake`, so ExportJob.toJson() emits `file_path` etc. and
+/// must never be handed to sqflite directly: the keys would not match.
+const List<String> kExportJobColumns = [
+  'id',
+  'format',
+  'quality',
+  'width',
+  'height',
+  'resizeMode',
+  'filePath',
+  'status',
+  'createdAt',
+];
+
+Map<String, Object?> exportJobToRow(ExportJob job) => {
+      'id': job.id,
+      'format': job.format.name,
+      'quality': job.quality,
+      'width': job.width,
+      'height': job.height,
+      'resizeMode': job.resizeMode.name,
+      'filePath': job.filePath,
+      'status': job.status.name,
+      'createdAt': job.createdAt.toIso8601String(),
+    };
+
+ExportJob exportJobFromRow(Map<String, Object?> row) => ExportJob(
+      id: row['id']! as String,
+      format: ExportFormat.values.byName(row['format']! as String),
+      quality: row['quality']! as int,
+      width: row['width']! as int,
+      height: row['height']! as int,
+      resizeMode: ResizeMode.values.byName(row['resizeMode']! as String),
+      filePath: row['filePath']! as String,
+      status: ExportStatus.values.byName(row['status']! as String),
+      createdAt: DateTime.parse(row['createdAt']! as String),
+    );
+
 /// sqflite CRUD for export history (backs the "Recent Exports" grid,
 /// Feature/home_screen.dart Phase 5), SharedPreferences for UserSettings,
 /// path_provider for temp/cache directories used during compositing.
@@ -40,6 +81,10 @@ class StorageService {
   static final StorageService instance = StorageService._();
 
   Database? _db;
+
+  /// Bumped whenever export history changes, so the home screen can reload
+  /// its grid even though it stays mounted underneath the editor.
+  final ValueNotifier<int> historyRevision = ValueNotifier<int>(0);
 
   /// Eagerly opens/creates the database at app startup, so any first-use
   /// failure surfaces during main.dart's init sequence (wrapped there in
@@ -93,9 +138,10 @@ class StorageService {
       final db = await _database;
       await db.insert(
         _exportJobsTable,
-        job.toJson(),
+        exportJobToRow(job),
         conflictAlgorithm: ConflictAlgorithm.replace,
       );
+      historyRevision.value++;
     } catch (e) {
       throw StorageException('Failed to save export job.', e);
     }
@@ -111,7 +157,7 @@ class StorageService {
         orderBy: 'createdAt DESC',
         limit: limit,
       );
-      return rows.map(ExportJob.fromJson).toList();
+      return rows.map(exportJobFromRow).toList();
     } catch (e) {
       throw StorageException('Failed to load export history.', e);
     }
@@ -121,6 +167,7 @@ class StorageService {
     try {
       final db = await _database;
       await db.delete(_exportJobsTable, where: 'id = ?', whereArgs: [id]);
+      historyRevision.value++;
     } catch (e) {
       throw StorageException('Failed to delete export job.', e);
     }

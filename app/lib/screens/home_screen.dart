@@ -34,7 +34,14 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     super.initState();
+    StorageService.instance.historyRevision.addListener(_loadRecent);
     _loadRecent();
+  }
+
+  @override
+  void dispose() {
+    StorageService.instance.historyRevision.removeListener(_loadRecent);
+    super.dispose();
   }
 
   Future<void> _loadRecent() async {
