@@ -87,13 +87,14 @@ class _RecentExportTileState extends State<RecentExportTile> {
     );
 
     return Semantics(
+      container: true,
+      explicitChildNodes: true,
       button: true,
       selected: widget.selected,
       label: _available ? '$format, $size, $date' : l10n.exportUnavailable,
       onTap: widget.onTap,
       onLongPress: widget.onMore,
-      child: ExcludeSemantics(
-        child: GestureDetector(
+      child: GestureDetector(
           behavior: HitTestBehavior.opaque,
           onTapDown: (_) => setState(() => _pressed = true),
           onTapUp: (_) => setState(() => _pressed = false),
@@ -132,18 +133,20 @@ class _RecentExportTileState extends State<RecentExportTile> {
                     child: Stack(
                       fit: StackFit.expand,
                       children: [
-                        if (_available)
-                          ExportThumbnail(
-                            path: job.filePath,
-                            pixelWidth: pixelWidth,
-                          )
-                        else
-                          const ExportUnavailable(),
+                        ExcludeSemantics(
+                          child: _available
+                              ? ExportThumbnail(
+                                  path: job.filePath,
+                                  pixelWidth: pixelWidth,
+                                )
+                              : const ExportUnavailable(),
+                        ),
                         if (_available) ...[
                           PositionedDirectional(
                             top: 8,
                             start: 8,
-                            child: _Frosted(
+                            child: ExcludeSemantics(
+                              child: _Frosted(
                               radius: 7,
                               padding: const EdgeInsets.symmetric(
                                   horizontal: 7, vertical: 3),
@@ -157,12 +160,14 @@ class _RecentExportTileState extends State<RecentExportTile> {
                                 ),
                               ),
                             ),
+                            ),
                           ),
                           Positioned(
                             left: 0,
                             right: 0,
                             bottom: 0,
-                            child: DecoratedBox(
+                            child: ExcludeSemantics(
+                              child: DecoratedBox(
                               decoration: const BoxDecoration(
                                 gradient: LinearGradient(
                                   begin: Alignment.topCenter,
@@ -203,6 +208,7 @@ class _RecentExportTileState extends State<RecentExportTile> {
                                 ),
                               ),
                             ),
+                            ),
                           ),
                         ],
                         if (widget.selected)
@@ -227,7 +233,6 @@ class _RecentExportTileState extends State<RecentExportTile> {
             ),
           ),
         ),
-      ),
     );
   }
 
