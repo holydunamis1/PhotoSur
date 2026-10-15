@@ -5,6 +5,8 @@ import 'screens/batch_screen.dart';
 import 'screens/camera_screen.dart';
 import 'screens/crop_rotate_screen.dart';
 import 'screens/editor_screen.dart';
+import 'screens/export_viewer_screen.dart';
+import 'screens/exports_screen.dart';
 import 'screens/home_screen.dart';
 import 'screens/onboarding_screen.dart';
 import 'screens/paywall_screen.dart';
@@ -74,6 +76,18 @@ GoRouter buildRouter(SettingsProvider settingsProvider) {
           final imagePath = state.extra as String?;
           if (imagePath == null) return const HomeScreen();
           return EditorScreen(imagePath: imagePath);
+        },
+      ),
+      GoRoute(
+        path: '/exports',
+        builder: (context, state) => const ExportsScreen(),
+      ),
+      GoRoute(
+        path: '/export-viewer',
+        builder: (context, state) {
+          final args = state.extra as ExportViewerArgs?;
+          if (args == null || args.jobs.isEmpty) return const ExportsScreen();
+          return ExportViewerScreen(args: args);
         },
       ),
       GoRoute(

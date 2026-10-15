@@ -1,11 +1,9 @@
-import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:image_picker/image_picker.dart';
 
 import '../core/models/export_job.dart';
-import '../core/services/share_service.dart';
 import '../core/services/storage_service.dart';
 import '../core/utils/constants.dart';
 import '../core/theme/app_tokens.dart';
@@ -14,9 +12,11 @@ import '../widgets/ad_banner_slot.dart';
 import '../widgets/app_scaffold.dart';
 import '../widgets/brand_wordmark.dart';
 import '../widgets/empty_state.dart';
+import '../widgets/export_actions.dart';
 import '../widgets/preference_sheets.dart';
 import '../widgets/recent_export_tile.dart';
 import '../widgets/toast_notification.dart';
+import 'export_viewer_screen.dart';
 
 /// Wordmark left; language, theme and settings icons right. Two big buttons
 /// (Camera, Gallery), recent exports grid (last 6), banner ad at the bottom.
@@ -101,40 +101,6 @@ class _HomeScreenState extends State<HomeScreen> {
     }
   }
 
-  /// File 38's actual purpose: "tap to share again" — re-shares the
-  /// already-exported file directly via ShareService, no editing session
-  /// or export_bottom_sheet involved (a completed ExportJob has no mask/
-  /// EditableImageState attached, just a finished file on disk).
-  Future<void> _shareAgain(BuildContext context, ExportJob job) async {
-    final l10n = AppLocalizations.of(context);
-    try {
-      final file = File(job.filePath);
-      if (!await file.exists()) {
-        if (context.mounted) {
-          ToastNotification.show(
-            context,
-            message: l10n.homeExportUnavailable,
-            type: ToastType.error,
-          );
-        }
-        return;
-      }
-      final bytes = await file.readAsBytes();
-      await ShareService.instance.shareImage(
-        bytes,
-        filename: file.uri.pathSegments.last,
-      );
-    } catch (e) {
-      if (context.mounted) {
-        ToastNotification.show(
-          context,
-          message: l10n.homeShareFailed,
-          type: ToastType.error,
-        );
-      }
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
@@ -197,7 +163,21 @@ class _HomeScreenState extends State<HomeScreen> {
                 onTap: () => _pickBatch(context),
               ),
               const SizedBox(height: 24),
-              Text(l10n.homeRecentExports, style: Theme.of(context).textTheme.titleMedium),
+              Row(
+                children: [
+                  Expanded(
+                    child: Text(
+                      l10n.homeRecentExports,
+                      style: Theme.of(context).textTheme.titleMedium,
+                    ),
+                  ),
+                  if (_recentExports.isNotEmpty)
+                    TextButton(
+                      onPressed: () => context.push('/exports'),
+                      child: Text(l10n.homeSeeAll),
+                    ),
+                ],
+              ),
               const SizedBox(height: 12),
               if (_loading)
                 const Padding(
@@ -221,7 +201,11 @@ class _HomeScreenState extends State<HomeScreen> {
                     final job = _recentExports[i];
                     return RecentExportTile(
                       job: job,
-                      onTap: () => _shareAgain(context, job),
+                      onTap: () => context.push(
+                        '/export-viewer',
+                        extra: ExportViewerArgs(jobs: _recentExports, index: i),
+                      ),
+                      onMore: () => showExportActions(context, job),
                     );
                   },
                 ),

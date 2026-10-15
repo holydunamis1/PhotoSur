@@ -163,6 +163,33 @@ class StorageService {
     }
   }
 
+
+  /// Every export record, newest first (backs the "See all" screen).
+  Future<List<ExportJob>> getAllExportJobs() async {
+    try {
+      final db = await _database;
+      final rows = await db.query(_exportJobsTable, orderBy: 'createdAt DESC');
+      return rows.map(exportJobFromRow).toList();
+    } catch (e) {
+      throw StorageException('Failed to load export history.', e);
+    }
+  }
+
+  /// Removes several records in one transaction (one history notification).
+  Future<void> deleteExportJobs(Iterable<String> ids) async {
+    try {
+      final db = await _database;
+      final batch = db.batch();
+      for (final id in ids) {
+        batch.delete(_exportJobsTable, where: 'id = ?', whereArgs: [id]);
+      }
+      await batch.commit(noResult: true);
+      historyRevision.value++;
+    } catch (e) {
+      throw StorageException('Failed to delete export jobs.', e);
+    }
+  }
+
   Future<void> deleteExportJob(String id) async {
     try {
       final db = await _database;
