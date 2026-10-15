@@ -107,7 +107,7 @@ const String kSegmentationModelAsset = 'assets/models/segmentation.tflite';
 // Optional HD cut-out model (full U2-Net, fp16), downloaded on demand from a
 // GitHub release of this repository and cached in app storage.
 const String kHdModelUrl =
-    'https://github.com/holydunamis1/katharErase/releases/download/models-v1/segmentation_hd.tflite';
+    'https://github.com/holydunamis1/PhotoSur/releases/download/models-v1/segmentation_hd.tflite';
 const String kHdModelFileName = 'segmentation_hd.tflite';
 const String kHdModelSha256 =
     '7b898381005a2f6efb931f4cd59ec4f1ba7e806a12e9feb6b9efb504b92b556b';
