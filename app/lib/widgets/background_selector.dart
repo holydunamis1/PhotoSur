@@ -78,7 +78,7 @@ class BackgroundSelector extends StatelessWidget {
             SizedBox(
               height: kSwatchRowBaseHeight +
                   MediaQuery.textScalerOf(context).scale(16),
-              child: _FadingRow(
+              child: FadingSwatchRow(
                 children: [
                   BackgroundSwatch(
                     label: l10n.backgroundWhite,
@@ -146,8 +146,8 @@ class BackgroundSelector extends StatelessWidget {
 /// A sideways row of quick choices with a soft fade at the trailing edge, so
 /// it is obvious there is more. Only shortcuts live here: the two main
 /// actions above it are never inside a scroll.
-class _FadingRow extends StatelessWidget {
-  const _FadingRow({required this.children});
+class FadingSwatchRow extends StatelessWidget {
+  const FadingSwatchRow({required this.children});
 
   final List<Widget> children;
 

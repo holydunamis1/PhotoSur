@@ -177,8 +177,10 @@ class _BatchScreenState extends State<BatchScreen> {
             onTap: running ? () {} : _pickTemplate,
           ),
           const SizedBox(height: 8),
-          Wrap(
-            runSpacing: 4,
+          SizedBox(
+            height: kSwatchRowBaseHeight +
+                MediaQuery.textScalerOf(context).scale(16),
+            child: FadingSwatchRow(
             children: [
               swatch(
                 label: l10n.backgroundWhite,
@@ -221,6 +223,7 @@ class _BatchScreenState extends State<BatchScreen> {
                   value: BatchBackground(type: BackgroundType.solidColor, color: c),
                 ),
             ],
+            ),
           ),
           const SizedBox(height: 8),
           Text(l10n.exportMarketplaceLabel, style: theme.textTheme.labelMedium),

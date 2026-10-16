@@ -209,7 +209,9 @@ class _ExportsScreenState extends State<ExportsScreen> {
                     ),
                   ],
                 ),
-      bottomBar: Column(
+      bottomBar: SafeArea(
+        top: false,
+        child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
           if (_selecting)
@@ -262,6 +264,7 @@ class _ExportsScreenState extends State<ExportsScreen> {
             ),
           const AdBannerSlot(personalized: false),
         ],
+        ),
       ),
     );
   }
