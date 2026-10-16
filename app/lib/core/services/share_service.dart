@@ -88,6 +88,19 @@ class ShareService {
     }
   }
 
+  /// Shares several image files at once through the system share sheet.
+  Future<void> shareFiles(List<String> paths) async {
+    try {
+      final files = [
+        for (final path in paths)
+          XFile(path, mimeType: _mimeTypeForFilename(path)),
+      ];
+      await SharePlus.instance.share(ShareParams(files: files));
+    } catch (e) {
+      throw ShareException('Share failed.', e);
+    }
+  }
+
   String _mimeTypeForFilename(String filename) {
     final lower = filename.toLowerCase();
     if (lower.endsWith('.png')) return 'image/png';

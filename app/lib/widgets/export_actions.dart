@@ -65,6 +65,31 @@ Future<void> shareExport(BuildContext context, ExportJob job) async {
   }
 }
 
+/// Shares several exports in one share sheet. Files that no longer exist are
+/// skipped; if none are left the user sees the "unavailable" message.
+Future<void> shareExports(BuildContext context, List<ExportJob> jobs) async {
+  final l10n = AppLocalizations.of(context);
+  try {
+    final paths = <String>[
+      for (final job in jobs)
+        if (File(job.filePath).existsSync()) job.filePath,
+    ];
+    if (paths.isEmpty) {
+      if (context.mounted) {
+        ToastNotification.show(context,
+            message: l10n.homeExportUnavailable, type: ToastType.error);
+      }
+      return;
+    }
+    await ShareService.instance.shareFiles(paths);
+  } catch (_) {
+    if (context.mounted) {
+      ToastNotification.show(context,
+          message: l10n.homeShareFailed, type: ToastType.error);
+    }
+  }
+}
+
 Future<void> saveExportToGallery(BuildContext context, ExportJob job) async {
   final l10n = AppLocalizations.of(context);
   try {

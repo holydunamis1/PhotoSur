@@ -7,6 +7,7 @@ import '../core/models/export_job.dart';
 import '../core/theme/app_tokens.dart';
 import '../core/utils/date_formatter.dart';
 import '../generated/l10n/app_localizations.dart';
+import '../widgets/ad_banner_slot.dart';
 import '../widgets/export_actions.dart';
 import '../widgets/export_thumbnail.dart';
 
@@ -114,10 +115,13 @@ class _ExportViewerScreenState extends State<ExportViewerScreen> {
                 ),
                 child: SafeArea(
                   top: false,
-                  child: Padding(
-                    padding: const EdgeInsets.fromLTRB(
-                        AppSpace.l, AppSpace.xxl, AppSpace.l, AppSpace.m),
-                    child: Column(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.fromLTRB(
+                            AppSpace.l, AppSpace.xxl, AppSpace.l, AppSpace.m),
+                        child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         Text(
@@ -157,6 +161,9 @@ class _ExportViewerScreenState extends State<ExportViewerScreen> {
                         ),
                       ],
                     ),
+                      ),
+                      const AdBannerSlot(personalized: false),
+                    ],
                   ),
                 ),
               ),
@@ -190,7 +197,7 @@ class _ViewerPageState extends State<_ViewerPage> {
       maxScale: 5,
       child: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.only(bottom: 120, top: 56),
+          padding: const EdgeInsets.only(bottom: 180, top: 56),
           child: Center(
             child: AspectRatio(
               aspectRatio: ratio,

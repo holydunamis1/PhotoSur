@@ -85,6 +85,11 @@ class _ExportsScreenState extends State<ExportsScreen> {
     }
   }
 
+  Future<void> _shareSelected() {
+    final chosen = _jobs.where((j) => _selected.contains(j.id)).toList();
+    return shareExports(context, chosen);
+  }
+
   Future<void> _deleteAll() async {
     final deleted = await deleteExportsWithConfirm(context, _jobs, all: true);
     if (deleted && mounted) setState(() => _selecting = false);
@@ -214,23 +219,44 @@ class _ExportsScreenState extends State<ExportsScreen> {
               child: Padding(
                 padding: const EdgeInsets.fromLTRB(
                     AppSpace.l, AppSpace.s, AppSpace.l, AppSpace.s),
-                child: SizedBox(
-                  width: double.infinity,
-                  height: 50,
-                  child: FilledButton.icon(
-                    style: FilledButton.styleFrom(
-                      backgroundColor: p.danger,
-                      foregroundColor: context.isDarkMode
-                          ? const Color(0xFF2A0705)
-                          : Colors.white,
-                      shape: RoundedSuperellipseBorder(
-                        borderRadius: BorderRadius.circular(AppRadius.m),
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: SizedBox(
+                        height: 50,
+                        child: OutlinedButton.icon(
+                          style: OutlinedButton.styleFrom(
+                            shape: RoundedSuperellipseBorder(
+                              borderRadius: BorderRadius.circular(AppRadius.m),
+                            ),
+                          ),
+                          onPressed: _selected.isEmpty ? null : _shareSelected,
+                          icon: const Icon(Icons.ios_share_rounded),
+                          label: Text(l10n.exportShare),
+                        ),
                       ),
                     ),
-                    onPressed: _selected.isEmpty ? null : _deleteSelected,
-                    icon: const Icon(Icons.delete_outline_rounded),
-                    label: Text(l10n.exportActionDelete),
-                  ),
+                    const SizedBox(width: AppSpace.s),
+                    Expanded(
+                      child: SizedBox(
+                        height: 50,
+                        child: FilledButton.icon(
+                          style: FilledButton.styleFrom(
+                            backgroundColor: p.danger,
+                            foregroundColor: context.isDarkMode
+                                ? const Color(0xFF2A0705)
+                                : Colors.white,
+                            shape: RoundedSuperellipseBorder(
+                              borderRadius: BorderRadius.circular(AppRadius.m),
+                            ),
+                          ),
+                          onPressed: _selected.isEmpty ? null : _deleteSelected,
+                          icon: const Icon(Icons.delete_outline_rounded),
+                          label: Text(l10n.exportActionDelete),
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ),
