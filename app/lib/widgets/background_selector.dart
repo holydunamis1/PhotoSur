@@ -147,7 +147,7 @@ class BackgroundSelector extends StatelessWidget {
 /// it is obvious there is more. Only shortcuts live here: the two main
 /// actions above it are never inside a scroll.
 class FadingSwatchRow extends StatelessWidget {
-  const FadingSwatchRow({required this.children});
+  const FadingSwatchRow({super.key, required this.children});
 
   final List<Widget> children;
 
