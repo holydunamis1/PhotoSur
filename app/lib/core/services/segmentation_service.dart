@@ -47,6 +47,38 @@ class SegmentationService {
 
   String? get lastError => _lastError;
 
+  /// Native address of the HD interpreter kept open for a whole batch, or
+  /// null when no batch session is open (every run then loads the model on
+  /// its own, as the editor does).
+  int? _batchAddress;
+
+  /// Opens the HD model once for a batch so every photo reuses it instead of
+  /// loading 88 MB again. Never throws: without HD, or if it can't be opened,
+  /// photos simply run the normal way.
+  Future<void> beginBatch() async {
+    if (_runner != null || _batchAddress != null) return;
+    final path = hdModelPath;
+    if (path == null) return;
+    try {
+      if (!File(path).existsSync()) return;
+      _batchAddress = await Isolate.run(() => _openFileInterpreter(path));
+    } catch (_) {
+      _batchAddress = null;
+    }
+  }
+
+  /// Closes the interpreter opened by [beginBatch]. Safe to call anytime.
+  Future<void> endBatch() async {
+    final address = _batchAddress;
+    _batchAddress = null;
+    if (address == null) return;
+    try {
+      await Isolate.run(() => Interpreter.fromAddress(address).close());
+    } catch (_) {
+      // Nothing more to release.
+    }
+  }
+
   /// Returns the raw model output (kModelInputSize x kModelInputSize floats).
   /// Any failure is wrapped in [SegmentationException] so callers can fall
   /// back to the manual brush.
@@ -59,7 +91,7 @@ class SegmentationService {
       throw SegmentationException(err);
     }
     try {
-      final output = await (_runner?.call(input) ?? _defaultRunner(input, hdModelPath));
+      final output = await (_runner?.call(input) ?? _defaultRunner(input, hdModelPath, _batchAddress));
       if (output.length != expectedOut) {
         throw StateError(
           'Model returned ${output.length} values, expected $expectedOut.',
@@ -79,7 +111,19 @@ class SegmentationService {
   static Future<Float32List> _defaultRunner(
     Float32List input,
     String? hdPath,
+    int? sessionAddress,
   ) async {
+    if (sessionAddress != null) {
+      try {
+        return await Isolate.run(() => _runInterpreter(
+              Interpreter.fromAddress(sessionAddress, allocated: true),
+              input,
+              close: false,
+            ));
+      } catch (_) {
+        // Shared model unusable: fall through to loading it per photo.
+      }
+    }
     if (hdPath != null) {
       try {
         if (File(hdPath).existsSync()) {
@@ -131,7 +175,18 @@ Float32List _inferFileInIsolate(String path, Float32List input) {
   );
 }
 
-Float32List _runInterpreter(Interpreter interpreter, Float32List input) {
+/// Opens the HD model from its file and returns the interpreter's native
+/// address, so later runs (in other isolates) can reuse it.
+int _openFileInterpreter(String path) {
+  final options = InterpreterOptions()..threads = 4;
+  return Interpreter.fromFile(File(path), options: options).address;
+}
+
+Float32List _runInterpreter(
+  Interpreter interpreter,
+  Float32List input, {
+  bool close = true,
+}) {
   try {
     final inputShape = interpreter.getInputTensor(0).shape;
     final outputShape = interpreter.getOutputTensor(0).shape;
@@ -168,6 +223,6 @@ Float32List _runInterpreter(Interpreter interpreter, Float32List input) {
     flatten(reshapedOutput);
     return result;
   } finally {
-    interpreter.close();
+    if (close) interpreter.close();
   }
 }

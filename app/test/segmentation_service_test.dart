@@ -63,4 +63,23 @@ void main() {
       );
     });
   });
+
+  group('SegmentationService batch session', () {
+    test('beginBatch and endBatch are safe no-ops without an HD model', () async {
+      var calls = 0;
+      final service = SegmentationService.forTesting((input) async {
+        calls++;
+        return Float32List(_outLen);
+      });
+
+      await service.beginBatch();
+      await service.infer(Float32List(_inLen));
+      await service.infer(Float32List(_inLen));
+      await service.endBatch();
+      await service.endBatch(); // closing twice is fine
+
+      expect(calls, 2);
+      expect(service.lastError, isNull);
+    });
+  });
 }

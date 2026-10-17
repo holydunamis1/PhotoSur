@@ -13,10 +13,12 @@ import '../core/theme/app_tokens.dart';
 import '../core/utils/background_presets.dart';
 import '../core/utils/marketplace_presets.dart';
 import '../generated/l10n/app_localizations.dart';
+import '../core/services/segmentation_service.dart';
 import '../platform/batch_service.dart';
 import '../widgets/ad_banner_slot.dart';
 import '../widgets/app_scaffold.dart';
 import '../widgets/background_selector.dart';
+import '../widgets/hd_model_ui.dart';
 import '../widgets/primary_button.dart';
 import '../widgets/template_selector.dart';
 
@@ -57,18 +59,24 @@ class _BatchScreenState extends State<BatchScreen> {
     _progress.value = BatchProgress.initial(widget.imagePaths.length)
         .copyWith(running: true);
 
-    for (var i = 0; i < widget.imagePaths.length; i++) {
-      if (_stopRequested || !mounted) break;
-      _progress.value = _progress.value.withItem(i, BatchItemStatus.working);
-      final ok = await BatchService.instance.processOne(
-        widget.imagePaths[i],
-        background: _bg,
-        serial: i,
-        preset: _marketplace,
-      );
-      if (!mounted) return;
-      _progress.value = _progress.value
-          .withItem(i, ok ? BatchItemStatus.done : BatchItemStatus.failed);
+    // With HD installed, load it once for the whole batch.
+    await SegmentationService.instance.beginBatch();
+    try {
+      for (var i = 0; i < widget.imagePaths.length; i++) {
+        if (_stopRequested || !mounted) break;
+        _progress.value = _progress.value.withItem(i, BatchItemStatus.working);
+        final ok = await BatchService.instance.processOne(
+          widget.imagePaths[i],
+          background: _bg,
+          serial: i,
+          preset: _marketplace,
+        );
+        if (!mounted) return;
+        _progress.value = _progress.value
+            .withItem(i, ok ? BatchItemStatus.done : BatchItemStatus.failed);
+      }
+    } finally {
+      await SegmentationService.instance.endBatch();
     }
     if (!mounted) return;
     _progress.value = _progress.value.copyWith(running: false, finished: true);
@@ -170,11 +178,20 @@ class _BatchScreenState extends State<BatchScreen> {
             ],
           ),
           const SizedBox(height: 8),
-          BackgroundChoiceButton(
-            icon: Icons.auto_awesome_mosaic_rounded,
-            label: l10n.editorToolTemplates,
-            selected: false,
-            onTap: running ? () {} : _pickTemplate,
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Expanded(
+                child: BackgroundChoiceButton(
+                  icon: Icons.auto_awesome_mosaic_rounded,
+                  label: l10n.editorToolTemplates,
+                  selected: false,
+                  onTap: running ? () {} : _pickTemplate,
+                ),
+              ),
+              const SizedBox(width: 8),
+              Expanded(child: HdModelButton(enabled: !running)),
+            ],
           ),
           const SizedBox(height: 8),
           SizedBox(

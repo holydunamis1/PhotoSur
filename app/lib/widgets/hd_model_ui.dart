@@ -8,6 +8,7 @@ import '../core/theme/app_tokens.dart';
 import '../generated/l10n/app_localizations.dart';
 import '../platform/image_prep_service.dart';
 import '../platform/model_download_service.dart';
+import 'background_selector.dart' show BackgroundChoiceButton;
 import 'edge_feather_slider.dart';
 
 /// Asks before downloading the HD model (it is large), then starts the
@@ -188,6 +189,70 @@ class HdModelTile extends StatelessWidget {
           subtitle: Text(subtitle),
           trailing: trailing,
           onTap: onTap,
+        );
+      },
+    );
+  }
+}
+
+
+/// The HD model as a button next to the other batch options: get it, watch
+/// the download, or see that it is installed. Installed means every photo in
+/// the batch is cut out with it.
+class HdModelButton extends StatelessWidget {
+  const HdModelButton({super.key, this.enabled = true});
+
+  /// False while a batch runs, so the model can't change mid-batch.
+  final bool enabled;
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
+    final p = context.palette;
+    return ValueListenableBuilder<HdModelState>(
+      valueListenable: ModelDownloadService.instance,
+      builder: (context, hd, _) {
+        final Widget button;
+        if (hd.isDownloading) {
+          button = BackgroundChoiceButton(
+            icon: Icons.downloading_rounded,
+            label: l10n.hdDownloading((hd.progress * 100).round().toString()),
+            selected: false,
+            onTap: () {},
+          );
+        } else if (hd.isInstalled) {
+          button = BackgroundChoiceButton(
+            icon: Icons.check_circle_outline_rounded,
+            label: l10n.settingsHdTitle,
+            selected: true,
+            onTap: () {},
+          );
+        } else {
+          button = BackgroundChoiceButton(
+            icon: Icons.download_rounded,
+            label: l10n.hdGetAction,
+            selected: false,
+            onTap: enabled ? () => confirmHdDownload(context) : () {},
+          );
+        }
+        return Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            button,
+            if (hd.status == HdModelStatus.failed)
+              Padding(
+                padding: const EdgeInsets.only(top: 2),
+                child: Text(
+                  l10n.hdFailed,
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                  style: Theme.of(context)
+                      .textTheme
+                      .labelSmall
+                      ?.copyWith(color: p.danger),
+                ),
+              ),
+          ],
         );
       },
     );

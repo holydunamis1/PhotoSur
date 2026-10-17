@@ -7,6 +7,7 @@ import 'package:photosur/core/theme/app_theme.dart';
 import 'package:photosur/core/utils/constants.dart';
 import 'package:photosur/generated/l10n/app_localizations.dart';
 import 'package:photosur/widgets/editor_tool_panel.dart';
+import 'package:photosur/platform/model_download_service.dart';
 import 'package:photosur/widgets/hd_model_ui.dart';
 import 'package:provider/provider.dart';
 
@@ -59,5 +60,55 @@ void main() {
     }
     // ignore: avoid_print
     print('CUTOUT-FIT ${out.join(' ')}');
+  });
+
+  testWidgets('batch HD button shows each state without overflowing a half row',
+      (tester) async {
+    tester.view.devicePixelRatio = 1.0;
+    tester.view.physicalSize = const Size(360, 700);
+    addTearDown(tester.view.reset);
+    addTearDown(() => ModelDownloadService.instance.value =
+        const HdModelState(HdModelStatus.notInstalled));
+
+    for (final code in ['en', 'de', 'ru', 'fil', 'vi', 'ta']) {
+      for (final scale in [1.0, 1.3]) {
+        await tester.pumpWidget(
+          MaterialApp(
+            theme: buildAppTheme(Brightness.light),
+            locale: Locale(code),
+            localizationsDelegates: AppLocalizations.localizationsDelegates,
+            supportedLocales: AppLocalizations.supportedLocales,
+            builder: (context, child) => MediaQuery(
+              data: MediaQuery.of(context)
+                  .copyWith(textScaler: TextScaler.linear(scale)),
+              child: child!,
+            ),
+            home: const Scaffold(
+              body: Padding(
+                padding: EdgeInsets.all(16),
+                child: Row(
+                  children: [
+                    Expanded(child: SizedBox()),
+                    SizedBox(width: 8),
+                    Expanded(child: HdModelButton()),
+                  ],
+                ),
+              ),
+            ),
+          ),
+        );
+        for (final state in [
+          const HdModelState(HdModelStatus.notInstalled),
+          const HdModelState(HdModelStatus.downloading, 0.45),
+          const HdModelState(HdModelStatus.installed, 1),
+          const HdModelState(HdModelStatus.failed),
+        ]) {
+          ModelDownloadService.instance.value = state;
+          await tester.pump();
+          expect(tester.takeException(), isNull, reason: '$code $scale');
+          expect(find.byType(HdModelButton), findsOneWidget);
+        }
+      }
+    }
   });
 }
