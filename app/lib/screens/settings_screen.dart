@@ -181,6 +181,11 @@ class SettingsScreen extends StatelessWidget {
               const SizedBox(height: AppSpace.l),
               _Group(children: [
               ListTile(
+                title: Text(l10n.helpTitle),
+                leading: const Icon(Icons.menu_book_outlined),
+                onTap: () => context.push('/help'),
+              ),
+              ListTile(
                 title: Text(l10n.settingsReplayIntro),
                 leading: const Icon(Icons.slideshow_rounded),
                 onTap: () => context.push('/intro'),

@@ -111,6 +111,11 @@ class _HomeScreenState extends State<HomeScreen> {
         title: const BrandWordmark(),
         actions: [
           IconButton(
+            tooltip: l10n.helpTitle,
+            icon: const Icon(Icons.help_outline_rounded),
+            onPressed: () => context.push('/help'),
+          ),
+          IconButton(
             tooltip: l10n.settingsLanguage,
             icon: const Icon(Icons.translate),
             onPressed: () => showLanguageSheet(context),

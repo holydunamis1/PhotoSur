@@ -7,6 +7,7 @@ import 'screens/crop_rotate_screen.dart';
 import 'screens/editor_screen.dart';
 import 'screens/export_viewer_screen.dart';
 import 'screens/exports_screen.dart';
+import 'screens/help_screen.dart';
 import 'screens/home_screen.dart';
 import 'screens/onboarding_screen.dart';
 import 'screens/paywall_screen.dart';
@@ -52,6 +53,10 @@ GoRouter buildRouter(SettingsProvider settingsProvider) {
       GoRoute(
         path: '/',
         builder: (context, state) => const HomeScreen(),
+      ),
+      GoRoute(
+        path: '/help',
+        builder: (context, state) => const HelpScreen(),
       ),
       GoRoute(
         path: '/camera',
