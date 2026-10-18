@@ -159,6 +159,22 @@ jobs:
           "$APKSIGNER" verify --print-certs "$APK" 2>&1 | grep -E "SHA-256|Verifies|ERROR|DOES NOT"
         working-directory: app
 
+      - name: Report what makes the bundle large
+        continue-on-error: true
+        run: |
+          AAB=$(ls build/app/outputs/bundle/release/*.aab | head -1)
+          APK=$(ls build/app/outputs/flutter-apk/*-release.apk | head -1)
+          {
+            echo "AAB $(stat -c %s "$AAB") bytes; APK $(stat -c %s "$APK") bytes."
+            echo "Largest AAB entries (uncompressed bytes, compressed bytes, path):"
+            unzip -v "$AAB" | sort -k1 -n -r | head -14 | awk '{print $1, $3, $8}'
+            echo "Largest APK entries:"
+            unzip -v "$APK" | sort -k1 -n -r | head -8 | awk '{print $1, $3, $8}'
+          } > size_report.txt
+          cat size_report.txt
+          echo "::notice title=Bundle size report::$(tr '\n' '|' < size_report.txt)"
+        working-directory: app
+
       - uses: actions/upload-artifact@v4
         with:
           name: photosur-release-aab

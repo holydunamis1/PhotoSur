@@ -204,8 +204,15 @@ class _LanguageSheetState extends State<_LanguageSheet> {
                   itemCount: shown.length,
                   itemBuilder: (context, i) {
                     final code = shown[i];
+                    final native = languageLabel(l10n, code);
+                    final english = kLanguageEnglishNames[code];
                     return ListTile(
-                      title: Text(languageLabel(l10n, code)),
+                      title: Text(native),
+                      subtitle: code == kLanguageSystem ||
+                              english == null ||
+                              english == native
+                          ? null
+                          : Text(english),
                       trailing: current.language == code
                           ? const Icon(Icons.check)
                           : null,
