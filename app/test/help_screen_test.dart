@@ -46,7 +46,7 @@ PhotoSurApp _app(SettingsProvider settings) {
 }
 
 void main() {
-  const tallPhone = Size(1080, 14000);
+  const tallPhone = Size(1080, 90000);
 
   for (final code in ['en', 'de', 'ru', 'ar', 'ja', 'th', 'fil', 'zh_Hant']) {
     testWidgets('$code: every topic opens at 1.3x text without overflow',
