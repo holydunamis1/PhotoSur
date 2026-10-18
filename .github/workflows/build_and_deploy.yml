@@ -111,6 +111,32 @@ jobs:
           flutter clean
           rm -rf android/.gradle android/app/build
 
+      - name: Set up release signing
+        env:
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          missing=""
+          for v in ANDROID_KEYSTORE_BASE64 ANDROID_KEYSTORE_PASSWORD ANDROID_KEY_ALIAS ANDROID_KEY_PASSWORD; do
+            if [ -z "${!v}" ]; then missing="$missing $v"; fi
+          done
+          if [ -n "$missing" ]; then
+            echo "::error::Release signing secrets missing:$missing. Add them under Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+          KS="$RUNNER_TEMP/photosur-release.jks"
+          echo "$ANDROID_KEYSTORE_BASE64" | base64 -d > "$KS"
+          {
+            echo "storeFile=$KS"
+            echo "storePassword=$ANDROID_KEYSTORE_PASSWORD"
+            echo "keyAlias=$ANDROID_KEY_ALIAS"
+            echo "keyPassword=$ANDROID_KEY_PASSWORD"
+          } > app/android/key.properties
+          echo "Signing certificate fingerprints:"
+          keytool -list -v -keystore "$KS" -storepass "$ANDROID_KEYSTORE_PASSWORD" -alias "$ANDROID_KEY_ALIAS" | grep -E "SHA1|SHA256"
+
       - name: Build release AAB
         run: |
           flutter build appbundle --release \
@@ -121,6 +147,12 @@ jobs:
         run: |
           flutter build apk --release \
             --obfuscate --split-debug-info=symbols
+        working-directory: app
+
+      - name: Confirm APK is signed with the release key
+        run: |
+          APK=$(ls build/app/outputs/flutter-apk/*-release.apk | head -1)
+          "$ANDROID_HOME"/build-tools/*/apksigner verify --print-certs "$APK" | grep -E "SHA-256|Verifies"
         working-directory: app
 
       - uses: actions/upload-artifact@v4
