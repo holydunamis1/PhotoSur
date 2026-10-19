@@ -3,7 +3,9 @@ import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
 import '../core/providers/settings_provider.dart';
+import '../core/services/storage_service.dart';
 import '../core/theme/app_tokens.dart';
+import '../core/utils/constants.dart' show kShowExportDiagnostics;
 import '../generated/l10n/app_localizations.dart';
 import '../platform/ad_service.dart';
 import '../widgets/app_scaffold.dart';
@@ -124,6 +126,15 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     );
                   }),
                 ),
+                if (kShowExportDiagnostics && !widget.replay)
+                  Padding(
+                    padding: const EdgeInsets.only(top: 12),
+                    child: Text(
+                      StorageService.instance.settingsDiagnostic,
+                      textAlign: TextAlign.center,
+                      style: Theme.of(context).textTheme.bodySmall,
+                    ),
+                  ),
                 const SizedBox(height: 28),
                 PrimaryButton(
                   label: _page == pages.length - 1

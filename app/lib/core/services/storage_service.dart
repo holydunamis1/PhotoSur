@@ -202,17 +202,30 @@ class StorageService {
 
   // ---- Settings (SharedPreferences) ----
 
+  /// Plain-words record of the last settings read and write, shown on the
+  /// onboarding screen while diagnostics are on (kShowExportDiagnostics),
+  /// so a phone-only check can tell "nothing was saved" from "saving
+  /// failed" from "saved data could not be read".
+  String settingsDiagnostic = 'settings: not read yet';
+
   Future<UserSettings> loadSettings() async {
     try {
       final prefs = await SharedPreferences.getInstance();
       final raw = prefs.getString(_userSettingsKey);
-      if (raw == null) return const UserSettings();
-      return UserSettings.fromJson(
+      if (raw == null) {
+        settingsDiagnostic = 'read: nothing saved yet';
+        return const UserSettings();
+      }
+      final loaded = UserSettings.fromJson(
         jsonDecode(raw) as Map<String, dynamic>,
       );
+      settingsDiagnostic =
+          'read: saved, onboarded=${loaded.hasCompletedOnboarding}';
+      return loaded;
     } catch (e) {
       // Corrupt/missing prefs shouldn't crash app start — fall back to
       // defaults per the graceful-fallback architecture rule.
+      settingsDiagnostic = 'read FAILED: $e';
       return const UserSettings();
     }
   }
@@ -220,8 +233,13 @@ class StorageService {
   Future<void> saveSettings(UserSettings settings) async {
     try {
       final prefs = await SharedPreferences.getInstance();
-      await prefs.setString(_userSettingsKey, jsonEncode(settings.toJson()));
+      final ok = await prefs.setString(
+          _userSettingsKey, jsonEncode(settings.toJson()));
+      settingsDiagnostic = ok
+          ? 'save ok, onboarded=${settings.hasCompletedOnboarding}'
+          : 'save returned false';
     } catch (e) {
+      settingsDiagnostic = 'save FAILED: $e';
       throw StorageException('Failed to save settings.', e);
     }
   }
