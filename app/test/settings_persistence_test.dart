@@ -26,7 +26,7 @@ void main() {
     final prefs = await SharedPreferences.getInstance();
     final saved =
         jsonDecode(prefs.getString('user_settings')!) as Map<String, dynamic>;
-    expect(saved['hasCompletedOnboarding'], isTrue);
+    expect(saved['has_completed_onboarding'], isTrue);
 
     final second = SettingsProvider();
     await second.load();
