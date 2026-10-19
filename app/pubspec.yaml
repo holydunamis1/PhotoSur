@@ -100,13 +100,14 @@ flutter:
 
 # Release builds on the phone failed to read saved settings with
 # NoSuchMethodError (SharedPreferencesApiRegistrar.getAll), so the app lost
-# its settings on every launch and returned to onboarding. The likely cause
-# is the newest shared_preferences_android moving to a JNI-based
-# implementation (its changelog page said 2.5.0, "Pigeon JNI"; that page was
-# read second-hand, so treat the version number as unconfirmed). This keeps
-# the older 2.4.x line, which used the channel-based implementation.
+# its settings on every launch and returned to onboarding. Cause, checked
+# against the published packages: shared_preferences_android 2.5.0 is the
+# first version that calls Android through JNI (2.4.28 and earlier do not),
+# and that fails in release builds here. path_provider_android has the same
+# change at 2.3.0 (2.2.23 and earlier do not), so it is held back too.
 # pubspec.lock is gitignored, so without a pin CI resolves the newest
-# version on every build. Remove the pin only after a newer release is
+# version on every build. Remove a pin only after a newer release is
 # verified on a real phone.
 dependency_overrides:
   shared_preferences_android: ">=2.4.0 <2.5.0"
+  path_provider_android: ">=2.2.0 <2.3.0"
