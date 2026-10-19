@@ -98,13 +98,14 @@ flutter:
           weight: 600
 
 
-# shared_preferences_android 2.5.0 (published Oct 17, 2026, "Pigeon JNI")
-# made reading saved settings fail on the phone in release builds with
+# Release builds on the phone failed to read saved settings with
 # NoSuchMethodError (SharedPreferencesApiRegistrar.getAll), so the app lost
-# its settings on every launch and returned to onboarding. 2.4.29 is the
-# line before that change (the newest 2.4.x that exists is used; a first
-# attempt at a fixed 2.4.29 failed because that version does not exist).
-# pubspec.lock is gitignored, so without this pin CI resolves the newest
+# its settings on every launch and returned to onboarding. The likely cause
+# is the newest shared_preferences_android moving to a JNI-based
+# implementation (its changelog page said 2.5.0, "Pigeon JNI"; that page was
+# read second-hand, so treat the version number as unconfirmed). This keeps
+# the older 2.4.x line, which used the channel-based implementation.
+# pubspec.lock is gitignored, so without a pin CI resolves the newest
 # version on every build. Remove the pin only after a newer release is
 # verified on a real phone.
 dependency_overrides:
