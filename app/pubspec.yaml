@@ -102,9 +102,10 @@ flutter:
 # made reading saved settings fail on the phone in release builds with
 # NoSuchMethodError (SharedPreferencesApiRegistrar.getAll), so the app lost
 # its settings on every launch and returned to onboarding. 2.4.29 is the
-# last release before that change (listed on its pub.dev changelog).
+# line before that change (the newest 2.4.x that exists is used; a first
+# attempt at a fixed 2.4.29 failed because that version does not exist).
 # pubspec.lock is gitignored, so without this pin CI resolves the newest
 # version on every build. Remove the pin only after a newer release is
 # verified on a real phone.
 dependency_overrides:
-  shared_preferences_android: 2.4.29
+  shared_preferences_android: ">=2.4.0 <2.5.0"
