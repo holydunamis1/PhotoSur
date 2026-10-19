@@ -131,6 +131,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     padding: const EdgeInsets.only(top: 12),
                     child: Text(
                       StorageService.instance.settingsDiagnostic,
+                      maxLines: 3,
+                      overflow: TextOverflow.ellipsis,
                       textAlign: TextAlign.center,
                       style: Theme.of(context).textTheme.bodySmall,
                     ),

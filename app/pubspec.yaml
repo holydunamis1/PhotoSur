@@ -97,3 +97,14 @@ flutter:
         - asset: assets/fonts/Inter-SemiBold.ttf
           weight: 600
 
+
+# shared_preferences_android 2.5.0 (published Oct 17, 2026, "Pigeon JNI")
+# made reading saved settings fail on the phone in release builds with
+# NoSuchMethodError (SharedPreferencesApiRegistrar.getAll), so the app lost
+# its settings on every launch and returned to onboarding. 2.4.29 is the
+# last release before that change (listed on its pub.dev changelog).
+# pubspec.lock is gitignored, so without this pin CI resolves the newest
+# version on every build. Remove the pin only after a newer release is
+# verified on a real phone.
+dependency_overrides:
+  shared_preferences_android: 2.4.29
