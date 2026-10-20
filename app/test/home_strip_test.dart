@@ -9,7 +9,8 @@ Widget _host(SettingsProvider settings, {bool reduceMotion = false}) {
   return Provider<SettingsProvider>.value(
     value: settings,
     child: MediaQuery(
-      data: MediaQueryData(disableAnimations: reduceMotion),
+      data: MediaQueryData(
+        size: const Size(400, 800), disableAnimations: reduceMotion),
       child: const Directionality(
         textDirection: TextDirection.ltr,
         child: SizedBox(

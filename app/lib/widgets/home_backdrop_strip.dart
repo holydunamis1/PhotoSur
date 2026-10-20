@@ -122,7 +122,7 @@ class _StripState extends State<_Strip>
       key: ValueKey('home-strip-image-$i'),
       fit: BoxFit.cover,
       alignment: Alignment(0, p.focusY),
-      cacheWidth: width.round(),
+      cacheWidth: width >= 1 ? width.round() : null,
       gaplessPlayback: true,
       excludeFromSemantics: true,
       errorBuilder: (context, error, stackTrace) => const SizedBox.shrink(),
