@@ -2,7 +2,7 @@
   "@@locale": "zh",
   "appTitle": "PhotoSur",
   "onboardingPage1Title": "秒速去除背景，全部功能免费。",
-  "onboardingPage1Body": "打开照片，设备上的 AI 会自动去除背景，无需联网。",
+  "onboardingPage1Body": "打开照片，设备上的 AI 会自动去除背景，无需联网。你还可以换成自己的自定义背景。",
   "onboardingPage2Title": "用画笔精细调整",
   "onboardingPage2Body": "用画笔擦掉 AI 漏掉的部分，或恢复你想保留的部分。然后裁剪、旋转、移动和调整大小。",
   "onboardingPage3Title": "影棚级背景",

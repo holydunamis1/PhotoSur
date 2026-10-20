@@ -2,7 +2,7 @@
   "@@locale": "zh_Hant",
   "appTitle": "PhotoSur",
   "onboardingPage1Title": "秒速去背，所有功能免費。",
-  "onboardingPage1Body": "開啟相片後，裝置上的 AI 會自動去除背景，不需要網路連線。",
+  "onboardingPage1Body": "開啟相片後，裝置上的 AI 會自動去除背景，不需要網路連線。你還可以換成自己的自訂背景。",
   "onboardingPage2Title": "用筆刷細部調整",
   "onboardingPage2Body": "用畫筆擦掉 AI 漏掉的部分，或還原你想保留的部分。接著裁切、旋轉、移動和調整大小。",
   "onboardingPage3Title": "影棚級背景",

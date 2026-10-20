@@ -5,7 +5,7 @@
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
   "onboardingPage1Title": "Fjern bakgrunner umiddelbart. Alle funksjoner gratis.",
-  "onboardingPage1Body": "Åpne et bilde, så fjerner AI-en på enheten din bakgrunnen automatisk — uten internett.",
+  "onboardingPage1Body": "Åpne et bilde, så fjerner AI-en på enheten din bakgrunnen automatisk — uten internett. Du kan også bytte til din egen bakgrunn.",
   "onboardingPage2Title": "Finjuster med penselen",
   "onboardingPage2Body": "Visk ut med penselen det KI-en overså, eller gjenopprett det du vil beholde. Beskjær, roter, flytt og endre størrelse etterpå.",
   "onboardingPage3Title": "Bakgrunner i studiokvalitet",

@@ -5,7 +5,7 @@
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
   "onboardingPage1Title": "Remove backgrounds instantly. All features free.",
-  "onboardingPage1Body": "Open a photo and our on-device AI removes the background automatically — no internet required.",
+  "onboardingPage1Body": "Open a photo and our on-device AI removes the background automatically — no internet required. You can also swap in your own custom background.",
   "onboardingPage2Title": "Fine-tune with the brush",
   "onboardingPage2Body": "Paint away what the AI missed or restore what you want to keep. Then crop, rotate, move and resize.",
   "onboardingPage3Title": "Studio-ready backgrounds",

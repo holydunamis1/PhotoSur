@@ -2,7 +2,7 @@
   "@@locale": "es",
   "appTitle": "PhotoSur",
   "onboardingPage1Title": "Quita fondos al instante. Todas las funciones gratis.",
-  "onboardingPage1Body": "Abre una foto y nuestra IA en el dispositivo quita el fondo automáticamente, sin internet.",
+  "onboardingPage1Body": "Abre una foto y nuestra IA en el dispositivo quita el fondo automáticamente, sin internet. También puedes cambiarlo por tu propio fondo personalizado.",
   "onboardingPage2Title": "Perfecciona con el pincel",
   "onboardingPage2Body": "Borra con el pincel lo que la IA pasó por alto o restaura lo que quieres conservar. Después recorta, gira, mueve y cambia el tamaño.",
   "onboardingPage3Title": "Fondos de estudio",

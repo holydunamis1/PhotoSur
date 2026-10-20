@@ -5,7 +5,7 @@
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
   "onboardingPage1Title": "Háttér eltávolítása azonnal. Minden funkció ingyenes.",
-  "onboardingPage1Body": "Nyiss meg egy fotót, és az eszközön futó mesterséges intelligencia automatikusan eltávolítja a hátteret — internet nélkül.",
+  "onboardingPage1Body": "Nyiss meg egy fotót, és az eszközön futó mesterséges intelligencia automatikusan eltávolítja a hátteret — internet nélkül. Saját, egyedi hátteret is beállíthatsz.",
   "onboardingPage2Title": "Finomíts ecsettel",
   "onboardingPage2Body": "Töröld ecsettel, amit a mesterséges intelligencia kihagyott, vagy állítsd vissza, amit meg akarsz tartani. Aztán vágd körbe, forgasd, told el és méretezd át.",
   "onboardingPage3Title": "Stúdiós hátterek",

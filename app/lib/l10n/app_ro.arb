@@ -5,7 +5,7 @@
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
   "onboardingPage1Title": "Elimină fundalurile instant. Toate funcțiile gratuite.",
-  "onboardingPage1Body": "Deschide o fotografie, iar AI-ul de pe dispozitiv elimină automat fundalul — fără internet.",
+  "onboardingPage1Body": "Deschide o fotografie, iar AI-ul de pe dispozitiv elimină automat fundalul — fără internet. Poți de asemenea să îl înlocuiești cu propriul fundal personalizat.",
   "onboardingPage2Title": "Rafinează cu pensula",
   "onboardingPage2Body": "Șterge cu pensula ce a ratat AI-ul sau restaurează ce vrei să păstrezi. Apoi decupează, rotește, mută și redimensionează.",
   "onboardingPage3Title": "Fundaluri de calitate studio",

@@ -2,7 +2,7 @@
   "@@locale": "ja",
   "appTitle": "PhotoSur",
   "onboardingPage1Title": "背景を一瞬で削除。全機能無料。",
-  "onboardingPage1Body": "写真を開くと、端末内のAIが自動で背景を削除します。インターネット接続は不要です。",
+  "onboardingPage1Body": "写真を開くと、端末内のAIが自動で背景を削除します。インターネット接続は不要です。自分だけのオリジナル背景に差し替えることもできます。",
   "onboardingPage2Title": "ブラシで細かく調整",
   "onboardingPage2Body": "AIが取りこぼした部分はブラシで消し、残したい部分は復元できます。そのあと、切り抜き・回転・移動・サイズ変更も。",
   "onboardingPage3Title": "スタジオ品質の背景",

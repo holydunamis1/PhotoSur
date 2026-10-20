@@ -5,7 +5,7 @@
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
   "onboardingPage1Title": "बॅकग्राउंड त्वरित काढा. सर्व फीचर्स मोफत.",
-  "onboardingPage1Body": "फोटो उघडा आणि तुमच्या फोनवरील AI आपोआप बॅकग्राउंड काढून टाकेल — इंटरनेटची गरज नाही.",
+  "onboardingPage1Body": "फोटो उघडा आणि तुमच्या फोनवरील AI आपोआप बॅकग्राउंड काढून टाकेल — इंटरनेटची गरज नाही. तुम्ही तुमचा स्वतःचा कस्टम बॅकग्राउंडही लावू शकता.",
   "onboardingPage2Title": "ब्रशने बारकाईने सुधारा",
   "onboardingPage2Body": "AI ने सोडलेला भाग ब्रशने पुसा, किंवा ठेवायचा भाग परत आणा. मग क्रॉप करा, फिरवा, हलवा आणि आकार बदला.",
   "onboardingPage3Title": "स्टुडिओ दर्जाचे बॅकग्राउंड",

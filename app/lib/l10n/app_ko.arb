@@ -2,7 +2,7 @@
   "@@locale": "ko",
   "appTitle": "PhotoSur",
   "onboardingPage1Title": "배경을 즉시 제거하세요. 모든 기능 무료.",
-  "onboardingPage1Body": "사진을 열면 기기 내 AI가 배경을 자동으로 제거합니다. 인터넷이 필요 없습니다.",
+  "onboardingPage1Body": "사진을 열면 기기 내 AI가 배경을 자동으로 제거합니다. 인터넷이 필요 없습니다. 원하는 나만의 배경으로 바꿀 수도 있습니다.",
   "onboardingPage2Title": "브러시로 세밀하게 다듬기",
   "onboardingPage2Body": "AI가 놓친 부분은 브러시로 지우고, 남기고 싶은 부분은 복원하세요. 그다음 자르기, 회전, 이동, 크기 조정까지.",
   "onboardingPage3Title": "스튜디오급 배경",

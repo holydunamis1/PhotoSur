@@ -5,7 +5,7 @@
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
   "onboardingPage1Title": "Odstráňte pozadie okamžite. Všetky funkcie zadarmo.",
-  "onboardingPage1Body": "Otvorte fotku a umelá inteligencia vo vašom zariadení automaticky odstráni pozadie — bez pripojenia na internet.",
+  "onboardingPage1Body": "Otvorte fotku a umelá inteligencia vo vašom zariadení automaticky odstráni pozadie — bez pripojenia na internet. Môžete tiež použiť vlastné pozadie.",
   "onboardingPage2Title": "Doladte štetcom",
   "onboardingPage2Body": "Štetcom zotrite, čo umelá inteligencia prehliadla, alebo obnovte, čo chcete zachovať. Potom orežte, otočte, presuňte a zmeňte veľkosť.",
   "onboardingPage3Title": "Pozadia ako zo štúdia",

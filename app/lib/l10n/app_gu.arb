@@ -5,7 +5,7 @@
   "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
 
   "onboardingPage1Title": "બૅકગ્રાઉન્ડ તરત દૂર કરો. બધા ફીચર્સ મફત.",
-  "onboardingPage1Body": "ફોટો ખોલો અને તમારા ફોનમાં ચાલતું AI આપમેળે બેકગ્રાઉન્ડ દૂર કરશે — ઇન્ટરનેટની જરૂર નથી.",
+  "onboardingPage1Body": "ફોટો ખોલો અને તમારા ફોનમાં ચાલતું AI આપમેળે બેકગ્રાઉન્ડ દૂર કરશે — ઇન્ટરનેટની જરૂર નથી. તમે તમારું પોતાનું કસ્ટમ બેકગ્રાઉન્ડ પણ મૂકી શકો છો.",
   "onboardingPage2Title": "બ્રશથી બારીકાઈથી સુધારો",
   "onboardingPage2Body": "AI એ જે છોડ્યું તે બ્રશથી ભૂંસો, અથવા જે રાખવું હોય તે પાછું લાવો. પછી ક્રોપ કરો, ફેરવો, ખસેડો અને કદ બદલો.",
   "onboardingPage3Title": "સ્ટુડિયો જેવા બેકગ્રાઉન્ડ",
