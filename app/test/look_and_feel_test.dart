@@ -101,7 +101,8 @@ void main() {
   test('onboarding tells users every feature is free', () {
     final arb = jsonDecode(File('lib/l10n/app_en.arb').readAsStringSync())
         as Map<String, dynamic>;
-    expect(arb['onboardingPage3Body'], contains('Every feature is free'));
+    // The promise sits in the first page's headline, the most prominent spot.
+    expect(arb['onboardingPage1Title'], contains('All features free'));
   });
 
   test('every onboarding illustration exists', () {
