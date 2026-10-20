@@ -69,4 +69,9 @@ class SettingsProvider extends ValueNotifier<UserSettings> {
     value = value.copyWith(language: languageCode);
     await _persist();
   }
+
+  Future<void> setAnimatedHomeBackground(bool enabled) async {
+    value = value.copyWith(animatedHomeBackground: enabled);
+    await _persist();
+  }
 }

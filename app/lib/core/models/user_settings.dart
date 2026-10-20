@@ -25,6 +25,8 @@ abstract class UserSettings with _$UserSettings {
     // Unfinished-edit reminder notifications (on by default; the OS still
     // asks for notification permission separately).
     @Default(true) bool remindersEnabled,
+    // Slowly cross-fading pictures behind the Home header (Settings switch).
+    @Default(true) bool animatedHomeBackground,
   }) = _UserSettings;
 
   factory UserSettings.fromJson(Map<String, dynamic> json) =>

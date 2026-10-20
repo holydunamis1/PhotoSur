@@ -13,6 +13,7 @@ import '../widgets/app_scaffold.dart';
 import '../widgets/brand_wordmark.dart';
 import '../widgets/empty_state.dart';
 import '../widgets/export_actions.dart';
+import '../widgets/home_backdrop_strip.dart';
 import '../widgets/preference_sheets.dart';
 import '../widgets/recent_export_tile.dart';
 import '../widgets/toast_notification.dart';
@@ -108,6 +109,8 @@ class _HomeScreenState extends State<HomeScreen> {
     return AppScaffold(
       appBar: AppBar(
         centerTitle: false,
+        toolbarHeight: 80,
+        flexibleSpace: const HomeBackdropStrip(),
         title: const BrandWordmark(),
         actions: [
           IconButton(

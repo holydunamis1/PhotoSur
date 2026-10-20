@@ -162,6 +162,14 @@ class SettingsScreen extends StatelessWidget {
                   );
                 },
               ),
+              ValueListenableBuilder<UserSettings>(
+                valueListenable: settingsProvider,
+                builder: (context, settings, _) => SwitchListTile(
+                  title: Text(l10n.settingsAnimatedBackground),
+                  value: settings.animatedHomeBackground,
+                  onChanged: settingsProvider.setAnimatedHomeBackground,
+                ),
+              ),
               ]),
               const SizedBox(height: AppSpace.l),
               const _Group(children: [HdModelTile()]),
