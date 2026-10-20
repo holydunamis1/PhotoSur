@@ -23,7 +23,10 @@ Widget _host(SettingsProvider settings, {bool reduceMotion = false}) {
 }
 
 void main() {
-  setUp(() => SharedPreferences.setMockInitialValues({}));
+  setUp(() {
+    Provider.debugCheckInvalidValueType = null;
+    SharedPreferences.setMockInitialValues({});
+  });
 
   testWidgets('shows the first picture when on, nothing when off',
       (tester) async {
