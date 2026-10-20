@@ -8,7 +8,7 @@ R=/tmp/stress_results.txt; : > $R
 say(){ echo "$*" | tee -a $R; }
 alive(){ adb shell pidof "$PKG" | tr -d '\r'; }
 launch(){ adb shell monkey -p "$PKG" -c android.intent.category.LAUNCHER 1 >/dev/null 2>&1; }
-dump(){ adb shell uiautomator dump /sdcard/ui.xml >/dev/null 2>&1; adb shell cat /sdcard/ui.xml 2>/dev/null; }
+dump(){ for t in 1 2 3; do adb shell rm -f /sdcard/ui.xml; adb shell uiautomator dump /sdcard/ui.xml >/tmp/dump_err.txt 2>&1; X=$(adb shell cat /sdcard/ui.xml 2>/dev/null); [ -n "$X" ] && { echo "$X"; return; }; sleep 1; done; }
 # has_text "Label" -> 0 if any node has that text/description
 has_text(){ dump | python3 -c "
 import sys,re
@@ -29,7 +29,11 @@ for m in re.finditer(r'<node [^>]*>',x):
 sys.exit(1)" "$1"; }
 wait_text(){ for i in $(seq 1 ${2:-15}); do has_text "$1" && return 0; sleep 2; done; return 1; }
 check(){ # name, command...
-  n="$1"; shift; if "$@"; then say "PASS $n"; else say "FAIL $n"; fi; }
+  n="$1"; shift; if "$@"; then say "PASS $n"; else say "FAIL $n"
+    say "   diag: pid=$(alive) top=$(adb shell dumpsys activity activities | grep -m1 topResumedActivity | sed 's/.*ActivityRecord//' | cut -c1-90)"
+    say "   diag: dump_err=$(head -c 120 /tmp/dump_err.txt | tr '\n' ' ') dump_bytes=$(adb shell cat /sdcard/ui.xml 2>/dev/null | wc -c) texts=$(dump | grep -o '\(text\|content-desc\)="[^"]\+"' | head -12 | tr '\n' ' ')"
+    say "   diag: log=$(adb logcat -d -v brief | grep -E "$PKG|flutter|AndroidRuntime|ActivityManager.*(Killing|died)" | tail -4 | cut -c1-140 | tr '\n' '|')"
+  fi; }
 crashes(){ adb logcat -d -v threadtime | grep -E "FATAL EXCEPTION|Fatal signal|ANR in $PKG|am_crash.*$PKG" | head -3; }
 
 adb wait-for-device
