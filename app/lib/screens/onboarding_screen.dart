@@ -56,6 +56,10 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         title: l10n.onboardingPage3Title,
         body: l10n.onboardingPage3Body,
       ),
+      _OnboardingPageData(
+        title: l10n.onboardingPage4Title,
+        body: l10n.onboardingPage4Body,
+      ),
     ];
   }
 
@@ -164,11 +168,14 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
 
 class _OnboardingPageData {
   const _OnboardingPageData({
-    required this.asset,
+    this.asset,
     required this.title,
     required this.body,
   });
-  final String asset;
+
+  /// Picture for the page; when null the page draws the batch-and-private
+  /// artwork instead.
+  final String? asset;
   final String title;
   final String body;
 }
@@ -198,31 +205,86 @@ class _OnboardingPage extends StatelessWidget {
             Expanded(
               flex: 5,
               child: Center(
-                child: Image.asset(
-                  data.asset,
-                  fit: BoxFit.contain,
-                  excludeFromSemantics: true,
-                  errorBuilder: (context, error, stackTrace) => Icon(
-                    Icons.image_outlined,
-                    size: 96,
-                    color: p.text3,
-                  ),
-                ),
+                child: data.asset == null
+                    ? const _BatchPrivateArt()
+                    : Image.asset(
+                        data.asset!,
+                        fit: BoxFit.contain,
+                        excludeFromSemantics: true,
+                        errorBuilder: (context, error, stackTrace) => Icon(
+                          Icons.image_outlined,
+                          size: 96,
+                          color: p.text3,
+                        ),
+                      ),
               ),
             ),
             const SizedBox(height: AppSpace.l),
-            Text(
-              data.title,
-              style: theme.textTheme.headlineMedium,
-              textAlign: TextAlign.center,
+            Flexible(
+              flex: 4,
+              child: SingleChildScrollView(
+                child: Column(
+                  children: [
+                    Text(
+                      data.title,
+                      style: theme.textTheme.headlineMedium,
+                      textAlign: TextAlign.center,
+                    ),
+                    const SizedBox(height: AppSpace.m),
+                    Text(
+                      data.body,
+                      style:
+                          theme.textTheme.bodyLarge?.copyWith(color: p.text2),
+                      textAlign: TextAlign.center,
+                    ),
+                  ],
+                ),
+              ),
             ),
-            const SizedBox(height: AppSpace.m),
-            Text(
-              data.body,
-              style: theme.textTheme.bodyLarge?.copyWith(color: p.text2),
-              textAlign: TextAlign.center,
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// Page 4 artwork: a photo stack (batch / export) with a lock badge
+/// (private). Drawn, so it follows the theme and needs no image file.
+class _BatchPrivateArt extends StatelessWidget {
+  const _BatchPrivateArt();
+
+  @override
+  Widget build(BuildContext context) {
+    final p = context.palette;
+    return ExcludeSemantics(
+      child: SizedBox(
+        width: 190,
+        height: 190,
+        child: Stack(
+          alignment: Alignment.center,
+          children: [
+            Container(
+              width: 170,
+              height: 170,
+              decoration:
+                  BoxDecoration(color: p.accentTint, shape: BoxShape.circle),
+              child: Icon(Icons.photo_library_rounded,
+                  size: 84, color: p.accentText),
             ),
-            const Spacer(),
+            PositionedDirectional(
+              end: 14,
+              bottom: 14,
+              child: Container(
+                width: 52,
+                height: 52,
+                decoration: BoxDecoration(
+                  color: p.surface,
+                  shape: BoxShape.circle,
+                  border: Border.all(color: p.accentText, width: 2),
+                ),
+                child: Icon(Icons.lock_rounded, size: 26, color: p.accentText),
+              ),
+            ),
           ],
         ),
       ),

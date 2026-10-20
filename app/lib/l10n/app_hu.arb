@@ -7,9 +7,11 @@
   "onboardingPage1Title": "Háttér eltávolítása azonnal. Minden funkció ingyenes.",
   "onboardingPage1Body": "Nyiss meg egy fotót, és az eszközön futó mesterséges intelligencia automatikusan eltávolítja a hátteret — internet nélkül.",
   "onboardingPage2Title": "Finomíts ecsettel",
-  "onboardingPage2Body": "Nagyíts rá, és told ki, amit az MI kihagyott, vagy állítsd vissza a megtartandó részeket.",
+  "onboardingPage2Body": "Töröld ecsettel, amit a mesterséges intelligencia kihagyott, vagy állítsd vissza, amit meg akarsz tartani. Aztán vágd körbe, forgasd, told el és méretezd át.",
   "onboardingPage3Title": "Stúdiós hátterek",
-  "onboardingPage3Body": "Helyezd a terméket egyszínű háttérre, lágy színátmenetre vagy saját fotóra — természetes árnyékkal. Minden funkció ingyenes.",
+  "onboardingPage3Body": "Válassz színt, színátmenetet, sablont vagy saját fotót, természetes árnyékkal. Az Amazon, eBay, Etsy és Shopify előbeállításai beállítják helyetted a méretet és a formátumot.",
+  "onboardingPage4Title": "Tömegesen, a kívánt formátumban, teljesen privátan",
+  "onboardingPage4Body": "Akár 30 fotó hátterét is eltávolíthatod egyszerre, és exportálhatod PNG, JPG vagy WEBP formátumban. A fotóid soha nem hagyják el a telefont. 43 nyelven elérhető.",
   "onboardingNext": "Tovább",
   "onboardingGetStarted": "Kezdjük",
 

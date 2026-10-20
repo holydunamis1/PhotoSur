@@ -7,9 +7,11 @@
   "onboardingPage1Title": "Poista taustat heti. Kaikki ominaisuudet ilmaisia.",
   "onboardingPage1Body": "Avaa kuva, niin laitteellasi toimiva tekoäly poistaa taustan automaattisesti — ilman internetyhteyttä.",
   "onboardingPage2Title": "Hienosäädä siveltimellä",
-  "onboardingPage2Body": "Zoomaa lähelle ja pyyhi pois se, minkä tekoäly ohitti, tai palauta osat, jotka haluat pitää.",
+  "onboardingPage2Body": "Pyyhi siveltimellä pois se, minkä tekoäly ohitti, tai palauta se, minkä haluat säilyttää. Sen jälkeen rajaa, kierrä, siirrä ja muuta kokoa.",
   "onboardingPage3Title": "Studiotason taustat",
-  "onboardingPage3Body": "Aseta tuotteesi yksivärisen taustan, pehmeän liukuvärin tai oman kuvasi päälle — luonnollisella varjolla. Kaikki ominaisuudet ovat ilmaisia.",
+  "onboardingPage3Body": "Valitse väri, liukuväri, malli tai oma kuvasi luonnollisella varjolla. Amazonin, eBayn, Etsyn ja Shopifyn esiasetukset määrittävät koon ja muodon puolestasi.",
+  "onboardingPage4Title": "Erässä, haluamassasi muodossa, täysin yksityisesti",
+  "onboardingPage4Body": "Poista jopa 30 kuvan tausta kerralla ja vie kuvat PNG-, JPG- tai WEBP-muodossa. Kuvasi eivät koskaan poistu puhelimestasi. Saatavilla 43 kielellä.",
   "onboardingNext": "Seuraava",
   "onboardingGetStarted": "Aloita",
 
