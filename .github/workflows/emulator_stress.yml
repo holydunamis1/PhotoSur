@@ -6,6 +6,8 @@ name: Emulator stress test
 # automatically. Run it from the Actions tab when needed.
 on:
   workflow_dispatch:
+  push:
+    branches: [emu/stress]  # temporary: removed before merge
 
 permissions:
   contents: read
