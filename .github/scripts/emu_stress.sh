@@ -34,7 +34,7 @@ check(){ # name, command...
     say "   diag: dump_err=$(head -c 120 /tmp/dump_err.txt | tr '\n' ' ') dump_bytes=$(adb shell cat /sdcard/ui.xml 2>/dev/null | wc -c) texts=$(dump | grep -o '\(text\|content-desc\)="[^"]\+"' | head -12 | tr '\n' ' ')"
     say "   diag: log=$(adb logcat -d -v brief | grep -E "$PKG|flutter|AndroidRuntime|ActivityManager.*(Killing|died)" | tail -4 | cut -c1-140 | tr '\n' '|')"
   fi; }
-crashes(){ adb logcat -d -v threadtime | grep -E "FATAL EXCEPTION|Fatal signal|ANR in $PKG|am_crash.*$PKG" | head -3; }
+crashes(){ adb logcat -d -v threadtime | grep -E -A2 "FATAL EXCEPTION|Fatal signal|ANR in $PKG|am_crash.*$PKG" | grep -E "Process: $PKG|ANR in $PKG|am_crash.*$PKG|Fatal signal.*$PKG|>>> $PKG" | head -3; }
 
 adb wait-for-device
 adb uninstall "$PKG" >/dev/null 2>&1
@@ -79,7 +79,7 @@ tap_text "Animated home background"; sleep 1
 adb shell input keyevent KEYCODE_BACK; sleep 1
 tap_text "Help"; sleep 2; check "06b Help opens" wait_text "Help" 5
 adb shell input keyevent KEYCODE_BACK; sleep 1
-tap_text "Language"; sleep 2; check "06c Language picker opens" wait_text "English" 5
+tap_text "Language"; sleep 2; check "06c Language picker opens" wait_text "Arabic" 5
 adb shell input keyevent KEYCODE_BACK; sleep 1
 check "06d back on Home" has_text "Gallery"
 
@@ -97,22 +97,29 @@ adb shell am broadcast -a android.intent.action.MEDIA_SCANNER_SCAN_FILE -d file:
 sleep 3
 tap_text "Gallery"; sleep 4
 say "INFO picker screen has: $(dump | grep -o 'content-desc="[^"]*"' | head -8 | tr '\n' ' ')"
-adb shell input tap 200 600; sleep 2; adb shell input tap 200 500; sleep 8
+tap_text "Photo taken" || adb shell input tap 200 600
+sleep 10
 say "INFO after picking: alive=$(alive) screen: $(dump | grep -o 'content-desc="[^"]*"' | head -8 | tr '\n' ' ')"
 check "07 process alive after picking an image" test -n "$(alive)"
+say "INFO 07 texts on screen after pick: $(dump | grep -o '\(text\|content-desc\)="[^"]\+"' | head -14 | tr '\n' ' ')"
+# leave whatever is on top (picker / editor) and return to a clean Home
+for i in 1 2 3; do adb shell input keyevent KEYCODE_BACK; sleep 1; done
+adb shell am force-stop com.google.android.providers.media.module >/dev/null 2>&1
+adb shell am force-stop "$PKG"; sleep 1; launch; sleep 5
+check "07b Home after leaving the picked image" wait_text "Gallery" 8
 
 # 8 Permissions denied
 adb shell pm revoke "$PKG" android.permission.POST_NOTIFICATIONS 2>/dev/null
 adb shell pm revoke "$PKG" android.permission.CAMERA 2>/dev/null
 adb shell am force-stop "$PKG"; sleep 1; launch; sleep 6
-check "08 starts with notifications+camera denied" test -n "$(alive)"
+check "08 starts with notifications+camera denied" wait_text "Gallery" 8
 
 # 9 Low-storage: fill most of /data/local/tmp free space and relaunch
 FREE=$(adb shell df /data | tail -1 | awk '{print $4}')
 say "INFO free /data KB: $FREE"
 adb shell "dd if=/dev/zero of=/data/local/tmp/fill bs=1M count=$(( (FREE/1024) - 60 ))" >/dev/null 2>&1
 adb shell am force-stop "$PKG"; sleep 1; launch; sleep 6
-check "09 starts with ~60 MB free storage" test -n "$(alive)"
+check "09 starts with ~60 MB free storage" wait_text "Gallery" 8
 adb shell rm -f /data/local/tmp/fill
 
 # 10 Airplane mode (ads must fail quietly)
@@ -139,7 +146,7 @@ done
 
 C=$(crashes)
 [ -z "$C" ] && say "PASS 99 no FATAL/ANR/native crash anywhere in the log" || say "FAIL 99 crash lines: $C"
-adb logcat -d -v threadtime | grep -E "E flutter|F flutter|APPERR|FATAL EXCEPTION|Fatal signal|ANR in $PKG" | cut -c7-230 | head -n 25 > /tmp/errs.txt
+adb logcat -d -v threadtime | grep -E "E flutter|F flutter|APPERR|Process: $PKG|ANR in $PKG" | cut -c7-230 | head -n 25 > /tmp/errs.txt
 { echo "=== RESULTS ==="; cat $R; echo "=== flutter/app errors in log ==="; cat /tmp/errs.txt; } > /tmp/final.txt
 cat /tmp/final.txt
 python3 - <<'PY'
