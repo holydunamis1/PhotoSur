@@ -13,7 +13,7 @@ import '../widgets/primary_button.dart';
 
 /// 3 pages that teach the product, with no mention of ads or payment:
 /// automatic removal, brush clean-up, studio backgrounds. "Get Started"
-/// button. Illustrations live in assets/images/onboarding_*.png.
+/// button. Illustrations live in assets/images/onboarding_*.webp.
 ///
 /// Title/body strings come from AppLocalizations at build time, so the page
 /// list is built from a method taking BuildContext.
@@ -33,9 +33,10 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   int _page = 0;
 
   static const _assets = [
-    'assets/images/onboarding_auto.png',
-    'assets/images/onboarding_manual.png',
-    'assets/images/onboarding_studio.png',
+    'assets/images/onboarding_auto.webp',
+    'assets/images/onboarding_manual.webp',
+    'assets/images/onboarding_studio.webp',
+    'assets/images/onboarding_batch.webp',
   ];
 
   List<_OnboardingPageData> _pages(BuildContext context) {
@@ -57,6 +58,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         body: l10n.onboardingPage3Body,
       ),
       _OnboardingPageData(
+        asset: _assets[3],
         title: l10n.onboardingPage4Title,
         body: l10n.onboardingPage4Body,
       ),
@@ -168,14 +170,12 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
 
 class _OnboardingPageData {
   const _OnboardingPageData({
-    this.asset,
+    required this.asset,
     required this.title,
     required this.body,
   });
 
-  /// Picture for the page; when null the page draws the batch-and-private
-  /// artwork instead.
-  final String? asset;
+  final String asset;
   final String title;
   final String body;
 }
@@ -205,18 +205,21 @@ class _OnboardingPage extends StatelessWidget {
             Expanded(
               flex: 5,
               child: Center(
-                child: data.asset == null
-                    ? const _BatchPrivateArt()
-                    : Image.asset(
-                        data.asset!,
-                        fit: BoxFit.contain,
-                        excludeFromSemantics: true,
-                        errorBuilder: (context, error, stackTrace) => Icon(
-                          Icons.image_outlined,
-                          size: 96,
-                          color: p.text3,
-                        ),
-                      ),
+                // Rounded so the pictures' light backgrounds read as cards
+                // on the dark theme too.
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(AppRadius.l),
+                  child: Image.asset(
+                    data.asset,
+                    fit: BoxFit.contain,
+                    excludeFromSemantics: true,
+                    errorBuilder: (context, error, stackTrace) => Icon(
+                      Icons.image_outlined,
+                      size: 96,
+                      color: p.text3,
+                    ),
+                  ),
+                ),
               ),
             ),
             const SizedBox(height: AppSpace.l),
@@ -239,50 +242,6 @@ class _OnboardingPage extends StatelessWidget {
                     ),
                   ],
                 ),
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-/// Page 4 artwork: a photo stack (batch / export) with a lock badge
-/// (private). Drawn, so it follows the theme and needs no image file.
-class _BatchPrivateArt extends StatelessWidget {
-  const _BatchPrivateArt();
-
-  @override
-  Widget build(BuildContext context) {
-    final p = context.palette;
-    return ExcludeSemantics(
-      child: SizedBox(
-        width: 190,
-        height: 190,
-        child: Stack(
-          alignment: Alignment.center,
-          children: [
-            Container(
-              width: 170,
-              height: 170,
-              decoration:
-                  BoxDecoration(color: p.accentTint, shape: BoxShape.circle),
-              child: Icon(Icons.photo_library_rounded,
-                  size: 84, color: p.accentText),
-            ),
-            PositionedDirectional(
-              end: 14,
-              bottom: 14,
-              child: Container(
-                width: 52,
-                height: 52,
-                decoration: BoxDecoration(
-                  color: p.surface,
-                  shape: BoxShape.circle,
-                  border: Border.all(color: p.accentText, width: 2),
-                ),
-                child: Icon(Icons.lock_rounded, size: 26, color: p.accentText),
               ),
             ),
           ],

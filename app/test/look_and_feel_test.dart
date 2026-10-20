@@ -106,8 +106,8 @@ void main() {
   });
 
   test('every onboarding illustration exists', () {
-    for (final f in ['auto', 'manual', 'studio']) {
-      expect(File('assets/images/onboarding_$f.png').existsSync(), isTrue);
+    for (final f in ['auto', 'manual', 'studio', 'batch']) {
+      expect(File('assets/images/onboarding_$f.webp').existsSync(), isTrue);
     }
     expect(File('assets/images/onboarding_ads.png').existsSync(), isFalse);
   });
