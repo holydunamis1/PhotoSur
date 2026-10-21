@@ -8,7 +8,8 @@ REL=app/build/app/outputs/flutter-apk/app-release.apk
 OUT=$PWD/stress_out; mkdir -p "$OUT"
 R=/tmp/photo_results.txt
 source .github/scripts/emu_lib.sh
-pip install -q pillow >/dev/null 2>&1
+python3 -m pip install -q --break-system-packages pillow > /tmp/pip.txt 2>&1 || python3 -m pip install -q pillow >> /tmp/pip.txt 2>&1
+python3 -c 'import PIL;print("pillow",PIL.__version__)' 2>&1 | tee -a $R
 
 shot(){ adb exec-out screencap -p > "$OUT/$1.png" 2>/dev/null; }
 onscreen(){ dump | grep -o '\(text\|content-desc\)="[^"]\+"' | head -${1:-14} | tr '\n' ' '; }
@@ -28,14 +29,16 @@ export_as(){ # label format
   [ -n "$2" ] && { tap_text "$2"; sleep 1; }
   tap_text "Save to Gallery"; sleep 6
   if has_text "Allow"; then tap_text "Allow"; sleep 4; fi
+  if has_text "Test Ad"; then say "INFO ad shown after export (closing it)"; tap_text "Close"; sleep 2; fi
   F=$(adb shell 'find /sdcard/Pictures /sdcard/DCIM -type f -newer /sdcard/marker 2>/dev/null' | tr -d '\r' | grep -v '/ps_' | head -1)
   if [ -n "$F" ]; then
     adb pull "$F" "$OUT/$1_$2.${F##*.}" >/dev/null 2>&1
     say "PASS $1 export $2 saved: $(basename "$F")"
-    say "     $(python3 -I .github/scripts/analyze_cutout.py "$OUT/$1_$2.${F##*.}" /tmp/photos/$1.jpg)"
+    say "     $(python3 -W ignore .github/scripts/analyze_cutout.py "$OUT/$1_$2.${F##*.}" /tmp/photos/$1.jpg 2>&1 | tail -2 | tr '\n' ' ')"
   else
     say "FAIL $1 export $2: nothing new in the gallery. screen: $(onscreen 10)"
   fi
+  has_text "Test Ad" && { tap_text "Close"; sleep 2; }
   adb shell input keyevent KEYCODE_BACK; sleep 1; }
 
 adb wait-for-device
@@ -110,12 +113,12 @@ say "INFO picker after taps: $(onscreen 12)"
 tap_text "Add" || tap_text "Done" || adb shell input keyevent KEYCODE_ENTER; sleep 4
 say "INFO after picking: $(onscreen 14)"
 tap_text "Start"; sleep 2
-for i in $(seq 1 30); do has_text "saved to your gallery" && break; sleep 4; done
+for i in $(seq 1 30); do has_text "saved to your gallery" && break; has_text "Test Ad" && { tap_text "Close"; sleep 2; }; sleep 4; done
 shot batch_result
 say "INFO batch end: $(onscreen 14)"
 N=$(adb shell 'find /sdcard/Pictures /sdcard/DCIM -type f -newer /sdcard/marker 2>/dev/null' | tr -d '\r' | grep -v '/ps_' | wc -l)
 [ "$N" -ge 3 ] && say "PASS batch saved $N files" || say "FAIL batch saved only $N files"
-i=0; for F in $(adb shell 'find /sdcard/Pictures /sdcard/DCIM -type f -newer /sdcard/marker 2>/dev/null' | tr -d '\r' | grep -v '/ps_'); do i=$((i+1)); adb pull "$F" "$OUT/batch_$i.${F##*.}" >/dev/null 2>&1; say "     batch_$i: $(python3 -I .github/scripts/analyze_cutout.py $OUT/batch_$i.${F##*.})"; done
+i=0; for F in $(adb shell 'find /sdcard/Pictures /sdcard/DCIM -type f -newer /sdcard/marker 2>/dev/null' | tr -d '\r' | grep -v '/ps_'); do i=$((i+1)); adb pull "$F" "$OUT/batch_$i.${F##*.}" >/dev/null 2>&1; say "     batch_$i: $(python3 -W ignore .github/scripts/analyze_cutout.py $OUT/batch_$i.${F##*.} 2>&1 | tail -2 | tr '\n' ' ')"; done
 
 C=$(crashes); [ -z "$C" ] && say "PASS 99 no app crash/ANR in the whole run" || say "FAIL 99 $C"
 adb logcat -d -v threadtime | grep -E "E flutter|F flutter|APPERR|Process: $PKG|ANR in $PKG" | cut -c7-230 | head -n 25 > /tmp/errs.txt
