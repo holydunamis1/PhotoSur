@@ -12,6 +12,27 @@ python3 -m pip install -q --break-system-packages pillow > /tmp/pip.txt 2>&1 || 
 python3 -c 'import PIL;print("pillow",PIL.__version__)' 2>&1 | tee -a $R
 
 new_files(){ adb shell "find /sdcard/Pictures /sdcard/DCIM -type f -newer /sdcard/marker \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.webp' \) 2>/dev/null" | tr -d '\r' | grep -v '/\.' | grep -v '/ps_'; }
+tap_nth(){ dump | python3 -c "
+import sys,re,subprocess
+x=sys.stdin.read(); t=sys.argv[1].lower(); k=int(sys.argv[2]); c=0
+for m in re.finditer(r'<node [^>]*>',x):
+    n=m.group(0)
+    d=re.search(r'content-desc=\"([^\"]*)\"',n); tx=re.search(r' text=\"([^\"]*)\"',n)
+    b=re.search(r'bounds=\"\[(\d+),(\d+)\]\[(\d+),(\d+)\]\"',n)
+    if b and any(v and t in v.group(1).lower() for v in (d,tx)):
+        c+=1
+        if c==k:
+            x1,y1,x2,y2=map(int,b.groups()); subprocess.call(['adb','shell','input','tap',str((x1+x2)//2),str((y1+y2)//2)]); sys.exit(0)
+sys.exit(1)" "$1" "$2"; }
+open_photo(){ # P -> leaves you in the editor with the automatic cut-out done
+  fresh_photo "$1"; go_home
+  tap_text "Gallery"; sleep 4
+  tap_text "Photo taken" || adb shell input tap 200 600
+  sleep 5
+  wait_text "Continue" 10 || { say "FAIL $1 no crop screen: $(onscreen)"; return 1; }
+  tap_text "Continue"
+  wait_text "Export" 40 || { say "FAIL $1 editor never opened: $(onscreen)"; return 1; }
+  sleep 12; return 0; }
 shot(){ adb exec-out screencap -p > "$OUT/$1.png" 2>/dev/null; }
 onscreen(){ dump | grep -o '\(text\|content-desc\)="[^"]\+"' | head -${1:-14} | tr '\n' ' '; }
 fresh_photo(){ # push exactly one photo as the newest picture
@@ -58,26 +79,12 @@ wait_text "Gallery" 10 || say "FAIL setup: Home not reached: $(onscreen)"
 
 for P in apple messi5 fruits orange butterfly building lena; do
   say "---- $P"
-  fresh_photo $P
-  tap_text "Gallery"; sleep 4
-  tap_text "Photo taken" || adb shell input tap 200 600
-  sleep 5
-  if wait_text "Continue" 10; then say "PASS $P reached Crop & Rotate"; else say "FAIL $P no crop screen: $(onscreen)"; go_home; continue; fi
-  if [ "$P" = messi5 ] || [ "$P" = building ]; then
-    shot "${P}_crop_screen"; say "INFO $P crop screen (brightness picture; dark bands = outside the crop frame):"
-    say "$(python3 -W ignore .github/scripts/analyze_cutout.py --shot "$OUT/${P}_crop_screen.png")"
-  fi
-  tap_text "Continue"
-  T0=$(date +%s)
-  if wait_text "Export" 40; then say "PASS $P editor opened after $(( $(date +%s)-T0 ))s"; else say "FAIL $P editor never opened: $(onscreen)"; go_home; continue; fi
-  # the automatic cut-out runs here; wait until the busy overlay is gone
-  sleep 12
-  has_text "doesn't support automatic" && say "FAIL $P app reports: device does not support automatic removal"
-  shot "${P}_editor"
+  open_photo $P || continue
   say "INFO $P editor: $(onscreen 18)"
+  has_text "doesn't support automatic" && say "FAIL $P app reports: device does not support automatic removal"
   check "$P alive in editor" test -n "$(alive)"
   if [ "$P" = apple ]; then
-    # editor tools: every tool opened, brush drag, undo, background, layout
+    shot "${P}_editor"
     for tool in "Brush" "Background" "Layout" "Templates" "Cut-out"; do
       tap_text "$tool"; sleep 1
       check "tool $tool opens and app alive" test -n "$(alive)"
@@ -88,37 +95,55 @@ for P in apple messi5 fruits orange butterfly building lena; do
     check "brush drag + undo/redo alive" test -n "$(alive)"
     tap_text "Layout"; sleep 1
     adb shell input swipe 400 800 500 900 300
-    adb shell input swipe 300 700 500 900 300 # pinch substitute: drag
     check "layout drag alive" test -n "$(alive)"
     tap_text "Cut-out"; sleep 1
-    export_as "$P" PNG --ascii
-    for fmt in JPG WEBP; do export_as "$P" "$fmt"; done
-    tap_text "Export"; sleep 2; tap_text "Custom"; sleep 1; shot "${P}_export_custom"
-    say "INFO custom resize sheet: $(onscreen 16)"
-    has_text "Width" && { adb shell input keyevent KEYCODE_BACK; sleep 1; }
-    tap_text "Export"; sleep 2; tap_text "Marketplace"; sleep 1; shot "${P}_export_marketplace"
-    say "INFO marketplace sheet: $(onscreen 16)"
-    has_text "Save to Gallery" && { adb shell input keyevent KEYCODE_BACK; sleep 1; }
-    # HD cut-out: real model download from GitHub, then redo in HD
-    say "---- HD model"
-    tap_text "Cut-out"; sleep 1
-    tap_text "Get HD cut-out"; sleep 2
-    say "INFO HD dialog: $(onscreen 10)"
-    tap_text "Download"; HD0=$(date +%s)
-    for i in $(seq 1 90); do has_text "Downloading" || break; sleep 4; done
-    say "INFO HD download took ~$(( $(date +%s)-HD0 ))s; screen: $(onscreen 12)"
-    has_text "didn" && say "FAIL HD download reported failure"
-    if has_text "Redo cut-out in HD" || has_text "HD"; then
-      tap_text "Redo cut-out in HD"; sleep 3
-      for i in $(seq 1 60); do sleep 4; has_text "Redo cut-out in HD" && break; done
-      say "INFO HD redo done; screen: $(onscreen 12)"
-      check "apple alive after HD redo" test -n "$(alive)"
-      export_as "$P" "HD" --ascii
-    fi
-  else
-    export_as "$P" PNG --ascii
   fi
-  go_home
+  export_as "$P" PNG --ascii
+done
+
+say "---- export formats and sizes (apple, each from a fresh editor)"
+for fmt in JPG WEBP; do open_photo apple && export_as apple "$fmt"; done
+if open_photo apple; then
+  tap_text "Export"; sleep 2; tap_text "Custom"; sleep 1
+  say "INFO custom resize sheet: $(onscreen 18)"
+  tap_text "Save to Gallery"; sleep 6; has_text "Test Ad" && { tap_text "Close"; sleep 2; }
+  F=$(new_files | head -1); [ -n "$F" ] && { adb shell touch /sdcard/marker; say "PASS custom-size export saved $(basename "$F")"; } || say "FAIL custom-size export: nothing saved"
+fi
+for MP in Amazon eBay; do
+  if open_photo apple; then
+    adb shell touch /sdcard/marker; sleep 1
+    tap_text "Export"; sleep 2; tap_text "Marketplace"; sleep 1; tap_text "$MP"; sleep 1
+    say "INFO $MP sheet: $(onscreen 18)"
+    tap_text "Save to Gallery"; sleep 6; has_text "Test Ad" && { tap_text "Close"; sleep 2; }
+    F=$(new_files | head -1)
+    if [ -n "$F" ]; then adb exec-out "cat '$F'" > "$OUT/apple_$MP.${F##*.}" 2>/dev/null
+      say "PASS marketplace $MP saved $(basename "$F")"; say "     $(python3 -W ignore .github/scripts/analyze_cutout.py "$OUT/apple_$MP.${F##*.}" 2>&1 | tail -3 | head -1)"
+    else say "FAIL marketplace $MP: nothing saved"; fi
+  fi
+done
+
+say "---- HD model: real download, then redo in HD (apple, then the portrait)"
+for P in apple lena; do
+  if open_photo $P; then
+    tap_text "Cut-out"; sleep 1
+    if has_text "Get HD cut-out"; then
+      tap_text "Get HD cut-out"; sleep 2
+      say "INFO HD dialog: $(onscreen 10)"
+      tap_text "Download"; HD0=$(date +%s)
+      for i in $(seq 1 120); do has_text "Downloading" || break; sleep 4; done
+      say "INFO HD download took ~$(( $(date +%s)-HD0 ))s; screen: $(onscreen 12)"
+      has_text "didn" && say "FAIL HD download reported failure"
+    fi
+    if has_text "Redo cut-out in HD"; then
+      tap_text "Redo cut-out in HD"; HD1=$(date +%s); sleep 3
+      for i in $(seq 1 60); do sleep 4; has_text "Redo cut-out in HD" && break; done
+      say "INFO HD redo took ~$(( $(date +%s)-HD1 ))s"
+      check "$P alive after HD redo" test -n "$(alive)"
+      export_as "$P" "HD" --ascii
+    else
+      say "FAIL $P: HD redo button not available after download. screen: $(onscreen 14)"
+    fi
+  fi
 done
 
 # Batch: 3 photos at once
@@ -134,8 +159,9 @@ tap_text "Batch"; sleep 3
 say "INFO batch screen: $(onscreen 12)"
 tap_text "Photo taken" >/dev/null 2>&1   # picker may open straight away
 sleep 1
-for i in 1 2 3; do tap_text "Photo taken"; sleep 1; done
-tap_text "Add" || tap_text "Done" || true
+for i in 1 2 3; do tap_nth "Photo taken" $i; sleep 1; done
+say "INFO batch picker after 3 taps: $(onscreen 16)"
+tap_text "Add" || tap_text "Done" || tap_text "Select" || true
 sleep 4
 say "INFO batch setup screen: $(onscreen 20)"
 # where is the Start button?

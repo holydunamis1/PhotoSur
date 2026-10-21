@@ -147,6 +147,14 @@ class _CropRotateScreenState extends State<CropRotateScreen> {
                     image: _imageBytes!,
                     controller: _cropController,
                     aspectRatio: _aspectRatio,
+                    // Free mode starts with the frame on the whole photo, so
+                    // tapping Continue without touching it keeps everything.
+                    // (The package's own default is a smaller centred box.)
+                    initialRectBuilder: _aspectRatio == null
+                        ? InitialRectBuilder.withBuilder(
+                            (viewportRect, imageRect) => imageRect,
+                          )
+                        : null,
                     onCropped: _onCropped,
                     baseColor: Colors.black,
                     maskColor: Colors.black.withValues(alpha: 0.6),
