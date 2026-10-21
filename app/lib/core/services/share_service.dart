@@ -31,14 +31,21 @@ class ShareService {
   /// offer the share sheet as the fallback path via [shareImage] below,
   /// per the architecture rule that every third-party call degrades
   /// gracefully rather than surfacing a raw error.
-  Future<bool> saveToGallery(Uint8List imageBytes, {String? album}) async {
+  Future<bool> saveToGallery(Uint8List imageBytes,
+      {String? album, String? filePath}) async {
     try {
       final hasAccess = await Gal.hasAccess();
       if (!hasAccess) {
         final granted = await Gal.requestAccess();
         if (!granted) return false;
       }
-      await Gal.putImageBytes(imageBytes, album: album ?? 'PhotoSur');
+      if (filePath != null) {
+        // A file keeps its real extension (.webp), which the gallery needs;
+        // saving raw WebP bytes failed with an "unexpected" gallery error.
+        await Gal.putImage(filePath, album: album ?? 'PhotoSur');
+      } else {
+        await Gal.putImageBytes(imageBytes, album: album ?? 'PhotoSur');
+      }
       return true;
     } on GalException catch (e) {
       // Known, typed failure (permission denied, unsupported format, out

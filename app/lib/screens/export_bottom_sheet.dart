@@ -173,7 +173,9 @@ class _ExportBottomSheetState extends State<ExportBottomSheet> {
       await NotificationService.instance.cancelUnfinishedEditReminder();
 
       stage = 'save to gallery';
-      final saved = await ShareService.instance.saveToGallery(exportBytes);
+      final saved = await ShareService.instance
+          .saveToGallery(exportBytes,
+              filePath: _format == ExportFormat.webp ? filePath : null);
       stage = 'share';
       if (!saved && context.mounted) {
         await ShareService.instance.shareImage(exportBytes, filename: filename);
