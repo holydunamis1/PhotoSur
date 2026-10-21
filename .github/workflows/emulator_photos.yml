@@ -1,0 +1,78 @@
+name: Emulator real-photo test
+
+# Runs many scenarios (restart, rotate, kill, offline, low storage, monkey) on the release build and
+# reports PASS/FAIL lines as annotations.
+# MANUAL ONLY: this workflow builds APKs, and APK builds must never start
+# automatically. Run it from the Actions tab when needed.
+on:
+  workflow_dispatch:
+  push:
+    branches: [emu/photos]  # temporary: removed before finishing
+
+permissions:
+  contents: read
+
+jobs:
+  emulator:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Free up disk space
+        run: |
+          sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/share/boost
+          sudo apt-get clean
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.44.7'
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v4
+
+      - name: Install Android SDK Platform 36
+        run: sdkmanager "platforms;android-36"
+
+      - name: Build debug APK (x86_64 for the emulator)
+        working-directory: app
+        run: |
+          flutter pub get
+          dart run build_runner build --delete-conflicting-outputs
+          flutter build apk --release --target-platform android-x64 --obfuscate --split-debug-info=symbols
+
+      - name: Download real test photos (OpenCV sample images, test use only)
+        run: |
+          mkdir -p /tmp/photos
+          for n in apple messi5 fruits orange butterfly building lena; do
+            curl -fsSL -o /tmp/photos/$n.jpg https://raw.githubusercontent.com/opencv/opencv/4.x/samples/data/$n.jpg
+          done
+          ls -la /tmp/photos
+
+      - name: Enable KVM
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+
+      - name: Run app in emulator
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 34
+          arch: x86_64
+          target: google_apis
+          disable-animations: true
+          script: bash .github/scripts/emu_photos.sh
+
+      - name: Upload exported images and screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: real-photo-results
+          path: stress_out/
+          if-no-files-found: ignore

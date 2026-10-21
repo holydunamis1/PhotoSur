@@ -1,0 +1,134 @@
+#!/usr/bin/env bash
+# Real photos through the real flow on the release build:
+# pick -> crop -> automatic cut-out -> editor tools -> export (3 formats) ->
+# verify the saved file -> batch. Outputs are copied to stress_out/ so they
+# can be opened from the Actions artifact.
+PKG=com.zdmgold.photosur
+REL=app/build/app/outputs/flutter-apk/app-release.apk
+OUT=$PWD/stress_out; mkdir -p "$OUT"
+R=/tmp/photo_results.txt
+source .github/scripts/emu_lib.sh
+pip install -q pillow >/dev/null 2>&1
+
+shot(){ adb exec-out screencap -p > "$OUT/$1.png" 2>/dev/null; }
+onscreen(){ dump | grep -o '\(text\|content-desc\)="[^"]\+"' | head -${1:-14} | tr '\n' ' '; }
+fresh_photo(){ # push exactly one photo as the newest picture
+  adb shell 'rm -f /sdcard/Pictures/*.jpg /sdcard/Pictures/*.png /sdcard/DCIM/Camera/*' >/dev/null 2>&1
+  adb push "/tmp/photos/$1.jpg" "/sdcard/Pictures/ps_$1.jpg" >/dev/null 2>&1
+  adb shell touch "/sdcard/Pictures/ps_$1.jpg"
+  adb shell am broadcast -a android.intent.action.MEDIA_SCANNER_SCAN_FILE -d "file:///sdcard/Pictures/ps_$1.jpg" >/dev/null 2>&1
+  sleep 3; }
+go_home(){ for i in 1 2 3; do adb shell input keyevent KEYCODE_BACK; sleep 1; done
+  adb shell am force-stop com.google.android.providers.media.module >/dev/null 2>&1
+  adb shell am force-stop "$PKG"; sleep 1; launch; sleep 5; }
+# Export the current editor image in a given format; saves into the gallery
+export_as(){ # label format
+  adb shell touch /sdcard/marker; sleep 1
+  tap_text "Export"; sleep 2
+  [ -n "$2" ] && { tap_text "$2"; sleep 1; }
+  tap_text "Save to Gallery"; sleep 6
+  if has_text "Allow"; then tap_text "Allow"; sleep 4; fi
+  F=$(adb shell 'find /sdcard/Pictures /sdcard/DCIM -type f -newer /sdcard/marker 2>/dev/null' | tr -d '\r' | grep -v '/ps_' | head -1)
+  if [ -n "$F" ]; then
+    adb pull "$F" "$OUT/$1_$2.${F##*.}" >/dev/null 2>&1
+    say "PASS $1 export $2 saved: $(basename "$F")"
+    say "     $(python3 -I .github/scripts/analyze_cutout.py "$OUT/$1_$2.${F##*.}" /tmp/photos/$1.jpg)"
+  else
+    say "FAIL $1 export $2: nothing new in the gallery. screen: $(onscreen 10)"
+  fi
+  adb shell input keyevent KEYCODE_BACK; sleep 1; }
+
+adb wait-for-device
+adb uninstall "$PKG" >/dev/null 2>&1
+adb install -r "$REL" >/dev/null 2>&1
+adb logcat -c
+adb shell pm grant "$PKG" android.permission.POST_NOTIFICATIONS 2>/dev/null
+adb shell pm grant "$PKG" android.permission.READ_MEDIA_IMAGES 2>/dev/null
+launch; sleep 8
+for i in 1 2 3; do tap_text "Next"; sleep 1; done
+tap_text "Get Started"; sleep 3
+for i in 1 2; do tap_text "Allow"; sleep 1; done
+wait_text "Gallery" 10 || say "FAIL setup: Home not reached: $(onscreen)"
+
+for P in apple messi5 fruits orange butterfly building lena; do
+  say "---- $P"
+  fresh_photo $P
+  tap_text "Gallery"; sleep 4
+  tap_text "Photo taken" || adb shell input tap 200 600
+  sleep 5
+  if wait_text "Continue" 10; then say "PASS $P reached Crop & Rotate"; else say "FAIL $P no crop screen: $(onscreen)"; go_home; continue; fi
+  tap_text "Continue"
+  T0=$(date +%s)
+  if wait_text "Export" 40; then say "PASS $P editor opened after $(( $(date +%s)-T0 ))s"; else say "FAIL $P editor never opened: $(onscreen)"; go_home; continue; fi
+  # the automatic cut-out runs here; wait until the busy overlay is gone
+  sleep 12
+  has_text "doesn't support automatic" && say "FAIL $P app reports: device does not support automatic removal"
+  shot "${P}_editor"
+  say "INFO $P editor: $(onscreen 18)"
+  check "$P alive in editor" test -n "$(alive)"
+  if [ "$P" = apple ]; then
+    # editor tools: every tool opened, brush drag, undo, background, layout
+    for tool in "Brush" "Background" "Layout" "Templates" "Cut-out"; do
+      tap_text "$tool"; sleep 1
+      check "tool $tool opens and app alive" test -n "$(alive)"
+    done
+    tap_text "Brush"; sleep 1
+    adb shell input swipe 300 700 600 900 400; adb shell input swipe 600 900 300 1100 400
+    tap_text "Undo"; sleep 1; tap_text "Redo"; sleep 1
+    check "brush drag + undo/redo alive" test -n "$(alive)"
+    tap_text "Layout"; sleep 1
+    adb shell input swipe 400 800 500 900 300
+    adb shell input swipe 300 700 500 900 300 # pinch substitute: drag
+    check "layout drag alive" test -n "$(alive)"
+    tap_text "Cut-out"; sleep 1
+    for fmt in PNG JPG WEBP; do export_as "$P" "$fmt"; done
+    tap_text "Export"; sleep 2; tap_text "Custom"; sleep 1; shot "${P}_export_custom"
+    say "INFO custom resize sheet: $(onscreen 16)"
+    adb shell input keyevent KEYCODE_BACK; sleep 1
+    tap_text "Export"; sleep 2; tap_text "Marketplace"; sleep 1; shot "${P}_export_marketplace"
+    say "INFO marketplace sheet: $(onscreen 16)"
+    adb shell input keyevent KEYCODE_BACK; sleep 1
+  else
+    export_as "$P" PNG
+  fi
+  go_home
+done
+
+# Batch: 3 photos at once
+say "---- batch"
+adb shell 'rm -f /sdcard/Pictures/*.jpg'
+for P in apple orange fruits; do
+  adb push /tmp/photos/$P.jpg /sdcard/Pictures/ps_$P.jpg >/dev/null 2>&1; adb shell touch /sdcard/Pictures/ps_$P.jpg
+  adb shell am broadcast -a android.intent.action.MEDIA_SCANNER_SCAN_FILE -d file:///sdcard/Pictures/ps_$P.jpg >/dev/null 2>&1; sleep 1
+done
+sleep 3; adb shell touch /sdcard/marker; sleep 1
+tap_text "Batch"; sleep 3
+say "INFO batch screen: $(onscreen 12)"
+tap_text "Select" || tap_text "Add" || tap_text "Choose"; sleep 4
+for i in 1 2 3; do tap_text "Photo taken"; sleep 1; done
+say "INFO picker after taps: $(onscreen 12)"
+tap_text "Add" || tap_text "Done" || adb shell input keyevent KEYCODE_ENTER; sleep 4
+say "INFO after picking: $(onscreen 14)"
+tap_text "Start"; sleep 2
+for i in $(seq 1 30); do has_text "saved to your gallery" && break; sleep 4; done
+shot batch_result
+say "INFO batch end: $(onscreen 14)"
+N=$(adb shell 'find /sdcard/Pictures /sdcard/DCIM -type f -newer /sdcard/marker 2>/dev/null' | tr -d '\r' | grep -v '/ps_' | wc -l)
+[ "$N" -ge 3 ] && say "PASS batch saved $N files" || say "FAIL batch saved only $N files"
+i=0; for F in $(adb shell 'find /sdcard/Pictures /sdcard/DCIM -type f -newer /sdcard/marker 2>/dev/null' | tr -d '\r' | grep -v '/ps_'); do i=$((i+1)); adb pull "$F" "$OUT/batch_$i.${F##*.}" >/dev/null 2>&1; say "     batch_$i: $(python3 -I .github/scripts/analyze_cutout.py $OUT/batch_$i.${F##*.})"; done
+
+C=$(crashes); [ -z "$C" ] && say "PASS 99 no app crash/ANR in the whole run" || say "FAIL 99 $C"
+adb logcat -d -v threadtime | grep -E "E flutter|F flutter|APPERR|Process: $PKG|ANR in $PKG" | cut -c7-230 | head -n 25 > /tmp/errs.txt
+{ echo "=== PHOTO RESULTS ==="; cat $R; echo "=== flutter/app errors ==="; cat /tmp/errs.txt; } > /tmp/final.txt
+cp /tmp/final.txt "$OUT/results.txt"
+cat /tmp/final.txt
+python3 - <<'PY'
+t=open('/tmp/final.txt').read()
+esc=lambda s:s.replace('%','%25').replace('\r','%0D').replace('\n','%0A')
+ch=[];cur=''
+for l in t.split('\n'):
+    if len(cur)+len(l)+1>3400: ch.append(cur);cur=''
+    cur+=l+'\n'
+ch.append(cur)
+for i,c in enumerate(ch[:9],1): print(f"::notice title=PHOTOS {i}/{len(ch)}::{esc(c)}")
+PY
