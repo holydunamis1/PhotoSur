@@ -24,6 +24,16 @@ for m in re.finditer(r'<node [^>]*>',x):
         if c==k:
             x1,y1,x2,y2=map(int,b.groups()); subprocess.call(['adb','shell','input','tap',str((x1+x2)//2),str((y1+y2)//2)]); sys.exit(0)
 sys.exit(1)" "$1" "$2"; }
+tap_exact(){ dump | python3 -c "
+import sys,re,subprocess
+x=sys.stdin.read(); t=sys.argv[1].lower()
+for m in re.finditer(r'<node [^>]*>',x):
+    n=m.group(0)
+    d=re.search(r'content-desc=\"([^\"]*)\"',n); tx=re.search(r' text=\"([^\"]*)\"',n)
+    b=re.search(r'bounds=\"\[(\d+),(\d+)\]\[(\d+),(\d+)\]\"',n)
+    if b and any(v and v.group(1).strip().lower()==t for v in (d,tx)):
+        x1,y1,x2,y2=map(int,b.groups()); subprocess.call(['adb','shell','input','tap',str((x1+x2)//2),str((y1+y2)//2)]); sys.exit(0)
+sys.exit(1)" "$1"; }
 open_photo(){ # P -> leaves you in the editor with the automatic cut-out done
   fresh_photo "$1"; go_home
   tap_text "Gallery"; sleep 4
@@ -105,9 +115,14 @@ say "---- export formats and sizes (apple, each from a fresh editor)"
 for fmt in JPG WEBP; do open_photo apple && export_as apple "$fmt"; done
 if open_photo apple; then
   tap_text "Export"; sleep 2; tap_text "Custom"; sleep 1
-  say "INFO custom resize sheet: $(onscreen 18)"
+  say "INFO custom resize sheet: $(onscreen 24)"
+  tap_text "Width"; sleep 1; adb shell input keyevent KEYCODE_MOVE_END; for i in 1 2 3 4 5 6; do adb shell input keyevent KEYCODE_DEL; done; adb shell input text 800; sleep 1
+  tap_text "Height"; sleep 1; adb shell input keyevent KEYCODE_MOVE_END; for i in 1 2 3 4 5 6; do adb shell input keyevent KEYCODE_DEL; done; adb shell input text 600; sleep 1
+  adb shell input keyevent KEYCODE_BACK; sleep 1
+  say "INFO custom sizes typed: $(onscreen 30)"
+  adb shell touch /sdcard/marker; sleep 1
   tap_text "Save to Gallery"; sleep 6; has_text "Test Ad" && { tap_text "Close"; sleep 2; }
-  F=$(new_files | head -1); [ -n "$F" ] && { adb shell touch /sdcard/marker; say "PASS custom-size export saved $(basename "$F")"; } || say "FAIL custom-size export: nothing saved"
+  F=$(new_files | head -1); if [ -n "$F" ]; then adb exec-out "cat '$F'" > "$OUT/apple_custom.${F##*.}" 2>/dev/null; say "PASS custom-size export saved $(basename "$F")"; say "     $(python3 -W ignore .github/scripts/analyze_cutout.py "$OUT/apple_custom.${F##*.}" 2>&1 | tail -3 | head -1)"; else say "FAIL custom-size export: nothing saved. screen: $(onscreen 14)"; fi
 fi
 for MP in Amazon eBay; do
   if open_photo apple; then
@@ -129,7 +144,7 @@ for P in apple lena; do
     if has_text "Get HD cut-out"; then
       tap_text "Get HD cut-out"; sleep 2
       say "INFO HD dialog: $(onscreen 10)"
-      tap_text "Download"; HD0=$(date +%s)
+      tap_exact "Download"; HD0=$(date +%s)
       for i in $(seq 1 120); do has_text "Downloading" || break; sleep 4; done
       say "INFO HD download took ~$(( $(date +%s)-HD0 ))s; screen: $(onscreen 12)"
       has_text "didn" && say "FAIL HD download reported failure"
@@ -173,17 +188,17 @@ for m in re.finditer(r'<node [^>]*>',sys.stdin.read()):
 " | head -3 | while read -r l; do say "INFO $l"; done
 adb shell input swipe 500 1500 500 500 300; sleep 1
 tap_text "Start"; sleep 2
-say "INFO batch after Start: $(onscreen 14)"
-for i in $(seq 1 40); do has_text "saved to your gallery" && break; has_text "Test Ad" && { tap_text "Close"; sleep 2; }; sleep 4; done
+say "INFO batch after Start: $(onscreen 40)"
+for i in $(seq 1 60); do [ $((i%10)) = 0 ] && say "INFO batch t=$((i*4))s: $(onscreen 40)"; has_text "saved to your gallery" && break; has_text "Test Ad" && { tap_text "Close"; sleep 2; }; sleep 4; done
 shot batch_result
-say "INFO batch end: $(onscreen 14)"
+say "INFO batch end: $(onscreen 40)"
 N=$(new_files | wc -l)
 [ "$N" -ge 3 ] && say "PASS batch saved $N real files" || say "FAIL batch saved only $N files"
 i=0; new_files | while IFS= read -r F; do i=$((i+1)); EXT="${F##*.}"; adb exec-out "cat '$F'" > "$OUT/batch_$i.$EXT" 2>/dev/null
   say "     batch_$i ($(basename "$F")): $(python3 -W ignore .github/scripts/analyze_cutout.py "$OUT/batch_$i.$EXT" 2>&1 | tail -22)"; done
 
 C=$(crashes); [ -z "$C" ] && say "PASS 99 no app crash/ANR in the whole run" || say "FAIL 99 $C"
-adb logcat -d -v threadtime | grep -E "E flutter|F flutter|APPERR|Process: $PKG|ANR in $PKG" | cut -c7-230 | head -n 25 > /tmp/errs.txt
+adb logcat -d -v threadtime | grep -E "E flutter|F flutter|APPERR|Process: $PKG|ANR in $PKG|Gal save|Gal\.|GalException|export failed|Export failed|Segmentation|segmentation|HD " | cut -c7-260 | head -n 40 > /tmp/errs.txt
 { echo "=== PHOTO RESULTS ==="; cat $R; echo "=== flutter/app errors ==="; cat /tmp/errs.txt; } > /tmp/final.txt
 cp /tmp/final.txt "$OUT/results.txt"
 cat /tmp/final.txt
