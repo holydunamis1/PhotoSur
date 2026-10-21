@@ -117,9 +117,10 @@ if sec formats; then
 say "---- export formats and sizes (apple, each from a fresh editor)"
 for fmt in JPG WEBP; do open_photo apple && export_as apple "$fmt"; done
 fi
-if sec formats && open_photo apple; then
-  tap_text "Export"; sleep 2; tap_text "Custom"; sleep 1
+if sec custom && open_photo apple; then
+  tap_text "Export"; sleep 2; tap_exact "Custom"; sleep 2
   say "INFO custom resize sheet: $(onscreen 24)"
+  say "INFO after tapping Custom: $(dump | grep -o '<node [^>]*class="android.widget.EditText"[^>]*>' | sed 's/resource-id=.*package=//' | cut -c1-160 | head -4)"
   tap_text "Width"; sleep 1; adb shell input keyevent KEYCODE_MOVE_END; for i in 1 2 3 4 5 6; do adb shell input keyevent KEYCODE_DEL; done; adb shell input text 800; sleep 1
   tap_text "Height"; sleep 1; adb shell input keyevent KEYCODE_MOVE_END; for i in 1 2 3 4 5 6; do adb shell input keyevent KEYCODE_DEL; done; adb shell input text 600; sleep 1
   adb shell input keyevent KEYCODE_ESCAPE; sleep 1
@@ -144,7 +145,6 @@ done
 sec hd && say "---- HD model: real download, then redo in HD (apple, then the portrait)"
 for P in apple lena; do
   if sec hd && open_photo $P; then
-    tap_text "Cut-out"; sleep 1
     if has_text "Get HD cut-out"; then
       tap_text "Get HD cut-out"; sleep 2
       say "INFO HD dialog: $(onscreen 10)"
