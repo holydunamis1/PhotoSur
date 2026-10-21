@@ -67,7 +67,7 @@ jobs:
           arch: x86_64
           target: google_apis
           disable-animations: true
-          script: bash .github/scripts/emu_photos.sh
+          script: SECTIONS=formats,hd,batch bash .github/scripts/emu_photos.sh
 
       - name: Upload exported images and screenshots
         if: always()

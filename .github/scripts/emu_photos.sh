@@ -75,6 +75,8 @@ export_as(){ # label format
   has_text "Test Ad" && { tap_text "Close"; sleep 2; }
   wait_text "Cut-out" 5 || say "INFO not in editor after export: $(onscreen 8)"; }
 
+SECTIONS=${SECTIONS:-photos,formats,hd,batch}
+sec(){ case ",$SECTIONS," in *,$1,*) return 0;; *) return 1;; esac; }
 adb wait-for-device
 adb uninstall "$PKG" >/dev/null 2>&1
 adb install -r "$REL" >/dev/null 2>&1
@@ -87,7 +89,7 @@ tap_text "Get Started"; sleep 3
 for i in 1 2; do tap_text "Allow"; sleep 1; done
 wait_text "Gallery" 10 || say "FAIL setup: Home not reached: $(onscreen)"
 
-for P in apple messi5 fruits orange butterfly building lena; do
+sec photos && for P in apple messi5 fruits orange butterfly building lena; do
   say "---- $P"
   open_photo $P || continue
   say "INFO $P editor: $(onscreen 18)"
@@ -111,21 +113,23 @@ for P in apple messi5 fruits orange butterfly building lena; do
   export_as "$P" PNG --ascii
 done
 
+if sec formats; then
 say "---- export formats and sizes (apple, each from a fresh editor)"
 for fmt in JPG WEBP; do open_photo apple && export_as apple "$fmt"; done
-if open_photo apple; then
+fi
+if sec formats && open_photo apple; then
   tap_text "Export"; sleep 2; tap_text "Custom"; sleep 1
   say "INFO custom resize sheet: $(onscreen 24)"
   tap_text "Width"; sleep 1; adb shell input keyevent KEYCODE_MOVE_END; for i in 1 2 3 4 5 6; do adb shell input keyevent KEYCODE_DEL; done; adb shell input text 800; sleep 1
   tap_text "Height"; sleep 1; adb shell input keyevent KEYCODE_MOVE_END; for i in 1 2 3 4 5 6; do adb shell input keyevent KEYCODE_DEL; done; adb shell input text 600; sleep 1
-  adb shell input keyevent KEYCODE_BACK; sleep 1
+  adb shell input keyevent KEYCODE_ESCAPE; sleep 1
   say "INFO custom sizes typed: $(onscreen 30)"
   adb shell touch /sdcard/marker; sleep 1
   tap_text "Save to Gallery"; sleep 6; has_text "Test Ad" && { tap_text "Close"; sleep 2; }
   F=$(new_files | head -1); if [ -n "$F" ]; then adb exec-out "cat '$F'" > "$OUT/apple_custom.${F##*.}" 2>/dev/null; say "PASS custom-size export saved $(basename "$F")"; say "     $(python3 -W ignore .github/scripts/analyze_cutout.py "$OUT/apple_custom.${F##*.}" 2>&1 | tail -3 | head -1)"; else say "FAIL custom-size export: nothing saved. screen: $(onscreen 14)"; fi
 fi
 for MP in Amazon eBay; do
-  if open_photo apple; then
+  if sec formats && open_photo apple; then
     adb shell touch /sdcard/marker; sleep 1
     tap_text "Export"; sleep 2; tap_text "Marketplace"; sleep 1; tap_text "$MP"; sleep 1
     say "INFO $MP sheet: $(onscreen 18)"
@@ -137,14 +141,14 @@ for MP in Amazon eBay; do
   fi
 done
 
-say "---- HD model: real download, then redo in HD (apple, then the portrait)"
+sec hd && say "---- HD model: real download, then redo in HD (apple, then the portrait)"
 for P in apple lena; do
-  if open_photo $P; then
+  if sec hd && open_photo $P; then
     tap_text "Cut-out"; sleep 1
     if has_text "Get HD cut-out"; then
       tap_text "Get HD cut-out"; sleep 2
       say "INFO HD dialog: $(onscreen 10)"
-      tap_exact "Download"; HD0=$(date +%s)
+      tap_exact "Download"; say "INFO tap Download rc=$?"; HD0=$(date +%s); sleep 3; say "INFO 3s after Download: $(onscreen 12)"
       for i in $(seq 1 120); do has_text "Downloading" || break; sleep 4; done
       say "INFO HD download took ~$(( $(date +%s)-HD0 ))s; screen: $(onscreen 12)"
       has_text "didn" && say "FAIL HD download reported failure"
@@ -161,6 +165,7 @@ for P in apple lena; do
   fi
 done
 
+if sec batch; then
 # Batch: 3 photos at once
 say "---- batch"
 adb shell 'rm -f /sdcard/Pictures/*.jpg /sdcard/Pictures/*.png'
@@ -196,6 +201,8 @@ N=$(new_files | wc -l)
 [ "$N" -ge 3 ] && say "PASS batch saved $N real files" || say "FAIL batch saved only $N files"
 i=0; new_files | while IFS= read -r F; do i=$((i+1)); EXT="${F##*.}"; adb exec-out "cat '$F'" > "$OUT/batch_$i.$EXT" 2>/dev/null
   say "     batch_$i ($(basename "$F")): $(python3 -W ignore .github/scripts/analyze_cutout.py "$OUT/batch_$i.$EXT" 2>&1 | tail -22)"; done
+
+fi
 
 C=$(crashes); [ -z "$C" ] && say "PASS 99 no app crash/ANR in the whole run" || say "FAIL 99 $C"
 adb logcat -d -v threadtime | grep -E "E flutter|F flutter|APPERR|Process: $PKG|ANR in $PKG|Gal save|Gal\.|GalException|export failed|Export failed|Segmentation|segmentation|HD " | cut -c7-260 | head -n 40 > /tmp/errs.txt

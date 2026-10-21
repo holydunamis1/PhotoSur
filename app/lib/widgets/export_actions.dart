@@ -103,6 +103,9 @@ Future<void> saveExportToGallery(BuildContext context, ExportJob job) async {
     }
     final saved = await ShareService.instance.saveToGallery(
       await file.readAsBytes(),
+      filePath: job.filePath.toLowerCase().endsWith('.webp')
+          ? job.filePath
+          : null,
     );
     if (!context.mounted) return;
     ToastNotification.show(
