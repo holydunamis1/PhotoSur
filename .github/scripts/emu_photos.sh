@@ -11,6 +11,7 @@ source .github/scripts/emu_lib.sh
 python3 -m pip install -q --break-system-packages pillow > /tmp/pip.txt 2>&1 || python3 -m pip install -q pillow >> /tmp/pip.txt 2>&1
 python3 -c 'import PIL;print("pillow",PIL.__version__)' 2>&1 | tee -a $R
 
+new_files(){ adb shell "find /sdcard/Pictures /sdcard/DCIM -type f -newer /sdcard/marker \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.webp' \) 2>/dev/null" | tr -d '\r' | grep -v '/\.' | grep -v '/ps_'; }
 shot(){ adb exec-out screencap -p > "$OUT/$1.png" 2>/dev/null; }
 onscreen(){ dump | grep -o '\(text\|content-desc\)="[^"]\+"' | head -${1:-14} | tr '\n' ' '; }
 fresh_photo(){ # push exactly one photo as the newest picture
@@ -26,20 +27,22 @@ go_home(){ for i in 1 2 3; do adb shell input keyevent KEYCODE_BACK; sleep 1; do
 export_as(){ # label format
   adb shell touch /sdcard/marker; sleep 1
   tap_text "Export"; sleep 2
-  [ -n "$2" ] && { tap_text "$2"; sleep 1; }
+  case "$2" in PNG|JPG|WEBP) tap_text "$2"; sleep 1;; esac
   tap_text "Save to Gallery"; sleep 6
   if has_text "Allow"; then tap_text "Allow"; sleep 4; fi
   if has_text "Test Ad"; then say "INFO ad shown after export (closing it)"; tap_text "Close"; sleep 2; fi
-  F=$(adb shell 'find /sdcard/Pictures /sdcard/DCIM -type f -newer /sdcard/marker 2>/dev/null' | tr -d '\r' | grep -v '/ps_' | head -1)
+  F=$(new_files | head -1)
   if [ -n "$F" ]; then
-    adb pull "$F" "$OUT/$1_$2.${F##*.}" >/dev/null 2>&1
-    say "PASS $1 export $2 saved: $(basename "$F")"
-    say "     $(python3 -W ignore .github/scripts/analyze_cutout.py "$OUT/$1_$2.${F##*.}" /tmp/photos/$1.jpg 2>&1 | tail -2 | tr '\n' ' ')"
+    EXT="${F##*.}"; adb exec-out "cat '$F'" > "$OUT/$1_$2.$EXT" 2>/dev/null
+    say "PASS $1 export $2 saved: $(basename "$F") ($(stat -c%s "$OUT/$1_$2.$EXT") bytes)"
+    say "     $(python3 -W ignore .github/scripts/analyze_cutout.py "$OUT/$1_$2.$EXT" /tmp/photos/$1.jpg ${3:-} 2>&1 | tail -30)"
   else
     say "FAIL $1 export $2: nothing new in the gallery. screen: $(onscreen 10)"
   fi
+  # leave the sheet if it is still open; never press Back from the editor itself
+  has_text "Save to Gallery" && { adb shell input keyevent KEYCODE_BACK; sleep 1; }
   has_text "Test Ad" && { tap_text "Close"; sleep 2; }
-  adb shell input keyevent KEYCODE_BACK; sleep 1; }
+  wait_text "Cut-out" 5 || say "INFO not in editor after export: $(onscreen 8)"; }
 
 adb wait-for-device
 adb uninstall "$PKG" >/dev/null 2>&1
@@ -60,6 +63,10 @@ for P in apple messi5 fruits orange butterfly building lena; do
   tap_text "Photo taken" || adb shell input tap 200 600
   sleep 5
   if wait_text "Continue" 10; then say "PASS $P reached Crop & Rotate"; else say "FAIL $P no crop screen: $(onscreen)"; go_home; continue; fi
+  if [ "$P" = messi5 ] || [ "$P" = building ]; then
+    shot "${P}_crop_screen"; say "INFO $P crop screen (brightness picture; dark bands = outside the crop frame):"
+    say "$(python3 -W ignore .github/scripts/analyze_cutout.py --shot "$OUT/${P}_crop_screen.png")"
+  fi
   tap_text "Continue"
   T0=$(date +%s)
   if wait_text "Export" 40; then say "PASS $P editor opened after $(( $(date +%s)-T0 ))s"; else say "FAIL $P editor never opened: $(onscreen)"; go_home; continue; fi
@@ -84,41 +91,70 @@ for P in apple messi5 fruits orange butterfly building lena; do
     adb shell input swipe 300 700 500 900 300 # pinch substitute: drag
     check "layout drag alive" test -n "$(alive)"
     tap_text "Cut-out"; sleep 1
-    for fmt in PNG JPG WEBP; do export_as "$P" "$fmt"; done
+    export_as "$P" PNG --ascii
+    for fmt in JPG WEBP; do export_as "$P" "$fmt"; done
     tap_text "Export"; sleep 2; tap_text "Custom"; sleep 1; shot "${P}_export_custom"
     say "INFO custom resize sheet: $(onscreen 16)"
-    adb shell input keyevent KEYCODE_BACK; sleep 1
+    has_text "Width" && { adb shell input keyevent KEYCODE_BACK; sleep 1; }
     tap_text "Export"; sleep 2; tap_text "Marketplace"; sleep 1; shot "${P}_export_marketplace"
     say "INFO marketplace sheet: $(onscreen 16)"
-    adb shell input keyevent KEYCODE_BACK; sleep 1
+    has_text "Save to Gallery" && { adb shell input keyevent KEYCODE_BACK; sleep 1; }
+    # HD cut-out: real model download from GitHub, then redo in HD
+    say "---- HD model"
+    tap_text "Cut-out"; sleep 1
+    tap_text "Get HD cut-out"; sleep 2
+    say "INFO HD dialog: $(onscreen 10)"
+    tap_text "Download"; HD0=$(date +%s)
+    for i in $(seq 1 90); do has_text "Downloading" || break; sleep 4; done
+    say "INFO HD download took ~$(( $(date +%s)-HD0 ))s; screen: $(onscreen 12)"
+    has_text "didn" && say "FAIL HD download reported failure"
+    if has_text "Redo cut-out in HD" || has_text "HD"; then
+      tap_text "Redo cut-out in HD"; sleep 3
+      for i in $(seq 1 60); do sleep 4; has_text "Redo cut-out in HD" && break; done
+      say "INFO HD redo done; screen: $(onscreen 12)"
+      check "apple alive after HD redo" test -n "$(alive)"
+      export_as "$P" "HD" --ascii
+    fi
   else
-    export_as "$P" PNG
+    export_as "$P" PNG --ascii
   fi
   go_home
 done
 
 # Batch: 3 photos at once
 say "---- batch"
-adb shell 'rm -f /sdcard/Pictures/*.jpg'
+adb shell 'rm -f /sdcard/Pictures/*.jpg /sdcard/Pictures/*.png'
 for P in apple orange fruits; do
   adb push /tmp/photos/$P.jpg /sdcard/Pictures/ps_$P.jpg >/dev/null 2>&1; adb shell touch /sdcard/Pictures/ps_$P.jpg
   adb shell am broadcast -a android.intent.action.MEDIA_SCANNER_SCAN_FILE -d file:///sdcard/Pictures/ps_$P.jpg >/dev/null 2>&1; sleep 1
 done
-sleep 3; adb shell touch /sdcard/marker; sleep 1
+go_home; sleep 2
+adb shell touch /sdcard/marker; sleep 1
 tap_text "Batch"; sleep 3
 say "INFO batch screen: $(onscreen 12)"
-tap_text "Select" || tap_text "Add" || tap_text "Choose"; sleep 4
+tap_text "Photo taken" >/dev/null 2>&1   # picker may open straight away
+sleep 1
 for i in 1 2 3; do tap_text "Photo taken"; sleep 1; done
-say "INFO picker after taps: $(onscreen 12)"
-tap_text "Add" || tap_text "Done" || adb shell input keyevent KEYCODE_ENTER; sleep 4
-say "INFO after picking: $(onscreen 14)"
+tap_text "Add" || tap_text "Done" || true
+sleep 4
+say "INFO batch setup screen: $(onscreen 20)"
+# where is the Start button?
+dump | python3 -c "
+import sys,re
+for m in re.finditer(r'<node [^>]*>',sys.stdin.read()):
+    n=m.group(0)
+    if re.search(r'(text|content-desc)=\"(Start|Stop|Done)',n): print('NODE',re.sub(r'\\s+',' ',n)[:200])
+" | head -3 | while read -r l; do say "INFO $l"; done
+adb shell input swipe 500 1500 500 500 300; sleep 1
 tap_text "Start"; sleep 2
-for i in $(seq 1 30); do has_text "saved to your gallery" && break; has_text "Test Ad" && { tap_text "Close"; sleep 2; }; sleep 4; done
+say "INFO batch after Start: $(onscreen 14)"
+for i in $(seq 1 40); do has_text "saved to your gallery" && break; has_text "Test Ad" && { tap_text "Close"; sleep 2; }; sleep 4; done
 shot batch_result
 say "INFO batch end: $(onscreen 14)"
-N=$(adb shell 'find /sdcard/Pictures /sdcard/DCIM -type f -newer /sdcard/marker 2>/dev/null' | tr -d '\r' | grep -v '/ps_' | wc -l)
-[ "$N" -ge 3 ] && say "PASS batch saved $N files" || say "FAIL batch saved only $N files"
-i=0; for F in $(adb shell 'find /sdcard/Pictures /sdcard/DCIM -type f -newer /sdcard/marker 2>/dev/null' | tr -d '\r' | grep -v '/ps_'); do i=$((i+1)); adb pull "$F" "$OUT/batch_$i.${F##*.}" >/dev/null 2>&1; say "     batch_$i: $(python3 -W ignore .github/scripts/analyze_cutout.py $OUT/batch_$i.${F##*.} 2>&1 | tail -2 | tr '\n' ' ')"; done
+N=$(new_files | wc -l)
+[ "$N" -ge 3 ] && say "PASS batch saved $N real files" || say "FAIL batch saved only $N files"
+i=0; new_files | while IFS= read -r F; do i=$((i+1)); EXT="${F##*.}"; adb exec-out "cat '$F'" > "$OUT/batch_$i.$EXT" 2>/dev/null
+  say "     batch_$i ($(basename "$F")): $(python3 -W ignore .github/scripts/analyze_cutout.py "$OUT/batch_$i.$EXT" 2>&1 | tail -22)"; done
 
 C=$(crashes); [ -z "$C" ] && say "PASS 99 no app crash/ANR in the whole run" || say "FAIL 99 $C"
 adb logcat -d -v threadtime | grep -E "E flutter|F flutter|APPERR|Process: $PKG|ANR in $PKG" | cut -c7-230 | head -n 25 > /tmp/errs.txt

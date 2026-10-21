@@ -4,6 +4,15 @@ Judges a cut-out without eyes: how much is transparent, where the subject
 sits, whether it is one solid blob or scattered fragments, edge softness."""
 import sys
 from PIL import Image
+if len(sys.argv)>2 and sys.argv[1]=="--shot":
+    # brightness picture of a screenshot, 44x30 characters
+    im=Image.open(sys.argv[2]).convert("L").resize((44,30))
+    ramp=" .:-=+*#%@"
+    px=list(im.getdata())
+    for y in range(30): print("".join(ramp[min(9,px[y*44+x]*10//256)] for x in range(44)))
+    sys.exit(0)
+ascii_mask = "--ascii" in sys.argv
+sys.argv=[a for a in sys.argv if a!="--ascii"]
 p=sys.argv[1]
 try:
     im=Image.open(p); fmt=im.format; im.load()
@@ -40,6 +49,10 @@ if im.mode in("RGBA","LA") or "transparency" in im.info:
     out+= [f"transparent={tr:.0%}",f"opaque={op:.0%}",f"soft_edge={soft:.0%}",
            f"blobs={len(comps)}",f"largest_blob_share={big/tot:.0%}",
            f"bbox={'none' if not bb else f'{bb[0]*100//w}%-{bb[2]*100//w}% x {bb[1]*100//h}%-{bb[3]*100//h}%'}"]
+    if ascii_mask:
+        m=a.resize((40,20)); mp=list(m.getdata())
+        rows=["".join("#" if mp[y*40+x]>=200 else "+" if mp[y*40+x]>=100 else "." if mp[y*40+x]>=20 else " " for x in range(40)) for y in range(20)]
+        out.append("\nMASK (# kept, space removed)\n|"+"|\n|".join(rows)+"|")
     if tr<0.02: out.append("VERDICT=NOTHING REMOVED")
     elif op<0.03: out.append("VERDICT=EVERYTHING REMOVED")
     elif big/tot<0.7: out.append("VERDICT=FRAGMENTED")
