@@ -90,6 +90,9 @@ class _EditorScreenState extends State<EditorScreen>
     hd.removeListener(_onHdChanged);
     _autoHdStartedHere = false;
     final state = _provider.value;
+    debugPrint('AUTOHD changed: status=${hd.value.status} mounted=$mounted '
+        'processing=${state.isProcessing} failed=${state.autoSegmentationFailed} '
+        'history=${state.historyIndex}');
     if (hd.value.isInstalled &&
         mounted &&
         !state.isProcessing &&
