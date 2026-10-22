@@ -173,17 +173,20 @@ if sec autohd; then
   launch; sleep 8
   for i in 1 2 3; do tap_text "Next"; sleep 1; done; tap_text "Get Started"; sleep 3
   for i in 1 2; do tap_text "Allow"; sleep 1; done
-  fresh_photo lena
-  tap_text "Gallery"; sleep 4; tap_text "Photo taken" || adb shell input tap 200 600; sleep 5
-  wait_text "Continue" 10 && tap_text "Continue"
-  wait_text "Export" 40 && say "PASS first photo opened in the editor"
+  OK=0
+  for attempt in 1 2 3; do
+    fresh_photo lena
+    tap_text "Gallery"; sleep 4; tap_text "Photo taken" || adb shell input tap 200 600; sleep 5
+    wait_text "Continue" 10 && tap_text "Continue"
+    if wait_text "Export" 40; then OK=1; break; fi
+    say "INFO attempt $attempt: editor not reached ($(onscreen 6)); going home and retrying"; go_home
+  done
+  [ $OK = 1 ] && say "PASS first photo opened in the editor" || say "FAIL first photo never opened"
   has_text "Allow" && { tap_exact "Allow"; sleep 2; }
   T0=$(date +%s)
   for i in $(seq 1 60); do has_text "Redo cut-out in HD" && break; sleep 4; done
-  if has_text "Redo cut-out in HD"; then say "PASS HD arrived by itself after ~$(( $(date +%s)-T0 ))s (nothing tapped)"; else say "FAIL HD did not arrive on its own: $(onscreen 14)"; fi
-  sleep 25
-  say "INFO AUTOHD log lines: $(adb logcat -d | grep -a 'AUTOHD' | cut -c1-200 | tr '\n' '|')"
-  say "INFO any app prints: $(adb logcat -d -s flutter | tail -5 | cut -c1-160 | tr '\n' '|')"
+  if has_text "Redo cut-out in HD"; then say "PASS HD arrived by itself after ~$(( $(date +%s)-T0 ))s from editor open (nothing tapped)"; else say "FAIL HD did not arrive on its own: $(onscreen 14)"; fi
+  for t in 5 30 30 30; do sleep $t; say "INFO +${t}s AUTOHD: $(adb logcat -d | grep -a 'AUTOHD' | cut -c19-160 | tr '\n' '|')"; done
   export_as lena AUTOHD --ascii
   go_home
   # second photo: HD is already installed, must not download again
