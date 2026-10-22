@@ -230,7 +230,7 @@ i=0; new_files | while IFS= read -r F; do i=$((i+1)); EXT="${F##*.}"; adb exec-o
 fi
 
 C=$(crashes); [ -z "$C" ] && say "PASS 99 no app crash/ANR in the whole run" || say "FAIL 99 $C"
-adb logcat -d -v threadtime | grep -E "E flutter|F flutter|APPERR|Process: $PKG|ANR in $PKG|Gal save|Gal\.|GalException|export failed|Export failed|Segmentation|segmentation|HD " | cut -c7-260 | head -n 40 > /tmp/errs.txt
+adb logcat -d -v threadtime | grep -E "AUTOHD|E flutter|F flutter|APPERR|Process: $PKG|ANR in $PKG|Gal save|Gal\.|GalException|export failed|Export failed|Segmentation|segmentation|HD " | cut -c7-260 | head -n 40 > /tmp/errs.txt
 { echo "=== PHOTO RESULTS ==="; cat $R; echo "=== flutter/app errors ==="; cat /tmp/errs.txt; } > /tmp/final.txt
 cp /tmp/final.txt "$OUT/results.txt"
 cat /tmp/final.txt
