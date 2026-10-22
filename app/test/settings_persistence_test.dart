@@ -51,6 +51,18 @@ void main() {
     expect(second.value.themeMode, ThemeMode.dark);
   });
 
+  test('the one-time automatic HD download is remembered after a restart',
+      () async {
+    final first = SettingsProvider();
+    await first.load();
+    expect(first.value.hdAutoDownloadTried, isFalse);
+    await first.markHdAutoDownloadTried();
+
+    final second = SettingsProvider();
+    await second.load();
+    expect(second.value.hdAutoDownloadTried, isTrue);
+  });
+
   testWidgets('after a restart the app opens Home, not onboarding',
       (tester) async {
     final first = SettingsProvider();

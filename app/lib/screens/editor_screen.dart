@@ -13,6 +13,7 @@ import '../core/theme/app_tokens.dart';
 import '../core/utils/constants.dart';
 import '../generated/l10n/app_localizations.dart';
 import '../platform/image_prep_service.dart';
+import '../platform/model_download_service.dart';
 import '../platform/notification_service.dart';
 import '../widgets/ad_banner_slot.dart';
 import '../widgets/editor_canvas.dart';
@@ -20,6 +21,7 @@ import '../widgets/editor_tool_dock.dart';
 import '../widgets/editor_tool_panel.dart';
 import '../widgets/editor_top_bar.dart';
 import '../widgets/fallback_manual_editor.dart';
+import '../widgets/hd_model_ui.dart' show redoCutout;
 import '../widgets/loading_overlay.dart';
 import 'export_bottom_sheet.dart';
 
@@ -59,6 +61,42 @@ class _EditorScreenState extends State<EditorScreen>
       unawaited(NotificationService.instance.ensurePermissionOncePerSession());
     }
     _loadAndSegment();
+    _startAutoHd();
+  }
+
+  // ---- HD model: fetched automatically on the very first photo ----------
+  bool _autoHdStartedHere = false;
+
+  void _startAutoHd() {
+    final hd = ModelDownloadService.instance;
+    if (hd.value.isInstalled ||
+        hd.value.isDownloading ||
+        _settings.value.hdAutoDownloadTried) {
+      return;
+    }
+    _autoHdStartedHere = true;
+    hd.addListener(_onHdChanged);
+    // Recorded before the download starts: a failure or a later removal in
+    // Settings never triggers another silent download.
+    unawaited(_settings.markHdAutoDownloadTried());
+    unawaited(hd.download());
+  }
+
+  // When the download finishes while this photo is still untouched, redo the
+  // cut-out with HD. Any brush stroke means the user is editing: leave it.
+  void _onHdChanged() {
+    final hd = ModelDownloadService.instance;
+    if (hd.value.status == HdModelStatus.downloading) return;
+    hd.removeListener(_onHdChanged);
+    _autoHdStartedHere = false;
+    final state = _provider.value;
+    if (hd.value.isInstalled &&
+        mounted &&
+        !state.isProcessing &&
+        !state.autoSegmentationFailed &&
+        state.historyIndex < 0) {
+      unawaited(redoCutout(_provider));
+    }
   }
 
   @override
@@ -99,6 +137,9 @@ class _EditorScreenState extends State<EditorScreen>
   @override
   void dispose() {
     WidgetsBinding.instance.removeObserver(this);
+    if (_autoHdStartedHere) {
+      ModelDownloadService.instance.removeListener(_onHdChanged);
+    }
     // Leaving the editor without exporting.
     _scheduleReminderIfUnfinished();
     super.dispose();
