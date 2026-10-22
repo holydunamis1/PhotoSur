@@ -61,8 +61,6 @@ class _EditorScreenState extends State<EditorScreen>
       unawaited(NotificationService.instance.ensurePermissionOncePerSession());
     }
     _loadAndSegment();
-    // ignore: avoid_print
-    print('AUTOHD editor created ${identityHashCode(this)}');
     _startAutoHd();
   }
 
@@ -90,8 +88,6 @@ class _EditorScreenState extends State<EditorScreen>
     hd.removeListener(_onHdChanged);
     if (!hd.autoRedoPending) return;
     hd.autoRedoPending = false;
-    // ignore: avoid_print
-    print('AUTOHD download ended: ${hd.value.status}');
     if (hd.value.isInstalled) _redoWhenIdle();
   }
 
@@ -100,9 +96,6 @@ class _EditorScreenState extends State<EditorScreen>
   void _redoWhenIdle() {
     if (!mounted) return;
     final state = _provider.value;
-    // ignore: avoid_print
-    print('AUTOHD redo check: processing=${state.isProcessing} '
-        'failed=${state.autoSegmentationFailed} history=${state.historyIndex}');
     if (state.isProcessing) {
       void once() {
         if (_provider.value.isProcessing) return;
@@ -156,8 +149,6 @@ class _EditorScreenState extends State<EditorScreen>
   void dispose() {
     WidgetsBinding.instance.removeObserver(this);
     ModelDownloadService.instance.removeListener(_onHdChanged);
-    // ignore: avoid_print
-    print('AUTOHD editor disposed ${identityHashCode(this)}');
     // Leaving the editor without exporting.
     _scheduleReminderIfUnfinished();
     super.dispose();
