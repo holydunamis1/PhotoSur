@@ -50,7 +50,7 @@ void main() {
     final before = _created;
     settings.value = 1; // e.g. markHdAutoDownloadTried
     await tester.pumpAndSettle();
-    // ignore: avoid_print
-    print('ROUTERPROBE created before=$before after-settings-change=$_created');
+    expect(_created, before,
+        reason: 'ROUTERPROBE created before=$before after=$_created');
   });
 }
