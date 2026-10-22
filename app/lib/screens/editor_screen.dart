@@ -61,8 +61,6 @@ class _EditorScreenState extends State<EditorScreen>
       unawaited(NotificationService.instance.ensurePermissionOncePerSession());
     }
     _loadAndSegment();
-    // ignore: avoid_print
-    print('EDITORBUILD created ${identityHashCode(this)}');
     _startAutoHd();
   }
 
