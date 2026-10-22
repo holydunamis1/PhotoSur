@@ -35,6 +35,10 @@ class ModelDownloadService extends ValueNotifier<HdModelState> {
 
   static final ModelDownloadService instance = ModelDownloadService._();
 
+  /// Set when the automatic first-photo download starts; the editor that is
+  /// on screen when it finishes redoes its untouched cut-out in HD.
+  bool autoRedoPending = false;
+
   bool _busy = false;
   bool _cancel = false;
 
