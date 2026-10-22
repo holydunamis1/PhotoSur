@@ -50,7 +50,15 @@ body {
   backdrop-filter: saturate(180%) blur(14px);
   border-bottom: 1px solid var(--border-subtle);
 }
-.site-header .container { display: flex; align-items: center; gap: 12px; }
+.site-header .container { display: flex; align-items: center; gap: 12px 20px; flex-wrap: wrap; }
+.brand-link { display: inline-flex; align-items: center; gap: 12px; color: inherit; text-decoration: none; }
+.site-nav { display: flex; gap: 6px 18px; flex-wrap: wrap; margin-left: auto; font-size: 0.95rem; }
+.site-nav a { color: var(--text-secondary); text-decoration: none; padding: 6px 2px; }
+.site-nav a:hover { color: var(--text-primary); }
+.site-nav a:focus-visible, .brand-link:focus-visible { outline: 3px solid var(--border-focus); outline-offset: 3px; border-radius: 6px; }
+html { scroll-behavior: smooth; }
+#features, #faq { scroll-margin-top: 80px; }
+@media (max-width: 520px) { .site-nav { margin-left: 0; width: 100%; justify-content: space-between; } }
 .brand { font-weight: 700; font-size: 1.2rem; }
 
 .hero { padding: 72px 0; text-align: center; background: radial-gradient(ellipse at top, rgba(16,185,129,0.14), transparent 65%); }
