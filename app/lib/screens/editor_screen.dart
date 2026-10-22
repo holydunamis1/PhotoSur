@@ -61,25 +61,25 @@ class _EditorScreenState extends State<EditorScreen>
       unawaited(NotificationService.instance.ensurePermissionOncePerSession());
     }
     _loadAndSegment();
+    // ignore: avoid_print
+    print('AUTOHD editor created ${identityHashCode(this)}');
     _startAutoHd();
   }
 
   // ---- HD model: fetched automatically on the very first photo ----------
-  bool _autoHdStartedHere = false;
-
   void _startAutoHd() {
     final hd = ModelDownloadService.instance;
-    if (hd.value.isInstalled ||
-        hd.value.isDownloading ||
-        _settings.value.hdAutoDownloadTried) {
-      return;
+    if (hd.value.isInstalled) return;
+    if (!hd.value.isDownloading && !_settings.value.hdAutoDownloadTried) {
+      hd.autoRedoPending = true;
+      // Recorded before the download starts: a failure or a later removal in
+      // Settings never triggers another silent download.
+      unawaited(_settings.markHdAutoDownloadTried());
+      unawaited(hd.download());
     }
-    _autoHdStartedHere = true;
-    hd.addListener(_onHdChanged);
-    // Recorded before the download starts: a failure or a later removal in
-    // Settings never triggers another silent download.
-    unawaited(_settings.markHdAutoDownloadTried());
-    unawaited(hd.download());
+    // Whichever editor is on screen when the download ends does the redo, so
+    // this listener belongs to every editor instance, not just the first.
+    if (hd.autoRedoPending) hd.addListener(_onHdChanged);
   }
 
   // When the download finishes while this photo is still untouched, redo the
@@ -88,7 +88,8 @@ class _EditorScreenState extends State<EditorScreen>
     final hd = ModelDownloadService.instance;
     if (hd.value.status == HdModelStatus.downloading) return;
     hd.removeListener(_onHdChanged);
-    _autoHdStartedHere = false;
+    if (!hd.autoRedoPending) return;
+    hd.autoRedoPending = false;
     // ignore: avoid_print
     print('AUTOHD download ended: ${hd.value.status}');
     if (hd.value.isInstalled) _redoWhenIdle();
@@ -154,9 +155,9 @@ class _EditorScreenState extends State<EditorScreen>
   @override
   void dispose() {
     WidgetsBinding.instance.removeObserver(this);
-    if (_autoHdStartedHere) {
-      ModelDownloadService.instance.removeListener(_onHdChanged);
-    }
+    ModelDownloadService.instance.removeListener(_onHdChanged);
+    // ignore: avoid_print
+    print('AUTOHD editor disposed ${identityHashCode(this)}');
     // Leaving the editor without exporting.
     _scheduleReminderIfUnfinished();
     super.dispose();
