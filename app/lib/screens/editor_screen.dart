@@ -61,6 +61,8 @@ class _EditorScreenState extends State<EditorScreen>
       unawaited(NotificationService.instance.ensurePermissionOncePerSession());
     }
     _loadAndSegment();
+    // ignore: avoid_print
+    print('EDITORBUILD created ${identityHashCode(this)}');
     _startAutoHd();
   }
 
@@ -70,10 +72,15 @@ class _EditorScreenState extends State<EditorScreen>
     if (hd.value.isInstalled) return;
     if (!hd.value.isDownloading && !_settings.value.hdAutoDownloadTried) {
       hd.autoRedoPending = true;
-      // Recorded before the download starts: a failure or a later removal in
-      // Settings never triggers another silent download.
-      unawaited(_settings.markHdAutoDownloadTried());
-      unawaited(hd.download());
+      // Deferred until after the first frame: changing settings straight from
+      // initState makes the router rebuild mid-build, which built the editor
+      // twice and cut every photo out twice. The flag is recorded before the
+      // download starts, so a failure or a later removal in Settings never
+      // triggers another silent download.
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        unawaited(_settings.markHdAutoDownloadTried());
+        unawaited(hd.download());
+      });
     }
     // Whichever editor is on screen when the download ends does the redo, so
     // this listener belongs to every editor instance, not just the first.
