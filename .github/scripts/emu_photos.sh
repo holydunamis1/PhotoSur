@@ -186,7 +186,7 @@ if sec autohd; then
   T0=$(date +%s)
   for i in $(seq 1 60); do has_text "Redo cut-out in HD" && break; sleep 4; done
   if has_text "Redo cut-out in HD"; then say "PASS HD arrived by itself after ~$(( $(date +%s)-T0 ))s from editor open (nothing tapped)"; else say "FAIL HD did not arrive on its own: $(onscreen 14)"; fi
-  for t in 5 30 30 30; do sleep $t; say "INFO +${t}s AUTOHD: $(adb logcat -d | grep -a 'AUTOHD' | cut -c19-160 | tr '\n' '|')"; done
+  for t in 5 30 30 30; do sleep $t; say "INFO +${t}s AUTOHD: $(adb logcat -d | grep -a 'AUTOHD\|EDITORBUILD' | cut -c19-160 | tr '\n' '|')"; done
   export_as lena AUTOHD --ascii
   go_home
   # second photo: HD is already installed, must not download again
