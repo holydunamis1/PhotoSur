@@ -6,8 +6,6 @@ name: Emulator real-photo test
 # automatically. Run it from the Actions tab when needed.
 on:
   workflow_dispatch:
-  push:
-    branches: [emu/photos]  # temporary
 
 permissions:
   contents: read
@@ -67,7 +65,7 @@ jobs:
           arch: x86_64
           target: google_apis
           disable-animations: true
-          script: SECTIONS=autohd bash .github/scripts/emu_photos.sh
+          script: bash .github/scripts/emu_photos.sh
 
       - name: Upload exported images and screenshots
         if: always()
