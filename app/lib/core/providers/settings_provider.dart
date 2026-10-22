@@ -55,6 +55,11 @@ class SettingsProvider extends ValueNotifier<UserSettings> {
     await _persist();
   }
 
+  Future<void> markHdAutoDownloadTried() async {
+    value = value.copyWith(hdAutoDownloadTried: true);
+    await _persist();
+  }
+
   Future<void> markAttPromptSeen() async {
     value = value.copyWith(hasSeenAttPrompt: true);
     await _persist();
