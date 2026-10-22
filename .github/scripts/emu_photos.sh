@@ -169,6 +169,7 @@ if sec autohd; then
   say "---- automatic HD on the first photo (fresh install, nothing tapped)"
   adb uninstall "$PKG" >/dev/null 2>&1; adb install -r "$REL" >/dev/null 2>&1
   adb shell pm grant "$PKG" android.permission.READ_MEDIA_IMAGES 2>/dev/null
+  adb shell pm grant "$PKG" android.permission.POST_NOTIFICATIONS 2>/dev/null
   launch; sleep 8
   for i in 1 2 3; do tap_text "Next"; sleep 1; done; tap_text "Get Started"; sleep 3
   for i in 1 2; do tap_text "Allow"; sleep 1; done
@@ -176,6 +177,7 @@ if sec autohd; then
   tap_text "Gallery"; sleep 4; tap_text "Photo taken" || adb shell input tap 200 600; sleep 5
   wait_text "Continue" 10 && tap_text "Continue"
   wait_text "Export" 40 && say "PASS first photo opened in the editor"
+  has_text "Allow" && { tap_exact "Allow"; sleep 2; }
   T0=$(date +%s)
   for i in $(seq 1 60); do has_text "Redo cut-out in HD" && break; sleep 4; done
   if has_text "Redo cut-out in HD"; then say "PASS HD arrived by itself after ~$(( $(date +%s)-T0 ))s (nothing tapped)"; else say "FAIL HD did not arrive on its own: $(onscreen 14)"; fi
