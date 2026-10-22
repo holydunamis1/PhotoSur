@@ -59,7 +59,7 @@ void main() {
     _deferWrite = false;
   });
 
-  testWidgets('a settings write from initState builds the screen once (deferred)',
+  testWidgets('a settings write deferred from initState builds the screen once',
       (tester) async {
     final settings = ValueNotifier<int>(0);
     _writeFromInit = settings;
@@ -68,23 +68,13 @@ void main() {
     expect(_created, 1, reason: 'DEFERRED created=$_created');
   });
 
-  testWidgets('EXPLORE: a settings write straight from initState',
-      (tester) async {
-    final settings = ValueNotifier<int>(0);
-    _writeFromInit = settings;
-    _deferWrite = false;
-    await _pump(tester, settings);
-    expect(_created, 1, reason: 'SYNC-WRITE created=$_created');
-  });
-
-  testWidgets('EXPLORE: a settings change while a pushed screen is open',
+  testWidgets('a settings change while a pushed screen is open keeps it',
       (tester) async {
     final settings = ValueNotifier<int>(0);
     await _pump(tester, settings);
     final before = _created;
     settings.value = 1; // e.g. markHdAutoDownloadTried
     await tester.pumpAndSettle();
-    expect(_created, before,
-        reason: 'ROUTERPROBE created before=$before after=$_created');
+    expect(_created, before);
   });
 }
