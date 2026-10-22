@@ -89,17 +89,31 @@ class _EditorScreenState extends State<EditorScreen>
     if (hd.value.status == HdModelStatus.downloading) return;
     hd.removeListener(_onHdChanged);
     _autoHdStartedHere = false;
+    // ignore: avoid_print
+    print('AUTOHD download ended: ${hd.value.status}');
+    if (hd.value.isInstalled) _redoWhenIdle();
+  }
+
+  // The first (standard) cut-out may still be computing when HD arrives:
+  // wait for it to finish, then redo once if the user has not edited.
+  void _redoWhenIdle() {
+    if (!mounted) return;
     final state = _provider.value;
-    debugPrint('AUTOHD changed: status=${hd.value.status} mounted=$mounted '
-        'processing=${state.isProcessing} failed=${state.autoSegmentationFailed} '
-        'history=${state.historyIndex}');
-    if (hd.value.isInstalled &&
-        mounted &&
-        !state.isProcessing &&
-        !state.autoSegmentationFailed &&
-        state.historyIndex < 0) {
-      unawaited(redoCutout(_provider));
+    // ignore: avoid_print
+    print('AUTOHD redo check: processing=${state.isProcessing} '
+        'failed=${state.autoSegmentationFailed} history=${state.historyIndex}');
+    if (state.isProcessing) {
+      void once() {
+        if (_provider.value.isProcessing) return;
+        _provider.removeListener(once);
+        _redoWhenIdle();
+      }
+
+      _provider.addListener(once);
+      return;
     }
+    if (state.autoSegmentationFailed || state.historyIndex >= 0) return;
+    unawaited(redoCutout(_provider));
   }
 
   @override
