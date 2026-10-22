@@ -182,6 +182,8 @@ if sec autohd; then
   for i in $(seq 1 60); do has_text "Redo cut-out in HD" && break; sleep 4; done
   if has_text "Redo cut-out in HD"; then say "PASS HD arrived by itself after ~$(( $(date +%s)-T0 ))s (nothing tapped)"; else say "FAIL HD did not arrive on its own: $(onscreen 14)"; fi
   sleep 25
+  say "INFO AUTOHD log lines: $(adb logcat -d | grep -a 'AUTOHD' | cut -c1-200 | tr '\n' '|')"
+  say "INFO any app prints: $(adb logcat -d -s flutter | tail -5 | cut -c1-160 | tr '\n' '|')"
   export_as lena AUTOHD --ascii
   go_home
   # second photo: HD is already installed, must not download again
