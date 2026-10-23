@@ -16,7 +16,7 @@ Widget _host(SettingsProvider settings, {bool reduceMotion = false}) {
         child: SizedBox(
           width: 400,
           height: 80,
-          child: HomeBackdropStrip(child: Center(child: Text('content'))),
+          child: Stack(children: [Positioned.fill(child: HomeBackdropStrip())]),
         ),
       ),
     ),
@@ -47,7 +47,6 @@ void main() {
     await tester.pump();
     expect(find.byKey(const ValueKey('home-strip-image-0')), findsNothing);
     expect(find.byType(Image), findsNothing);
-    expect(find.text('content'), findsOneWidget); // content is never lost
   });
 
   testWidgets('idle between fades: no frames scheduled', (tester) async {
@@ -77,51 +76,6 @@ void main() {
     await tester.pump(kHomeStripCycle * 2);
     expect(find.byKey(const ValueKey('home-strip-image-0')), findsOneWidget);
     expect(find.byKey(const ValueKey('home-strip-image-1')), findsNothing);
-  });
-
-  testWidgets('the section fills the space below short content',
-      (tester) async {
-    tester.view.physicalSize = const Size(400, 800);
-    tester.view.devicePixelRatio = 1;
-    addTearDown(tester.view.reset);
-    final settings = SettingsProvider();
-    await tester.pumpWidget(
-      Provider<SettingsProvider>.value(
-        value: settings,
-        child: MediaQuery(
-          data: const MediaQueryData(size: Size(400, 800)),
-          child: Directionality(
-            textDirection: TextDirection.ltr,
-            child: CustomScrollView(
-              slivers: [
-                const SliverToBoxAdapter(child: SizedBox(height: 100)),
-                SliverFillRemaining(
-                  hasScrollBody: false,
-                  child: HomeBackdropStrip(
-                    child: Container(
-                      key: const ValueKey('section-content'),
-                      child: const Center(child: Text('content')),
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ),
-      ),
-    );
-    // 800 tall viewport, 100 used above: the content area is 700 tall, and
-    // the 4:3 picture (300 wide x 400... 400 wide = 300 tall) sits at its top.
-    final content =
-        tester.getSize(find.byKey(const ValueKey('section-content')));
-    final picture =
-        tester.getRect(find.byKey(const ValueKey('home-strip-image-0')));
-    final info = 'content=$content picture=$picture';
-    expect(content.height, 700, reason: info);
-    expect(picture.top, 100, reason: info);
-    expect(picture.width, 400, reason: info);
-    expect(picture.height, 300, reason: info);
-    await tester.pumpWidget(const SizedBox());
   });
 
   test('the switch survives a restart', () async {

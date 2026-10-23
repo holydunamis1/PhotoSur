@@ -102,39 +102,6 @@ class _HomeScreenState extends State<HomeScreen> {
     }
   }
 
-  Widget _recentSection() {
-    if (_loading) {
-      return const Padding(
-        padding: EdgeInsets.all(32),
-        child: Center(child: CircularProgressIndicator()),
-      );
-    }
-    if (_recentExports.isEmpty) return const EmptyState();
-    return GridView.builder(
-      shrinkWrap: true,
-      physics: const NeverScrollableScrollPhysics(),
-      padding: EdgeInsets.zero,
-      itemCount: _recentExports.length,
-      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 3,
-        mainAxisSpacing: 8,
-        crossAxisSpacing: 8,
-        childAspectRatio: 1,
-      ),
-      itemBuilder: (context, i) {
-        final job = _recentExports[i];
-        return RecentExportTile(
-          job: job,
-          onTap: () => context.push(
-            '/export-viewer',
-            extra: ExportViewerArgs(jobs: _recentExports, index: i),
-          ),
-          onMore: () => showExportActions(context, job),
-        );
-      },
-    );
-  }
-
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
@@ -142,6 +109,8 @@ class _HomeScreenState extends State<HomeScreen> {
     return AppScaffold(
       appBar: AppBar(
         centerTitle: false,
+        toolbarHeight: 80,
+        flexibleSpace: const HomeBackdropStrip(),
         title: const BrandWordmark(),
         actions: [
           IconButton(
@@ -171,72 +140,85 @@ class _HomeScreenState extends State<HomeScreen> {
           Expanded(
             child: RefreshIndicator(
         onRefresh: _loadRecent,
-        child: CustomScrollView(
+        child: SingleChildScrollView(
           physics: const AlwaysScrollableScrollPhysics(),
-          slivers: [
-            SliverPadding(
-              padding: const EdgeInsets.fromLTRB(16, 16, 16, 0),
-              sliver: SliverToBoxAdapter(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    Row(
-                      children: [
-                        Expanded(
-                          child: _ActionCard(
-                            icon: Icons.photo_camera_rounded,
-                            label: l10n.homeCameraButton,
-                            onTap: () => context.push('/camera'),
-                          ),
-                        ),
-                        const SizedBox(width: 12),
-                        Expanded(
-                          child: _ActionCard(
-                            icon: Icons.photo_library_rounded,
-                            label: l10n.homeGalleryButton,
-                            onTap: () => _pickFromGallery(context),
-                          ),
-                        ),
-                      ],
+          padding: const EdgeInsets.all(16),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Row(
+                children: [
+                  Expanded(
+                    child: _ActionCard(
+                      icon: Icons.photo_camera_rounded,
+                      label: l10n.homeCameraButton,
+                      onTap: () => context.push('/camera'),
                     ),
-                    const SizedBox(height: 12),
-                    _BatchTile(
-                      label: l10n.homeBatchButton,
-                      onTap: () => _pickBatch(context),
+                  ),
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: _ActionCard(
+                      icon: Icons.photo_library_rounded,
+                      label: l10n.homeGalleryButton,
+                      onTap: () => _pickFromGallery(context),
                     ),
-                    const SizedBox(height: 24),
-                    Row(
-                      children: [
-                        Expanded(
-                          child: Text(
-                            l10n.homeRecentExports,
-                            style: Theme.of(context).textTheme.titleMedium,
-                          ),
-                        ),
-                        if (_recentExports.isNotEmpty)
-                          TextButton(
-                            onPressed: () => context.push('/exports'),
-                            child: Text(l10n.homeSeeAll),
-                          ),
-                      ],
-                    ),
-                    const SizedBox(height: 12),
-                  ],
-                ),
+                  ),
+                ],
               ),
-            ),
-            // The Recent Exports section: fills the space down to the ad
-            // banner when short, grows with the grid when tall.
-            SliverFillRemaining(
-              hasScrollBody: false,
-              child: HomeBackdropStrip(
-                child: Padding(
-                  padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
-                  child: _recentSection(),
-                ),
+              const SizedBox(height: 12),
+              _BatchTile(
+                label: l10n.homeBatchButton,
+                onTap: () => _pickBatch(context),
               ),
-            ),
-          ],
+              const SizedBox(height: 24),
+              Row(
+                children: [
+                  Expanded(
+                    child: Text(
+                      l10n.homeRecentExports,
+                      style: Theme.of(context).textTheme.titleMedium,
+                    ),
+                  ),
+                  if (_recentExports.isNotEmpty)
+                    TextButton(
+                      onPressed: () => context.push('/exports'),
+                      child: Text(l10n.homeSeeAll),
+                    ),
+                ],
+              ),
+              const SizedBox(height: 12),
+              if (_loading)
+                const Padding(
+                  padding: EdgeInsets.all(32),
+                  child: Center(child: CircularProgressIndicator()),
+                )
+              else if (_recentExports.isEmpty)
+                const EmptyState()
+              else
+                GridView.builder(
+                  shrinkWrap: true,
+                  physics: const NeverScrollableScrollPhysics(),
+                  itemCount: _recentExports.length,
+                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 3,
+                    mainAxisSpacing: 8,
+                    crossAxisSpacing: 8,
+                    childAspectRatio: 1,
+                  ),
+                  itemBuilder: (context, i) {
+                    final job = _recentExports[i];
+                    return RecentExportTile(
+                      job: job,
+                      onTap: () => context.push(
+                        '/export-viewer',
+                        extra: ExportViewerArgs(jobs: _recentExports, index: i),
+                      ),
+                      onMore: () => showExportActions(context, job),
+                    );
+                  },
+                ),
+            ],
+          ),
         ),
             ),
           ),
