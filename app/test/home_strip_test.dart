@@ -109,12 +109,15 @@ void main() {
     );
     // 800 tall viewport, 100 used above: the content area is 700 tall, and
     // the 4:3 picture (300 wide x 400... 400 wide = 300 tall) sits at its top.
-    expect(tester.getSize(find.byKey(const ValueKey('section-content'))).height,
-        700);
-    final picture = tester.getRect(find.byKey(const ValueKey('home-strip-image-0')));
-    expect(picture.top, 100);
-    expect(picture.width, 400);
-    expect(picture.height, 300);
+    final content =
+        tester.getSize(find.byKey(const ValueKey('section-content')));
+    final picture =
+        tester.getRect(find.byKey(const ValueKey('home-strip-image-0')));
+    final info = 'content=$content picture=$picture';
+    expect(content.height, 700, reason: info);
+    expect(picture.top, 100, reason: info);
+    expect(picture.width, 400, reason: info);
+    expect(picture.height, 300, reason: info);
     await tester.pumpWidget(const SizedBox());
   });
 
