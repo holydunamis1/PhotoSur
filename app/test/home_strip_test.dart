@@ -16,11 +16,19 @@ Widget _host(SettingsProvider settings, {bool reduceMotion = false}) {
         child: SizedBox(
           width: 400,
           height: 80,
-          child: Stack(children: [Positioned.fill(child: HomeBackdropStrip())]),
+          child: HomeBackdropStrip(child: Center(child: Text('content'))),
         ),
       ),
     ),
   );
+}
+
+Future<void> _oneCycle(WidgetTester tester) async {
+  await tester.pump(kHomeStripCycle - kHomeStripFade); // hold ends
+  await tester.pump(); // fade starts
+  for (var i = 0; i < 14; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
 }
 
 void main() {
@@ -39,15 +47,25 @@ void main() {
     await tester.pump();
     expect(find.byKey(const ValueKey('home-strip-image-0')), findsNothing);
     expect(find.byType(Image), findsNothing);
+    expect(find.text('content'), findsOneWidget); // content is never lost
+  });
+
+  testWidgets('idle between fades: no frames scheduled', (tester) async {
+    final settings = SettingsProvider();
+    await tester.pumpWidget(_host(settings));
+    await tester.pump(const Duration(seconds: 2));
+    expect(tester.binding.hasScheduledFrame, isFalse);
+    await tester.pumpWidget(const SizedBox());
   });
 
   testWidgets('moves to the next picture after one cycle', (tester) async {
     final settings = SettingsProvider();
     await tester.pumpWidget(_host(settings));
-    await tester.pump(kHomeStripCycle + const Duration(milliseconds: 100));
+    await _oneCycle(tester);
     expect(find.byKey(const ValueKey('home-strip-image-1')), findsOneWidget);
+    expect(find.byKey(const ValueKey('home-strip-image-0')), findsNothing);
 
-    // Remove the widget so the controller is disposed (no pending ticker).
+    // Remove the widget so the timer and controller are disposed.
     await tester.pumpWidget(const SizedBox());
   });
 
@@ -56,8 +74,54 @@ void main() {
     final settings = SettingsProvider();
     await tester.pumpWidget(_host(settings, reduceMotion: true));
     await tester.pump(kHomeStripCycle * 2);
+    await tester.pump(kHomeStripCycle * 2);
     expect(find.byKey(const ValueKey('home-strip-image-0')), findsOneWidget);
     expect(find.byKey(const ValueKey('home-strip-image-1')), findsNothing);
+  });
+
+  testWidgets('the section fills the space below short content',
+      (tester) async {
+    tester.view.physicalSize = const Size(400, 800);
+    tester.view.devicePixelRatio = 1;
+    addTearDown(tester.view.reset);
+    final settings = SettingsProvider();
+    await tester.pumpWidget(
+      Provider<SettingsProvider>.value(
+        value: settings,
+        child: MediaQuery(
+          data: const MediaQueryData(size: Size(400, 800)),
+          child: Directionality(
+            textDirection: TextDirection.ltr,
+            child: CustomScrollView(
+              slivers: [
+                const SliverToBoxAdapter(child: SizedBox(height: 100)),
+                SliverFillRemaining(
+                  hasScrollBody: false,
+                  child: HomeBackdropStrip(
+                    child: Container(
+                      key: const ValueKey('section-content'),
+                      child: const Center(child: Text('content')),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+    // 800 tall viewport, 100 used above: the content area is 700 tall, and
+    // the 4:3 picture (300 wide x 400... 400 wide = 300 tall) sits at its top.
+    final content =
+        tester.getSize(find.byKey(const ValueKey('section-content')));
+    final picture =
+        tester.getRect(find.byKey(const ValueKey('home-strip-image-0')));
+    final info = 'content=$content picture=$picture';
+    expect(content.height, 700, reason: info);
+    expect(picture.top, 100, reason: info);
+    expect(picture.width, 400, reason: info);
+    expect(picture.height, 300, reason: info);
+    await tester.pumpWidget(const SizedBox());
   });
 
   test('the switch survives a restart', () async {
