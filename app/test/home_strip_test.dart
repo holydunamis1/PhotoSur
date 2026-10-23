@@ -81,6 +81,9 @@ void main() {
 
   testWidgets('the section fills the space below short content',
       (tester) async {
+    tester.view.physicalSize = const Size(400, 800);
+    tester.view.devicePixelRatio = 1;
+    addTearDown(tester.view.reset);
     final settings = SettingsProvider();
     await tester.pumpWidget(
       Provider<SettingsProvider>.value(
