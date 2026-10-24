@@ -195,6 +195,8 @@
   "hdRedoAction": "Redo cut-out in HD",
   "hdDownloading": "HD cut-out in progress… {percent}%",
   "@hdDownloading": {"placeholders": {"percent": {"type": "String"}}},
+  "hdDownloadingShort": "HD cut-out… {percent}%",
+  "@hdDownloadingShort": {"placeholders": {"percent": {"type": "String"}}},
   "hdConfirmTitle": "Download HD cut-out model?",
   "hdConfirmBody": "Cleaner edges on tricky objects like shoes, bags and bottles. It downloads once, stays on your phone and then works offline. Mobile data charges may apply.",
   "hdDownload": "Download",

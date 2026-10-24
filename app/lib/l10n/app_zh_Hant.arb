@@ -169,6 +169,7 @@
   "hdGetAction": "取得高畫質去背",
   "hdRedoAction": "用高畫質重新去背",
   "hdDownloading": "高畫質去背進行中… {percent}%",
+  "hdDownloadingShort": "高畫質去背… {percent}%",
   "hdConfirmTitle": "下載高畫質去背模型？",
   "hdConfirmBody": "鞋子、包包、瓶子等複雜物體的邊緣更乾淨。只需下載一次，儲存在手機上，之後可離線使用。可能會產生行動數據費用。",
   "hdDownload": "下載",

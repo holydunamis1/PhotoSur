@@ -169,6 +169,7 @@
   "hdGetAction": "HD কাটআউট নিন",
   "hdRedoAction": "HD-তে কাটআউট আবার করুন",
   "hdDownloading": "HD কাটআউট চলছে… {percent}%",
+  "hdDownloadingShort": "HD কাটআউট… {percent}%",
   "hdConfirmTitle": "HD কাটআউট মডেল ডাউনলোড করবেন?",
   "hdConfirmBody": "জুতা, ব্যাগ, বোতলের মতো কঠিন বস্তুর কিনারা আরও পরিষ্কার। একবারই ডাউনলোড হয়, ফোনে থাকে এবং পরে অফলাইনে কাজ করে। মোবাইল ডেটার খরচ লাগতে পারে।",
   "hdDownload": "ডাউনলোড",

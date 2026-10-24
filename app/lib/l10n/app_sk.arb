@@ -188,6 +188,7 @@
   "hdGetAction": "Stiahnuť HD vyrezanie",
   "hdRedoAction": "Vyrezať znova v HD",
   "hdDownloading": "HD vyrezanie prebieha… {percent} %",
+  "hdDownloadingShort": "HD vyrezanie… {percent} %",
   "hdConfirmTitle": "Stiahnuť model HD vyrezania?",
   "hdConfirmBody": "Čistejšie okraje pri náročných predmetoch, ako sú topánky, tašky a fľaše. Stiahne sa raz, zostane v telefóne a potom funguje offline. Môžu sa účtovať mobilné dáta.",
   "hdDownload": "Stiahnuť",

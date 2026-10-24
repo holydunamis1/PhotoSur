@@ -169,6 +169,7 @@
   "hdGetAction": "HD-uitsnede ophalen",
   "hdRedoAction": "Uitsnede opnieuw in HD",
   "hdDownloading": "HD-uitsnede bezig… {percent}%",
+  "hdDownloadingShort": "HD-uitsnede… {percent}%",
   "hdConfirmTitle": "HD-uitsnedemodel downloaden?",
   "hdConfirmBody": "Schonere randen bij lastige objecten zoals schoenen, tassen en flessen. Wordt één keer gedownload, blijft op je telefoon en werkt daarna offline. Kosten voor mobiele data kunnen van toepassing zijn.",
   "hdDownload": "Downloaden",

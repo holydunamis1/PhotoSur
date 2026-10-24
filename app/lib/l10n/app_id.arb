@@ -169,6 +169,7 @@
   "hdGetAction": "Dapatkan potongan HD",
   "hdRedoAction": "Ulangi potongan dalam HD",
   "hdDownloading": "Potongan HD sedang diproses… {percent}%",
+  "hdDownloadingShort": "Potongan HD… {percent}%",
   "hdConfirmTitle": "Unduh model potongan HD?",
   "hdConfirmBody": "Tepi lebih bersih pada objek sulit seperti sepatu, tas, dan botol. Diunduh sekali, tersimpan di ponsel, lalu bisa dipakai offline. Biaya data seluler mungkin berlaku.",
   "hdDownload": "Unduh",

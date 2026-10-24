@@ -169,6 +169,7 @@
   "hdGetAction": "Dapatkan potongan HD",
   "hdRedoAction": "Ulang potongan dalam HD",
   "hdDownloading": "Potongan HD sedang dijalankan… {percent}%",
+  "hdDownloadingShort": "Potongan HD… {percent}%",
   "hdConfirmTitle": "Muat turun model potongan HD?",
   "hdConfirmBody": "Tepi lebih bersih pada objek sukar seperti kasut, beg dan botol. Dimuat turun sekali, disimpan dalam telefon dan kemudian berfungsi luar talian. Caj data mudah alih mungkin dikenakan.",
   "hdDownload": "Muat turun",

@@ -188,6 +188,7 @@
   "hdGetAction": "Stáhnout HD vyříznutí",
   "hdRedoAction": "Vyříznout znovu v HD",
   "hdDownloading": "HD vyříznutí probíhá… {percent} %",
+  "hdDownloadingShort": "HD vyříznutí… {percent} %",
   "hdConfirmTitle": "Stáhnout model HD vyříznutí?",
   "hdConfirmBody": "Čistší okraje u náročných předmětů, jako jsou boty, tašky a lahve. Stáhne se jednou, zůstane v telefonu a pak funguje offline. Mohou se účtovat mobilní data.",
   "hdDownload": "Stáhnout",

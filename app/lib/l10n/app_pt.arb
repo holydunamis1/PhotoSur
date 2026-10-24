@@ -169,6 +169,7 @@
   "hdGetAction": "Obter recorte HD",
   "hdRedoAction": "Refazer o recorte em HD",
   "hdDownloading": "Recorte HD em andamento… {percent}%",
+  "hdDownloadingShort": "Recorte HD… {percent}%",
   "hdConfirmTitle": "Baixar o modelo de recorte HD?",
   "hdConfirmBody": "Bordas mais limpas em objetos difíceis, como sapatos, bolsas e garrafas. É baixado uma vez, fica no seu celular e depois funciona offline. Pode haver cobrança de dados móveis.",
   "hdDownload": "Baixar",

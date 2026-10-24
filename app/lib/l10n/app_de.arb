@@ -169,6 +169,7 @@
   "hdGetAction": "HD-Freistellung laden",
   "hdRedoAction": "Freistellung in HD wiederholen",
   "hdDownloading": "HD-Freistellung läuft… {percent} %",
+  "hdDownloadingShort": "HD-Freistellung… {percent} %",
   "hdConfirmTitle": "HD-Freistellungsmodell herunterladen?",
   "hdConfirmBody": "Sauberere Kanten bei schwierigen Objekten wie Schuhen, Taschen und Flaschen. Der Download erfolgt einmalig, bleibt auf dem Handy und funktioniert danach offline. Es können Kosten für mobile Daten anfallen.",
   "hdDownload": "Herunterladen",

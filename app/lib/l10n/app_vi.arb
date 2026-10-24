@@ -169,6 +169,7 @@
   "hdGetAction": "Tải tách nền HD",
   "hdRedoAction": "Tách nền lại bằng HD",
   "hdDownloading": "Đang tách nền HD… {percent}%",
+  "hdDownloadingShort": "Tách nền HD… {percent}%",
   "hdConfirmTitle": "Tải mô hình tách nền HD?",
   "hdConfirmBody": "Viền sạch hơn với vật thể khó như giày, túi và chai. Chỉ tải một lần, lưu trên điện thoại rồi dùng được ngoại tuyến. Có thể phát sinh phí dữ liệu di động.",
   "hdDownload": "Tải xuống",

@@ -188,6 +188,7 @@
   "hdGetAction": "HD kivágás letöltése",
   "hdRedoAction": "Kivágás újra HD-ben",
   "hdDownloading": "HD kivágás folyamatban… {percent}%",
+  "hdDownloadingShort": "HD kivágás… {percent}%",
   "hdConfirmTitle": "Letöltöd a HD kivágási modellt?",
   "hdConfirmBody": "Tisztább élek nehéz tárgyaknál, például cipőknél, táskáknál és palackoknál. Egyszer tölti le, a telefonon marad, utána offline is működik. Mobiladat-díj merülhet fel.",
   "hdDownload": "Letöltés",

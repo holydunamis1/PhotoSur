@@ -188,6 +188,7 @@
   "hdGetAction": "Obține decuparea HD",
   "hdRedoAction": "Refă decuparea în HD",
   "hdDownloading": "Decuparea HD în curs… {percent}%",
+  "hdDownloadingShort": "Decuparea HD… {percent}%",
   "hdConfirmTitle": "Descarci modelul de decupare HD?",
   "hdConfirmBody": "Margini mai curate la obiecte dificile, precum pantofi, genți și sticle. Se descarcă o singură dată, rămâne pe telefon și apoi funcționează offline. Se pot aplica costuri pentru date mobile.",
   "hdDownload": "Descarcă",

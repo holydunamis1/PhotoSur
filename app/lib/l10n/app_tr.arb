@@ -169,6 +169,7 @@
   "hdGetAction": "HD kesim al",
   "hdRedoAction": "Kesimi HD ile yeniden yap",
   "hdDownloading": "HD kesim sürüyor… %{percent}",
+  "hdDownloadingShort": "HD kesim… %{percent}",
   "hdConfirmTitle": "HD kesim modeli indirilsin mi?",
   "hdConfirmBody": "Ayakkabı, çanta ve şişe gibi zor nesnelerde daha temiz kenarlar. Bir kez indirilir, telefonunuzda kalır ve sonra çevrimdışı çalışır. Mobil veri ücreti alınabilir.",
   "hdDownload": "İndir",

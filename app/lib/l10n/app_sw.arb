@@ -188,6 +188,7 @@
   "hdGetAction": "Pata ukataji wa HD",
   "hdRedoAction": "Rudia ukataji kwa HD",
   "hdDownloading": "Ukataji wa HD unaendelea… {percent}%",
+  "hdDownloadingShort": "Ukataji wa HD… {percent}%",
   "hdConfirmTitle": "Pakua modeli ya ukataji wa HD?",
   "hdConfirmBody": "Kingo safi zaidi kwenye vitu vigumu kama viatu, mikoba na chupa. Hupakuliwa mara moja, hubaki kwenye simu yako kisha hufanya kazi bila mtandao. Gharama za data ya simu zinaweza kutumika.",
   "hdDownload": "Pakua",

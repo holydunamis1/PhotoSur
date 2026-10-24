@@ -169,6 +169,7 @@
   "hdGetAction": "קבלת חיתוך HD",
   "hdRedoAction": "חיתוך מחדש ב-HD",
   "hdDownloading": "חיתוך HD בתהליך… {percent}%",
+  "hdDownloadingShort": "חיתוך HD… {percent}%",
   "hdConfirmTitle": "להוריד את מודל החיתוך HD?",
   "hdConfirmBody": "קצוות נקיים יותר באובייקטים מורכבים כמו נעליים, תיקים ובקבוקים. מורידים פעם אחת, נשמר בטלפון ואז עובד גם ללא חיבור. ייתכנו חיובי גלישה.",
   "hdDownload": "הורדה",

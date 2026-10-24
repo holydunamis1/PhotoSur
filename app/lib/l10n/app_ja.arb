@@ -169,6 +169,7 @@
   "hdGetAction": "HD切り抜きを入手",
   "hdRedoAction": "HDで切り抜きをやり直す",
   "hdDownloading": "HD切り抜きを処理中… {percent}%",
+  "hdDownloadingShort": "HD切り抜き… {percent}%",
   "hdConfirmTitle": "HD切り抜きモデルをダウンロードしますか？",
   "hdConfirmBody": "靴・バッグ・ボトルなど難しい被写体でも輪郭がよりきれいに。ダウンロードは1回だけで、端末に保存され、その後はオフラインで使えます。モバイルデータ通信料がかかる場合があります。",
   "hdDownload": "ダウンロード",

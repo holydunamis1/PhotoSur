@@ -188,6 +188,7 @@
   "hdGetAction": "Hent HD-frilegging",
   "hdRedoAction": "Gjør frileggingen om i HD",
   "hdDownloading": "HD-frilegging pågår… {percent} %",
+  "hdDownloadingShort": "HD-frilegging… {percent} %",
   "hdConfirmTitle": "Laste ned HD-friliggingsmodellen?",
   "hdConfirmBody": "Renere kanter på vanskelige objekter som sko, vesker og flasker. Lastes ned én gang, blir på telefonen og fungerer deretter uten nett. Kostnader for mobildata kan påløpe.",
   "hdDownload": "Last ned",

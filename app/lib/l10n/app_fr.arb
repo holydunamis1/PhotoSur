@@ -169,6 +169,7 @@
   "hdGetAction": "Obtenir le détourage HD",
   "hdRedoAction": "Refaire le détourage en HD",
   "hdDownloading": "Détourage HD en cours… {percent} %",
+  "hdDownloadingShort": "Détourage HD… {percent} %",
   "hdConfirmTitle": "Télécharger le modèle de détourage HD ?",
   "hdConfirmBody": "Des contours plus nets sur les objets difficiles comme les chaussures, sacs et bouteilles. Il se télécharge une fois, reste sur votre téléphone, puis fonctionne hors ligne. Des frais de données mobiles peuvent s’appliquer.",
   "hdDownload": "Télécharger",

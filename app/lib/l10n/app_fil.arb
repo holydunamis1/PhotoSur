@@ -169,6 +169,7 @@
   "hdGetAction": "Kunin ang HD cutout",
   "hdRedoAction": "Ulitin ang cutout sa HD",
   "hdDownloading": "Isinasagawa ang HD cutout… {percent}%",
+  "hdDownloadingShort": "HD cutout… {percent}%",
   "hdConfirmTitle": "I-download ang HD cutout model?",
   "hdConfirmBody": "Mas malinis na gilid sa mahihirap na bagay tulad ng sapatos, bag at bote. Isang beses lang ida-download, mananatili sa phone mo at gagana na offline. Maaaring may singil sa mobile data.",
   "hdDownload": "I-download",

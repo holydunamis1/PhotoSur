@@ -169,6 +169,7 @@
   "hdGetAction": "Hämta HD-frilägg",
   "hdRedoAction": "Gör om frilägget i HD",
   "hdDownloading": "HD-frilägg pågår… {percent} %",
+  "hdDownloadingShort": "HD-frilägg… {percent} %",
   "hdConfirmTitle": "Ladda ned HD-friläggsmodellen?",
   "hdConfirmBody": "Renare kanter på svåra objekt som skor, väskor och flaskor. Laddas ned en gång, ligger kvar på telefonen och fungerar sedan offline. Kostnader för mobildata kan tillkomma.",
   "hdDownload": "Ladda ned",

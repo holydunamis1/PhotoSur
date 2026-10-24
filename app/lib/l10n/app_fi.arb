@@ -188,6 +188,7 @@
   "hdGetAction": "Hanki HD-rajaus",
   "hdRedoAction": "Tee rajaus uudelleen HD:nä",
   "hdDownloading": "HD-rajaus käynnissä… {percent} %",
+  "hdDownloadingShort": "HD-rajaus… {percent} %",
   "hdConfirmTitle": "Ladataanko HD-rajausmalli?",
   "hdConfirmBody": "Siistimmät reunat hankaliin kohteisiin, kuten kenkiin, laukkuihin ja pulloihin. Ladataan kerran, pysyy puhelimessa ja toimii sen jälkeen offline-tilassa. Mobiilidatamaksuja voi tulla.",
   "hdDownload": "Lataa",

@@ -169,6 +169,7 @@
   "hdGetAction": "دریافت برش HD",
   "hdRedoAction": "برش دوباره با HD",
   "hdDownloading": "برش HD در حال انجام… {percent}٪",
+  "hdDownloadingShort": "برش HD… {percent}٪",
   "hdConfirmTitle": "مدل برش HD دانلود شود؟",
   "hdConfirmBody": "لبه‌های تمیزتر برای اشیای دشوار مثل کفش، کیف و بطری. فقط یک بار دانلود می‌شود، روی گوشی می‌ماند و بعد آفلاین کار می‌کند. ممکن است هزینهٔ اینترنت همراه محاسبه شود.",
   "hdDownload": "دانلود",

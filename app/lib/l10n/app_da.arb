@@ -188,6 +188,7 @@
   "hdGetAction": "Hent HD-frilæg",
   "hdRedoAction": "Lav frilægningen om i HD",
   "hdDownloading": "HD-frilæg i gang… {percent} %",
+  "hdDownloadingShort": "HD-frilæg… {percent} %",
   "hdConfirmTitle": "Hent HD-frilægningsmodellen?",
   "hdConfirmBody": "Renere kanter på svære objekter som sko, tasker og flasker. Hentes én gang, bliver på din telefon og virker derefter offline. Der kan påløbe udgifter til mobildata.",
   "hdDownload": "Hent",

@@ -188,6 +188,7 @@
   "hdGetAction": "Obtén el retall HD",
   "hdRedoAction": "Torna a fer el retall en HD",
   "hdDownloading": "Retall HD en curs… {percent}%",
+  "hdDownloadingShort": "Retall HD… {percent}%",
   "hdConfirmTitle": "Vols baixar el model de retall HD?",
   "hdConfirmBody": "Vores més netes en objectes difícils com sabates, bosses i ampolles. Es baixa una sola vegada, es queda al telèfon i després funciona sense connexió. Pot haver-hi costos de dades mòbils.",
   "hdDownload": "Baixa",
