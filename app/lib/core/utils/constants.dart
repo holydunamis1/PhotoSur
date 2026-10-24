@@ -128,7 +128,7 @@ const String kReminderChannelId = 'unfinished_edit';
 /// Shows the failing step and error type under the export-failed message so a
 /// phone-only tester can report what went wrong. Switch to false before
 /// store release.
-const bool kShowExportDiagnostics = true;
+const bool kShowExportDiagnostics = false;
 
 /// Most photos one batch run accepts (keeps memory and run time sane).
 const int kMaxBatchPhotos = 30;
