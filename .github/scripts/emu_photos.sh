@@ -121,13 +121,25 @@ if sec custom && open_photo apple; then
   tap_text "Export"; sleep 2; tap_exact "Custom"; sleep 2
   say "INFO custom resize sheet: $(onscreen 24)"
   say "INFO after tapping Custom: $(dump | grep -o '<node [^>]*class="android.widget.EditText"[^>]*>' | sed 's/resource-id=.*package=//' | cut -c1-160 | head -4)"
-  tap_text "Width"; sleep 1; adb shell input keyevent KEYCODE_MOVE_END; for i in 1 2 3 4 5 6; do adb shell input keyevent KEYCODE_DEL; done; adb shell input text 800; sleep 1
-  tap_text "Height"; sleep 1; adb shell input keyevent KEYCODE_MOVE_END; for i in 1 2 3 4 5 6; do adb shell input keyevent KEYCODE_DEL; done; adb shell input text 600; sleep 1
-  adb shell input keyevent KEYCODE_ESCAPE; sleep 1
+  tap_class_n(){ dump | python3 -c "
+import sys,re,subprocess
+x=sys.stdin.read(); k=int(sys.argv[2]); c=0
+for m in re.finditer(r'<node [^>]*>',x):
+    n=m.group(0)
+    if sys.argv[1] in n:
+        c+=1
+        if c==k:
+            b=re.search(r'bounds=\"\\[(\\d+),(\\d+)\\]\\[(\\d+),(\\d+)\\]\"',n)
+            x1,y1,x2,y2=map(int,b.groups()); subprocess.call(['adb','shell','input','tap',str((x1+x2)//2),str((y1+y2)//2)]); sys.exit(0)
+sys.exit(1)" "$1" "$2"; }
+  say "INFO edit fields on the sheet: $(dump | grep -c 'android.widget.EditText')"
+  tap_class_n "android.widget.EditText" 1; sleep 1; adb shell input keyevent KEYCODE_MOVE_END; for i in 1 2 3 4 5 6; do adb shell input keyevent KEYCODE_DEL; done; adb shell input text 800; sleep 1
+  tap_class_n "android.widget.EditText" 2; sleep 1; adb shell input keyevent KEYCODE_MOVE_END; for i in 1 2 3 4 5 6; do adb shell input keyevent KEYCODE_DEL; done; adb shell input text 600; sleep 1
+  if adb shell dumpsys input_method | grep -q 'mInputShown=true'; then adb shell input keyevent KEYCODE_BACK; sleep 1; say "INFO keyboard hidden"; fi
   say "INFO custom sizes typed: $(onscreen 30)"
   adb shell touch /sdcard/marker; sleep 1
   tap_text "Save to Gallery"; sleep 6; has_text "Test Ad" && { tap_text "Close"; sleep 2; }
-  F=$(new_files | head -1); if [ -n "$F" ]; then adb exec-out "cat '$F'" > "$OUT/apple_custom.${F##*.}" 2>/dev/null; say "PASS custom-size export saved $(basename "$F")"; say "     $(python3 -W ignore .github/scripts/analyze_cutout.py "$OUT/apple_custom.${F##*.}" 2>&1 | tail -3 | head -1)"; else say "FAIL custom-size export: nothing saved. screen: $(onscreen 14)"; fi
+  F=$(new_files | head -1); if [ -n "$F" ]; then adb exec-out "cat '$F'" > "$OUT/apple_custom.${F##*.}" 2>/dev/null; say "PASS custom-size export saved $(basename "$F")"; say "INFO custom size result: $(python3 -W ignore .github/scripts/analyze_cutout.py "$OUT/apple_custom.${F##*.}" 2>&1 | head -2 | tr "\n" " ")"; say "     $(python3 -W ignore .github/scripts/analyze_cutout.py "$OUT/apple_custom.${F##*.}" 2>&1 | tail -3 | head -1)"; else say "FAIL custom-size export: nothing saved. screen: $(onscreen 14)"; fi
 fi
 for MP in Amazon eBay; do
   if sec formats && open_photo apple; then

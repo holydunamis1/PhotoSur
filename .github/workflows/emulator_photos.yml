@@ -24,10 +24,10 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        set:
-          - 'edit,bg,exportedge,screens,sizes,camera,notif'
-          - 'interrupt'
-          - 'batch,custom'
+        include:
+          - {set: 'custom', api: '34'}
+          - {set: 'photos,edit,bg', api: '29'}
+          - {set: 'photos,edit,bg', api: '36'}
     runs-on: ubuntu-latest
     timeout-minutes: 100
     steps:
@@ -79,7 +79,7 @@ jobs:
           EMU_SECTIONS: ${{ github.event.inputs.sections || matrix.set }}
         uses: reactivecircus/android-emulator-runner@v2
         with:
-          api-level: ${{ github.event.inputs.api_level || 34 }}
+          api-level: ${{ github.event.inputs.api_level || matrix.api }}
           arch: x86_64
           target: google_apis
           disable-animations: true
