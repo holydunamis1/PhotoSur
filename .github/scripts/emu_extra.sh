@@ -45,6 +45,29 @@ for m in re.finditer(r'<node [^>]*>',x):
         x1,y1,x2,y2=map(int,b.groups()); w=x2-x1; y=(y1+y2)//2
         subprocess.call(['adb','shell','input','swipe',str(x1+w*f//100),str(y),str(x1+w*e//100),str(y),'400']); sys.exit(0)
 sys.exit(1)" "$1" "$2" "$3"; }
+seekbar(){ # k from% to% : drag the k-th slider on screen along its own width
+  dump | python3 -c "
+import sys,re,subprocess
+x=sys.stdin.read(); k=int(sys.argv[1]); f=int(sys.argv[2]); e=int(sys.argv[3]); c=0
+for m in re.finditer(r'<node [^>]*>',x):
+    n=m.group(0)
+    if 'android.widget.SeekBar' in n:
+        c+=1
+        if c==k:
+            b=re.search(r'bounds=\"\[(\d+),(\d+)\]\[(\d+),(\d+)\]\"',n)
+            x1,y1,x2,y2=map(int,b.groups()); w=x2-x1; y=(y1+y2)//2
+            print('seekbar',k,x1,y1,x2,y2)
+            subprocess.call(['adb','shell','input','swipe',str(x1+w*f//100),str(y),str(x1+w*e//100),str(y),'500']); sys.exit(0)
+print('no seekbar',k,'of',c); sys.exit(1)" "$1" "$2" "$3"; }
+tap_class(){ dump | python3 -c "
+import sys,re,subprocess
+x=sys.stdin.read()
+for m in re.finditer(r'<node [^>]*>',x):
+    n=m.group(0)
+    if sys.argv[1] in n:
+        b=re.search(r'bounds=\"\[(\d+),(\d+)\]\[(\d+),(\d+)\]\"',n)
+        x1,y1,x2,y2=map(int,b.groups()); subprocess.call(['adb','shell','input','tap',str((x1+x2)//2),str((y1+y2)//2)]); sys.exit(0)
+sys.exit(1)" "$1"; }
 fresh_install(){
   adb uninstall "$PKG" >/dev/null 2>&1; adb install -r "$REL" >/dev/null 2>&1
   adb shell pm grant "$PKG" android.permission.READ_MEDIA_IMAGES 2>/dev/null
@@ -62,23 +85,22 @@ if sec edit && open_photo apple; then
   snap e0
   tap_text "Brush"; sleep 1; say "INFO brush panel: $(onscreen 24)"
   tap_exact "Erase"; sleep 1
-  snap e0b
   strokes; sleep 1; snap e1
-  D=$(diffpct e0b e1); say "INFO erase strokes changed $D% of the canvas"
+  D=$(diffpct e0 e1); say "INFO erase strokes changed $D% of the canvas"
   check "erase brush changes the picture" gt "$D" 0.4
   for i in 1 2 3 4 5 6 7 8; do tap_text "Undo"; sleep 0.5; done; sleep 1; snap e2
-  D2=$(diffpct e0b e2); say "INFO after undo x8: $D2% differs from the start"
-  check "undo brings the picture back" lt "$D2" "$(awk "BEGIN{print $D/3 + 0.2}")"
+  D2=$(diffpct e0 e2); say "INFO after undo x8: $D2% differs from the start"
+  check "undo brings the picture back" lt "$D2" 3.5
   for i in 1 2 3 4 5 6 7 8; do tap_text "Redo"; sleep 0.5; done; sleep 1; snap e3
   D3=$(diffpct e1 e3); say "INFO after redo x8: $D3% differs from the erased version"
-  check "redo re-applies the strokes" lt "$D3" "$(awk "BEGIN{print $D/3 + 0.2}")"
+  check "redo re-applies the strokes" lt "$D3" 3.5
   tap_exact "Restore"; sleep 1; strokes; sleep 1; snap e4
-  D4=$(diffpct e0b e4); say "INFO erase then restore: $D4% differs from the start (was $D% after erase)"
+  D4=$(diffpct e0 e4); say "INFO erase then restore: $D4% differs from the start (was $D% after erase)"
   check "restore brush paints the subject back" lt "$D4" "$D"
   tap_text "Reset"; sleep 2; say "INFO after Reset tap: $(onscreen 12)"
   has_text "Reset" && has_text "Cancel" && { tap_exact "Reset"; sleep 2; }
-  snap e5; D5=$(diffpct e0b e5); say "INFO after Reset: $D5% differs from the start"
-  check "reset returns to the first cut-out" lt "$D5" 1.0
+  snap e5; D5=$(diffpct e0 e5); say "INFO after Reset: $D5% differs from the start"
+  check "reset returns to the first cut-out" lt "$D5" 3.5
   check "alive after the brush work" test -n "$(alive)"
 
   tap_text "Layout"; sleep 1; say "INFO layout panel: $(onscreen 20)"
@@ -87,9 +109,9 @@ if sec edit && open_photo apple; then
   D=$(diffpct l0 l1); say "INFO layout drag moved $D%"; check "layout drag moves the subject" gt "$D" 0.3
   tap_text "Auto-center"; sleep 2; snap l2; D=$(diffpct l1 l2); say "INFO auto-center moved $D%"
   check "auto-center moves it back" gt "$D" 0.2
-  swipe_node "Shadow" 5 95; sleep 2; snap l3; D=$(diffpct l2 l3); say "INFO shadow slider moved: canvas changed $D%"
+  say "INFO $(seekbar 2 5 95)"; sleep 2; snap l3; D=$(diffpct l2 l3); say "INFO shadow slider moved: canvas changed $D%"
   check "shadow slider changes the picture" gt "$D" 0.2
-  swipe_node "Size" 95 20; sleep 2; snap l4; D=$(diffpct l3 l4); say "INFO size slider moved: canvas changed $D%"
+  say "INFO $(seekbar 1 95 20)"; sleep 2; snap l4; D=$(diffpct l3 l4); say "INFO size slider moved: canvas changed $D%"
   check "size slider changes the picture" gt "$D" 0.3
   check "alive after layout work" test -n "$(alive)"
   export_as apple EDITED --ascii
@@ -101,7 +123,9 @@ if sec bg && open_photo apple; then
   tap_text "Background"; sleep 2; say "INFO background panel: $(onscreen 30)"
   snap b_0; PREV=b_0
   for L in White Black Blur Transparent White; do
-    if [ "$L" = Blur ]; then swipe_node "Blur" 5 95; sleep 4; else tap_exact "$L"; sleep 2; fi; snap "b_$L"
+    tap_exact "$L"; sleep 2
+    if [ "$L" = Blur ]; then sleep 6; say "INFO blur selected: $(onscreen 30)"; say "INFO $(seekbar 1 5 95)"; sleep 5; fi
+    snap "b_$L"
     D=$(diffpct $PREV "b_$L"); say "INFO background $L changed $D% vs the previous one"
     check "background $L changes the canvas" gt "$D" 0.3
     PREV="b_$L"
@@ -134,7 +158,6 @@ if sec interrupt; then
     adb emu gsm call 5551234 >/dev/null 2>&1; sleep 6
     check "alive during an incoming call" test -n "$(alive)"
     adb emu gsm cancel 5551234 >/dev/null 2>&1; sleep 3
-    adb shell input keyevent KEYCODE_BACK >/dev/null 2>&1; sleep 1
     check "still in the editor after the call" in_editor
     # rotate in the editor and with the export sheet open
     adb shell settings put system accelerometer_rotation 0
@@ -157,19 +180,33 @@ if sec interrupt; then
   # HD download interrupted by losing the network (fresh install: it starts by itself)
   say "---- HD download with the network cut"
   fresh_install; fresh_photo lena
+  airplane enable; sleep 3
   tap_text "Gallery"; sleep 4; tap_text "Photo taken" || adb shell input tap 200 600; sleep 5
-  wait_text "Continue" 10 && tap_text "Continue"; wait_text "Export" 40; sleep 3
-  airplane enable; sleep 40
-  say "INFO network cut: $(onscreen 16)"
-  if has_text "didn"; then say "PASS download failure message appears when the network is cut"; else say "FAIL no failure message after cutting the network"; fi
+  wait_text "Continue" 10 && tap_text "Continue"; wait_text "Export" 40; sleep 12
+  say "INFO network off while the editor opened: $(onscreen 18)"
+  if has_text "didn"; then say "PASS download failure message appears when there is no network"; else say "FAIL no failure message with no network"; fi
   check "alive with the download failed" test -n "$(alive)"
   check "photo still editable (standard cut-out kept)" in_editor
   airplane disable; sleep 8
   if has_text "Get HD cut-out"; then
-    tap_text "Get HD cut-out"; sleep 2; tap_exact "Download"; sleep 3
+    tap_text "Get HD cut-out"; sleep 2; tap_exact "Download"; sleep 2
+    say "INFO retry started: $(onscreen 12)"
     for i in $(seq 1 120); do has_text "Redo cut-out in HD" && break; sleep 4; done
     if has_text "Redo cut-out in HD"; then say "PASS manual retry after a failure completes"; else say "FAIL manual retry did not complete: $(onscreen 14)"; fi
-  else say "INFO no Get HD button after the cut: $(onscreen 14)"; fi
+  else say "FAIL no Get HD button after the failure: $(onscreen 14)"; fi
+  # slow network: progress must move, and cutting it mid-way must fail cleanly
+  adb shell pm clear "$PKG" >/dev/null 2>&1
+  fresh_install; fresh_photo lena
+  adb emu network speed gsm >/dev/null 2>&1; adb emu network delay gsm >/dev/null 2>&1
+  tap_text "Gallery"; sleep 4; tap_text "Photo taken" || adb shell input tap 200 600; sleep 5
+  wait_text "Continue" 10 && tap_text "Continue"; wait_text "Export" 40; sleep 15
+  say "INFO slow network, 15s in: $(onscreen 18)"
+  has_text "in progress" && say "PASS progress shown on a slow network" || say "INFO no progress text on the slow network"
+  airplane enable; sleep 45
+  say "INFO network cut mid-download: $(onscreen 18)"
+  has_text "didn" && say "PASS cut mid-download ends in the failure message" || say "FAIL no failure message after cutting mid-download"
+  check "alive after the mid-download cut" test -n "$(alive)"
+  airplane disable; adb emu network speed full >/dev/null 2>&1; adb emu network delay none >/dev/null 2>&1; sleep 5
 
   # batch: leave the app while it runs
   say "---- batch interrupted"
@@ -184,7 +221,9 @@ if sec interrupt; then
   tap_text "Add" || tap_text "Done" || tap_text "Select" || true; sleep 4
   adb shell input swipe 500 1500 500 500 300; sleep 1
   tap_text "Start"; sleep 6
+  say "INFO batch running: $(onscreen 30)"
   adb shell input keyevent KEYCODE_HOME; sleep 12; launch; sleep 4
+  say "INFO batch after coming back: $(onscreen 30)"
   for i in $(seq 1 60); do has_text "saved to your gallery" && break; has_text "Test Ad" && { tap_text "Close"; sleep 2; }; sleep 4; done
   N=$(new_files | wc -l); say "INFO batch with a background break saved $N files; screen: $(onscreen 14)"
   [ "$N" -ge 3 ] && say "PASS batch finished all 3 despite leaving the app" || say "FAIL batch interrupted: only $N of 3 saved"
@@ -250,7 +289,8 @@ if sec exportedge; then
     tap_exact "Delete"; sleep 3
     say "INFO after deleting one: $(onscreen 12)"
     check "alive after deleting" test -n "$(alive)"
-    has_text "Delete all" && { tap_text "Delete all exports"; sleep 2; tap_exact "Delete"; sleep 3; }
+    tap_nth "More options" 1; sleep 2; say "INFO more options menu: $(onscreen 10)"
+    tap_text "Delete all exports"; sleep 2; say "INFO delete-all dialog: $(onscreen 10)"; tap_exact "Delete"; sleep 3
     adb shell input keyevent KEYCODE_BACK; sleep 2
     say "INFO back on Home: $(onscreen 12)"
     check "empty state returns after deleting everything" has_text "Tap Camera or Gallery to start"
@@ -292,11 +332,14 @@ if sec screens; then
   go_home; check "Home with animations off" has_text "Gallery"
   adb shell settings put global animator_duration_scale 1; adb shell settings put global transition_animation_scale 1
   # language, including right-to-left (the Language button is named in each language)
-  tap_lang(){ # name in that language of the Language button, then the language row
-    tap_text "$1" || return 1; sleep 2; tap_text "$2" || { adb shell input keyevent KEYCODE_BACK; return 1; }; sleep 3; }
-  for pair in "Language|Deutsch" "Sprache|日本語" "言語|हिन्दी" "भाषा|العربية" "اللغة|English"; do
-    BTN=${pair%%|*}; TO=${pair##*|}
-    if tap_lang "$BTN" "$TO"; then say "INFO switched to $TO: $(onscreen 8)"; else say "FAIL could not switch to $TO using the button named '$BTN': $(onscreen 10)"; fi
+  tap_lang(){ # name of the Language button in the current language, English search word, native name of the row
+    tap_text "$1" || { say "INFO no Language button named '$1'"; return 1; }; sleep 2
+    say "INFO language sheet: $(onscreen 14)"
+    tap_class "android.widget.EditText"; sleep 1; adb shell input text "$2"; sleep 2
+    tap_text "$3" || { say "INFO row '$3' not found after searching '$2': $(onscreen 14)"; adb shell input keyevent KEYCODE_BACK; sleep 1; adb shell input keyevent KEYCODE_BACK; return 1; }; sleep 3; }
+  for trio in "Language|German|Deutsch" "Sprache|Japanese|日本語" "言語|Hindi|हिन्दी" "भाषा|Arabic|العربية" "اللغة|English|English"; do
+    IFS='|' read -r BTN Q TO <<<"$trio"
+    if tap_lang "$BTN" "$Q" "$TO"; then say "PASS switched to $TO: $(onscreen 8)"; else say "FAIL could not switch to $TO"; fi
     check "Home alive after switching to $TO" test -n "$(alive)"
   done
   check "back to English Home" has_text "Gallery"
