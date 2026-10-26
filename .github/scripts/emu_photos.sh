@@ -41,15 +41,16 @@ open_photo(){ # P -> leaves you in the editor with the automatic cut-out done
   sleep 5
   wait_text "Continue" 10 || { say "FAIL $1 no crop screen: $(onscreen)"; return 1; }
   tap_text "Continue"
-  wait_text "Export" 40 || { say "FAIL $1 editor never opened: $(onscreen)"; return 1; }
+  wait_text "Export" ${EDITOR_WAIT:-40} || { say "FAIL $1 editor never opened: $(onscreen)"; return 1; }
   sleep 12; return 0; }
 shot(){ adb exec-out screencap -p > "$OUT/$1.png" 2>/dev/null; }
 onscreen(){ dump | grep -o '\(text\|content-desc\)="[^"]\+"' | head -${1:-14} | tr '\n' ' '; }
-fresh_photo(){ # push exactly one photo as the newest picture
+fresh_photo(){ # push exactly one photo as the newest picture (.jpg or .png)
+  SRC=$(ls /tmp/photos/$1.* 2>/dev/null | head -1); EXT=${SRC##*.}
   adb shell 'rm -f /sdcard/Pictures/*.jpg /sdcard/Pictures/*.png /sdcard/DCIM/Camera/*' >/dev/null 2>&1
-  adb push "/tmp/photos/$1.jpg" "/sdcard/Pictures/ps_$1.jpg" >/dev/null 2>&1
-  adb shell touch "/sdcard/Pictures/ps_$1.jpg"
-  adb shell am broadcast -a android.intent.action.MEDIA_SCANNER_SCAN_FILE -d "file:///sdcard/Pictures/ps_$1.jpg" >/dev/null 2>&1
+  adb push "$SRC" "/sdcard/Pictures/ps_$1.$EXT" >/dev/null 2>&1
+  adb shell touch "/sdcard/Pictures/ps_$1.$EXT"
+  adb shell am broadcast -a android.intent.action.MEDIA_SCANNER_SCAN_FILE -d "file:///sdcard/Pictures/ps_$1.$EXT" >/dev/null 2>&1
   sleep 3; }
 go_home(){ for i in 1 2 3; do adb shell input keyevent KEYCODE_BACK; sleep 1; done
   adb shell am force-stop com.google.android.providers.media.module >/dev/null 2>&1
@@ -76,6 +77,7 @@ export_as(){ # label format
   wait_text "Cut-out" 5 || say "INFO not in editor after export: $(onscreen 8)"; }
 
 SECTIONS=${SECTIONS:-photos,formats,hd,batch,autohd}
+[ -n "$EMU_SECTIONS" ] && SECTIONS=$EMU_SECTIONS
 sec(){ case ",$SECTIONS," in *,$1,*) return 0;; *) return 1;; esac; }
 adb wait-for-device
 adb uninstall "$PKG" >/dev/null 2>&1
@@ -233,6 +235,8 @@ i=0; new_files | while IFS= read -r F; do i=$((i+1)); EXT="${F##*.}"; adb exec-o
   say "     batch_$i ($(basename "$F")): $(python3 -W ignore .github/scripts/analyze_cutout.py "$OUT/batch_$i.$EXT" 2>&1 | tail -22)"; done
 
 fi
+
+source .github/scripts/emu_extra.sh
 
 C=$(crashes); [ -z "$C" ] && say "PASS 99 no app crash/ANR in the whole run" || say "FAIL 99 $C"
 adb logcat -d -v threadtime | grep -E "AUTOHD|E flutter|F flutter|APPERR|Process: $PKG|ANR in $PKG|Gal save|Gal\.|GalException|export failed|Export failed|Segmentation|segmentation|HD " | cut -c7-260 | head -n 40 > /tmp/errs.txt

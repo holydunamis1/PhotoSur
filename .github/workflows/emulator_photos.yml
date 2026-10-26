@@ -6,6 +6,15 @@ name: Emulator real-photo test
 # automatically. Run it from the Actions tab when needed.
 on:
   workflow_dispatch:
+    inputs:
+      sections:
+        description: 'Comma list: photos,formats,custom,hd,batch,autohd,edit,bg,interrupt,large,exportedge,screens,sizes,camera,notif'
+        default: 'edit,bg,exportedge,screens,sizes,camera,notif'
+      api_level:
+        description: 'Android API level of the emulator'
+        default: '34'
+  push:
+    branches: ['emu/coverage']   # TEMPORARY: remove before merging
 
 permissions:
   contents: read
@@ -59,9 +68,11 @@ jobs:
           sudo udevadm trigger --name-match=kvm
 
       - name: Run app in emulator
+        env:
+          EMU_SECTIONS: ${{ github.event.inputs.sections || 'edit,bg,exportedge,screens,sizes,camera,notif' }}
         uses: reactivecircus/android-emulator-runner@v2
         with:
-          api-level: 34
+          api-level: ${{ github.event.inputs.api_level || 34 }}
           arch: x86_64
           target: google_apis
           disable-animations: true
