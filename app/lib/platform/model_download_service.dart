@@ -39,6 +39,10 @@ class ModelDownloadService extends ValueNotifier<HdModelState> {
   /// on screen when it finishes redoes its untouched cut-out in HD.
   bool autoRedoPending = false;
 
+  /// The automatic download is attempted once per app launch (it resumes a
+  /// partly downloaded file), so a bad connection is not retried on every photo.
+  bool autoAttemptedThisSession = false;
+
   bool _busy = false;
   bool _cancel = false;
 

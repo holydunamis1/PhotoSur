@@ -64,19 +64,21 @@ class _EditorScreenState extends State<EditorScreen>
     _startAutoHd();
   }
 
-  // ---- HD model: fetched automatically on the very first photo ----------
+  // ---- HD model: fetched (or resumed) automatically when a photo opens ----
   void _startAutoHd() {
     final hd = ModelDownloadService.instance;
     if (hd.value.isInstalled) return;
-    if (!hd.value.isDownloading && !_settings.value.hdAutoDownloadTried) {
+    if (!hd.value.isDownloading &&
+        !hd.autoAttemptedThisSession &&
+        !_settings.value.hdRemovedByUser) {
+      hd.autoAttemptedThisSession = true;
       hd.autoRedoPending = true;
       // Deferred until after the first frame: changing settings straight from
       // initState makes the router rebuild mid-build, which built the editor
-      // twice and cut every photo out twice. The flag is recorded before the
-      // download starts, so a failure or a later removal in Settings never
-      // triggers another silent download.
+      // twice and cut every photo out twice. A download interrupted earlier
+      // continues from the part already on the phone; one attempt per app
+      // launch, and never after the user removed the model in Settings.
       WidgetsBinding.instance.addPostFrameCallback((_) {
-        unawaited(_settings.markHdAutoDownloadTried());
         unawaited(hd.download());
       });
     }

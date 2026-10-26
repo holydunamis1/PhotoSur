@@ -27,9 +27,10 @@ abstract class UserSettings with _$UserSettings {
     @Default(true) bool remindersEnabled,
     // Slowly cross-fading pictures behind the Home header (Settings switch).
     @Default(true) bool animatedHomeBackground,
-    // The HD model is fetched automatically on the first photo, once. This
-    // stops it coming back if the user later removes it in Settings.
-    @Default(false) bool hdAutoDownloadTried,
+    // The HD model downloads by itself whenever a photo opens and it isn't
+    // installed yet (once per app launch, resuming a partial file). Set when
+    // the user removes it in Settings, so it never comes back uninvited.
+    @Default(false) bool hdRemovedByUser,
   }) = _UserSettings;
 
   factory UserSettings.fromJson(Map<String, dynamic> json) =>

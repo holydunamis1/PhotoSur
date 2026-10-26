@@ -55,8 +55,9 @@ class SettingsProvider extends ValueNotifier<UserSettings> {
     await _persist();
   }
 
-  Future<void> markHdAutoDownloadTried() async {
-    value = value.copyWith(hdAutoDownloadTried: true);
+  Future<void> setHdRemovedByUser(bool removed) async {
+    if (value.hdRemovedByUser == removed) return;
+    value = value.copyWith(hdRemovedByUser: removed);
     await _persist();
   }
 

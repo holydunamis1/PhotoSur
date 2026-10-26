@@ -51,16 +51,21 @@ void main() {
     expect(second.value.themeMode, ThemeMode.dark);
   });
 
-  test('the one-time automatic HD download is remembered after a restart',
+  test('removing the HD model by hand is remembered after a restart',
       () async {
     final first = SettingsProvider();
     await first.load();
-    expect(first.value.hdAutoDownloadTried, isFalse);
-    await first.markHdAutoDownloadTried();
+    expect(first.value.hdRemovedByUser, isFalse);
+    await first.setHdRemovedByUser(true);
 
     final second = SettingsProvider();
     await second.load();
-    expect(second.value.hdAutoDownloadTried, isTrue);
+    expect(second.value.hdRemovedByUser, isTrue);
+
+    await second.setHdRemovedByUser(false);
+    final third = SettingsProvider();
+    await third.load();
+    expect(third.value.hdRemovedByUser, isFalse);
   });
 
   testWidgets('after a restart the app opens Home, not onboarding',
