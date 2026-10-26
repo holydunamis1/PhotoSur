@@ -21,6 +21,13 @@ permissions:
 
 jobs:
   emulator:
+    strategy:
+      fail-fast: false
+      matrix:
+        set:
+          - 'edit,bg,exportedge,screens,sizes,camera,notif'
+          - 'interrupt'
+          - 'large'
     runs-on: ubuntu-latest
     timeout-minutes: 100
     steps:
@@ -69,7 +76,7 @@ jobs:
 
       - name: Run app in emulator
         env:
-          EMU_SECTIONS: ${{ github.event.inputs.sections || 'edit,bg,exportedge,screens,sizes,camera,notif' }}
+          EMU_SECTIONS: ${{ github.event.inputs.sections || matrix.set }}
         uses: reactivecircus/android-emulator-runner@v2
         with:
           api-level: ${{ github.event.inputs.api_level || 34 }}
@@ -82,6 +89,6 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: real-photo-results
+          name: real-photo-results-${{ strategy.job-index }}
           path: stress_out/
           if-no-files-found: ignore
