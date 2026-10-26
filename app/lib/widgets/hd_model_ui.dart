@@ -216,7 +216,7 @@ class HdModelButton extends StatelessWidget {
         if (hd.isDownloading) {
           button = BackgroundChoiceButton(
             icon: Icons.downloading_rounded,
-            label: l10n.hdDownloading((hd.progress * 100).round().toString()),
+            label: l10n.hdDownloadingShort((hd.progress * 100).round().toString()),
             selected: false,
             onTap: () {},
           );
@@ -244,7 +244,7 @@ class HdModelButton extends StatelessWidget {
                 padding: const EdgeInsets.only(top: 2),
                 child: Text(
                   l10n.hdFailed,
-                  maxLines: 2,
+                  maxLines: 3,
                   overflow: TextOverflow.ellipsis,
                   style: Theme.of(context)
                       .textTheme

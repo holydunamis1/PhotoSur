@@ -23,6 +23,14 @@ Widget _host(SettingsProvider settings, {bool reduceMotion = false}) {
   );
 }
 
+Future<void> _oneCycle(WidgetTester tester) async {
+  await tester.pump(kHomeStripCycle - kHomeStripFade); // hold ends
+  await tester.pump(); // fade starts
+  for (var i = 0; i < 14; i++) {
+    await tester.pump(const Duration(milliseconds: 100));
+  }
+}
+
 void main() {
   setUp(() {
     Provider.debugCheckInvalidValueType = null;
@@ -41,13 +49,22 @@ void main() {
     expect(find.byType(Image), findsNothing);
   });
 
+  testWidgets('idle between fades: no frames scheduled', (tester) async {
+    final settings = SettingsProvider();
+    await tester.pumpWidget(_host(settings));
+    await tester.pump(const Duration(seconds: 2));
+    expect(tester.binding.hasScheduledFrame, isFalse);
+    await tester.pumpWidget(const SizedBox());
+  });
+
   testWidgets('moves to the next picture after one cycle', (tester) async {
     final settings = SettingsProvider();
     await tester.pumpWidget(_host(settings));
-    await tester.pump(kHomeStripCycle + const Duration(milliseconds: 100));
+    await _oneCycle(tester);
     expect(find.byKey(const ValueKey('home-strip-image-1')), findsOneWidget);
+    expect(find.byKey(const ValueKey('home-strip-image-0')), findsNothing);
 
-    // Remove the widget so the controller is disposed (no pending ticker).
+    // Remove the widget so the timer and controller are disposed.
     await tester.pumpWidget(const SizedBox());
   });
 
@@ -55,6 +72,7 @@ void main() {
       (tester) async {
     final settings = SettingsProvider();
     await tester.pumpWidget(_host(settings, reduceMotion: true));
+    await tester.pump(kHomeStripCycle * 2);
     await tester.pump(kHomeStripCycle * 2);
     expect(find.byKey(const ValueKey('home-strip-image-0')), findsOneWidget);
     expect(find.byKey(const ValueKey('home-strip-image-1')), findsNothing);

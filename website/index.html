@@ -10,8 +10,16 @@
 <body>
   <header class="site-header">
     <div class="container">
-      <img src="assets/logo.svg" alt="PhotoSur logo" class="logo" width="40" height="40" />
-      <span class="brand">PhotoSur</span>
+      <a class="brand-link" href="index.html" aria-label="PhotoSur home">
+        <img src="assets/logo.svg" alt="PhotoSur logo" class="logo" width="40" height="40" />
+        <span class="brand">PhotoSur</span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="index.html#features">Features</a>
+        <a href="index.html#faq">FAQ</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="support.html">Support</a>
+      </nav>
     </div>
   </header>
 
@@ -41,10 +49,10 @@
       </div>
     </section>
 
-    <section class="showcase">
+    <section class="showcase" id="features">
       <div class="container">
         <article class="row">
-          <img src="assets/feature-auto.png" alt="A photo before and after: the background replaced by a transparent checkerboard" width="600" height="450" loading="lazy" />
+          <img src="assets/feature-auto.webp" alt="A person photographed in a small room, split with the same person in front of a city street and a car: the background swapped in one tap" width="1080" height="806" loading="lazy" />
           <div>
             <h2>One tap, clean cut-out</h2>
             <p>Open a photo from your gallery or take one with the built-in camera. PhotoSur finds the subject and removes the background automatically. It runs on your phone, so it is fast, works without internet and your photos never get uploaded.</p>
@@ -53,7 +61,7 @@
         </article>
 
         <article class="row reverse">
-          <img src="assets/feature-manual.png" alt="Brush tool for erasing and restoring parts of a cut-out" width="600" height="450" loading="lazy" />
+          <img src="assets/feature-manual.webp" alt="A glass bottle being cut out, with a brush tool and crop handles around it" width="1080" height="806" loading="lazy" />
           <div>
             <h2>Fix the details with the brush</h2>
             <p>Zoom in and erase anything the AI left behind, or paint back parts you want to keep. Set the brush size and opacity, smooth the edges with one slider, and undo or redo any step.</p>
@@ -61,7 +69,7 @@
         </article>
 
         <article class="row">
-          <img src="assets/feature-studio.png" alt="A cut-out object placed on three different coloured backgrounds" width="600" height="450" loading="lazy" />
+          <img src="assets/feature-studio.webp" alt="A wristwatch on a white card in front of colourful background choices" width="1080" height="806" loading="lazy" />
           <div>
             <h2>Studio-ready backgrounds</h2>
             <p>Place your subject on white, black, any custom colour, a blur of the original or your own photo, or keep it transparent. Pick a ready-made template: studio scenes, colour blocks, textures, light and shadow, gradients and patterns.</p>
@@ -74,6 +82,15 @@
           <div>
             <h2>HD cut-out for tricky objects</h2>
             <p>Shoes, bags, bottles and glass are hard for any background remover. Download the optional HD model once and PhotoSur redoes the cut-out with much finer edges. It stays on your phone and works offline afterwards.</p>
+          </div>
+        </article>
+
+        <article class="row">
+          <img src="assets/feature-batch.webp" alt="A stack of product photo cards with a padlock, for batch cut-outs that stay private" width="1080" height="806" loading="lazy" />
+          <div>
+            <h2>Batch it, export it, keep it private</h2>
+            <p>Cut out up to 30 photos at once and save them as transparent PNGs or white-background JPGs, or export as PNG, JPG or WebP at the size you need.</p>
+            <p>Everything is processed on your phone. Your photos never leave it.</p>
           </div>
         </article>
       </div>
@@ -95,7 +112,7 @@
       </div>
     </section>
 
-    <section class="faq">
+    <section class="faq" id="faq">
       <div class="container">
         <h2>Questions</h2>
         <h3>Is PhotoSur free?</h3>
