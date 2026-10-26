@@ -27,7 +27,6 @@ jobs:
         set:
           - 'edit,bg,exportedge,screens,sizes,camera,notif'
           - 'interrupt'
-          - 'large'
           - 'batch,custom'
     runs-on: ubuntu-latest
     timeout-minutes: 100

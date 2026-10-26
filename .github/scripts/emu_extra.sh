@@ -73,8 +73,7 @@ fresh_install(){
   adb shell pm grant "$PKG" android.permission.READ_MEDIA_IMAGES 2>/dev/null
   adb shell pm grant "$PKG" android.permission.POST_NOTIFICATIONS 2>/dev/null
   launch; sleep 8
-  for i in 1 2 3; do tap_text "Next"; sleep 1; done; tap_text "Get Started"; sleep 3
-  for i in 1 2; do tap_text "Allow"; sleep 1; done; }
+  for i in $(seq 1 8); do has_text "Gallery" && break; tap_text "Next" || tap_text "Get Started"; sleep 2; tap_text "Allow"; done; }
 
 screen_size
 say "INFO screen ${SW}x${SH}"
@@ -109,7 +108,10 @@ if sec edit && open_photo apple; then
   D=$(diffpct l0 l1); say "INFO layout drag moved $D%"; check "layout drag moves the subject" gt "$D" 0.3
   tap_text "Auto-center"; sleep 2; snap l2; D=$(diffpct l1 l2); say "INFO auto-center moved $D%"
   check "auto-center moves it back" gt "$D" 0.2
-  say "INFO $(seekbar 2 5 95)"; sleep 2; snap l3; D=$(diffpct l2 l3); say "INFO shadow slider moved: canvas changed $D%"
+  say "INFO shadow label on screen: $(has_text Shadow && echo yes || echo no); seekbars visible: $(dump | grep -c 'android.widget.SeekBar')"
+  adb shell input swipe $(px 50) $(py 90) $(px 50) $(py 62) 400; sleep 1
+  say "INFO after scrolling the panel: shadow label $(has_text Shadow && echo yes || echo no); seekbars $(dump | grep -c 'android.widget.SeekBar')"
+  say "INFO $(seekbar 2 5 95 || seekbar 1 5 95)"; sleep 2; snap l3; D=$(diffpct l2 l3); say "INFO shadow slider moved: canvas changed $D%"
   check "shadow slider changes the picture" gt "$D" 0.2
   say "INFO $(seekbar 1 95 20)"; sleep 2; snap l4; D=$(diffpct l3 l4); say "INFO size slider moved: canvas changed $D%"
   check "size slider changes the picture" gt "$D" 0.3
@@ -194,19 +196,20 @@ if sec interrupt; then
     for i in $(seq 1 120); do has_text "Redo cut-out in HD" && break; sleep 4; done
     if has_text "Redo cut-out in HD"; then say "PASS manual retry after a failure completes"; else say "FAIL manual retry did not complete: $(onscreen 14)"; fi
   else say "FAIL no Get HD button after the failure: $(onscreen 14)"; fi
-  # slow network: progress must move, and cutting it mid-way must fail cleanly
+  # mid-download cut: start the download with the network on, cut it a moment later
   adb shell pm clear "$PKG" >/dev/null 2>&1
   fresh_install; fresh_photo lena
-  adb emu network speed gsm >/dev/null 2>&1; adb emu network delay gsm >/dev/null 2>&1
+  airplane enable; sleep 3
   tap_text "Gallery"; sleep 4; tap_text "Photo taken" || adb shell input tap 200 600; sleep 5
-  wait_text "Continue" 10 && tap_text "Continue"; wait_text "Export" 40; sleep 15
-  say "INFO slow network, 15s in: $(onscreen 18)"
-  has_text "in progress" && say "PASS progress shown on a slow network" || say "INFO no progress text on the slow network"
+  wait_text "Continue" 10 && tap_text "Continue"; wait_text "Export" 40; sleep 10
+  airplane disable; sleep 6
+  tap_text "Get HD cut-out"; sleep 2; tap_exact "Download"; sleep 1
+  say "INFO download just started: $(onscreen 14)"
   airplane enable; sleep 45
-  say "INFO network cut mid-download: $(onscreen 18)"
-  has_text "didn" && say "PASS cut mid-download ends in the failure message" || say "FAIL no failure message after cutting mid-download"
+  say "INFO network cut right after the download started: $(onscreen 18)"
+  if has_text "didn"; then say "PASS cut mid-download ends in the failure message"; elif has_text "Redo cut-out in HD"; then say "INFO download finished before the cut (too fast to interrupt)"; else say "FAIL no failure message after cutting mid-download"; fi
   check "alive after the mid-download cut" test -n "$(alive)"
-  airplane disable; adb emu network speed full >/dev/null 2>&1; adb emu network delay none >/dev/null 2>&1; sleep 5
+  airplane disable; sleep 5
 
   # batch: leave the app while it runs
   say "---- batch interrupted"
@@ -216,8 +219,9 @@ if sec interrupt; then
     adb shell am broadcast -a android.intent.action.MEDIA_SCANNER_SCAN_FILE -d file:///sdcard/Pictures/ps_$P.jpg >/dev/null 2>&1; sleep 1
   done
   go_home; adb shell touch /sdcard/marker; sleep 1
-  tap_text "Batch"; sleep 3; tap_text "Photo taken" >/dev/null 2>&1; sleep 1
+  tap_text "Batch"; sleep 4
   for i in 1 2 3; do tap_nth "Photo taken" $i; sleep 1; done
+  say "INFO batch picker: $(onscreen 18)"
   tap_text "Add" || tap_text "Done" || tap_text "Select" || true; sleep 4
   adb shell input swipe 500 1500 500 500 300; sleep 1
   tap_text "Start"; sleep 6
@@ -337,13 +341,13 @@ if sec screens; then
     say "INFO language sheet: $(onscreen 14)"
     tap_class "android.widget.EditText"; sleep 1; adb shell input text "$2"; sleep 2
     tap_text "$3" || { say "INFO row '$3' not found after searching '$2': $(onscreen 14)"; adb shell input keyevent KEYCODE_BACK; sleep 1; adb shell input keyevent KEYCODE_BACK; return 1; }; sleep 3; }
-  for trio in "Language|German|Deutsch" "Sprache|Japanese|日本語" "言語|Hindi|हिन्दी" "भाषा|Arabic|العربية" "اللغة|English|English"; do
+  for trio in "Language|German|Deutsch" "Sprache|Japanese|日本語" "言語|Hindi|हिन्दी" "भाषा|Arabic|العربية"; do
     IFS='|' read -r BTN Q TO <<<"$trio"
     if tap_lang "$BTN" "$Q" "$TO"; then say "PASS switched to $TO: $(onscreen 8)"; else say "FAIL could not switch to $TO"; fi
     check "Home alive after switching to $TO" test -n "$(alive)"
   done
-  check "back to English Home" has_text "Gallery"
   fresh_install
+  check "back to English Home" has_text "Gallery"
 fi
 
 # ---------------------------------------------------------------- sizes

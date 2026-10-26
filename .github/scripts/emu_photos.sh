@@ -86,9 +86,7 @@ adb logcat -c
 adb shell pm grant "$PKG" android.permission.POST_NOTIFICATIONS 2>/dev/null
 adb shell pm grant "$PKG" android.permission.READ_MEDIA_IMAGES 2>/dev/null
 launch; sleep 8
-for i in 1 2 3; do tap_text "Next"; sleep 1; done
-tap_text "Get Started"; sleep 3
-for i in 1 2; do tap_text "Allow"; sleep 1; done
+for i in $(seq 1 8); do has_text "Gallery" && break; tap_text "Next" || tap_text "Get Started"; sleep 2; tap_text "Allow"; done
 wait_text "Gallery" 10 || say "FAIL setup: Home not reached: $(onscreen)"
 
 sec photos && for P in apple messi5 fruits orange butterfly building lena; do
@@ -209,8 +207,6 @@ go_home; sleep 2
 adb shell touch /sdcard/marker; sleep 1
 tap_text "Batch"; sleep 3
 say "INFO batch screen: $(onscreen 12)"
-tap_text "Photo taken" >/dev/null 2>&1   # picker may open straight away
-sleep 1
 for i in 1 2 3; do tap_nth "Photo taken" $i; sleep 1; done
 say "INFO batch picker after 3 taps: $(onscreen 16)"
 tap_text "Add" || tap_text "Done" || tap_text "Select" || true
