@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 
 import '../core/models/editable_image_state.dart';
 import '../core/providers/image_edit_provider.dart';
+import '../core/providers/settings_provider.dart';
 import '../core/theme/app_tokens.dart';
 import '../generated/l10n/app_localizations.dart';
 import '../platform/image_prep_service.dart';
@@ -33,6 +34,14 @@ Future<bool> confirmHdDownload(BuildContext context) async {
     ),
   );
   if (ok != true) return false;
+  try {
+    if (context.mounted) {
+      Provider.of<SettingsProvider>(context, listen: false)
+          .setHdRemovedByUser(false);
+    }
+  } catch (_) {
+    // No settings in scope: the download still starts.
+  }
   ModelDownloadService.instance.download();
   return true;
 }
@@ -163,7 +172,15 @@ class HdModelTile extends StatelessWidget {
           case HdModelStatus.installed:
             subtitle = l10n.settingsHdInstalled;
             trailing = TextButton(
-              onPressed: ModelDownloadService.instance.remove,
+              onPressed: () {
+                try {
+                  Provider.of<SettingsProvider>(context, listen: false)
+                      .setHdRemovedByUser(true);
+                } catch (_) {
+                  // No settings in scope: removal itself still happens.
+                }
+                ModelDownloadService.instance.remove();
+              },
               child: Text(l10n.settingsHdRemove),
             );
           case HdModelStatus.downloading:

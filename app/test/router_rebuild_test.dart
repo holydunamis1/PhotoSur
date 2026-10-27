@@ -73,7 +73,7 @@ void main() {
     final settings = ValueNotifier<int>(0);
     await _pump(tester, settings);
     final before = _created;
-    settings.value = 1; // e.g. markHdAutoDownloadTried
+    settings.value = 1; // e.g. setHdRemovedByUser
     await tester.pumpAndSettle();
     expect(_created, before);
   });
