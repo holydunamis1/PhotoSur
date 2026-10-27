@@ -80,6 +80,55 @@ Locale? localeForSetting(String code) {
   return null;
 }
 
+/// Old or alternative language codes phones still report, mapped to the code
+/// the app ships.
+const Map<String, String> _languageAliases = {
+  'iw': 'he', 'in': 'id', 'tl': 'fil', 'no': 'nb', 'nn': 'nb',
+};
+
+/// Which shipped language to start in for the phone's language list (the
+/// "System default" setting, and every first install).
+///
+/// - the first phone language the app ships wins, so a phone set to
+///   Croatian then German starts in German;
+/// - Traditional Chinese for a Hant script or Taiwan, Hong Kong and Macau,
+///   Simplified otherwise;
+/// - a phone with none of the shipped languages gets English, never an
+///   arbitrary language (the list is alphabetical, so the default would
+///   otherwise be Arabic).
+Locale resolveAppLocale(List<Locale>? wanted, Iterable<Locale> supported) {
+  final list = supported.toList();
+  final english = list.firstWhere((l) => l.languageCode == 'en',
+      orElse: () => list.first);
+  for (final w in wanted ?? const <Locale>[]) {
+    final lang = _languageAliases[w.languageCode] ?? w.languageCode;
+    if (lang == 'zh') {
+      final traditional = w.scriptCode == 'Hant' ||
+          (w.scriptCode == null &&
+              const {'TW', 'HK', 'MO'}.contains(w.countryCode));
+      for (final s in list) {
+        if (s.languageCode == 'zh' && (s.scriptCode == 'Hant') == traditional) {
+          return s;
+        }
+      }
+    }
+    for (final s in list) {
+      if (s.languageCode == lang &&
+          s.scriptCode != null &&
+          s.scriptCode == w.scriptCode) {
+        return s;
+      }
+    }
+    for (final s in list) {
+      if (s.languageCode == lang && s.scriptCode == null) return s;
+    }
+    for (final s in list) {
+      if (s.languageCode == lang) return s;
+    }
+  }
+  return english;
+}
+
 String themeLabel(AppLocalizations l10n, ThemeMode mode) {
   switch (mode) {
     case ThemeMode.system:

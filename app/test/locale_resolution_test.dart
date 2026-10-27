@@ -6,11 +6,9 @@ import 'package:photosur/widgets/preference_sheets.dart';
 /// What Flutter picks for a phone's system language when the app setting is
 /// "System default" (a first install). Uses the same resolution Flutter runs
 /// at start-up, with the app's real supported locales.
-String _pick(Locale system) {
-  final r = basicLocaleListResolution(
-      [system], AppLocalizations.supportedLocales);
-  return r.toLanguageTag();
-}
+String _pick(Locale system) => resolveAppLocale(
+        [system], AppLocalizations.supportedLocales)
+    .toLanguageTag();
 
 Locale _l(String tag) {
   final p = tag.split('-');
@@ -40,6 +38,8 @@ void main() {
     'hi-IN': 'hi', 'bn-BD': 'bn', 'bn-IN': 'bn', 'mr-IN': 'mr', 'gu-IN': 'gu',
     'ta-IN': 'ta', 'te-IN': 'te', 'ml-IN': 'ml',
     'id-ID': 'id', 'ms-MY': 'ms', 'fil-PH': 'fil', 'vi-VN': 'vi', 'th-TH': 'th',
+    // Old codes some phones still report.
+    'iw-IL': 'he', 'in-ID': 'id', 'tl-PH': 'fil', 'no-NO': 'nb', 'nn-NO': 'nb',
     'ja-JP': 'ja', 'ko-KR': 'ko', 'sw-KE': 'sw', 'sw-TZ': 'sw',
     // Chinese: simplified for mainland and Singapore, traditional for
     // Taiwan, Hong Kong and Macau, with or without an explicit script.
@@ -67,9 +67,16 @@ void main() {
         reason: 'Wrong start language for: ${wrong.join('; ')}');
   });
 
-  test('the first supported locale is a safe fallback', () {
-    expect(AppLocalizations.supportedLocales.first.languageCode, 'en',
-        reason: 'order starts with ${AppLocalizations.supportedLocales.take(4).join(',')}');
+  test('the first phone language the app ships wins', () {
+    final supported = AppLocalizations.supportedLocales;
+    expect(resolveAppLocale([_l('hr-HR'), _l('de-DE')], supported).languageCode,
+        'de');
+    expect(resolveAppLocale([_l('af-ZA'), _l('en-US')], supported).languageCode,
+        'en');
+    expect(resolveAppLocale([_l('zu-ZA'), _l('zh-TW')], supported).toLanguageTag(),
+        contains('Hant'));
+    expect(resolveAppLocale(null, supported).languageCode, 'en');
+    expect(resolveAppLocale(const [], supported).languageCode, 'en');
   });
 
   test('manual choice overrides the system language', () {

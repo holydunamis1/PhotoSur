@@ -81,6 +81,7 @@ class PhotoSurApp extends StatelessWidget {
                   localizationsDelegates:
                       AppLocalizations.localizationsDelegates,
                   supportedLocales: AppLocalizations.supportedLocales,
+                  localeListResolutionCallback: resolveAppLocale,
               );
             },
           );
