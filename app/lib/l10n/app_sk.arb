@@ -1,9 +1,9 @@
 {
   "@@locale": "sk",
-
   "appTitle": "PhotoSur",
-  "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
-
+  "@appTitle": {
+    "description": "App name, shown in home_screen app bar and OS task switcher"
+  },
   "onboardingPage1Title": "Odstráňte pozadie okamžite. Všetky funkcie zadarmo.",
   "onboardingPage1Body": "Otvorte fotku a umelá inteligencia vo vašom zariadení automaticky odstráni pozadie — bez pripojenia na internet. Môžete tiež použiť vlastné pozadie.",
   "onboardingPage2Title": "Doladte štetcom",
@@ -14,7 +14,6 @@
   "onboardingPage4Body": "Vystrihnite až 30 fotiek naraz a exportujte ich ako PNG, JPG alebo WEBP. Vaše fotky nikdy neopustia telefón. K dispozícii v 43 jazykoch.",
   "onboardingNext": "Ďalej",
   "onboardingGetStarted": "Začať",
-
   "homeCameraButton": "Fotoaparát",
   "homeGalleryButton": "Galéria",
   "dateToday": "Dnes",
@@ -24,7 +23,6 @@
   "homeExportUnavailable": "Tento export už nie je dostupný.",
   "homeShareFailed": "Tento export sa nepodarilo zdieľať.",
   "homeGalleryOpenFailed": "Galériu sa nepodarilo otvoriť.",
-
   "cameraTitle": "Fotoaparát",
   "cameraPermissionDenied": "Na vytvorenie fotky je potrebný prístup k fotoaparátu. Povoľte ho, prosím.",
   "cameraPermissionPermanentlyDenied": "Prístup k fotoaparátu bol zamietnutý. Ak chcete pokračovať, povoľte ho v Nastaveniach.",
@@ -35,7 +33,6 @@
   "cameraOpenSettings": "Otvoriť Nastavenia",
   "cameraFlashTooltip": "Blesk",
   "cameraGalleryTooltip": "Galéria",
-
   "cropTitle": "Orezať a otočiť",
   "cropLoadFailed": "Obrázok sa nepodarilo načítať.",
   "cropRotateFailed": "Obrázok sa nepodarilo otočiť.",
@@ -46,35 +43,35 @@
   "cropAspect4x5": "4:5",
   "cropAspect9x16": "9:16",
   "cropContinue": "Pokračovať",
-
   "editorSegmentationFailedMessage": "Vaše zariadenie nepodporuje automatické odstránenie pozadia. Použite ručnú gumu nižšie.",
-
   "brushErase": "Zmazať",
   "brushRestore": "Obnoviť",
   "brushSizeLabel": "Veľkosť štetca",
   "brushOpacityLabel": "Priehľadnosť",
-
   "backgroundWhite": "Biela",
   "backgroundTransparent": "Priehľadné",
   "backgroundBlack": "Čierna",
   "backgroundBlurLabel": "Rozmazanie",
-
   "edgeFeatherLabel": "Mäkkosť okrajov",
-
   "toolbarUndo": "Späť",
   "toolbarRedo": "Znova",
-  "toolbarReset": "Obnoviť",
+  "toolbarReset": "Resetovať",
   "toolbarExport": "Exportovať",
-  "resetConfirmTitle": "Obnoviť úpravy?",
+  "resetConfirmTitle": "Resetovať úpravy?",
   "resetConfirmBody": "Týmto sa zmažú vaše ručne namaľované ťahy štetcom. Akciu nemožno vrátiť späť.",
   "resetConfirmCancel": "Zrušiť",
-  "resetConfirmConfirm": "Obnoviť",
-
+  "resetConfirmConfirm": "Resetovať",
   "exportTitle": "Export",
   "exportFormatPng": "PNG",
   "exportFormatJpg": "JPG",
   "exportQualityLabel": "Kvalita: {value}",
-  "@exportQualityLabel": {"placeholders": {"value": {"type": "int"}}},
+  "@exportQualityLabel": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
   "exportFormatWebp": "WEBP",
   "exportResizeLabel": "Zmena veľkosti",
   "exportResizeOriginal": "Originál",
@@ -86,7 +83,6 @@
   "exportSuccess": "Exportované!",
   "exportFailed": "Export zlyhal. Skúste to znova.",
   "exportInProgress": "Exportuje sa…",
-
   "settingsTitle": "Nastavenia",
   "settingsTheme": "Motív",
   "settingsLanguage": "Jazyk",
@@ -128,7 +124,6 @@
   "settingsRestoreFailed": "Obnovenie zlyhalo.",
   "settingsShareFailed": "Zdieľanie zlyhalo.",
   "settingsShareAppMessage": "Odstráňte pozadie fotiek okamžite s PhotoSur — zadarmo, bez vodotlače.",
-
   "paywallTitle": "Bez reklám",
   "paywallAlreadyAdFree": "Reklamy už nevidíte. Ďakujeme!",
   "paywallPlanFreeTitle": "Zadarmo",
@@ -140,17 +135,27 @@
   "paywallFeatureZeroAds": "Žiadne reklamy",
   "paywallPurchaseButton": "Odstrániť reklamy",
   "paywallPurchaseButtonPrice": "Odstrániť reklamy — {price}",
-  "@paywallPurchaseButtonPrice": {"placeholders": {"price": {"type": "String"}}},
+  "@paywallPurchaseButtonPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
   "paywallRestorePurchases": "Obnoviť nákupy",
   "paywallProductUnavailable": "Odstránenie reklám teraz nie je dostupné.",
   "paywallPurchaseFailed": "Nákup zlyhal.",
-
   "errorScreenTitle": "Niečo sa pokazilo",
   "errorScreenBody": "Skúste to znova alebo reštartujte aplikáciu, ak problém pretrváva.",
   "errorScreenGoBack": "Späť",
   "errorScreenReportEmail": "Nahlásiť na {email}",
-  "@errorScreenReportEmail": {"placeholders": {"email": {"type": "String"}}},
-
+  "@errorScreenReportEmail": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
   "unsupportedTitle": "Zariadenie nie je podporované",
   "unsupportedNoCameraMessage": "Toto zariadenie nemá dostupný fotoaparát.",
   "unsupportedLowMemoryMessage": "Toto zariadenie nemá dostatok pamäte na spoľahlivý chod editora PhotoSur.",
@@ -234,7 +239,7 @@
   "helpBrush1": "Zmazať odstráni časti objektu. Obnoviť vráti časti, ktoré vystrihnutie odobralo.",
   "helpBrush2": "Ťahaním jedného prsta maľujete. Dvoma prstami približujete, až 8-krát, a posúvate fotku. Štetec si na obrazovke drží rovnakú veľkosť, takže pri priblížení pracujete presnejšie.",
   "helpBrush3": "Veľkosť štetca je od 1 do 50. Priehľadnosť určuje silu každého ťahu.",
-  "helpBrush4": "Späť a Znova prechádzajú vaše ťahy štetcom. Obnoviť zmaže všetky ťahy a vráti sa k automatickému vystrihnutiu; predtým sa zobrazí žiadosť o potvrdenie.",
+  "helpBrush4": "Späť a Znova prechádzajú vaše ťahy štetcom. Resetovať zmaže všetky ťahy a vráti sa k automatickému vystrihnutiu; predtým sa zobrazí žiadosť o potvrdenie.",
   "helpBackgroundTitle": "Pozadie",
   "helpBackground1": "Vyberte, čo je za objektom: priehľadné, biele, čierne, prechod, farba, rozmazaná kópia vašej fotky alebo vaša vlastná fotka.",
   "helpBackground2": "Naraz sa používa len jedno pozadie. Váš posledný výber nahradí predchádzajúci.",
@@ -246,7 +251,7 @@
   "helpLayoutTitle": "Rozloženie",
   "helpLayout1": "Presunutím objektu po fotke ho posuniete. Stiahnutím dvoch prstov zmeníte jeho veľkosť.",
   "helpLayout2": "Vyberte Originál, 1:1, 4:5 alebo 9:16 a nastavte tvar výsledného obrázka.",
-  "helpLayout3": "Veľkosť určuje, aký veľký je objekt, od 20 % do 300 %. Tieň určuje silu jeho tieňa. Vycentrovať vráti objekt do stredu. Obnoviť vráti späť posuny a zmeny veľkosti.",
+  "helpLayout3": "Veľkosť určuje, aký veľký je objekt, od 20 % do 300 %. Tieň určuje silu jeho tieňa. Vycentrovať vráti objekt do stredu. Resetovať vráti späť posuny a zmeny veľkosti.",
   "helpLayout4": "Tento tvar platí, keď je veľkosť exportu Originál. Ak v exportnom liste vyberiete preddefinovanú veľkosť alebo trhovisko, o konečnom tvare rozhoduje ono.",
   "helpExportTitle": "Exportovať",
   "helpExport1": "Ťuknutím na Exportovať otvoríte exportný list. Nič sa neuplatní, kým neťuknete na Uložiť do Galérie alebo Zdieľať, takže svoj výber môžete meniť, koľkokrát chcete.",

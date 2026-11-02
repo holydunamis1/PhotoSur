@@ -1,9 +1,9 @@
 {
   "@@locale": "el",
-
   "appTitle": "PhotoSur",
-  "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
-
+  "@appTitle": {
+    "description": "App name, shown in home_screen app bar and OS task switcher"
+  },
   "onboardingPage1Title": "Αφαιρέστε φόντο άμεσα. Όλες οι λειτουργίες δωρεάν.",
   "onboardingPage1Body": "Ανοίξτε μια φωτογραφία και η τεχνητή νοημοσύνη της συσκευής σας αφαιρεί αυτόματα το φόντο — χωρίς σύνδεση στο διαδίκτυο. Μπορείτε επίσης να το αντικαταστήσετε με δικό σας φόντο.",
   "onboardingPage2Title": "Τελειοποιήστε με το πινέλο",
@@ -14,7 +14,6 @@
   "onboardingPage4Body": "Αφαιρέστε το φόντο έως και 30 φωτογραφιών μονομιάς και εξαγάγετε σε PNG, JPG ή WEBP. Οι φωτογραφίες σας δεν φεύγουν ποτέ από το τηλέφωνό σας. Διαθέσιμο σε 43 γλώσσες.",
   "onboardingNext": "Επόμενο",
   "onboardingGetStarted": "Ξεκινήστε",
-
   "homeCameraButton": "Κάμερα",
   "homeGalleryButton": "Συλλογή",
   "dateToday": "Σήμερα",
@@ -24,7 +23,6 @@
   "homeExportUnavailable": "Αυτή η εξαγωγή δεν είναι πλέον διαθέσιμη.",
   "homeShareFailed": "Δεν ήταν δυνατή η κοινοποίηση αυτής της εξαγωγής.",
   "homeGalleryOpenFailed": "Δεν ήταν δυνατό το άνοιγμα της συλλογής.",
-
   "cameraTitle": "Κάμερα",
   "cameraPermissionDenied": "Χρειάζεται πρόσβαση στην κάμερα για να τραβήξετε φωτογραφία. Επιτρέψτε την πρόσβαση.",
   "cameraPermissionPermanentlyDenied": "Η πρόσβαση στην κάμερα απορρίφθηκε. Ενεργοποιήστε την από τις Ρυθμίσεις για να συνεχίσετε.",
@@ -35,7 +33,6 @@
   "cameraOpenSettings": "Άνοιγμα Ρυθμίσεων",
   "cameraFlashTooltip": "Φλας",
   "cameraGalleryTooltip": "Συλλογή",
-
   "cropTitle": "Περικοπή και περιστροφή",
   "cropLoadFailed": "Δεν ήταν δυνατή η φόρτωση της εικόνας.",
   "cropRotateFailed": "Δεν ήταν δυνατή η περιστροφή της εικόνας.",
@@ -46,21 +43,16 @@
   "cropAspect4x5": "4:5",
   "cropAspect9x16": "9:16",
   "cropContinue": "Συνέχεια",
-
   "editorSegmentationFailedMessage": "Η συσκευή σας δεν υποστηρίζει την αυτόματη αφαίρεση φόντου. Χρησιμοποιήστε τη χειροκίνητη γόμα παρακάτω.",
-
   "brushErase": "Διαγραφή",
-  "brushRestore": "Επαναφορά",
+  "brushRestore": "Αποκατάσταση",
   "brushSizeLabel": "Μέγεθος πινέλου",
   "brushOpacityLabel": "Αδιαφάνεια",
-
   "backgroundWhite": "Λευκό",
   "backgroundTransparent": "Διαφανές",
   "backgroundBlack": "Μαύρο",
   "backgroundBlurLabel": "Θόλωμα",
-
   "edgeFeatherLabel": "Απαλότητα άκρων",
-
   "toolbarUndo": "Αναίρεση",
   "toolbarRedo": "Επανάληψη",
   "toolbarReset": "Επαναφορά",
@@ -69,12 +61,17 @@
   "resetConfirmBody": "Αυτό διαγράφει τις χειροκίνητες πινελιές σας. Η ενέργεια δεν αναιρείται.",
   "resetConfirmCancel": "Ακύρωση",
   "resetConfirmConfirm": "Επαναφορά",
-
   "exportTitle": "Εξαγωγή",
   "exportFormatPng": "PNG",
   "exportFormatJpg": "JPG",
   "exportQualityLabel": "Ποιότητα: {value}",
-  "@exportQualityLabel": {"placeholders": {"value": {"type": "int"}}},
+  "@exportQualityLabel": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
   "exportFormatWebp": "WEBP",
   "exportResizeLabel": "Αλλαγή μεγέθους",
   "exportResizeOriginal": "Αρχικό",
@@ -86,7 +83,6 @@
   "exportSuccess": "Η εξαγωγή ολοκληρώθηκε!",
   "exportFailed": "Η εξαγωγή απέτυχε. Δοκιμάστε ξανά.",
   "exportInProgress": "Εξαγωγή…",
-
   "settingsTitle": "Ρυθμίσεις",
   "settingsTheme": "Θέμα",
   "settingsLanguage": "Γλώσσα",
@@ -128,7 +124,6 @@
   "settingsRestoreFailed": "Η επαναφορά απέτυχε.",
   "settingsShareFailed": "Δεν ήταν δυνατή η κοινοποίηση.",
   "settingsShareAppMessage": "Αφαιρέστε άμεσα το φόντο των φωτογραφιών με το PhotoSur — δωρεάν, χωρίς υδατογράφημα.",
-
   "paywallTitle": "Χωρίς διαφημίσεις",
   "paywallAlreadyAdFree": "Δεν βλέπετε ήδη διαφημίσεις. Ευχαριστούμε!",
   "paywallPlanFreeTitle": "Δωρεάν",
@@ -140,17 +135,27 @@
   "paywallFeatureZeroAds": "Καμία διαφήμιση",
   "paywallPurchaseButton": "Κατάργηση διαφημίσεων",
   "paywallPurchaseButtonPrice": "Κατάργηση διαφημίσεων — {price}",
-  "@paywallPurchaseButtonPrice": {"placeholders": {"price": {"type": "String"}}},
+  "@paywallPurchaseButtonPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
   "paywallRestorePurchases": "Επαναφορά αγορών",
   "paywallProductUnavailable": "Η κατάργηση διαφημίσεων δεν είναι διαθέσιμη αυτή τη στιγμή.",
   "paywallPurchaseFailed": "Η αγορά απέτυχε.",
-
   "errorScreenTitle": "Κάτι πήγε στραβά",
   "errorScreenBody": "Δοκιμάστε ξανά ή κάντε επανεκκίνηση της εφαρμογής αν το πρόβλημα επιμένει.",
   "errorScreenGoBack": "Επιστροφή",
   "errorScreenReportEmail": "Αναφορά μέσω {email}",
-  "@errorScreenReportEmail": {"placeholders": {"email": {"type": "String"}}},
-
+  "@errorScreenReportEmail": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
   "unsupportedTitle": "Η συσκευή δεν υποστηρίζεται",
   "unsupportedNoCameraMessage": "Αυτή η συσκευή δεν διαθέτει διαθέσιμη κάμερα.",
   "unsupportedLowMemoryMessage": "Αυτή η συσκευή δεν έχει αρκετή μνήμη για να εκτελεί αξιόπιστα τον επεξεργαστή του PhotoSur.",
@@ -231,7 +236,7 @@
   "helpCutout3": "Το κουμπί με το μάτι στο πάνω μέρος δείχνει την αρχική φωτογραφία για σύγκριση. Πατήστε το ξανά για να επιστρέψετε. Το πινέλο είναι σε παύση όσο φαίνεται το πρωτότυπο.",
   "helpCutout4": "Για δύσκολα θέματα, όπως γυαλί, παπούτσια, τσάντες και μπουκάλια, πατήστε Λήψη HD αποκοπής. Το μοντέλο HD κατεβαίνει μία φορά, μένει στο τηλέφωνό σας και μετά λειτουργεί χωρίς σύνδεση. Μόλις εγκατασταθεί, κάθε νέα αποκοπή το χρησιμοποιεί αυτόματα. Για να ξανακάνετε την ανοιχτή φωτογραφία, πατήστε Επανάληψη αποκοπής σε HD.",
   "helpBrushTitle": "Πινέλο",
-  "helpBrush1": "Η Διαγραφή αφαιρεί τμήματα του θέματος. Η Επαναφορά επαναφέρει τμήματα που αφαίρεσε η αποκοπή.",
+  "helpBrush1": "Η Διαγραφή αφαιρεί τμήματα του θέματος. Η Αποκατάσταση επαναφέρει τμήματα που αφαίρεσε η αποκοπή.",
   "helpBrush2": "Σύρετε ένα δάχτυλο για να ζωγραφίσετε. Χρησιμοποιήστε δύο δάχτυλα για να μεγεθύνετε, έως 8 φορές, και να μετακινήσετε τη φωτογραφία. Το πινέλο διατηρεί το μέγεθός του στην οθόνη, οπότε με μεγέθυνση δουλεύετε πιο ακριβώς.",
   "helpBrush3": "Το Μέγεθος πινέλου κυμαίνεται από 1 έως 50. Η Αδιαφάνεια ορίζει πόσο έντονο είναι κάθε πινέλιασμα.",
   "helpBrush4": "Η Αναίρεση και η Επανάληψη διατρέχουν τα πινελιάσματά σας. Η Επαναφορά διαγράφει όλα τα πινελιάσματα και επιστρέφει στην αυτόματη αποκοπή· πρώτα ζητείται επιβεβαίωση.",
