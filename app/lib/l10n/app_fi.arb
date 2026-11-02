@@ -1,9 +1,9 @@
 {
   "@@locale": "fi",
-
   "appTitle": "PhotoSur",
-  "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
-
+  "@appTitle": {
+    "description": "App name, shown in home_screen app bar and OS task switcher"
+  },
   "onboardingPage1Title": "Poista taustat heti. Kaikki ominaisuudet ilmaisia.",
   "onboardingPage1Body": "Avaa kuva, niin laitteellasi toimiva tekoäly poistaa taustan automaattisesti — ilman internetyhteyttä. Voit myös vaihtaa tilalle oman taustasi.",
   "onboardingPage2Title": "Hienosäädä siveltimellä",
@@ -14,7 +14,6 @@
   "onboardingPage4Body": "Poista jopa 30 kuvan tausta kerralla ja vie kuvat PNG-, JPG- tai WEBP-muodossa. Kuvasi eivät koskaan poistu puhelimestasi. Saatavilla 43 kielellä.",
   "onboardingNext": "Seuraava",
   "onboardingGetStarted": "Aloita",
-
   "homeCameraButton": "Kamera",
   "homeGalleryButton": "Galleria",
   "dateToday": "Tänään",
@@ -24,7 +23,6 @@
   "homeExportUnavailable": "Tämä vienti ei ole enää saatavilla.",
   "homeShareFailed": "Tämän viennin jakaminen epäonnistui.",
   "homeGalleryOpenFailed": "Galleriaa ei voitu avata.",
-
   "cameraTitle": "Kamera",
   "cameraPermissionDenied": "Kuvan ottaminen vaatii kameran käyttöoikeuden. Salli käyttö.",
   "cameraPermissionPermanentlyDenied": "Kameran käyttö estettiin. Ota se käyttöön Asetuksissa jatkaaksesi.",
@@ -35,7 +33,6 @@
   "cameraOpenSettings": "Avaa Asetukset",
   "cameraFlashTooltip": "Salama",
   "cameraGalleryTooltip": "Galleria",
-
   "cropTitle": "Rajaa ja kierrä",
   "cropLoadFailed": "Kuvaa ei voitu ladata.",
   "cropRotateFailed": "Kuvaa ei voitu kiertää.",
@@ -46,21 +43,16 @@
   "cropAspect4x5": "4:5",
   "cropAspect9x16": "9:16",
   "cropContinue": "Jatka",
-
   "editorSegmentationFailedMessage": "Laitteesi ei tue taustan automaattista poistoa. Käytä alla olevaa manuaalista pyyhekumia.",
-
   "brushErase": "Pyyhi",
   "brushRestore": "Palauta",
   "brushSizeLabel": "Siveltimen koko",
   "brushOpacityLabel": "Peittävyys",
-
   "backgroundWhite": "Valkoinen",
   "backgroundTransparent": "Läpinäkyvä",
   "backgroundBlack": "Musta",
   "backgroundBlurLabel": "Sumennus",
-
   "edgeFeatherLabel": "Reunojen pehmeys",
-
   "toolbarUndo": "Kumoa",
   "toolbarRedo": "Tee uudelleen",
   "toolbarReset": "Nollaa",
@@ -69,12 +61,17 @@
   "resetConfirmBody": "Tämä tyhjentää käsin tekemäsi siveltimenvedot. Toimintoa ei voi kumota.",
   "resetConfirmCancel": "Peruuta",
   "resetConfirmConfirm": "Nollaa",
-
   "exportTitle": "Vie",
   "exportFormatPng": "PNG",
   "exportFormatJpg": "JPG",
   "exportQualityLabel": "Laatu: {value}",
-  "@exportQualityLabel": {"placeholders": {"value": {"type": "int"}}},
+  "@exportQualityLabel": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
   "exportFormatWebp": "WEBP",
   "exportResizeLabel": "Muuta kokoa",
   "exportResizeOriginal": "Alkuperäinen",
@@ -86,7 +83,6 @@
   "exportSuccess": "Viety!",
   "exportFailed": "Vienti epäonnistui. Yritä uudelleen.",
   "exportInProgress": "Viedään…",
-
   "settingsTitle": "Asetukset",
   "settingsTheme": "Teema",
   "settingsLanguage": "Kieli",
@@ -128,7 +124,6 @@
   "settingsRestoreFailed": "Palautus epäonnistui.",
   "settingsShareFailed": "Jakaminen epäonnistui.",
   "settingsShareAppMessage": "Poista kuvien taustat hetkessä PhotoSurlla — ilmaiseksi ja ilman vesileimaa.",
-
   "paywallTitle": "Poista mainokset",
   "paywallAlreadyAdFree": "Käytät jo sovellusta ilman mainoksia. Kiitos!",
   "paywallPlanFreeTitle": "Ilmainen",
@@ -140,24 +135,34 @@
   "paywallFeatureZeroAds": "Ei mainoksia",
   "paywallPurchaseButton": "Poista mainokset",
   "paywallPurchaseButtonPrice": "Poista mainokset — {price}",
-  "@paywallPurchaseButtonPrice": {"placeholders": {"price": {"type": "String"}}},
+  "@paywallPurchaseButtonPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
   "paywallRestorePurchases": "Palauta ostokset",
   "paywallProductUnavailable": "Mainosten poisto ei ole juuri nyt saatavilla.",
   "paywallPurchaseFailed": "Osto epäonnistui.",
-
   "errorScreenTitle": "Jokin meni pieleen",
   "errorScreenBody": "Yritä uudelleen tai käynnistä sovellus uudelleen, jos ongelma toistuu.",
   "errorScreenGoBack": "Takaisin",
   "errorScreenReportEmail": "Ilmoita osoitteeseen {email}",
-  "@errorScreenReportEmail": {"placeholders": {"email": {"type": "String"}}},
-
+  "@errorScreenReportEmail": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
   "unsupportedTitle": "Laitetta ei tueta",
   "unsupportedNoCameraMessage": "Tällä laitteella ei ole käytettävissä olevaa kameraa.",
   "unsupportedLowMemoryMessage": "Tällä laitteella ei ole tarpeeksi muistia PhotoSurn editorin luotettavaan ajamiseen.",
   "unsupportedManualImportHint": "Voit silti tuoda kuvan galleriasta ja käyttää manuaalista sivellintä.",
   "unsupportedUseGalleryButton": "Tuo Galleriasta",
   "homeBatchButton": "Erä",
-  "batchTitle": "Erä-leikkaus",
+  "batchTitle": "Erärajaus",
   "batchOutputTransparent": "Läpinäkyvä PNG",
   "batchOutputWhite": "Valkoinen tausta (JPG)",
   "batchStart": "Aloita",
