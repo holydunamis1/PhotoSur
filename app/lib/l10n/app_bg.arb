@@ -1,9 +1,9 @@
 {
   "@@locale": "bg",
-
   "appTitle": "PhotoSur",
-  "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
-
+  "@appTitle": {
+    "description": "App name, shown in home_screen app bar and OS task switcher"
+  },
   "onboardingPage1Title": "Премахвайте фонове мигновено. Всички функции безплатни.",
   "onboardingPage1Body": "Отворете снимка и изкуственият интелект на устройството ви автоматично премахва фона — без интернет. Можете и да го замените със собствен фон.",
   "onboardingPage2Title": "Дооформете с четката",
@@ -14,7 +14,6 @@
   "onboardingPage4Body": "Изрязвайте до 30 снимки наведнъж и ги експортирайте като PNG, JPG или WEBP. Снимките ви никога не напускат телефона ви. Налично на 43 езика.",
   "onboardingNext": "Напред",
   "onboardingGetStarted": "Започнете",
-
   "homeCameraButton": "Камера",
   "homeGalleryButton": "Галерия",
   "dateToday": "Днес",
@@ -24,7 +23,6 @@
   "homeExportUnavailable": "Този експорт вече не е наличен.",
   "homeShareFailed": "Експортът не можа да бъде споделен.",
   "homeGalleryOpenFailed": "Галерията не можа да бъде отворена.",
-
   "cameraTitle": "Камера",
   "cameraPermissionDenied": "Необходим е достъп до камерата, за да направите снимка. Моля, разрешете достъпа.",
   "cameraPermissionPermanentlyDenied": "Достъпът до камерата е отказан. Включете го от Настройки, за да продължите.",
@@ -35,7 +33,6 @@
   "cameraOpenSettings": "Отваряне на Настройки",
   "cameraFlashTooltip": "Светкавица",
   "cameraGalleryTooltip": "Галерия",
-
   "cropTitle": "Изрязване и завъртане",
   "cropLoadFailed": "Изображението не можа да бъде заредено.",
   "cropRotateFailed": "Изображението не можа да бъде завъртяно.",
@@ -46,21 +43,16 @@
   "cropAspect4x5": "4:5",
   "cropAspect9x16": "9:16",
   "cropContinue": "Продължи",
-
   "editorSegmentationFailedMessage": "Устройството ви не поддържа автоматично премахване на фона. Използвайте ръчната гумичка по-долу.",
-
   "brushErase": "Изтрий",
   "brushRestore": "Върни",
   "brushSizeLabel": "Размер на четката",
   "brushOpacityLabel": "Непрозрачност",
-
   "backgroundWhite": "Бяло",
   "backgroundTransparent": "Прозрачен",
   "backgroundBlack": "Черно",
   "backgroundBlurLabel": "Размазване",
-
   "edgeFeatherLabel": "Мекота на ръбовете",
-
   "toolbarUndo": "Отмени",
   "toolbarRedo": "Повтори",
   "toolbarReset": "Нулирай",
@@ -69,16 +61,21 @@
   "resetConfirmBody": "Това изчиства ръчно нарисуваните щрихи с четка. Действието не може да бъде отменено.",
   "resetConfirmCancel": "Отказ",
   "resetConfirmConfirm": "Нулирай",
-
   "exportTitle": "Експорт",
   "exportFormatPng": "PNG",
   "exportFormatJpg": "JPG",
   "exportQualityLabel": "Качество: {value}",
-  "@exportQualityLabel": {"placeholders": {"value": {"type": "int"}}},
+  "@exportQualityLabel": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
   "exportFormatWebp": "WEBP",
   "exportResizeLabel": "Преоразмеряване",
   "exportResizeOriginal": "Оригинал",
-  "exportResizeCustom": "Свой",
+  "exportResizeCustom": "По избор",
   "exportWidthLabel": "Ширина (px)",
   "exportHeightLabel": "Височина (px)",
   "exportSaveToGallery": "Запази в Галерия",
@@ -86,7 +83,6 @@
   "exportSuccess": "Експортирано!",
   "exportFailed": "Експортът не успя. Опитайте отново.",
   "exportInProgress": "Експортиране…",
-
   "settingsTitle": "Настройки",
   "settingsTheme": "Тема",
   "settingsLanguage": "Език",
@@ -105,7 +101,7 @@
   "settingsAnimatedBackground": "Анимиран фон на началото",
   "settingsRemindersSubtitle": "Напомняй ми за незавършени редакции",
   "settingsRemindersBlocked": "Известията за PhotoSur са изключени в настройките на телефона ви.",
-  "editorBrushHint": "Плъзнете, за да рисувате. Прищипнете с два пръста, за да увеличите.",
+  "editorBrushHint": "Плъзнете, за да рисувате. Щипнете с два пръста, за да увеличите.",
   "editorToolCutout": "Изрязване",
   "editorToolBrush": "Четка",
   "editorToolBackground": "Фон",
@@ -115,7 +111,7 @@
   "layoutShadowLabel": "Сянка",
   "backgroundPhoto": "Снимка",
   "backgroundPhotoFailed": "Тази снимка не можа да бъде заредена.",
-  "editorLayoutHint": "Плъзнете, за да преместите. Прищипнете с два пръста, за да промените размера.",
+  "editorLayoutHint": "Плъзнете, за да преместите. Щипнете с два пръста, за да промените размера.",
   "languageSystemDefault": "По подразбиране на системата",
   "languageSheetTitle": "Език",
   "themeSheetTitle": "Тема",
@@ -128,7 +124,6 @@
   "settingsRestoreFailed": "Възстановяването не успя.",
   "settingsShareFailed": "Споделянето не успя.",
   "settingsShareAppMessage": "Премахвайте фона на снимки мигновено с PhotoSur — безплатно, без воден знак.",
-
   "paywallTitle": "Без реклами",
   "paywallAlreadyAdFree": "Вече сте без реклами. Благодарим ви!",
   "paywallPlanFreeTitle": "Безплатно",
@@ -140,17 +135,27 @@
   "paywallFeatureZeroAds": "Без реклами",
   "paywallPurchaseButton": "Премахни рекламите",
   "paywallPurchaseButtonPrice": "Премахни рекламите — {price}",
-  "@paywallPurchaseButtonPrice": {"placeholders": {"price": {"type": "String"}}},
+  "@paywallPurchaseButtonPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
   "paywallRestorePurchases": "Възстановяване на покупки",
   "paywallProductUnavailable": "Премахването на реклами не е налично в момента.",
   "paywallPurchaseFailed": "Покупката не успя.",
-
   "errorScreenTitle": "Нещо се обърка",
   "errorScreenBody": "Опитайте отново или рестартирайте приложението, ако проблемът продължава.",
   "errorScreenGoBack": "Назад",
   "errorScreenReportEmail": "Докладвайте на {email}",
-  "@errorScreenReportEmail": {"placeholders": {"email": {"type": "String"}}},
-
+  "@errorScreenReportEmail": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
   "unsupportedTitle": "Устройството не се поддържа",
   "unsupportedNoCameraMessage": "Това устройство няма налична камера.",
   "unsupportedLowMemoryMessage": "Това устройство няма достатъчно памет, за да работи надеждно редакторът на PhotoSur.",
@@ -174,7 +179,7 @@
   "colorBrightness": "Яркост",
   "colorHexLabel": "HEX код",
   "colorPickerDone": "Готово",
-  "exportMarketplaceLabel": "Пазар онлайн",
+  "exportMarketplaceLabel": "Онлайн пазар",
   "exportMarketplaceSummary": "{width} × {height} px · {format}",
   "exportMarketplaceWhiteFill": "Чисто бял фон, продуктът запълва кадъра",
   "exportMarketplaceSizeCap": "Файл под {size} MB",
@@ -251,7 +256,7 @@
   "helpExportTitle": "Експорт",
   "helpExport1": "Докоснете Експорт, за да отворите листа за експорт. Нищо не се прилага, докато не докоснете Запази в Галерия или Сподели, така че можете да променяте избора си колкото пъти искате.",
   "helpExport2": "PNG запазва прозрачността. JPG дава по-малки файлове, но не може да е прозрачен, затова прозрачният фон става бял. WEBP е модерен, компактен формат; ако телефонът ви не може да го създаде, файлът се запазва като JPG. При JPG и WEBP плъзгачът Качество балансира размера на файла и детайла.",
-  "helpExport3": "Оригинал запазва размера на снимката ви, с формата, избрана в Подредба. 1:1 е 1080 × 1080, 4:5 е 1080 × 1350, а 9:16 е 1080 × 1920. Свой ви позволява да въведете ширина и височина в пиксели.",
+  "helpExport3": "Оригинал запазва размера на снимката ви, с формата, избрана в Подредба. 1:1 е 1080 × 1080, 4:5 е 1080 × 1350, а 9:16 е 1080 × 1920. По избор ви позволява да въведете ширина и височина в пиксели.",
   "helpExport4": "Предварителните настройки за онлайн пазари задават размер, формат и качество: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG под 1 MB и Shopify 2048 × 2048 PNG. Изборът на една заменя избора ви на формат и размер; ако после изберете формат или размер, пазарът се отмята. Правилата на онлайн пазарите могат да се променят, затова проверете актуалните изисквания на вашия.",
   "helpExport5": "Amazon използва и чисто бял фон без сянка и нагласява обекта така, че да запълва по-голямата част от кадъра. Изборът ви на фон в редактора не се променя. Останалите онлайн пазари запазват фона ви.",
   "helpExport6": "Запази в Галерия и Сподели запазват изображението в галерията ви и в Скорошни експорти. Сподели допълнително отваря менюто за споделяне на телефона. Ако запазването в галерията не е възможно, вместо това се отваря менюто за споделяне. След експорта се връщате на началния екран.",
@@ -269,7 +274,7 @@
   "helpLibrary2": "Докоснете експорт, за да го отворите на цял екран. Плъзнете, за да преминавате между експортите, и щипнете, за да увеличите. Долната лента предлага Сподели, Запази в Галерия, Редактирай отново и Изтрий.",
   "helpLibrary3": "Бутонът с три точки на миниатюра отваря същите действия. Редактирай отново отваря експортираното изображение като нова снимка, затова предишните щрихи с четката не се възстановяват.",
   "helpLibrary4": "Избери ви позволява да изберете няколко експорта, за да ги споделите или изтриете заедно. Изтрий всички експорти премахва всички експорти от този телефон.",
-  "helpLibrary5": "Изтриването премахва експортите само от PhotoSur. Изображенията, вече запазени в галерията, не се засягат. Най-долу в Виж всички се вижда колко място заемат експортите на този телефон.",
+  "helpLibrary5": "Изтриването премахва експортите само от PhotoSur. Изображенията, вече запазени в галерията, не се засягат. Най-долу в екрана Виж всички се вижда колко място заемат експортите на този телефон.",
   "helpPrivacyTitle": "Поверителност и реклами",
   "helpPrivacy1": "Снимките ви се обработват на телефона и не се качват никъде. Няма акаунт и няма воден знак.",
   "helpPrivacy2": "PhotoSur е безплатно, с всички функции, и се издържа от реклами. В долната част на някои екрани има банер, а след експорт може да се появи реклама.",
