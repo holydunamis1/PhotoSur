@@ -110,7 +110,7 @@
   "layoutSizeLabel": "Størrelse",
   "layoutShadowLabel": "Skygge",
   "backgroundPhoto": "Foto",
-  "backgroundPhotoFailed": "Det foto kunne ikke indlæses.",
+  "backgroundPhotoFailed": "Fotoet kunne ikke indlæses.",
   "editorLayoutHint": "Træk for at flytte. Knib med to fingre for at ændre størrelsen.",
   "languageSystemDefault": "Systemstandard",
   "languageSheetTitle": "Sprog",
