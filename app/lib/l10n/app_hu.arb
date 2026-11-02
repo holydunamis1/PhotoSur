@@ -1,9 +1,9 @@
 {
   "@@locale": "hu",
-
   "appTitle": "PhotoSur",
-  "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
-
+  "@appTitle": {
+    "description": "App name, shown in home_screen app bar and OS task switcher"
+  },
   "onboardingPage1Title": "Háttér eltávolítása azonnal. Minden funkció ingyenes.",
   "onboardingPage1Body": "Nyiss meg egy fotót, és az eszközön futó mesterséges intelligencia automatikusan eltávolítja a hátteret — internet nélkül. Saját, egyedi hátteret is beállíthatsz.",
   "onboardingPage2Title": "Finomíts ecsettel",
@@ -14,7 +14,6 @@
   "onboardingPage4Body": "Akár 30 fotó hátterét is eltávolíthatod egyszerre, és exportálhatod PNG, JPG vagy WEBP formátumban. A fotóid soha nem hagyják el a telefont. 43 nyelven elérhető.",
   "onboardingNext": "Tovább",
   "onboardingGetStarted": "Kezdjük",
-
   "homeCameraButton": "Kamera",
   "homeGalleryButton": "Galéria",
   "dateToday": "Ma",
@@ -24,7 +23,6 @@
   "homeExportUnavailable": "Ez az export már nem érhető el.",
   "homeShareFailed": "Nem sikerült megosztani ezt az exportot.",
   "homeGalleryOpenFailed": "Nem sikerült megnyitni a galériát.",
-
   "cameraTitle": "Kamera",
   "cameraPermissionDenied": "Fotó készítéséhez kameraengedély szükséges. Kérjük, engedélyezd.",
   "cameraPermissionPermanentlyDenied": "A kamerahozzáférést megtagadtad. A folytatáshoz engedélyezd a Beállításokban.",
@@ -35,7 +33,6 @@
   "cameraOpenSettings": "Beállítások megnyitása",
   "cameraFlashTooltip": "Vaku",
   "cameraGalleryTooltip": "Galéria",
-
   "cropTitle": "Vágás és forgatás",
   "cropLoadFailed": "Nem sikerült betölteni a képet.",
   "cropRotateFailed": "Nem sikerült elforgatni a képet.",
@@ -46,35 +43,35 @@
   "cropAspect4x5": "4:5",
   "cropAspect9x16": "9:16",
   "cropContinue": "Tovább",
-
   "editorSegmentationFailedMessage": "Az eszközöd nem támogatja az automatikus háttéreltávolítást. Használd az alábbi kézi radírt.",
-
   "brushErase": "Törlés",
   "brushRestore": "Visszaállít",
   "brushSizeLabel": "Ecsetméret",
   "brushOpacityLabel": "Átlátszatlanság",
-
   "backgroundWhite": "Fehér",
   "backgroundTransparent": "Átlátszó",
   "backgroundBlack": "Fekete",
   "backgroundBlurLabel": "Elmosás",
-
   "edgeFeatherLabel": "Élsimítás",
-
   "toolbarUndo": "Visszavon",
   "toolbarRedo": "Újra",
   "toolbarReset": "Alaphelyzet",
   "toolbarExport": "Exportálás",
-  "resetConfirmTitle": "Visszaállítod a módosításokat?",
+  "resetConfirmTitle": "Alaphelyzetbe állítod a módosításokat?",
   "resetConfirmBody": "Ez törli a kézzel festett ecsetvonásaidat. A művelet nem vonható vissza.",
   "resetConfirmCancel": "Mégse",
-  "resetConfirmConfirm": "Visszaállít",
-
+  "resetConfirmConfirm": "Alaphelyzet",
   "exportTitle": "Exportálás",
   "exportFormatPng": "PNG",
   "exportFormatJpg": "JPG",
   "exportQualityLabel": "Minőség: {value}",
-  "@exportQualityLabel": {"placeholders": {"value": {"type": "int"}}},
+  "@exportQualityLabel": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
   "exportFormatWebp": "WEBP",
   "exportResizeLabel": "Átméretezés",
   "exportResizeOriginal": "Eredeti",
@@ -86,7 +83,6 @@
   "exportSuccess": "Exportálva!",
   "exportFailed": "Az exportálás nem sikerült. Kérjük, próbáld újra.",
   "exportInProgress": "Exportálás…",
-
   "settingsTitle": "Beállítások",
   "settingsTheme": "Téma",
   "settingsLanguage": "Nyelv",
@@ -128,7 +124,6 @@
   "settingsRestoreFailed": "A visszaállítás nem sikerült.",
   "settingsShareFailed": "A megosztás nem sikerült.",
   "settingsShareAppMessage": "Távolítsd el a fotók hátterét azonnal a PhotoSur-zel — ingyenes, vízjel nélkül.",
-
   "paywallTitle": "Reklámmentes verzió",
   "paywallAlreadyAdFree": "Már reklámmentesen használod. Köszönjük!",
   "paywallPlanFreeTitle": "Ingyenes",
@@ -140,17 +135,27 @@
   "paywallFeatureZeroAds": "Nincs reklám",
   "paywallPurchaseButton": "Reklámok eltávolítása",
   "paywallPurchaseButtonPrice": "Reklámok eltávolítása — {price}",
-  "@paywallPurchaseButtonPrice": {"placeholders": {"price": {"type": "String"}}},
+  "@paywallPurchaseButtonPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
   "paywallRestorePurchases": "Vásárlások visszaállítása",
   "paywallProductUnavailable": "A reklámok eltávolítása jelenleg nem érhető el.",
   "paywallPurchaseFailed": "A vásárlás nem sikerült.",
-
   "errorScreenTitle": "Valami hiba történt",
   "errorScreenBody": "Próbáld újra, vagy indítsd újra az alkalmazást, ha a hiba ismétlődik.",
   "errorScreenGoBack": "Vissza",
   "errorScreenReportEmail": "Jelentés ide: {email}",
-  "@errorScreenReportEmail": {"placeholders": {"email": {"type": "String"}}},
-
+  "@errorScreenReportEmail": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
   "unsupportedTitle": "Nem támogatott eszköz",
   "unsupportedNoCameraMessage": "Ezen az eszközön nem érhető el kamera.",
   "unsupportedLowMemoryMessage": "Ennek az eszköznek nincs elég memóriája a PhotoSur szerkesztő megbízható futtatásához.",
