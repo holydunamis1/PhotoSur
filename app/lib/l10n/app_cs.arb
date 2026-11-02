@@ -1,20 +1,19 @@
 {
   "@@locale": "cs",
-
   "appTitle": "PhotoSur",
-  "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
-
+  "@appTitle": {
+    "description": "App name, shown in home_screen app bar and OS task switcher"
+  },
   "onboardingPage1Title": "Odstraňte pozadí okamžitě. Všechny funkce zdarma.",
   "onboardingPage1Body": "Otevřete fotku a umělá inteligence ve vašem zařízení automaticky odstraní pozadí — bez připojení k internetu. Můžete také použít vlastní pozadí.",
   "onboardingPage2Title": "Doladěte štětcem",
-  "onboardingPage2Body": "Štětcem smažte, co umělá inteligence přehlédla, nebo obnovte, co chcete zachovat. Pak oříznete, otočíte, přesunete a změníte velikost.",
+  "onboardingPage2Body": "Štětcem smažte, co umělá inteligence přehlédla, nebo obnovte, co chcete zachovat. Pak ořízněte, otočte, přesuňte a změňte velikost.",
   "onboardingPage3Title": "Pozadí jako ze studia",
   "onboardingPage3Body": "Vyberte barvu, přechod, šablonu nebo vlastní fotku s přirozeným stínem. Předvolby pro Amazon, eBay, Etsy a Shopify nastaví velikost a formát za vás.",
   "onboardingPage4Title": "Hromadně, v požadovaném formátu, soukromě",
   "onboardingPage4Body": "Vystřihněte až 30 fotek najednou a exportujte je jako PNG, JPG nebo WEBP. Vaše fotky nikdy neopustí telefon. K dispozici ve 43 jazycích.",
   "onboardingNext": "Další",
   "onboardingGetStarted": "Začít",
-
   "homeCameraButton": "Fotoaparát",
   "homeGalleryButton": "Galerie",
   "dateToday": "Dnes",
@@ -24,7 +23,6 @@
   "homeExportUnavailable": "Tento export už není k dispozici.",
   "homeShareFailed": "Tento export se nepodařilo sdílet.",
   "homeGalleryOpenFailed": "Galerii se nepodařilo otevřít.",
-
   "cameraTitle": "Fotoaparát",
   "cameraPermissionDenied": "K pořízení fotky je potřeba přístup k fotoaparátu. Povolte ho prosím.",
   "cameraPermissionPermanentlyDenied": "Přístup k fotoaparátu byl zamítnut. Pro pokračování ho povolte v Nastavení.",
@@ -35,7 +33,6 @@
   "cameraOpenSettings": "Otevřít Nastavení",
   "cameraFlashTooltip": "Blesk",
   "cameraGalleryTooltip": "Galerie",
-
   "cropTitle": "Oříznout a otočit",
   "cropLoadFailed": "Obrázek se nepodařilo načíst.",
   "cropRotateFailed": "Obrázek se nepodařilo otočit.",
@@ -46,35 +43,35 @@
   "cropAspect4x5": "4:5",
   "cropAspect9x16": "9:16",
   "cropContinue": "Pokračovat",
-
   "editorSegmentationFailedMessage": "Vaše zařízení nepodporuje automatické odstranění pozadí. Použijte ruční gumu níže.",
-
   "brushErase": "Smazat",
   "brushRestore": "Obnovit",
   "brushSizeLabel": "Velikost štětce",
   "brushOpacityLabel": "Průhlednost",
-
   "backgroundWhite": "Bílá",
   "backgroundTransparent": "Průhledné",
   "backgroundBlack": "Černá",
   "backgroundBlurLabel": "Rozostření",
-
   "edgeFeatherLabel": "Měkkost okrajů",
-
   "toolbarUndo": "Zpět",
   "toolbarRedo": "Znovu",
-  "toolbarReset": "Obnovit",
+  "toolbarReset": "Resetovat",
   "toolbarExport": "Exportovat",
-  "resetConfirmTitle": "Obnovit úpravy?",
+  "resetConfirmTitle": "Resetovat úpravy?",
   "resetConfirmBody": "Tím se smažou vaše ručně namalované tahy štětcem. Akci nelze vrátit zpět.",
   "resetConfirmCancel": "Zrušit",
-  "resetConfirmConfirm": "Obnovit",
-
+  "resetConfirmConfirm": "Resetovat",
   "exportTitle": "Export",
   "exportFormatPng": "PNG",
   "exportFormatJpg": "JPG",
   "exportQualityLabel": "Kvalita: {value}",
-  "@exportQualityLabel": {"placeholders": {"value": {"type": "int"}}},
+  "@exportQualityLabel": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
   "exportFormatWebp": "WEBP",
   "exportResizeLabel": "Změna velikosti",
   "exportResizeOriginal": "Originál",
@@ -86,7 +83,6 @@
   "exportSuccess": "Exportováno!",
   "exportFailed": "Export se nezdařil. Zkuste to prosím znovu.",
   "exportInProgress": "Exportuje se…",
-
   "settingsTitle": "Nastavení",
   "settingsTheme": "Motiv",
   "settingsLanguage": "Jazyk",
@@ -128,7 +124,6 @@
   "settingsRestoreFailed": "Obnovení se nezdařilo.",
   "settingsShareFailed": "Sdílení se nezdařilo.",
   "settingsShareAppMessage": "Odstraňte pozadí fotek okamžitě s PhotoSur — zdarma, bez vodoznaku.",
-
   "paywallTitle": "Bez reklam",
   "paywallAlreadyAdFree": "Reklamy už nevidíte. Děkujeme!",
   "paywallPlanFreeTitle": "Zdarma",
@@ -140,17 +135,27 @@
   "paywallFeatureZeroAds": "Žádné reklamy",
   "paywallPurchaseButton": "Odstranit reklamy",
   "paywallPurchaseButtonPrice": "Odstranit reklamy — {price}",
-  "@paywallPurchaseButtonPrice": {"placeholders": {"price": {"type": "String"}}},
+  "@paywallPurchaseButtonPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
   "paywallRestorePurchases": "Obnovit nákupy",
   "paywallProductUnavailable": "Odstranění reklam teď není k dispozici.",
   "paywallPurchaseFailed": "Nákup se nezdařil.",
-
   "errorScreenTitle": "Něco se pokazilo",
   "errorScreenBody": "Zkuste to znovu, nebo aplikaci restartujte, pokud problém trvá.",
   "errorScreenGoBack": "Zpět",
   "errorScreenReportEmail": "Nahlásit na {email}",
-  "@errorScreenReportEmail": {"placeholders": {"email": {"type": "String"}}},
-
+  "@errorScreenReportEmail": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
   "unsupportedTitle": "Zařízení není podporováno",
   "unsupportedNoCameraMessage": "Toto zařízení nemá dostupný fotoaparát.",
   "unsupportedLowMemoryMessage": "Toto zařízení nemá dostatek paměti pro spolehlivý chod editoru PhotoSur.",
@@ -234,7 +239,7 @@
   "helpBrush1": "Smazat odstraní části objektu. Obnovit vrátí části, které vyříznutí odebralo.",
   "helpBrush2": "Tažením jednoho prstu malujete. Dvěma prsty přibližujete, až 8krát, a posouváte fotku. Štětec si na obrazovce drží stejnou velikost, takže při přiblížení pracujete přesněji.",
   "helpBrush3": "Velikost štětce je od 1 do 50. Průhlednost určuje sílu každého tahu.",
-  "helpBrush4": "Zpět a Znovu procházejí vaše tahy štětcem. Obnovit smaže všechny tahy a vrátí se k automatickému vyříznutí; předtím se zobrazí žádost o potvrzení.",
+  "helpBrush4": "Zpět a Znovu procházejí vaše tahy štětcem. Resetovat smaže všechny tahy a vrátí se k automatickému vyříznutí; předtím se zobrazí žádost o potvrzení.",
   "helpBackgroundTitle": "Pozadí",
   "helpBackground1": "Vyberte, co je za objektem: průhledné, bílé, černé, přechod, barva, rozostřená kopie vaší fotky nebo vaše vlastní fotka.",
   "helpBackground2": "Najednou se používá jen jedno pozadí. Váš poslední výběr nahradí předchozí.",
@@ -246,7 +251,7 @@
   "helpLayoutTitle": "Rozvržení",
   "helpLayout1": "Přetažením objektu po fotce jej posunete. Sevřením dvou prstů změníte jeho velikost.",
   "helpLayout2": "Vyberte Originál, 1:1, 4:5 nebo 9:16 a nastavte tvar výsledného obrázku.",
-  "helpLayout3": "Velikost určuje, jak velký je objekt, od 20 % do 300 %. Stín určuje sílu jeho stínu. Vystředit vrátí objekt doprostřed. Obnovit vrátí zpět posuny a změny velikosti.",
+  "helpLayout3": "Velikost určuje, jak velký je objekt, od 20 % do 300 %. Stín určuje sílu jeho stínu. Vystředit vrátí objekt doprostřed. Resetovat vrátí zpět posuny a změny velikosti.",
   "helpLayout4": "Tento tvar platí, když je velikost exportu Originál. Pokud v exportním listu vyberete přednastavenou velikost nebo tržiště, rozhoduje o konečném tvaru ono.",
   "helpExportTitle": "Exportovat",
   "helpExport1": "Klepnutím na Exportovat otevřete exportní list. Nic se neuplatní, dokud neklepnete na Uložit do Galerie nebo Sdílet, takže svůj výběr můžete měnit, kolikrát chcete.",

@@ -1,9 +1,9 @@
 {
   "@@locale": "da",
-
   "appTitle": "PhotoSur",
-  "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
-
+  "@appTitle": {
+    "description": "App name, shown in home_screen app bar and OS task switcher"
+  },
   "onboardingPage1Title": "Fjern baggrunde med det samme. Alle funktioner gratis.",
   "onboardingPage1Body": "Åbn et foto, og AI'en på din enhed fjerner automatisk baggrunden — uden internet. Du kan også skifte til din egen baggrund.",
   "onboardingPage2Title": "Finjuster med penslen",
@@ -14,7 +14,6 @@
   "onboardingPage4Body": "Fritlæg op til 30 fotos ad gangen og eksportér som PNG, JPG eller WEBP. Dine fotos forlader aldrig din telefon. Fås på 43 sprog.",
   "onboardingNext": "Næste",
   "onboardingGetStarted": "Kom i gang",
-
   "homeCameraButton": "Kamera",
   "homeGalleryButton": "Galleri",
   "dateToday": "I dag",
@@ -24,7 +23,6 @@
   "homeExportUnavailable": "Denne eksport er ikke længere tilgængelig.",
   "homeShareFailed": "Eksporten kunne ikke deles.",
   "homeGalleryOpenFailed": "Galleriet kunne ikke åbnes.",
-
   "cameraTitle": "Kamera",
   "cameraPermissionDenied": "Der kræves adgang til kameraet for at tage et foto. Giv venligst adgang.",
   "cameraPermissionPermanentlyDenied": "Adgang til kameraet blev afvist. Slå den til i Indstillinger for at fortsætte.",
@@ -35,7 +33,6 @@
   "cameraOpenSettings": "Åbn Indstillinger",
   "cameraFlashTooltip": "Blitz",
   "cameraGalleryTooltip": "Galleri",
-
   "cropTitle": "Beskær og roter",
   "cropLoadFailed": "Billedet kunne ikke indlæses.",
   "cropRotateFailed": "Billedet kunne ikke roteres.",
@@ -46,21 +43,16 @@
   "cropAspect4x5": "4:5",
   "cropAspect9x16": "9:16",
   "cropContinue": "Fortsæt",
-
   "editorSegmentationFailedMessage": "Din enhed understøtter ikke automatisk fjernelse af baggrund. Brug det manuelle viskelæder nedenfor.",
-
   "brushErase": "Slet",
   "brushRestore": "Gendan",
   "brushSizeLabel": "Penselstørrelse",
   "brushOpacityLabel": "Uigennemsigtighed",
-
   "backgroundWhite": "Hvid",
   "backgroundTransparent": "Gennemsigtig",
   "backgroundBlack": "Sort",
   "backgroundBlurLabel": "Sløring",
-
   "edgeFeatherLabel": "Kantblødhed",
-
   "toolbarUndo": "Fortryd",
   "toolbarRedo": "Gentag",
   "toolbarReset": "Nulstil",
@@ -69,12 +61,17 @@
   "resetConfirmBody": "Dette rydder dine manuelle penselstrøg. Det kan ikke fortrydes.",
   "resetConfirmCancel": "Annuller",
   "resetConfirmConfirm": "Nulstil",
-
   "exportTitle": "Eksportér",
   "exportFormatPng": "PNG",
   "exportFormatJpg": "JPG",
   "exportQualityLabel": "Kvalitet: {value}",
-  "@exportQualityLabel": {"placeholders": {"value": {"type": "int"}}},
+  "@exportQualityLabel": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
   "exportFormatWebp": "WEBP",
   "exportResizeLabel": "Tilpas størrelse",
   "exportResizeOriginal": "Original",
@@ -86,7 +83,6 @@
   "exportSuccess": "Eksporteret!",
   "exportFailed": "Eksporten mislykkedes. Prøv igen.",
   "exportInProgress": "Eksporterer…",
-
   "settingsTitle": "Indstillinger",
   "settingsTheme": "Tema",
   "settingsLanguage": "Sprog",
@@ -128,7 +124,6 @@
   "settingsRestoreFailed": "Gendannelsen mislykkedes.",
   "settingsShareFailed": "Kunne ikke deles.",
   "settingsShareAppMessage": "Fjern fotobaggrunde med det samme med PhotoSur — gratis og uden vandmærke.",
-
   "paywallTitle": "Fjern reklamer",
   "paywallAlreadyAdFree": "Du er allerede reklamefri. Tak!",
   "paywallPlanFreeTitle": "Gratis",
@@ -140,24 +135,34 @@
   "paywallFeatureZeroAds": "Ingen reklamer",
   "paywallPurchaseButton": "Fjern reklamer",
   "paywallPurchaseButtonPrice": "Fjern reklamer — {price}",
-  "@paywallPurchaseButtonPrice": {"placeholders": {"price": {"type": "String"}}},
+  "@paywallPurchaseButtonPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
   "paywallRestorePurchases": "Gendan køb",
   "paywallProductUnavailable": "Fjernelse af reklamer er ikke tilgængelig lige nu.",
   "paywallPurchaseFailed": "Købet mislykkedes.",
-
   "errorScreenTitle": "Noget gik galt",
   "errorScreenBody": "Prøv igen, eller genstart appen, hvis det fortsætter.",
   "errorScreenGoBack": "Gå tilbage",
   "errorScreenReportEmail": "Rapportér via {email}",
-  "@errorScreenReportEmail": {"placeholders": {"email": {"type": "String"}}},
-
+  "@errorScreenReportEmail": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
   "unsupportedTitle": "Enheden understøttes ikke",
   "unsupportedNoCameraMessage": "Denne enhed har ikke et tilgængeligt kamera.",
   "unsupportedLowMemoryMessage": "Denne enhed har ikke nok hukommelse til at køre PhotoSurs editor pålideligt.",
   "unsupportedManualImportHint": "Du kan stadig importere et foto fra galleriet og bruge det manuelle penselværktøj.",
   "unsupportedUseGalleryButton": "Importér fra Galleri",
   "homeBatchButton": "Parti",
-  "batchTitle": "Udklip i parti",
+  "batchTitle": "Frilæg i parti",
   "batchOutputTransparent": "Gennemsigtig PNG",
   "batchOutputWhite": "Hvid baggrund (JPG)",
   "batchStart": "Start",
