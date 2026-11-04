@@ -1,9 +1,9 @@
 {
   "@@locale": "sw",
-
   "appTitle": "PhotoSur",
-  "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
-
+  "@appTitle": {
+    "description": "App name, shown in home_screen app bar and OS task switcher"
+  },
   "onboardingPage1Title": "Ondoa mandharinyuma papo hapo. Vipengele vyote bure.",
   "onboardingPage1Body": "Fungua picha na AI iliyo ndani ya simu yako itaondoa mandharinyuma kiotomatiki — hakuna intaneti inayohitajika. Unaweza pia kuweka mandharinyuma yako mwenyewe.",
   "onboardingPage2Title": "Boresha kwa brashi",
@@ -14,7 +14,6 @@
   "onboardingPage4Body": "Ondoa mandharinyuma ya hadi picha 30 kwa wakati mmoja na usafirishe kama PNG, JPG au WEBP. Picha zako haziondoki kamwe kwenye simu yako. Inapatikana kwa lugha 43.",
   "onboardingNext": "Endelea",
   "onboardingGetStarted": "Anza sasa",
-
   "homeCameraButton": "Kamera",
   "homeGalleryButton": "Ghala",
   "dateToday": "Leo",
@@ -24,7 +23,6 @@
   "homeExportUnavailable": "Faili hii iliyotolewa haipatikani tena.",
   "homeShareFailed": "Imeshindwa kushiriki faili hii.",
   "homeGalleryOpenFailed": "Imeshindwa kufungua ghala.",
-
   "cameraTitle": "Kamera",
   "cameraPermissionDenied": "Kamera inahitajika ili kupiga picha. Tafadhali ruhusu ufikiaji.",
   "cameraPermissionPermanentlyDenied": "Ufikiaji wa kamera ulikataliwa. Uwashe kwenye Mipangilio ili kuendelea.",
@@ -35,7 +33,6 @@
   "cameraOpenSettings": "Fungua Mipangilio",
   "cameraFlashTooltip": "Mweko",
   "cameraGalleryTooltip": "Ghala",
-
   "cropTitle": "Kata na Zungusha",
   "cropLoadFailed": "Imeshindwa kupakia picha.",
   "cropRotateFailed": "Imeshindwa kuzungusha picha.",
@@ -46,21 +43,16 @@
   "cropAspect4x5": "4:5",
   "cropAspect9x16": "9:16",
   "cropContinue": "Endelea",
-
-  "editorSegmentationFailedMessage": "Kifaa chako hakitumii uondoaji wa kiotomatiki wa mandharinyuma. Tumia kifutio cha mkono kilicho hapa chini.",
-
+  "editorSegmentationFailedMessage": "Kifaa chako hakitumii uondoaji wa kiotomatiki wa mandharinyuma. Tumia brashi ya mkono kilicho hapa chini.",
   "brushErase": "Futa",
   "brushRestore": "Rudisha",
   "brushSizeLabel": "Ukubwa wa Brashi",
   "brushOpacityLabel": "Uwazi",
-
   "backgroundWhite": "Nyeupe",
   "backgroundTransparent": "Uwazi",
   "backgroundBlack": "Nyeusi",
   "backgroundBlurLabel": "Ukungu",
-
   "edgeFeatherLabel": "Ulaini wa Kingo",
-
   "toolbarUndo": "Tendua",
   "toolbarRedo": "Rudia",
   "toolbarReset": "Weka upya",
@@ -69,12 +61,17 @@
   "resetConfirmBody": "Hii itafuta michoro yako ya brashi uliyofanya kwa mkono. Hili haliwezi kutenduliwa.",
   "resetConfirmCancel": "Ghairi",
   "resetConfirmConfirm": "Weka upya",
-
   "exportTitle": "Toa",
   "exportFormatPng": "PNG",
   "exportFormatJpg": "JPG",
   "exportQualityLabel": "Ubora: {value}",
-  "@exportQualityLabel": {"placeholders": {"value": {"type": "int"}}},
+  "@exportQualityLabel": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
   "exportFormatWebp": "WEBP",
   "exportResizeLabel": "Badilisha ukubwa",
   "exportResizeOriginal": "Asili",
@@ -86,7 +83,6 @@
   "exportSuccess": "Imetolewa!",
   "exportFailed": "Kutoa kumeshindikana. Tafadhali jaribu tena.",
   "exportInProgress": "Inatoa…",
-
   "settingsTitle": "Mipangilio",
   "settingsTheme": "Mandhari",
   "settingsLanguage": "Lugha",
@@ -128,7 +124,6 @@
   "settingsRestoreFailed": "Kurejesha kumeshindikana.",
   "settingsShareFailed": "Imeshindwa kushiriki.",
   "settingsShareAppMessage": "Ondoa mandharinyuma ya picha papo hapo ukitumia PhotoSur — bila malipo, bila alama ya maji.",
-
   "paywallTitle": "Ondoa Matangazo",
   "paywallAlreadyAdFree": "Tayari huna matangazo. Asante!",
   "paywallPlanFreeTitle": "Bure",
@@ -140,17 +135,27 @@
   "paywallFeatureZeroAds": "Hakuna matangazo",
   "paywallPurchaseButton": "Ondoa Matangazo",
   "paywallPurchaseButtonPrice": "Ondoa Matangazo — {price}",
-  "@paywallPurchaseButtonPrice": {"placeholders": {"price": {"type": "String"}}},
+  "@paywallPurchaseButtonPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
   "paywallRestorePurchases": "Rejesha Ununuzi",
   "paywallProductUnavailable": "Kuondoa matangazo hakupatikani kwa sasa.",
   "paywallPurchaseFailed": "Ununuzi umeshindikana.",
-
   "errorScreenTitle": "Hitilafu imetokea",
   "errorScreenBody": "Jaribu tena, au anzisha upya programu ikiwa hili litaendelea.",
   "errorScreenGoBack": "Rudi nyuma",
   "errorScreenReportEmail": "Ripoti kupitia {email}",
-  "@errorScreenReportEmail": {"placeholders": {"email": {"type": "String"}}},
-
+  "@errorScreenReportEmail": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
   "unsupportedTitle": "Kifaa Hakitumiki",
   "unsupportedNoCameraMessage": "Kifaa hiki hakina kamera inayopatikana.",
   "unsupportedLowMemoryMessage": "Kifaa hiki hakina kumbukumbu ya kutosha kuendesha kihariri cha PhotoSur kwa uhakika.",
@@ -202,7 +207,7 @@
   "exportActionEdit": "Hariri tena",
   "exportActionDelete": "Futa",
   "exportMoreOptions": "Chaguo zaidi",
-  "exportDeleteTitle": "Futa usafirishaji huu?",
+  "exportDeleteTitle": "Futa kilichotolewa hiki?",
   "exportDeleteBody": "Picha zilizosafirishwa huondolewa kwenye simu hii. Picha zako asili na ulichohifadhi kwenye ghala hazibadiliki.",
   "exportSavedToGallery": "Imehifadhiwa kwenye ghala lako",
   "exportSaveFailed": "Imeshindwa kuhifadhi kwenye ghala.",
@@ -213,9 +218,9 @@
   "exportsSelect": "Chagua",
   "exportsDone": "Imekamilika",
   "exportsSelectedCount": "{count} zimechaguliwa",
-  "exportsDeleteSelectedTitle": "Futa usafirishaji {count}?",
-  "exportsDeleteAll": "Futa usafirishaji wote",
-  "exportsDeleteAllTitle": "Futa usafirishaji wote?",
+  "exportsDeleteSelectedTitle": "Futa vilivyotolewa {count}?",
+  "exportsDeleteAll": "Futa vyote vilivyotolewa",
+  "exportsDeleteAllTitle": "Futa vyote vilivyotolewa?",
   "helpTitle": "Msaada na jinsi ya kutumia",
   "helpIntro": "Gusa mada ili kusoma jinsi inavyofanya kazi.",
   "helpStartTitle": "Kuanza",
@@ -228,7 +233,7 @@
   "helpCutoutTitle": "Kata",
   "helpCutout1": "Kihariri kikifunguka, PhotoSur hupata kitu kikuu na kuondoa mandharinyuma kiotomatiki, kwenye simu yako. Hauhitaji intaneti.",
   "helpCutout2": "Ulaini wa Kingo hulainisha ukingo wa ukataji, kuanzia pikseli 0 hadi 20.",
-  "helpCutout3": "Kitufe cha jicho juu huonyesha picha yako asili kwa ulinganisho. Kigusa tena ili kurudi. Brashi husimamishwa wakati picha asili inaonekana.",
+  "helpCutout3": "Kitufe cha jicho juu huonyesha picha yako asili kwa ulinganisho. Kiguse tena ili kurudi. Brashi husimamishwa wakati picha asili inaonekana.",
   "helpCutout4": "Kwa vitu vigumu, kama vioo, viatu, mikoba na chupa, gusa Pata ukataji wa HD. Modeli ya HD hupakuliwa mara moja tu, hubaki kwenye simu yako, kisha hufanya kazi bila mtandao. Ikishasakinishwa, kila ukataji mpya huitumia kiotomatiki. Ili kurudia picha iliyofunguliwa, gusa Rudia ukataji kwa HD.",
   "helpBrushTitle": "Brashi",
   "helpBrush1": "Futa huondoa sehemu za kitu. Rudisha hurudisha sehemu ambazo ukataji uliziondoa.",
@@ -249,7 +254,7 @@
   "helpLayout3": "Ukubwa huamua kitu ni kikubwa kiasi gani, kuanzia 20% hadi 300%. Kivuli huamua nguvu ya kivuli chake. Weka katikati hurudisha kitu katikati. Weka upya hutendua usogezaji na mabadiliko ya ukubwa.",
   "helpLayout4": "Umbo hili hutumika wakati ukubwa wa kutoa ni Asili. Ukichagua ukubwa uliowekwa tayari au soko la mtandaoni kwenye karatasi ya kutoa, ndilo linaloamua umbo la mwisho.",
   "helpExportTitle": "Toa",
-  "helpExport1": "Gusa Toa ili kufungua karatasi ya kutoa. Hakuna kinachotumika hadi ugushe Hifadhi kwenye Ghala au Shiriki, kwa hivyo unaweza kubadilisha chaguo zako mara nyingi unavyotaka.",
+  "helpExport1": "Gusa Toa ili kufungua karatasi ya kutoa. Hakuna kinachotumika hadi uguse Hifadhi kwenye Ghala au Shiriki, kwa hivyo unaweza kubadilisha chaguo zako mara nyingi unavyotaka.",
   "helpExport2": "PNG huhifadhi uwazi. JPG hutoa faili ndogo zaidi lakini haiwezi kuwa wazi, kwa hivyo mandharinyuma yenye uwazi huwa nyeupe. WEBP ni umbizo la kisasa lenye ukubwa mdogo; simu yako isipoweza kuliunda, faili huhifadhiwa kama JPG. Kwa JPG na WEBP, kitelezi cha Ubora husawazisha ukubwa wa faili na undani.",
   "helpExport3": "Asili huhifadhi ukubwa wa picha yako, kwa umbo ulilochagua katika Mpangilio. 1:1 ni 1080 × 1080, 4:5 ni 1080 × 1350 na 9:16 ni 1080 × 1920. Maalum hukuruhusu kuingiza upana na urefu kwa pikseli.",
   "helpExport4": "Mipangilio ya awali ya masoko ya mtandaoni huweka ukubwa, umbizo na ubora: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG chini ya MB 1, na Shopify 2048 × 2048 PNG. Kuchagua moja hubadilisha chaguo lako la umbizo na ukubwa; ukichagua umbizo au ukubwa baadaye, soko huondolewa. Sheria za masoko zinaweza kubadilika, kwa hivyo angalia mahitaji ya sasa ya soko lako.",
@@ -268,7 +273,7 @@
   "helpLibrary1": "Zilizotolewa hivi karibuni kwenye skrini ya mwanzo huonyesha ulichotoa hivi karibuni. Gusa Tazama yote ili kuona zote, zimepangwa katika Leo, Jana, Wiki hii na Awali.",
   "helpLibrary2": "Gusa kitu ulichotoa ili kukifungua skrini nzima. Telezesha ili kubadilisha kati ya vilivyotolewa na bana ili kukuza. Upau wa chini hutoa Shiriki, Hifadhi kwenye Ghala, Hariri tena na Futa.",
   "helpLibrary3": "Kitufe cha nukta tatu kwenye picha ndogo hufungua vitendo vilevile. Hariri tena hufungua picha iliyotolewa kama picha mpya, kwa hivyo mipigo ya awali ya brashi hairudishwi.",
-  "helpLibrary4": "Chagua hukuruhusu kuchagua vilivyotolewa kadhaa ili kuvishiriki au kuvifuta pamoja. Futa usafirishaji wote huondoa vyote vilivyotolewa kwenye simu hii.",
+  "helpLibrary4": "Chagua hukuruhusu kuchagua vilivyotolewa kadhaa ili kuvishiriki au kuvifuta pamoja. Futa vyote vilivyotolewa huondoa vyote vilivyotolewa kwenye simu hii.",
   "helpLibrary5": "Kufuta huondoa vilivyotolewa kwenye PhotoSur pekee. Picha ambazo tayari zimehifadhiwa kwenye ghala lako haziguswi. Chini ya Tazama yote, unaona nafasi ambayo vilivyotolewa vinatumia kwenye simu hii.",
   "helpPrivacyTitle": "Faragha na matangazo",
   "helpPrivacy1": "Picha zako husindikwa kwenye simu yako na hazipakiwi popote. Hakuna akaunti na hakuna alama ya maji.",
