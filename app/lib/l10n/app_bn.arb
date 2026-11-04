@@ -40,7 +40,7 @@
   "cropAspect4x5": "4:5",
   "cropAspect9x16": "9:16",
   "cropContinue": "চালিয়ে যান",
-  "editorSegmentationFailedMessage": "আপনার ডিভাইস স্বয়ংক্রিয় ব্যাকগ্রাউন্ড সরানো সমর্থন করে না। নিচের ম্যানুয়াল ইরেজার ব্যবহার করুন।",
+  "editorSegmentationFailedMessage": "আপনার ডিভাইস স্বয়ংক্রিয় ব্যাকগ্রাউন্ড সরানো সমর্থন করে না। নিচের ম্যানুয়াল ব্রাশ ব্যবহার করুন।",
   "brushErase": "মুছুন",
   "brushRestore": "ফিরিয়ে আনুন",
   "brushSizeLabel": "ব্রাশের আকার",
