@@ -1,0 +1,35 @@
+name: Back-translation screening
+on:
+  push:
+    branches: [verify/backtranslate]
+  workflow_dispatch:
+jobs:
+  bt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        lang: [ar,bg,bn,ca,cs,da,de,el,es,fa,fi,fil,fr,gu,he,hi,hu,id,it,ja,ko,ml,mr,ms,nb,nl,pl,pt,ro,ru,sk,sv,sw,ta,te,th,tr,uk,ur,vi,zh,zh_Hant]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: pip install torch --index-url https://download.pytorch.org/whl/cpu && pip install transformers sentencepiece
+      - run: python tools/backtranslate.py ${{ matrix.lang }}
+      - uses: actions/upload-artifact@v4
+        with: {name: bt-${{ matrix.lang }}, path: out/}
+  collect:
+    needs: bt
+    if: always()
+    runs-on: ubuntu-latest
+    permissions: {contents: write}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: {path: res, pattern: 'bt-*', merge-multiple: true}
+      - run: |
+          git config user.name ci; git config user.email ci@example.com
+          git checkout -B bt-results
+          mkdir -p bt && cp res/*.json bt/
+          git add bt && git commit -qm "Back-translation results" && git push -f origin bt-results
