@@ -43,7 +43,7 @@
   "cropAspect4x5": "4:5",
   "cropAspect9x16": "9:16",
   "cropContinue": "Pokračovať",
-  "editorSegmentationFailedMessage": "Vaše zariadenie nepodporuje automatické odstránenie pozadia. Použite ručnú gumu nižšie.",
+  "editorSegmentationFailedMessage": "Vaše zariadenie nepodporuje automatické odstránenie pozadia. Použite ručný štetec nižšie.",
   "brushErase": "Zmazať",
   "brushRestore": "Obnoviť",
   "brushSizeLabel": "Veľkosť štetca",
@@ -249,7 +249,7 @@
   "helpTemplates1": "Šablóny sú hotové pozadia v piatich skupinách: Štúdio, Farebné bloky, Textúry, Svetlo a tieň a Prechody a vzory. V paneli je vidieť päť scén; ťuknutím na tlačidlo Šablóny zobrazíte všetky.",
   "helpTemplates2": "Výber šablóny funguje rovnako ako výber vlastnej fotky ako pozadia: nahradí váš predchádzajúci výber pozadia.",
   "helpLayoutTitle": "Rozloženie",
-  "helpLayout1": "Presunutím objektu po fotke ho posuniete. Stiahnutím dvoch prstov zmeníte jeho veľkosť.",
+  "helpLayout1": "Presunutím objektu po fotke ho posuniete. Stiahnutím alebo roztiahnutím dvoch prstov zmeníte jeho veľkosť.",
   "helpLayout2": "Vyberte Originál, 1:1, 4:5 alebo 9:16 a nastavte tvar výsledného obrázka.",
   "helpLayout3": "Veľkosť určuje, aký veľký je objekt, od 20 % do 300 %. Tieň určuje silu jeho tieňa. Vycentrovať vráti objekt do stredu. Resetovať vráti späť posuny a zmeny veľkosti.",
   "helpLayout4": "Tento tvar platí, keď je veľkosť exportu Originál. Ak v exportnom liste vyberiete preddefinovanú veľkosť alebo trhovisko, o konečnom tvare rozhoduje ono.",
@@ -267,11 +267,11 @@
   "helpBatch3": "Pozadia fungujú ako v editore: vaša vlastná fotka, farba, šablóna, biele, priehľadné, čierne, rozmazané alebo prechod. Platí len jedno a váš posledný výber nahradí predchádzajúci.",
   "helpBatch4": "Formát súboru sa vyberie za vás. S trhoviskom sa fotky riadia jeho veľkosťou a formátom. Bez trhoviska dáva priehľadné pozadie PNG a akékoľvek iné pozadie JPG, v pôvodnej veľkosti.",
   "helpBatch5": "Výber Amazon prepne pozadie na Biele; ak potom vyberiete iné pozadie, Amazon sa zruší. eBay, Etsy a Shopify si ponechajú vaše pozadie, ale JPG nemôže byť priehľadný, a preto dostane biele pozadie.",
-  "helpBatch6": "Ak je nainštalovaný model HD, vystrihne sa ním každá fotka v dávke. Tlačidlo Stiahnuť HD vystrihnutie vedľa Šablón ho stiahne.",
+  "helpBatch6": "Ak je nainštalovaný model HD, vystrihne sa ním každá fotka v dávke. Tlačidlo Stiahnuť HD vystrihnutie vedľa tlačidla Šablóny ho stiahne.",
   "helpBatch7": "Každá fotka sa uloží do galérie a do Nedávnych exportov hneď po dokončení. Zastaviť ukončí dávku po aktuálnej fotke a už dokončené fotky zostanú uložené. Ak fotka zlyhá, dávka pokračuje a povie vám, koľko sa ich spracovať nepodarilo. Hotovo vás vráti na úvodnú obrazovku; nič neukladá.",
   "helpLibraryTitle": "Vaše exporty",
   "helpLibrary1": "Nedávne exporty na úvodnej obrazovke ukazujú vaše najnovšie exporty. Ťuknutím na Zobraziť všetko uvidíte všetky, zoskupené do Dnes, Včera, Tento týždeň a Skôr.",
-  "helpLibrary2": "Ťuknutím na export ho otvoríte na celú obrazovku. Potiahnutím sa medzi exportmi prepínate a stiahnutím prstov približujete. Spodná lišta ponúka Zdieľať, Uložiť do Galérie, Upraviť znova a Odstrániť.",
+  "helpLibrary2": "Ťuknutím na export ho otvoríte na celú obrazovku. Potiahnutím sa medzi exportmi prepínate a roztiahnutím prstov približujete. Spodná lišta ponúka Zdieľať, Uložiť do Galérie, Upraviť znova a Odstrániť.",
   "helpLibrary3": "Tlačidlo s tromi bodkami na náhľade otvorí rovnaké akcie. Upraviť znova otvorí exportovaný obrázok ako novú fotku, takže predchádzajúce ťahy štetcom sa neobnovia.",
   "helpLibrary4": "Vybrať vám umožní zvoliť viac exportov a zdieľať ich alebo odstrániť naraz. Odstrániť všetky exporty odstráni všetky exporty z tohto telefónu.",
   "helpLibrary5": "Odstránenie vymaže exporty len z PhotoSur. Obrázky už uložené v galérii zostanú nedotknuté. Dole v Zobraziť všetko vidíte, koľko miesta exporty v tomto telefóne zaberajú.",
@@ -287,5 +287,5 @@
   "helpFixTitle": "Keď sa niečo pokazí",
   "helpFix1": "Ak automatické vystrihnutie nemôže bežať na veľmi starom telefóne alebo telefóne s malou pamäťou, štetec funguje ďalej, takže obrázok môžete dokončiť ručne.",
   "helpFix2": "Ak sa sťahovanie HD zastaví, skontrolujte pripojenie a skúste to znova. Nadviaže tam, kde skončilo.",
-  "helpFix3": "S čímkoľvek ďalším otvorte Podpora v Nastaveniach."
+  "helpFix3": "S čímkoľvek ďalším otvorte položku Podpora v Nastaveniach."
 }
