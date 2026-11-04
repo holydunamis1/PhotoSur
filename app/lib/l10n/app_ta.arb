@@ -1,9 +1,9 @@
 {
   "@@locale": "ta",
-
   "appTitle": "PhotoSur",
-  "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
-
+  "@appTitle": {
+    "description": "App name, shown in home_screen app bar and OS task switcher"
+  },
   "onboardingPage1Title": "பின்னணிகளை உடனே நீக்குங்கள். எல்லா அம்சங்களும் இலவசம்.",
   "onboardingPage1Body": "புகைப்படத்தைத் திறந்தால் போதும், சாதனத்திலேயே இயங்கும் AI தானாகப் பின்னணியை நீக்கும் — இணையம் தேவையில்லை. நீங்கள் விரும்பினால் உங்கள் சொந்த தனிப்பயன் பின்னணியையும் வைக்கலாம்.",
   "onboardingPage2Title": "பிரஷ் மூலம் நுட்பமாகச் செம்மைப்படுத்துங்கள்",
@@ -14,7 +14,6 @@
   "onboardingPage4Body": "ஒரே நேரத்தில் 30 புகைப்படங்கள் வரை பின்னணியை நீக்கி PNG, JPG அல்லது WEBP ஆக ஏற்றுமதி செய்யுங்கள். உங்கள் புகைப்படங்கள் உங்கள் ஃபோனை விட்டு வெளியே செல்லாது. 43 மொழிகளில் கிடைக்கும்.",
   "onboardingNext": "அடுத்து",
   "onboardingGetStarted": "தொடங்கவும்",
-
   "homeCameraButton": "கேமரா",
   "homeGalleryButton": "கேலரி",
   "dateToday": "இன்று",
@@ -24,7 +23,6 @@
   "homeExportUnavailable": "இந்த ஏற்றுமதி இனி கிடைக்காது.",
   "homeShareFailed": "இந்த ஏற்றுமதியைப் பகிர முடியவில்லை.",
   "homeGalleryOpenFailed": "கேலரியைத் திறக்க முடியவில்லை.",
-
   "cameraTitle": "கேமரா",
   "cameraPermissionDenied": "புகைப்படம் எடுக்க கேமரா அணுகல் தேவை. அணுகலை அனுமதிக்கவும்.",
   "cameraPermissionPermanentlyDenied": "கேமரா அணுகல் மறுக்கப்பட்டது. தொடர அமைப்புகளில் இயக்கவும்.",
@@ -35,7 +33,6 @@
   "cameraOpenSettings": "அமைப்புகளைத் திற",
   "cameraFlashTooltip": "ஃபிளாஷ்",
   "cameraGalleryTooltip": "கேலரி",
-
   "cropTitle": "வெட்டு & சுழற்று",
   "cropLoadFailed": "படத்தை ஏற்ற முடியவில்லை.",
   "cropRotateFailed": "படத்தைச் சுழற்ற முடியவில்லை.",
@@ -46,21 +43,16 @@
   "cropAspect4x5": "4:5",
   "cropAspect9x16": "9:16",
   "cropContinue": "தொடர்க",
-
-  "editorSegmentationFailedMessage": "உங்கள் சாதனம் தானியங்கிப் பின்னணி நீக்கத்தை ஆதரிக்கவில்லை. கீழே உள்ள கைமுறை அழிப்பானைப் பயன்படுத்துங்கள்.",
-
+  "editorSegmentationFailedMessage": "உங்கள் சாதனம் தானியங்கிப் பின்னணி நீக்கத்தை ஆதரிக்கவில்லை. கீழே உள்ள கைமுறை பிரஷ்ஷைப் பயன்படுத்துங்கள்.",
   "brushErase": "அழி",
   "brushRestore": "மீட்டெடு",
   "brushSizeLabel": "பிரஷ் அளவு",
   "brushOpacityLabel": "ஒளிபுகாமை",
-
   "backgroundWhite": "வெள்ளை",
   "backgroundTransparent": "ஒளிஊடுருவும்",
   "backgroundBlack": "கருப்பு",
   "backgroundBlurLabel": "மங்கல்",
-
   "edgeFeatherLabel": "விளிம்பு மென்மை",
-
   "toolbarUndo": "செயல்தவிர்",
   "toolbarRedo": "மீண்டும் செய்",
   "toolbarReset": "மீட்டமை",
@@ -69,12 +61,17 @@
   "resetConfirmBody": "இது நீங்கள் கையால் வரைந்த பிரஷ் தீட்டுகளை அழிக்கும். இதைச் செயல்தவிர்க்க முடியாது.",
   "resetConfirmCancel": "ரத்துசெய்",
   "resetConfirmConfirm": "மீட்டமை",
-
   "exportTitle": "ஏற்றுமதி",
   "exportFormatPng": "PNG",
   "exportFormatJpg": "JPG",
   "exportQualityLabel": "தரம்: {value}",
-  "@exportQualityLabel": {"placeholders": {"value": {"type": "int"}}},
+  "@exportQualityLabel": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
   "exportFormatWebp": "WEBP",
   "exportResizeLabel": "அளவு மாற்று",
   "exportResizeOriginal": "அசல்",
@@ -86,7 +83,6 @@
   "exportSuccess": "ஏற்றுமதி முடிந்தது!",
   "exportFailed": "ஏற்றுமதி தோல்வியடைந்தது. மீண்டும் முயலவும்.",
   "exportInProgress": "ஏற்றுமதி செய்யப்படுகிறது…",
-
   "settingsTitle": "அமைப்புகள்",
   "settingsTheme": "தீம்",
   "settingsLanguage": "மொழி",
@@ -94,8 +90,8 @@
   "settingsGoAdFree": "விளம்பரமின்றிப் பயன்படுத்து",
   "settingsPrivacyPolicy": "தனியுரிமைக் கொள்கை",
   "settingsSupport": "ஆதரவு",
-  "settingsRateApp": "ஆப்பை மதிப்பிடு",
-  "settingsShareApp": "ஆப்பைப் பகிர்",
+  "settingsRateApp": "செயலியை மதிப்பிடு",
+  "settingsShareApp": "செயலியைப் பகிர்",
   "settingsLicenses": "திறந்தமூல உரிமங்கள்",
   "reminderChannelName": "திருத்த நினைவூட்டல்கள்",
   "reminderChannelDescription": "நீங்கள் முடிக்காத திருத்தங்கள் பற்றிய நினைவூட்டல்கள்.",
@@ -104,7 +100,7 @@
   "settingsReminders": "திருத்த நினைவூட்டல்கள்",
   "settingsAnimatedBackground": "முகப்பின் அனிமேஷன் பின்னணி",
   "settingsRemindersSubtitle": "முடிக்காத திருத்தங்கள் பற்றி நினைவூட்டு",
-  "settingsRemindersBlocked": "உங்கள் மொபைல் அமைப்புகளில் PhotoSur-க்கான அறிவிப்புகள் அணைக்கப்பட்டுள்ளன.",
+  "settingsRemindersBlocked": "உங்கள் தொலைபேசி அமைப்புகளில் PhotoSur-க்கான அறிவிப்புகள் அணைக்கப்பட்டுள்ளன.",
   "editorBrushHint": "வரைய இழுக்கவும். பெரிதாக்க இரு விரல்களால் கிள்ளவும்.",
   "editorToolCutout": "வெட்டு",
   "editorToolBrush": "பிரஷ்",
@@ -128,7 +124,6 @@
   "settingsRestoreFailed": "மீட்டெடுப்பு தோல்வியடைந்தது.",
   "settingsShareFailed": "பகிர முடியவில்லை.",
   "settingsShareAppMessage": "PhotoSur மூலம் புகைப்படப் பின்னணிகளை உடனே நீக்குங்கள் — இலவசம், வாட்டர்மார்க் இல்லை.",
-
   "paywallTitle": "விளம்பரமின்றிப் பயன்படுத்து",
   "paywallAlreadyAdFree": "நீங்கள் ஏற்கெனவே விளம்பரமின்றிப் பயன்படுத்துகிறீர்கள். நன்றி!",
   "paywallPlanFreeTitle": "இலவசம்",
@@ -140,17 +135,27 @@
   "paywallFeatureZeroAds": "விளம்பரங்கள் இல்லை",
   "paywallPurchaseButton": "விளம்பரங்களை நீக்கு",
   "paywallPurchaseButtonPrice": "விளம்பரங்களை நீக்கு — {price}",
-  "@paywallPurchaseButtonPrice": {"placeholders": {"price": {"type": "String"}}},
+  "@paywallPurchaseButtonPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
   "paywallRestorePurchases": "வாங்கியதை மீட்டெடு",
   "paywallProductUnavailable": "விளம்பர நீக்கம் இப்போது கிடைக்கவில்லை.",
   "paywallPurchaseFailed": "வாங்குதல் தோல்வியடைந்தது.",
-
   "errorScreenTitle": "ஏதோ தவறாகிவிட்டது",
-  "errorScreenBody": "மீண்டும் முயலவும்; தொடர்ந்து நடந்தால் ஆப்பை மறுதொடக்கம் செய்யவும்.",
+  "errorScreenBody": "மீண்டும் முயலவும்; தொடர்ந்து நடந்தால் செயலியை மறுதொடக்கம் செய்யவும்.",
   "errorScreenGoBack": "திரும்பிச் செல்",
   "errorScreenReportEmail": "{email} மூலம் புகாரளி",
-  "@errorScreenReportEmail": {"placeholders": {"email": {"type": "String"}}},
-
+  "@errorScreenReportEmail": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
   "unsupportedTitle": "சாதனம் ஆதரிக்கப்படவில்லை",
   "unsupportedNoCameraMessage": "இந்தச் சாதனத்தில் கேமரா கிடைக்கவில்லை.",
   "unsupportedLowMemoryMessage": "PhotoSur எடிட்டரை நம்பகமாக இயக்க இந்தச் சாதனத்தில் போதுமான நினைவகம் இல்லை.",
@@ -190,7 +195,7 @@
   "hdDownloading": "HD கட்அவுட் செயலில் உள்ளது… {percent}%",
   "hdDownloadingShort": "HD கட்அவுட்… {percent}%",
   "hdConfirmTitle": "HD கட்அவுட் மாடலைப் பதிவிறக்கவா?",
-  "hdConfirmBody": "காலணிகள், பைகள், புட்டிகள் போன்ற கடினமான பொருட்களின் விளிம்புகள் மிகத் தெளிவாக. ஒரு முறை மட்டுமே பதிவிறக்கப்படும், உங்கள் தொலைபேசியில் இருக்கும், பிறகு ஆஃப்லைனில் வேலை செய்யும். மொபைல் டேட்டா கட்டணம் ஏற்படலாம்.",
+  "hdConfirmBody": "காலணிகள், பைகள், பாட்டில்கள் போன்ற கடினமான பொருட்களில் தெளிவான விளிம்புகளைத் தரும். ஒரு முறை மட்டுமே பதிவிறக்கப்படும், உங்கள் தொலைபேசியில் இருக்கும், பிறகு ஆஃப்லைனில் வேலை செய்யும். மொபைல் டேட்டா கட்டணம் ஏற்படலாம்.",
   "hdDownload": "பதிவிறக்கு",
   "hdFailed": "HD கட்அவுட் முடியவில்லை. இணைப்பைச் சரிபார்த்து மீண்டும் முயலுங்கள்.",
   "settingsHdTitle": "HD கட்அவுட் மாடல்",
