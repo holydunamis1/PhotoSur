@@ -1,20 +1,19 @@
 {
   "@@locale": "ca",
-
   "appTitle": "PhotoSur",
-  "@appTitle": {"description": "App name, shown in home_screen app bar and OS task switcher"},
-
+  "@appTitle": {
+    "description": "App name, shown in home_screen app bar and OS task switcher"
+  },
   "onboardingPage1Title": "Elimina fons a l’instant. Totes les funcions gratis.",
   "onboardingPage1Body": "Obre una foto i la IA del dispositiu elimina el fons automàticament — sense internet. També pots canviar-lo per un fons personalitzat teu.",
   "onboardingPage2Title": "Afina amb el pinzell",
   "onboardingPage2Body": "Esborra amb el pinzell el que la IA ha passat per alt o restaura el que vols conservar. Després retalla, gira, mou i canvia la mida.",
   "onboardingPage3Title": "Fons de qualitat d'estudi",
   "onboardingPage3Body": "Tria un color, un degradat, una plantilla o la teva pròpia foto, amb una ombra natural. Els ajustos per a Amazon, eBay, Etsy i Shopify fixen la mida i el format per tu.",
-  "onboardingPage4Title": "Per lots, al format que vulguis, en privat",
+  "onboardingPage4Title": "Processa per lots, exporta i mantén-ho privat",
   "onboardingPage4Body": "Retalla fins a 30 fotos alhora i exporta en PNG, JPG o WEBP. Les teves fotos no surten mai del telèfon. Disponible en 43 idiomes.",
   "onboardingNext": "Següent",
   "onboardingGetStarted": "Comença",
-
   "homeCameraButton": "Càmera",
   "homeGalleryButton": "Galeria",
   "dateToday": "Avui",
@@ -24,7 +23,6 @@
   "homeExportUnavailable": "Aquesta exportació ja no està disponible.",
   "homeShareFailed": "No s'ha pogut compartir aquesta exportació.",
   "homeGalleryOpenFailed": "No s'ha pogut obrir la galeria.",
-
   "cameraTitle": "Càmera",
   "cameraPermissionDenied": "Cal accés a la càmera per fer una foto. Si us plau, permet l'accés.",
   "cameraPermissionPermanentlyDenied": "S'ha denegat l'accés a la càmera. Activa'l a Configuració per continuar.",
@@ -35,7 +33,6 @@
   "cameraOpenSettings": "Obre Configuració",
   "cameraFlashTooltip": "Flaix",
   "cameraGalleryTooltip": "Galeria",
-
   "cropTitle": "Retalla i gira",
   "cropLoadFailed": "No s'ha pogut carregar la imatge.",
   "cropRotateFailed": "No s'ha pogut girar la imatge.",
@@ -46,21 +43,16 @@
   "cropAspect4x5": "4:5",
   "cropAspect9x16": "9:16",
   "cropContinue": "Continua",
-
-  "editorSegmentationFailedMessage": "El teu dispositiu no admet l'eliminació automàtica del fons. Fes servir la goma manual de sota.",
-
+  "editorSegmentationFailedMessage": "El teu dispositiu no admet l’eliminació automàtica del fons. Fes servir el pinzell manual de sota.",
   "brushErase": "Esborra",
   "brushRestore": "Restaura",
   "brushSizeLabel": "Mida del pinzell",
   "brushOpacityLabel": "Opacitat",
-
   "backgroundWhite": "Blanc",
   "backgroundTransparent": "Transparent",
   "backgroundBlack": "Negre",
   "backgroundBlurLabel": "Desenfocament",
-
   "edgeFeatherLabel": "Suavitat de vores",
-
   "toolbarUndo": "Desfés",
   "toolbarRedo": "Refés",
   "toolbarReset": "Restableix",
@@ -69,12 +61,17 @@
   "resetConfirmBody": "Això esborra els traços de pinzell que has fet manualment. No es pot desfer.",
   "resetConfirmCancel": "Cancel·la",
   "resetConfirmConfirm": "Restableix",
-
   "exportTitle": "Exporta",
   "exportFormatPng": "PNG",
   "exportFormatJpg": "JPG",
   "exportQualityLabel": "Qualitat: {value}",
-  "@exportQualityLabel": {"placeholders": {"value": {"type": "int"}}},
+  "@exportQualityLabel": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
   "exportFormatWebp": "WEBP",
   "exportResizeLabel": "Canvia la mida",
   "exportResizeOriginal": "Original",
@@ -86,7 +83,6 @@
   "exportSuccess": "Exportat!",
   "exportFailed": "L'exportació ha fallat. Torna-ho a provar.",
   "exportInProgress": "S'està exportant…",
-
   "settingsTitle": "Configuració",
   "settingsTheme": "Tema",
   "settingsLanguage": "Idioma",
@@ -128,7 +124,6 @@
   "settingsRestoreFailed": "La restauració ha fallat.",
   "settingsShareFailed": "No s'ha pogut compartir.",
   "settingsShareAppMessage": "Elimina el fons de les fotos a l'instant amb PhotoSur — gratis i sense marca d'aigua.",
-
   "paywallTitle": "Sense anuncis",
   "paywallAlreadyAdFree": "Ja no veus anuncis. Gràcies!",
   "paywallPlanFreeTitle": "Gratuït",
@@ -140,17 +135,27 @@
   "paywallFeatureZeroAds": "Cap anunci",
   "paywallPurchaseButton": "Elimina els anuncis",
   "paywallPurchaseButtonPrice": "Elimina els anuncis — {price}",
-  "@paywallPurchaseButtonPrice": {"placeholders": {"price": {"type": "String"}}},
+  "@paywallPurchaseButtonPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
   "paywallRestorePurchases": "Restaura les compres",
   "paywallProductUnavailable": "L'eliminació d'anuncis no està disponible ara mateix.",
   "paywallPurchaseFailed": "La compra ha fallat.",
-
   "errorScreenTitle": "Ha passat alguna cosa",
   "errorScreenBody": "Torna-ho a provar o reinicia l'aplicació si el problema continua.",
   "errorScreenGoBack": "Enrere",
   "errorScreenReportEmail": "Informa per {email}",
-  "@errorScreenReportEmail": {"placeholders": {"email": {"type": "String"}}},
-
+  "@errorScreenReportEmail": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
   "unsupportedTitle": "Dispositiu no compatible",
   "unsupportedNoCameraMessage": "Aquest dispositiu no té cap càmera disponible.",
   "unsupportedLowMemoryMessage": "Aquest dispositiu no té prou memòria per executar l'editor de PhotoSur de manera fiable.",
@@ -194,7 +199,7 @@
   "hdDownload": "Baixa",
   "hdFailed": "El retall HD no s’ha completat. Comprova la connexió i torna-ho a provar.",
   "settingsHdTitle": "Model de retall HD",
-  "settingsHdNotInstalled": "Sense baixar",
+  "settingsHdNotInstalled": "No baixat",
   "settingsHdInstalled": "Instal·lat · funciona sense connexió",
   "settingsHdRemove": "Elimina",
   "settingsReplayIntro": "Torna a veure la introducció",
@@ -278,7 +283,7 @@
   "helpSettings1": "Tema pot seguir el telèfon o ser Clar o Fosc. Idioma canvia l’idioma de l’aplicació. Tots dos també són a la capçalera de la pantalla d’inici.",
   "helpSettings2": "Recordatoris d’edició: si surts de l’aplicació amb una edició sense acabar, PhotoSur t’ho pot recordar al cap de tres hores. Desactiva-ho a Configuració.",
   "helpSettings3": "Model de retall HD indica si està instal·lat. Elimina el treu del telèfon per alliberar espai; el pots tornar a baixar quan vulguis.",
-  "helpSettings4": "Torna a veure la introducció mostra de nou les pantalles de benvinguda. Assistència obre la pàgina d’assistència. Fons animat de l'inici activa o desactiva la imatge en moviment a la part superior de la pantalla d'inici.",
+  "helpSettings4": "Torna a veure la introducció mostra de nou les pantalles de benvinguda. Assistència obre la pàgina d’assistència. Fons animat de l’inici activa o desactiva la imatge en moviment a la part superior de la pantalla d’inici.",
   "helpFixTitle": "Si alguna cosa va malament",
   "helpFix1": "Si el retall automàtic no es pot executar en un telèfon molt antic o amb poca memòria, el pinzell continua funcionant, de manera que pots acabar la imatge a mà.",
   "helpFix2": "Si la baixada HD s’atura, comprova la connexió i torna-ho a provar. Continua des d’on s’havia aturat.",
