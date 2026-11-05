@@ -1,7 +1,5 @@
 name: Back-translation screening
 on:
-  push:
-    branches: [verify/backtranslate]
   workflow_dispatch:
 jobs:
   bt:
