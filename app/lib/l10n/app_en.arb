@@ -47,7 +47,7 @@
   "cropAspect9x16": "9:16",
   "cropContinue": "Continue",
 
-  "editorSegmentationFailedMessage": "Your device doesn't support automatic background removal. Use the manual eraser below.",
+  "editorSegmentationFailedMessage": "Your device doesn't support automatic background removal. Use the manual brush below.",
 
   "brushErase": "Erase",
   "brushRestore": "Restore",

@@ -40,7 +40,7 @@
   "cropAspect4x5": "4:5",
   "cropAspect9x16": "9:16",
   "cropContinue": "Continuar",
-  "editorSegmentationFailedMessage": "Seu aparelho não oferece suporte à remoção automática de fundo. Use a borracha manual abaixo.",
+  "editorSegmentationFailedMessage": "Seu aparelho não oferece suporte à remoção automática de fundo. Use o pincel manual abaixo.",
   "brushErase": "Apagar",
   "brushRestore": "Restaurar",
   "brushSizeLabel": "Tamanho do pincel",
