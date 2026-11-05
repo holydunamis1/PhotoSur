@@ -1,0 +1,1773 @@
+[
+ {
+  "k": "onboardingPage1Title",
+  "en": "Remove backgrounds instantly. All features free.",
+  "tr": "Αφαιρέστε φόντο άμεσα. Όλες οι λειτουργίες δωρεάν.",
+  "back": "Remove the background immediately, all functions are free.",
+  "sim": 0.43
+ },
+ {
+  "k": "onboardingPage1Body",
+  "en": "Open a photo and our on-device AI removes the background automatically — no internet required. You can also swap in your own custom background.",
+  "tr": "Ανοίξτε μια φωτογραφία και η τεχνητή νοημοσύνη της συσκευής σας αφαιρεί αυτόματα το φόντο — χωρίς σύνδεση στο διαδίκτυο. Μπορείτε επίσης να το αντικαταστήσετε με δικό σας φόντο.",
+  "back": "Open a photo and the AI of your device automatically removes the background  without an internet connection. You can also replace it with your own background.",
+  "sim": 0.61
+ },
+ {
+  "k": "onboardingPage2Title",
+  "en": "Fine-tune with the brush",
+  "tr": "Τελειοποιήστε με το πινέλο",
+  "back": "Finish with the brush",
+  "sim": 0.75
+ },
+ {
+  "k": "onboardingPage2Body",
+  "en": "Paint away what the AI missed or restore what you want to keep. Then crop, rotate, move and resize.",
+  "tr": "Σβήστε με το πινέλο ό,τι ξέφυγε από την τεχνητή νοημοσύνη ή επαναφέρετε ό,τι θέλετε να κρατήσετε. Έπειτα περικόψτε, περιστρέψτε, μετακινήστε και αλλάξτε μέγεθος.",
+  "back": "Erase anything that escaped the AI with the brush, or restore anything you want to hold, and then cut, spin, move, and resize.",
+  "sim": 0.52
+ },
+ {
+  "k": "onboardingPage3Title",
+  "en": "Studio-ready backgrounds",
+  "tr": "Φόντα επιπέδου στούντιο",
+  "back": "Studio-level backgrounds",
+  "sim": 0.5
+ },
+ {
+  "k": "onboardingPage3Body",
+  "en": "Choose a colour, gradient, template or your own photo, with a natural shadow. Marketplace presets for Amazon, eBay, Etsy and Shopify set size and format for you.",
+  "tr": "Διαλέξτε χρώμα, διαβάθμιση, πρότυπο ή τη δική σας φωτογραφία, με φυσική σκιά. Οι προεπιλογές για Amazon, eBay, Etsy και Shopify ορίζουν το μέγεθος και τη μορφή για εσάς.",
+  "back": "Choose a color, rating, pattern, or your own photo, with a natural shade. The default options for Amazon, eBay, Etsy, and Shopify define the size and shape for you.",
+  "sim": 0.68
+ },
+ {
+  "k": "onboardingPage4Title",
+  "en": "Batch it, export it, keep it private",
+  "tr": "Σε παρτίδες, στη μορφή που θέλετε, με απόλυτη ιδιωτικότητα",
+  "back": "In batches, in the form you want, with absolute privacy.",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingPage4Body",
+  "en": "Cut out up to 30 photos at once and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "tr": "Αφαιρέστε το φόντο έως και 30 φωτογραφιών μονομιάς και εξαγάγετε σε PNG, JPG ή WEBP. Οι φωτογραφίες σας δεν φεύγουν ποτέ από το τηλέφωνό σας. Διαθέσιμο σε 43 γλώσσες.",
+  "back": "Remove the background up to 30 photos at a time and export to PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "sim": 0.81
+ },
+ {
+  "k": "onboardingNext",
+  "en": "Next",
+  "tr": "Επόμενο",
+  "back": "Next up.",
+  "sim": 0.67
+ },
+ {
+  "k": "onboardingGetStarted",
+  "en": "Get Started",
+  "tr": "Ξεκινήστε",
+  "back": "Let's get started.",
+  "sim": 0.8
+ },
+ {
+  "k": "homeCameraButton",
+  "en": "Camera",
+  "tr": "Κάμερα",
+  "back": "This is a camera.",
+  "sim": 0.4
+ },
+ {
+  "k": "homeGalleryButton",
+  "en": "Gallery",
+  "tr": "Συλλογή",
+  "back": "Collected",
+  "sim": 0.0
+ },
+ {
+  "k": "dateToday",
+  "en": "Today",
+  "tr": "Σήμερα",
+  "back": "Today",
+  "sim": 1.0
+ },
+ {
+  "k": "dateYesterday",
+  "en": "Yesterday",
+  "tr": "Χθες",
+  "back": "Yesterday .",
+  "sim": 1.0
+ },
+ {
+  "k": "homeRecentExports",
+  "en": "Recent Exports",
+  "tr": "Πρόσφατες εξαγωγές",
+  "back": "Recent exports",
+  "sim": 1.0
+ },
+ {
+  "k": "homeEmptyStateMessage",
+  "en": "Tap Camera or Gallery to start.",
+  "tr": "Πατήστε Κάμερα ή Συλλογή για να ξεκινήσετε.",
+  "back": "Press Camera or Collection to get started.",
+  "sim": 0.46
+ },
+ {
+  "k": "homeExportUnavailable",
+  "en": "This export is no longer available.",
+  "tr": "Αυτή η εξαγωγή δεν είναι πλέον διαθέσιμη.",
+  "back": "This export is no longer available.",
+  "sim": 1.0
+ },
+ {
+  "k": "homeShareFailed",
+  "en": "Could not share this export.",
+  "tr": "Δεν ήταν δυνατή η κοινοποίηση αυτής της εξαγωγής.",
+  "back": "It was not possible to notify this export.",
+  "sim": 0.46
+ },
+ {
+  "k": "homeGalleryOpenFailed",
+  "en": "Could not open gallery.",
+  "tr": "Δεν ήταν δυνατό το άνοιγμα της συλλογής.",
+  "back": "It was not possible to open the collection.",
+  "sim": 0.33
+ },
+ {
+  "k": "cameraTitle",
+  "en": "Camera",
+  "tr": "Κάμερα",
+  "back": "This is a camera.",
+  "sim": 0.4
+ },
+ {
+  "k": "cameraPermissionDenied",
+  "en": "Camera access is needed to take a photo. Please allow access.",
+  "tr": "Χρειάζεται πρόσβαση στην κάμερα για να τραβήξετε φωτογραφία. Επιτρέψτε την πρόσβαση.",
+  "back": "You need access to the camera to take a picture.",
+  "sim": 0.38
+ },
+ {
+  "k": "cameraPermissionPermanentlyDenied",
+  "en": "Camera access was denied. Enable it in Settings to continue.",
+  "tr": "Η πρόσβαση στην κάμερα απορρίφθηκε. Ενεργοποιήστε την από τις Ρυθμίσεις για να συνεχίσετε.",
+  "back": "Access to the camera has been denied.",
+  "sim": 0.24
+ },
+ {
+  "k": "cameraPermissionRestricted",
+  "en": "Camera access is restricted on this device.",
+  "tr": "Η πρόσβαση στην κάμερα είναι περιορισμένη σε αυτή τη συσκευή.",
+  "back": "Access to the camera is restricted to this device.",
+  "sim": 0.62
+ },
+ {
+  "k": "cameraNoCameraFound",
+  "en": "No camera found on this device.",
+  "tr": "Δεν βρέθηκε κάμερα σε αυτή τη συσκευή.",
+  "back": "No camera was found on this device.",
+  "sim": 0.92
+ },
+ {
+  "k": "cameraStartFailed",
+  "en": "Could not start the camera.",
+  "tr": "Δεν ήταν δυνατή η εκκίνηση της κάμερας.",
+  "back": "The camera wasn't able to start.",
+  "sim": 0.36
+ },
+ {
+  "k": "cameraCaptureFailed",
+  "en": "Could not capture photo.",
+  "tr": "Δεν ήταν δυνατή η λήψη φωτογραφίας.",
+  "back": "It wasn't possible to take a picture.",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraOpenSettings",
+  "en": "Open Settings",
+  "tr": "Άνοιγμα Ρυθμίσεων",
+  "back": "Opening of settlements",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraFlashTooltip",
+  "en": "Flash",
+  "tr": "Φλας",
+  "back": "Flash .",
+  "sim": 1.0
+ },
+ {
+  "k": "cameraGalleryTooltip",
+  "en": "Gallery",
+  "tr": "Συλλογή",
+  "back": "Collected",
+  "sim": 0.0
+ },
+ {
+  "k": "cropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Περικοπή και περιστροφή",
+  "back": "Cutting and turning",
+  "sim": 0.0
+ },
+ {
+  "k": "cropLoadFailed",
+  "en": "Could not load the image.",
+  "tr": "Δεν ήταν δυνατή η φόρτωση της εικόνας.",
+  "back": "It was not possible to load the image.",
+  "sim": 0.62
+ },
+ {
+  "k": "cropRotateFailed",
+  "en": "Could not rotate the image.",
+  "tr": "Δεν ήταν δυνατή η περιστροφή της εικόνας.",
+  "back": "It was not possible to turn the image.",
+  "sim": 0.46
+ },
+ {
+  "k": "cropFailed",
+  "en": "Crop failed.",
+  "tr": "Η περικοπή απέτυχε.",
+  "back": "The cut didn't work.",
+  "sim": 0.0
+ },
+ {
+  "k": "cropSaveFailed",
+  "en": "Could not save the cropped image.",
+  "tr": "Δεν ήταν δυνατή η αποθήκευση της περικομμένης εικόνας.",
+  "back": "It was not possible to store the cut image.",
+  "sim": 0.4
+ },
+ {
+  "k": "cropAspectFree",
+  "en": "Free",
+  "tr": "Ελεύθερο",
+  "back": "Free",
+  "sim": 1.0
+ },
+ {
+  "k": "cropContinue",
+  "en": "Continue",
+  "tr": "Συνέχεια",
+  "back": "Continuously",
+  "sim": 0.0
+ },
+ {
+  "k": "editorSegmentationFailedMessage",
+  "en": "Your device doesn't support automatic background removal. Use the manual brush below.",
+  "tr": "Η συσκευή σας δεν υποστηρίζει την αυτόματη αφαίρεση φόντου. Χρησιμοποιήστε τη χειροκίνητη γόμα παρακάτω.",
+  "back": "Your device does not support automatic background removal.",
+  "sim": 0.6
+ },
+ {
+  "k": "brushErase",
+  "en": "Erase",
+  "tr": "Διαγραφή",
+  "back": "Deleted",
+  "sim": 0.0
+ },
+ {
+  "k": "brushRestore",
+  "en": "Restore",
+  "tr": "Αποκατάσταση",
+  "back": "Rehabilitation",
+  "sim": 0.0
+ },
+ {
+  "k": "brushSizeLabel",
+  "en": "Brush Size",
+  "tr": "Μέγεθος πινέλου",
+  "back": "Size of panel",
+  "sim": 0.4
+ },
+ {
+  "k": "brushOpacityLabel",
+  "en": "Opacity",
+  "tr": "Αδιαφάνεια",
+  "back": "Transparency",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundWhite",
+  "en": "White",
+  "tr": "Λευκό",
+  "back": "White",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundTransparent",
+  "en": "Transparent",
+  "tr": "Διαφανές",
+  "back": "Transparent",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundBlack",
+  "en": "Black",
+  "tr": "Μαύρο",
+  "back": "It 's black .",
+  "sim": 0.5
+ },
+ {
+  "k": "backgroundBlurLabel",
+  "en": "Blur",
+  "tr": "Θόλωμα",
+  "back": "This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.",
+  "sim": 0.0
+ },
+ {
+  "k": "edgeFeatherLabel",
+  "en": "Edge Smoothness",
+  "tr": "Απαλότητα άκρων",
+  "back": "External shrinkage",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarUndo",
+  "en": "Undo",
+  "tr": "Αναίρεση",
+  "back": "Repeal",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarRedo",
+  "en": "Redo",
+  "tr": "Επανάληψη",
+  "back": "Repeat",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarReset",
+  "en": "Reset",
+  "tr": "Επαναφορά",
+  "back": "Repeat",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarExport",
+  "en": "Export",
+  "tr": "Εξαγωγή",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmTitle",
+  "en": "Reset edits?",
+  "tr": "Επαναφορά επεξεργασιών;",
+  "back": "Recycling?",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmBody",
+  "en": "This clears your manual brush strokes. This cannot be undone.",
+  "tr": "Αυτό διαγράφει τις χειροκίνητες πινελιές σας. Η ενέργεια δεν αναιρείται.",
+  "back": "This will erase your manual handles.",
+  "sim": 0.38
+ },
+ {
+  "k": "resetConfirmCancel",
+  "en": "Cancel",
+  "tr": "Ακύρωση",
+  "back": "Cancellation",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmConfirm",
+  "en": "Reset",
+  "tr": "Επαναφορά",
+  "back": "Repeat",
+  "sim": 0.0
+ },
+ {
+  "k": "exportTitle",
+  "en": "Export",
+  "tr": "Εξαγωγή",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "exportQualityLabel",
+  "en": "Quality: {value}",
+  "tr": "Ποιότητα: {value}",
+  "back": "Quality: [value]",
+  "sim": 1.0
+ },
+ {
+  "k": "exportResizeLabel",
+  "en": "Resize",
+  "tr": "Αλλαγή μεγέθους",
+  "back": "Change of size",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeOriginal",
+  "en": "Original",
+  "tr": "Αρχικό",
+  "back": "It's the first one.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeCustom",
+  "en": "Custom",
+  "tr": "Προσαρμοσμένο",
+  "back": "Adjusted",
+  "sim": 0.0
+ },
+ {
+  "k": "exportWidthLabel",
+  "en": "Width (px)",
+  "tr": "Πλάτος (px)",
+  "back": "Flatness (px)",
+  "sim": 0.5
+ },
+ {
+  "k": "exportHeightLabel",
+  "en": "Height (px)",
+  "tr": "Ύψος (px)",
+  "back": "Height (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSaveToGallery",
+  "en": "Save to Gallery",
+  "tr": "Αποθήκευση στη Συλλογή",
+  "back": "Storage in the collection",
+  "sim": 0.0
+ },
+ {
+  "k": "exportShare",
+  "en": "Share",
+  "tr": "Κοινοποίηση",
+  "back": "Communication from the Commission",
+  "sim": 0.0
+ },
+ {
+  "k": "exportSuccess",
+  "en": "Exported!",
+  "tr": "Η εξαγωγή ολοκληρώθηκε!",
+  "back": "The export is complete!",
+  "sim": 0.0
+ },
+ {
+  "k": "exportFailed",
+  "en": "Export failed. Please try again.",
+  "tr": "Η εξαγωγή απέτυχε. Δοκιμάστε ξανά.",
+  "back": "Export failed, try again.",
+  "sim": 0.89
+ },
+ {
+  "k": "exportInProgress",
+  "en": "Exporting…",
+  "tr": "Εξαγωγή…",
+  "back": "Exporting...",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsTitle",
+  "en": "Settings",
+  "tr": "Ρυθμίσεις",
+  "back": "Settings",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsTheme",
+  "en": "Theme",
+  "tr": "Θέμα",
+  "back": "Subject",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLanguage",
+  "en": "Language",
+  "tr": "Γλώσσα",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Επαναφορά αγορών",
+  "back": "Return of purchases",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsGoAdFree",
+  "en": "Go Ad-Free",
+  "tr": "Χωρίς διαφημίσεις",
+  "back": "No advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsPrivacyPolicy",
+  "en": "Privacy Policy",
+  "tr": "Πολιτική απορρήτου",
+  "back": "Privacy policy",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsSupport",
+  "en": "Support",
+  "tr": "Υποστήριξη",
+  "back": "Support",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRateApp",
+  "en": "Rate App",
+  "tr": "Αξιολόγηση εφαρμογής",
+  "back": "Assessment of the application",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsShareApp",
+  "en": "Share App",
+  "tr": "Κοινοποίηση εφαρμογής",
+  "back": "Communication from the Commission",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLicenses",
+  "en": "Open-source licenses",
+  "tr": "Άδειες ανοιχτού κώδικα",
+  "back": "Open-source licences",
+  "sim": 0.5
+ },
+ {
+  "k": "reminderChannelName",
+  "en": "Edit reminders",
+  "tr": "Υπενθυμίσεις επεξεργασίας",
+  "back": "Processing reminders",
+  "sim": 0.5
+ },
+ {
+  "k": "reminderChannelDescription",
+  "en": "Reminders about edits you have not finished.",
+  "tr": "Υπενθυμίσεις για επεξεργασίες που δεν έχετε ολοκληρώσει.",
+  "back": "Reminders of work that you haven't completed.",
+  "sim": 0.29
+ },
+ {
+  "k": "reminderTitle",
+  "en": "Your edit is waiting",
+  "tr": "Η επεξεργασία σας περιμένει",
+  "back": "The processing is waiting for you.",
+  "sim": 0.4
+ },
+ {
+  "k": "reminderBody",
+  "en": "Pick up where you left off and export your photo.",
+  "tr": "Συνεχίστε από εκεί που μείνατε και εξαγάγετε τη φωτογραφία σας.",
+  "back": "Go back to where you were and take your photo.",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsReminders",
+  "en": "Edit reminders",
+  "tr": "Υπενθυμίσεις επεξεργασίας",
+  "back": "Processing reminders",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsAnimatedBackground",
+  "en": "Animated home background",
+  "tr": "Κινούμενο φόντο αρχικής",
+  "back": "Moving background of the original",
+  "sim": 0.25
+ },
+ {
+  "k": "settingsRemindersSubtitle",
+  "en": "Remind me about unfinished edits",
+  "tr": "Υπενθύμιση για ημιτελείς επεξεργασίες",
+  "back": "Reminder of incomplete processing",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsRemindersBlocked",
+  "en": "Notifications are turned off for PhotoSur in your phone's settings.",
+  "tr": "Οι ειδοποιήσεις του PhotoSur είναι απενεργοποιημένες στις ρυθμίσεις του τηλεφώνου σας.",
+  "back": "PhotoSur notifications are disabled in your phone settings.",
+  "sim": 0.56
+ },
+ {
+  "k": "editorBrushHint",
+  "en": "Drag to paint. Pinch with two fingers to zoom.",
+  "tr": "Σύρετε για να ζωγραφίσετε. Τσιμπήστε με δύο δάχτυλα για ζουμ.",
+  "back": "Pull to paint, pinch with two fingers to zoom.",
+  "sim": 0.89
+ },
+ {
+  "k": "editorToolCutout",
+  "en": "Cut-out",
+  "tr": "Αποκοπή",
+  "back": "Cutting off",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBrush",
+  "en": "Brush",
+  "tr": "Πινέλο",
+  "back": "Other, not further worked than hot-rolled",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBackground",
+  "en": "Background",
+  "tr": "Φόντο",
+  "back": "This item is not intended to be used for technical purposes.",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolLayout",
+  "en": "Layout",
+  "tr": "Διάταξη",
+  "back": "Order of the Court of First Instance",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutAutoCenter",
+  "en": "Auto-center",
+  "tr": "Αυτόματο κέντρο",
+  "back": "Automated centering",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutSizeLabel",
+  "en": "Size",
+  "tr": "Μέγεθος",
+  "back": "Size",
+  "sim": 1.0
+ },
+ {
+  "k": "layoutShadowLabel",
+  "en": "Shadow",
+  "tr": "Σκιά",
+  "back": "Shadows",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundPhoto",
+  "en": "Photo",
+  "tr": "Φωτογραφία",
+  "back": "I'm going to take a picture.",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundPhotoFailed",
+  "en": "Could not load that photo.",
+  "tr": "Δεν ήταν δυνατή η φόρτωση αυτής της φωτογραφίας.",
+  "back": "It was not possible to upload this photo.",
+  "sim": 0.31
+ },
+ {
+  "k": "editorLayoutHint",
+  "en": "Drag to move. Pinch with two fingers to resize.",
+  "tr": "Σύρετε για μετακίνηση. Τσιμπήστε με δύο δάχτυλα για αλλαγή μεγέθους.",
+  "back": "Pull for movement, pinch with two fingers to change size.",
+  "sim": 0.53
+ },
+ {
+  "k": "languageSystemDefault",
+  "en": "System default",
+  "tr": "Προεπιλογή συστήματος",
+  "back": "Selection of system",
+  "sim": 0.4
+ },
+ {
+  "k": "languageSheetTitle",
+  "en": "Language",
+  "tr": "Γλώσσα",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "themeSheetTitle",
+  "en": "Theme",
+  "tr": "Θέμα",
+  "back": "Subject",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionSystem",
+  "en": "System default",
+  "tr": "Προεπιλογή συστήματος",
+  "back": "Selection of system",
+  "sim": 0.4
+ },
+ {
+  "k": "themeOptionLight",
+  "en": "Light",
+  "tr": "Φωτεινό",
+  "back": "Lighting",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionDark",
+  "en": "Dark",
+  "tr": "Σκούρο",
+  "back": "It 's dark .",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsLinkNotReady",
+  "en": "This link isn't set up yet.",
+  "tr": "Αυτός ο σύνδεσμος δεν έχει ρυθμιστεί ακόμη.",
+  "back": "That connection hasn't been set up yet.",
+  "sim": 0.46
+ },
+ {
+  "k": "settingsLinkOpenFailed",
+  "en": "Could not open link.",
+  "tr": "Δεν ήταν δυνατό το άνοιγμα του συνδέσμου.",
+  "back": "It was not possible to open the link.",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsRestoreRequested",
+  "en": "Restore requested — check back in a moment.",
+  "tr": "Ζητήθηκε επαναφορά — ελέγξτε ξανά σε λίγο.",
+  "back": "Requested return. Check again in a minute.",
+  "sim": 0.57
+ },
+ {
+  "k": "settingsRestoreFailed",
+  "en": "Restore failed.",
+  "tr": "Η επαναφορά απέτυχε.",
+  "back": "The restoration failed.",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsShareFailed",
+  "en": "Could not share.",
+  "tr": "Δεν ήταν δυνατή η κοινοποίηση.",
+  "back": "It was not possible to notify.",
+  "sim": 0.22
+ },
+ {
+  "k": "settingsShareAppMessage",
+  "en": "Remove photo backgrounds instantly with PhotoSur — free, no watermark.",
+  "tr": "Αφαιρέστε άμεσα το φόντο των φωτογραφιών με το PhotoSur — δωρεάν, χωρίς υδατογράφημα.",
+  "back": "Immediately remove the background of photos with PhotoSur  free of charge, without watering.",
+  "sim": 0.36
+ },
+ {
+  "k": "paywallTitle",
+  "en": "Go Ad-Free",
+  "tr": "Χωρίς διαφημίσεις",
+  "back": "No advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallAlreadyAdFree",
+  "en": "You're already ad-free. Thank you!",
+  "tr": "Είστε ήδη χωρίς διαφημίσεις. Ευχαριστούμε!",
+  "back": "You're already out of commercials.",
+  "sim": 0.4
+ },
+ {
+  "k": "paywallPlanFreeTitle",
+  "en": "Free",
+  "tr": "Δωρεάν",
+  "back": "Free of charge",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPlanAdFreeTitle",
+  "en": "Ad-Free",
+  "tr": "Χωρίς διαφημίσεις",
+  "back": "No advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPlanAdFreePrice",
+  "en": "One-time purchase",
+  "tr": "Εφάπαξ αγορά",
+  "back": "One-time purchase",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallFeatureAllFeatures",
+  "en": "All features",
+  "tr": "Όλες οι λειτουργίες",
+  "back": "All operations",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallFeatureAdSupported",
+  "en": "Ad-supported",
+  "tr": "Με διαφημίσεις",
+  "back": "With advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureZeroAds",
+  "en": "Zero ads",
+  "tr": "Καμία διαφήμιση",
+  "back": "No advertising .",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPurchaseButton",
+  "en": "Remove Ads",
+  "tr": "Κατάργηση διαφημίσεων",
+  "back": "Removal of advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPurchaseButtonPrice",
+  "en": "Remove Ads — {price}",
+  "tr": "Κατάργηση διαφημίσεων — {price}",
+  "back": "Cancellation of advertisements  [price]",
+  "sim": 0.29
+ },
+ {
+  "k": "paywallRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Επαναφορά αγορών",
+  "back": "Return of purchases",
+  "sim": 0.4
+ },
+ {
+  "k": "paywallProductUnavailable",
+  "en": "Ad removal is not available right now.",
+  "tr": "Η κατάργηση διαφημίσεων δεν είναι διαθέσιμη αυτή τη στιγμή.",
+  "back": "The cancellation of advertisements is not available at this time.",
+  "sim": 0.35
+ },
+ {
+  "k": "paywallPurchaseFailed",
+  "en": "Purchase failed.",
+  "tr": "Η αγορά απέτυχε.",
+  "back": "The market failed.",
+  "sim": 0.4
+ },
+ {
+  "k": "errorScreenTitle",
+  "en": "Something went wrong",
+  "tr": "Κάτι πήγε στραβά",
+  "back": "Something went wrong.",
+  "sim": 1.0
+ },
+ {
+  "k": "errorScreenBody",
+  "en": "Try again, or restart the app if this keeps happening.",
+  "tr": "Δοκιμάστε ξανά ή κάντε επανεκκίνηση της εφαρμογής αν το πρόβλημα επιμένει.",
+  "back": "Try again or restart the application if the problem persists.",
+  "sim": 0.6
+ },
+ {
+  "k": "errorScreenGoBack",
+  "en": "Go back",
+  "tr": "Επιστροφή",
+  "back": "Return to the Union",
+  "sim": 0.0
+ },
+ {
+  "k": "errorScreenReportEmail",
+  "en": "Report via {email}",
+  "tr": "Αναφορά μέσω {email}",
+  "back": "Report by [email]",
+  "sim": 0.67
+ },
+ {
+  "k": "unsupportedTitle",
+  "en": "Device Not Supported",
+  "tr": "Η συσκευή δεν υποστηρίζεται",
+  "back": "The device is not supported.",
+  "sim": 0.75
+ },
+ {
+  "k": "unsupportedNoCameraMessage",
+  "en": "This device doesn't have a camera available.",
+  "tr": "Αυτή η συσκευή δεν διαθέτει διαθέσιμη κάμερα.",
+  "back": "This device does not have a camera available.",
+  "sim": 0.8
+ },
+ {
+  "k": "unsupportedLowMemoryMessage",
+  "en": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
+  "tr": "Αυτή η συσκευή δεν έχει αρκετή μνήμη για να εκτελεί αξιόπιστα τον επεξεργαστή του PhotoSur.",
+  "back": "This device does not have enough memory to reliably run the PhotoSur processor.",
+  "sim": 0.58
+ },
+ {
+  "k": "unsupportedManualImportHint",
+  "en": "You can still import a photo from your gallery and use the manual brush tool.",
+  "tr": "Μπορείτε ακόμη να εισαγάγετε μια φωτογραφία από τη συλλογή και να χρησιμοποιήσετε το χειροκίνητο πινέλο.",
+  "back": "You can even import a photo from the collection and use the handheld brush.",
+  "sim": 0.69
+ },
+ {
+  "k": "unsupportedUseGalleryButton",
+  "en": "Import from Gallery",
+  "tr": "Εισαγωγή από Συλλογή",
+  "back": "Imported from the collection",
+  "sim": 0.29
+ },
+ {
+  "k": "homeBatchButton",
+  "en": "Batch",
+  "tr": "Παρτίδα",
+  "back": "Parts and accessories",
+  "sim": 0.0
+ },
+ {
+  "k": "batchTitle",
+  "en": "Batch cut-out",
+  "tr": "Αποκοπή παρτίδας",
+  "back": "Cutting off the batch",
+  "sim": 0.33
+ },
+ {
+  "k": "batchOutputTransparent",
+  "en": "Transparent PNG",
+  "tr": "Διαφανές PNG",
+  "back": "Transparent PNG",
+  "sim": 1.0
+ },
+ {
+  "k": "batchOutputWhite",
+  "en": "White background (JPG)",
+  "tr": "Λευκό φόντο (JPG)",
+  "back": "White background (JPG)",
+  "sim": 1.0
+ },
+ {
+  "k": "batchStart",
+  "en": "Start",
+  "tr": "Έναρξη",
+  "back": "Starting",
+  "sim": 0.0
+ },
+ {
+  "k": "batchStop",
+  "en": "Stop",
+  "tr": "Διακοπή",
+  "back": "Interruption",
+  "sim": 0.0
+ },
+ {
+  "k": "batchDone",
+  "en": "Done",
+  "tr": "Έτοιμο",
+  "back": "I'm ready to go.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchProgress",
+  "en": "{done} of {total} done",
+  "tr": "{done} από {total} ολοκληρώθηκαν",
+  "back": "[done] by [total] completed",
+  "sim": 0.5
+ },
+ {
+  "k": "batchSaved",
+  "en": "{count} saved to your gallery",
+  "tr": "{count} αποθηκεύτηκαν στη συλλογή σας",
+  "back": "[count] stored in your collection",
+  "sim": 0.4
+ },
+ {
+  "k": "batchSomeFailed",
+  "en": "{count} could not be processed",
+  "tr": "{count} δεν μπόρεσαν να επεξεργαστούν",
+  "back": "[count] could not be processed",
+  "sim": 1.0
+ },
+ {
+  "k": "batchTooMany",
+  "en": "Up to {max} photos at a time",
+  "tr": "Έως {max} φωτογραφίες τη φορά",
+  "back": "Up to [max] photos at a time",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundAddCustom",
+  "en": "Add custom background",
+  "tr": "Προσθήκη προσαρμοσμένου φόντου",
+  "back": "Adding a customised background",
+  "sim": 0.29
+ },
+ {
+  "k": "backgroundCustomColor",
+  "en": "Custom color",
+  "tr": "Προσαρμοσμένο χρώμα",
+  "back": "Adjusted colour",
+  "sim": 0.0
+ },
+ {
+  "k": "colorSaturation",
+  "en": "Saturation",
+  "tr": "Κορεσμός",
+  "back": "Satisfaction",
+  "sim": 0.0
+ },
+ {
+  "k": "colorBrightness",
+  "en": "Brightness",
+  "tr": "Φωτεινότητα",
+  "back": "Lighting",
+  "sim": 0.0
+ },
+ {
+  "k": "colorHexLabel",
+  "en": "Hex code",
+  "tr": "Κωδικός hex",
+  "back": "Hex code",
+  "sim": 1.0
+ },
+ {
+  "k": "colorPickerDone",
+  "en": "Done",
+  "tr": "Έτοιμο",
+  "back": "I'm ready to go.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceWhiteFill",
+  "en": "Pure white background, product fills the frame",
+  "tr": "Καθαρό λευκό φόντο, το προϊόν γεμίζει το κάδρο",
+  "back": "Clean white background, the product fills the frame",
+  "sim": 0.8
+ },
+ {
+  "k": "exportMarketplaceSizeCap",
+  "en": "File kept under {size} MB",
+  "tr": "Αρχείο κάτω από {size} MB",
+  "back": "File below [size] MB",
+  "sim": 0.67
+ },
+ {
+  "k": "editorToolTemplates",
+  "en": "Templates",
+  "tr": "Πρότυπα",
+  "back": "The Commission shall adopt delegated acts in accordance with this Regulation.",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTitle",
+  "en": "Choose a template",
+  "tr": "Επιλέξτε πρότυπο",
+  "back": "Select a pattern",
+  "sim": 0.33
+ },
+ {
+  "k": "templatesStudio",
+  "en": "Studio",
+  "tr": "Στούντιο",
+  "back": "I 'm in the studio .",
+  "sim": 0.33
+ },
+ {
+  "k": "templatesColorBlock",
+  "en": "Color block",
+  "tr": "Μπλοκ χρώματος",
+  "back": "Colour blocks",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTextures",
+  "en": "Textures",
+  "tr": "Υφές",
+  "back": "The Commission shall adopt delegated acts in accordance with Article 21 of this Regulation.",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesLight",
+  "en": "Light & shadow",
+  "tr": "Φως και σκιά",
+  "back": "Light and shadow",
+  "sim": 0.8
+ },
+ {
+  "k": "templatesPatterns",
+  "en": "Gradients & patterns",
+  "tr": "Διαβαθμίσεις και μοτίβα",
+  "back": "Classifications and patterns",
+  "sim": 0.4
+ },
+ {
+  "k": "hdGetAction",
+  "en": "Get HD cut-out",
+  "tr": "Λήψη HD αποκοπής",
+  "back": "Taking HD cutting",
+  "sim": 0.33
+ },
+ {
+  "k": "hdRedoAction",
+  "en": "Redo cut-out in HD",
+  "tr": "Επανάληψη αποκοπής σε HD",
+  "back": "Repeat cutting in HD",
+  "sim": 0.5
+ },
+ {
+  "k": "hdDownloading",
+  "en": "HD cut-out in progress… {percent}%",
+  "tr": "Η HD αποκοπή βρίσκεται σε εξέλιξη… {percent}%",
+  "back": "HD disruption is underway... [percent] percent",
+  "sim": 0.36
+ },
+ {
+  "k": "hdDownloadingShort",
+  "en": "HD cut-out… {percent}%",
+  "tr": "HD αποκοπή… {percent}%",
+  "back": "HD cut off... [percent] %",
+  "sim": 0.57
+ },
+ {
+  "k": "hdConfirmTitle",
+  "en": "Download HD cut-out model?",
+  "tr": "Λήψη μοντέλου HD αποκοπής;",
+  "back": "Taking a cutting edge HD model?",
+  "sim": 0.4
+ },
+ {
+  "k": "hdConfirmBody",
+  "en": "Cleaner edges on tricky objects like shoes, bags and bottles. It downloads once, stays on your phone and then works offline. Mobile data charges may apply.",
+  "tr": "Πιο καθαρές άκρες σε δύσκολα αντικείμενα όπως παπούτσια, τσάντες και μπουκάλια. Κατεβαίνει μία φορά, μένει στο τηλέφωνό σας και μετά λειτουργεί χωρίς σύνδεση. Ενδέχεται να ισχύουν χρεώσεις δεδομένων κινητής.",
+  "back": "Cleaner edges on difficult items like shoes, bags and bottles. It comes down once, stays on your phone, and then runs offline.",
+  "sim": 0.71
+ },
+ {
+  "k": "hdDownload",
+  "en": "Download",
+  "tr": "Λήψη",
+  "back": "Adopted by the Commission",
+  "sim": 0.0
+ },
+ {
+  "k": "hdFailed",
+  "en": "HD cut-out didn’t finish. Check your connection and try again.",
+  "tr": "Η HD αποκοπή δεν ολοκληρώθηκε. Ελέγξτε τη σύνδεση και δοκιμάστε ξανά.",
+  "back": "HD disconnect isn't complete, check the connection and try again.",
+  "sim": 0.6
+ },
+ {
+  "k": "settingsHdTitle",
+  "en": "HD cut-out model",
+  "tr": "Μοντέλο HD αποκοπής",
+  "back": "High frequency (HD) cutting model",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsHdNotInstalled",
+  "en": "Not downloaded",
+  "tr": "Δεν έχει γίνει λήψη",
+  "back": "There 's no recording .",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsHdInstalled",
+  "en": "Installed · works offline",
+  "tr": "Εγκατεστημένο · λειτουργεί χωρίς σύνδεση",
+  "back": "Installed; operates without a connection",
+  "sim": 0.25
+ },
+ {
+  "k": "settingsHdRemove",
+  "en": "Remove",
+  "tr": "Αφαίρεση",
+  "back": "Subtraction",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsReplayIntro",
+  "en": "Replay intro",
+  "tr": "Επανάληψη της εισαγωγής",
+  "back": "Repeated importation",
+  "sim": 0.0
+ },
+ {
+  "k": "homeSeeAll",
+  "en": "See all",
+  "tr": "Προβολή όλων",
+  "back": "View of all",
+  "sim": 0.4
+ },
+ {
+  "k": "exportActionEdit",
+  "en": "Edit again",
+  "tr": "Επεξεργασία ξανά",
+  "back": "Re-processing",
+  "sim": 0.0
+ },
+ {
+  "k": "exportActionDelete",
+  "en": "Delete",
+  "tr": "Διαγραφή",
+  "back": "Deleted",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMoreOptions",
+  "en": "More options",
+  "tr": "Περισσότερες επιλογές",
+  "back": "More options",
+  "sim": 1.0
+ },
+ {
+  "k": "exportDeleteTitle",
+  "en": "Delete this export?",
+  "tr": "Διαγραφή αυτής της εξαγωγής;",
+  "back": "Cancellation of this export?",
+  "sim": 0.57
+ },
+ {
+  "k": "exportDeleteBody",
+  "en": "Exported images are removed from this phone. Your original photos and anything saved to your gallery are not affected.",
+  "tr": "Οι εξαγόμενες εικόνες αφαιρούνται από αυτό το τηλέφωνο. Οι αρχικές φωτογραφίες σας και ό,τι έχετε αποθηκεύσει στη συλλογή δεν επηρεάζονται.",
+  "back": "The exported images are removed from this phone, and your original photos and what you have stored in the collection are unaffected.",
+  "sim": 0.59
+ },
+ {
+  "k": "exportSavedToGallery",
+  "en": "Saved to your gallery",
+  "tr": "Αποθηκεύτηκε στη συλλογή σας",
+  "back": "It 's stored in your collection .",
+  "sim": 0.2
+ },
+ {
+  "k": "exportSaveFailed",
+  "en": "Could not save to the gallery.",
+  "tr": "Δεν ήταν δυνατή η αποθήκευση στη συλλογή.",
+  "back": "It was not possible to store it in the collection.",
+  "sim": 0.38
+ },
+ {
+  "k": "exportUnavailable",
+  "en": "Unavailable",
+  "tr": "Μη διαθέσιμο",
+  "back": "Not available",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsGroupThisWeek",
+  "en": "This week",
+  "tr": "Αυτή την εβδομάδα",
+  "back": "This week.",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsGroupEarlier",
+  "en": "Earlier",
+  "tr": "Παλαιότερα",
+  "back": "Previously on",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsStorageUsed",
+  "en": "{size} used on this phone",
+  "tr": "{size} σε χρήση σε αυτό το τηλέφωνο",
+  "back": "[size] in use on this phone",
+  "sim": 0.73
+ },
+ {
+  "k": "exportsSelect",
+  "en": "Select",
+  "tr": "Επιλογή",
+  "back": "Selection",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsDone",
+  "en": "Done",
+  "tr": "Τέλος",
+  "back": "I 'm done .",
+  "sim": 0.5
+ },
+ {
+  "k": "exportsSelectedCount",
+  "en": "{count} selected",
+  "tr": "{count} επιλεγμένα",
+  "back": "[count] selected",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDeleteSelectedTitle",
+  "en": "Delete {count} exports?",
+  "tr": "Διαγραφή {count} εξαγωγών;",
+  "back": "Deletion of exports?",
+  "sim": 0.33
+ },
+ {
+  "k": "exportsDeleteAll",
+  "en": "Delete all exports",
+  "tr": "Διαγραφή όλων των εξαγωγών",
+  "back": "Deletion of all exports",
+  "sim": 0.57
+ },
+ {
+  "k": "exportsDeleteAllTitle",
+  "en": "Delete all exports?",
+  "tr": "Διαγραφή όλων των εξαγωγών;",
+  "back": "Delete all exports ?",
+  "sim": 1.0
+ },
+ {
+  "k": "helpTitle",
+  "en": "Help & how to use",
+  "tr": "Βοήθεια και οδηγίες",
+  "back": "Help and instructions",
+  "sim": 0.29
+ },
+ {
+  "k": "helpIntro",
+  "en": "Tap a topic to read how it works.",
+  "tr": "Πατήστε ένα θέμα για να διαβάσετε πώς λειτουργεί.",
+  "back": "Press a subject to read how it works.",
+  "sim": 0.75
+ },
+ {
+  "k": "helpStartTitle",
+  "en": "Getting started",
+  "tr": "Πρώτα βήματα",
+  "back": "First steps",
+  "sim": 0.0
+ },
+ {
+  "k": "helpStart1",
+  "en": "On the home screen, tap Camera to take a photo or Gallery to pick one. Batch cuts out many photos at once.",
+  "tr": "Στην αρχική οθόνη πατήστε Κάμερα για να τραβήξετε φωτογραφία ή Συλλογή για να επιλέξετε μία. Η Παρτίδα κάνει αποκοπή σε πολλές φωτογραφίες μαζί.",
+  "back": "On the home screen, press Camera to take a photo or Collect to select one.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpStart2",
+  "en": "Every photo opens in Crop & Rotate first, then in the editor. Your original photo is never changed.",
+  "tr": "Κάθε φωτογραφία ανοίγει πρώτα στο Περικοπή και περιστροφή και μετά στον επεξεργαστή. Η αρχική σας φωτογραφία δεν αλλάζει ποτέ.",
+  "back": "Every photo opens first in the Slip and spin and then in the processor.",
+  "sim": 0.45
+ },
+ {
+  "k": "helpStart3",
+  "en": "When you are happy, tap Export in the editor. Recent Exports on the home screen lists everything you have exported.",
+  "tr": "Όταν μείνετε ικανοποιημένοι, πατήστε Εξαγωγή στον επεξεργαστή. Οι Πρόσφατες εξαγωγές στην αρχική οθόνη δείχνουν ό,τι έχετε εξαγάγει.",
+  "back": "When you're satisfied, press Export to the processor.",
+  "sim": 0.21
+ },
+ {
+  "k": "helpCropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Περικοπή και περιστροφή",
+  "back": "Cutting and turning",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCrop1",
+  "en": "Turn the photo left or right in 90° steps, and drag the frame to choose the part you want to keep.",
+  "tr": "Περιστρέψτε τη φωτογραφία αριστερά ή δεξιά ανά 90° και σύρετε το πλαίσιο για να επιλέξετε το τμήμα που θέλετε να κρατήσετε.",
+  "back": "Turn the photo 90 degrees to the left or right and drag the box to select the section you want to hold.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpCrop2",
+  "en": "Free lets you shape the frame as you like. 1:1, 4:5 and 9:16 lock its shape. Tap Continue to open the editor.",
+  "tr": "Το Ελεύθερο σάς αφήνει να δώσετε στο πλαίσιο όποιο σχήμα θέλετε. Τα 1:1, 4:5 και 9:16 κλειδώνουν το σχήμα του. Πατήστε Συνέχεια για να ανοίξει ο επεξεργαστής.",
+  "back": "Free allows you to frame whatever shape you want. 1:1, 4:5 and 9:16 lock its shape. Press Continuity to open the processor.",
+  "sim": 0.64
+ },
+ {
+  "k": "helpCutoutTitle",
+  "en": "Cut-out",
+  "tr": "Αποκοπή",
+  "back": "Cutting off",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCutout1",
+  "en": "When the editor opens, PhotoSur finds the main subject and removes the background automatically, on your phone. No internet is needed.",
+  "tr": "Όταν ανοίξει ο επεξεργαστής, το PhotoSur βρίσκει το κύριο θέμα και αφαιρεί αυτόματα το φόντο, στο τηλέφωνό σας. Δεν χρειάζεται internet.",
+  "back": "When the editor opens, PhotoSur finds the main theme and automatically removes the background from your phone.",
+  "sim": 0.74
+ },
+ {
+  "k": "helpCutout2",
+  "en": "Edge Smoothness softens the edge of the cut-out, from 0 to 20 pixels.",
+  "tr": "Η Απαλότητα άκρων μαλακώνει την άκρη της αποκοπής, από 0 έως 20 pixel.",
+  "back": "The edge clearance softened the cutting edge from 0 to 20 pixels.",
+  "sim": 0.64
+ },
+ {
+  "k": "helpCutout3",
+  "en": "The eye button at the top shows your original photo so you can compare. Tap it again to go back. The brush is paused while the original is shown.",
+  "tr": "Το κουμπί με το μάτι στο πάνω μέρος δείχνει την αρχική φωτογραφία για σύγκριση. Πατήστε το ξανά για να επιστρέψετε. Το πινέλο είναι σε παύση όσο φαίνεται το πρωτότυπο.",
+  "back": "The eye button at the top shows the original photo for comparison. Press it again to return. The brush is at rest as the original appears.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpCutout4",
+  "en": "For difficult subjects such as glass, shoes, bags and bottles, tap Get HD cut-out. The HD model downloads once, stays on your phone and then works offline. Once it is installed, every new cut-out uses it automatically. To redo the photo you have open, tap Redo cut-out in HD.",
+  "tr": "Για δύσκολα θέματα, όπως γυαλί, παπούτσια, τσάντες και μπουκάλια, πατήστε Λήψη HD αποκοπής. Το μοντέλο HD κατεβαίνει μία φορά, μένει στο τηλέφωνό σας και μετά λειτουργεί χωρίς σύνδεση. Μόλις εγκατασταθεί, κάθε νέα αποκοπή το χρησιμοποιεί αυτόματα. Για να ξανακάνετε την ανοιχτή φωτογραφία, πατήστε Επανάληψη αποκοπής σε HD.",
+  "back": "For difficult items like glass, shoes, bags and bottles, press Take HD Cut. The HD model is downloaded once, stays on your phone, and then runs offline. Once installed, each new cut is automatically used. To take the open photo again, press Repeat Cut to HD.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpBrushTitle",
+  "en": "Brush",
+  "tr": "Πινέλο",
+  "back": "Other, not further worked than hot-rolled",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBrush1",
+  "en": "Erase removes parts of the subject. Restore brings back parts the cut-out removed.",
+  "tr": "Η Διαγραφή αφαιρεί τμήματα του θέματος. Η Αποκατάσταση επαναφέρει τμήματα που αφαίρεσε η αποκοπή.",
+  "back": "Delete removes parts of the subject, Restore returns parts that were removed by the cut.",
+  "sim": 0.57
+ },
+ {
+  "k": "helpBrush2",
+  "en": "Drag one finger to paint. Use two fingers to zoom, up to 8 times, and to move the photo. The brush keeps its size on screen, so zooming in gives finer control.",
+  "tr": "Σύρετε ένα δάχτυλο για να ζωγραφίσετε. Χρησιμοποιήστε δύο δάχτυλα για να μεγεθύνετε, έως 8 φορές, και να μετακινήσετε τη φωτογραφία. Το πινέλο διατηρεί το μέγεθός του στην οθόνη, οπότε με μεγέθυνση δουλεύετε πιο ακριβώς.",
+  "back": "Take one finger to draw, use two fingers to magnify, up to eight times, and move the photo, and the brush keeps its size on the screen, so you'll work more accurately with magnification.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpBrush3",
+  "en": "Brush Size goes from 1 to 50. Opacity sets how strongly each stroke applies.",
+  "tr": "Το Μέγεθος πινέλου κυμαίνεται από 1 έως 50. Η Αδιαφάνεια ορίζει πόσο έντονο είναι κάθε πινέλιασμα.",
+  "back": "The brush size ranges from 1 to 50. The opacity determines the intensity of each brush.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpBrush4",
+  "en": "Undo and Redo step through your brush strokes. Reset clears all brush strokes and goes back to the automatic cut-out; it asks you to confirm first.",
+  "tr": "Η Αναίρεση και η Επανάληψη διατρέχουν τα πινελιάσματά σας. Η Επαναφορά διαγράφει όλα τα πινελιάσματα και επιστρέφει στην αυτόματη αποκοπή· πρώτα ζητείται επιβεβαίωση.",
+  "back": "Cancellation and Repeat run your patches, Repeat deletes all patches and returns to automatic cutting; confirmation is requested first.",
+  "sim": 0.31
+ },
+ {
+  "k": "helpBackgroundTitle",
+  "en": "Background",
+  "tr": "Φόντο",
+  "back": "This item is not intended to be used for technical purposes.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBackground1",
+  "en": "Choose what goes behind your subject: transparent, white, black, a gradient, a colour, a blurred copy of your photo, or your own photo.",
+  "tr": "Διαλέξτε τι υπάρχει πίσω από το θέμα: διαφανές, λευκό, μαύρο, διαβάθμιση, χρώμα, θολή εκδοχή της φωτογραφίας σας ή δική σας φωτογραφία.",
+  "back": "Choose what's behind the subject: transparent, white, black, rating, color, blurry version of your photo or your own photo.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpBackground2",
+  "en": "Only one background is used at a time. Your latest choice replaces the earlier one.",
+  "tr": "Χρησιμοποιείται μόνο ένα φόντο τη φορά. Η τελευταία σας επιλογή αντικαθιστά την προηγούμενη.",
+  "back": "Only one background is used at a time. Your last option replaces the previous one.",
+  "sim": 0.8
+ },
+ {
+  "k": "helpBackground3",
+  "en": "Add custom background lets you pick a photo from your gallery. Custom color opens a colour picker. The Blur slider goes from 0 to 25.",
+  "tr": "Η Προσθήκη προσαρμοσμένου φόντου σάς αφήνει να επιλέξετε φωτογραφία από τη συλλογή. Το Προσαρμοσμένο χρώμα ανοίγει επιλογέα χρώματος. Το ρυθμιστικό Θόλωμα πηγαίνει από 0 έως 25.",
+  "back": "Add a custom background lets you choose a photo from the collection. Custom color opens a color selector. The adjustment volume goes from 0 to 25.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpBackground4",
+  "en": "Transparent shows a checkerboard while you edit. Export as PNG to keep it transparent.",
+  "tr": "Το Διαφανές δείχνει σκακιέρα κατά την επεξεργασία. Κάντε εξαγωγή σε PNG για να διατηρηθεί η διαφάνεια.",
+  "back": "Transparent shows a chessboard during editing. Export to PNG to maintain transparency.",
+  "sim": 0.46
+ },
+ {
+  "k": "helpTemplatesTitle",
+  "en": "Templates",
+  "tr": "Πρότυπα",
+  "back": "The Commission shall adopt delegated acts in accordance with this Regulation.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpTemplates1",
+  "en": "Templates are ready-made backgrounds in five groups: Studio, Color block, Textures, Light & shadow, and Gradients & patterns. Five scenes are shown in the panel; tap the Templates button to see them all.",
+  "tr": "Τα πρότυπα είναι έτοιμα φόντα σε πέντε ομάδες: Στούντιο, Μπλοκ χρώματος, Υφές, Φως και σκιά και Διαβαθμίσεις και μοτίβα. Στον πίνακα φαίνονται πέντε σκηνές· πατήστε το κουμπί Πρότυπα για να τις δείτε όλες.",
+  "back": "The patterns are ready-made backgrounds in five groups: Studio, Color Block, Substance, Light and Shadow and Ratings and Patterns.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpTemplates2",
+  "en": "Choosing a template works like choosing your own photo as the background: it replaces your earlier background choice.",
+  "tr": "Η επιλογή προτύπου είναι σαν να διαλέγετε δική σας φωτογραφία για φόντο: αντικαθιστά την προηγούμενη επιλογή φόντου.",
+  "back": "Selecting a pattern is like selecting your own photo for a background: it replaces the previous background selection.",
+  "sim": 0.5
+ },
+ {
+  "k": "helpLayoutTitle",
+  "en": "Layout",
+  "tr": "Διάταξη",
+  "back": "Order of the Court of First Instance",
+  "sim": 0.0
+ },
+ {
+  "k": "helpLayout1",
+  "en": "Drag the subject on the photo to move it. Pinch with two fingers to resize it.",
+  "tr": "Σύρετε το θέμα πάνω στη φωτογραφία για να το μετακινήσετε. Τσιμπήστε με δύο δάχτυλα για να αλλάξετε το μέγεθός του.",
+  "back": "Pull the subject onto the photo to move it, pinch it with two fingers to change its size.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpLayout2",
+  "en": "Choose Original, 1:1, 4:5 or 9:16 to set the shape of the final picture.",
+  "tr": "Επιλέξτε Αρχικό, 1:1, 4:5 ή 9:16 για να ορίσετε το σχήμα της τελικής εικόνας.",
+  "back": "Select Genesis 1:1, 4:5, or 9:16 to set the shape of the final image.",
+  "sim": 0.79
+ },
+ {
+  "k": "helpLayout3",
+  "en": "Size sets how big the subject is, from 20% to 300%. Shadow sets how strong its shadow is. Auto-center puts the subject back in the middle. Reset undoes moving and resizing.",
+  "tr": "Το Μέγεθος ορίζει πόσο μεγάλο είναι το θέμα, από 20% έως 300%. Η Σκιά ορίζει πόσο έντονη είναι η σκιά του. Το Αυτόματο κέντρο επαναφέρει το θέμα στη μέση. Η Επαναφορά αναιρεί τις μετακινήσεις και τις αλλαγές μεγέθους.",
+  "back": "Size determines how big the subject is, from 20% to 300%. Shadow determines how intense its shadow is. Automatic center returns the subject to the middle.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpLayout4",
+  "en": "This shape is used when the export size is Original. If you choose a size preset or a marketplace in the export sheet, that decides the final shape instead.",
+  "tr": "Αυτό το σχήμα ισχύει όταν το μέγεθος εξαγωγής είναι Αρχικό. Αν στο φύλλο εξαγωγής διαλέξετε προκαθορισμένο μέγεθος ή marketplace, αυτό καθορίζει το τελικό σχήμα.",
+  "back": "This format applies when the export size is Initial. If on the export sheet you select a predefined size or marketplace, this determines the final format.",
+  "sim": 0.44
+ },
+ {
+  "k": "helpExportTitle",
+  "en": "Export",
+  "tr": "Εξαγωγή",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "helpExport1",
+  "en": "Tap Export to open the export sheet. Nothing is applied until you tap Save to Gallery or Share, so you can change your choices as often as you like.",
+  "tr": "Πατήστε Εξαγωγή για να ανοίξει το φύλλο εξαγωγής. Τίποτα δεν εφαρμόζεται μέχρι να πατήσετε Αποθήκευση στη Συλλογή ή Κοινοποίηση, οπότε μπορείτε να αλλάζετε τις επιλογές σας όσες φορές θέλετε.",
+  "back": "Press Export to open the export sheet. Nothing applies until you press Storage in Collection or Communication, so you can change your options whenever you want.",
+  "sim": 0.58
+ },
+ {
+  "k": "helpExport2",
+  "en": "PNG keeps transparency. JPG makes smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a small modern format; if your phone cannot make it, the file is saved as JPG. For JPG and WEBP, the Quality slider trades file size for detail.",
+  "tr": "Το PNG διατηρεί τη διαφάνεια. Το JPG δίνει μικρότερα αρχεία αλλά δεν μπορεί να είναι διαφανές, γι’ αυτό ένα διαφανές φόντο γίνεται λευκό. Το WEBP είναι μια σύγχρονη, συμπαγής μορφή· αν το τηλέφωνό σας δεν μπορεί να το δημιουργήσει, το αρχείο αποθηκεύεται ως JPG. Για JPG και WEBP, το ρυθμιστικό Ποιότητα ισορροπεί μέγεθος αρχείου και λεπτομέρεια.",
+  "back": "PNG maintains transparency. JPG gives smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a modern, compact format; if your phone cannot create it, the file is stored as JPG. For JPG and WEBP, the Quality setting balances file size and detail.",
+  "sim": 0.83
+ },
+ {
+  "k": "helpExport3",
+  "en": "Original keeps your photo’s size, with the shape chosen in Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. Custom lets you type a width and height in pixels.",
+  "tr": "Το Αρχικό διατηρεί το μέγεθος της φωτογραφίας σας, με το σχήμα που επιλέξατε στη Διάταξη. Το 1:1 είναι 1080 × 1080, το 4:5 είναι 1080 × 1350 και το 9:16 είναι 1080 × 1920. Το Προσαρμοσμένο σάς αφήνει να βάλετε πλάτος και ύψος σε pixel.",
+  "back": "The original keeps the size of your photo, with the shape you chose in the order. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. The custom allows you to put width and height in pixels.",
+  "sim": 0.73
+ },
+ {
+  "k": "helpExport4",
+  "en": "Marketplace presets set size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG kept under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices, and choosing a format or size afterwards switches the marketplace off. Marketplace rules can change, so check your marketplace’s current requirements.",
+  "tr": "Οι προεπιλογές marketplace ορίζουν μέγεθος, μορφή και ποιότητα: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG κάτω από 1 MB και Shopify 2048 × 2048 PNG. Η επιλογή μιας αντικαθιστά τις επιλογές μορφής και μεγέθους· αν μετά διαλέξετε μορφή ή μέγεθος, το marketplace αποεπιλέγεται. Οι κανόνες των marketplace μπορεί να αλλάξουν, γι’ αυτό ελέγξτε τις τρέχουσες απαιτήσεις του δικού σας.",
+  "back": "The default marketplace options define size, format, and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG under 1 MB, and Shopify 2048 × 2048 PNG. Selecting one replaces the shape and size options; if you then choose shape or size, the marketplace is de-selected. Marketplace rules may change, so check your current requirements.",
+  "sim": 0.72
+ },
+ {
+  "k": "helpExport5",
+  "en": "Amazon also uses a pure white background with no shadow and fits the subject to fill most of the frame. Your background choice in the editor is not changed. The other marketplaces keep your background.",
+  "tr": "Το Amazon χρησιμοποιεί επίσης καθαρά λευκό φόντο χωρίς σκιά και προσαρμόζει το θέμα ώστε να γεμίζει το μεγαλύτερο μέρος του κάδρου. Η επιλογή φόντου στον επεξεργαστή δεν αλλάζει. Τα υπόλοιπα marketplace κρατούν το φόντο σας.",
+  "back": "Amazon also uses a clear white background with no shadows and adapts the theme to fill most of the frame. The background selection in the processor does not change. The rest of the marketplace keeps your background.",
+  "sim": 0.5
+ },
+ {
+  "k": "helpExport6",
+  "en": "Save to Gallery and Share both save the picture to your gallery and to Recent Exports. Share also opens your phone’s share menu. If saving to the gallery is not possible, the share menu opens instead. After exporting you return to the home screen.",
+  "tr": "Η Αποθήκευση στη Συλλογή και η Κοινοποίηση αποθηκεύουν και οι δύο την εικόνα στη συλλογή σας και στις Πρόσφατες εξαγωγές. Η Κοινοποίηση ανοίγει επιπλέον το μενού κοινής χρήσης του τηλεφώνου. Αν η αποθήκευση στη συλλογή δεν είναι δυνατή, ανοίγει αντ’ αυτού το μενού κοινής χρήσης. Μετά την εξαγωγή επιστρέφετε στην αρχική οθόνη.",
+  "back": "Collect Storage and Communication both store the image in your collection and recent exports. The Communication also opens the phone's shared menu. If storage in the collection is not possible, it opens this shared menu instead. After exporting you return to the original screen.",
+  "sim": 0.57
+ },
+ {
+  "k": "helpExport7",
+  "en": "Unless you have removed ads, an ad can appear after an export, at most once every two minutes.",
+  "tr": "Αν δεν έχετε αφαιρέσει τις διαφημίσεις, μετά από μια εξαγωγή μπορεί να εμφανιστεί διαφήμιση, το πολύ μία φορά ανά δύο λεπτά.",
+  "back": "If you have not removed the advertisements, an advertisement may appear after an export, at most once every two minutes.",
+  "sim": 0.74
+ },
+ {
+  "k": "helpBatchTitle",
+  "en": "Batch",
+  "tr": "Παρτίδα",
+  "back": "Parts and accessories",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBatch1",
+  "en": "Batch cuts out up to 30 photos in one go. Tap Batch on the home screen and pick your photos. The back button is turned off while a batch runs.",
+  "tr": "Η Παρτίδα κάνει αποκοπή έως 30 φωτογραφίες ταυτόχρονα. Πατήστε Παρτίδα στην αρχική οθόνη και επιλέξτε τις φωτογραφίες. Το κουμπί Πίσω είναι απενεργοποιημένο όσο τρέχει μια παρτίδα.",
+  "back": "The Batch cuts up to 30 photos at once. Tap Batch on the home screen and select the photos. The Back button is disabled while a batch is running.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpBatch2",
+  "en": "All photos in a batch share one setup: one background and one marketplace. You cannot choose differently for each photo.",
+  "tr": "Όλες οι φωτογραφίες μιας παρτίδας μοιράζονται μία ρύθμιση: ένα φόντο και ένα marketplace. Δεν μπορείτε να επιλέξετε διαφορετικά για κάθε φωτογραφία.",
+  "back": "All the photos in a batch share a setting: a background and a marketplace. You can't choose differently for each photo.",
+  "sim": 0.73
+ },
+ {
+  "k": "helpBatch3",
+  "en": "Backgrounds work as in the editor: your own photo, a colour, a template, white, transparent, black, blur or a gradient. Only one applies, and your latest choice replaces the earlier one.",
+  "tr": "Τα φόντα λειτουργούν όπως στον επεξεργαστή: δική σας φωτογραφία, χρώμα, πρότυπο, λευκό, διαφανές, μαύρο, θολό ή διαβάθμιση. Ισχύει μόνο ένα και η τελευταία σας επιλογή αντικαθιστά την προηγούμενη.",
+  "back": "The backgrounds work as in the editor: your own photo, color, pattern, white, transparent, black, blurred or graded. Only one is valid and your last choice replaces the previous one.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpBatch4",
+  "en": "The file format is chosen for you. With a marketplace, the photos follow that marketplace’s size and format. Without one, a transparent background gives PNG and any other background gives JPG, at the original size.",
+  "tr": "Η μορφή αρχείου επιλέγεται για εσάς. Με marketplace, οι φωτογραφίες ακολουθούν το μέγεθος και τη μορφή του. Χωρίς marketplace, διαφανές φόντο δίνει PNG και οποιοδήποτε άλλο φόντο δίνει JPG, στο αρχικό μέγεθος.",
+  "back": "The file format is chosen for you. With marketplace, the photos follow its size and shape. Without marketplace, a transparent background gives PNG and any other background gives JPG, to the original size.",
+  "sim": 0.85
+ },
+ {
+  "k": "helpBatch5",
+  "en": "Choosing Amazon switches the background to White; if you then choose another background, Amazon is switched off. eBay, Etsy and Shopify keep your background, but a JPG cannot be transparent, so it gets a white background.",
+  "tr": "Η επιλογή Amazon αλλάζει το φόντο σε Λευκό· αν μετά διαλέξετε άλλο φόντο, το Amazon αποεπιλέγεται. Τα eBay, Etsy και Shopify κρατούν το φόντο σας, αλλά ένα JPG δεν μπορεί να είναι διαφανές, γι’ αυτό παίρνει λευκό φόντο.",
+  "back": "The Amazon option changes the background to White; if you then choose another background, Amazon is de-selected. eBay, Etsy and Shopify hold your background, but a JPG cannot be transparent, so it gets a white background.",
+  "sim": 0.86
+ },
+ {
+  "k": "helpBatch6",
+  "en": "If the HD model is installed, every photo in the batch is cut out with it. The Get HD cut-out button next to Templates downloads it.",
+  "tr": "Αν το μοντέλο HD είναι εγκατεστημένο, κάθε φωτογραφία της παρτίδας γίνεται αποκοπή με αυτό. Το κουμπί Λήψη HD αποκοπής δίπλα στα Πρότυπα το κατεβάζει.",
+  "back": "If the HD model is installed, every photo of the batch is cut with it.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpBatch7",
+  "en": "Each photo is saved to your gallery and to Recent Exports as soon as it finishes. Stop ends the batch after the current photo, and photos already finished stay saved. If a photo fails, the batch carries on and tells you how many could not be processed. Done takes you back to the home screen; it does not save anything.",
+  "tr": "Κάθε φωτογραφία αποθηκεύεται στη συλλογή σας και στις Πρόσφατες εξαγωγές μόλις ολοκληρωθεί. Η Διακοπή τερματίζει την παρτίδα μετά την τρέχουσα φωτογραφία και οι φωτογραφίες που έχουν ήδη ολοκληρωθεί μένουν αποθηκευμένες. Αν μια φωτογραφία αποτύχει, η παρτίδα συνεχίζει και σας λέει πόσες δεν μπόρεσαν να επεξεργαστούν. Το Έτοιμο σας γυρίζει στην αρχική οθόνη· δεν αποθηκεύει τίποτα.",
+  "back": "Each photo is stored in your collection and recent exports as soon as it's completed. The disconnect terminates the batch after the current photo and the photos that have already been completed remain stored. If a photo fails, the batch continues and tells you how many were unable to be edited. Ready returns you to the original screen; it doesn't store anything.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpLibraryTitle",
+  "en": "Your exports",
+  "tr": "Οι εξαγωγές σας",
+  "back": "Your exports",
+  "sim": 1.0
+ },
+ {
+  "k": "helpLibrary1",
+  "en": "Recent Exports on the home screen shows your latest exports. Tap See all for every export, grouped as Today, Yesterday, This week and Earlier.",
+  "tr": "Οι Πρόσφατες εξαγωγές στην αρχική οθόνη δείχνουν τις πιο πρόσφατες εξαγωγές σας. Πατήστε Προβολή όλων για να τις δείτε όλες, ομαδοποιημένες σε Σήμερα, Χθες, Αυτή την εβδομάδα και Παλαιότερα.",
+  "back": "Recent exports on the home screen show your most recent exports. Click View All to view them all, grouped into Today, Yesterday, This Week and Later.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpLibrary2",
+  "en": "Tap an export to open it full screen. Swipe to move between exports and pinch to zoom. The bar at the bottom has Share, Save to Gallery, Edit again and Delete.",
+  "tr": "Πατήστε μια εξαγωγή για να την ανοίξετε σε πλήρη οθόνη. Σύρετε για να αλλάζετε μεταξύ εξαγωγών και τσιμπήστε για μεγέθυνση. Η κάτω μπάρα προσφέρει Κοινοποίηση, Αποθήκευση στη Συλλογή, Επεξεργασία ξανά και Διαγραφή.",
+  "back": "Press an export to open it on a full screen. Drag to switch between exports and tap for enlargement. The bottom bar offers Notification, Storage in Collection, Rework and Delete.",
+  "sim": 0.49
+ },
+ {
+  "k": "helpLibrary3",
+  "en": "The three-dot button on a tile opens the same actions. Edit again opens the exported picture as a new photo, so earlier brush strokes are not restored.",
+  "tr": "Το κουμπί με τις τρεις τελείες σε μια μικρογραφία ανοίγει τις ίδιες ενέργειες. Η Επεξεργασία ξανά ανοίγει την εξαγόμενη εικόνα ως νέα φωτογραφία, οπότε τα προηγούμενα πινελιάσματα δεν επαναφέρονται.",
+  "back": "The button with the three dots in a microphone opens the same actions, and the editing again opens the output image as a new photo, so the previous snaps are not restored.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpLibrary4",
+  "en": "Select lets you choose several exports to share together or delete. Delete all exports removes every export from this phone.",
+  "tr": "Η Επιλογή σάς αφήνει να διαλέξετε πολλές εξαγωγές για να τις κοινοποιήσετε ή να τις διαγράψετε μαζί. Η Διαγραφή όλων των εξαγωγών αφαιρεί όλες τις εξαγωγές από αυτό το τηλέφωνο.",
+  "back": "Selection allows you to select multiple exports to share or delete together. Deleting all exports removes all exports from this phone.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpLibrary5",
+  "en": "Deleting removes exports from PhotoSur only. Pictures already saved to your gallery are not affected. The bottom of the See all screen shows how much space exports use on this phone.",
+  "tr": "Η διαγραφή αφαιρεί τις εξαγωγές μόνο από το PhotoSur. Οι εικόνες που έχουν ήδη αποθηκευτεί στη συλλογή σας δεν επηρεάζονται. Στο κάτω μέρος του Προβολή όλων φαίνεται πόσο χώρο καταλαμβάνουν οι εξαγωγές σε αυτό το τηλέφωνο.",
+  "back": "The deletion removes exports only from PhotoSur. Images that are already stored in your collection are unaffected. At the bottom of the View All section you can see how much space exports take up on this phone.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpPrivacyTitle",
+  "en": "Privacy & ads",
+  "tr": "Απόρρητο και διαφημίσεις",
+  "back": "Confidentiality and Advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "helpPrivacy1",
+  "en": "Your photos are processed on your phone and are not uploaded. There is no account and no watermark.",
+  "tr": "Οι φωτογραφίες σας επεξεργάζονται στο τηλέφωνό σας και δεν μεταφορτώνονται. Δεν υπάρχει λογαριασμός ούτε υδατογράφημα.",
+  "back": "Your photos are processed on your phone and not uploaded.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpPrivacy2",
+  "en": "PhotoSur is free with every feature included, supported by ads. A banner appears at the bottom of some screens, and an ad can appear after an export.",
+  "tr": "Το PhotoSur είναι δωρεάν, με όλες τις λειτουργίες, και χρηματοδοτείται από διαφημίσεις. Στο κάτω μέρος ορισμένων οθονών εμφανίζεται banner και μετά από μια εξαγωγή μπορεί να εμφανιστεί διαφήμιση.",
+  "back": "PhotoSur is free, with all the features, and funded by advertising. At the bottom of some displays a banner appears and after an export an advertisement may appear.",
+  "sim": 0.51
+ },
+ {
+  "k": "helpPrivacy3",
+  "en": "Go Ad-Free in Settings is a one-time purchase that removes the ads. It does not unlock anything else, because every feature is already free. Restore Purchases brings it back on a new phone.",
+  "tr": "Το Χωρίς διαφημίσεις στις Ρυθμίσεις είναι μία εφάπαξ αγορά που αφαιρεί τις διαφημίσεις. Δεν ξεκλειδώνει τίποτα άλλο, γιατί όλες οι λειτουργίες είναι ήδη δωρεάν. Η Επαναφορά αγορών την επαναφέρει σε νέο τηλέφωνο.",
+  "back": "No Advertising in Settings is a one-time marketplace that removes ads. It doesn't unlock anything else, because all functions are already free. Shopping Returns brings it back to a new phone.",
+  "sim": 0.66
+ },
+ {
+  "k": "helpSettingsTitle",
+  "en": "Settings",
+  "tr": "Ρυθμίσεις",
+  "back": "Settings",
+  "sim": 1.0
+ },
+ {
+  "k": "helpSettings1",
+  "en": "Theme can follow your phone, or be Light or Dark. Language changes the language of the app. Both are also in the home screen header.",
+  "tr": "Το Θέμα μπορεί να ακολουθεί το τηλέφωνό σας ή να είναι Φωτεινό ή Σκούρο. Η Γλώσσα αλλάζει τη γλώσσα της εφαρμογής. Και τα δύο υπάρχουν και στην κεφαλίδα της αρχικής οθόνης.",
+  "back": "The theme can follow your phone or be Light or Dark, the language changes the language of the application, and both are on the home screen header.",
+  "sim": 0.85
+ },
+ {
+  "k": "helpSettings2",
+  "en": "Edit reminders: if you leave the app with an unfinished edit, PhotoSur can remind you three hours later. Switch this off in Settings.",
+  "tr": "Υπενθυμίσεις επεξεργασίας: αν βγείτε από την εφαρμογή με μισοτελειωμένη επεξεργασία, το PhotoSur μπορεί να σας το υπενθυμίσει μετά από τρεις ώρες. Απενεργοποιήστε το στις Ρυθμίσεις.",
+  "back": "Processing reminders: if you leave the application with unfinished processing, PhotoSur can remind you after three hours. Turn it off in Settings.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpSettings3",
+  "en": "HD cut-out model shows whether it is installed. Remove deletes it from your phone to free space; you can download it again at any time.",
+  "tr": "Το Μοντέλο HD αποκοπής δείχνει αν είναι εγκατεστημένο. Η Αφαίρεση το διαγράφει από το τηλέφωνο για να ελευθερωθεί χώρος· μπορείτε να το κατεβάσετε ξανά οποτεδήποτε.",
+  "back": "The cut-off HD model shows if it's installed. Remove deletes it from the phone to free up space; you can download it again at any time.",
+  "sim": 0.78
+ },
+ {
+  "k": "helpSettings4",
+  "en": "Replay intro shows the welcome screens again. Support opens the support page. Animated home background turns the moving picture at the top of the home screen on or off.",
+  "tr": "Η Επανάληψη της εισαγωγής δείχνει ξανά τις οθόνες καλωσορίσματος. Η Υποστήριξη ανοίγει τη σελίδα υποστήριξης. Το κινούμενο φόντο αρχικής ενεργοποιεί ή απενεργοποιεί την κινούμενη εικόνα στο πάνω μέρος της αρχικής οθόνης.",
+  "back": "Repeat input shows the welcome screens again. Support opens the support page. The original moving background activates or disables the moving image at the top of the original screen.",
+  "sim": 0.66
+ },
+ {
+  "k": "helpFixTitle",
+  "en": "If something goes wrong",
+  "tr": "Αν κάτι πάει στραβά",
+  "back": "If something goes wrong",
+  "sim": 1.0
+ },
+ {
+  "k": "helpFix1",
+  "en": "If the automatic cut-out cannot run on a very old or low-memory phone, the brush still works, so you can finish the picture by hand.",
+  "tr": "Αν η αυτόματη αποκοπή δεν μπορεί να τρέξει σε πολύ παλιό τηλέφωνο ή με λίγη μνήμη, το πινέλο εξακολουθεί να δουλεύει, οπότε μπορείτε να ολοκληρώσετε την εικόνα με το χέρι.",
+  "back": "If the auto-cutoff can't run on a very old phone or with little memory, the brush is still working, so you can complete the image by hand.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpFix2",
+  "en": "If the HD download stops, check your connection and try again. It continues where it left off.",
+  "tr": "Αν η λήψη HD σταματήσει, ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά. Συνεχίζει από εκεί που σταμάτησε.",
+  "back": "If the HD recording stops, check your connection and try again.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpFix3",
+  "en": "For anything else, open Support from Settings.",
+  "tr": "Για οτιδήποτε άλλο, ανοίξτε την Υποστήριξη από τις Ρυθμίσεις.",
+  "back": "For anything else, open the Settings support.",
+  "sim": 0.71
+ }
+]

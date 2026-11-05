@@ -1,0 +1,1773 @@
+[
+ {
+  "k": "onboardingPage1Title",
+  "en": "Remove backgrounds instantly. All features free.",
+  "tr": "Ondoa mandharinyuma papo hapo. Vipengele vyote bure.",
+  "back": "Remove the back-end immediately. All the features are free.",
+  "sim": 0.53
+ },
+ {
+  "k": "onboardingPage1Body",
+  "en": "Open a photo and our on-device AI removes the background automatically — no internet required. You can also swap in your own custom background.",
+  "tr": "Fungua picha na AI iliyo ndani ya simu yako itaondoa mandharinyuma kiotomatiki — hakuna intaneti inayohitajika. Unaweza pia kuweka mandharinyuma yako mwenyewe.",
+  "back": "Open the image and the AI inside your phone will automatically remove the backend  no internet required. You can also set your own backend.",
+  "sim": 0.51
+ },
+ {
+  "k": "onboardingPage2Title",
+  "en": "Fine-tune with the brush",
+  "tr": "Boresha kwa brashi",
+  "back": "Improve with brushes",
+  "sim": 0.29
+ },
+ {
+  "k": "onboardingPage2Body",
+  "en": "Paint away what the AI missed or restore what you want to keep. Then crop, rotate, move and resize.",
+  "tr": "Futa kwa brashi kile ambacho AI ilikosa, au rudisha unachotaka kubaki nacho. Kisha kata, zungusha, sogeza na ubadilishe ukubwa.",
+  "back": "Brush out what AI missed, or return what you want to keep. Then cut, rotate, move and resize.",
+  "sim": 0.76
+ },
+ {
+  "k": "onboardingPage3Title",
+  "en": "Studio-ready backgrounds",
+  "tr": "Mandharinyuma ya kiwango cha studio",
+  "back": "Behind the studio level",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingPage3Body",
+  "en": "Choose a colour, gradient, template or your own photo, with a natural shadow. Marketplace presets for Amazon, eBay, Etsy and Shopify set size and format for you.",
+  "tr": "Chagua rangi, gradienti, kiolezo au picha yako mwenyewe, pamoja na kivuli cha asili. Mipangilio ya Amazon, eBay, Etsy na Shopify huweka ukubwa na umbizo kwa ajili yako.",
+  "back": "Choose your own color, gradient, template or image, along with the original shade. Amazon, eBay, Etsy and Shopify settings set the size and format for you.",
+  "sim": 0.6
+ },
+ {
+  "k": "onboardingPage4Title",
+  "en": "Batch it, export it, keep it private",
+  "tr": "Kwa wingi, umbizo upendalo, faragha kamili",
+  "back": "In abundance, in pleasant form, in complete privacy",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingPage4Body",
+  "en": "Cut out up to 30 photos at once and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "tr": "Ondoa mandharinyuma ya hadi picha 30 kwa wakati mmoja na usafirishe kama PNG, JPG au WEBP. Picha zako haziondoki kamwe kwenye simu yako. Inapatikana kwa lugha 43.",
+  "back": "Remove backgrounds of up to 30 images at a time and export them as PNG, JPG or WEBP. Your images never leave your phone. Available in 43 languages.",
+  "sim": 0.75
+ },
+ {
+  "k": "onboardingNext",
+  "en": "Next",
+  "tr": "Endelea",
+  "back": "Go on",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingGetStarted",
+  "en": "Get Started",
+  "tr": "Anza sasa",
+  "back": "Start now",
+  "sim": 0.0
+ },
+ {
+  "k": "homeCameraButton",
+  "en": "Camera",
+  "tr": "Kamera",
+  "back": "Cameras",
+  "sim": 0.0
+ },
+ {
+  "k": "homeGalleryButton",
+  "en": "Gallery",
+  "tr": "Ghala",
+  "back": "Storage",
+  "sim": 0.0
+ },
+ {
+  "k": "dateToday",
+  "en": "Today",
+  "tr": "Leo",
+  "back": "Today",
+  "sim": 1.0
+ },
+ {
+  "k": "dateYesterday",
+  "en": "Yesterday",
+  "tr": "Jana",
+  "back": "Yesterday",
+  "sim": 1.0
+ },
+ {
+  "k": "homeRecentExports",
+  "en": "Recent Exports",
+  "tr": "Zilizotolewa hivi karibuni",
+  "back": "Recent releases",
+  "sim": 0.5
+ },
+ {
+  "k": "homeEmptyStateMessage",
+  "en": "Tap Camera or Gallery to start.",
+  "tr": "Gusa Kamera au Ghala ili kuanza.",
+  "back": "Push the Camera or Warehouse to get started.",
+  "sim": 0.43
+ },
+ {
+  "k": "homeExportUnavailable",
+  "en": "This export is no longer available.",
+  "tr": "Faili hii iliyotolewa haipatikani tena.",
+  "back": "This deleted file is no longer available.",
+  "sim": 0.77
+ },
+ {
+  "k": "homeShareFailed",
+  "en": "Could not share this export.",
+  "tr": "Imeshindwa kushiriki faili hii.",
+  "back": "It has failed to share this file.",
+  "sim": 0.33
+ },
+ {
+  "k": "homeGalleryOpenFailed",
+  "en": "Could not open gallery.",
+  "tr": "Imeshindwa kufungua ghala.",
+  "back": "It failed to open the warehouse.",
+  "sim": 0.2
+ },
+ {
+  "k": "cameraTitle",
+  "en": "Camera",
+  "tr": "Kamera",
+  "back": "Cameras",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraPermissionDenied",
+  "en": "Camera access is needed to take a photo. Please allow access.",
+  "tr": "Kamera inahitajika ili kupiga picha. Tafadhali ruhusu ufikiaji.",
+  "back": "A camera is needed to take pictures. Please allow access.",
+  "sim": 0.76
+ },
+ {
+  "k": "cameraPermissionPermanentlyDenied",
+  "en": "Camera access was denied. Enable it in Settings to continue.",
+  "tr": "Ufikiaji wa kamera ulikataliwa. Uwashe kwenye Mipangilio ili kuendelea.",
+  "back": "Access to the camera was denied.",
+  "sim": 0.38
+ },
+ {
+  "k": "cameraPermissionRestricted",
+  "en": "Camera access is restricted on this device.",
+  "tr": "Ufikiaji wa kamera umezuiwa kwenye kifaa hiki.",
+  "back": "Camera access is blocked on this device.",
+  "sim": 0.86
+ },
+ {
+  "k": "cameraNoCameraFound",
+  "en": "No camera found on this device.",
+  "tr": "Hakuna kamera iliyopatikana kwenye kifaa hiki.",
+  "back": "No camera was found on this device.",
+  "sim": 0.92
+ },
+ {
+  "k": "cameraStartFailed",
+  "en": "Could not start the camera.",
+  "tr": "Imeshindwa kuwasha kamera.",
+  "back": "It failed to turn on the camera.",
+  "sim": 0.33
+ },
+ {
+  "k": "cameraCaptureFailed",
+  "en": "Could not capture photo.",
+  "tr": "Imeshindwa kupiga picha.",
+  "back": "It has failed to take pictures.",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraOpenSettings",
+  "en": "Open Settings",
+  "tr": "Fungua Mipangilio",
+  "back": "Open the Arrangements",
+  "sim": 0.4
+ },
+ {
+  "k": "cameraFlashTooltip",
+  "en": "Flash",
+  "tr": "Mweko",
+  "back": "The Location",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraGalleryTooltip",
+  "en": "Gallery",
+  "tr": "Ghala",
+  "back": "Storage",
+  "sim": 0.0
+ },
+ {
+  "k": "cropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Kata na Zungusha",
+  "back": "Cut and Rotate",
+  "sim": 0.4
+ },
+ {
+  "k": "cropLoadFailed",
+  "en": "Could not load the image.",
+  "tr": "Imeshindwa kupakia picha.",
+  "back": "It failed to upload photos.",
+  "sim": 0.0
+ },
+ {
+  "k": "cropRotateFailed",
+  "en": "Could not rotate the image.",
+  "tr": "Imeshindwa kuzungusha picha.",
+  "back": "It has failed to circulate images.",
+  "sim": 0.0
+ },
+ {
+  "k": "cropFailed",
+  "en": "Crop failed.",
+  "tr": "Kukata kumeshindikana.",
+  "back": "Cutting has succeeded.",
+  "sim": 0.0
+ },
+ {
+  "k": "cropSaveFailed",
+  "en": "Could not save the cropped image.",
+  "tr": "Imeshindwa kuhifadhi picha iliyokatwa.",
+  "back": "It has not been able to store the cut image.",
+  "sim": 0.38
+ },
+ {
+  "k": "cropAspectFree",
+  "en": "Free",
+  "tr": "Huru",
+  "back": "Free",
+  "sim": 1.0
+ },
+ {
+  "k": "cropContinue",
+  "en": "Continue",
+  "tr": "Endelea",
+  "back": "Go on",
+  "sim": 0.0
+ },
+ {
+  "k": "editorSegmentationFailedMessage",
+  "en": "Your device doesn't support automatic background removal. Use the manual brush below.",
+  "tr": "Kifaa chako hakitumii uondoaji wa kiotomatiki wa mandharinyuma. Tumia brashi ya mkono kilicho hapa chini.",
+  "back": "Your device does not use an automatic removal of the back.",
+  "sim": 0.43
+ },
+ {
+  "k": "brushErase",
+  "en": "Erase",
+  "tr": "Futa",
+  "back": "Remove",
+  "sim": 0.0
+ },
+ {
+  "k": "brushRestore",
+  "en": "Restore",
+  "tr": "Rudisha",
+  "back": "Restore",
+  "sim": 1.0
+ },
+ {
+  "k": "brushSizeLabel",
+  "en": "Brush Size",
+  "tr": "Ukubwa wa Brashi",
+  "back": "The Size of the Brass",
+  "sim": 0.29
+ },
+ {
+  "k": "brushOpacityLabel",
+  "en": "Opacity",
+  "tr": "Uwazi",
+  "back": "Transparency",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundWhite",
+  "en": "White",
+  "tr": "Nyeupe",
+  "back": "White",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundTransparent",
+  "en": "Transparent",
+  "tr": "Uwazi",
+  "back": "Transparency",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundBlack",
+  "en": "Black",
+  "tr": "Nyeusi",
+  "back": "Black people",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundBlurLabel",
+  "en": "Blur",
+  "tr": "Ukungu",
+  "back": "Mist",
+  "sim": 0.0
+ },
+ {
+  "k": "edgeFeatherLabel",
+  "en": "Edge Smoothness",
+  "tr": "Ulaini wa Kingo",
+  "back": "The Softness of the Edge",
+  "sim": 0.29
+ },
+ {
+  "k": "toolbarUndo",
+  "en": "Undo",
+  "tr": "Tendua",
+  "back": "Let It Go",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarRedo",
+  "en": "Redo",
+  "tr": "Rudia",
+  "back": "Repeat",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarReset",
+  "en": "Reset",
+  "tr": "Weka upya",
+  "back": "Put it back",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarExport",
+  "en": "Export",
+  "tr": "Toa",
+  "back": "Give to others",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmTitle",
+  "en": "Reset edits?",
+  "tr": "Kuweka upya mabadiliko?",
+  "back": "To reinstate the changes?",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmBody",
+  "en": "This clears your manual brush strokes. This cannot be undone.",
+  "tr": "Hii itafuta michoro yako ya brashi uliyofanya kwa mkono. Hili haliwezi kutenduliwa.",
+  "back": "This will erase your handmade brush drawings.",
+  "sim": 0.35
+ },
+ {
+  "k": "resetConfirmCancel",
+  "en": "Cancel",
+  "tr": "Ghairi",
+  "back": "The needy",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmConfirm",
+  "en": "Reset",
+  "tr": "Weka upya",
+  "back": "Put it back",
+  "sim": 0.0
+ },
+ {
+  "k": "exportTitle",
+  "en": "Export",
+  "tr": "Toa",
+  "back": "Give to others",
+  "sim": 0.0
+ },
+ {
+  "k": "exportQualityLabel",
+  "en": "Quality: {value}",
+  "tr": "Ubora: {value}",
+  "back": "Quality: [value]",
+  "sim": 1.0
+ },
+ {
+  "k": "exportResizeLabel",
+  "en": "Resize",
+  "tr": "Badilisha ukubwa",
+  "back": "Change the size",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeOriginal",
+  "en": "Original",
+  "tr": "Asili",
+  "back": "The Nature",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeCustom",
+  "en": "Custom",
+  "tr": "Maalum",
+  "back": "Specifically",
+  "sim": 0.0
+ },
+ {
+  "k": "exportWidthLabel",
+  "en": "Width (px)",
+  "tr": "Upana (px)",
+  "back": "Width (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportHeightLabel",
+  "en": "Height (px)",
+  "tr": "Urefu (px)",
+  "back": "Length (px)",
+  "sim": 0.5
+ },
+ {
+  "k": "exportSaveToGallery",
+  "en": "Save to Gallery",
+  "tr": "Hifadhi kwenye Ghala",
+  "back": "Storage in the Warehouse",
+  "sim": 0.0
+ },
+ {
+  "k": "exportShare",
+  "en": "Share",
+  "tr": "Shiriki",
+  "back": "Participate",
+  "sim": 0.0
+ },
+ {
+  "k": "exportSuccess",
+  "en": "Exported!",
+  "tr": "Imetolewa!",
+  "back": "Released!",
+  "sim": 0.0
+ },
+ {
+  "k": "exportFailed",
+  "en": "Export failed. Please try again.",
+  "tr": "Kutoa kumeshindikana. Tafadhali jaribu tena.",
+  "back": "Donation failed. Please try again.",
+  "sim": 0.8
+ },
+ {
+  "k": "exportInProgress",
+  "en": "Exporting…",
+  "tr": "Inatoa…",
+  "back": "It provides...",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTitle",
+  "en": "Settings",
+  "tr": "Mipangilio",
+  "back": "Arrangements",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTheme",
+  "en": "Theme",
+  "tr": "Mandhari",
+  "back": "The landscape",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLanguage",
+  "en": "Language",
+  "tr": "Lugha",
+  "back": "The language",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Rejesha Ununuzi",
+  "back": "Return the Purchases",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsGoAdFree",
+  "en": "Go Ad-Free",
+  "tr": "Ondoa Matangazo",
+  "back": "Remove the Advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsPrivacyPolicy",
+  "en": "Privacy Policy",
+  "tr": "Sera ya Faragha",
+  "back": "Privacy Policy",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsSupport",
+  "en": "Support",
+  "tr": "Msaada",
+  "back": "Assistance",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsRateApp",
+  "en": "Rate App",
+  "tr": "Kadiria Programu",
+  "back": "Appreciate the Program",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsShareApp",
+  "en": "Share App",
+  "tr": "Shiriki Programu",
+  "back": "Participate in the Program",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLicenses",
+  "en": "Open-source licenses",
+  "tr": "Leseni za chanzo huria",
+  "back": "Licenses from free source",
+  "sim": 0.33
+ },
+ {
+  "k": "reminderChannelName",
+  "en": "Edit reminders",
+  "tr": "Vikumbusho vya uhariri",
+  "back": "Reminders for editing",
+  "sim": 0.4
+ },
+ {
+  "k": "reminderChannelDescription",
+  "en": "Reminders about edits you have not finished.",
+  "tr": "Vikumbusho kuhusu uhariri ambao hujamaliza.",
+  "back": "Reminders about the editing process.",
+  "sim": 0.33
+ },
+ {
+  "k": "reminderTitle",
+  "en": "Your edit is waiting",
+  "tr": "Uhariri wako unakusubiri",
+  "back": "Your editing awaits you",
+  "sim": 0.25
+ },
+ {
+  "k": "reminderBody",
+  "en": "Pick up where you left off and export your photo.",
+  "tr": "Endelea ulipoachia na utoe picha yako.",
+  "back": "Continue where you left it and take your picture.",
+  "sim": 0.53
+ },
+ {
+  "k": "settingsReminders",
+  "en": "Edit reminders",
+  "tr": "Vikumbusho vya uhariri",
+  "back": "Reminders for editing",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsAnimatedBackground",
+  "en": "Animated home background",
+  "tr": "Mandharinyuma inayosogea ya mwanzo",
+  "back": "Backward movement of the beginning",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsRemindersSubtitle",
+  "en": "Remind me about unfinished edits",
+  "tr": "Nikumbushe kuhusu uhariri ambao haujakamilika",
+  "back": "Remind me of the incomplete editing",
+  "sim": 0.36
+ },
+ {
+  "k": "settingsRemindersBlocked",
+  "en": "Notifications are turned off for PhotoSur in your phone's settings.",
+  "tr": "Arifa zimezimwa kwa PhotoSur kwenye mipangilio ya simu yako.",
+  "back": "PhotoSur notifications are disabled in your phone settings.",
+  "sim": 0.56
+ },
+ {
+  "k": "editorBrushHint",
+  "en": "Drag to paint. Pinch with two fingers to zoom.",
+  "tr": "Buruta ili kupaka. Bana kwa vidole viwili ili kukuza.",
+  "back": "Pull to paint. Tie with two fingers to raise.",
+  "sim": 0.67
+ },
+ {
+  "k": "editorToolCutout",
+  "en": "Cut-out",
+  "tr": "Kata",
+  "back": "Cutting",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBrush",
+  "en": "Brush",
+  "tr": "Brashi",
+  "back": "Brass",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBackground",
+  "en": "Background",
+  "tr": "Mandharinyuma",
+  "back": "Behind the scenes",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolLayout",
+  "en": "Layout",
+  "tr": "Mpangilio",
+  "back": "The Order",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutAutoCenter",
+  "en": "Auto-center",
+  "tr": "Weka katikati",
+  "back": "Put it in the middle",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutSizeLabel",
+  "en": "Size",
+  "tr": "Ukubwa",
+  "back": "Size",
+  "sim": 1.0
+ },
+ {
+  "k": "layoutShadowLabel",
+  "en": "Shadow",
+  "tr": "Kivuli",
+  "back": "A shadow",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundPhoto",
+  "en": "Photo",
+  "tr": "Picha",
+  "back": "The picture",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundPhotoFailed",
+  "en": "Could not load that photo.",
+  "tr": "Imeshindwa kupakia picha hiyo.",
+  "back": "It has not been able to upload the image.",
+  "sim": 0.14
+ },
+ {
+  "k": "editorLayoutHint",
+  "en": "Drag to move. Pinch with two fingers to resize.",
+  "tr": "Buruta ili kuhamisha. Bana kwa vidole viwili ili kubadilisha ukubwa.",
+  "back": "Pull to move. Tie with two fingers to change size.",
+  "sim": 0.63
+ },
+ {
+  "k": "languageSystemDefault",
+  "en": "System default",
+  "tr": "Chaguo-msingi la mfumo",
+  "back": "Basic of the system",
+  "sim": 0.33
+ },
+ {
+  "k": "languageSheetTitle",
+  "en": "Language",
+  "tr": "Lugha",
+  "back": "The language",
+  "sim": 0.67
+ },
+ {
+  "k": "themeSheetTitle",
+  "en": "Theme",
+  "tr": "Mandhari",
+  "back": "The landscape",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionSystem",
+  "en": "System default",
+  "tr": "Chaguo-msingi la mfumo",
+  "back": "Basic of the system",
+  "sim": 0.33
+ },
+ {
+  "k": "themeOptionLight",
+  "en": "Light",
+  "tr": "Mwanga",
+  "back": "The Light",
+  "sim": 0.67
+ },
+ {
+  "k": "themeOptionDark",
+  "en": "Dark",
+  "tr": "Giza",
+  "back": "The Darkness",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLinkNotReady",
+  "en": "This link isn't set up yet.",
+  "tr": "Kiungo hiki bado hakijaandaliwa.",
+  "back": "This ingredient has not yet been prepared.",
+  "sim": 0.31
+ },
+ {
+  "k": "settingsLinkOpenFailed",
+  "en": "Could not open link.",
+  "tr": "Imeshindwa kufungua kiungo.",
+  "back": "It failed to open the link.",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsRestoreRequested",
+  "en": "Restore requested — check back in a moment.",
+  "tr": "Ombi la kurejesha limetumwa — angalia tena baada ya muda mfupi.",
+  "back": "Request for refund has been sent  review again after a short time.",
+  "sim": 0.11
+ },
+ {
+  "k": "settingsRestoreFailed",
+  "en": "Restore failed.",
+  "tr": "Kurejesha kumeshindikana.",
+  "back": "Restoration has failed.",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsShareFailed",
+  "en": "Could not share.",
+  "tr": "Imeshindwa kushiriki.",
+  "back": "It has failed to participate.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsShareAppMessage",
+  "en": "Remove photo backgrounds instantly with PhotoSur — free, no watermark.",
+  "tr": "Ondoa mandharinyuma ya picha papo hapo ukitumia PhotoSur — bila malipo, bila alama ya maji.",
+  "back": "Immediately remove the back of the photo using PhotoSur  free of charge, without watermark.",
+  "sim": 0.43
+ },
+ {
+  "k": "paywallTitle",
+  "en": "Go Ad-Free",
+  "tr": "Ondoa Matangazo",
+  "back": "Remove the Advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallAlreadyAdFree",
+  "en": "You're already ad-free. Thank you!",
+  "tr": "Tayari huna matangazo. Asante!",
+  "back": "You already have no ads. Thank you!",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPlanFreeTitle",
+  "en": "Free",
+  "tr": "Bure",
+  "back": "Free of charge",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPlanAdFreeTitle",
+  "en": "Ad-Free",
+  "tr": "Bila Matangazo",
+  "back": "Without Advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPlanAdFreePrice",
+  "en": "One-time purchase",
+  "tr": "Malipo ya mara moja",
+  "back": "Immediate payments",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureAllFeatures",
+  "en": "All features",
+  "tr": "Vipengele vyote",
+  "back": "All aspects",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallFeatureAdSupported",
+  "en": "Ad-supported",
+  "tr": "Na matangazo",
+  "back": "By advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureZeroAds",
+  "en": "Zero ads",
+  "tr": "Hakuna matangazo",
+  "back": "There are no advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPurchaseButton",
+  "en": "Remove Ads",
+  "tr": "Ondoa Matangazo",
+  "back": "Remove the Advertising",
+  "sim": 0.4
+ },
+ {
+  "k": "paywallPurchaseButtonPrice",
+  "en": "Remove Ads — {price}",
+  "tr": "Ondoa Matangazo — {price}",
+  "back": "Remove the Advertisements  [price]",
+  "sim": 0.57
+ },
+ {
+  "k": "paywallRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Rejesha Ununuzi",
+  "back": "Return the Purchases",
+  "sim": 0.4
+ },
+ {
+  "k": "paywallProductUnavailable",
+  "en": "Ad removal is not available right now.",
+  "tr": "Kuondoa matangazo hakupatikani kwa sasa.",
+  "back": "Removing ads is not currently available.",
+  "sim": 0.46
+ },
+ {
+  "k": "paywallPurchaseFailed",
+  "en": "Purchase failed.",
+  "tr": "Ununuzi umeshindikana.",
+  "back": "Purchases have been unsuccessful.",
+  "sim": 0.0
+ },
+ {
+  "k": "errorScreenTitle",
+  "en": "Something went wrong",
+  "tr": "Hitilafu imetokea",
+  "back": "An error has occurred",
+  "sim": 0.0
+ },
+ {
+  "k": "errorScreenBody",
+  "en": "Try again, or restart the app if this keeps happening.",
+  "tr": "Jaribu tena, au anzisha upya programu ikiwa hili litaendelea.",
+  "back": "Try again, or restart the program if this continues.",
+  "sim": 0.74
+ },
+ {
+  "k": "errorScreenGoBack",
+  "en": "Go back",
+  "tr": "Rudi nyuma",
+  "back": "Go back in time",
+  "sim": 0.67
+ },
+ {
+  "k": "errorScreenReportEmail",
+  "en": "Report via {email}",
+  "tr": "Ripoti kupitia {email}",
+  "back": "Report by e-mail",
+  "sim": 0.67
+ },
+ {
+  "k": "unsupportedTitle",
+  "en": "Device Not Supported",
+  "tr": "Kifaa Hakitumiki",
+  "back": "A Device That Is Not Used",
+  "sim": 0.44
+ },
+ {
+  "k": "unsupportedNoCameraMessage",
+  "en": "This device doesn't have a camera available.",
+  "tr": "Kifaa hiki hakina kamera inayopatikana.",
+  "back": "This device does not have a camera.",
+  "sim": 0.71
+ },
+ {
+  "k": "unsupportedLowMemoryMessage",
+  "en": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
+  "tr": "Kifaa hiki hakina kumbukumbu ya kutosha kuendesha kihariri cha PhotoSur kwa uhakika.",
+  "back": "This device does not have enough memory to run the PhotoSur editor accurately.",
+  "sim": 0.67
+ },
+ {
+  "k": "unsupportedManualImportHint",
+  "en": "You can still import a photo from your gallery and use the manual brush tool.",
+  "tr": "Bado unaweza kuleta picha kutoka ghala na kutumia zana ya brashi ya mkono.",
+  "back": "You can still bring pictures from the warehouse and use a handbrush tool.",
+  "sim": 0.5
+ },
+ {
+  "k": "unsupportedUseGalleryButton",
+  "en": "Import from Gallery",
+  "tr": "Leta kutoka Ghala",
+  "back": "Bring from the Warehouse",
+  "sim": 0.29
+ },
+ {
+  "k": "homeBatchButton",
+  "en": "Batch",
+  "tr": "Kundi",
+  "back": "The Flock",
+  "sim": 0.0
+ },
+ {
+  "k": "batchTitle",
+  "en": "Batch cut-out",
+  "tr": "Kukata kwa kundi",
+  "back": "Cutting off the flock",
+  "sim": 0.0
+ },
+ {
+  "k": "batchOutputTransparent",
+  "en": "Transparent PNG",
+  "tr": "PNG yenye uwazi",
+  "back": "A clear PNG",
+  "sim": 0.4
+ },
+ {
+  "k": "batchOutputWhite",
+  "en": "White background (JPG)",
+  "tr": "Mandharinyuma meupe (JPG)",
+  "back": "White background (JPG)",
+  "sim": 1.0
+ },
+ {
+  "k": "batchStart",
+  "en": "Start",
+  "tr": "Anza",
+  "back": "Get Started",
+  "sim": 0.0
+ },
+ {
+  "k": "batchStop",
+  "en": "Stop",
+  "tr": "Simama",
+  "back": "Stand up",
+  "sim": 0.0
+ },
+ {
+  "k": "batchDone",
+  "en": "Done",
+  "tr": "Imekamilika",
+  "back": "Fulfilled",
+  "sim": 0.0
+ },
+ {
+  "k": "batchProgress",
+  "en": "{done} of {total} done",
+  "tr": "{done} kati ya {total} zimekamilika",
+  "back": "[done] between [total] are completed",
+  "sim": 0.44
+ },
+ {
+  "k": "batchSaved",
+  "en": "{count} saved to your gallery",
+  "tr": "{count} zimehifadhiwa kwenye ghala yako",
+  "back": "[count] stored in your warehouse",
+  "sim": 0.4
+ },
+ {
+  "k": "batchSomeFailed",
+  "en": "{count} could not be processed",
+  "tr": "{count} hazikuweza kuchakatwa",
+  "back": "[count] could not be deleted",
+  "sim": 0.8
+ },
+ {
+  "k": "batchTooMany",
+  "en": "Up to {max} photos at a time",
+  "tr": "Hadi picha {max} kwa wakati mmoja",
+  "back": "Up to image [max] at a time",
+  "sim": 0.86
+ },
+ {
+  "k": "backgroundAddCustom",
+  "en": "Add custom background",
+  "tr": "Ongeza mandharinyuma maalum",
+  "back": "Add special backgrounds",
+  "sim": 0.33
+ },
+ {
+  "k": "backgroundCustomColor",
+  "en": "Custom color",
+  "tr": "Rangi maalum",
+  "back": "A special color",
+  "sim": 0.4
+ },
+ {
+  "k": "colorSaturation",
+  "en": "Saturation",
+  "tr": "Ujazo wa rangi",
+  "back": "Fullness of colour",
+  "sim": 0.0
+ },
+ {
+  "k": "colorBrightness",
+  "en": "Brightness",
+  "tr": "Mwangaza",
+  "back": "The Light",
+  "sim": 0.0
+ },
+ {
+  "k": "colorHexLabel",
+  "en": "Hex code",
+  "tr": "Msimbo wa hex",
+  "back": "The hex code",
+  "sim": 0.8
+ },
+ {
+  "k": "colorPickerDone",
+  "en": "Done",
+  "tr": "Imekamilika",
+  "back": "Fulfilled",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceLabel",
+  "en": "Marketplace",
+  "tr": "Soko la mtandaoni",
+  "back": "The online marketplace",
+  "sim": 0.5
+ },
+ {
+  "k": "exportMarketplaceWhiteFill",
+  "en": "Pure white background, product fills the frame",
+  "tr": "Mandharinyuma meupe kabisa, bidhaa inajaza fremu",
+  "back": "The back is completely white, the product fills the frame",
+  "sim": 0.59
+ },
+ {
+  "k": "exportMarketplaceSizeCap",
+  "en": "File kept under {size} MB",
+  "tr": "Faili chini ya MB {size}",
+  "back": "File below MB [size]",
+  "sim": 0.44
+ },
+ {
+  "k": "editorToolTemplates",
+  "en": "Templates",
+  "tr": "Violezo",
+  "back": "Examples",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTitle",
+  "en": "Choose a template",
+  "tr": "Chagua kiolezo",
+  "back": "Choose a pattern",
+  "sim": 0.67
+ },
+ {
+  "k": "templatesColorBlock",
+  "en": "Color block",
+  "tr": "Vitalu vya rangi",
+  "back": "Colored blocks",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTextures",
+  "en": "Textures",
+  "tr": "Umbile",
+  "back": "Creating",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesLight",
+  "en": "Light & shadow",
+  "tr": "Mwanga na kivuli",
+  "back": "Light and shadow",
+  "sim": 0.8
+ },
+ {
+  "k": "templatesPatterns",
+  "en": "Gradients & patterns",
+  "tr": "Mchanganyiko wa rangi na michoro",
+  "back": "A mixture of colour and drawing",
+  "sim": 0.0
+ },
+ {
+  "k": "hdGetAction",
+  "en": "Get HD cut-out",
+  "tr": "Pata ukataji wa HD",
+  "back": "Get an HD cut",
+  "sim": 0.57
+ },
+ {
+  "k": "hdRedoAction",
+  "en": "Redo cut-out in HD",
+  "tr": "Rudia ukataji kwa HD",
+  "back": "Repeat the cut in HD",
+  "sim": 0.44
+ },
+ {
+  "k": "hdDownloading",
+  "en": "HD cut-out in progress… {percent}%",
+  "tr": "Ukataji wa HD unaendelea… {percent}%",
+  "back": "HD cutting continues... [percent]%",
+  "sim": 0.44
+ },
+ {
+  "k": "hdDownloadingShort",
+  "en": "HD cut-out… {percent}%",
+  "tr": "Ukataji wa HD… {percent}%",
+  "back": "HD decrease... [percent]%",
+  "sim": 0.67
+ },
+ {
+  "k": "hdConfirmTitle",
+  "en": "Download HD cut-out model?",
+  "tr": "Pakua modeli ya ukataji wa HD?",
+  "back": "Download the HD cutting model?",
+  "sim": 0.67
+ },
+ {
+  "k": "hdConfirmBody",
+  "en": "Cleaner edges on tricky objects like shoes, bags and bottles. It downloads once, stays on your phone and then works offline. Mobile data charges may apply.",
+  "tr": "Kingo safi zaidi kwenye vitu vigumu kama viatu, mikoba na chupa. Hupakuliwa mara moja, hubaki kwenye simu yako kisha hufanya kazi bila mtandao. Gharama za data ya simu zinaweza kutumika.",
+  "back": "The cleanest edge on hard objects like shoes, bags and bottles. It's downloaded instantly, stays on your phone and then works without the internet.",
+  "sim": 0.56
+ },
+ {
+  "k": "hdDownload",
+  "en": "Download",
+  "tr": "Pakua",
+  "back": "Downloaded",
+  "sim": 0.0
+ },
+ {
+  "k": "hdFailed",
+  "en": "HD cut-out didn’t finish. Check your connection and try again.",
+  "tr": "Ukataji wa HD haukukamilika. Angalia muunganisho wako na ujaribu tena.",
+  "back": "HD cutting is not complete. Check your connection and try again.",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsHdTitle",
+  "en": "HD cut-out model",
+  "tr": "Modeli ya ukataji wa HD",
+  "back": "HD cutting model",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsHdNotInstalled",
+  "en": "Not downloaded",
+  "tr": "Haijapakuliwa",
+  "back": "It has not been downloaded",
+  "sim": 0.57
+ },
+ {
+  "k": "settingsHdInstalled",
+  "en": "Installed · works offline",
+  "tr": "Imesakinishwa · inafanya kazi bila mtandao",
+  "back": "Installed · works without internet connection",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsHdRemove",
+  "en": "Remove",
+  "tr": "Ondoa",
+  "back": "Take it off",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsReplayIntro",
+  "en": "Replay intro",
+  "tr": "Tazama utangulizi tena",
+  "back": "Look again at the introduction",
+  "sim": 0.0
+ },
+ {
+  "k": "homeSeeAll",
+  "en": "See all",
+  "tr": "Tazama yote",
+  "back": "See all",
+  "sim": 1.0
+ },
+ {
+  "k": "exportActionEdit",
+  "en": "Edit again",
+  "tr": "Hariri tena",
+  "back": "Edit again",
+  "sim": 1.0
+ },
+ {
+  "k": "exportActionDelete",
+  "en": "Delete",
+  "tr": "Futa",
+  "back": "Remove",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMoreOptions",
+  "en": "More options",
+  "tr": "Chaguo zaidi",
+  "back": "More choice",
+  "sim": 0.5
+ },
+ {
+  "k": "exportDeleteTitle",
+  "en": "Delete this export?",
+  "tr": "Futa kilichotolewa hiki?",
+  "back": "Delete this release?",
+  "sim": 0.67
+ },
+ {
+  "k": "exportDeleteBody",
+  "en": "Exported images are removed from this phone. Your original photos and anything saved to your gallery are not affected.",
+  "tr": "Picha zilizosafirishwa huondolewa kwenye simu hii. Picha zako asili na ulichohifadhi kwenye ghala hazibadiliki.",
+  "back": "Your original and stored photos remain unchanged.",
+  "sim": 0.23
+ },
+ {
+  "k": "exportSavedToGallery",
+  "en": "Saved to your gallery",
+  "tr": "Imehifadhiwa kwenye ghala lako",
+  "back": "Stored in your warehouse",
+  "sim": 0.25
+ },
+ {
+  "k": "exportSaveFailed",
+  "en": "Could not save to the gallery.",
+  "tr": "Imeshindwa kuhifadhi kwenye ghala.",
+  "back": "It has failed to be stored in a warehouse.",
+  "sim": 0.13
+ },
+ {
+  "k": "exportUnavailable",
+  "en": "Unavailable",
+  "tr": "Haipatikani",
+  "back": "Not available",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsGroupThisWeek",
+  "en": "This week",
+  "tr": "Wiki hii",
+  "back": "This week",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsGroupEarlier",
+  "en": "Earlier",
+  "tr": "Awali",
+  "back": "The Beginning",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsStorageUsed",
+  "en": "{size} used on this phone",
+  "tr": "{size} imetumika kwenye simu hii",
+  "back": "[size] used on this phone",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsSelect",
+  "en": "Select",
+  "tr": "Chagua",
+  "back": "Choose",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsDone",
+  "en": "Done",
+  "tr": "Imekamilika",
+  "back": "Fulfilled",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsSelectedCount",
+  "en": "{count} selected",
+  "tr": "{count} zimechaguliwa",
+  "back": "[count] selected",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDeleteSelectedTitle",
+  "en": "Delete {count} exports?",
+  "tr": "Futa vilivyotolewa {count}?",
+  "back": "Delete the [count]?",
+  "sim": 0.67
+ },
+ {
+  "k": "exportsDeleteAll",
+  "en": "Delete all exports",
+  "tr": "Futa vyote vilivyotolewa",
+  "back": "Delete all provided",
+  "sim": 0.67
+ },
+ {
+  "k": "exportsDeleteAllTitle",
+  "en": "Delete all exports?",
+  "tr": "Futa vyote vilivyotolewa?",
+  "back": "Delete all the supplies?",
+  "sim": 0.57
+ },
+ {
+  "k": "helpTitle",
+  "en": "Help & how to use",
+  "tr": "Msaada na jinsi ya kutumia",
+  "back": "Help and how to use it",
+  "sim": 0.8
+ },
+ {
+  "k": "helpIntro",
+  "en": "Tap a topic to read how it works.",
+  "tr": "Gusa mada ili kusoma jinsi inavyofanya kazi.",
+  "back": "Draw up a topic to see how it works.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpStartTitle",
+  "en": "Getting started",
+  "tr": "Kuanza",
+  "back": "The Beginning",
+  "sim": 0.0
+ },
+ {
+  "k": "helpStart1",
+  "en": "On the home screen, tap Camera to take a photo or Gallery to pick one. Batch cuts out many photos at once.",
+  "tr": "Kwenye skrini ya mwanzo, gusa Kamera ili kupiga picha au Ghala ili kuchagua picha. Kundi hukata picha nyingi kwa wakati mmoja.",
+  "back": "On the front screen, tap the Camera to take a picture or the Warehouse to select a picture.",
+  "sim": 0.5
+ },
+ {
+  "k": "helpStart2",
+  "en": "Every photo opens in Crop & Rotate first, then in the editor. Your original photo is never changed.",
+  "tr": "Kila picha hufunguka kwanza katika Kata na Zungusha, kisha kwenye kihariri. Picha yako asili haibadilishwi kamwe.",
+  "back": "Each image opens first in Cut and Spin, then in the editor.",
+  "sim": 0.41
+ },
+ {
+  "k": "helpStart3",
+  "en": "When you are happy, tap Export in the editor. Recent Exports on the home screen lists everything you have exported.",
+  "tr": "Ukiridhika, gusa Toa kwenye kihariri. Zilizotolewa hivi karibuni kwenye skrini ya mwanzo huorodhesha kila ulichotoa.",
+  "back": "If you're satisfied, press Edit. The most recent ones on the home screen list all the contributions you've made.",
+  "sim": 0.31
+ },
+ {
+  "k": "helpCropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Kata na Zungusha",
+  "back": "Cut and Rotate",
+  "sim": 0.4
+ },
+ {
+  "k": "helpCrop1",
+  "en": "Turn the photo left or right in 90° steps, and drag the frame to choose the part you want to keep.",
+  "tr": "Zungusha picha kushoto au kulia kwa hatua za 90° na buruta fremu ili kuchagua sehemu unayotaka kuiweka.",
+  "back": "Turn the image 90 degrees to the left or right and drag the frame to select the location.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpCrop2",
+  "en": "Free lets you shape the frame as you like. 1:1, 4:5 and 9:16 lock its shape. Tap Continue to open the editor.",
+  "tr": "Huru hukuruhusu kuipa fremu umbo lolote. 1:1, 4:5 na 9:16 hufunga umbo lake. Gusa Endelea ili kufungua kihariri.",
+  "back": "The free frame allows you to create any shape. 1:1, 4:5 and 9:16 enclose the shape.",
+  "sim": 0.42
+ },
+ {
+  "k": "helpCutoutTitle",
+  "en": "Cut-out",
+  "tr": "Kata",
+  "back": "Cutting",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCutout1",
+  "en": "When the editor opens, PhotoSur finds the main subject and removes the background automatically, on your phone. No internet is needed.",
+  "tr": "Kihariri kikifunguka, PhotoSur hupata kitu kikuu na kuondoa mandharinyuma kiotomatiki, kwenye simu yako. Hauhitaji intaneti.",
+  "back": "When the editor opens, PhotoSur gets a big thing and removes the backgrounds automatically, on your phone. You don't need the internet.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpCutout2",
+  "en": "Edge Smoothness softens the edge of the cut-out, from 0 to 20 pixels.",
+  "tr": "Ulaini wa Kingo hulainisha ukingo wa ukataji, kuanzia pikseli 0 hadi 20.",
+  "back": "The Kingo smoothness smooths the cutting edge, from 0 to 20 pixels.",
+  "sim": 0.48
+ },
+ {
+  "k": "helpCutout3",
+  "en": "The eye button at the top shows your original photo so you can compare. Tap it again to go back. The brush is paused while the original is shown.",
+  "tr": "Kitufe cha jicho juu huonyesha picha yako asili kwa ulinganisho. Kiguse tena ili kurudi. Brashi husimamishwa wakati picha asili inaonekana.",
+  "back": "The upper eye button displays your original image in comparison. Touch it again to return. The brush is stopped when the original image appears.",
+  "sim": 0.49
+ },
+ {
+  "k": "helpCutout4",
+  "en": "For difficult subjects such as glass, shoes, bags and bottles, tap Get HD cut-out. The HD model downloads once, stays on your phone and then works offline. Once it is installed, every new cut-out uses it automatically. To redo the photo you have open, tap Redo cut-out in HD.",
+  "tr": "Kwa vitu vigumu, kama vioo, viatu, mikoba na chupa, gusa Pata ukataji wa HD. Modeli ya HD hupakuliwa mara moja tu, hubaki kwenye simu yako, kisha hufanya kazi bila mtandao. Ikishasakinishwa, kila ukataji mpya huitumia kiotomatiki. Ili kurudia picha iliyofunguliwa, gusa Rudia ukataji kwa HD.",
+  "back": "For hard objects, such as glasses, shoes, bags and bottles, press Get HD cut. The HD model is downloaded only once, stays on your phone, and then works offline. Once installed, each new cut is automatically activated. To repeat an unlocked image, press Repeat cut in HD.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpBrushTitle",
+  "en": "Brush",
+  "tr": "Brashi",
+  "back": "Brass",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBrush1",
+  "en": "Erase removes parts of the subject. Restore brings back parts the cut-out removed.",
+  "tr": "Futa huondoa sehemu za kitu. Rudisha hurudisha sehemu ambazo ukataji uliziondoa.",
+  "back": "Remove removes parts of the object. Restore returns the parts that the cut removed.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpBrush2",
+  "en": "Drag one finger to paint. Use two fingers to zoom, up to 8 times, and to move the photo. The brush keeps its size on screen, so zooming in gives finer control.",
+  "tr": "Buruta kidole kimoja ili kupaka rangi. Tumia vidole viwili kukuza, hadi mara 8, na kusogeza picha. Brashi hudumisha ukubwa wake kwenye skrini, kwa hivyo ukikuza unafanya kazi kwa usahihi zaidi.",
+  "back": "Draw one finger to paint. Use two fingers to magnify, up to eight times, and move the image. The brush keeps its size on the screen, so magnifying it works more accurately.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpBrush3",
+  "en": "Brush Size goes from 1 to 50. Opacity sets how strongly each stroke applies.",
+  "tr": "Ukubwa wa Brashi ni kuanzia 1 hadi 50. Uwazi huamua nguvu ya kila mpigo.",
+  "back": "The size of the brass ranges from 1 to 50. Transparency determines the strength of each stroke.",
+  "sim": 0.45
+ },
+ {
+  "k": "helpBrush4",
+  "en": "Undo and Redo step through your brush strokes. Reset clears all brush strokes and goes back to the automatic cut-out; it asks you to confirm first.",
+  "tr": "Tendua na Rudia hupitia mipigo yako ya brashi. Weka upya hufuta mipigo yote na kurudi kwenye ukataji wa kiotomatiki; utaombwa uthibitisho kwanza.",
+  "back": "Repeat and Repeat goes through your brush strokes. Reinstall deletes all strokes and returns to automatic cutting; you'll be prompted to confirm first.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpBackgroundTitle",
+  "en": "Background",
+  "tr": "Mandharinyuma",
+  "back": "Behind the scenes",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBackground1",
+  "en": "Choose what goes behind your subject: transparent, white, black, a gradient, a colour, a blurred copy of your photo, or your own photo.",
+  "tr": "Chagua kilicho nyuma ya kitu chako: uwazi, nyeupe, nyeusi, mchanganyiko wa rangi, rangi, nakala yenye ukungu ya picha yako au picha yako mwenyewe.",
+  "back": "Choose what's behind your object: clear, white, black, color mix, color, moulded copy of your picture or your own picture.",
+  "sim": 0.51
+ },
+ {
+  "k": "helpBackground2",
+  "en": "Only one background is used at a time. Your latest choice replaces the earlier one.",
+  "tr": "Mandharinyuma moja tu hutumika kwa wakati mmoja. Chaguo lako la mwisho hubadilisha lililotangulia.",
+  "back": "Only one backrest is used at a time. Your last option replaces the previous one.",
+  "sim": 0.73
+ },
+ {
+  "k": "helpBackground3",
+  "en": "Add custom background lets you pick a photo from your gallery. Custom color opens a colour picker. The Blur slider goes from 0 to 25.",
+  "tr": "Ongeza mandharinyuma maalum hukuruhusu kuchagua picha kutoka kwenye ghala. Rangi maalum hufungua kichagua rangi. Kitelezi cha Ukungu ni kuanzia 0 hadi 25.",
+  "back": "Add a special backdrop that allows you to select images from the repository. A special color opens the color selector. The mold sequence is from 0 to 25.",
+  "sim": 0.38
+ },
+ {
+  "k": "helpBackground4",
+  "en": "Transparent shows a checkerboard while you edit. Export as PNG to keep it transparent.",
+  "tr": "Uwazi huonyesha muundo wa mraba wakati wa kuhariri. Toa kama PNG ili kuhifadhi uwazi.",
+  "back": "Transparency displays a square shape when editing.",
+  "sim": 0.1
+ },
+ {
+  "k": "helpTemplatesTitle",
+  "en": "Templates",
+  "tr": "Violezo",
+  "back": "Examples",
+  "sim": 0.0
+ },
+ {
+  "k": "helpTemplates1",
+  "en": "Templates are ready-made backgrounds in five groups: Studio, Color block, Textures, Light & shadow, and Gradients & patterns. Five scenes are shown in the panel; tap the Templates button to see them all.",
+  "tr": "Violezo ni mandharinyuma tayari katika makundi matano: Studio, Vitalu vya rangi, Umbile, Mwanga na kivuli na Mchanganyiko wa rangi na michoro. Matukio matano huonekana kwenye paneli; gusa kitufe cha Violezo ili kuyaona yote.",
+  "back": "The models are already in the background in five categories: Studio, Color Blocks, Nature, Light and Shadow and Mix of colors and drawings. Five events appear on the panel; press the Templates button to view them all.",
+  "sim": 0.5
+ },
+ {
+  "k": "helpTemplates2",
+  "en": "Choosing a template works like choosing your own photo as the background: it replaces your earlier background choice.",
+  "tr": "Kuchagua kiolezo ni sawa na kuchagua picha yako mwenyewe kama mandharinyuma: hubadilisha chaguo lako la awali la mandharinyuma.",
+  "back": "Choosing a template is like choosing your own image as a background: it changes your original background choice.",
+  "sim": 0.72
+ },
+ {
+  "k": "helpLayoutTitle",
+  "en": "Layout",
+  "tr": "Mpangilio",
+  "back": "The Order",
+  "sim": 0.0
+ },
+ {
+  "k": "helpLayout1",
+  "en": "Drag the subject on the photo to move it. Pinch with two fingers to resize it.",
+  "tr": "Buruta kitu juu ya picha ili kukisogeza. Bana kwa vidole viwili ili kubadilisha ukubwa.",
+  "back": "Drag something over the image to move it. Tie it with two fingers to change the size.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpLayout2",
+  "en": "Choose Original, 1:1, 4:5 or 9:16 to set the shape of the final picture.",
+  "tr": "Chagua Asili, 1:1, 4:5 au 9:16 ili kuweka umbo la picha ya mwisho.",
+  "back": "Select Natural, 1:1, 4:5 or 9:16 to set the shape of the final image.",
+  "sim": 0.79
+ },
+ {
+  "k": "helpLayout3",
+  "en": "Size sets how big the subject is, from 20% to 300%. Shadow sets how strong its shadow is. Auto-center puts the subject back in the middle. Reset undoes moving and resizing.",
+  "tr": "Ukubwa huamua kitu ni kikubwa kiasi gani, kuanzia 20% hadi 300%. Kivuli huamua nguvu ya kivuli chake. Weka katikati hurudisha kitu katikati. Weka upya hutendua usogezaji na mabadiliko ya ukubwa.",
+  "back": "The size determines how large an object is, from 20% to 300%. The shadow determines the intensity of its shadow.",
+  "sim": 0.39
+ },
+ {
+  "k": "helpLayout4",
+  "en": "This shape is used when the export size is Original. If you choose a size preset or a marketplace in the export sheet, that decides the final shape instead.",
+  "tr": "Umbo hili hutumika wakati ukubwa wa kutoa ni Asili. Ukichagua ukubwa uliowekwa tayari au soko la mtandaoni kwenye karatasi ya kutoa, ndilo linaloamua umbo la mwisho.",
+  "back": "This format is used when the offer size is Natural. If you choose a pre-set size or an online market on the offer sheet, it determines the final format.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpExportTitle",
+  "en": "Export",
+  "tr": "Toa",
+  "back": "Give to others",
+  "sim": 0.0
+ },
+ {
+  "k": "helpExport1",
+  "en": "Tap Export to open the export sheet. Nothing is applied until you tap Save to Gallery or Share, so you can change your choices as often as you like.",
+  "tr": "Gusa Toa ili kufungua karatasi ya kutoa. Hakuna kinachotumika hadi uguse Hifadhi kwenye Ghala au Shiriki, kwa hivyo unaweza kubadilisha chaguo zako mara nyingi unavyotaka.",
+  "back": "Click to open the gift card. Nothing is valid until you touch the Store in the Warehouse or Share, so you can change your options as many times as you want.",
+  "sim": 0.57
+ },
+ {
+  "k": "helpExport2",
+  "en": "PNG keeps transparency. JPG makes smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a small modern format; if your phone cannot make it, the file is saved as JPG. For JPG and WEBP, the Quality slider trades file size for detail.",
+  "tr": "PNG huhifadhi uwazi. JPG hutoa faili ndogo zaidi lakini haiwezi kuwa wazi, kwa hivyo mandharinyuma yenye uwazi huwa nyeupe. WEBP ni umbizo la kisasa lenye ukubwa mdogo; simu yako isipoweza kuliunda, faili huhifadhiwa kama JPG. Kwa JPG na WEBP, kitelezi cha Ubora husawazisha ukubwa wa faili na undani.",
+  "back": "PNG stores transparency. JPG produces smaller files but can't be transparent, so the transparent background is white. WEBP is a modern, small-sized format; if your phone can't create it, the file is saved as JPG. For JPG and WEBP, the Quality sequence synchronizes file size and detail.",
+  "sim": 0.77
+ },
+ {
+  "k": "helpExport3",
+  "en": "Original keeps your photo’s size, with the shape chosen in Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. Custom lets you type a width and height in pixels.",
+  "tr": "Asili huhifadhi ukubwa wa picha yako, kwa umbo ulilochagua katika Mpangilio. 1:1 ni 1080 × 1080, 4:5 ni 1080 × 1350 na 9:16 ni 1080 × 1920. Maalum hukuruhusu kuingiza upana na urefu kwa pikseli.",
+  "back": "Nature stores the size of your image, in the format you choose in the layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. The specification allows you to enter width and height per pixel.",
+  "sim": 0.58
+ },
+ {
+  "k": "helpExport4",
+  "en": "Marketplace presets set size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG kept under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices, and choosing a format or size afterwards switches the marketplace off. Marketplace rules can change, so check your marketplace’s current requirements.",
+  "tr": "Mipangilio ya awali ya masoko ya mtandaoni huweka ukubwa, umbizo na ubora: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG chini ya MB 1, na Shopify 2048 × 2048 PNG. Kuchagua moja hubadilisha chaguo lako la umbizo na ukubwa; ukichagua umbizo au ukubwa baadaye, soko huondolewa. Sheria za masoko zinaweza kubadilika, kwa hivyo angalia mahitaji ya sasa ya soko lako.",
+  "back": "The original settings of online marketplaces set the size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one changes your choice of format and size; if you choose a format or size later, the market is removed. Market rules may change, so take a look at the current demands of your market.",
+  "sim": 0.64
+ },
+ {
+  "k": "helpExport5",
+  "en": "Amazon also uses a pure white background with no shadow and fits the subject to fill most of the frame. Your background choice in the editor is not changed. The other marketplaces keep your background.",
+  "tr": "Amazon pia hutumia mandharinyuma nyeupe kabisa bila kivuli na hurekebisha kitu kijaze sehemu kubwa ya fremu. Chaguo lako la mandharinyuma kwenye kihariri halibadiliki. Masoko mengine huhifadhi mandharinyuma yako.",
+  "back": "Amazon also uses a completely white, shade-free backdrop and tweaks to fill a large part of the frame. Your choice of backdrop in the editor is consistent. Other markets store your backdrop.",
+  "sim": 0.57
+ },
+ {
+  "k": "helpExport6",
+  "en": "Save to Gallery and Share both save the picture to your gallery and to Recent Exports. Share also opens your phone’s share menu. If saving to the gallery is not possible, the share menu opens instead. After exporting you return to the home screen.",
+  "tr": "Hifadhi kwenye Ghala na Shiriki zote huhifadhi picha kwenye ghala lako na kwenye Zilizotolewa hivi karibuni. Shiriki pia hufungua menyu ya kushiriki ya simu yako. Kuhifadhi kwenye ghala kusipowezekana, menyu ya kushiriki hufunguka badala yake. Baada ya kutoa, unarudi kwenye skrini ya mwanzo.",
+  "back": "Save in Warehouse and Share both store photos in your warehouse and in Recently Released. Share also opens your phone's share menu. When storing in warehouse is not possible, the share menu opens in its place. After sharing, you return to the home screen.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpExport7",
+  "en": "Unless you have removed ads, an ad can appear after an export, at most once every two minutes.",
+  "tr": "Kama hujaondoa matangazo, tangazo linaweza kuonekana baada ya kutoa, mara moja tu kila dakika mbili.",
+  "back": "If you haven't removed ads, the ad may appear after you've delivered, only once every two minutes.",
+  "sim": 0.57
+ },
+ {
+  "k": "helpBatchTitle",
+  "en": "Batch",
+  "tr": "Kundi",
+  "back": "The Flock",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBatch1",
+  "en": "Batch cuts out up to 30 photos in one go. Tap Batch on the home screen and pick your photos. The back button is turned off while a batch runs.",
+  "tr": "Kundi hukata hadi picha 30 kwa wakati mmoja. Gusa Kundi kwenye skrini ya mwanzo na uchague picha zako. Kitufe cha Nyuma huzimwa wakati kundi linaendelea.",
+  "back": "The group cuts up to 30 images at a time. Push the group on the home screen and select your pictures. The Back button is turned off while the group continues.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpBatch2",
+  "en": "All photos in a batch share one setup: one background and one marketplace. You cannot choose differently for each photo.",
+  "tr": "Picha zote katika kundi hushiriki mpangilio mmoja: mandharinyuma moja na soko moja. Huwezi kuchagua tofauti kwa kila picha.",
+  "back": "All the images in the group share the same layout: one background and one market. You can't choose a difference for each image.",
+  "sim": 0.51
+ },
+ {
+  "k": "helpBatch3",
+  "en": "Backgrounds work as in the editor: your own photo, a colour, a template, white, transparent, black, blur or a gradient. Only one applies, and your latest choice replaces the earlier one.",
+  "tr": "Mandharinyuma hufanya kazi kama kwenye kihariri: picha yako mwenyewe, rangi, kiolezo, nyeupe, uwazi, nyeusi, ukungu au mchanganyiko wa rangi. Moja tu hutumika, na chaguo lako la mwisho hubadilisha lililotangulia.",
+  "back": "The backend works just like in the editor: your own image, color, template, white, clear, black, mold or color combination. Only one is used, and your last choice replaces the previous one.",
+  "sim": 0.54
+ },
+ {
+  "k": "helpBatch4",
+  "en": "The file format is chosen for you. With a marketplace, the photos follow that marketplace’s size and format. Without one, a transparent background gives PNG and any other background gives JPG, at the original size.",
+  "tr": "Umbizo la faili huchaguliwa kwa ajili yako. Ukiwa na soko, picha hufuata ukubwa na umbizo lake. Bila soko, mandharinyuma yenye uwazi hutoa PNG na mandharinyuma nyingine yoyote hutoa JPG, kwa ukubwa asili.",
+  "back": "The file format is chosen for you. If you have a market, the image follows its size and format. Without a market, transparent backgrounds produce PNG and any other backgrounds produce JPG, in the original size.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpBatch5",
+  "en": "Choosing Amazon switches the background to White; if you then choose another background, Amazon is switched off. eBay, Etsy and Shopify keep your background, but a JPG cannot be transparent, so it gets a white background.",
+  "tr": "Kuchagua Amazon hubadilisha mandharinyuma kuwa Nyeupe; ukichagua mandharinyuma nyingine baadaye, Amazon huondolewa. eBay, Etsy na Shopify huhifadhi mandharinyuma yako, lakini JPG haiwezi kuwa wazi kwa hivyo hupata mandharinyuma nyeupe.",
+  "back": "Choosing Amazon converts the background to White; if you choose another background later, Amazon is removed. eBay, Etsy and Shopify store your background, but JPG can't be transparent so you get a white background.",
+  "sim": 0.77
+ },
+ {
+  "k": "helpBatch6",
+  "en": "If the HD model is installed, every photo in the batch is cut out with it. The Get HD cut-out button next to Templates downloads it.",
+  "tr": "Kama modeli ya HD imesakinishwa, kila picha katika kundi hukatwa kwa kuitumia. Kitufe cha Pata ukataji wa HD kando ya Violezo huipakua.",
+  "back": "When the HD model is installed, each image in the batch is cut using it. The Find HD cut button next to the Templates downloads it.",
+  "sim": 0.73
+ },
+ {
+  "k": "helpBatch7",
+  "en": "Each photo is saved to your gallery and to Recent Exports as soon as it finishes. Stop ends the batch after the current photo, and photos already finished stay saved. If a photo fails, the batch carries on and tells you how many could not be processed. Done takes you back to the home screen; it does not save anything.",
+  "tr": "Kila picha huhifadhiwa kwenye ghala lako na kwenye Zilizotolewa hivi karibuni mara tu inapokamilika. Simama humaliza kundi baada ya picha inayoendelea, na picha ambazo tayari zimekamilika hubaki zimehifadhiwa. Picha ikishindwa, kundi linaendelea na kukuambia ni ngapi hazikuweza kushughulikiwa. Imekamilika hukurudisha kwenye skrini ya mwanzo; haihifadhi chochote.",
+  "back": "Each image is stored in your repository and in the Recently Released as soon as it is complete. Stop completes the pack after the image continues, and the already completed images remain stored. If the photo fails, the pack continues and tells you how many have not been processed. Finished returns you to the original screen; it does not save anything.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpLibraryTitle",
+  "en": "Your exports",
+  "tr": "Ulichotoa",
+  "back": "What You Did",
+  "sim": 0.0
+ },
+ {
+  "k": "helpLibrary1",
+  "en": "Recent Exports on the home screen shows your latest exports. Tap See all for every export, grouped as Today, Yesterday, This week and Earlier.",
+  "tr": "Zilizotolewa hivi karibuni kwenye skrini ya mwanzo huonyesha ulichotoa hivi karibuni. Gusa Tazama yote ili kuona zote, zimepangwa katika Leo, Jana, Wiki hii na Awali.",
+  "back": "Recently released images on the home screen show what you have recently provided. Click Here to view them all, organized into Today, Yesterday, This Week, and Earlier.",
+  "sim": 0.43
+ },
+ {
+  "k": "helpLibrary2",
+  "en": "Tap an export to open it full screen. Swipe to move between exports and pinch to zoom. The bar at the bottom has Share, Save to Gallery, Edit again and Delete.",
+  "tr": "Gusa kitu ulichotoa ili kukifungua skrini nzima. Telezesha ili kubadilisha kati ya vilivyotolewa na bana ili kukuza. Upau wa chini hutoa Shiriki, Hifadhi kwenye Ghala, Hariri tena na Futa.",
+  "back": "Click on what you've provided to unlock the entire screen. Tap to switch between what you've provided and what you've posted to promote. The bottom bar provides Share, Save to Storage, Re-Edit and Delete.",
+  "sim": 0.31
+ },
+ {
+  "k": "helpLibrary3",
+  "en": "The three-dot button on a tile opens the same actions. Edit again opens the exported picture as a new photo, so earlier brush strokes are not restored.",
+  "tr": "Kitufe cha nukta tatu kwenye picha ndogo hufungua vitendo vilevile. Hariri tena hufungua picha iliyotolewa kama picha mpya, kwa hivyo mipigo ya awali ya brashi hairudishwi.",
+  "back": "The three-point button on the subimage opens up the same actions. Editing again opens the image that has been released as a new image, so the original brush strokes are not returned.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpLibrary4",
+  "en": "Select lets you choose several exports to share together or delete. Delete all exports removes every export from this phone.",
+  "tr": "Chagua hukuruhusu kuchagua vilivyotolewa kadhaa ili kuvishiriki au kuvifuta pamoja. Futa vyote vilivyotolewa huondoa vyote vilivyotolewa kwenye simu hii.",
+  "back": "Select allows you to select a number of submissions to share or delete together. Delete all submissions removes all submissions from this phone.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpLibrary5",
+  "en": "Deleting removes exports from PhotoSur only. Pictures already saved to your gallery are not affected. The bottom of the See all screen shows how much space exports use on this phone.",
+  "tr": "Kufuta huondoa vilivyotolewa kwenye PhotoSur pekee. Picha ambazo tayari zimehifadhiwa kwenye ghala lako haziguswi. Chini ya Tazama yote, unaona nafasi ambayo vilivyotolewa vinatumia kwenye simu hii.",
+  "back": "Deleting removes the output from PhotoSur only. Images that are already stored in your repository are not affected. Under All View, you can see the space that the output uses on this phone.",
+  "sim": 0.47
+ },
+ {
+  "k": "helpPrivacyTitle",
+  "en": "Privacy & ads",
+  "tr": "Faragha na matangazo",
+  "back": "Privacy and advertising",
+  "sim": 0.4
+ },
+ {
+  "k": "helpPrivacy1",
+  "en": "Your photos are processed on your phone and are not uploaded. There is no account and no watermark.",
+  "tr": "Picha zako husindikwa kwenye simu yako na hazipakiwi popote. Hakuna akaunti na hakuna alama ya maji.",
+  "back": "Your photos are tracked to your phone and not uploaded anywhere. There are no accounts and no watermarks.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpPrivacy2",
+  "en": "PhotoSur is free with every feature included, supported by ads. A banner appears at the bottom of some screens, and an ad can appear after an export.",
+  "tr": "PhotoSur ni bure, ikiwa na vipengele vyote, na inafadhiliwa na matangazo. Bango huonekana chini ya baadhi ya skrini, na tangazo linaweza kuonekana baada ya kutoa.",
+  "back": "PhotoSur is free, fully featured, and funded by advertising. Banners appear at the bottom of some screens, and the ad can be viewed after delivery.",
+  "sim": 0.54
+ },
+ {
+  "k": "helpPrivacy3",
+  "en": "Go Ad-Free in Settings is a one-time purchase that removes the ads. It does not unlock anything else, because every feature is already free. Restore Purchases brings it back on a new phone.",
+  "tr": "Ondoa Matangazo kwenye Mipangilio ni ununuzi wa mara moja unaoondoa matangazo. Haifungui kingine chochote, kwa sababu vipengele vyote tayari ni bure. Rejesha Ununuzi huirudisha kwenye simu mpya.",
+  "back": "Remove Ads from Settings is a one-time purchase that removes ads. It doesn't open anything else, because all features are already free.",
+  "sim": 0.51
+ },
+ {
+  "k": "helpSettingsTitle",
+  "en": "Settings",
+  "tr": "Mipangilio",
+  "back": "Arrangements",
+  "sim": 0.0
+ },
+ {
+  "k": "helpSettings1",
+  "en": "Theme can follow your phone, or be Light or Dark. Language changes the language of the app. Both are also in the home screen header.",
+  "tr": "Mandhari yanaweza kufuata simu yako, au kuwa Mwanga au Giza. Lugha hubadilisha lugha ya programu. Vyote viwili vipo pia kwenye kichwa cha skrini ya mwanzo.",
+  "back": "The theme can follow your phone, or be Light or Dark. The language changes the programming language. Both are also available on the home screen header.",
+  "sim": 0.82
+ },
+ {
+  "k": "helpSettings2",
+  "en": "Edit reminders: if you leave the app with an unfinished edit, PhotoSur can remind you three hours later. Switch this off in Settings.",
+  "tr": "Vikumbusho vya uhariri: ukitoka kwenye programu ukiwa na uhariri ambao haujakamilika, PhotoSur inaweza kukukumbusha baada ya saa tatu. Zima hili kwenye Mipangilio.",
+  "back": "Editing reminders: if you leave the application with an incomplete editing, PhotoSur can remind you after three hours.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpSettings3",
+  "en": "HD cut-out model shows whether it is installed. Remove deletes it from your phone to free space; you can download it again at any time.",
+  "tr": "Modeli ya ukataji wa HD huonyesha kama imesakinishwa. Ondoa huifuta kwenye simu yako ili kupata nafasi; unaweza kuipakua tena wakati wowote.",
+  "back": "The HD cut-off model shows that it is installed. Remove it from your phone to get space; you can download it again at any time.",
+  "sim": 0.84
+ },
+ {
+  "k": "helpSettings4",
+  "en": "Replay intro shows the welcome screens again. Support opens the support page. Animated home background turns the moving picture at the top of the home screen on or off.",
+  "tr": "Tazama utangulizi tena huonyesha tena skrini za kukaribisha. Msaada hufungua ukurasa wa msaada. Mandharinyuma inayosogea ya mwanzo huwasha au kuzima picha inayosogea juu ya skrini ya mwanzo.",
+  "back": "See the introduction again showing the invitation screens again. The help opens the help page. The moving back of the home screen turns on or off the moving image at the top of the home screen.",
+  "sim": 0.46
+ },
+ {
+  "k": "helpFixTitle",
+  "en": "If something goes wrong",
+  "tr": "Jambo likienda vibaya",
+  "back": "If something goes wrong",
+  "sim": 1.0
+ },
+ {
+  "k": "helpFix1",
+  "en": "If the automatic cut-out cannot run on a very old or low-memory phone, the brush still works, so you can finish the picture by hand.",
+  "tr": "Ukataji wa kiotomatiki usipoweza kufanya kazi kwenye simu ya zamani sana au yenye kumbukumbu ndogo, brashi bado inafanya kazi, kwa hivyo unaweza kumalizia picha kwa mkono.",
+  "back": "When automatic cutting cannot work on a very old or memory-poor phone, the brush still works, so you can finish the image by hand.",
+  "sim": 0.78
+ },
+ {
+  "k": "helpFix2",
+  "en": "If the HD download stops, check your connection and try again. It continues where it left off.",
+  "tr": "Upakuaji wa HD ukisimama, angalia muunganisho wako na ujaribu tena. Huendelea pale ulipoishia.",
+  "back": "When the HD download stops, check your connection and try again.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpFix3",
+  "en": "For anything else, open Support from Settings.",
+  "tr": "Kwa jambo lingine lolote, fungua Msaada kutoka kwenye Mipangilio.",
+  "back": "For anything else, open Help from Provisions.",
+  "sim": 0.71
+ }
+]

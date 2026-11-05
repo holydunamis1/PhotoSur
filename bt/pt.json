@@ -1,0 +1,1745 @@
+[
+ {
+  "k": "onboardingPage1Title",
+  "en": "Remove backgrounds instantly. All features free.",
+  "tr": "Remova fundos na hora. Todos os recursos grátis.",
+  "back": "Remove funds on time, all resources are free.",
+  "sim": 0.43
+ },
+ {
+  "k": "onboardingPage1Body",
+  "en": "Open a photo and our on-device AI removes the background automatically — no internet required. You can also swap in your own custom background.",
+  "tr": "Abra uma foto e nossa IA no aparelho remove o fundo automaticamente, sem internet. Você também pode trocar por um fundo personalizado seu.",
+  "back": "Open a photo, and our AI on the device automatically removes the background without internet. You can also swap for a custom background of your own.",
+  "sim": 0.65
+ },
+ {
+  "k": "onboardingPage2Title",
+  "en": "Fine-tune with the brush",
+  "tr": "Ajuste com o pincel",
+  "back": "Adjust with the brush",
+  "sim": 0.75
+ },
+ {
+  "k": "onboardingPage2Body",
+  "en": "Paint away what the AI missed or restore what you want to keep. Then crop, rotate, move and resize.",
+  "tr": "Apague com o pincel o que a IA deixou passar ou restaure o que quer manter. Depois corte, gire, mova e redimensione.",
+  "back": "Erase with the brush what the AI let through or restore what it wants to keep, then cut, twist, move, and resize.",
+  "sim": 0.59
+ },
+ {
+  "k": "onboardingPage3Title",
+  "en": "Studio-ready backgrounds",
+  "tr": "Fundos de estúdio",
+  "back": "Study funds",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingPage3Body",
+  "en": "Choose a colour, gradient, template or your own photo, with a natural shadow. Marketplace presets for Amazon, eBay, Etsy and Shopify set size and format for you.",
+  "tr": "Escolha uma cor, um degradê, um modelo ou a sua própria foto, com uma sombra natural. As predefinições para Amazon, eBay, Etsy e Shopify definem o tamanho e o formato por você.",
+  "back": "Choose a color, a gradient, a model, or your own photo, with a natural shade. The prefixes for Amazon, eBay, Etsy, and Shopify define the size and format for you.",
+  "sim": 0.74
+ },
+ {
+  "k": "onboardingPage4Title",
+  "en": "Batch it, export it, keep it private",
+  "tr": "Em lote, exporte e mantenha privado",
+  "back": "In batch, export and private maintenance",
+  "sim": 0.46
+ },
+ {
+  "k": "onboardingPage4Body",
+  "en": "Cut out up to 30 photos at once and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "tr": "Recorte até 30 fotos de uma vez e exporte em PNG, JPG ou WEBP. Suas fotos nunca saem do seu celular. Disponível em 43 idiomas.",
+  "back": "Cut up to 30 photos at once and export them to PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "sim": 0.92
+ },
+ {
+  "k": "onboardingNext",
+  "en": "Next",
+  "tr": "Avançar",
+  "back": "Moving on",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingGetStarted",
+  "en": "Get Started",
+  "tr": "Começar",
+  "back": "Let's get started.",
+  "sim": 0.8
+ },
+ {
+  "k": "homeCameraButton",
+  "en": "Camera",
+  "tr": "Câmera",
+  "back": "The camera",
+  "sim": 0.67
+ },
+ {
+  "k": "homeGalleryButton",
+  "en": "Gallery",
+  "tr": "Galeria",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "dateToday",
+  "en": "Today",
+  "tr": "Hoje",
+  "back": "Today",
+  "sim": 1.0
+ },
+ {
+  "k": "dateYesterday",
+  "en": "Yesterday",
+  "tr": "Ontem",
+  "back": "Yesterday .",
+  "sim": 1.0
+ },
+ {
+  "k": "homeRecentExports",
+  "en": "Recent Exports",
+  "tr": "Exportações recentes",
+  "back": "Recent exports",
+  "sim": 1.0
+ },
+ {
+  "k": "homeEmptyStateMessage",
+  "en": "Tap Camera or Gallery to start.",
+  "tr": "Toque em Câmera ou Galeria para começar.",
+  "back": "Tap Camera or Gallery to get started.",
+  "sim": 0.77
+ },
+ {
+  "k": "homeExportUnavailable",
+  "en": "This export is no longer available.",
+  "tr": "Esta exportação não está mais disponível.",
+  "back": "This export is no longer available.",
+  "sim": 1.0
+ },
+ {
+  "k": "homeShareFailed",
+  "en": "Could not share this export.",
+  "tr": "Não foi possível compartilhar esta exportação.",
+  "back": "It was not possible to share this export.",
+  "sim": 0.62
+ },
+ {
+  "k": "homeGalleryOpenFailed",
+  "en": "Could not open gallery.",
+  "tr": "Não foi possível abrir a galeria.",
+  "back": "It was not possible to open the gallery.",
+  "sim": 0.5
+ },
+ {
+  "k": "cameraTitle",
+  "en": "Camera",
+  "tr": "Câmera",
+  "back": "The camera",
+  "sim": 0.67
+ },
+ {
+  "k": "cameraPermissionDenied",
+  "en": "Camera access is needed to take a photo. Please allow access.",
+  "tr": "É necessário acesso à câmera para tirar uma foto. Permita o acesso.",
+  "back": "You need access to the camera to take a picture.",
+  "sim": 0.38
+ },
+ {
+  "k": "cameraPermissionPermanentlyDenied",
+  "en": "Camera access was denied. Enable it in Settings to continue.",
+  "tr": "O acesso à câmera foi negado. Ative-o nas Configurações para continuar.",
+  "back": "Access to the camera has been denied.",
+  "sim": 0.24
+ },
+ {
+  "k": "cameraPermissionRestricted",
+  "en": "Camera access is restricted on this device.",
+  "tr": "O acesso à câmera está restrito neste aparelho.",
+  "back": "Access to the camera is restricted on this device.",
+  "sim": 0.75
+ },
+ {
+  "k": "cameraNoCameraFound",
+  "en": "No camera found on this device.",
+  "tr": "Nenhuma câmera encontrada neste aparelho.",
+  "back": "No camera found on this device.",
+  "sim": 1.0
+ },
+ {
+  "k": "cameraStartFailed",
+  "en": "Could not start the camera.",
+  "tr": "Não foi possível iniciar a câmera.",
+  "back": "It was not possible to start the camera.",
+  "sim": 0.62
+ },
+ {
+  "k": "cameraCaptureFailed",
+  "en": "Could not capture photo.",
+  "tr": "Não foi possível capturar a foto.",
+  "back": "It wasn't possible to capture the photo.",
+  "sim": 0.36
+ },
+ {
+  "k": "cameraOpenSettings",
+  "en": "Open Settings",
+  "tr": "Abrir Configurações",
+  "back": "Opening settings",
+  "sim": 0.5
+ },
+ {
+  "k": "cameraGalleryTooltip",
+  "en": "Gallery",
+  "tr": "Galeria",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "cropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Cortar e girar",
+  "back": "Cutting and turning",
+  "sim": 0.0
+ },
+ {
+  "k": "cropLoadFailed",
+  "en": "Could not load the image.",
+  "tr": "Não foi possível carregar a imagem.",
+  "back": "It was not possible to upload the image.",
+  "sim": 0.46
+ },
+ {
+  "k": "cropRotateFailed",
+  "en": "Could not rotate the image.",
+  "tr": "Não foi possível girar a imagem.",
+  "back": "It was not possible to turn the image.",
+  "sim": 0.46
+ },
+ {
+  "k": "cropFailed",
+  "en": "Crop failed.",
+  "tr": "Falha ao cortar.",
+  "back": "Failure to cut.",
+  "sim": 0.0
+ },
+ {
+  "k": "cropSaveFailed",
+  "en": "Could not save the cropped image.",
+  "tr": "Não foi possível salvar a imagem cortada.",
+  "back": "It was not possible to save the cut image.",
+  "sim": 0.53
+ },
+ {
+  "k": "cropAspectFree",
+  "en": "Free",
+  "tr": "Livre",
+  "back": "Free",
+  "sim": 1.0
+ },
+ {
+  "k": "cropContinue",
+  "en": "Continue",
+  "tr": "Continuar",
+  "back": "Keep going",
+  "sim": 0.0
+ },
+ {
+  "k": "editorSegmentationFailedMessage",
+  "en": "Your device doesn't support automatic background removal. Use the manual brush below.",
+  "tr": "Seu aparelho não oferece suporte à remoção automática de fundo. Use o pincel manual abaixo.",
+  "back": "Your device doesn't support automatic background removal.",
+  "sim": 0.74
+ },
+ {
+  "k": "brushErase",
+  "en": "Erase",
+  "tr": "Apagar",
+  "back": "Turn off",
+  "sim": 0.0
+ },
+ {
+  "k": "brushRestore",
+  "en": "Restore",
+  "tr": "Restaurar",
+  "back": "Restoration",
+  "sim": 0.0
+ },
+ {
+  "k": "brushSizeLabel",
+  "en": "Brush Size",
+  "tr": "Tamanho do pincel",
+  "back": "Brush size",
+  "sim": 1.0
+ },
+ {
+  "k": "brushOpacityLabel",
+  "en": "Opacity",
+  "tr": "Opacidade",
+  "back": "Opening and closing",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundWhite",
+  "en": "White",
+  "tr": "Branco",
+  "back": "White",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundTransparent",
+  "en": "Transparent",
+  "tr": "Transparente",
+  "back": "Transparent",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundBlack",
+  "en": "Black",
+  "tr": "Preto",
+  "back": "It 's black .",
+  "sim": 0.5
+ },
+ {
+  "k": "backgroundBlurLabel",
+  "en": "Blur",
+  "tr": "Desfoque",
+  "back": "Disfocusing",
+  "sim": 0.0
+ },
+ {
+  "k": "edgeFeatherLabel",
+  "en": "Edge Smoothness",
+  "tr": "Suavidade da borda",
+  "back": "Soft edge",
+  "sim": 0.5
+ },
+ {
+  "k": "toolbarUndo",
+  "en": "Undo",
+  "tr": "Desfazer",
+  "back": "Disconnect",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarRedo",
+  "en": "Redo",
+  "tr": "Refazer",
+  "back": "Recycling",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarReset",
+  "en": "Reset",
+  "tr": "Redefinir",
+  "back": "Re-defining",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarExport",
+  "en": "Export",
+  "tr": "Exportar",
+  "back": "Exporting",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmTitle",
+  "en": "Reset edits?",
+  "tr": "Redefinir edições?",
+  "back": "Redefining editions?",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmBody",
+  "en": "This clears your manual brush strokes. This cannot be undone.",
+  "tr": "Isso apaga seus traços manuais do pincel. Não é possível desfazer.",
+  "back": "It erases your hand marks from the brush.",
+  "sim": 0.22
+ },
+ {
+  "k": "resetConfirmCancel",
+  "en": "Cancel",
+  "tr": "Cancelar",
+  "back": "Cancellation",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmConfirm",
+  "en": "Reset",
+  "tr": "Redefinir",
+  "back": "Re-defining",
+  "sim": 0.0
+ },
+ {
+  "k": "exportTitle",
+  "en": "Export",
+  "tr": "Exportar",
+  "back": "Exporting",
+  "sim": 0.0
+ },
+ {
+  "k": "exportQualityLabel",
+  "en": "Quality: {value}",
+  "tr": "Qualidade: {value}",
+  "back": "Quality: [value]",
+  "sim": 1.0
+ },
+ {
+  "k": "exportResizeLabel",
+  "en": "Resize",
+  "tr": "Redimensionar",
+  "back": "Redimensioning",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeCustom",
+  "en": "Custom",
+  "tr": "Personalizado",
+  "back": "Customized",
+  "sim": 0.0
+ },
+ {
+  "k": "exportWidthLabel",
+  "en": "Width (px)",
+  "tr": "Largura (px)",
+  "back": "Length (px)",
+  "sim": 0.5
+ },
+ {
+  "k": "exportHeightLabel",
+  "en": "Height (px)",
+  "tr": "Altura (px)",
+  "back": "Height (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSaveToGallery",
+  "en": "Save to Gallery",
+  "tr": "Salvar na galeria",
+  "back": "Saving in the gallery",
+  "sim": 0.29
+ },
+ {
+  "k": "exportShare",
+  "en": "Share",
+  "tr": "Compartilhar",
+  "back": "Sharing",
+  "sim": 0.0
+ },
+ {
+  "k": "exportSuccess",
+  "en": "Exported!",
+  "tr": "Exportado!",
+  "back": "Exported!",
+  "sim": 1.0
+ },
+ {
+  "k": "exportFailed",
+  "en": "Export failed. Please try again.",
+  "tr": "Falha ao exportar. Tente novamente.",
+  "back": "Failure to export, try again.",
+  "sim": 0.6
+ },
+ {
+  "k": "exportInProgress",
+  "en": "Exporting…",
+  "tr": "Exportando…",
+  "back": "Exporting...",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsTitle",
+  "en": "Settings",
+  "tr": "Configurações",
+  "back": "Configurations",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTheme",
+  "en": "Theme",
+  "tr": "Tema",
+  "back": "Subject",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLanguage",
+  "en": "Language",
+  "tr": "Idioma",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Restaurar compras",
+  "back": "Restoring purchases",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsGoAdFree",
+  "en": "Go Ad-Free",
+  "tr": "Remover anúncios",
+  "back": "Removing ads",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsPrivacyPolicy",
+  "en": "Privacy Policy",
+  "tr": "Política de privacidade",
+  "back": "Privacy policy",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsSupport",
+  "en": "Support",
+  "tr": "Suporte",
+  "back": "Support",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRateApp",
+  "en": "Rate App",
+  "tr": "Avaliar o app",
+  "back": "Evaluating the app",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsShareApp",
+  "en": "Share App",
+  "tr": "Compartilhar o app",
+  "back": "Sharing the app",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsLicenses",
+  "en": "Open-source licenses",
+  "tr": "Licenças de código aberto",
+  "back": "Open source licenses",
+  "sim": 0.4
+ },
+ {
+  "k": "reminderChannelName",
+  "en": "Edit reminders",
+  "tr": "Lembretes de edição",
+  "back": "Reminders of editing",
+  "sim": 0.4
+ },
+ {
+  "k": "reminderChannelDescription",
+  "en": "Reminders about edits you have not finished.",
+  "tr": "Lembretes sobre edições que você não terminou.",
+  "back": "Remember about editions you didn't finish.",
+  "sim": 0.31
+ },
+ {
+  "k": "reminderTitle",
+  "en": "Your edit is waiting",
+  "tr": "Sua edição está esperando",
+  "back": "Your edition is waiting",
+  "sim": 0.75
+ },
+ {
+  "k": "reminderBody",
+  "en": "Pick up where you left off and export your photo.",
+  "tr": "Continue de onde parou e exporte sua foto.",
+  "back": "Just pick up where you left off and export your photo.",
+  "sim": 0.95
+ },
+ {
+  "k": "settingsReminders",
+  "en": "Edit reminders",
+  "tr": "Lembretes de edição",
+  "back": "Reminders of editing",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsAnimatedBackground",
+  "en": "Animated home background",
+  "tr": "Fundo animado na tela inicial",
+  "back": "Animated background on the home screen",
+  "sim": 0.44
+ },
+ {
+  "k": "settingsRemindersSubtitle",
+  "en": "Remind me about unfinished edits",
+  "tr": "Lembrar-me de edições não terminadas",
+  "back": "Reminds me of unfinished editions",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsRemindersBlocked",
+  "en": "Notifications are turned off for PhotoSur in your phone's settings.",
+  "tr": "As notificações do PhotoSur estão desativadas nas configurações do seu celular.",
+  "back": "PhotoSur notifications are disabled in your phone settings.",
+  "sim": 0.56
+ },
+ {
+  "k": "editorBrushHint",
+  "en": "Drag to paint. Pinch with two fingers to zoom.",
+  "tr": "Arraste para pintar. Use dois dedos para dar zoom.",
+  "back": "Use two fingers to zoom in.",
+  "sim": 0.53
+ },
+ {
+  "k": "editorToolCutout",
+  "en": "Cut-out",
+  "tr": "Recorte",
+  "back": "Cuts",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBrush",
+  "en": "Brush",
+  "tr": "Pincel",
+  "back": "Brushes and brushes",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBackground",
+  "en": "Background",
+  "tr": "Fundo",
+  "back": "Funding",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutAutoCenter",
+  "en": "Auto-center",
+  "tr": "Centralizar",
+  "back": "Centrifying",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutSizeLabel",
+  "en": "Size",
+  "tr": "Tamanho",
+  "back": "Size",
+  "sim": 1.0
+ },
+ {
+  "k": "layoutShadowLabel",
+  "en": "Shadow",
+  "tr": "Sombra",
+  "back": "Shadow",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundPhoto",
+  "en": "Photo",
+  "tr": "Foto",
+  "back": "This is a photo.",
+  "sim": 0.4
+ },
+ {
+  "k": "backgroundPhotoFailed",
+  "en": "Could not load that photo.",
+  "tr": "Não foi possível carregar essa foto.",
+  "back": "We couldn't upload that photo.",
+  "sim": 0.4
+ },
+ {
+  "k": "editorLayoutHint",
+  "en": "Drag to move. Pinch with two fingers to resize.",
+  "tr": "Arraste para mover. Use dois dedos para redimensionar.",
+  "back": "Use two fingers to resize.",
+  "sim": 0.57
+ },
+ {
+  "k": "languageSystemDefault",
+  "en": "System default",
+  "tr": "Padrão do sistema",
+  "back": "Standard of the system",
+  "sim": 0.33
+ },
+ {
+  "k": "languageSheetTitle",
+  "en": "Language",
+  "tr": "Idioma",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "themeSheetTitle",
+  "en": "Theme",
+  "tr": "Tema",
+  "back": "Subject",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionSystem",
+  "en": "System default",
+  "tr": "Padrão do sistema",
+  "back": "Standard of the system",
+  "sim": 0.33
+ },
+ {
+  "k": "themeOptionLight",
+  "en": "Light",
+  "tr": "Claro",
+  "back": "Of course it is.",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionDark",
+  "en": "Dark",
+  "tr": "Escuro",
+  "back": "It 's dark .",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsLinkNotReady",
+  "en": "This link isn't set up yet.",
+  "tr": "Este link ainda não foi configurado.",
+  "back": "This link hasn't been set up yet.",
+  "sim": 0.77
+ },
+ {
+  "k": "settingsLinkOpenFailed",
+  "en": "Could not open link.",
+  "tr": "Não foi possível abrir o link.",
+  "back": "Couldn't open the link.",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsRestoreRequested",
+  "en": "Restore requested — check back in a moment.",
+  "tr": "Restauração solicitada. Verifique novamente em instantes.",
+  "back": "Restoration requested, please check again in a moment.",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsRestoreFailed",
+  "en": "Restore failed.",
+  "tr": "Falha ao restaurar.",
+  "back": "Failure to restore.",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsShareFailed",
+  "en": "Could not share.",
+  "tr": "Não foi possível compartilhar.",
+  "back": "It wasn't possible to share.",
+  "sim": 0.25
+ },
+ {
+  "k": "settingsShareAppMessage",
+  "en": "Remove photo backgrounds instantly with PhotoSur — free, no watermark.",
+  "tr": "Remova fundos de fotos na hora com o PhotoSur: grátis e sem marca d’água.",
+  "back": "Remove backgrounds of photos on time with PhotoSur: free and water-free.",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallTitle",
+  "en": "Go Ad-Free",
+  "tr": "Remover anúncios",
+  "back": "Removing ads",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallAlreadyAdFree",
+  "en": "You're already ad-free. Thank you!",
+  "tr": "Você já está sem anúncios. Obrigado!",
+  "back": "You're out of ads.",
+  "sim": 0.22
+ },
+ {
+  "k": "paywallPlanFreeTitle",
+  "en": "Free",
+  "tr": "Grátis",
+  "back": "Free of charge",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPlanAdFreeTitle",
+  "en": "Ad-Free",
+  "tr": "Sem anúncios",
+  "back": "No announcements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPlanAdFreePrice",
+  "en": "One-time purchase",
+  "tr": "Compra única",
+  "back": "Unique purchase",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallFeatureAllFeatures",
+  "en": "All features",
+  "tr": "Todos os recursos",
+  "back": "All the resources",
+  "sim": 0.4
+ },
+ {
+  "k": "paywallFeatureAdSupported",
+  "en": "Ad-supported",
+  "tr": "Com anúncios",
+  "back": "With advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureZeroAds",
+  "en": "Zero ads",
+  "tr": "Zero anúncios",
+  "back": "No advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPurchaseButton",
+  "en": "Remove Ads",
+  "tr": "Remover anúncios",
+  "back": "Removing ads",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPurchaseButtonPrice",
+  "en": "Remove Ads — {price}",
+  "tr": "Remover anúncios — {price}",
+  "back": "Remove ads  [price]",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Restaurar compras",
+  "back": "Restoring purchases",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallProductUnavailable",
+  "en": "Ad removal is not available right now.",
+  "tr": "A remoção de anúncios não está disponível agora.",
+  "back": "Ad removal is not available right now.",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallPurchaseFailed",
+  "en": "Purchase failed.",
+  "tr": "Falha na compra.",
+  "back": "Failure to buy.",
+  "sim": 0.0
+ },
+ {
+  "k": "errorScreenTitle",
+  "en": "Something went wrong",
+  "tr": "Algo deu errado",
+  "back": "Something went wrong.",
+  "sim": 1.0
+ },
+ {
+  "k": "errorScreenBody",
+  "en": "Try again, or restart the app if this keeps happening.",
+  "tr": "Tente novamente ou reinicie o app se o problema continuar.",
+  "back": "Try again or restart the app if the problem persists.",
+  "sim": 0.7
+ },
+ {
+  "k": "errorScreenGoBack",
+  "en": "Go back",
+  "tr": "Voltar",
+  "back": "Going back",
+  "sim": 0.5
+ },
+ {
+  "k": "errorScreenReportEmail",
+  "en": "Report via {email}",
+  "tr": "Relatar por {email}",
+  "back": "Report by [email]",
+  "sim": 0.67
+ },
+ {
+  "k": "unsupportedTitle",
+  "en": "Device Not Supported",
+  "tr": "Aparelho não compatível",
+  "back": "Uncompatible apparatus",
+  "sim": 0.0
+ },
+ {
+  "k": "unsupportedNoCameraMessage",
+  "en": "This device doesn't have a camera available.",
+  "tr": "Este aparelho não tem uma câmera disponível.",
+  "back": "This device doesn't have a camera available.",
+  "sim": 1.0
+ },
+ {
+  "k": "unsupportedLowMemoryMessage",
+  "en": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
+  "tr": "Este aparelho não tem memória suficiente para executar o editor do PhotoSur com confiabilidade.",
+  "back": "This device does not have enough memory to run the PhotoSur editor reliably.",
+  "sim": 0.75
+ },
+ {
+  "k": "unsupportedManualImportHint",
+  "en": "You can still import a photo from your gallery and use the manual brush tool.",
+  "tr": "Você ainda pode importar uma foto da galeria e usar o pincel manual.",
+  "back": "You can still import a photo from the gallery and use the manual brush.",
+  "sim": 0.9
+ },
+ {
+  "k": "unsupportedUseGalleryButton",
+  "en": "Import from Gallery",
+  "tr": "Importar da galeria",
+  "back": "Import from the gallery",
+  "sim": 0.86
+ },
+ {
+  "k": "homeBatchButton",
+  "en": "Batch",
+  "tr": "Lote",
+  "back": "Lot",
+  "sim": 0.0
+ },
+ {
+  "k": "batchTitle",
+  "en": "Batch cut-out",
+  "tr": "Recorte em lote",
+  "back": "Reduction in batch",
+  "sim": 0.4
+ },
+ {
+  "k": "batchOutputTransparent",
+  "en": "Transparent PNG",
+  "tr": "PNG transparente",
+  "back": "Transparent PNG",
+  "sim": 1.0
+ },
+ {
+  "k": "batchOutputWhite",
+  "en": "White background (JPG)",
+  "tr": "Fundo branco (JPG)",
+  "back": "This appropriation is intended to cover expenditure relating to:",
+  "sim": 0.0
+ },
+ {
+  "k": "batchStart",
+  "en": "Start",
+  "tr": "Iniciar",
+  "back": "Starting",
+  "sim": 0.0
+ },
+ {
+  "k": "batchStop",
+  "en": "Stop",
+  "tr": "Parar",
+  "back": "Stop it",
+  "sim": 0.67
+ },
+ {
+  "k": "batchDone",
+  "en": "Done",
+  "tr": "Concluído",
+  "back": "Concluded",
+  "sim": 0.0
+ },
+ {
+  "k": "batchProgress",
+  "en": "{done} of {total} done",
+  "tr": "{done} de {total} concluídas",
+  "back": "[done] of [total] completed",
+  "sim": 0.75
+ },
+ {
+  "k": "batchSaved",
+  "en": "{count} saved to your gallery",
+  "tr": "{count} salvas na sua galeria",
+  "back": "[count] saved in your gallery",
+  "sim": 0.8
+ },
+ {
+  "k": "batchSomeFailed",
+  "en": "{count} could not be processed",
+  "tr": "{count} não puderam ser processadas",
+  "back": "[count] could not be prosecuted",
+  "sim": 0.8
+ },
+ {
+  "k": "batchTooMany",
+  "en": "Up to {max} photos at a time",
+  "tr": "Até {max} fotos por vez",
+  "back": "Up to [max] photos at a time",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundAddCustom",
+  "en": "Add custom background",
+  "tr": "Adicionar fundo personalizado",
+  "back": "Adding custom background",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundCustomColor",
+  "en": "Custom color",
+  "tr": "Cor personalizada",
+  "back": "Customized colour",
+  "sim": 0.0
+ },
+ {
+  "k": "colorSaturation",
+  "en": "Saturation",
+  "tr": "Saturação",
+  "back": "Saturated",
+  "sim": 0.0
+ },
+ {
+  "k": "colorBrightness",
+  "en": "Brightness",
+  "tr": "Brilho",
+  "back": "Glitter",
+  "sim": 0.0
+ },
+ {
+  "k": "colorHexLabel",
+  "en": "Hex code",
+  "tr": "Código hexadecimal",
+  "back": "Hexadecimal code",
+  "sim": 0.5
+ },
+ {
+  "k": "colorPickerDone",
+  "en": "Done",
+  "tr": "Concluído",
+  "back": "Concluded",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceWhiteFill",
+  "en": "Pure white background, product fills the frame",
+  "tr": "Fundo branco puro, produto preenche o quadro",
+  "back": "Pure white background, product fills the table",
+  "sim": 0.86
+ },
+ {
+  "k": "exportMarketplaceSizeCap",
+  "en": "File kept under {size} MB",
+  "tr": "Arquivo com menos de {size} MB",
+  "back": "File less than [size] MB",
+  "sim": 0.6
+ },
+ {
+  "k": "editorToolTemplates",
+  "en": "Templates",
+  "tr": "Modelos",
+  "back": "Models",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTitle",
+  "en": "Choose a template",
+  "tr": "Escolher um modelo",
+  "back": "Choosing a model",
+  "sim": 0.33
+ },
+ {
+  "k": "templatesStudio",
+  "en": "Studio",
+  "tr": "Estúdio",
+  "back": "The studio",
+  "sim": 0.67
+ },
+ {
+  "k": "templatesColorBlock",
+  "en": "Color block",
+  "tr": "Blocos de cor",
+  "back": "Coloured blocks",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTextures",
+  "en": "Textures",
+  "tr": "Texturas",
+  "back": "Textures",
+  "sim": 1.0
+ },
+ {
+  "k": "templatesLight",
+  "en": "Light & shadow",
+  "tr": "Luz e sombra",
+  "back": "Light and shadow",
+  "sim": 0.8
+ },
+ {
+  "k": "templatesPatterns",
+  "en": "Gradients & patterns",
+  "tr": "Degradês e padrões",
+  "back": "Degrees and patterns",
+  "sim": 0.4
+ },
+ {
+  "k": "hdGetAction",
+  "en": "Get HD cut-out",
+  "tr": "Obter recorte HD",
+  "back": "Get the HD cut",
+  "sim": 0.57
+ },
+ {
+  "k": "hdRedoAction",
+  "en": "Redo cut-out in HD",
+  "tr": "Refazer o recorte em HD",
+  "back": "Repeat the cut in HD",
+  "sim": 0.44
+ },
+ {
+  "k": "hdDownloading",
+  "en": "HD cut-out in progress… {percent}%",
+  "tr": "Recorte HD em andamento… {percent}%",
+  "back": "HD cutting in progress... [percent] %",
+  "sim": 0.8
+ },
+ {
+  "k": "hdDownloadingShort",
+  "en": "HD cut-out… {percent}%",
+  "tr": "Recorte HD… {percent}%",
+  "back": "HD cutting... [percent] %",
+  "sim": 0.67
+ },
+ {
+  "k": "hdConfirmTitle",
+  "en": "Download HD cut-out model?",
+  "tr": "Baixar o modelo de recorte HD?",
+  "back": "Down the HD cutting model?",
+  "sim": 0.44
+ },
+ {
+  "k": "hdConfirmBody",
+  "en": "Cleaner edges on tricky objects like shoes, bags and bottles. It downloads once, stays on your phone and then works offline. Mobile data charges may apply.",
+  "tr": "Bordas mais limpas em objetos difíceis, como sapatos, bolsas e garrafas. É baixado uma vez, fica no seu celular e depois funciona offline. Pode haver cobrança de dados móveis.",
+  "back": "Cleaner edges on difficult objects like shoes, bags and bottles. It's downloaded once, it's on your cell phone, and then it works offline.",
+  "sim": 0.69
+ },
+ {
+  "k": "hdDownload",
+  "en": "Download",
+  "tr": "Baixar",
+  "back": "Lowering",
+  "sim": 0.0
+ },
+ {
+  "k": "hdFailed",
+  "en": "HD cut-out didn’t finish. Check your connection and try again.",
+  "tr": "O recorte HD não terminou. Verifique sua conexão e tente novamente.",
+  "back": "The HD cut isn't over, so check your connection and try again.",
+  "sim": 0.64
+ },
+ {
+  "k": "settingsHdTitle",
+  "en": "HD cut-out model",
+  "tr": "Modelo de recorte HD",
+  "back": "HD cutting model",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsHdNotInstalled",
+  "en": "Not downloaded",
+  "tr": "Não baixado",
+  "back": "Unloaded",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsHdInstalled",
+  "en": "Installed · works offline",
+  "tr": "Instalado · funciona offline",
+  "back": "Installed · works offline",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsHdRemove",
+  "en": "Remove",
+  "tr": "Remover",
+  "back": "Removing",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsReplayIntro",
+  "en": "Replay intro",
+  "tr": "Repetir introdução",
+  "back": "Repeat the introduction",
+  "sim": 0.0
+ },
+ {
+  "k": "homeSeeAll",
+  "en": "See all",
+  "tr": "Ver tudo",
+  "back": "Seeing it all",
+  "sim": 0.4
+ },
+ {
+  "k": "exportActionEdit",
+  "en": "Edit again",
+  "tr": "Editar novamente",
+  "back": "Re-editing",
+  "sim": 0.0
+ },
+ {
+  "k": "exportActionDelete",
+  "en": "Delete",
+  "tr": "Excluir",
+  "back": "Excluding",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMoreOptions",
+  "en": "More options",
+  "tr": "Mais opções",
+  "back": "More options",
+  "sim": 1.0
+ },
+ {
+  "k": "exportDeleteTitle",
+  "en": "Delete this export?",
+  "tr": "Excluir esta exportação?",
+  "back": "Excluding this export?",
+  "sim": 0.67
+ },
+ {
+  "k": "exportDeleteBody",
+  "en": "Exported images are removed from this phone. Your original photos and anything saved to your gallery are not affected.",
+  "tr": "As imagens exportadas são removidas deste celular. Suas fotos originais e o que foi salvo na galeria não são afetados.",
+  "back": "Your original photos and what was saved in the gallery are unaffected.",
+  "sim": 0.45
+ },
+ {
+  "k": "exportSavedToGallery",
+  "en": "Saved to your gallery",
+  "tr": "Salvo na sua galeria",
+  "back": "Except in your gallery.",
+  "sim": 0.5
+ },
+ {
+  "k": "exportSaveFailed",
+  "en": "Could not save to the gallery.",
+  "tr": "Não foi possível salvar na galeria.",
+  "back": "It wasn't possible to save in the gallery.",
+  "sim": 0.43
+ },
+ {
+  "k": "exportUnavailable",
+  "en": "Unavailable",
+  "tr": "Indisponível",
+  "back": "Not available",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsGroupThisWeek",
+  "en": "This week",
+  "tr": "Esta semana",
+  "back": "This week",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsGroupEarlier",
+  "en": "Earlier",
+  "tr": "Anteriores",
+  "back": "Previously",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsStorageUsed",
+  "en": "{size} used on this phone",
+  "tr": "{size} usados neste celular",
+  "back": "[size] used on this cell phone",
+  "sim": 0.91
+ },
+ {
+  "k": "exportsSelect",
+  "en": "Select",
+  "tr": "Selecionar",
+  "back": "Select",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDone",
+  "en": "Done",
+  "tr": "Concluir",
+  "back": "Conclusion",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsSelectedCount",
+  "en": "{count} selected",
+  "tr": "{count} selecionadas",
+  "back": "[count] selected",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDeleteSelectedTitle",
+  "en": "Delete {count} exports?",
+  "tr": "Excluir {count} exportações?",
+  "back": "Excluding exports?",
+  "sim": 0.4
+ },
+ {
+  "k": "exportsDeleteAll",
+  "en": "Delete all exports",
+  "tr": "Excluir todas as exportações",
+  "back": "Excluding all exports",
+  "sim": 0.67
+ },
+ {
+  "k": "exportsDeleteAllTitle",
+  "en": "Delete all exports?",
+  "tr": "Excluir todas as exportações?",
+  "back": "Excluding all exports?",
+  "sim": 0.67
+ },
+ {
+  "k": "helpTitle",
+  "en": "Help & how to use",
+  "tr": "Ajuda e como usar",
+  "back": "Help and How to Use",
+  "sim": 0.89
+ },
+ {
+  "k": "helpIntro",
+  "en": "Tap a topic to read how it works.",
+  "tr": "Toque em um tópico para ver como funciona.",
+  "back": "Tap on a topic to see how it works.",
+  "sim": 0.82
+ },
+ {
+  "k": "helpStartTitle",
+  "en": "Getting started",
+  "tr": "Primeiros passos",
+  "back": "First steps",
+  "sim": 0.0
+ },
+ {
+  "k": "helpStart1",
+  "en": "On the home screen, tap Camera to take a photo or Gallery to pick one. Batch cuts out many photos at once.",
+  "tr": "Na tela inicial, toque em Câmera para tirar uma foto ou em Galeria para escolher uma. Lote recorta várias fotos de uma vez.",
+  "back": "On the home screen, tap Camera to take a photo or Gallery to choose one.",
+  "sim": 0.76
+ },
+ {
+  "k": "helpStart2",
+  "en": "Every photo opens in Crop & Rotate first, then in the editor. Your original photo is never changed.",
+  "tr": "Toda foto abre primeiro em Cortar e girar e depois no editor. Sua foto original nunca é alterada.",
+  "back": "Every photo opens first in Cut and Spin and then in the editor.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpStart3",
+  "en": "When you are happy, tap Export in the editor. Recent Exports on the home screen lists everything you have exported.",
+  "tr": "Quando terminar, toque em Exportar no editor. Exportações recentes, na tela inicial, lista tudo o que você exportou.",
+  "back": "When you're done, tap Export in the editor. Recent exports, on the home screen, list everything you've exported.",
+  "sim": 0.74
+ },
+ {
+  "k": "helpCropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Cortar e girar",
+  "back": "Cutting and turning",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCrop1",
+  "en": "Turn the photo left or right in 90° steps, and drag the frame to choose the part you want to keep.",
+  "tr": "Gire a foto para a esquerda ou para a direita em passos de 90° e arraste a moldura para escolher a parte que quer manter.",
+  "back": "Turn the photo to the left or to the right at 90 degrees and drag the frame to choose the part you want to keep.",
+  "sim": 0.83
+ },
+ {
+  "k": "helpCrop2",
+  "en": "Free lets you shape the frame as you like. 1:1, 4:5 and 9:16 lock its shape. Tap Continue to open the editor.",
+  "tr": "Livre permite dar à moldura a forma que você quiser. 1:1, 4:5 e 9:16 travam a forma. Toque em Continuar para abrir o editor.",
+  "back": "Free allows you to frame the shape you want. 1:1, 4:5 and 9:16 block the shape. Tap Continue to open the editor.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpCutoutTitle",
+  "en": "Cut-out",
+  "tr": "Recorte",
+  "back": "Cuts",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCutout1",
+  "en": "When the editor opens, PhotoSur finds the main subject and removes the background automatically, on your phone. No internet is needed.",
+  "tr": "Quando o editor abre, o PhotoSur encontra o assunto principal e remove o fundo automaticamente, no seu celular. Não precisa de internet.",
+  "back": "When the editor opens, PhotoSur finds the main subject and removes the background automatically on your phone.",
+  "sim": 0.89
+ },
+ {
+  "k": "helpCutout2",
+  "en": "Edge Smoothness softens the edge of the cut-out, from 0 to 20 pixels.",
+  "tr": "Suavidade da borda suaviza a borda do recorte, de 0 a 20 pixels.",
+  "back": "Soft edge smooth edge of cutting, from 0 to 20 pixels.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpCutout3",
+  "en": "The eye button at the top shows your original photo so you can compare. Tap it again to go back. The brush is paused while the original is shown.",
+  "tr": "O botão de olho, no alto, mostra a foto original para você comparar. Toque de novo para voltar. O pincel fica pausado enquanto o original aparece.",
+  "back": "The eye button at the top shows the original photo for you to compare. Touch it again to go back. The brush stays still while the original appears.",
+  "sim": 0.74
+ },
+ {
+  "k": "helpCutout4",
+  "en": "For difficult subjects such as glass, shoes, bags and bottles, tap Get HD cut-out. The HD model downloads once, stays on your phone and then works offline. Once it is installed, every new cut-out uses it automatically. To redo the photo you have open, tap Redo cut-out in HD.",
+  "tr": "Para assuntos difíceis, como vidro, sapatos, bolsas e garrafas, toque em Obter recorte HD. O modelo HD é baixado uma vez, fica no seu celular e depois funciona offline. Depois de instalado, todo recorte novo o usa automaticamente. Para refazer a foto que está aberta, toque em Refazer o recorte em HD.",
+  "back": "For difficult subjects, such as glass, shoes, bags and bottles, tap Get HD cut. The HD model is downloaded once, stays on your phone, and then works offline. Once installed, every new cut uses it automatically.",
+  "sim": 0.75
+ },
+ {
+  "k": "helpBrushTitle",
+  "en": "Brush",
+  "tr": "Pincel",
+  "back": "Brushes and brushes",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBrush1",
+  "en": "Erase removes parts of the subject. Restore brings back parts the cut-out removed.",
+  "tr": "Apagar remove partes do assunto. Restaurar traz de volta partes que o recorte removeu.",
+  "back": "Deleting removes parts of the subject, restoring brings back parts that the cut removed.",
+  "sim": 0.74
+ },
+ {
+  "k": "helpBrush2",
+  "en": "Drag one finger to paint. Use two fingers to zoom, up to 8 times, and to move the photo. The brush keeps its size on screen, so zooming in gives finer control.",
+  "tr": "Arraste um dedo para pintar. Use dois dedos para dar zoom, até 8 vezes, e para mover a foto. O pincel mantém o tamanho na tela, então ao ampliar o zoom você ganha mais precisão.",
+  "back": "You pulled a finger to paint. Use two fingers to zoom in, up to eight times, and to move the photo. The brush keeps the size on the screen, so by zooming in you get more accuracy.",
+  "sim": 0.72
+ },
+ {
+  "k": "helpBrush3",
+  "en": "Brush Size goes from 1 to 50. Opacity sets how strongly each stroke applies.",
+  "tr": "Tamanho do pincel vai de 1 a 50. Opacidade define a intensidade de cada traço.",
+  "back": "Brush size ranges from 1 to 50, and aperture determines the intensity of each stroke.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpBrush4",
+  "en": "Undo and Redo step through your brush strokes. Reset clears all brush strokes and goes back to the automatic cut-out; it asks you to confirm first.",
+  "tr": "Desfazer e Refazer voltam e avançam pelos seus traços de pincel. Redefinir apaga todos os traços e volta ao recorte automático; antes, pede confirmação.",
+  "back": "Remove and Remove go back and forth through their brush strokes. Redefine erases all strokes and goes back to automatic cutting; instead, it asks for confirmation.",
+  "sim": 0.5
+ },
+ {
+  "k": "helpBackgroundTitle",
+  "en": "Background",
+  "tr": "Fundo",
+  "back": "Funding",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBackground1",
+  "en": "Choose what goes behind your subject: transparent, white, black, a gradient, a colour, a blurred copy of your photo, or your own photo.",
+  "tr": "Escolha o que fica atrás do assunto: transparente, branco, preto, um degradê, uma cor, uma cópia desfocada da foto ou sua própria foto.",
+  "back": "Choose what is behind the subject: transparent, white, black, a gradient, a color, a blurred copy of the photo or your own photo.",
+  "sim": 0.83
+ },
+ {
+  "k": "helpBackground2",
+  "en": "Only one background is used at a time. Your latest choice replaces the earlier one.",
+  "tr": "Só um fundo é usado por vez. Sua última escolha substitui a anterior.",
+  "back": "Only one fund is used at a time, your last choice replaces the previous one.",
+  "sim": 0.8
+ },
+ {
+  "k": "helpBackground3",
+  "en": "Add custom background lets you pick a photo from your gallery. Custom color opens a colour picker. The Blur slider goes from 0 to 25.",
+  "tr": "Adicionar fundo personalizado permite escolher uma foto da galeria. Cor personalizada abre um seletor de cor. O controle Desfoque vai de 0 a 25.",
+  "back": "Adding a custom background allows you to choose a photo from the gallery. Custom color opens a color selector.",
+  "sim": 0.5
+ },
+ {
+  "k": "helpBackground4",
+  "en": "Transparent shows a checkerboard while you edit. Export as PNG to keep it transparent.",
+  "tr": "Transparente mostra um padrão xadrez enquanto você edita. Exporte em PNG para manter a transparência.",
+  "back": "Transparent shows a chess pattern as you edit. Export in PNG to maintain transparency.",
+  "sim": 0.57
+ },
+ {
+  "k": "helpTemplatesTitle",
+  "en": "Templates",
+  "tr": "Modelos",
+  "back": "Models",
+  "sim": 0.0
+ },
+ {
+  "k": "helpTemplates1",
+  "en": "Templates are ready-made backgrounds in five groups: Studio, Color block, Textures, Light & shadow, and Gradients & patterns. Five scenes are shown in the panel; tap the Templates button to see them all.",
+  "tr": "Modelos são fundos prontos em cinco grupos: Estúdio, Blocos de cor, Texturas, Luz e sombra e Degradês e padrões. Cinco cenas aparecem no painel; toque no botão Modelos para ver todas.",
+  "back": "Models are ready-made backgrounds in five groups: Studio, Color Blocks, Textures, Light and Shadow and Degrees and Patterns. Five scenes appear on the dashboard; tap the Models button to view them all.",
+  "sim": 0.7
+ },
+ {
+  "k": "helpTemplates2",
+  "en": "Choosing a template works like choosing your own photo as the background: it replaces your earlier background choice.",
+  "tr": "Escolher um modelo funciona como escolher sua própria foto de fundo: ele substitui a escolha de fundo anterior.",
+  "back": "Choosing a model works like choosing your own background photo: it replaces the previous choice of background.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpLayout1",
+  "en": "Drag the subject on the photo to move it. Pinch with two fingers to resize it.",
+  "tr": "Arraste o assunto sobre a foto para movê-lo. Faça o movimento de pinça com dois dedos para redimensioná-lo.",
+  "back": "You dragged the subject over the photo to move it.",
+  "sim": 0.54
+ },
+ {
+  "k": "helpLayout2",
+  "en": "Choose Original, 1:1, 4:5 or 9:16 to set the shape of the final picture.",
+  "tr": "Escolha Original, 1:1, 4:5 ou 9:16 para definir o formato da imagem final.",
+  "back": "Choose Original, 1:1, 4:5, or 9:16 to set the format of the final image.",
+  "sim": 0.86
+ },
+ {
+  "k": "helpLayout3",
+  "en": "Size sets how big the subject is, from 20% to 300%. Shadow sets how strong its shadow is. Auto-center puts the subject back in the middle. Reset undoes moving and resizing.",
+  "tr": "Tamanho define o tamanho do assunto, de 20% a 300%. Sombra define a intensidade da sombra. Centralizar coloca o assunto de volta no meio. Redefinir desfaz os movimentos e redimensionamentos.",
+  "back": "Size defines the size of the subject, from 20% to 300%. Shadow defines the intensity of the shadow. Centralizing puts the subject back in the middle. Redefining unravels the movements and redimensions.",
+  "sim": 0.54
+ },
+ {
+  "k": "helpLayout4",
+  "en": "This shape is used when the export size is Original. If you choose a size preset or a marketplace in the export sheet, that decides the final shape instead.",
+  "tr": "Este formato é usado quando o tamanho de exportação é Original. Se você escolher um tamanho predefinido ou um marketplace na tela de exportação, isso decide o formato final.",
+  "back": "This format is used when the export size is Original. If you choose a default size or a marketplace on the export screen, that decides the final format.",
+  "sim": 0.81
+ },
+ {
+  "k": "helpExportTitle",
+  "en": "Export",
+  "tr": "Exportar",
+  "back": "Exporting",
+  "sim": 0.0
+ },
+ {
+  "k": "helpExport1",
+  "en": "Tap Export to open the export sheet. Nothing is applied until you tap Save to Gallery or Share, so you can change your choices as often as you like.",
+  "tr": "Toque em Exportar para abrir a tela de exportação. Nada é aplicado até você tocar em Salvar na galeria ou Compartilhar, então você pode mudar as escolhas quantas vezes quiser.",
+  "back": "Tap Export to open the export screen. Nothing is applied until you tap Save in the gallery or Share, so you can change your choices as many times as you want.",
+  "sim": 0.83
+ },
+ {
+  "k": "helpExport2",
+  "en": "PNG keeps transparency. JPG makes smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a small modern format; if your phone cannot make it, the file is saved as JPG. For JPG and WEBP, the Quality slider trades file size for detail.",
+  "tr": "PNG mantém a transparência. JPG gera arquivos menores, mas não pode ser transparente, então um fundo transparente vira branco. WEBP é um formato moderno e leve; se o celular não conseguir gerá-lo, o arquivo é salvo como JPG. Em JPG e WEBP, o controle Qualidade equilibra tamanho do arquivo e detalhe.",
+  "back": "PNG maintains transparency. JPG generates smaller files, but it cannot be transparent, so a transparent background turns white. WEBP is a modern and lightweight format; if the mobile phone cannot generate it, the file is saved as JPG. In JPG and WEBP, the Quality control balances file size and detail.",
+  "sim": 0.76
+ },
+ {
+  "k": "helpExport3",
+  "en": "Original keeps your photo’s size, with the shape chosen in Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. Custom lets you type a width and height in pixels.",
+  "tr": "Original mantém o tamanho da sua foto, com o formato escolhido em Layout. 1:1 é 1080 × 1080, 4:5 é 1080 × 1350 e 9:16 é 1080 × 1920. Personalizado permite digitar largura e altura em pixels.",
+  "back": "Original keeps the size of your photo, with the format chosen in Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. Custom allows you to type width and height in pixels.",
+  "sim": 0.83
+ },
+ {
+  "k": "helpExport4",
+  "en": "Marketplace presets set size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG kept under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices, and choosing a format or size afterwards switches the marketplace off. Marketplace rules can change, so check your marketplace’s current requirements.",
+  "tr": "As predefinições de marketplace definem tamanho, formato e qualidade: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG abaixo de 1 MB e Shopify 2048 × 2048 PNG. Escolher uma substitui suas escolhas de formato e tamanho, e escolher depois um formato ou tamanho desativa o marketplace. As regras dos marketplaces podem mudar, então confira os requisitos atuais do seu.",
+  "back": "Marketplace prefixes define size, format, and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices, and then choosing a format or size that the marketplace defaults on.",
+  "sim": 0.79
+ },
+ {
+  "k": "helpExport5",
+  "en": "Amazon also uses a pure white background with no shadow and fits the subject to fill most of the frame. Your background choice in the editor is not changed. The other marketplaces keep your background.",
+  "tr": "A Amazon também usa fundo branco puro sem sombra e ajusta o assunto para ocupar a maior parte do quadro. Sua escolha de fundo no editor não muda. Os outros marketplaces mantêm seu fundo.",
+  "back": "Amazon also uses a pure white background with no shadows and adjusts the subject to occupy most of the board. Your choice of background in the publisher doesn't change. Other marketplaces keep their background.",
+  "sim": 0.7
+ },
+ {
+  "k": "helpExport6",
+  "en": "Save to Gallery and Share both save the picture to your gallery and to Recent Exports. Share also opens your phone’s share menu. If saving to the gallery is not possible, the share menu opens instead. After exporting you return to the home screen.",
+  "tr": "Salvar na galeria e Compartilhar salvam a imagem na galeria e em Exportações recentes. Compartilhar também abre o menu de compartilhamento do celular. Se não for possível salvar na galeria, o menu de compartilhamento abre no lugar. Depois de exportar, você volta à tela inicial.",
+  "back": "Save in the gallery and Share save the image in the gallery and in Recent Exports. Share also opens the mobile sharing menu. If you can't save in the gallery, the sharing menu opens in place. After exporting, you go back to the home screen.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpExport7",
+  "en": "Unless you have removed ads, an ad can appear after an export, at most once every two minutes.",
+  "tr": "Se você não removeu os anúncios, um anúncio pode aparecer após a exportação, no máximo uma vez a cada dois minutos.",
+  "back": "If you have not removed the ads, an ad may appear after export, no more than once every two minutes.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpBatchTitle",
+  "en": "Batch",
+  "tr": "Lote",
+  "back": "Lot",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBatch1",
+  "en": "Batch cuts out up to 30 photos in one go. Tap Batch on the home screen and pick your photos. The back button is turned off while a batch runs.",
+  "tr": "Lote recorta até 30 fotos de uma vez. Toque em Lote na tela inicial e escolha as fotos. O botão voltar fica desativado enquanto um lote é executado.",
+  "back": "Lot cuts up to 30 photos at once. Tap Lot on the home screen and select the photos. The return button is disabled while a lot is running.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpBatch2",
+  "en": "All photos in a batch share one setup: one background and one marketplace. You cannot choose differently for each photo.",
+  "tr": "Todas as fotos de um lote compartilham uma única configuração: um fundo e um marketplace. Não é possível escolher de forma diferente para cada foto.",
+  "back": "All photos in a batch share a single configuration: a background and a marketplace. You can't choose a different way for each photo.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpBatch3",
+  "en": "Backgrounds work as in the editor: your own photo, a colour, a template, white, transparent, black, blur or a gradient. Only one applies, and your latest choice replaces the earlier one.",
+  "tr": "Os fundos funcionam como no editor: sua própria foto, uma cor, um modelo, branco, transparente, preto, desfoque ou um degradê. Só um vale, e a última escolha substitui a anterior.",
+  "back": "The backgrounds work like in the editor: your own photo, a color, a model, white, transparent, black, blur, or a gradient. Only one valve, and the last choice replaces the previous one.",
+  "sim": 0.76
+ },
+ {
+  "k": "helpBatch4",
+  "en": "The file format is chosen for you. With a marketplace, the photos follow that marketplace’s size and format. Without one, a transparent background gives PNG and any other background gives JPG, at the original size.",
+  "tr": "O formato do arquivo é escolhido para você. Com um marketplace, as fotos seguem o tamanho e o formato dele. Sem marketplace, um fundo transparente gera PNG e qualquer outro fundo gera JPG, no tamanho original.",
+  "back": "The file format is chosen for you. With a marketplace, the photos follow its size and format. Without a marketplace, a transparent background generates PNG and any other background generates JPG, in the original size.",
+  "sim": 0.83
+ },
+ {
+  "k": "helpBatch5",
+  "en": "Choosing Amazon switches the background to White; if you then choose another background, Amazon is switched off. eBay, Etsy and Shopify keep your background, but a JPG cannot be transparent, so it gets a white background.",
+  "tr": "Escolher Amazon muda o fundo para Branco; se depois você escolher outro fundo, Amazon é desativada. eBay, Etsy e Shopify mantêm seu fundo, mas um JPG não pode ser transparente, então ele recebe fundo branco.",
+  "back": "Choosing Amazon changes the background to White; if you then choose another background, Amazon is disabled. eBay, Etsy and Shopify keep their background, but a JPG cannot be transparent, so it gets a white background.",
+  "sim": 0.9
+ },
+ {
+  "k": "helpBatch6",
+  "en": "If the HD model is installed, every photo in the batch is cut out with it. The Get HD cut-out button next to Templates downloads it.",
+  "tr": "Se o modelo HD estiver instalado, todas as fotos do lote são recortadas com ele. O botão Obter recorte HD, ao lado de Modelos, faz o download.",
+  "back": "If the HD model is installed, all photos of the lot are clipped with it.",
+  "sim": 0.44
+ },
+ {
+  "k": "helpBatch7",
+  "en": "Each photo is saved to your gallery and to Recent Exports as soon as it finishes. Stop ends the batch after the current photo, and photos already finished stay saved. If a photo fails, the batch carries on and tells you how many could not be processed. Done takes you back to the home screen; it does not save anything.",
+  "tr": "Cada foto é salva na galeria e em Exportações recentes assim que termina. Parar encerra o lote depois da foto atual, e as fotos já concluídas continuam salvas. Se uma foto falhar, o lote continua e informa quantas não puderam ser processadas. Concluído leva você de volta à tela inicial; não salva nada.",
+  "back": "Each photo is saved in the gallery and in Recent Exports as soon as it's finished. Stopping closes the lot after the current photo, and the already completed photos remain saved. If a photo fails, the lot continues and informs how many have not been processed. Completed takes you back to the home screen; it saves nothing.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpLibraryTitle",
+  "en": "Your exports",
+  "tr": "Suas exportações",
+  "back": "Its exports",
+  "sim": 0.5
+ },
+ {
+  "k": "helpLibrary1",
+  "en": "Recent Exports on the home screen shows your latest exports. Tap See all for every export, grouped as Today, Yesterday, This week and Earlier.",
+  "tr": "Exportações recentes, na tela inicial, mostra suas últimas exportações. Toque em Ver tudo para ver todas, agrupadas em Hoje, Ontem, Esta semana e Anteriores.",
+  "back": "Recent exports, on the home screen, shows your latest exports. Tap See Everything to see all, grouped into Today, Yesterday, This Week and Previous.",
+  "sim": 0.79
+ },
+ {
+  "k": "helpLibrary2",
+  "en": "Tap an export to open it full screen. Swipe to move between exports and pinch to zoom. The bar at the bottom has Share, Save to Gallery, Edit again and Delete.",
+  "tr": "Toque em uma exportação para abri-la em tela cheia. Deslize para passar de uma para outra e faça o movimento de pinça para dar zoom. A barra inferior tem Compartilhar, Salvar na galeria, Editar novamente e Excluir.",
+  "back": "Tap on an export to open it on a full screen, swipe to move from one to the other, and make the pinch move to zoom in. The bottom bar has Sharing, Save in the gallery, Edit again, and Delete.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpLibrary3",
+  "en": "The three-dot button on a tile opens the same actions. Edit again opens the exported picture as a new photo, so earlier brush strokes are not restored.",
+  "tr": "O botão de três pontos em cada miniatura abre as mesmas ações. Editar novamente abre a imagem exportada como uma foto nova, então os traços de pincel anteriores não são restaurados.",
+  "back": "The three-point button on each thumbnail opens the same actions. Edit again opens the exported image as a new photo, so the previous brush strokes are not restored.",
+  "sim": 0.8
+ },
+ {
+  "k": "helpLibrary4",
+  "en": "Select lets you choose several exports to share together or delete. Delete all exports removes every export from this phone.",
+  "tr": "Selecionar permite escolher várias exportações para compartilhar juntas ou excluir. Excluir todas as exportações remove todas as exportações deste celular.",
+  "back": "Selecting allows you to choose multiple exports to share together or delete. Excluding all exports removes all exports from this cell phone.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpLibrary5",
+  "en": "Deleting removes exports from PhotoSur only. Pictures already saved to your gallery are not affected. The bottom of the See all screen shows how much space exports use on this phone.",
+  "tr": "Excluir remove as exportações apenas do PhotoSur. As imagens já salvas na galeria não são afetadas. A parte de baixo de Ver tudo mostra quanto espaço as exportações ocupam neste celular.",
+  "back": "Delete removes exports only from PhotoSur. Images already saved in the gallery are unaffected. The bottom of See All shows how much space exports occupy on this cell phone.",
+  "sim": 0.7
+ },
+ {
+  "k": "helpPrivacyTitle",
+  "en": "Privacy & ads",
+  "tr": "Privacidade e anúncios",
+  "back": "Privacy and advertising",
+  "sim": 0.4
+ },
+ {
+  "k": "helpPrivacy1",
+  "en": "Your photos are processed on your phone and are not uploaded. There is no account and no watermark.",
+  "tr": "Suas fotos são processadas no celular e não são enviadas para lugar nenhum. Não há conta nem marca d’água.",
+  "back": "Your photos are processed on your cell phone and aren't sent anywhere.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpPrivacy2",
+  "en": "PhotoSur is free with every feature included, supported by ads. A banner appears at the bottom of some screens, and an ad can appear after an export.",
+  "tr": "O PhotoSur é gratuito, com todos os recursos incluídos, e se sustenta com anúncios. Um banner aparece na parte de baixo de algumas telas, e um anúncio pode aparecer após uma exportação.",
+  "back": "PhotoSur is free, with all the features included, and is supported by ads. A banner appears at the bottom of some screens, and an ad may appear after an export.",
+  "sim": 0.84
+ },
+ {
+  "k": "helpPrivacy3",
+  "en": "Go Ad-Free in Settings is a one-time purchase that removes the ads. It does not unlock anything else, because every feature is already free. Restore Purchases brings it back on a new phone.",
+  "tr": "Remover anúncios, em Configurações, é uma compra única que tira os anúncios. Não desbloqueia mais nada, porque todos os recursos já são gratuitos. Restaurar compras traz a compra de volta em um celular novo.",
+  "back": "Removing ads in Settings is a one-time purchase that removes the ads. It doesn't unlock anything else, because all the features are already free. Restoring purchases brings the purchase back to a new phone.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpSettingsTitle",
+  "en": "Settings",
+  "tr": "Configurações",
+  "back": "Configurations",
+  "sim": 0.0
+ },
+ {
+  "k": "helpSettings1",
+  "en": "Theme can follow your phone, or be Light or Dark. Language changes the language of the app. Both are also in the home screen header.",
+  "tr": "Tema pode seguir o celular ou ser Claro ou Escuro. Idioma muda o idioma do app. Os dois também ficam no cabeçalho da tela inicial.",
+  "back": "The theme can follow the phone or be Clear or Dark. Language changes the language of the app. Both also stay in the home screen header.",
+  "sim": 0.86
+ },
+ {
+  "k": "helpSettings2",
+  "en": "Edit reminders: if you leave the app with an unfinished edit, PhotoSur can remind you three hours later. Switch this off in Settings.",
+  "tr": "Lembretes de edição: se você sair do app com uma edição inacabada, o PhotoSur pode lembrar você três horas depois. Desative isso em Configurações.",
+  "back": "Edit reminders: If you leave the app with an unfinished edition, PhotoSur can remind you three hours later.",
+  "sim": 0.83
+ },
+ {
+  "k": "helpSettings3",
+  "en": "HD cut-out model shows whether it is installed. Remove deletes it from your phone to free space; you can download it again at any time.",
+  "tr": "Modelo de recorte HD mostra se ele está instalado. Remover apaga o modelo do celular para liberar espaço; você pode baixá-lo de novo quando quiser.",
+  "back": "HD cut model shows if it's installed. Remove erases the model from the cell phone to free up space; you can download it again whenever you want.",
+  "sim": 0.58
+ },
+ {
+  "k": "helpSettings4",
+  "en": "Replay intro shows the welcome screens again. Support opens the support page. Animated home background turns the moving picture at the top of the home screen on or off.",
+  "tr": "Repetir introdução mostra as telas de boas-vindas de novo. Suporte abre a página de suporte. Fundo animado na tela inicial liga ou desliga a imagem em movimento no topo da tela inicial.",
+  "back": "Repeat introduction shows the welcome screens again. Support opens the support page. Animated background on the home screen turns on or off the moving image at the top of the home screen.",
+  "sim": 0.72
+ },
+ {
+  "k": "helpFixTitle",
+  "en": "If something goes wrong",
+  "tr": "Se algo der errado",
+  "back": "If something goes wrong",
+  "sim": 1.0
+ },
+ {
+  "k": "helpFix1",
+  "en": "If the automatic cut-out cannot run on a very old or low-memory phone, the brush still works, so you can finish the picture by hand.",
+  "tr": "Se o recorte automático não puder rodar em um celular muito antigo ou com pouca memória, o pincel continua funcionando, então você pode terminar a imagem à mão.",
+  "back": "If the autocut can't run on a very old or memory-poor cell phone, the brush continues to work, so you can finish the image by hand.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpFix2",
+  "en": "If the HD download stops, check your connection and try again. It continues where it left off.",
+  "tr": "Se o download HD parar, verifique a conexão e tente de novo. Ele continua de onde parou.",
+  "back": "If the HD download stops, check the connection and try again.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpFix3",
+  "en": "For anything else, open Support from Settings.",
+  "tr": "Para qualquer outra coisa, abra Suporte em Configurações.",
+  "back": "For anything else, open Support in Settings.",
+  "sim": 0.86
+ }
+]

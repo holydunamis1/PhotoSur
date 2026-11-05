@@ -1,0 +1,1787 @@
+[
+ {
+  "k": "onboardingPage1Title",
+  "en": "Remove backgrounds instantly. All features free.",
+  "tr": "הסרת רקעים באופן מיידי. כל התכונות בחינם.",
+  "back": "Immediate background removal, all features are free.",
+  "sim": 0.46
+ },
+ {
+  "k": "onboardingPage1Body",
+  "en": "Open a photo and our on-device AI removes the background automatically — no internet required. You can also swap in your own custom background.",
+  "tr": "פותחים תמונה, וה-AI שעל המכשיר מסיר את הרקע אוטומטית — בלי אינטרנט. אפשר גם להחליף לרקע מותאם אישית משלכם.",
+  "back": "You open an image, and the AI on the device automatically removes the background without the internet. You can also change your own custom background.",
+  "sim": 0.58
+ },
+ {
+  "k": "onboardingPage2Title",
+  "en": "Fine-tune with the brush",
+  "tr": "כוונון עדין עם המכחול",
+  "back": "A gentle intention with the blueberry",
+  "sim": 0.4
+ },
+ {
+  "k": "onboardingPage2Body",
+  "en": "Paint away what the AI missed or restore what you want to keep. Then crop, rotate, move and resize.",
+  "tr": "מחקו במכחול מה שהבינה המלאכותית פספסה, או שחזרו מה שרוצים לשמור. אחר כך חתכו, סובבו, הזיזו ושנו גודל.",
+  "back": "Erase in blue what the AI missed, or return what you want to keep, and then cut, rotate, move, and resize.",
+  "sim": 0.75
+ },
+ {
+  "k": "onboardingPage3Title",
+  "en": "Studio-ready backgrounds",
+  "tr": "רקעים ברמת סטודיו",
+  "back": "Backgrounds at the studio level",
+  "sim": 0.29
+ },
+ {
+  "k": "onboardingPage3Body",
+  "en": "Choose a colour, gradient, template or your own photo, with a natural shadow. Marketplace presets for Amazon, eBay, Etsy and Shopify set size and format for you.",
+  "tr": "בחרו צבע, מעבר צבעים, תבנית או תמונה משלכם, עם צל טבעי. הגדרות מוכנות ל-Amazon, eBay, Etsy ו-Shopify קובעות עבורכם גודל ופורמט.",
+  "back": "Choose your own color, color scheme, pattern, or image, with a natural shade. Amazon, eBay, Etsy, and Shopify settings set the size and format for you.",
+  "sim": 0.64
+ },
+ {
+  "k": "onboardingPage4Title",
+  "en": "Batch it, export it, keep it private",
+  "tr": "בכמויות, בפורמט שלכם, ובפרטיות מלאה",
+  "back": "In quantities, in your format, and in complete privacy.",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingPage4Body",
+  "en": "Cut out up to 30 photos at once and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "tr": "הסירו רקע מעד 30 תמונות בבת אחת וייצאו כ-PNG, JPG או WEBP. התמונות שלכם לעולם לא עוזבות את הטלפון. זמין ב-43 שפות.",
+  "back": "Remove the background from 30 photos at once and release them as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "sim": 0.78
+ },
+ {
+  "k": "onboardingNext",
+  "en": "Next",
+  "tr": "הבא",
+  "back": "The next one.",
+  "sim": 0.5
+ },
+ {
+  "k": "onboardingGetStarted",
+  "en": "Get Started",
+  "tr": "בואו נתחיל",
+  "back": "Let's get started.",
+  "sim": 0.8
+ },
+ {
+  "k": "homeCameraButton",
+  "en": "Camera",
+  "tr": "מצלמה",
+  "back": "The camera.",
+  "sim": 0.67
+ },
+ {
+  "k": "homeGalleryButton",
+  "en": "Gallery",
+  "tr": "גלריה",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "dateToday",
+  "en": "Today",
+  "tr": "היום",
+  "back": "Today.",
+  "sim": 1.0
+ },
+ {
+  "k": "dateYesterday",
+  "en": "Yesterday",
+  "tr": "אתמול",
+  "back": "Yesterday.",
+  "sim": 1.0
+ },
+ {
+  "k": "homeRecentExports",
+  "en": "Recent Exports",
+  "tr": "ייצואים אחרונים",
+  "back": "The last survivors",
+  "sim": 0.0
+ },
+ {
+  "k": "homeEmptyStateMessage",
+  "en": "Tap Camera or Gallery to start.",
+  "tr": "הקישו על מצלמה או גלריה כדי להתחיל.",
+  "back": "Click on a camera or a gallery to get started.",
+  "sim": 0.5
+ },
+ {
+  "k": "homeExportUnavailable",
+  "en": "This export is no longer available.",
+  "tr": "הייצוא הזה כבר לא זמין.",
+  "back": "This export is no longer available.",
+  "sim": 1.0
+ },
+ {
+  "k": "homeShareFailed",
+  "en": "Could not share this export.",
+  "tr": "לא ניתן לשתף את הייצוא הזה.",
+  "back": "We can't share this export.",
+  "sim": 0.6
+ },
+ {
+  "k": "homeGalleryOpenFailed",
+  "en": "Could not open gallery.",
+  "tr": "לא ניתן לפתוח את הגלריה.",
+  "back": "We can't open the gallery.",
+  "sim": 0.44
+ },
+ {
+  "k": "cameraTitle",
+  "en": "Camera",
+  "tr": "מצלמה",
+  "back": "The camera.",
+  "sim": 0.67
+ },
+ {
+  "k": "cameraPermissionDenied",
+  "en": "Camera access is needed to take a photo. Please allow access.",
+  "tr": "נדרשת גישה למצלמה כדי לצלם תמונה. אנא אפשרו גישה.",
+  "back": "We need access to the camera to take a picture.",
+  "sim": 0.38
+ },
+ {
+  "k": "cameraPermissionPermanentlyDenied",
+  "en": "Camera access was denied. Enable it in Settings to continue.",
+  "tr": "הגישה למצלמה נדחתה. הפעילו אותה בהגדרות כדי להמשיך.",
+  "back": "Access to the camera has been denied.",
+  "sim": 0.24
+ },
+ {
+  "k": "cameraPermissionRestricted",
+  "en": "Camera access is restricted on this device.",
+  "tr": "הגישה למצלמה מוגבלת במכשיר זה.",
+  "back": "Access to the camera is limited on this device.",
+  "sim": 0.62
+ },
+ {
+  "k": "cameraNoCameraFound",
+  "en": "No camera found on this device.",
+  "tr": "לא נמצאה מצלמה במכשיר זה.",
+  "back": "No camera was found on this device.",
+  "sim": 0.92
+ },
+ {
+  "k": "cameraStartFailed",
+  "en": "Could not start the camera.",
+  "tr": "לא ניתן להפעיל את המצלמה.",
+  "back": "We can't turn the camera on.",
+  "sim": 0.36
+ },
+ {
+  "k": "cameraCaptureFailed",
+  "en": "Could not capture photo.",
+  "tr": "לא ניתן לצלם את התמונה.",
+  "back": "We can't take the picture.",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraOpenSettings",
+  "en": "Open Settings",
+  "tr": "פתיחת הגדרות",
+  "back": "Opening the Fence",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraFlashTooltip",
+  "en": "Flash",
+  "tr": "פלאש",
+  "back": "Flash",
+  "sim": 1.0
+ },
+ {
+  "k": "cameraGalleryTooltip",
+  "en": "Gallery",
+  "tr": "גלריה",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "cropTitle",
+  "en": "Crop & Rotate",
+  "tr": "חיתוך וסיבוב",
+  "back": "Cutting and spinning",
+  "sim": 0.0
+ },
+ {
+  "k": "cropLoadFailed",
+  "en": "Could not load the image.",
+  "tr": "לא ניתן לטעון את התמונה.",
+  "back": "We can't charge the photo.",
+  "sim": 0.2
+ },
+ {
+  "k": "cropRotateFailed",
+  "en": "Could not rotate the image.",
+  "tr": "לא ניתן לסובב את התמונה.",
+  "back": "We can't turn the picture around.",
+  "sim": 0.18
+ },
+ {
+  "k": "cropFailed",
+  "en": "Crop failed.",
+  "tr": "החיתוך נכשל.",
+  "back": "The cutting failed.",
+  "sim": 0.4
+ },
+ {
+  "k": "cropSaveFailed",
+  "en": "Could not save the cropped image.",
+  "tr": "לא ניתן לשמור את התמונה החתוכה.",
+  "back": "We can't keep the cut photo.",
+  "sim": 0.17
+ },
+ {
+  "k": "cropAspectFree",
+  "en": "Free",
+  "tr": "חופשי",
+  "back": "Free",
+  "sim": 1.0
+ },
+ {
+  "k": "cropContinue",
+  "en": "Continue",
+  "tr": "המשך",
+  "back": "Keep going.",
+  "sim": 0.0
+ },
+ {
+  "k": "editorSegmentationFailedMessage",
+  "en": "Your device doesn't support automatic background removal. Use the manual brush below.",
+  "tr": "המכשיר שלך אינו תומך בהסרת רקע אוטומטית. השתמשו במחק הידני למטה.",
+  "back": "Your device doesn't support automatic background removal.",
+  "sim": 0.74
+ },
+ {
+  "k": "brushErase",
+  "en": "Erase",
+  "tr": "מחיקה",
+  "back": "It's been cancelled.",
+  "sim": 0.0
+ },
+ {
+  "k": "brushRestore",
+  "en": "Restore",
+  "tr": "שחזור",
+  "back": "Come back to me.",
+  "sim": 0.0
+ },
+ {
+  "k": "brushSizeLabel",
+  "en": "Brush Size",
+  "tr": "גודל המכחול",
+  "back": "The size of the blue",
+  "sim": 0.29
+ },
+ {
+  "k": "brushOpacityLabel",
+  "en": "Opacity",
+  "tr": "אטימות",
+  "back": "I'm the first one.",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundWhite",
+  "en": "White",
+  "tr": "לבן",
+  "back": "White",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundTransparent",
+  "en": "Transparent",
+  "tr": "שקוף",
+  "back": "It's transparent.",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundBlack",
+  "en": "Black",
+  "tr": "שחור",
+  "back": "It's black.",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundBlurLabel",
+  "en": "Blur",
+  "tr": "טשטוש",
+  "back": "It's blurry.",
+  "sim": 0.0
+ },
+ {
+  "k": "edgeFeatherLabel",
+  "en": "Edge Smoothness",
+  "tr": "רכות קצוות",
+  "back": "Soft edges",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarUndo",
+  "en": "Undo",
+  "tr": "ביטול",
+  "back": "Cancellation",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarRedo",
+  "en": "Redo",
+  "tr": "ביצוע חוזר",
+  "back": "Repeat performance",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarReset",
+  "en": "Reset",
+  "tr": "איפוס",
+  "back": "I'm going to stop.",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarExport",
+  "en": "Export",
+  "tr": "ייצוא",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmTitle",
+  "en": "Reset edits?",
+  "tr": "לאפס את העריכות?",
+  "back": "Zero the ratings?",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmBody",
+  "en": "This clears your manual brush strokes. This cannot be undone.",
+  "tr": "פעולה זו תמחק את משיחות המכחול הידניות שלך. אי אפשר לבטל אותה.",
+  "back": "This action will erase your handheld bluetooth calls.",
+  "sim": 0.22
+ },
+ {
+  "k": "resetConfirmCancel",
+  "en": "Cancel",
+  "tr": "ביטול",
+  "back": "Cancellation",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmConfirm",
+  "en": "Reset",
+  "tr": "איפוס",
+  "back": "I'm going to stop.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportTitle",
+  "en": "Export",
+  "tr": "ייצוא",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "exportQualityLabel",
+  "en": "Quality: {value}",
+  "tr": "איכות: {value}",
+  "back": "Quality: [value]",
+  "sim": 1.0
+ },
+ {
+  "k": "exportResizeLabel",
+  "en": "Resize",
+  "tr": "שינוי גודל",
+  "back": "Change of size",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeOriginal",
+  "en": "Original",
+  "tr": "מקורי",
+  "back": "The original.",
+  "sim": 0.67
+ },
+ {
+  "k": "exportResizeCustom",
+  "en": "Custom",
+  "tr": "מותאם",
+  "back": "Adapted",
+  "sim": 0.0
+ },
+ {
+  "k": "exportWidthLabel",
+  "en": "Width (px)",
+  "tr": "רוחב (px)",
+  "back": "Width (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportHeightLabel",
+  "en": "Height (px)",
+  "tr": "גובה (px)",
+  "back": "Height (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSaveToGallery",
+  "en": "Save to Gallery",
+  "tr": "שמירה בגלריה",
+  "back": "Keep it in the gallery.",
+  "sim": 0.25
+ },
+ {
+  "k": "exportShare",
+  "en": "Share",
+  "tr": "שיתוף",
+  "back": "Sharing",
+  "sim": 0.0
+ },
+ {
+  "k": "exportSuccess",
+  "en": "Exported!",
+  "tr": "יוצא בהצלחה!",
+  "back": "It's coming out!",
+  "sim": 0.0
+ },
+ {
+  "k": "exportFailed",
+  "en": "Export failed. Please try again.",
+  "tr": "הייצוא נכשל. אנא נסו שוב.",
+  "back": "Export failed, please try again.",
+  "sim": 1.0
+ },
+ {
+  "k": "exportInProgress",
+  "en": "Exporting…",
+  "tr": "מייצא…",
+  "back": "The exporters...",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTitle",
+  "en": "Settings",
+  "tr": "הגדרות",
+  "back": "The settings",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsTheme",
+  "en": "Theme",
+  "tr": "ערכת נושא",
+  "back": "Subject set",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLanguage",
+  "en": "Language",
+  "tr": "שפה",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "שחזור רכישות",
+  "back": "The return purchases",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsGoAdFree",
+  "en": "Go Ad-Free",
+  "tr": "הסרת פרסומות",
+  "back": "Removal of advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsPrivacyPolicy",
+  "en": "Privacy Policy",
+  "tr": "מדיניות פרטיות",
+  "back": "Privacy policy",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsSupport",
+  "en": "Support",
+  "tr": "תמיכה",
+  "back": "Support",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRateApp",
+  "en": "Rate App",
+  "tr": "דירוג האפליקציה",
+  "back": "Application rating",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsShareApp",
+  "en": "Share App",
+  "tr": "שיתוף האפליקציה",
+  "back": "Sharing the app",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsLicenses",
+  "en": "Open-source licenses",
+  "tr": "רישיונות קוד פתוח",
+  "back": "Open-source licenses",
+  "sim": 1.0
+ },
+ {
+  "k": "reminderChannelName",
+  "en": "Edit reminders",
+  "tr": "תזכורות עריכה",
+  "back": "Reminders of editing",
+  "sim": 0.4
+ },
+ {
+  "k": "reminderChannelDescription",
+  "en": "Reminders about edits you have not finished.",
+  "tr": "תזכורות לגבי עריכות שלא סיימתם.",
+  "back": "Reminds me of the unfinished scraps.",
+  "sim": 0.0
+ },
+ {
+  "k": "reminderTitle",
+  "en": "Your edit is waiting",
+  "tr": "העריכה שלך מחכה",
+  "back": "Your assessment is waiting.",
+  "sim": 0.75
+ },
+ {
+  "k": "reminderBody",
+  "en": "Pick up where you left off and export your photo.",
+  "tr": "המשיכו מהמקום שבו הפסקתם וייצאו את התמונה.",
+  "back": "Continue from where you left off and take the picture.",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsReminders",
+  "en": "Edit reminders",
+  "tr": "תזכורות עריכה",
+  "back": "Reminders of editing",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsAnimatedBackground",
+  "en": "Animated home background",
+  "tr": "רקע מונפש בבית",
+  "back": "Background in the home",
+  "sim": 0.29
+ },
+ {
+  "k": "settingsRemindersSubtitle",
+  "en": "Remind me about unfinished edits",
+  "tr": "להזכיר לי על עריכות שלא הסתיימו",
+  "back": "Remind me of a haircut that didn't end.",
+  "sim": 0.31
+ },
+ {
+  "k": "settingsRemindersBlocked",
+  "en": "Notifications are turned off for PhotoSur in your phone's settings.",
+  "tr": "ההתראות של PhotoSur כבויות בהגדרות הטלפון שלך.",
+  "back": "PhotoSur's alerts are off in your phone settings.",
+  "sim": 0.56
+ },
+ {
+  "k": "editorBrushHint",
+  "en": "Drag to paint. Pinch with two fingers to zoom.",
+  "tr": "גררו כדי לצייר. צבטו עם שתי אצבעות כדי לשנות זום.",
+  "back": "They dragged to paint, they punched with two fingers to change the zoom.",
+  "sim": 0.64
+ },
+ {
+  "k": "editorToolCutout",
+  "en": "Cut-out",
+  "tr": "חיתוך",
+  "back": "Cutting",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBrush",
+  "en": "Brush",
+  "tr": "מכחול",
+  "back": "From blue.",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBackground",
+  "en": "Background",
+  "tr": "רקע",
+  "back": "Background",
+  "sim": 1.0
+ },
+ {
+  "k": "editorToolLayout",
+  "en": "Layout",
+  "tr": "פריסה",
+  "back": "The departure.",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutAutoCenter",
+  "en": "Auto-center",
+  "tr": "מירכוז אוטומטי",
+  "back": "Automatic focusing",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutSizeLabel",
+  "en": "Size",
+  "tr": "גודל",
+  "back": "Size",
+  "sim": 1.0
+ },
+ {
+  "k": "layoutShadowLabel",
+  "en": "Shadow",
+  "tr": "צל",
+  "back": "A shadow.",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundPhoto",
+  "en": "Photo",
+  "tr": "תמונה",
+  "back": "This is a picture.",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundPhotoFailed",
+  "en": "Could not load that photo.",
+  "tr": "לא ניתן לטעון את התמונה.",
+  "back": "We can't charge the photo.",
+  "sim": 0.2
+ },
+ {
+  "k": "editorLayoutHint",
+  "en": "Drag to move. Pinch with two fingers to resize.",
+  "tr": "גררו כדי להזיז. צבטו עם שתי אצבעות כדי לשנות גודל.",
+  "back": "Pull to move, punch with two fingers to change size.",
+  "sim": 0.63
+ },
+ {
+  "k": "languageSystemDefault",
+  "en": "System default",
+  "tr": "ברירת מחדל של המערכת",
+  "back": "Selection of the problem of the system",
+  "sim": 0.22
+ },
+ {
+  "k": "languageSheetTitle",
+  "en": "Language",
+  "tr": "שפה",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "themeSheetTitle",
+  "en": "Theme",
+  "tr": "ערכת נושא",
+  "back": "Subject set",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionSystem",
+  "en": "System default",
+  "tr": "ברירת מחדל של המערכת",
+  "back": "Selection of the problem of the system",
+  "sim": 0.22
+ },
+ {
+  "k": "themeOptionLight",
+  "en": "Light",
+  "tr": "בהיר",
+  "back": "It's clear.",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionDark",
+  "en": "Dark",
+  "tr": "כהה",
+  "back": "It's dark.",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsLinkNotReady",
+  "en": "This link isn't set up yet.",
+  "tr": "הקישור הזה עדיין לא הוגדר.",
+  "back": "This link hasn't been set yet.",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsLinkOpenFailed",
+  "en": "Could not open link.",
+  "tr": "לא ניתן לפתוח את הקישור.",
+  "back": "We can't open the link.",
+  "sim": 0.44
+ },
+ {
+  "k": "settingsRestoreRequested",
+  "en": "Restore requested — check back in a moment.",
+  "tr": "בקשת השחזור נשלחה — בדקו שוב בעוד רגע.",
+  "back": "The return request has been sent. Check again in a minute.",
+  "sim": 0.33
+ },
+ {
+  "k": "settingsRestoreFailed",
+  "en": "Restore failed.",
+  "tr": "השחזור נכשל.",
+  "back": "The return failed.",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsShareFailed",
+  "en": "Could not share.",
+  "tr": "לא ניתן לשתף.",
+  "back": "We can't share.",
+  "sim": 0.33
+ },
+ {
+  "k": "settingsShareAppMessage",
+  "en": "Remove photo backgrounds instantly with PhotoSur — free, no watermark.",
+  "tr": "הסירו רקעים מתמונות באופן מיידי עם PhotoSur — בחינם וללא סימן מים.",
+  "back": "Remove backgrounds from images instantly with PhotoSur  free and without watermark.",
+  "sim": 0.7
+ },
+ {
+  "k": "paywallTitle",
+  "en": "Go Ad-Free",
+  "tr": "הסרת פרסומות",
+  "back": "Removal of advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallAlreadyAdFree",
+  "en": "You're already ad-free. Thank you!",
+  "tr": "כבר אין לך פרסומות. תודה!",
+  "back": "You don't have any ads anymore.",
+  "sim": 0.18
+ },
+ {
+  "k": "paywallPlanFreeTitle",
+  "en": "Free",
+  "tr": "חינם",
+  "back": "It's free.",
+  "sim": 0.67
+ },
+ {
+  "k": "paywallPlanAdFreeTitle",
+  "en": "Ad-Free",
+  "tr": "ללא פרסומות",
+  "back": "No advertising.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPlanAdFreePrice",
+  "en": "One-time purchase",
+  "tr": "רכישה חד-פעמית",
+  "back": "One-time purchase",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallFeatureAllFeatures",
+  "en": "All features",
+  "tr": "כל התכונות",
+  "back": "All the features",
+  "sim": 0.8
+ },
+ {
+  "k": "paywallFeatureAdSupported",
+  "en": "Ad-supported",
+  "tr": "נתמך בפרסומות",
+  "back": "Supported by advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureZeroAds",
+  "en": "Zero ads",
+  "tr": "אפס פרסומות",
+  "back": "No advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPurchaseButton",
+  "en": "Remove Ads",
+  "tr": "הסרת פרסומות",
+  "back": "Removal of advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPurchaseButtonPrice",
+  "en": "Remove Ads — {price}",
+  "tr": "הסרת פרסומות — {price}",
+  "back": "Removal of advertisements  [price]",
+  "sim": 0.29
+ },
+ {
+  "k": "paywallRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "שחזור רכישות",
+  "back": "The return purchases",
+  "sim": 0.4
+ },
+ {
+  "k": "paywallProductUnavailable",
+  "en": "Ad removal is not available right now.",
+  "tr": "הסרת הפרסומות אינה זמינה כרגע.",
+  "back": "Ad removal is not available at this time.",
+  "sim": 0.67
+ },
+ {
+  "k": "paywallPurchaseFailed",
+  "en": "Purchase failed.",
+  "tr": "הרכישה נכשלה.",
+  "back": "The purchase failed.",
+  "sim": 0.8
+ },
+ {
+  "k": "errorScreenTitle",
+  "en": "Something went wrong",
+  "tr": "משהו השתבש",
+  "back": "Something went wrong.",
+  "sim": 1.0
+ },
+ {
+  "k": "errorScreenBody",
+  "en": "Try again, or restart the app if this keeps happening.",
+  "tr": "נסו שוב, או הפעילו מחדש את האפליקציה אם הבעיה נמשכת.",
+  "back": "Try again, or restart the app if the problem persists.",
+  "sim": 0.7
+ },
+ {
+  "k": "errorScreenGoBack",
+  "en": "Go back",
+  "tr": "חזרה",
+  "back": "Back to the drawing board.",
+  "sim": 0.29
+ },
+ {
+  "k": "errorScreenReportEmail",
+  "en": "Report via {email}",
+  "tr": "דיווח אל {email}",
+  "back": "Report to [email]",
+  "sim": 0.67
+ },
+ {
+  "k": "unsupportedTitle",
+  "en": "Device Not Supported",
+  "tr": "המכשיר אינו נתמך",
+  "back": "The device is not supported.",
+  "sim": 0.75
+ },
+ {
+  "k": "unsupportedNoCameraMessage",
+  "en": "This device doesn't have a camera available.",
+  "tr": "אין מצלמה זמינה במכשיר זה.",
+  "back": "There's no camera available on this device.",
+  "sim": 0.29
+ },
+ {
+  "k": "unsupportedLowMemoryMessage",
+  "en": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
+  "tr": "אין במכשיר זה מספיק זיכרון להפעלה אמינה של העורך של PhotoSur.",
+  "back": "This device doesn't have enough memory to run the PhotoSur editor reliably.",
+  "sim": 0.87
+ },
+ {
+  "k": "unsupportedManualImportHint",
+  "en": "You can still import a photo from your gallery and use the manual brush tool.",
+  "tr": "עדיין אפשר לייבא תמונה מהגלריה ולהשתמש במכחול הידני.",
+  "back": "You can still bring in a photo from the gallery and use the handkerchief.",
+  "sim": 0.69
+ },
+ {
+  "k": "unsupportedUseGalleryButton",
+  "en": "Import from Gallery",
+  "tr": "ייבוא מהגלריה",
+  "back": "It's coming from the gallery.",
+  "sim": 0.5
+ },
+ {
+  "k": "homeBatchButton",
+  "en": "Batch",
+  "tr": "אצווה",
+  "back": "I will.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchTitle",
+  "en": "Batch cut-out",
+  "tr": "חיתוך אצווה",
+  "back": "I'm going to cut it.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchOutputTransparent",
+  "en": "Transparent PNG",
+  "tr": "PNG שקוף",
+  "back": "PNG is transparent",
+  "sim": 0.4
+ },
+ {
+  "k": "batchOutputWhite",
+  "en": "White background (JPG)",
+  "tr": "רקע לבן (JPG)",
+  "back": "White background (JPG)",
+  "sim": 1.0
+ },
+ {
+  "k": "batchStart",
+  "en": "Start",
+  "tr": "התחלה",
+  "back": "The beginning",
+  "sim": 0.0
+ },
+ {
+  "k": "batchStop",
+  "en": "Stop",
+  "tr": "עצירה",
+  "back": "Stop it!",
+  "sim": 0.67
+ },
+ {
+  "k": "batchDone",
+  "en": "Done",
+  "tr": "סיום",
+  "back": "Finished",
+  "sim": 0.0
+ },
+ {
+  "k": "batchProgress",
+  "en": "{done} of {total} done",
+  "tr": "{done} מתוך {total} הושלמו",
+  "back": "[done] out of [total] paid",
+  "sim": 0.67
+ },
+ {
+  "k": "batchSaved",
+  "en": "{count} saved to your gallery",
+  "tr": "{count} נשמרו בגלריה שלך",
+  "back": "[count] kept in your gallery",
+  "sim": 0.6
+ },
+ {
+  "k": "batchSomeFailed",
+  "en": "{count} could not be processed",
+  "tr": "לא ניתן היה לעבד {count}",
+  "back": "Couldn't have worked [count]",
+  "sim": 0.22
+ },
+ {
+  "k": "batchTooMany",
+  "en": "Up to {max} photos at a time",
+  "tr": "עד {max} תמונות בכל פעם",
+  "back": "Up to [max] pictures each time",
+  "sim": 0.62
+ },
+ {
+  "k": "backgroundAddCustom",
+  "en": "Add custom background",
+  "tr": "הוספת רקע מותאם אישית",
+  "back": "Adding a personalized background",
+  "sim": 0.29
+ },
+ {
+  "k": "backgroundCustomColor",
+  "en": "Custom color",
+  "tr": "צבע מותאם אישית",
+  "back": "Customized color",
+  "sim": 0.5
+ },
+ {
+  "k": "colorSaturation",
+  "en": "Saturation",
+  "tr": "רוויה",
+  "back": "It's rough.",
+  "sim": 0.0
+ },
+ {
+  "k": "colorBrightness",
+  "en": "Brightness",
+  "tr": "בהירות",
+  "back": "In clarity.",
+  "sim": 0.0
+ },
+ {
+  "k": "colorHexLabel",
+  "en": "Hex code",
+  "tr": "קוד Hex",
+  "back": "Hex code",
+  "sim": 1.0
+ },
+ {
+  "k": "colorPickerDone",
+  "en": "Done",
+  "tr": "סיום",
+  "back": "Finished",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceLabel",
+  "en": "Marketplace",
+  "tr": "שוק מקוון",
+  "back": "The online marketplace",
+  "sim": 0.5
+ },
+ {
+  "k": "exportMarketplaceSummary",
+  "en": "{width} × {height} px · {format}",
+  "tr": "{width} × {height} פיקסלים · {format}",
+  "back": "[width] × [height] pixels · [format]",
+  "sim": 0.75
+ },
+ {
+  "k": "exportMarketplaceWhiteFill",
+  "en": "Pure white background, product fills the frame",
+  "tr": "רקע לבן טהור, המוצר ממלא את הפריים",
+  "back": "Pure white background, the product fills in the blanks",
+  "sim": 0.75
+ },
+ {
+  "k": "exportMarketplaceSizeCap",
+  "en": "File kept under {size} MB",
+  "tr": "הקובץ קטן מ-{size} MB",
+  "back": "The file is smaller than [size] MB",
+  "sim": 0.5
+ },
+ {
+  "k": "editorToolTemplates",
+  "en": "Templates",
+  "tr": "תבניות",
+  "back": "Templates",
+  "sim": 1.0
+ },
+ {
+  "k": "templatesTitle",
+  "en": "Choose a template",
+  "tr": "בחירת תבנית",
+  "back": "Selecting a pattern",
+  "sim": 0.33
+ },
+ {
+  "k": "templatesStudio",
+  "en": "Studio",
+  "tr": "סטודיו",
+  "back": "The studio.",
+  "sim": 0.67
+ },
+ {
+  "k": "templatesColorBlock",
+  "en": "Color block",
+  "tr": "בלוקי צבע",
+  "back": "Colored blocks",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTextures",
+  "en": "Textures",
+  "tr": "מרקמים",
+  "back": "Weighing",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesLight",
+  "en": "Light & shadow",
+  "tr": "אור וצל",
+  "back": "Light and Shadow",
+  "sim": 0.8
+ },
+ {
+  "k": "templatesPatterns",
+  "en": "Gradients & patterns",
+  "tr": "מעברי צבע ודוגמאות",
+  "back": "Colour transfers and samples",
+  "sim": 0.0
+ },
+ {
+  "k": "hdGetAction",
+  "en": "Get HD cut-out",
+  "tr": "קבלת חיתוך HD",
+  "back": "Receiving HD cutting",
+  "sim": 0.33
+ },
+ {
+  "k": "hdRedoAction",
+  "en": "Redo cut-out in HD",
+  "tr": "חיתוך מחדש ב-HD",
+  "back": "Re-cutting in HD",
+  "sim": 0.57
+ },
+ {
+  "k": "hdDownloading",
+  "en": "HD cut-out in progress… {percent}%",
+  "tr": "חיתוך HD בתהליך… {percent}%",
+  "back": "Cutting HD in the process... [percent] %",
+  "sim": 0.55
+ },
+ {
+  "k": "hdDownloadingShort",
+  "en": "HD cut-out… {percent}%",
+  "tr": "חיתוך HD… {percent}%",
+  "back": "HD cutting... [percent] %",
+  "sim": 0.67
+ },
+ {
+  "k": "hdConfirmTitle",
+  "en": "Download HD cut-out model?",
+  "tr": "להוריד את מודל החיתוך HD?",
+  "back": "Download the HD cutting model?",
+  "sim": 0.67
+ },
+ {
+  "k": "hdConfirmBody",
+  "en": "Cleaner edges on tricky objects like shoes, bags and bottles. It downloads once, stays on your phone and then works offline. Mobile data charges may apply.",
+  "tr": "קצוות נקיים יותר באובייקטים מורכבים כמו נעליים, תיקים ובקבוקים. מורידים פעם אחת, נשמר בטלפון ואז עובד גם ללא חיבור. ייתכנו חיובי גלישה.",
+  "back": "The edges are cleaner in complex objects like shoes, bags, and bottles.",
+  "sim": 0.37
+ },
+ {
+  "k": "hdDownload",
+  "en": "Download",
+  "tr": "הורדה",
+  "back": "Take it off.",
+  "sim": 0.0
+ },
+ {
+  "k": "hdFailed",
+  "en": "HD cut-out didn’t finish. Check your connection and try again.",
+  "tr": "חיתוך HD לא הסתיים. בדקו את החיבור ונסו שוב.",
+  "back": "Check the connection and try again.",
+  "sim": 0.62
+ },
+ {
+  "k": "settingsHdTitle",
+  "en": "HD cut-out model",
+  "tr": "מודל חיתוך HD",
+  "back": "HD cutting model",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsHdNotInstalled",
+  "en": "Not downloaded",
+  "tr": "לא הורד",
+  "back": "It's not coming down.",
+  "sim": 0.33
+ },
+ {
+  "k": "settingsHdInstalled",
+  "en": "Installed · works offline",
+  "tr": "מותקן · עובד ללא חיבור",
+  "back": "Installed · Works without a connection",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsHdRemove",
+  "en": "Remove",
+  "tr": "הסרה",
+  "back": "Removed",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsReplayIntro",
+  "en": "Replay intro",
+  "tr": "הצגת ההקדמה שוב",
+  "back": "The introduction is back.",
+  "sim": 0.0
+ },
+ {
+  "k": "homeSeeAll",
+  "en": "See all",
+  "tr": "הצג הכול",
+  "back": "Show it all.",
+  "sim": 0.4
+ },
+ {
+  "k": "exportActionEdit",
+  "en": "Edit again",
+  "tr": "עריכה מחדש",
+  "back": "Re-edited",
+  "sim": 0.0
+ },
+ {
+  "k": "exportActionDelete",
+  "en": "Delete",
+  "tr": "מחיקה",
+  "back": "It's been cancelled.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMoreOptions",
+  "en": "More options",
+  "tr": "אפשרויות נוספות",
+  "back": "Other options",
+  "sim": 0.5
+ },
+ {
+  "k": "exportDeleteTitle",
+  "en": "Delete this export?",
+  "tr": "למחוק את הייצוא הזה?",
+  "back": "Cancel this export?",
+  "sim": 0.67
+ },
+ {
+  "k": "exportDeleteBody",
+  "en": "Exported images are removed from this phone. Your original photos and anything saved to your gallery are not affected.",
+  "tr": "תמונות שיוצאו יוסרו מהטלפון הזה. התמונות המקוריות שלך ומה ששמרת בגלריה לא יושפעו.",
+  "back": "Your original photos and what you kept in the gallery will be unaffected.",
+  "sim": 0.31
+ },
+ {
+  "k": "exportSavedToGallery",
+  "en": "Saved to your gallery",
+  "tr": "נשמר בגלריה",
+  "back": "We'll keep it in the gallery.",
+  "sim": 0.2
+ },
+ {
+  "k": "exportSaveFailed",
+  "en": "Could not save to the gallery.",
+  "tr": "לא ניתן לשמור בגלריה.",
+  "back": "We can't keep it in the gallery.",
+  "sim": 0.31
+ },
+ {
+  "k": "exportUnavailable",
+  "en": "Unavailable",
+  "tr": "לא זמין",
+  "back": "It's not available.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsGroupThisWeek",
+  "en": "This week",
+  "tr": "השבוע",
+  "back": "This week.",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsGroupEarlier",
+  "en": "Earlier",
+  "tr": "מוקדם יותר",
+  "back": "Sooner or later.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsStorageUsed",
+  "en": "{size} used on this phone",
+  "tr": "{size} בשימוש בטלפון הזה",
+  "back": "[size] Used on this phone",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsSelect",
+  "en": "Select",
+  "tr": "בחירה",
+  "back": "The Choice",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsDone",
+  "en": "Done",
+  "tr": "סיום",
+  "back": "Finished",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsSelectedCount",
+  "en": "{count} selected",
+  "tr": "{count} נבחרו",
+  "back": "[count] Selected",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDeleteSelectedTitle",
+  "en": "Delete {count} exports?",
+  "tr": "למחוק {count} ייצואים?",
+  "back": "Deleted [count] exemptions?",
+  "sim": 0.33
+ },
+ {
+  "k": "exportsDeleteAll",
+  "en": "Delete all exports",
+  "tr": "מחיקת כל הייצואים",
+  "back": "Deleting all releases",
+  "sim": 0.33
+ },
+ {
+  "k": "exportsDeleteAllTitle",
+  "en": "Delete all exports?",
+  "tr": "למחוק את כל הייצואים?",
+  "back": "Erase all releases?",
+  "sim": 0.33
+ },
+ {
+  "k": "helpTitle",
+  "en": "Help & how to use",
+  "tr": "עזרה והוראות שימוש",
+  "back": "Help and instructions for use",
+  "sim": 0.44
+ },
+ {
+  "k": "helpIntro",
+  "en": "Tap a topic to read how it works.",
+  "tr": "הקישו על נושא כדי לקרוא איך הוא עובד.",
+  "back": "Scroll through the subject to read how it works.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpStartTitle",
+  "en": "Getting started",
+  "tr": "תחילת העבודה",
+  "back": "Beginning of work",
+  "sim": 0.0
+ },
+ {
+  "k": "helpStart1",
+  "en": "On the home screen, tap Camera to take a photo or Gallery to pick one. Batch cuts out many photos at once.",
+  "tr": "במסך הבית הקישו על מצלמה כדי לצלם תמונה או על גלריה כדי לבחור תמונה. אצווה חותכת הרבה תמונות בבת אחת.",
+  "back": "On the home screen, click on a camera to take a picture or on a gallery to choose a picture.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpStart2",
+  "en": "Every photo opens in Crop & Rotate first, then in the editor. Your original photo is never changed.",
+  "tr": "כל תמונה נפתחת קודם ב-חיתוך וסיבוב ואז בעורך. התמונה המקורית שלך לעולם לא משתנה.",
+  "back": "Each image is opened first in cutting and rotating and then in editing.",
+  "sim": 0.2
+ },
+ {
+  "k": "helpStart3",
+  "en": "When you are happy, tap Export in the editor. Recent Exports on the home screen lists everything you have exported.",
+  "tr": "כשאתם מרוצים, הקישו על ייצוא בעורך. ייצואים אחרונים במסך הבית מציג כל מה שייצאתם.",
+  "back": "When you're satisfied, press for export in the editor.",
+  "sim": 0.34
+ },
+ {
+  "k": "helpCropTitle",
+  "en": "Crop & Rotate",
+  "tr": "חיתוך וסיבוב",
+  "back": "Cutting and spinning",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCrop1",
+  "en": "Turn the photo left or right in 90° steps, and drag the frame to choose the part you want to keep.",
+  "tr": "סובבו את התמונה שמאלה או ימינה בצעדים של 90° וגררו את המסגרת כדי לבחור את החלק שברצונכם לשמור.",
+  "back": "Turn the image left or right 90 degrees and drag the frame to select the part you want to save.",
+  "sim": 0.78
+ },
+ {
+  "k": "helpCrop2",
+  "en": "Free lets you shape the frame as you like. 1:1, 4:5 and 9:16 lock its shape. Tap Continue to open the editor.",
+  "tr": "חופשי מאפשר לך לתת למסגרת כל צורה שתרצו. 1:1, 4:5 ו-9:16 נועלים את צורתה. הקישו על המשך כדי לפתוח את העורך.",
+  "back": "1:1, 4:5 and 9:16 lock the frame. Press on to open the editor.",
+  "sim": 0.51
+ },
+ {
+  "k": "helpCutoutTitle",
+  "en": "Cut-out",
+  "tr": "חיתוך",
+  "back": "Cutting",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCutout1",
+  "en": "When the editor opens, PhotoSur finds the main subject and removes the background automatically, on your phone. No internet is needed.",
+  "tr": "כשהעורך נפתח, PhotoSur מאתר את הנושא הראשי ומסיר את הרקע אוטומטית, בטלפון שלך. אין צורך באינטרנט.",
+  "back": "When the editor opens, PhotoSur tracks the main subject and removes the background automatically on your phone.",
+  "sim": 0.84
+ },
+ {
+  "k": "helpCutout2",
+  "en": "Edge Smoothness softens the edge of the cut-out, from 0 to 20 pixels.",
+  "tr": "רכות קצוות מרככת את קצה החיתוך, מ-0 עד 20 פיקסלים.",
+  "back": "Soft edges tighten the cutting edge, from 0 to 20 pixels.",
+  "sim": 0.5
+ },
+ {
+  "k": "helpCutout3",
+  "en": "The eye button at the top shows your original photo so you can compare. Tap it again to go back. The brush is paused while the original is shown.",
+  "tr": "כפתור העין שבראש המסך מציג את התמונה המקורית להשוואה. הקישו עליו שוב כדי לחזור. המכחול מושהה כל עוד המקור מוצג.",
+  "back": "The eye button at the top of the screen displays the original image for comparison. Press it again to return. The blue is suspended as long as the source is displayed.",
+  "sim": 0.47
+ },
+ {
+  "k": "helpCutout4",
+  "en": "For difficult subjects such as glass, shoes, bags and bottles, tap Get HD cut-out. The HD model downloads once, stays on your phone and then works offline. Once it is installed, every new cut-out uses it automatically. To redo the photo you have open, tap Redo cut-out in HD.",
+  "tr": "לנושאים קשים, כמו זכוכית, נעליים, תיקים ובקבוקים, הקישו על קבלת חיתוך HD. מודל ה-HD יורד פעם אחת בלבד, נשאר בטלפון שלך ואז פועל ללא חיבור. לאחר ההתקנה כל חיתוך חדש משתמש בו אוטומטית. כדי לבצע שוב את התמונה הפתוחה, הקישו על חיתוך מחדש ב-HD.",
+  "back": "For difficult subjects, such as glass, shoes, bags and bottles, press on receiving an HD cut. The HD model is downloaded only once, stays on your phone and then runs offline. After installation each new cut uses it automatically.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpBrushTitle",
+  "en": "Brush",
+  "tr": "מכחול",
+  "back": "From blue.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBrush1",
+  "en": "Erase removes parts of the subject. Restore brings back parts the cut-out removed.",
+  "tr": "מחיקה מסירה חלקים מהנושא. שחזור מחזיר חלקים שהחיתוך הסיר.",
+  "back": "Removing removes parts from the subject, returning returns parts that cut the pot.",
+  "sim": 0.46
+ },
+ {
+  "k": "helpBrush2",
+  "en": "Drag one finger to paint. Use two fingers to zoom, up to 8 times, and to move the photo. The brush keeps its size on screen, so zooming in gives finer control.",
+  "tr": "גררו אצבע אחת כדי לצבוע. השתמשו בשתי אצבעות כדי להתקרב, עד פי 8, ולהזיז את התמונה. המכחול שומר על גודלו במסך, ולכן בהתקרבות אפשר לעבוד בדיוק רב יותר.",
+  "back": "Drag one finger to paint. Use two fingers to get close, up to eight times, and move the image. The blue one keeps its size on the screen, so you can get closer and more accurate.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpBrush3",
+  "en": "Brush Size goes from 1 to 50. Opacity sets how strongly each stroke applies.",
+  "tr": "גודל המכחול נע בין 1 ל-50. אטימות קובעת מה עוצמת כל משיחה.",
+  "back": "The size of the blade ranges from one to fifty.",
+  "sim": 0.25
+ },
+ {
+  "k": "helpBrush4",
+  "en": "Undo and Redo step through your brush strokes. Reset clears all brush strokes and goes back to the automatic cut-out; it asks you to confirm first.",
+  "tr": "ביטול וביצוע חוזר עוברים על משיחות המכחול שלך. איפוס מוחק את כל המשיחות וחוזר לחיתוך האוטומטי; תתבקשו קודם לאשר.",
+  "back": "Cancellation and re-enactment go through your bluesy calls. Stop all calls and go back to automatic cutting; you'll be asked to confirm first.",
+  "sim": 0.45
+ },
+ {
+  "k": "helpBackgroundTitle",
+  "en": "Background",
+  "tr": "רקע",
+  "back": "Background",
+  "sim": 1.0
+ },
+ {
+  "k": "helpBackground1",
+  "en": "Choose what goes behind your subject: transparent, white, black, a gradient, a colour, a blurred copy of your photo, or your own photo.",
+  "tr": "בחרו מה יהיה מאחורי הנושא: שקוף, לבן, שחור, מעבר צבע, צבע, עותק מטושטש של התמונה שלך או התמונה שלכם.",
+  "back": "Choose what will be behind the subject: transparent, white, black, color transition, color, blurred copy of your picture or your picture.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpBackground2",
+  "en": "Only one background is used at a time. Your latest choice replaces the earlier one.",
+  "tr": "נעשה שימוש ברקע אחד בלבד בכל פעם. הבחירה האחרונה שלך מחליפה את הקודמת.",
+  "back": "We only use one background at a time.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpBackground3",
+  "en": "Add custom background lets you pick a photo from your gallery. Custom color opens a colour picker. The Blur slider goes from 0 to 25.",
+  "tr": "הוספת רקע מותאם אישית מאפשרת לך לבחור תמונה מהגלריה. צבע מותאם אישית פותח בורר צבעים. המחוון טשטוש נע בין 0 ל-25.",
+  "back": "Adding a custom background allows you to choose a photo from the gallery. A custom color opens a color barrier. The dimming point ranges from 0 to 25.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpBackground4",
+  "en": "Transparent shows a checkerboard while you edit. Export as PNG to keep it transparent.",
+  "tr": "שקוף מציג דוגמת לוח שחמט בזמן העריכה. ייצאו כ-PNG כדי לשמור על השקיפות.",
+  "back": "Transparent is displaying a chessboard sample during the evaluation.",
+  "sim": 0.17
+ },
+ {
+  "k": "helpTemplatesTitle",
+  "en": "Templates",
+  "tr": "תבניות",
+  "back": "Templates",
+  "sim": 1.0
+ },
+ {
+  "k": "helpTemplates1",
+  "en": "Templates are ready-made backgrounds in five groups: Studio, Color block, Textures, Light & shadow, and Gradients & patterns. Five scenes are shown in the panel; tap the Templates button to see them all.",
+  "tr": "תבניות הן רקעים מוכנים בחמש קבוצות: סטודיו, בלוקי צבע, מרקמים, אור וצל ומעברי צבע ודוגמאות. חמש סצנות מופיעות בלוח; הקישו על כפתור תבניות כדי לראות את כולן.",
+  "back": "Patterns are ready-made backgrounds in five groups: studio, color blocks, textures, light and shadow and color streams and samples. Five scenes appear on a board; press the pattern button to see them all.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpTemplates2",
+  "en": "Choosing a template works like choosing your own photo as the background: it replaces your earlier background choice.",
+  "tr": "בחירת תבנית היא כמו בחירת התמונה שלך כרקע: היא מחליפה את בחירת הרקע הקודמת שלך.",
+  "back": "Choosing a pattern is like choosing your picture as a background: it replaces your previous background choice.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpLayoutTitle",
+  "en": "Layout",
+  "tr": "פריסה",
+  "back": "The departure.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpLayout1",
+  "en": "Drag the subject on the photo to move it. Pinch with two fingers to resize it.",
+  "tr": "גררו את הנושא על פני התמונה כדי להזיז אותו. צבטו בשתי אצבעות כדי לשנות את גודלו.",
+  "back": "Drag the subject over the image to move it, pinch it with two fingers to change its size.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpLayout2",
+  "en": "Choose Original, 1:1, 4:5 or 9:16 to set the shape of the final picture.",
+  "tr": "בחרו מקורי, 1:1, 4:5 או 9:16 כדי לקבוע את צורת התמונה הסופית.",
+  "back": "Choose the original 1:1, 4:5 or 9:16 to determine the shape of the final image.",
+  "sim": 0.83
+ },
+ {
+  "k": "helpLayout3",
+  "en": "Size sets how big the subject is, from 20% to 300%. Shadow sets how strong its shadow is. Auto-center puts the subject back in the middle. Reset undoes moving and resizing.",
+  "tr": "גודל קובע עד כמה הנושא גדול, מ-20% עד 300%. צל קובע עד כמה הצל שלו חזק. מירכוז אוטומטי מחזיר את הנושא למרכז. איפוס מבטל הזזות ושינויי גודל.",
+  "back": "Size determines how big the subject is, from 20% to 300%. A shadow determines how strong its shadow is. An automatic focus returns the subject to the center.",
+  "sim": 0.64
+ },
+ {
+  "k": "helpLayout4",
+  "en": "This shape is used when the export size is Original. If you choose a size preset or a marketplace in the export sheet, that decides the final shape instead.",
+  "tr": "צורה זו חלה כשגודל הייצוא הוא מקורי. אם תבחרו בגליון הייצוא גודל מוגדר מראש או שוק מקוון, הוא שיקבע את הצורה הסופית.",
+  "back": "If you choose a pre-defined size export sheet or an online marketplace, it will determine the final shape.",
+  "sim": 0.43
+ },
+ {
+  "k": "helpExportTitle",
+  "en": "Export",
+  "tr": "ייצוא",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "helpExport1",
+  "en": "Tap Export to open the export sheet. Nothing is applied until you tap Save to Gallery or Share, so you can change your choices as often as you like.",
+  "tr": "הקישו על ייצוא כדי לפתוח את גליון הייצוא. דבר אינו מוחל עד שתקיש על שמירה בגלריה או שיתוף, ולכן אפשר לשנות את הבחירות כמה פעמים שרוצים.",
+  "back": "Nothing is cancelled until you click on gallery preservation or sharing, so you can change the choices as many times as you want.",
+  "sim": 0.54
+ },
+ {
+  "k": "helpExport2",
+  "en": "PNG keeps transparency. JPG makes smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a small modern format; if your phone cannot make it, the file is saved as JPG. For JPG and WEBP, the Quality slider trades file size for detail.",
+  "tr": "PNG שומר על שקיפות. JPG נותן קבצים קטנים יותר אך אינו יכול להיות שקוף, ולכן רקע שקוף הופך ללבן. WEBP הוא פורמט מודרני וקומפקטי; אם הטלפון שלך לא יכול ליצור אותו, הקובץ נשמר כ-JPG. עבור JPG ו-WEBP המחוון איכות מאזן בין גודל הקובץ לפירוט.",
+  "back": "PNG maintains transparency. JPG gives smaller files but can't be transparent, so a transparent background becomes white. WEBP is a modern, compact format; if your phone can't create it, the file is saved as JPG. For JPG and WebP the quality is balanced between file size and detail.",
+  "sim": 0.8
+ },
+ {
+  "k": "helpExport3",
+  "en": "Original keeps your photo’s size, with the shape chosen in Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. Custom lets you type a width and height in pixels.",
+  "tr": "מקורי שומר על גודל התמונה שלך, בצורה שבחרת ב-פריסה. 1:1 הוא 1080 × 1080, 4:5 הוא 1080 × 1350 ו-9:16 הוא 1080 × 1920. מותאם מאפשר להזין רוחב וגובה בפיקסלים.",
+  "back": "The original keeps the size of your image, in the form you choose in the version. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920.",
+  "sim": 0.57
+ },
+ {
+  "k": "helpExport4",
+  "en": "Marketplace presets set size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG kept under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices, and choosing a format or size afterwards switches the marketplace off. Marketplace rules can change, so check your marketplace’s current requirements.",
+  "tr": "הגדרות מוכנות של שווקים מקוונים קובעות גודל, פורמט ואיכות: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG מתחת ל-1 MB ו-Shopify 2048 × 2048 PNG. בחירה באחד מהם מחליפה את בחירות הפורמט והגודל שלך; אם לאחר מכן תבחרו פורמט או גודל, השוק יבוטל. כללי השווקים עשויים להשתנות, ולכן בדקו את הדרישות העדכניות של השוק שלך.",
+  "back": "The ready-made settings of online marketplaces determine size, format, and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one of these replaces your format and size choices; if you later choose a format or size, the market will be cancelled.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpExport5",
+  "en": "Amazon also uses a pure white background with no shadow and fits the subject to fill most of the frame. Your background choice in the editor is not changed. The other marketplaces keep your background.",
+  "tr": "Amazon משתמש גם ברקע לבן טהור ללא צל ומכוונן את הנושא כך שימלא את רוב המסגרת. בחירת הרקע שלך בעורך אינה משתנה. שאר השווקים שומרים על הרקע שלך.",
+  "back": "Amazon also uses a pure white background with no shade and directs the subject so that it fills most of the frame. Your choice of editor background does not change. The rest of the markets keep your background.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpExport6",
+  "en": "Save to Gallery and Share both save the picture to your gallery and to Recent Exports. Share also opens your phone’s share menu. If saving to the gallery is not possible, the share menu opens instead. After exporting you return to the home screen.",
+  "tr": "שמירה בגלריה ו-שיתוף שניהם שומרים את התמונה בגלריה שלך וב-ייצואים אחרונים. שיתוף פותח גם את תפריט השיתוף של הטלפון. אם אי אפשר לשמור בגלריה, תפריט השיתוף נפתח במקום זאת. לאחר הייצוא אתם חוזרים למסך הבית.",
+  "back": "Gallery saving and sharing both keep the photo in your gallery and the latest releases. Sharing also opens the phone's sharing menu. If you can't keep the gallery, the sharing menu opens instead. After the export you go back to the home screen.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpExport7",
+  "en": "Unless you have removed ads, an ad can appear after an export, at most once every two minutes.",
+  "tr": "אם לא הסרתם את הפרסומות, ייתכן שתופיע מודעה לאחר ייצוא, לכל היותר פעם בשתי דקות.",
+  "back": "If you don't remove the ads, there may be an ad after the release, no more than once every two minutes.",
+  "sim": 0.46
+ },
+ {
+  "k": "helpBatchTitle",
+  "en": "Batch",
+  "tr": "אצווה",
+  "back": "I will.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBatch1",
+  "en": "Batch cuts out up to 30 photos in one go. Tap Batch on the home screen and pick your photos. The back button is turned off while a batch runs.",
+  "tr": "אצווה חותכת עד 30 תמונות בבת אחת. הקישו על אצווה במסך הבית ובחרו את התמונות. כפתור החזרה מושבת בזמן שאצווה רצה.",
+  "back": "I'll order you to cut up to 30 pictures at once. Click on the command on the home screen and select the pictures.",
+  "sim": 0.34
+ },
+ {
+  "k": "helpBatch2",
+  "en": "All photos in a batch share one setup: one background and one marketplace. You cannot choose differently for each photo.",
+  "tr": "כל התמונות באצווה חולקות הגדרה אחת: רקע אחד ושוק אחד. אי אפשר לבחור באופן שונה לכל תמונה.",
+  "back": "All the images in the command share the same definition: one background and one market. You can't choose each image differently.",
+  "sim": 0.49
+ },
+ {
+  "k": "helpBatch3",
+  "en": "Backgrounds work as in the editor: your own photo, a colour, a template, white, transparent, black, blur or a gradient. Only one applies, and your latest choice replaces the earlier one.",
+  "tr": "הרקעים פועלים כמו בעורך: התמונה שלך, צבע, תבנית, לבן, שקוף, שחור, מטושטש או מעבר צבע. רק אחד חל, והבחירה האחרונה שלך מחליפה את הקודמת.",
+  "back": "The backgrounds work like the editor: your picture, color, pattern, white, transparent, black, blurred or colored. Only one is pale, and your last choice replaces the previous one.",
+  "sim": 0.58
+ },
+ {
+  "k": "helpBatch4",
+  "en": "The file format is chosen for you. With a marketplace, the photos follow that marketplace’s size and format. Without one, a transparent background gives PNG and any other background gives JPG, at the original size.",
+  "tr": "פורמט הקובץ נבחר בשבילך. עם שוק, התמונות עוקבות אחר הגודל והפורמט שלו. בלי שוק, רקע שקוף נותן PNG וכל רקע אחר נותן JPG, בגודל המקורי.",
+  "back": "The file format is chosen for you. With a market, the images follow its size and format. Without a market, a transparent background gives PNG and every other background gives JPG, the original size.",
+  "sim": 0.81
+ },
+ {
+  "k": "helpBatch5",
+  "en": "Choosing Amazon switches the background to White; if you then choose another background, Amazon is switched off. eBay, Etsy and Shopify keep your background, but a JPG cannot be transparent, so it gets a white background.",
+  "tr": "בחירה ב-Amazon משנה את הרקע ללבן; אם לאחר מכן תבחרו רקע אחר, Amazon יבוטל. eBay, Etsy ו-Shopify שומרים על הרקע שלך, אבל JPG אינו יכול להיות שקוף ולכן הוא מקבל רקע לבן.",
+  "back": "Choosing Amazon changes the background to white; if you then choose another background, Amazon will cancel. eBay, Etsy and Shopify keep your background, but JPG can't be transparent so it gets a white background.",
+  "sim": 0.86
+ },
+ {
+  "k": "helpBatch6",
+  "en": "If the HD model is installed, every photo in the batch is cut out with it. The Get HD cut-out button next to Templates downloads it.",
+  "tr": "אם מודל ה-HD מותקן, כל תמונה באצווה נחתכת באמצעותו. הכפתור קבלת חיתוך HD שליד תבניות מוריד אותו.",
+  "back": "If the HD model is installed, every image in the command is cut using it.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpBatch7",
+  "en": "Each photo is saved to your gallery and to Recent Exports as soon as it finishes. Stop ends the batch after the current photo, and photos already finished stay saved. If a photo fails, the batch carries on and tells you how many could not be processed. Done takes you back to the home screen; it does not save anything.",
+  "tr": "כל תמונה נשמרת בגלריה שלך וב-ייצואים אחרונים ברגע שהיא מסתיימת. עצירה מסיימת את האצווה אחרי התמונה הנוכחית, ותמונות שכבר הסתיימו נשארות שמורות. אם תמונה נכשלת, האצווה ממשיכה ומספרת לך כמה לא עובדו. סיום מחזיר אותך למסך הבית; הוא לא שומר דבר.",
+  "back": "Every photo is saved in your gallery and last downloads as soon as it's finished. Stopping completes the command after the current photo, and pictures that are already finished remain saved. If a picture fails, the command continues and tells you how much it's not working. Finishing returns you to the home screen; it doesn't save anything.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpLibraryTitle",
+  "en": "Your exports",
+  "tr": "הייצואים שלך",
+  "back": "Your exits.",
+  "sim": 0.5
+ },
+ {
+  "k": "helpLibrary1",
+  "en": "Recent Exports on the home screen shows your latest exports. Tap See all for every export, grouped as Today, Yesterday, This week and Earlier.",
+  "tr": "ייצואים אחרונים במסך הבית מציג את הייצואים החדשים ביותר שלך. הקישו על הצג הכול כדי לראות את כולם, מקובצים ל-היום, אתמול, השבוע ומוקדם יותר.",
+  "back": "Click on the display to see all of them, filed for today, yesterday, this week and earlier.",
+  "sim": 0.54
+ },
+ {
+  "k": "helpLibrary2",
+  "en": "Tap an export to open it full screen. Swipe to move between exports and pinch to zoom. The bar at the bottom has Share, Save to Gallery, Edit again and Delete.",
+  "tr": "הקישו על ייצוא כדי לפתוח אותו במסך מלא. החלק כדי לעבור בין ייצואים וצבוט כדי להתקרב. הסרגל התחתון מציע שיתוף, שמירה בגלריה, עריכה מחדש ומחיקה.",
+  "back": "Click on the output to open it to the full screen, the part to switch between output and snap to get closer, the bottom bar offers sharing, gallery saving, re-editing and deletion.",
+  "sim": 0.41
+ },
+ {
+  "k": "helpLibrary3",
+  "en": "The three-dot button on a tile opens the same actions. Edit again opens the exported picture as a new photo, so earlier brush strokes are not restored.",
+  "tr": "כפתור שלוש הנקודות על תמונה ממוזערת פותח את אותן פעולות. עריכה מחדש פותחת את התמונה שיוצאה כתמונה חדשה, ולכן משיחות המכחול הקודמות אינן משוחזרות.",
+  "back": "Re-editing opens the resulting image as a new image, so previous blue calls are not repeated.",
+  "sim": 0.37
+ },
+ {
+  "k": "helpLibrary4",
+  "en": "Select lets you choose several exports to share together or delete. Delete all exports removes every export from this phone.",
+  "tr": "בחירה מאפשרת לך לבחור כמה ייצואים כדי לשתף או למחוק אותם יחד. מחיקת כל הייצואים מסירה את כל הייצואים מהטלפון הזה.",
+  "back": "Choosing allows you to choose a few outputs to share or delete together.",
+  "sim": 0.36
+ },
+ {
+  "k": "helpLibrary5",
+  "en": "Deleting removes exports from PhotoSur only. Pictures already saved to your gallery are not affected. The bottom of the See all screen shows how much space exports use on this phone.",
+  "tr": "מחיקה מסירה ייצואים מ-PhotoSur בלבד. תמונות ששמורות כבר בגלריה שלך אינן נפגעות. בתחתית הצג הכול אפשר לראות כמה מקום הייצואים תופסים בטלפון הזה.",
+  "back": "Remove ship exhibits from PhotoSur only. Photos that are already in your gallery are not damaged. At the bottom of the display you can see how much exhibition space this phone takes up.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpPrivacyTitle",
+  "en": "Privacy & ads",
+  "tr": "פרטיות ופרסומות",
+  "back": "Privacy and Advertising",
+  "sim": 0.4
+ },
+ {
+  "k": "helpPrivacy1",
+  "en": "Your photos are processed on your phone and are not uploaded. There is no account and no watermark.",
+  "tr": "התמונות שלך מעובדות בטלפון שלך ואינן מועלות. אין חשבון ואין סימן מים.",
+  "back": "Your photos are processed on your phone and not uploaded.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpPrivacy2",
+  "en": "PhotoSur is free with every feature included, supported by ads. A banner appears at the bottom of some screens, and an ad can appear after an export.",
+  "tr": "PhotoSur חינמית, עם כל התכונות, ונתמכת בפרסומות. באנר מופיע בתחתית חלק מהמסכים, וייתכן שתופיע מודעה לאחר ייצוא.",
+  "back": "PhotoSur is free, with all features, and ad-supported. A banner appears at the bottom of some of the displays, and an ad may appear after export.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpPrivacy3",
+  "en": "Go Ad-Free in Settings is a one-time purchase that removes the ads. It does not unlock anything else, because every feature is already free. Restore Purchases brings it back on a new phone.",
+  "tr": "הסרת פרסומות בהגדרות היא רכישה חד-פעמית שמסירה את המודעות. היא אינה פותחת שום דבר אחר, כי כל התכונות כבר חינמיות. שחזור רכישות מחזיר אותה בטלפון חדש.",
+  "back": "Removing ads in settings is a one-time purchase that removes the ads. It doesn't open anything else, because all the features are already free.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpSettingsTitle",
+  "en": "Settings",
+  "tr": "הגדרות",
+  "back": "The settings",
+  "sim": 0.67
+ },
+ {
+  "k": "helpSettings1",
+  "en": "Theme can follow your phone, or be Light or Dark. Language changes the language of the app. Both are also in the home screen header.",
+  "tr": "ערכת נושא יכולה לעקוב אחר הטלפון שלך, או להיות בהיר או כהה. שפה משנה את שפת האפליקציה. שניהם נמצאים גם בכותרת מסך הבית.",
+  "back": "A theme set can track your phone, or be light or dark. Language changes the language of the app. Both are also in the home screen header.",
+  "sim": 0.92
+ },
+ {
+  "k": "helpSettings2",
+  "en": "Edit reminders: if you leave the app with an unfinished edit, PhotoSur can remind you three hours later. Switch this off in Settings.",
+  "tr": "תזכורות עריכה: אם תצאו מהאפליקציה עם עריכה לא גמורה, PhotoSur עשויה להזכיר לך שלוש שעות לאחר מכן. כבו זאת בהגדרות.",
+  "back": "Editing reminders: If you leave the app with unfinished editing, PhotoSur may remind you three hours later.",
+  "sim": 0.7
+ },
+ {
+  "k": "helpSettings3",
+  "en": "HD cut-out model shows whether it is installed. Remove deletes it from your phone to free space; you can download it again at any time.",
+  "tr": "מודל חיתוך HD מראה אם הוא מותקן. הסרה מוחקת אותו מהטלפון כדי לפנות מקום; אפשר להוריד אותו שוב בכל עת.",
+  "back": "An HD cutting model shows if it's installed. Remove deletes it from the phone to make room; you can download it again at any time.",
+  "sim": 0.72
+ },
+ {
+  "k": "helpSettings4",
+  "en": "Replay intro shows the welcome screens again. Support opens the support page. Animated home background turns the moving picture at the top of the home screen on or off.",
+  "tr": "הצגת ההקדמה שוב מציגה שוב את מסכי הפתיחה. תמיכה פותחת את דף התמיכה. רקע מונפש בבית מדליק או מכבה את התמונה הנעה בראש מסך הבית.",
+  "back": "The introductory presentation again displays the opening screens again. Support opens the support page. A breathing background at home turns on or off the moving image at the top of the home screen.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpFixTitle",
+  "en": "If something goes wrong",
+  "tr": "אם משהו משתבש",
+  "back": "If something goes wrong,",
+  "sim": 1.0
+ },
+ {
+  "k": "helpFix1",
+  "en": "If the automatic cut-out cannot run on a very old or low-memory phone, the brush still works, so you can finish the picture by hand.",
+  "tr": "אם החיתוך האוטומטי לא יכול לרוץ בטלפון ישן מאוד או דל בזיכרון, המכחול עדיין עובד, כך שאפשר לסיים את התמונה ידנית.",
+  "back": "If the automatic cutting can't run on a very old phone or memory is poor, the blade still works, so you can finish the manual image.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpFix2",
+  "en": "If the HD download stops, check your connection and try again. It continues where it left off.",
+  "tr": "אם הורדת ה-HD נעצרה, בדקו את החיבור ונסו שוב. היא ממשיכה מהמקום שבו נעצרה.",
+  "back": "If the HD download has stopped, check the connection and try again.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpFix3",
+  "en": "For anything else, open Support from Settings.",
+  "tr": "לכל דבר אחר, פתחו תמיכה מההגדרות.",
+  "back": "For anything else, open support from the settings.",
+  "sim": 0.93
+ }
+]

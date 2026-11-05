@@ -1,0 +1,1780 @@
+[
+ {
+  "k": "onboardingPage1Title",
+  "en": "Remove backgrounds instantly. All features free.",
+  "tr": "Arka planları anında kaldırın. Tüm özellikler ücretsiz.",
+  "back": "Remove the background plans immediately, all features are free.",
+  "sim": 0.53
+ },
+ {
+  "k": "onboardingPage1Body",
+  "en": "Open a photo and our on-device AI removes the background automatically — no internet required. You can also swap in your own custom background.",
+  "tr": "Bir fotoğraf açın, cihazdaki yapay zekâmız arka planı otomatik olarak kaldırsın — internet gerekmez. İsterseniz kendi özel arka planınızı da kullanabilirsiniz.",
+  "back": "Open a photo, our AI on the device will automatically remove the background  no internet required. You can also use your own private background if you want.",
+  "sim": 0.64
+ },
+ {
+  "k": "onboardingPage2Title",
+  "en": "Fine-tune with the brush",
+  "tr": "Fırçayla ince ayar yapın",
+  "back": "Finish with the brush",
+  "sim": 0.75
+ },
+ {
+  "k": "onboardingPage2Body",
+  "en": "Paint away what the AI missed or restore what you want to keep. Then crop, rotate, move and resize.",
+  "tr": "Yapay zekânın kaçırdığını fırçayla silin ya da korumak istediğiniz yerleri geri getirin. Sonra kırpın, döndürün, taşıyın ve yeniden boyutlandırın.",
+  "back": "Brush what the AI has taken away, or bring it back where you want to protect it, and then crush, spin, move, and resize.",
+  "sim": 0.51
+ },
+ {
+  "k": "onboardingPage3Title",
+  "en": "Studio-ready backgrounds",
+  "tr": "Stüdyo kalitesinde arka planlar",
+  "back": "Backgrounds in studio quality",
+  "sim": 0.33
+ },
+ {
+  "k": "onboardingPage3Body",
+  "en": "Choose a colour, gradient, template or your own photo, with a natural shadow. Marketplace presets for Amazon, eBay, Etsy and Shopify set size and format for you.",
+  "tr": "Bir renk, gradyan, şablon veya kendi fotoğrafınızı seçin, doğal bir gölgeyle. Amazon, eBay, Etsy ve Shopify hazır ayarları boyutu ve biçimi sizin için belirler.",
+  "back": "Choose a color, gradient, template, or your own photo, with a natural shade.",
+  "sim": 0.55
+ },
+ {
+  "k": "onboardingPage4Title",
+  "en": "Batch it, export it, keep it private",
+  "tr": "Toplu işlem, istediğiniz biçim, tamamen gizli",
+  "back": "The collective operation, the format you want, is completely classified.",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingPage4Body",
+  "en": "Cut out up to 30 photos at once and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "tr": "Tek seferde en fazla 30 fotoğrafın arka planını kaldırın ve PNG, JPG veya WEBP olarak dışa aktarın. Fotoğraflarınız telefonunuzdan asla çıkmaz. 43 dilde kullanılabilir.",
+  "back": "Remove the background of up to 30 photos at a time and export them as PNG, JPG or WEBP. Your photos will never come out of your phone.",
+  "sim": 0.64
+ },
+ {
+  "k": "onboardingNext",
+  "en": "Next",
+  "tr": "İleri",
+  "back": "Forward",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingGetStarted",
+  "en": "Get Started",
+  "tr": "Başla",
+  "back": "Get started .",
+  "sim": 1.0
+ },
+ {
+  "k": "homeCameraButton",
+  "en": "Camera",
+  "tr": "Kamera",
+  "back": "The camera",
+  "sim": 0.67
+ },
+ {
+  "k": "homeGalleryButton",
+  "en": "Gallery",
+  "tr": "Galeri",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "dateToday",
+  "en": "Today",
+  "tr": "Bugün",
+  "back": "Today",
+  "sim": 1.0
+ },
+ {
+  "k": "dateYesterday",
+  "en": "Yesterday",
+  "tr": "Dün",
+  "back": "Yesterday",
+  "sim": 1.0
+ },
+ {
+  "k": "homeRecentExports",
+  "en": "Recent Exports",
+  "tr": "Son Dışa Aktarmalar",
+  "back": "External exports",
+  "sim": 0.5
+ },
+ {
+  "k": "homeEmptyStateMessage",
+  "en": "Tap Camera or Gallery to start.",
+  "tr": "Başlamak için Kamera veya Galeri'ye dokunun.",
+  "back": "Touch Camera or Gallery to get started.",
+  "sim": 0.62
+ },
+ {
+  "k": "homeExportUnavailable",
+  "en": "This export is no longer available.",
+  "tr": "Bu dışa aktarma artık mevcut değil.",
+  "back": "This export is no longer available.",
+  "sim": 1.0
+ },
+ {
+  "k": "homeShareFailed",
+  "en": "Could not share this export.",
+  "tr": "Bu dışa aktarma paylaşılamadı.",
+  "back": "This export was not shared.",
+  "sim": 0.4
+ },
+ {
+  "k": "homeGalleryOpenFailed",
+  "en": "Could not open gallery.",
+  "tr": "Galeri açılamadı.",
+  "back": "The gallery couldn't open.",
+  "sim": 0.25
+ },
+ {
+  "k": "cameraTitle",
+  "en": "Camera",
+  "tr": "Kamera",
+  "back": "The camera",
+  "sim": 0.67
+ },
+ {
+  "k": "cameraPermissionDenied",
+  "en": "Camera access is needed to take a photo. Please allow access.",
+  "tr": "Fotoğraf çekmek için kamera erişimi gerekiyor. Lütfen erişime izin verin.",
+  "back": "I need camera access to take pictures.",
+  "sim": 0.44
+ },
+ {
+  "k": "cameraPermissionPermanentlyDenied",
+  "en": "Camera access was denied. Enable it in Settings to continue.",
+  "tr": "Kamera erişimi reddedildi. Devam etmek için Ayarlar'dan etkinleştirin.",
+  "back": "Camera access has been denied.",
+  "sim": 0.4
+ },
+ {
+  "k": "cameraPermissionRestricted",
+  "en": "Camera access is restricted on this device.",
+  "tr": "Bu cihazda kamera erişimi kısıtlı.",
+  "back": "This device has limited camera access.",
+  "sim": 0.31
+ },
+ {
+  "k": "cameraNoCameraFound",
+  "en": "No camera found on this device.",
+  "tr": "Bu cihazda kamera bulunamadı.",
+  "back": "There was no camera on this device.",
+  "sim": 0.77
+ },
+ {
+  "k": "cameraStartFailed",
+  "en": "Could not start the camera.",
+  "tr": "Kamera başlatılamadı.",
+  "back": "The camera couldn't start.",
+  "sim": 0.44
+ },
+ {
+  "k": "cameraCaptureFailed",
+  "en": "Could not capture photo.",
+  "tr": "Fotoğraf çekilemedi.",
+  "back": "He couldn't take a picture.",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraOpenSettings",
+  "en": "Open Settings",
+  "tr": "Ayarlar'ı Aç",
+  "back": "Open the settings",
+  "sim": 0.8
+ },
+ {
+  "k": "cameraFlashTooltip",
+  "en": "Flash",
+  "tr": "Flaş",
+  "back": "Flash",
+  "sim": 1.0
+ },
+ {
+  "k": "cameraGalleryTooltip",
+  "en": "Gallery",
+  "tr": "Galeri",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "cropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Kırp ve Döndür",
+  "back": "Curve and turn",
+  "sim": 0.0
+ },
+ {
+  "k": "cropLoadFailed",
+  "en": "Could not load the image.",
+  "tr": "Görsel yüklenemedi.",
+  "back": "It couldn't be loaded visually.",
+  "sim": 0.0
+ },
+ {
+  "k": "cropRotateFailed",
+  "en": "Could not rotate the image.",
+  "tr": "Görsel döndürülemedi.",
+  "back": "It's not visual.",
+  "sim": 0.25
+ },
+ {
+  "k": "cropFailed",
+  "en": "Crop failed.",
+  "tr": "Kırpma başarısız oldu.",
+  "back": "The crack failed.",
+  "sim": 0.4
+ },
+ {
+  "k": "cropSaveFailed",
+  "en": "Could not save the cropped image.",
+  "tr": "Kırpılan görsel kaydedilemedi.",
+  "back": "There's no visual recording of the crash.",
+  "sim": 0.15
+ },
+ {
+  "k": "cropAspectFree",
+  "en": "Free",
+  "tr": "Serbest",
+  "back": "It 's free .",
+  "sim": 0.5
+ },
+ {
+  "k": "cropContinue",
+  "en": "Continue",
+  "tr": "Devam",
+  "back": "Going on",
+  "sim": 0.0
+ },
+ {
+  "k": "editorSegmentationFailedMessage",
+  "en": "Your device doesn't support automatic background removal. Use the manual brush below.",
+  "tr": "Cihazınız otomatik arka plan kaldırmayı desteklemiyor. Aşağıdaki manuel fırçayı kullanın.",
+  "back": "Your device does not support automatic background removal.",
+  "sim": 0.6
+ },
+ {
+  "k": "brushErase",
+  "en": "Erase",
+  "tr": "Sil",
+  "back": "Deleted",
+  "sim": 0.0
+ },
+ {
+  "k": "brushRestore",
+  "en": "Restore",
+  "tr": "Geri Yükle",
+  "back": "Load it back",
+  "sim": 0.0
+ },
+ {
+  "k": "brushSizeLabel",
+  "en": "Brush Size",
+  "tr": "Fırça Boyutu",
+  "back": "Brush size",
+  "sim": 1.0
+ },
+ {
+  "k": "brushOpacityLabel",
+  "en": "Opacity",
+  "tr": "Opaklık",
+  "back": "It 's dirty .",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundWhite",
+  "en": "White",
+  "tr": "Beyaz",
+  "back": "It 's white .",
+  "sim": 0.5
+ },
+ {
+  "k": "backgroundTransparent",
+  "en": "Transparent",
+  "tr": "Saydam",
+  "back": "Saydam",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundBlack",
+  "en": "Black",
+  "tr": "Siyah",
+  "back": "It 's black .",
+  "sim": 0.5
+ },
+ {
+  "k": "backgroundBlurLabel",
+  "en": "Blur",
+  "tr": "Bulanıklık",
+  "back": "It 's blurry .",
+  "sim": 0.0
+ },
+ {
+  "k": "edgeFeatherLabel",
+  "en": "Edge Smoothness",
+  "tr": "Kenar Yumuşaklığı",
+  "back": "Edge softness",
+  "sim": 0.5
+ },
+ {
+  "k": "toolbarUndo",
+  "en": "Undo",
+  "tr": "Geri Al",
+  "back": "Take it back",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarRedo",
+  "en": "Redo",
+  "tr": "Yinele",
+  "back": "I 'm going to eat .",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarReset",
+  "en": "Reset",
+  "tr": "Sıfırla",
+  "back": "Zero it",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarExport",
+  "en": "Export",
+  "tr": "Dışa Aktar",
+  "back": "Exporting",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmTitle",
+  "en": "Reset edits?",
+  "tr": "Düzenlemeler sıfırlansın mı?",
+  "back": "Do you want to reset the adjustments?",
+  "sim": 0.22
+ },
+ {
+  "k": "resetConfirmBody",
+  "en": "This clears your manual brush strokes. This cannot be undone.",
+  "tr": "Bu işlem manuel fırça darbelerinizi siler. Geri alınamaz.",
+  "back": "This process will erase your manual brush strokes.",
+  "sim": 0.56
+ },
+ {
+  "k": "resetConfirmCancel",
+  "en": "Cancel",
+  "tr": "İptal",
+  "back": "Cancelled",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmConfirm",
+  "en": "Reset",
+  "tr": "Sıfırla",
+  "back": "Zero it",
+  "sim": 0.0
+ },
+ {
+  "k": "exportTitle",
+  "en": "Export",
+  "tr": "Dışa Aktar",
+  "back": "Exporting",
+  "sim": 0.0
+ },
+ {
+  "k": "exportQualityLabel",
+  "en": "Quality: {value}",
+  "tr": "Kalite: {value}",
+  "back": "Quality: [value]",
+  "sim": 1.0
+ },
+ {
+  "k": "exportResizeLabel",
+  "en": "Resize",
+  "tr": "Yeniden Boyutlandır",
+  "back": "Reset the size",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeOriginal",
+  "en": "Original",
+  "tr": "Orijinal",
+  "back": "It 's original .",
+  "sim": 0.5
+ },
+ {
+  "k": "exportResizeCustom",
+  "en": "Custom",
+  "tr": "Özel",
+  "back": "Specific",
+  "sim": 0.0
+ },
+ {
+  "k": "exportWidthLabel",
+  "en": "Width (px)",
+  "tr": "Genişlik (px)",
+  "back": "Width (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportHeightLabel",
+  "en": "Height (px)",
+  "tr": "Yükseklik (px)",
+  "back": "Height (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSaveToGallery",
+  "en": "Save to Gallery",
+  "tr": "Galeriye Kaydet",
+  "back": "Save to the gallery",
+  "sim": 0.86
+ },
+ {
+  "k": "exportShare",
+  "en": "Share",
+  "tr": "Paylaş",
+  "back": "Share",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSuccess",
+  "en": "Exported!",
+  "tr": "Dışa aktarıldı!",
+  "back": "It's been shipped out!",
+  "sim": 0.0
+ },
+ {
+  "k": "exportFailed",
+  "en": "Export failed. Please try again.",
+  "tr": "Dışa aktarma başarısız. Lütfen tekrar deneyin.",
+  "back": "Export failed, please try again.",
+  "sim": 1.0
+ },
+ {
+  "k": "exportInProgress",
+  "en": "Exporting…",
+  "tr": "Dışa aktarılıyor…",
+  "back": "It's being exported...",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTitle",
+  "en": "Settings",
+  "tr": "Ayarlar",
+  "back": "Settings",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsTheme",
+  "en": "Theme",
+  "tr": "Tema",
+  "back": "The theme",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsLanguage",
+  "en": "Language",
+  "tr": "Dil",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Satın Alımları Geri Yükle",
+  "back": "Load the purchases back",
+  "sim": 0.33
+ },
+ {
+  "k": "settingsGoAdFree",
+  "en": "Go Ad-Free",
+  "tr": "Reklamları Kaldır",
+  "back": "Remove the ads",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsPrivacyPolicy",
+  "en": "Privacy Policy",
+  "tr": "Gizlilik Politikası",
+  "back": "Privacy policy",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsSupport",
+  "en": "Support",
+  "tr": "Destek",
+  "back": "Support",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRateApp",
+  "en": "Rate App",
+  "tr": "Uygulamayı Puanla",
+  "back": "Score the app",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsShareApp",
+  "en": "Share App",
+  "tr": "Uygulamayı Paylaş",
+  "back": "Share the app",
+  "sim": 0.8
+ },
+ {
+  "k": "settingsLicenses",
+  "en": "Open-source licenses",
+  "tr": "Açık kaynak lisansları",
+  "back": "Open source licenses",
+  "sim": 0.4
+ },
+ {
+  "k": "reminderChannelName",
+  "en": "Edit reminders",
+  "tr": "Düzenleme hatırlatıcıları",
+  "back": "Reminders to edit",
+  "sim": 0.4
+ },
+ {
+  "k": "reminderChannelDescription",
+  "en": "Reminders about edits you have not finished.",
+  "tr": "Bitirmediğiniz düzenlemelerle ilgili hatırlatıcılar.",
+  "back": "Reminders of the arrangements you didn't finish.",
+  "sim": 0.29
+ },
+ {
+  "k": "reminderTitle",
+  "en": "Your edit is waiting",
+  "tr": "Düzenlemeniz sizi bekliyor",
+  "back": "Your editing is waiting for you",
+  "sim": 0.6
+ },
+ {
+  "k": "reminderBody",
+  "en": "Pick up where you left off and export your photo.",
+  "tr": "Kaldığınız yerden devam edin ve fotoğrafınızı dışa aktarın.",
+  "back": "Continue from where you left off and export your photo.",
+  "sim": 0.8
+ },
+ {
+  "k": "settingsReminders",
+  "en": "Edit reminders",
+  "tr": "Düzenleme hatırlatıcıları",
+  "back": "Reminders to edit",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsAnimatedBackground",
+  "en": "Animated home background",
+  "tr": "Hareketli ana ekran arka planı",
+  "back": "Moving main screen background",
+  "sim": 0.29
+ },
+ {
+  "k": "settingsRemindersSubtitle",
+  "en": "Remind me about unfinished edits",
+  "tr": "Bitmemiş düzenlemeleri hatırlat",
+  "back": "Reminds of unfinished edits",
+  "sim": 0.44
+ },
+ {
+  "k": "settingsRemindersBlocked",
+  "en": "Notifications are turned off for PhotoSur in your phone's settings.",
+  "tr": "PhotoSur bildirimleri telefonunuzun ayarlarında kapalı.",
+  "back": "PhotoSur notifications are turned off in your phone settings.",
+  "sim": 0.74
+ },
+ {
+  "k": "editorBrushHint",
+  "en": "Drag to paint. Pinch with two fingers to zoom.",
+  "tr": "Boyamak için sürükleyin. Yakınlaştırmak için iki parmakla sıkıştırın.",
+  "back": "Drag it to paint, squeeze it with two fingers to bring it closer.",
+  "sim": 0.64
+ },
+ {
+  "k": "editorToolCutout",
+  "en": "Cut-out",
+  "tr": "Kesim",
+  "back": "Cut it out .",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBrush",
+  "en": "Brush",
+  "tr": "Fırça",
+  "back": "Brush",
+  "sim": 1.0
+ },
+ {
+  "k": "editorToolBackground",
+  "en": "Background",
+  "tr": "Arka Plan",
+  "back": "Background",
+  "sim": 1.0
+ },
+ {
+  "k": "editorToolLayout",
+  "en": "Layout",
+  "tr": "Düzen",
+  "back": "The order",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutAutoCenter",
+  "en": "Auto-center",
+  "tr": "Otomatik ortala",
+  "back": "Automatically in the middle",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutSizeLabel",
+  "en": "Size",
+  "tr": "Boyut",
+  "back": "Size",
+  "sim": 1.0
+ },
+ {
+  "k": "layoutShadowLabel",
+  "en": "Shadow",
+  "tr": "Gölge",
+  "back": "Shadow",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundPhoto",
+  "en": "Photo",
+  "tr": "Fotoğraf",
+  "back": "It 's a photo .",
+  "sim": 0.4
+ },
+ {
+  "k": "backgroundPhotoFailed",
+  "en": "Could not load that photo.",
+  "tr": "Bu fotoğraf yüklenemedi.",
+  "back": "This photo couldn't be uploaded.",
+  "sim": 0.2
+ },
+ {
+  "k": "editorLayoutHint",
+  "en": "Drag to move. Pinch with two fingers to resize.",
+  "tr": "Taşımak için sürükleyin. Boyutlandırmak için iki parmakla sıkıştırın.",
+  "back": "Drag to move, squeeze with two fingers to dimension.",
+  "sim": 0.78
+ },
+ {
+  "k": "languageSystemDefault",
+  "en": "System default",
+  "tr": "Sistem varsayılanı",
+  "back": "The default system",
+  "sim": 0.4
+ },
+ {
+  "k": "languageSheetTitle",
+  "en": "Language",
+  "tr": "Dil",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "themeSheetTitle",
+  "en": "Theme",
+  "tr": "Tema",
+  "back": "The theme",
+  "sim": 0.67
+ },
+ {
+  "k": "themeOptionSystem",
+  "en": "System default",
+  "tr": "Sistem varsayılanı",
+  "back": "The default system",
+  "sim": 0.4
+ },
+ {
+  "k": "themeOptionLight",
+  "en": "Light",
+  "tr": "Açık",
+  "back": "It 's open .",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionDark",
+  "en": "Dark",
+  "tr": "Koyu",
+  "back": "It 's dark .",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsLinkNotReady",
+  "en": "This link isn't set up yet.",
+  "tr": "Bu bağlantı henüz ayarlanmadı.",
+  "back": "This connection hasn't been set up yet.",
+  "sim": 0.62
+ },
+ {
+  "k": "settingsLinkOpenFailed",
+  "en": "Could not open link.",
+  "tr": "Bağlantı açılamadı.",
+  "back": "Couldn't make the connection.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsRestoreRequested",
+  "en": "Restore requested — check back in a moment.",
+  "tr": "Geri yükleme istendi — birazdan tekrar kontrol edin.",
+  "back": "Restore requested  check again in a minute.",
+  "sim": 0.71
+ },
+ {
+  "k": "settingsRestoreFailed",
+  "en": "Restore failed.",
+  "tr": "Geri yükleme başarısız.",
+  "back": "The recovery failed.",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsShareFailed",
+  "en": "Could not share.",
+  "tr": "Paylaşılamadı.",
+  "back": "It wasn't shared.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsShareAppMessage",
+  "en": "Remove photo backgrounds instantly with PhotoSur — free, no watermark.",
+  "tr": "PhotoSur ile fotoğraf arka planlarını anında kaldırın — ücretsiz, filigransız.",
+  "back": "Remove your photo backgrounds instantly with PhotoSur  free, wireless.",
+  "sim": 0.78
+ },
+ {
+  "k": "paywallTitle",
+  "en": "Go Ad-Free",
+  "tr": "Reklamları Kaldır",
+  "back": "Remove the ads",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallAlreadyAdFree",
+  "en": "You're already ad-free. Thank you!",
+  "tr": "Zaten reklamsızsınız. Teşekkürler!",
+  "back": "You're not advertised anyway.",
+  "sim": 0.22
+ },
+ {
+  "k": "paywallPlanFreeTitle",
+  "en": "Free",
+  "tr": "Ücretsiz",
+  "back": "It 's free .",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPlanAdFreeTitle",
+  "en": "Ad-Free",
+  "tr": "Reklamsız",
+  "back": "Not advertised",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPlanAdFreePrice",
+  "en": "One-time purchase",
+  "tr": "Tek seferlik satın alım",
+  "back": "A one-time purchase",
+  "sim": 0.8
+ },
+ {
+  "k": "paywallFeatureAllFeatures",
+  "en": "All features",
+  "tr": "Tüm özellikler",
+  "back": "All features",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallFeatureAdSupported",
+  "en": "Ad-supported",
+  "tr": "Reklam destekli",
+  "back": "Advertising supported",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureZeroAds",
+  "en": "Zero ads",
+  "tr": "Sıfır reklam",
+  "back": "Zero advertising",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPurchaseButton",
+  "en": "Remove Ads",
+  "tr": "Reklamları Kaldır",
+  "back": "Remove the ads",
+  "sim": 0.8
+ },
+ {
+  "k": "paywallPurchaseButtonPrice",
+  "en": "Remove Ads — {price}",
+  "tr": "Reklamları Kaldır — {price}",
+  "back": "Remove the ads  [price]",
+  "sim": 0.86
+ },
+ {
+  "k": "paywallRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Satın Alımları Geri Yükle",
+  "back": "Load the purchases back",
+  "sim": 0.33
+ },
+ {
+  "k": "paywallProductUnavailable",
+  "en": "Ad removal is not available right now.",
+  "tr": "Reklam kaldırma şu anda kullanılamıyor.",
+  "back": "Advertising is not available at this time.",
+  "sim": 0.43
+ },
+ {
+  "k": "paywallPurchaseFailed",
+  "en": "Purchase failed.",
+  "tr": "Satın alım başarısız.",
+  "back": "The purchase failed.",
+  "sim": 0.8
+ },
+ {
+  "k": "errorScreenTitle",
+  "en": "Something went wrong",
+  "tr": "Bir şeyler ters gitti",
+  "back": "Something went wrong.",
+  "sim": 1.0
+ },
+ {
+  "k": "errorScreenBody",
+  "en": "Try again, or restart the app if this keeps happening.",
+  "tr": "Tekrar deneyin veya sorun devam ederse uygulamayı yeniden başlatın.",
+  "back": "Try again or restart the application if the problem persists.",
+  "sim": 0.6
+ },
+ {
+  "k": "errorScreenGoBack",
+  "en": "Go back",
+  "tr": "Geri dön",
+  "back": "Going back",
+  "sim": 0.5
+ },
+ {
+  "k": "errorScreenReportEmail",
+  "en": "Report via {email}",
+  "tr": "{email} adresine bildir",
+  "back": "Let me know at [email]",
+  "sim": 0.25
+ },
+ {
+  "k": "unsupportedTitle",
+  "en": "Device Not Supported",
+  "tr": "Cihaz Desteklenmiyor",
+  "back": "The device is not supported",
+  "sim": 0.75
+ },
+ {
+  "k": "unsupportedNoCameraMessage",
+  "en": "This device doesn't have a camera available.",
+  "tr": "Bu cihazda kullanılabilir bir kamera yok.",
+  "back": "There's no camera available on this device.",
+  "sim": 0.29
+ },
+ {
+  "k": "unsupportedLowMemoryMessage",
+  "en": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
+  "tr": "Bu cihazda PhotoSur düzenleyicisini güvenilir şekilde çalıştırmak için yeterli bellek yok.",
+  "back": "This device does not have enough memory to run the PhotoSur controller reliably.",
+  "sim": 0.67
+ },
+ {
+  "k": "unsupportedManualImportHint",
+  "en": "You can still import a photo from your gallery and use the manual brush tool.",
+  "tr": "Yine de galeriden fotoğraf içe aktarıp manuel fırçayı kullanabilirsiniz.",
+  "back": "You can still upload photos from the gallery and use the manual brush.",
+  "sim": 0.71
+ },
+ {
+  "k": "unsupportedUseGalleryButton",
+  "en": "Import from Gallery",
+  "tr": "Galeriden İçe Aktar",
+  "back": "Import from the gallery",
+  "sim": 0.86
+ },
+ {
+  "k": "homeBatchButton",
+  "en": "Batch",
+  "tr": "Toplu",
+  "back": "In total",
+  "sim": 0.0
+ },
+ {
+  "k": "batchTitle",
+  "en": "Batch cut-out",
+  "tr": "Toplu kesim",
+  "back": "Total cut",
+  "sim": 0.0
+ },
+ {
+  "k": "batchOutputTransparent",
+  "en": "Transparent PNG",
+  "tr": "Şeffaf PNG",
+  "back": "Transparent PNG",
+  "sim": 1.0
+ },
+ {
+  "k": "batchOutputWhite",
+  "en": "White background (JPG)",
+  "tr": "Beyaz arka plan (JPG)",
+  "back": "White background (JPG)",
+  "sim": 1.0
+ },
+ {
+  "k": "batchStart",
+  "en": "Start",
+  "tr": "Başlat",
+  "back": "Starting",
+  "sim": 0.0
+ },
+ {
+  "k": "batchStop",
+  "en": "Stop",
+  "tr": "Durdur",
+  "back": "Stop it .",
+  "sim": 0.67
+ },
+ {
+  "k": "batchDone",
+  "en": "Done",
+  "tr": "Bitti",
+  "back": "It 's over .",
+  "sim": 0.0
+ },
+ {
+  "k": "batchProgress",
+  "en": "{done} of {total} done",
+  "tr": "{total} fotoğrafın {done} tanesi tamam",
+  "back": "[total] The [done] part of the photo is all right.",
+  "sim": 0.29
+ },
+ {
+  "k": "batchSaved",
+  "en": "{count} saved to your gallery",
+  "tr": "{count} fotoğraf galerinize kaydedildi",
+  "back": "[count] saved to your photo gallery",
+  "sim": 0.91
+ },
+ {
+  "k": "batchSomeFailed",
+  "en": "{count} could not be processed",
+  "tr": "{count} fotoğraf işlenemedi",
+  "back": "[count] photo could not be processed",
+  "sim": 0.91
+ },
+ {
+  "k": "batchTooMany",
+  "en": "Up to {max} photos at a time",
+  "tr": "Tek seferde en fazla {max} fotoğraf",
+  "back": "Maximum number of [max] photos taken at a time",
+  "sim": 0.62
+ },
+ {
+  "k": "backgroundAddCustom",
+  "en": "Add custom background",
+  "tr": "Özel arka plan ekle",
+  "back": "Add a special background",
+  "sim": 0.57
+ },
+ {
+  "k": "backgroundCustomColor",
+  "en": "Custom color",
+  "tr": "Özel renk",
+  "back": "Special color",
+  "sim": 0.5
+ },
+ {
+  "k": "colorSaturation",
+  "en": "Saturation",
+  "tr": "Doygunluk",
+  "back": "Satisfaction",
+  "sim": 0.0
+ },
+ {
+  "k": "colorBrightness",
+  "en": "Brightness",
+  "tr": "Parlaklık",
+  "back": "The brightness",
+  "sim": 0.67
+ },
+ {
+  "k": "colorHexLabel",
+  "en": "Hex code",
+  "tr": "Hex kodu",
+  "back": "Hex code",
+  "sim": 1.0
+ },
+ {
+  "k": "colorPickerDone",
+  "en": "Done",
+  "tr": "Bitti",
+  "back": "It 's over .",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceLabel",
+  "en": "Marketplace",
+  "tr": "Pazar yeri",
+  "back": "Market location",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceWhiteFill",
+  "en": "Pure white background, product fills the frame",
+  "tr": "Saf beyaz arka plan, ürün kareyi doldurur",
+  "back": "Pure white background, filling the product square",
+  "sim": 0.57
+ },
+ {
+  "k": "exportMarketplaceSizeCap",
+  "en": "File kept under {size} MB",
+  "tr": "Dosya {size} MB altında",
+  "back": "The file is less than [size] MB",
+  "sim": 0.5
+ },
+ {
+  "k": "editorToolTemplates",
+  "en": "Templates",
+  "tr": "Şablonlar",
+  "back": "Templates",
+  "sim": 1.0
+ },
+ {
+  "k": "templatesTitle",
+  "en": "Choose a template",
+  "tr": "Şablon seç",
+  "back": "Select the template",
+  "sim": 0.33
+ },
+ {
+  "k": "templatesStudio",
+  "en": "Studio",
+  "tr": "Stüdyo",
+  "back": "The studio .",
+  "sim": 0.67
+ },
+ {
+  "k": "templatesColorBlock",
+  "en": "Color block",
+  "tr": "Renk blokları",
+  "back": "Colored blocks",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTextures",
+  "en": "Textures",
+  "tr": "Dokular",
+  "back": "Documents",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesLight",
+  "en": "Light & shadow",
+  "tr": "Işık ve gölge",
+  "back": "Light and shadow",
+  "sim": 0.8
+ },
+ {
+  "k": "templatesPatterns",
+  "en": "Gradients & patterns",
+  "tr": "Geçişler ve desenler",
+  "back": "Transitions and patterns",
+  "sim": 0.4
+ },
+ {
+  "k": "hdGetAction",
+  "en": "Get HD cut-out",
+  "tr": "HD kesim al",
+  "back": "Take the HD cut",
+  "sim": 0.29
+ },
+ {
+  "k": "hdRedoAction",
+  "en": "Redo cut-out in HD",
+  "tr": "Kesimi HD ile yeniden yap",
+  "back": "Repeat the cut with HD",
+  "sim": 0.22
+ },
+ {
+  "k": "hdDownloading",
+  "en": "HD cut-out in progress… {percent}%",
+  "tr": "HD kesim sürüyor… %{percent}",
+  "back": "HD cut is running... %[percent]",
+  "sim": 0.4
+ },
+ {
+  "k": "hdDownloadingShort",
+  "en": "HD cut-out… {percent}%",
+  "tr": "HD kesim… %{percent}",
+  "back": "HD cut... %[percent]",
+  "sim": 0.67
+ },
+ {
+  "k": "hdConfirmTitle",
+  "en": "Download HD cut-out model?",
+  "tr": "HD kesim modeli indirilsin mi?",
+  "back": "Should I download the HD cut model?",
+  "sim": 0.55
+ },
+ {
+  "k": "hdConfirmBody",
+  "en": "Cleaner edges on tricky objects like shoes, bags and bottles. It downloads once, stays on your phone and then works offline. Mobile data charges may apply.",
+  "tr": "Ayakkabı, çanta ve şişe gibi zor nesnelerde daha temiz kenarlar. Bir kez indirilir, telefonunuzda kalır ve sonra çevrimdışı çalışır. Mobil veri ücreti alınabilir.",
+  "back": "It's cleaner on hard objects like shoes, bags, and bottles. Once downloaded, it stays on your phone, and then runs offline. Mobile data can be charged.",
+  "sim": 0.69
+ },
+ {
+  "k": "hdDownload",
+  "en": "Download",
+  "tr": "İndir",
+  "back": "Downloading",
+  "sim": 0.0
+ },
+ {
+  "k": "hdFailed",
+  "en": "HD cut-out didn’t finish. Check your connection and try again.",
+  "tr": "HD kesim tamamlanmadı. Bağlantınızı kontrol edip tekrar deneyin.",
+  "back": "The HD cut isn't complete, so check your connection and try again.",
+  "sim": 0.64
+ },
+ {
+  "k": "settingsHdTitle",
+  "en": "HD cut-out model",
+  "tr": "HD kesim modeli",
+  "back": "HD cutting model",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsHdNotInstalled",
+  "en": "Not downloaded",
+  "tr": "İndirilmedi",
+  "back": "Not downloaded",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsHdInstalled",
+  "en": "Installed · works offline",
+  "tr": "Yüklü · çevrimdışı çalışır",
+  "back": "Loaded works offline",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsHdRemove",
+  "en": "Remove",
+  "tr": "Kaldır",
+  "back": "Take it off",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsReplayIntro",
+  "en": "Replay intro",
+  "tr": "Tanıtımı yeniden izle",
+  "back": "Watch the presentation again",
+  "sim": 0.0
+ },
+ {
+  "k": "homeSeeAll",
+  "en": "See all",
+  "tr": "Tümünü gör",
+  "back": "See the whole thing .",
+  "sim": 0.33
+ },
+ {
+  "k": "exportActionEdit",
+  "en": "Edit again",
+  "tr": "Yeniden düzenle",
+  "back": "Re-editing",
+  "sim": 0.0
+ },
+ {
+  "k": "exportActionDelete",
+  "en": "Delete",
+  "tr": "Sil",
+  "back": "Deleted",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMoreOptions",
+  "en": "More options",
+  "tr": "Diğer seçenekler",
+  "back": "Other options",
+  "sim": 0.5
+ },
+ {
+  "k": "exportDeleteTitle",
+  "en": "Delete this export?",
+  "tr": "Bu dışa aktarım silinsin mi?",
+  "back": "Do you want to erase this outgoing transmission?",
+  "sim": 0.18
+ },
+ {
+  "k": "exportDeleteBody",
+  "en": "Exported images are removed from this phone. Your original photos and anything saved to your gallery are not affected.",
+  "tr": "Dışa aktarılan görseller bu telefondan kaldırılır. Orijinal fotoğraflarınız ve galerinize kaydedilenler etkilenmez.",
+  "back": "The imported images will be removed from this phone, and your original photos and those recorded in your gallery will be unaffected.",
+  "sim": 0.54
+ },
+ {
+  "k": "exportSavedToGallery",
+  "en": "Saved to your gallery",
+  "tr": "Galerinize kaydedildi",
+  "back": "It 's saved to your gallery",
+  "sim": 0.8
+ },
+ {
+  "k": "exportSaveFailed",
+  "en": "Could not save to the gallery.",
+  "tr": "Galeriye kaydedilemedi.",
+  "back": "Couldn't be registered to the gallery.",
+  "sim": 0.5
+ },
+ {
+  "k": "exportUnavailable",
+  "en": "Unavailable",
+  "tr": "Kullanılamıyor",
+  "back": "Could not be used",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsGroupThisWeek",
+  "en": "This week",
+  "tr": "Bu hafta",
+  "back": "This week.",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsGroupEarlier",
+  "en": "Earlier",
+  "tr": "Daha eski",
+  "back": "It 's older .",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsStorageUsed",
+  "en": "{size} used on this phone",
+  "tr": "Bu telefonda {size} kullanılıyor",
+  "back": "Used on this phone.",
+  "sim": 0.89
+ },
+ {
+  "k": "exportsSelect",
+  "en": "Select",
+  "tr": "Seç",
+  "back": "Select",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDone",
+  "en": "Done",
+  "tr": "Bitti",
+  "back": "It 's over .",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsSelectedCount",
+  "en": "{count} selected",
+  "tr": "{count} seçildi",
+  "back": "[count] selected",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDeleteSelectedTitle",
+  "en": "Delete {count} exports?",
+  "tr": "{count} dışa aktarım silinsin mi?",
+  "back": "Do you want to delete the [count] export?",
+  "sim": 0.36
+ },
+ {
+  "k": "exportsDeleteAll",
+  "en": "Delete all exports",
+  "tr": "Tüm dışa aktarımları sil",
+  "back": "Delete all external exports",
+  "sim": 0.86
+ },
+ {
+  "k": "exportsDeleteAllTitle",
+  "en": "Delete all exports?",
+  "tr": "Tüm dışa aktarımlar silinsin mi?",
+  "back": "Do you want all exports deleted?",
+  "sim": 0.44
+ },
+ {
+  "k": "helpTitle",
+  "en": "Help & how to use",
+  "tr": "Yardım ve kullanım kılavuzu",
+  "back": "Help and use manual",
+  "sim": 0.5
+ },
+ {
+  "k": "helpIntro",
+  "en": "Tap a topic to read how it works.",
+  "tr": "Nasıl çalıştığını okumak için bir konuya dokunun.",
+  "back": "Touch a subject to read how it works.",
+  "sim": 0.75
+ },
+ {
+  "k": "helpStartTitle",
+  "en": "Getting started",
+  "tr": "Başlarken",
+  "back": "At the start",
+  "sim": 0.0
+ },
+ {
+  "k": "helpStart1",
+  "en": "On the home screen, tap Camera to take a photo or Gallery to pick one. Batch cuts out many photos at once.",
+  "tr": "Ana ekranda fotoğraf çekmek için Kamera’ya, mevcut bir fotoğrafı seçmek için Galeri’ye dokunun. Toplu, birçok fotoğrafı tek seferde keser.",
+  "back": "To take a photo on the main screen, tap Camera to select an existing photo.",
+  "sim": 0.38
+ },
+ {
+  "k": "helpStart2",
+  "en": "Every photo opens in Crop & Rotate first, then in the editor. Your original photo is never changed.",
+  "tr": "Her fotoğraf önce Kırp ve Döndür’de, sonra düzenleyicide açılır. Orijinal fotoğrafınız asla değiştirilmez.",
+  "back": "Every photo will be opened first in Curve and Turn, then in the editor, and your original photo will never be changed.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpStart3",
+  "en": "When you are happy, tap Export in the editor. Recent Exports on the home screen lists everything you have exported.",
+  "tr": "Memnun kaldığınızda düzenleyicide Dışa Aktar’a dokunun. Ana ekrandaki Son Dışa Aktarmalar, dışa aktardığınız her şeyi listeler.",
+  "back": "When you're satisfied, tap Export in the editor, and on the home screen, Last Export lists everything you export.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpCropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Kırp ve Döndür",
+  "back": "Curve and turn",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCrop1",
+  "en": "Turn the photo left or right in 90° steps, and drag the frame to choose the part you want to keep.",
+  "tr": "Fotoğrafı 90°’lik adımlarla sola veya sağa döndürün ve tutmak istediğiniz bölümü seçmek için çerçeveyi sürükleyin.",
+  "back": "Turn the photo 90 degrees to the left or right and drag the frame to select the section you want to hold.",
+  "sim": 0.7
+ },
+ {
+  "k": "helpCrop2",
+  "en": "Free lets you shape the frame as you like. 1:1, 4:5 and 9:16 lock its shape. Tap Continue to open the editor.",
+  "tr": "Serbest, çerçeveye istediğiniz şekli vermenizi sağlar. 1:1, 4:5 ve 9:16 şeklini sabitler. Düzenleyiciyi açmak için Devam’a dokunun.",
+  "back": "It's free, allows you to give the frame the shape you want it to. It fixes 1:1, 4:5 and 9:16.",
+  "sim": 0.43
+ },
+ {
+  "k": "helpCutoutTitle",
+  "en": "Cut-out",
+  "tr": "Kesim",
+  "back": "Cut it out .",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCutout1",
+  "en": "When the editor opens, PhotoSur finds the main subject and removes the background automatically, on your phone. No internet is needed.",
+  "tr": "Düzenleyici açıldığında PhotoSur ana konuyu bulur ve arka planı telefonunuzda otomatik olarak kaldırır. İnternet gerekmez.",
+  "back": "When the editor is turned on, PhotoSur finds the main subject and automatically removes the background on your phone.",
+  "sim": 0.75
+ },
+ {
+  "k": "helpCutout2",
+  "en": "Edge Smoothness softens the edge of the cut-out, from 0 to 20 pixels.",
+  "tr": "Kenar Yumuşaklığı, kesimin kenarını 0 ile 20 piksel arasında yumuşatır.",
+  "back": "Edge softness softened the edge of the cut by between 0 and 20 pixels.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpCutout3",
+  "en": "The eye button at the top shows your original photo so you can compare. Tap it again to go back. The brush is paused while the original is shown.",
+  "tr": "Üstteki göz düğmesi karşılaştırmak için orijinal fotoğrafı gösterir. Geri dönmek için tekrar dokunun. Orijinal görünürken fırça duraklatılmıştır.",
+  "back": "The upper eye button shows the original photo to compare, then touch it again to return, and the brush is stopped when the original appears.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpCutout4",
+  "en": "For difficult subjects such as glass, shoes, bags and bottles, tap Get HD cut-out. The HD model downloads once, stays on your phone and then works offline. Once it is installed, every new cut-out uses it automatically. To redo the photo you have open, tap Redo cut-out in HD.",
+  "tr": "Cam, ayakkabı, çanta ve şişe gibi zor konular için HD kesim al’a dokunun. HD model yalnızca bir kez indirilir, telefonunuzda kalır ve sonra çevrimdışı çalışır. Yüklendikten sonra her yeni kesim onu otomatik kullanır. Açık fotoğrafı yeniden yapmak için Kesimi HD ile yeniden yap’a dokunun.",
+  "back": "Touch the HD cut for difficult items like glass, shoes, bags and bottles. The HD model is downloaded only once, stays on your phone, and then runs offline. After uploading, each new cut uses it automatically.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpBrushTitle",
+  "en": "Brush",
+  "tr": "Fırça",
+  "back": "Brush",
+  "sim": 1.0
+ },
+ {
+  "k": "helpBrush1",
+  "en": "Erase removes parts of the subject. Restore brings back parts the cut-out removed.",
+  "tr": "Sil, konunun bölümlerini kaldırır. Geri Yükle, kesimin çıkardığı bölümleri geri getirir.",
+  "back": "Delete, remove the sections of the subject, re-load, restore the sections that the cut removed.",
+  "sim": 0.43
+ },
+ {
+  "k": "helpBrush2",
+  "en": "Drag one finger to paint. Use two fingers to zoom, up to 8 times, and to move the photo. The brush keeps its size on screen, so zooming in gives finer control.",
+  "tr": "Boyamak için bir parmağınızı sürükleyin. Yakınlaştırmak için, 8 kata kadar, ve fotoğrafı kaydırmak için iki parmağınızı kullanın. Fırça ekranda aynı boyutta kalır, bu yüzden yakınlaştırdıkça daha hassas çalışırsınız.",
+  "back": "Drag one of your fingers to paint, draw close, up to eight stories, and use both of your fingers to scroll the photo, so the brush stays the same size on the screen, so the closer you draw, the more precise you'll be working.",
+  "sim": 0.39
+ },
+ {
+  "k": "helpBrush3",
+  "en": "Brush Size goes from 1 to 50. Opacity sets how strongly each stroke applies.",
+  "tr": "Fırça Boyutu 1 ile 50 arasındadır. Opaklık, her fırça darbesinin ne kadar güçlü olacağını belirler.",
+  "back": "Brush size ranges from 1 to 50, and the density determines how strong each brush stroke will be.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpBrush4",
+  "en": "Undo and Redo step through your brush strokes. Reset clears all brush strokes and goes back to the automatic cut-out; it asks you to confirm first.",
+  "tr": "Geri Al ve Yinele, fırça darbelerinizin arasında ilerler. Sıfırla tüm darbeleri siler ve otomatik kesime döner; önce onay istenir.",
+  "back": "Take back and back, the brush moves between your strokes, erases all strokes with zero, and goes back to automatic cutting, first requesting confirmation.",
+  "sim": 0.44
+ },
+ {
+  "k": "helpBackgroundTitle",
+  "en": "Background",
+  "tr": "Arka Plan",
+  "back": "Background",
+  "sim": 1.0
+ },
+ {
+  "k": "helpBackground1",
+  "en": "Choose what goes behind your subject: transparent, white, black, a gradient, a colour, a blurred copy of your photo, or your own photo.",
+  "tr": "Konunuzun arkasında ne olacağını seçin: saydam, beyaz, siyah, bir geçiş, bir renk, fotoğrafınızın bulanık bir kopyası veya kendi fotoğrafınız.",
+  "back": "Choose what's going to be behind your subject: clear, white, black, a transition, a color, a blurry copy of your photo, or your own photo.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpBackground2",
+  "en": "Only one background is used at a time. Your latest choice replaces the earlier one.",
+  "tr": "Aynı anda yalnızca bir arka plan kullanılır. Son seçiminiz öncekinin yerini alır.",
+  "back": "Only one background is used at the same time, so your last choice replaces the previous one.",
+  "sim": 0.75
+ },
+ {
+  "k": "helpBackground3",
+  "en": "Add custom background lets you pick a photo from your gallery. Custom color opens a colour picker. The Blur slider goes from 0 to 25.",
+  "tr": "Özel arka plan ekle, galerinizden bir fotoğraf seçmenizi sağlar. Özel renk bir renk seçici açar. Bulanıklık kaydırıcısı 0 ile 25 arasındadır.",
+  "back": "Add a custom background, which lets you select a photo from your gallery. A custom color selector opens. The blur slider is between 0 and 25.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpBackground4",
+  "en": "Transparent shows a checkerboard while you edit. Export as PNG to keep it transparent.",
+  "tr": "Saydam, düzenleme sırasında damalı bir desen gösterir. Saydamlığı korumak için PNG olarak dışa aktarın.",
+  "back": "The sidebar shows a pattern that is stained during editing.",
+  "sim": 0.17
+ },
+ {
+  "k": "helpTemplatesTitle",
+  "en": "Templates",
+  "tr": "Şablonlar",
+  "back": "Templates",
+  "sim": 1.0
+ },
+ {
+  "k": "helpTemplates1",
+  "en": "Templates are ready-made backgrounds in five groups: Studio, Color block, Textures, Light & shadow, and Gradients & patterns. Five scenes are shown in the panel; tap the Templates button to see them all.",
+  "tr": "Şablonlar, beş grupta hazır arka planlardır: Stüdyo, Renk blokları, Dokular, Işık ve gölge ile Geçişler ve desenler. Panelde beş sahne görünür; hepsini görmek için Şablonlar düğmesine dokunun.",
+  "back": "The templates are ready-made backgrounds in five groups: Studio, Color Blocks, Docs, Transitions with Light and Shadow and patterns. Five scenes appear on the panel; tap the Templates button to see them all.",
+  "sim": 0.78
+ },
+ {
+  "k": "helpTemplates2",
+  "en": "Choosing a template works like choosing your own photo as the background: it replaces your earlier background choice.",
+  "tr": "Bir şablon seçmek, arka plan olarak kendi fotoğrafınızı seçmekle aynıdır: önceki arka plan seçiminizin yerini alır.",
+  "back": "Choosing a template is like choosing your own photo as a background: it replaces your previous background choice.",
+  "sim": 0.83
+ },
+ {
+  "k": "helpLayoutTitle",
+  "en": "Layout",
+  "tr": "Düzen",
+  "back": "The order",
+  "sim": 0.0
+ },
+ {
+  "k": "helpLayout1",
+  "en": "Drag the subject on the photo to move it. Pinch with two fingers to resize it.",
+  "tr": "Konuyu taşımak için fotoğraf üzerinde sürükleyin. Boyutunu değiştirmek için iki parmakla sıkıştırın.",
+  "back": "Drag the subject onto the photo to carry it, squeeze it with two fingers to change its size.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpLayout2",
+  "en": "Choose Original, 1:1, 4:5 or 9:16 to set the shape of the final picture.",
+  "tr": "Son görüntünün şeklini ayarlamak için Orijinal, 1:1, 4:5 veya 9:16’yı seçin.",
+  "back": "To adjust the shape of the final image, select Original, 1:1, 4:5, or 9:16.",
+  "sim": 0.36
+ },
+ {
+  "k": "helpLayout3",
+  "en": "Size sets how big the subject is, from 20% to 300%. Shadow sets how strong its shadow is. Auto-center puts the subject back in the middle. Reset undoes moving and resizing.",
+  "tr": "Boyut, konunun büyüklüğünü %20 ile %300 arasında belirler. Gölge, gölgesinin ne kadar güçlü olacağını belirler. Otomatik ortala konuyu tekrar ortaya getirir. Sıfırla taşımaları ve yeniden boyutlandırmaları geri alır.",
+  "back": "The dimension determines the size of the subject between 20% and 300%. The shadow determines how strong the shadow will be.",
+  "sim": 0.35
+ },
+ {
+  "k": "helpLayout4",
+  "en": "This shape is used when the export size is Original. If you choose a size preset or a marketplace in the export sheet, that decides the final shape instead.",
+  "tr": "Bu şekil, dışa aktarma boyutu Orijinal olduğunda geçerlidir. Dışa aktarma sayfasında hazır bir boyut veya pazar yeri seçerseniz, son şekli o belirler.",
+  "back": "This shape is valid when the export size is Original, and if you select a ready size or marketplace on the export page, it determines the final shape.",
+  "sim": 0.7
+ },
+ {
+  "k": "helpExportTitle",
+  "en": "Export",
+  "tr": "Dışa Aktar",
+  "back": "Exporting",
+  "sim": 0.0
+ },
+ {
+  "k": "helpExport1",
+  "en": "Tap Export to open the export sheet. Nothing is applied until you tap Save to Gallery or Share, so you can change your choices as often as you like.",
+  "tr": "Dışa aktarma sayfasını açmak için Dışa Aktar’a dokunun. Galeriye Kaydet veya Paylaş’a dokunana kadar hiçbir şey uygulanmaz, bu yüzden seçimlerinizi istediğiniz kadar değiştirebilirsiniz.",
+  "back": "Nothing applies until you tap Save to Gallery or Share, so you can change your options as much as you want.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpExport2",
+  "en": "PNG keeps transparency. JPG makes smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a small modern format; if your phone cannot make it, the file is saved as JPG. For JPG and WEBP, the Quality slider trades file size for detail.",
+  "tr": "PNG saydamlığı korur. JPG daha küçük dosyalar üretir ama saydam olamaz, bu yüzden saydam bir arka plan beyaz olur. WEBP modern ve kompakt bir biçimdir; telefonunuz oluşturamazsa dosya JPG olarak kaydedilir. JPG ve WEBP için Kalite kaydırıcısı dosya boyutu ile ayrıntı arasında denge kurar.",
+  "back": "PNG maintains transparency. JPG produces smaller files but can't be transparent, so a transparent background is white. WEBP is a modern and compact format; if your phone can't create a file, it's saved as JPG. The Quality slider for JPG and WEBP balances the file size with the detail.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpExport3",
+  "en": "Original keeps your photo’s size, with the shape chosen in Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. Custom lets you type a width and height in pixels.",
+  "tr": "Orijinal, fotoğrafınızın boyutunu Düzen’de seçtiğiniz şekille korur. 1:1, 1080 × 1080; 4:5, 1080 × 1350; 9:16 ise 1080 × 1920’dir. Özel, piksel cinsinden genişlik ve yükseklik girmenizi sağlar.",
+  "back": "The original keeps the size of your photo in the format you choose. 1:1, 1080 × 1080; 4:5, 1080 × 1350; 9:16 is 1080 × 1920. The special allows you to enter the width and height of the pixel type.",
+  "sim": 0.51
+ },
+ {
+  "k": "helpExport4",
+  "en": "Marketplace presets set size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG kept under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices, and choosing a format or size afterwards switches the marketplace off. Marketplace rules can change, so check your marketplace’s current requirements.",
+  "tr": "Pazar yeri hazır ayarları boyutu, biçimi ve kaliteyi belirler: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 1 MB altında 2667 × 2000 JPG ve Shopify 2048 × 2048 PNG. Birini seçmek biçim ve boyut seçimlerinizin yerini alır; sonra bir biçim veya boyut seçerseniz pazar yeri seçimi kalkar. Pazar yeri kuralları değişebilir, bu yüzden kendi pazar yerinizin güncel gereksinimlerini kontrol edin.",
+  "back": "Marketplace ready settings determine size, shape, and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 1 MB under 2667 × 2000 JPG, and Shopify 2048 × 2048 PNG. Choosing one takes the place of your shape and size choices; then if you choose a shape or size, the choice of marketplace rises. Marketplace rules may change, so check the current requirements of your own marketplace.",
+  "sim": 0.64
+ },
+ {
+  "k": "helpExport5",
+  "en": "Amazon also uses a pure white background with no shadow and fits the subject to fill most of the frame. Your background choice in the editor is not changed. The other marketplaces keep your background.",
+  "tr": "Amazon ayrıca gölgesiz saf beyaz bir arka plan kullanır ve konuyu çerçevenin çoğunu dolduracak şekilde ayarlar. Düzenleyicideki arka plan seçiminiz değişmez. Diğer pazar yerleri arka planınızı korur.",
+  "back": "Amazon also uses a clear white background without any shadows and sets the subject so that it fills most of the frame. Your background selection in the editor does not change. Other marketplaces protect your background.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpExport6",
+  "en": "Save to Gallery and Share both save the picture to your gallery and to Recent Exports. Share also opens your phone’s share menu. If saving to the gallery is not possible, the share menu opens instead. After exporting you return to the home screen.",
+  "tr": "Galeriye Kaydet ve Paylaş, görüntüyü galerinize ve Son Dışa Aktarmalar’a kaydeder. Paylaş ayrıca telefonunuzun paylaşım menüsünü açar. Galeriye kaydetme mümkün değilse bunun yerine paylaşım menüsü açılır. Dışa aktarmadan sonra ana ekrana dönersiniz.",
+  "back": "Save and Share in the gallery saves the image to your gallery and to Last Exports. Sharing also opens the share menu on your phone. If you can't save to the gallery, then the share menu opens instead. After exporting, you go back to the main screen.",
+  "sim": 0.64
+ },
+ {
+  "k": "helpExport7",
+  "en": "Unless you have removed ads, an ad can appear after an export, at most once every two minutes.",
+  "tr": "Reklamları kaldırmadıysanız dışa aktarmadan sonra bir reklam görünebilir; en fazla iki dakikada bir.",
+  "back": "If you don't remove the ads, an ad may appear after exporting, one every two minutes at most.",
+  "sim": 0.5
+ },
+ {
+  "k": "helpBatchTitle",
+  "en": "Batch",
+  "tr": "Toplu",
+  "back": "In total",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBatch1",
+  "en": "Batch cuts out up to 30 photos in one go. Tap Batch on the home screen and pick your photos. The back button is turned off while a batch runs.",
+  "tr": "Toplu, tek seferde 30 fotoğrafa kadar keser. Ana ekranda Toplu’ya dokunun ve fotoğraflarınızı seçin. Toplu işlem çalışırken Geri düğmesi devre dışıdır.",
+  "back": "Collect, cut up to 30 photos at a time. Touch Collect on the main screen and select your photos. The Back button is disabled when collecting.",
+  "sim": 0.5
+ },
+ {
+  "k": "helpBatch2",
+  "en": "All photos in a batch share one setup: one background and one marketplace. You cannot choose differently for each photo.",
+  "tr": "Bir toplu işlemdeki tüm fotoğraflar tek bir ayarı paylaşır: bir arka plan ve bir pazar yeri. Her fotoğraf için farklı seçim yapamazsınız.",
+  "back": "All the photos in a collective transaction share a single setting: a background and a marketplace. You can't make different choices for each photo.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpBatch3",
+  "en": "Backgrounds work as in the editor: your own photo, a colour, a template, white, transparent, black, blur or a gradient. Only one applies, and your latest choice replaces the earlier one.",
+  "tr": "Arka planlar düzenleyicideki gibi çalışır: kendi fotoğrafınız, bir renk, bir şablon, beyaz, saydam, siyah, bulanık veya bir geçiş. Yalnızca biri geçerlidir ve son seçiminiz öncekinin yerini alır.",
+  "back": "The background works the same way as in the editor: your own photo, a color, a template, white, transparent, black, blurry, or a transition. Only one is valid, and your last choice replaces the previous one.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpBatch4",
+  "en": "The file format is chosen for you. With a marketplace, the photos follow that marketplace’s size and format. Without one, a transparent background gives PNG and any other background gives JPG, at the original size.",
+  "tr": "Dosya biçimi sizin için seçilir. Pazar yeriyle fotoğraflar onun boyutunu ve biçimini izler. Pazar yeri olmadan saydam arka plan PNG, diğer her arka plan JPG verir; orijinal boyutta.",
+  "back": "The file format is selected for you. The market location of the photos tracks its size and shape. The transparent background without the market location PNG, each other background gives JPG; in the original size.",
+  "sim": 0.57
+ },
+ {
+  "k": "helpBatch5",
+  "en": "Choosing Amazon switches the background to White; if you then choose another background, Amazon is switched off. eBay, Etsy and Shopify keep your background, but a JPG cannot be transparent, so it gets a white background.",
+  "tr": "Amazon’u seçmek arka planı Beyaz yapar; sonra başka bir arka plan seçerseniz Amazon seçimi kalkar. eBay, Etsy ve Shopify arka planınızı korur ama JPG saydam olamaz, bu yüzden beyaz arka plan alır.",
+  "back": "If you choose Amazon, it makes the background white, and then if you choose another background, it's Amazon. eBay, Etsy, and Shopify protect your background, but JPG can't be transparent, so it gets a white background.",
+  "sim": 0.72
+ },
+ {
+  "k": "helpBatch6",
+  "en": "If the HD model is installed, every photo in the batch is cut out with it. The Get HD cut-out button next to Templates downloads it.",
+  "tr": "HD model yüklüyse toplu işlemdeki her fotoğraf onunla kesilir. Şablonlar’ın yanındaki HD kesim al düğmesi onu indirir.",
+  "back": "If the HD model is loaded, every photo in the bulk process is cut with it.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpBatch7",
+  "en": "Each photo is saved to your gallery and to Recent Exports as soon as it finishes. Stop ends the batch after the current photo, and photos already finished stay saved. If a photo fails, the batch carries on and tells you how many could not be processed. Done takes you back to the home screen; it does not save anything.",
+  "tr": "Her fotoğraf, bittiği anda galerinize ve Son Dışa Aktarmalar’a kaydedilir. Durdur, toplu işlemi o anki fotoğraftan sonra bitirir ve zaten bitmiş fotoğraflar kayıtlı kalır. Bir fotoğraf başarısız olursa toplu işlem devam eder ve kaçının işlenemediğini söyler. Bitti sizi ana ekrana döndürür; hiçbir şey kaydetmez.",
+  "back": "Every photo is saved to your gallery and Last Exit when it's finished. Stop, the collective process ends after the current photo, and the already finished photos are saved. If a photo fails, the collective process continues and tells you how many can't be processed. Finish returns you to the main screen; it doesn't save anything.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpLibraryTitle",
+  "en": "Your exports",
+  "tr": "Dışa aktarmalarınız",
+  "back": "Your exports",
+  "sim": 1.0
+ },
+ {
+  "k": "helpLibrary1",
+  "en": "Recent Exports on the home screen shows your latest exports. Tap See all for every export, grouped as Today, Yesterday, This week and Earlier.",
+  "tr": "Ana ekrandaki Son Dışa Aktarmalar en yeni dışa aktarmalarınızı gösterir. Hepsini görmek için Tümünü gör’e dokunun; Bugün, Dün, Bu hafta ve Daha eski olarak gruplanır.",
+  "back": "On the main screen, Last Exports shows your latest exports. To see all of them, click View all, grouped into Today, Yesterday, This Week and Earlier.",
+  "sim": 0.64
+ },
+ {
+  "k": "helpLibrary2",
+  "en": "Tap an export to open it full screen. Swipe to move between exports and pinch to zoom. The bar at the bottom has Share, Save to Gallery, Edit again and Delete.",
+  "tr": "Bir dışa aktarmayı tam ekran açmak için dokunun. Aralarında geçmek için kaydırın, yakınlaştırmak için sıkıştırın. Alt çubuk Paylaş, Galeriye Kaydet, Yeniden düzenle ve Sil seçeneklerini sunar.",
+  "back": "Tap an export to open the full screen, swipe between them, slide to close, and the bottom bar offers Sharing, Save to Gallery, Re-edit, and Delete options.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpLibrary3",
+  "en": "The three-dot button on a tile opens the same actions. Edit again opens the exported picture as a new photo, so earlier brush strokes are not restored.",
+  "tr": "Bir küçük resimdeki üç nokta düğmesi aynı eylemleri açar. Yeniden düzenle, dışa aktarılan görüntüyü yeni bir fotoğraf olarak açar, bu yüzden önceki fırça darbeleri geri yüklenmez.",
+  "back": "The three-point button in a thumbnail opens up the same actions, re-edit opens the exported image as a new photo, so the previous brushstrokes don't restore.",
+  "sim": 0.57
+ },
+ {
+  "k": "helpLibrary4",
+  "en": "Select lets you choose several exports to share together or delete. Delete all exports removes every export from this phone.",
+  "tr": "Seç, birden çok dışa aktarmayı seçip birlikte paylaşmanızı veya silmenizi sağlar. Tüm dışa aktarımları sil, bu telefondaki tüm dışa aktarmaları kaldırır.",
+  "back": "Select allows you to select multiple outputs and share or delete them together. Delete all outputs, it removes all outputs on this phone.",
+  "sim": 0.51
+ },
+ {
+  "k": "helpLibrary5",
+  "en": "Deleting removes exports from PhotoSur only. Pictures already saved to your gallery are not affected. The bottom of the See all screen shows how much space exports use on this phone.",
+  "tr": "Silme, dışa aktarmaları yalnızca PhotoSur’dan kaldırır. Galerinize zaten kaydedilmiş görüntülere dokunulmaz. Tümünü gör ekranının altında dışa aktarmaların bu telefonda ne kadar yer kapladığı yazar.",
+  "back": "Delete only removes exports from PhotoSur. It doesn't touch the images that are already saved to your gallery.",
+  "sim": 0.37
+ },
+ {
+  "k": "helpPrivacyTitle",
+  "en": "Privacy & ads",
+  "tr": "Gizlilik ve reklamlar",
+  "back": "Privacy and Advertising",
+  "sim": 0.4
+ },
+ {
+  "k": "helpPrivacy1",
+  "en": "Your photos are processed on your phone and are not uploaded. There is no account and no watermark.",
+  "tr": "Fotoğraflarınız telefonunuzda işlenir ve yüklenmez. Hesap yok, filigran yok.",
+  "back": "Your photos are processed on your phone and not uploaded.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpPrivacy2",
+  "en": "PhotoSur is free with every feature included, supported by ads. A banner appears at the bottom of some screens, and an ad can appear after an export.",
+  "tr": "PhotoSur ücretsizdir, tüm özellikleri dahildir ve reklamlarla desteklenir. Bazı ekranların altında bir banner görünür ve dışa aktarmadan sonra bir reklam çıkabilir.",
+  "back": "PhotoSur is free, includes all features, and is supported by advertisements. A banner appears under some screens and an advertisement may appear after exporting.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpPrivacy3",
+  "en": "Go Ad-Free in Settings is a one-time purchase that removes the ads. It does not unlock anything else, because every feature is already free. Restore Purchases brings it back on a new phone.",
+  "tr": "Ayarlar’daki Reklamları Kaldır, reklamları kaldıran tek seferlik bir satın alımdır. Başka hiçbir şeyin kilidini açmaz, çünkü tüm özellikler zaten ücretsizdir. Satın Alımları Geri Yükle, onu yeni bir telefonda geri getirir.",
+  "back": "Remove Ads in Settings is a one-time purchase that removes ads. It doesn't unlock anything else because all the features are already free.",
+  "sim": 0.57
+ },
+ {
+  "k": "helpSettingsTitle",
+  "en": "Settings",
+  "tr": "Ayarlar",
+  "back": "Settings",
+  "sim": 1.0
+ },
+ {
+  "k": "helpSettings1",
+  "en": "Theme can follow your phone, or be Light or Dark. Language changes the language of the app. Both are also in the home screen header.",
+  "tr": "Tema telefonunuzu izleyebilir ya da Açık veya Koyu olabilir. Dil, uygulamanın dilini değiştirir. İkisi de ana ekran başlığında da bulunur.",
+  "back": "The theme can watch your phone, or it can be Open or Dark. The language changes the language of the app. Both are in the main screen title.",
+  "sim": 0.75
+ },
+ {
+  "k": "helpSettings2",
+  "en": "Edit reminders: if you leave the app with an unfinished edit, PhotoSur can remind you three hours later. Switch this off in Settings.",
+  "tr": "Düzenleme hatırlatıcıları: uygulamadan bitmemiş bir düzenlemeyle çıkarsanız PhotoSur üç saat sonra size hatırlatabilir. Bunu Ayarlar’dan kapatın.",
+  "back": "Edit Reminders: If you leave the app with an unfinished edit, PhotoSur can remind you three hours later.",
+  "sim": 0.88
+ },
+ {
+  "k": "helpSettings3",
+  "en": "HD cut-out model shows whether it is installed. Remove deletes it from your phone to free space; you can download it again at any time.",
+  "tr": "HD kesim modeli, yüklü olup olmadığını gösterir. Kaldır, yer açmak için onu telefonunuzdan siler; istediğiniz zaman yeniden indirebilirsiniz.",
+  "back": "The HD cut model will show if it's loaded, remove it, delete it from your phone to make room, and you can download it again anytime you want.",
+  "sim": 0.49
+ },
+ {
+  "k": "helpSettings4",
+  "en": "Replay intro shows the welcome screens again. Support opens the support page. Animated home background turns the moving picture at the top of the home screen on or off.",
+  "tr": "Tanıtımı yeniden izle, karşılama ekranlarını tekrar gösterir. Destek, destek sayfasını açar. Hareketli ana ekran arka planı, ana ekranın üstündeki hareketli görseli açar veya kapatır.",
+  "back": "Watch the presentation again, it shows the reception screens again. Support opens the support page. The moving main screen background opens or closes the moving view above the main screen.",
+  "sim": 0.47
+ },
+ {
+  "k": "helpFixTitle",
+  "en": "If something goes wrong",
+  "tr": "Bir şeyler ters giderse",
+  "back": "If something goes wrong",
+  "sim": 1.0
+ },
+ {
+  "k": "helpFix1",
+  "en": "If the automatic cut-out cannot run on a very old or low-memory phone, the brush still works, so you can finish the picture by hand.",
+  "tr": "Otomatik kesim çok eski veya belleği az bir telefonda çalışamazsa fırça yine de çalışır, böylece görüntüyü elle bitirebilirsiniz.",
+  "back": "If the autocut is too old or a phone with little memory doesn't work, the brush still works, so you can finish the image manually.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpFix2",
+  "en": "If the HD download stops, check your connection and try again. It continues where it left off.",
+  "tr": "HD indirme durursa bağlantınızı kontrol edip yeniden deneyin. Kaldığı yerden devam eder.",
+  "back": "If the HD download stops, check your connection and try again.",
+  "sim": 0.79
+ },
+ {
+  "k": "helpFix3",
+  "en": "For anything else, open Support from Settings.",
+  "tr": "Başka her şey için Ayarlar’dan Destek’i açın.",
+  "back": "Turn on Settings Support for everything else.",
+  "sim": 0.29
+ }
+]

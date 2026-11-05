@@ -1,0 +1,1780 @@
+[
+ {
+  "k": "onboardingPage1Title",
+  "en": "Remove backgrounds instantly. All features free.",
+  "tr": "背景を一瞬で削除。全機能無料。",
+  "back": "The background is deleted in an instant. All the functionality is free.",
+  "sim": 0.22
+ },
+ {
+  "k": "onboardingPage1Body",
+  "en": "Open a photo and our on-device AI removes the background automatically — no internet required. You can also swap in your own custom background.",
+  "tr": "写真を開くと、端末内のAIが自動で背景を削除します。インターネット接続は不要です。自分だけのオリジナル背景に差し替えることもできます。",
+  "back": "When you open a photo, the AI on your device automatically deletes the background. You don't need an internet connection.",
+  "sim": 0.33
+ },
+ {
+  "k": "onboardingPage2Title",
+  "en": "Fine-tune with the brush",
+  "tr": "ブラシで細かく調整",
+  "back": "It's fine-tuned with a brush.",
+  "sim": 0.44
+ },
+ {
+  "k": "onboardingPage2Body",
+  "en": "Paint away what the AI missed or restore what you want to keep. Then crop, rotate, move and resize.",
+  "tr": "AIが取りこぼした部分はブラシで消し、残したい部分は復元できます。そのあと、切り抜き・回転・移動・サイズ変更も。",
+  "back": "And the parts that the AI has removed can be erased with a brush, and the parts that you want to leave can be restored, and then you can cut, rotate, move, and resize.",
+  "sim": 0.38
+ },
+ {
+  "k": "onboardingPage3Title",
+  "en": "Studio-ready backgrounds",
+  "tr": "スタジオ品質の背景",
+  "back": "The background of studio quality.",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingPage3Body",
+  "en": "Choose a colour, gradient, template or your own photo, with a natural shadow. Marketplace presets for Amazon, eBay, Etsy and Shopify set size and format for you.",
+  "tr": "色、グラデーション、テンプレート、または自分の写真を選べます。自然な影つき。Amazon、eBay、Etsy、Shopify用のプリセットが、サイズと形式を自動で設定します。",
+  "back": "You can choose colors, grades, templates, or your own photographs -- natural shadows -- and you can automatically set the presets for Amazon, eBay, Etsy, Shopify, size and format.",
+  "sim": 0.52
+ },
+ {
+  "k": "onboardingPage4Title",
+  "en": "Batch it, export it, keep it private",
+  "tr": "まとめて処理、形式も自由、プライバシーも安心",
+  "back": "It's all about processing, form, freedom, privacy.",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingPage4Body",
+  "en": "Cut out up to 30 photos at once and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "tr": "最大30枚の背景を一度に削除し、PNG・JPG・WEBPで書き出せます。写真がスマホの外に出ることはありません。43言語に対応。",
+  "back": "You can delete up to 30 backgrounds at a time and write them in PNG, JPG, WEBP.",
+  "sim": 0.38
+ },
+ {
+  "k": "onboardingNext",
+  "en": "Next",
+  "tr": "次へ",
+  "back": "Let's go to the next one.",
+  "sim": 0.29
+ },
+ {
+  "k": "onboardingGetStarted",
+  "en": "Get Started",
+  "tr": "はじめる",
+  "back": "Let's get started.",
+  "sim": 0.8
+ },
+ {
+  "k": "homeCameraButton",
+  "en": "Camera",
+  "tr": "カメラ",
+  "back": "It's a camera.",
+  "sim": 0.5
+ },
+ {
+  "k": "homeGalleryButton",
+  "en": "Gallery",
+  "tr": "ギャラリー",
+  "back": "The gallery.",
+  "sim": 0.67
+ },
+ {
+  "k": "dateToday",
+  "en": "Today",
+  "tr": "今日",
+  "back": "It's today.",
+  "sim": 0.67
+ },
+ {
+  "k": "dateYesterday",
+  "en": "Yesterday",
+  "tr": "昨日",
+  "back": "Yesterday.",
+  "sim": 1.0
+ },
+ {
+  "k": "homeRecentExports",
+  "en": "Recent Exports",
+  "tr": "最近の書き出し",
+  "back": "I've been writing about it lately.",
+  "sim": 0.0
+ },
+ {
+  "k": "homeEmptyStateMessage",
+  "en": "Tap Camera or Gallery to start.",
+  "tr": "カメラまたはギャラリーをタップして開始します。",
+  "back": "You can start by tapping the camera or the gallery.",
+  "sim": 0.38
+ },
+ {
+  "k": "homeExportUnavailable",
+  "en": "This export is no longer available.",
+  "tr": "この書き出しは利用できなくなりました。",
+  "back": "This typewriter is no longer available.",
+  "sim": 0.83
+ },
+ {
+  "k": "homeShareFailed",
+  "en": "Could not share this export.",
+  "tr": "この書き出しを共有できませんでした。",
+  "back": "I couldn't share this writing.",
+  "sim": 0.4
+ },
+ {
+  "k": "homeGalleryOpenFailed",
+  "en": "Could not open gallery.",
+  "tr": "ギャラリーを開けませんでした。",
+  "back": "I didn't open the gallery.",
+  "sim": 0.44
+ },
+ {
+  "k": "cameraTitle",
+  "en": "Camera",
+  "tr": "カメラ",
+  "back": "It's a camera.",
+  "sim": 0.5
+ },
+ {
+  "k": "cameraPermissionDenied",
+  "en": "Camera access is needed to take a photo. Please allow access.",
+  "tr": "写真を撮るにはカメラへのアクセスが必要です。アクセスを許可してください。",
+  "back": "If you want to take a picture, you need access to the camera.",
+  "sim": 0.33
+ },
+ {
+  "k": "cameraPermissionPermanentlyDenied",
+  "en": "Camera access was denied. Enable it in Settings to continue.",
+  "tr": "カメラへのアクセスが拒否されました。続けるには設定で有効にしてください。",
+  "back": "I've been denied access to the camera.",
+  "sim": 0.12
+ },
+ {
+  "k": "cameraPermissionRestricted",
+  "en": "Camera access is restricted on this device.",
+  "tr": "このデバイスではカメラへのアクセスが制限されています。",
+  "back": "This device has limited access to the camera.",
+  "sim": 0.27
+ },
+ {
+  "k": "cameraNoCameraFound",
+  "en": "No camera found on this device.",
+  "tr": "このデバイスにカメラが見つかりません。",
+  "back": "I can't find a camera on this device.",
+  "sim": 0.57
+ },
+ {
+  "k": "cameraStartFailed",
+  "en": "Could not start the camera.",
+  "tr": "カメラを起動できませんでした。",
+  "back": "I couldn't turn the camera on.",
+  "sim": 0.36
+ },
+ {
+  "k": "cameraCaptureFailed",
+  "en": "Could not capture photo.",
+  "tr": "写真を撮影できませんでした。",
+  "back": "I couldn't take a picture.",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraOpenSettings",
+  "en": "Open Settings",
+  "tr": "設定を開く",
+  "back": "Open the settings.",
+  "sim": 0.8
+ },
+ {
+  "k": "cameraFlashTooltip",
+  "en": "Flash",
+  "tr": "フラッシュ",
+  "back": "It's a flash.",
+  "sim": 0.5
+ },
+ {
+  "k": "cameraGalleryTooltip",
+  "en": "Gallery",
+  "tr": "ギャラリー",
+  "back": "The gallery.",
+  "sim": 0.67
+ },
+ {
+  "k": "cropTitle",
+  "en": "Crop & Rotate",
+  "tr": "切り抜きと回転",
+  "back": "Cut and spin.",
+  "sim": 0.0
+ },
+ {
+  "k": "cropLoadFailed",
+  "en": "Could not load the image.",
+  "tr": "画像を読み込めませんでした。",
+  "back": "I couldn't read the image.",
+  "sim": 0.4
+ },
+ {
+  "k": "cropRotateFailed",
+  "en": "Could not rotate the image.",
+  "tr": "画像を回転できませんでした。",
+  "back": "I couldn't rotate the image.",
+  "sim": 0.6
+ },
+ {
+  "k": "cropFailed",
+  "en": "Crop failed.",
+  "tr": "切り抜きに失敗しました。",
+  "back": "I failed to cut it off.",
+  "sim": 0.25
+ },
+ {
+  "k": "cropSaveFailed",
+  "en": "Could not save the cropped image.",
+  "tr": "切り抜いた画像を保存できませんでした。",
+  "back": "I couldn't save the cut-out image.",
+  "sim": 0.5
+ },
+ {
+  "k": "cropAspectFree",
+  "en": "Free",
+  "tr": "自由",
+  "back": "I'm free.",
+  "sim": 0.67
+ },
+ {
+  "k": "cropContinue",
+  "en": "Continue",
+  "tr": "続ける",
+  "back": "Keep going.",
+  "sim": 0.0
+ },
+ {
+  "k": "editorSegmentationFailedMessage",
+  "en": "Your device doesn't support automatic background removal. Use the manual brush below.",
+  "tr": "お使いのデバイスは自動背景削除に対応していません。下の手動ブラシをお使いください。",
+  "back": "The device you're using doesn't support automatic background removal. Please use the manual brush below.",
+  "sim": 0.81
+ },
+ {
+  "k": "brushErase",
+  "en": "Erase",
+  "tr": "消去",
+  "back": "Get out of here.",
+  "sim": 0.0
+ },
+ {
+  "k": "brushRestore",
+  "en": "Restore",
+  "tr": "復元",
+  "back": "It's been restored.",
+  "sim": 0.0
+ },
+ {
+  "k": "brushSizeLabel",
+  "en": "Brush Size",
+  "tr": "ブラシサイズ",
+  "back": "The size of the brush.",
+  "sim": 0.29
+ },
+ {
+  "k": "brushOpacityLabel",
+  "en": "Opacity",
+  "tr": "不透明度",
+  "back": "The lack of transparency.",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundWhite",
+  "en": "White",
+  "tr": "白",
+  "back": "It's white.",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundTransparent",
+  "en": "Transparent",
+  "tr": "透明",
+  "back": "It's transparent.",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundBlack",
+  "en": "Black",
+  "tr": "黒",
+  "back": "It's black.",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundBlurLabel",
+  "en": "Blur",
+  "tr": "ぼかし",
+  "back": "It's a waste of time.",
+  "sim": 0.0
+ },
+ {
+  "k": "edgeFeatherLabel",
+  "en": "Edge Smoothness",
+  "tr": "エッジのなめらかさ",
+  "back": "It's the edge.",
+  "sim": 0.4
+ },
+ {
+  "k": "toolbarUndo",
+  "en": "Undo",
+  "tr": "元に戻す",
+  "back": "I'll get it back to you.",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarRedo",
+  "en": "Redo",
+  "tr": "やり直し",
+  "back": "Let's do it again.",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarReset",
+  "en": "Reset",
+  "tr": "リセット",
+  "back": "Reset it.",
+  "sim": 0.67
+ },
+ {
+  "k": "toolbarExport",
+  "en": "Export",
+  "tr": "書き出し",
+  "back": "Write it down.",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmTitle",
+  "en": "Reset edits?",
+  "tr": "編集をリセットしますか？",
+  "back": "Do you want to reset the editing?",
+  "sim": 0.22
+ },
+ {
+  "k": "resetConfirmBody",
+  "en": "This clears your manual brush strokes. This cannot be undone.",
+  "tr": "手動のブラシ操作がすべて消去されます。この操作は取り消せません。",
+  "back": "All manual brushes are deleted.",
+  "sim": 0.13
+ },
+ {
+  "k": "resetConfirmCancel",
+  "en": "Cancel",
+  "tr": "キャンセル",
+  "back": "Cancelled.",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmConfirm",
+  "en": "Reset",
+  "tr": "リセット",
+  "back": "Reset it.",
+  "sim": 0.67
+ },
+ {
+  "k": "exportTitle",
+  "en": "Export",
+  "tr": "書き出し",
+  "back": "Write it down.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportQualityLabel",
+  "en": "Quality: {value}",
+  "tr": "品質: {value}",
+  "back": "Quality: [value]",
+  "sim": 1.0
+ },
+ {
+  "k": "exportResizeLabel",
+  "en": "Resize",
+  "tr": "サイズ変更",
+  "back": "Change the size.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeOriginal",
+  "en": "Original",
+  "tr": "オリジナル",
+  "back": "It's the original.",
+  "sim": 0.5
+ },
+ {
+  "k": "exportResizeCustom",
+  "en": "Custom",
+  "tr": "カスタム",
+  "back": "Customs, please.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportWidthLabel",
+  "en": "Width (px)",
+  "tr": "幅 (px)",
+  "back": "The width (px)",
+  "sim": 0.8
+ },
+ {
+  "k": "exportHeightLabel",
+  "en": "Height (px)",
+  "tr": "高さ (px)",
+  "back": "Height (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSaveToGallery",
+  "en": "Save to Gallery",
+  "tr": "ギャラリーに保存",
+  "back": "Keep it in the gallery.",
+  "sim": 0.25
+ },
+ {
+  "k": "exportShare",
+  "en": "Share",
+  "tr": "共有",
+  "back": "Shared.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportSuccess",
+  "en": "Exported!",
+  "tr": "書き出しました！",
+  "back": "I wrote it down!",
+  "sim": 0.0
+ },
+ {
+  "k": "exportFailed",
+  "en": "Export failed. Please try again.",
+  "tr": "書き出しに失敗しました。もう一度お試しください。",
+  "back": "I failed to type. Please try again.",
+  "sim": 0.67
+ },
+ {
+  "k": "exportInProgress",
+  "en": "Exporting…",
+  "tr": "書き出し中…",
+  "back": "I'm writing it down.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTitle",
+  "en": "Settings",
+  "tr": "設定",
+  "back": "Set it up.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTheme",
+  "en": "Theme",
+  "tr": "テーマ",
+  "back": "The theme.",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsLanguage",
+  "en": "Language",
+  "tr": "言語",
+  "back": "The language.",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "購入の復元",
+  "back": "Recovering the purchase.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsGoAdFree",
+  "en": "Go Ad-Free",
+  "tr": "広告を削除",
+  "back": "Remove the ads.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsPrivacyPolicy",
+  "en": "Privacy Policy",
+  "tr": "プライバシーポリシー",
+  "back": "Privacy policy",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsSupport",
+  "en": "Support",
+  "tr": "サポート",
+  "back": "I'm here to help.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsRateApp",
+  "en": "Rate App",
+  "tr": "アプリを評価",
+  "back": "Applications are evaluated.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsShareApp",
+  "en": "Share App",
+  "tr": "アプリを共有",
+  "back": "Share the app.",
+  "sim": 0.8
+ },
+ {
+  "k": "settingsLicenses",
+  "en": "Open-source licenses",
+  "tr": "オープンソースライセンス",
+  "back": "It's an open source license.",
+  "sim": 0.0
+ },
+ {
+  "k": "reminderChannelName",
+  "en": "Edit reminders",
+  "tr": "編集のリマインダー",
+  "back": "It's a reminder of the editing.",
+  "sim": 0.0
+ },
+ {
+  "k": "reminderChannelDescription",
+  "en": "Reminders about edits you have not finished.",
+  "tr": "未完了の編集についてのリマインダーです。",
+  "back": "It's a reminder of unfinished editing.",
+  "sim": 0.0
+ },
+ {
+  "k": "reminderTitle",
+  "en": "Your edit is waiting",
+  "tr": "編集が待っています",
+  "back": "I'm waiting for the editing.",
+  "sim": 0.22
+ },
+ {
+  "k": "reminderBody",
+  "en": "Pick up where you left off and export your photo.",
+  "tr": "続きから再開して、写真を書き出しましょう。",
+  "back": "Let's start again and write a picture.",
+  "sim": 0.12
+ },
+ {
+  "k": "settingsReminders",
+  "en": "Edit reminders",
+  "tr": "編集のリマインダー",
+  "back": "It's a reminder of the editing.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsAnimatedBackground",
+  "en": "Animated home background",
+  "tr": "ホームのアニメ背景",
+  "back": "The backdrop of the home anime.",
+  "sim": 0.22
+ },
+ {
+  "k": "settingsRemindersSubtitle",
+  "en": "Remind me about unfinished edits",
+  "tr": "未完了の編集を通知する",
+  "back": "I'll let you know if the editing is complete.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsRemindersBlocked",
+  "en": "Notifications are turned off for PhotoSur in your phone's settings.",
+  "tr": "PhotoSur の通知は端末の設定でオフになっています。",
+  "back": "PhotoSur's notification is off on the device settings.",
+  "sim": 0.22
+ },
+ {
+  "k": "editorBrushHint",
+  "en": "Drag to paint. Pinch with two fingers to zoom.",
+  "tr": "ドラッグして描画します。2本指でピンチして拡大できます。",
+  "back": "I'll drag it and draw it. I can pinch it with two fingers and expand it.",
+  "sim": 0.4
+ },
+ {
+  "k": "editorToolCutout",
+  "en": "Cut-out",
+  "tr": "切り抜き",
+  "back": "Cut it off.",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBrush",
+  "en": "Brush",
+  "tr": "ブラシ",
+  "back": "The brush.",
+  "sim": 0.67
+ },
+ {
+  "k": "editorToolBackground",
+  "en": "Background",
+  "tr": "背景",
+  "back": "The background.",
+  "sim": 0.67
+ },
+ {
+  "k": "editorToolLayout",
+  "en": "Layout",
+  "tr": "レイアウト",
+  "back": "The layout.",
+  "sim": 0.67
+ },
+ {
+  "k": "layoutAutoCenter",
+  "en": "Auto-center",
+  "tr": "自動で中央に",
+  "back": "It's automated. It's in the center.",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutSizeLabel",
+  "en": "Size",
+  "tr": "サイズ",
+  "back": "The size.",
+  "sim": 0.67
+ },
+ {
+  "k": "layoutShadowLabel",
+  "en": "Shadow",
+  "tr": "影",
+  "back": "The shadow.",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundPhoto",
+  "en": "Photo",
+  "tr": "写真",
+  "back": "It's a photo.",
+  "sim": 0.5
+ },
+ {
+  "k": "backgroundPhotoFailed",
+  "en": "Could not load that photo.",
+  "tr": "その写真を読み込めませんでした。",
+  "back": "I couldn't read the picture.",
+  "sim": 0.0
+ },
+ {
+  "k": "editorLayoutHint",
+  "en": "Drag to move. Pinch with two fingers to resize.",
+  "tr": "ドラッグで移動、2本指のピンチでサイズ変更できます。",
+  "back": "You can move around with a drug, you can change the size with two fingers.",
+  "sim": 0.33
+ },
+ {
+  "k": "languageSystemDefault",
+  "en": "System default",
+  "tr": "システムのデフォルト",
+  "back": "Default of the system.",
+  "sim": 0.33
+ },
+ {
+  "k": "languageSheetTitle",
+  "en": "Language",
+  "tr": "言語",
+  "back": "The language.",
+  "sim": 0.67
+ },
+ {
+  "k": "themeSheetTitle",
+  "en": "Theme",
+  "tr": "テーマ",
+  "back": "The theme.",
+  "sim": 0.67
+ },
+ {
+  "k": "themeOptionSystem",
+  "en": "System default",
+  "tr": "システムのデフォルト",
+  "back": "Default of the system.",
+  "sim": 0.33
+ },
+ {
+  "k": "themeOptionLight",
+  "en": "Light",
+  "tr": "ライト",
+  "back": "The lights.",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionDark",
+  "en": "Dark",
+  "tr": "ダーク",
+  "back": "It's dark.",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsLinkNotReady",
+  "en": "This link isn't set up yet.",
+  "tr": "このリンクはまだ設定されていません。",
+  "back": "This link hasn't been set yet.",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsLinkOpenFailed",
+  "en": "Could not open link.",
+  "tr": "リンクを開けませんでした。",
+  "back": "I didn't open the link.",
+  "sim": 0.44
+ },
+ {
+  "k": "settingsRestoreRequested",
+  "en": "Restore requested — check back in a moment.",
+  "tr": "復元をリクエストしました。しばらくしてからご確認ください。",
+  "back": "I've requested a restoration. Please check after a while.",
+  "sim": 0.38
+ },
+ {
+  "k": "settingsRestoreFailed",
+  "en": "Restore failed.",
+  "tr": "復元に失敗しました。",
+  "back": "I failed to recover it.",
+  "sim": 0.29
+ },
+ {
+  "k": "settingsShareFailed",
+  "en": "Could not share.",
+  "tr": "共有できませんでした。",
+  "back": "I couldn't share it.",
+  "sim": 0.29
+ },
+ {
+  "k": "settingsShareAppMessage",
+  "en": "Remove photo backgrounds instantly with PhotoSur — free, no watermark.",
+  "tr": "PhotoSur で写真の背景をすぐに削除。無料で透かしなし。",
+  "back": "PhotoSur will remove the background of the photo instantly.",
+  "sim": 0.33
+ },
+ {
+  "k": "paywallTitle",
+  "en": "Go Ad-Free",
+  "tr": "広告を削除",
+  "back": "Remove the ads.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallAlreadyAdFree",
+  "en": "You're already ad-free. Thank you!",
+  "tr": "すでに広告は非表示です。ありがとうございます！",
+  "back": "The ads are already off the air. Thank you!",
+  "sim": 0.43
+ },
+ {
+  "k": "paywallPlanFreeTitle",
+  "en": "Free",
+  "tr": "無料",
+  "back": "It's free.",
+  "sim": 0.67
+ },
+ {
+  "k": "paywallPlanAdFreeTitle",
+  "en": "Ad-Free",
+  "tr": "広告なし",
+  "back": "There's no advertising.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPlanAdFreePrice",
+  "en": "One-time purchase",
+  "tr": "1回払い",
+  "back": "I'll pay you once.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureAllFeatures",
+  "en": "All features",
+  "tr": "すべての機能",
+  "back": "All the functionality.",
+  "sim": 0.4
+ },
+ {
+  "k": "paywallFeatureAdSupported",
+  "en": "Ad-supported",
+  "tr": "広告付き",
+  "back": "It's advertised.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureZeroAds",
+  "en": "Zero ads",
+  "tr": "広告ゼロ",
+  "back": "There's no advertising.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPurchaseButton",
+  "en": "Remove Ads",
+  "tr": "広告を削除",
+  "back": "Remove the ads.",
+  "sim": 0.8
+ },
+ {
+  "k": "paywallPurchaseButtonPrice",
+  "en": "Remove Ads — {price}",
+  "tr": "広告を削除 — {price}",
+  "back": "Remove the ad.",
+  "sim": 0.33
+ },
+ {
+  "k": "paywallRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "購入の復元",
+  "back": "Recovering the purchase.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallProductUnavailable",
+  "en": "Ad removal is not available right now.",
+  "tr": "広告の削除は現在ご利用いただけません。",
+  "back": "You can't delete ads right now.",
+  "sim": 0.31
+ },
+ {
+  "k": "paywallPurchaseFailed",
+  "en": "Purchase failed.",
+  "tr": "購入に失敗しました。",
+  "back": "I didn't buy it.",
+  "sim": 0.0
+ },
+ {
+  "k": "errorScreenTitle",
+  "en": "Something went wrong",
+  "tr": "問題が発生しました",
+  "back": "There was a problem.",
+  "sim": 0.0
+ },
+ {
+  "k": "errorScreenBody",
+  "en": "Try again, or restart the app if this keeps happening.",
+  "tr": "もう一度お試しください。問題が続く場合はアプリを再起動してください。",
+  "back": "Please try again. If the problem persists, please restart the app.",
+  "sim": 0.48
+ },
+ {
+  "k": "errorScreenGoBack",
+  "en": "Go back",
+  "tr": "戻る",
+  "back": "I'll be right back.",
+  "sim": 0.33
+ },
+ {
+  "k": "errorScreenReportEmail",
+  "en": "Report via {email}",
+  "tr": "{email} に報告",
+  "back": "Report to [email]",
+  "sim": 0.67
+ },
+ {
+  "k": "unsupportedTitle",
+  "en": "Device Not Supported",
+  "tr": "非対応のデバイス",
+  "back": "It's an unresponsive device.",
+  "sim": 0.29
+ },
+ {
+  "k": "unsupportedNoCameraMessage",
+  "en": "This device doesn't have a camera available.",
+  "tr": "このデバイスでは利用できるカメラがありません。",
+  "back": "There's no camera available on this device.",
+  "sim": 0.29
+ },
+ {
+  "k": "unsupportedLowMemoryMessage",
+  "en": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
+  "tr": "このデバイスには、PhotoSur のエディタを安定して動かすためのメモリが足りません。",
+  "back": "This device doesn't have enough memory to keep the PhotoSur editor running.",
+  "sim": 0.7
+ },
+ {
+  "k": "unsupportedManualImportHint",
+  "en": "You can still import a photo from your gallery and use the manual brush tool.",
+  "tr": "ギャラリーから写真を読み込んで、手動ブラシを使うことはできます。",
+  "back": "You can read photos from the gallery and use a manual brush.",
+  "sim": 0.59
+ },
+ {
+  "k": "unsupportedUseGalleryButton",
+  "en": "Import from Gallery",
+  "tr": "ギャラリーから読み込む",
+  "back": "I'm reading it from the gallery.",
+  "sim": 0.44
+ },
+ {
+  "k": "homeBatchButton",
+  "en": "Batch",
+  "tr": "一括",
+  "back": "All in all.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchTitle",
+  "en": "Batch cut-out",
+  "tr": "一括切り抜き",
+  "back": "I'm going to cut it all out.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchOutputTransparent",
+  "en": "Transparent PNG",
+  "tr": "透過PNG",
+  "back": "It's a translucent PNG.",
+  "sim": 0.33
+ },
+ {
+  "k": "batchOutputWhite",
+  "en": "White background (JPG)",
+  "tr": "白背景（JPG）",
+  "back": "The white background. JPG.",
+  "sim": 0.86
+ },
+ {
+  "k": "batchStart",
+  "en": "Start",
+  "tr": "開始",
+  "back": "Let's get started.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchStop",
+  "en": "Stop",
+  "tr": "停止",
+  "back": "Stop it.",
+  "sim": 0.67
+ },
+ {
+  "k": "batchDone",
+  "en": "Done",
+  "tr": "完了",
+  "back": "It's finished.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchProgress",
+  "en": "{done} of {total} done",
+  "tr": "{total}枚中{done}枚完了",
+  "back": "[total] of the [done] completed",
+  "sim": 0.22
+ },
+ {
+  "k": "batchSaved",
+  "en": "{count} saved to your gallery",
+  "tr": "{count}枚をギャラリーに保存しました",
+  "back": "I saved the [count] in the gallery.",
+  "sim": 0.33
+ },
+ {
+  "k": "batchSomeFailed",
+  "en": "{count} could not be processed",
+  "tr": "{count}枚は処理できませんでした",
+  "back": "I couldn't process the [count].",
+  "sim": 0.2
+ },
+ {
+  "k": "batchTooMany",
+  "en": "Up to {max} photos at a time",
+  "tr": "一度に最大{max}枚まで",
+  "back": "I'm going to get a maximum of [max] at a time.",
+  "sim": 0.56
+ },
+ {
+  "k": "backgroundAddCustom",
+  "en": "Add custom background",
+  "tr": "カスタム背景を追加",
+  "back": "Add a custom background.",
+  "sim": 0.86
+ },
+ {
+  "k": "backgroundCustomColor",
+  "en": "Custom color",
+  "tr": "カスタムカラー",
+  "back": "It's a custom color.",
+  "sim": 0.67
+ },
+ {
+  "k": "colorSaturation",
+  "en": "Saturation",
+  "tr": "彩度",
+  "back": "It's the color.",
+  "sim": 0.0
+ },
+ {
+  "k": "colorBrightness",
+  "en": "Brightness",
+  "tr": "明るさ",
+  "back": "It's clear.",
+  "sim": 0.0
+ },
+ {
+  "k": "colorHexLabel",
+  "en": "Hex code",
+  "tr": "16進コード",
+  "back": "Sixteen codes.",
+  "sim": 0.0
+ },
+ {
+  "k": "colorPickerDone",
+  "en": "Done",
+  "tr": "完了",
+  "back": "It's finished.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceLabel",
+  "en": "Marketplace",
+  "tr": "マーケットプレイス",
+  "back": "The marketplace.",
+  "sim": 0.67
+ },
+ {
+  "k": "exportMarketplaceWhiteFill",
+  "en": "Pure white background, product fills the frame",
+  "tr": "真っ白な背景、商品がフレームいっぱい",
+  "back": "It's a blank background. It's full of frames.",
+  "sim": 0.13
+ },
+ {
+  "k": "exportMarketplaceSizeCap",
+  "en": "File kept under {size} MB",
+  "tr": "ファイルサイズ {size} MB 未満",
+  "back": "The file size is less than MB.",
+  "sim": 0.5
+ },
+ {
+  "k": "editorToolTemplates",
+  "en": "Templates",
+  "tr": "テンプレート",
+  "back": "The template.",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTitle",
+  "en": "Choose a template",
+  "tr": "テンプレートを選ぶ",
+  "back": "Choose a template.",
+  "sim": 1.0
+ },
+ {
+  "k": "templatesStudio",
+  "en": "Studio",
+  "tr": "スタジオ",
+  "back": "The studio.",
+  "sim": 0.67
+ },
+ {
+  "k": "templatesColorBlock",
+  "en": "Color block",
+  "tr": "カラーブロック",
+  "back": "Colored blocks.",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTextures",
+  "en": "Textures",
+  "tr": "テクスチャ",
+  "back": "The texture.",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesLight",
+  "en": "Light & shadow",
+  "tr": "光と影",
+  "back": "Light and shadow.",
+  "sim": 0.8
+ },
+ {
+  "k": "templatesPatterns",
+  "en": "Gradients & patterns",
+  "tr": "グラデーションとパターン",
+  "back": "The gradation and the pattern.",
+  "sim": 0.0
+ },
+ {
+  "k": "hdGetAction",
+  "en": "Get HD cut-out",
+  "tr": "HD切り抜きを入手",
+  "back": "Get the HD cut off.",
+  "sim": 0.5
+ },
+ {
+  "k": "hdRedoAction",
+  "en": "Redo cut-out in HD",
+  "tr": "HDで切り抜きをやり直す",
+  "back": "I'm going to start cutting again in HD.",
+  "sim": 0.33
+ },
+ {
+  "k": "hdDownloading",
+  "en": "HD cut-out in progress… {percent}%",
+  "tr": "HD切り抜きを処理中… {percent}%",
+  "back": "I'm working on the HD cutting... [percent] percent.",
+  "sim": 0.31
+ },
+ {
+  "k": "hdDownloadingShort",
+  "en": "HD cut-out… {percent}%",
+  "tr": "HD切り抜き… {percent}%",
+  "back": "I'm going to cut out the HD.",
+  "sim": 0.2
+ },
+ {
+  "k": "hdConfirmTitle",
+  "en": "Download HD cut-out model?",
+  "tr": "HD切り抜きモデルをダウンロードしますか？",
+  "back": "Do you want to download an HD cutting model?",
+  "sim": 0.46
+ },
+ {
+  "k": "hdConfirmBody",
+  "en": "Cleaner edges on tricky objects like shoes, bags and bottles. It downloads once, stays on your phone and then works offline. Mobile data charges may apply.",
+  "tr": "靴・バッグ・ボトルなど難しい被写体でも輪郭がよりきれいに。ダウンロードは1回だけで、端末に保存され、その後はオフラインで使えます。モバイルデータ通信料がかかる場合があります。",
+  "back": "It's even cleaner when you're taking a hard copy, like shoes, bags, bottles, downloading it once, storing it on your device, and then using it offline, which can cost a lot of mobile data.",
+  "sim": 0.47
+ },
+ {
+  "k": "hdDownload",
+  "en": "Download",
+  "tr": "ダウンロード",
+  "back": "Download it now.",
+  "sim": 0.5
+ },
+ {
+  "k": "hdFailed",
+  "en": "HD cut-out didn’t finish. Check your connection and try again.",
+  "tr": "HD切り抜きが完了しませんでした。接続を確認してもう一度お試しください。",
+  "back": "I didn't finish cutting the HD.",
+  "sim": 0.25
+ },
+ {
+  "k": "settingsHdTitle",
+  "en": "HD cut-out model",
+  "tr": "HD切り抜きモデル",
+  "back": "It's an HD cutting model.",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsHdNotInstalled",
+  "en": "Not downloaded",
+  "tr": "未ダウンロード",
+  "back": "It's not downloaded.",
+  "sim": 0.8
+ },
+ {
+  "k": "settingsHdInstalled",
+  "en": "Installed · works offline",
+  "tr": "インストール済み · オフライン対応",
+  "back": "It's installed. It's offline.",
+  "sim": 0.57
+ },
+ {
+  "k": "settingsHdRemove",
+  "en": "Remove",
+  "tr": "削除",
+  "back": "Remove it.",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsReplayIntro",
+  "en": "Replay intro",
+  "tr": "イントロをもう一度見る",
+  "back": "I'm going to look at the introduction again.",
+  "sim": 0.0
+ },
+ {
+  "k": "homeSeeAll",
+  "en": "See all",
+  "tr": "すべて表示",
+  "back": "It's all there.",
+  "sim": 0.4
+ },
+ {
+  "k": "exportActionEdit",
+  "en": "Edit again",
+  "tr": "もう一度編集",
+  "back": "Editing again.",
+  "sim": 0.5
+ },
+ {
+  "k": "exportActionDelete",
+  "en": "Delete",
+  "tr": "削除",
+  "back": "Remove it.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMoreOptions",
+  "en": "More options",
+  "tr": "その他のオプション",
+  "back": "Other options.",
+  "sim": 0.5
+ },
+ {
+  "k": "exportDeleteTitle",
+  "en": "Delete this export?",
+  "tr": "この書き出しを削除しますか？",
+  "back": "Can you delete this typeface?",
+  "sim": 0.5
+ },
+ {
+  "k": "exportDeleteBody",
+  "en": "Exported images are removed from this phone. Your original photos and anything saved to your gallery are not affected.",
+  "tr": "書き出した画像はこのスマートフォンから削除されます。元の写真やギャラリーに保存したものには影響しません。",
+  "back": "The images you've written down will be deleted from this smartphone, without affecting the original photos or the gallery.",
+  "sim": 0.32
+ },
+ {
+  "k": "exportSavedToGallery",
+  "en": "Saved to your gallery",
+  "tr": "ギャラリーに保存しました",
+  "back": "I saved it in the gallery.",
+  "sim": 0.4
+ },
+ {
+  "k": "exportSaveFailed",
+  "en": "Could not save to the gallery.",
+  "tr": "ギャラリーに保存できませんでした。",
+  "back": "I couldn't save it in the gallery.",
+  "sim": 0.46
+ },
+ {
+  "k": "exportUnavailable",
+  "en": "Unavailable",
+  "tr": "利用できません",
+  "back": "We can't use it.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsGroupThisWeek",
+  "en": "This week",
+  "tr": "今週",
+  "back": "This week.",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsGroupEarlier",
+  "en": "Earlier",
+  "tr": "それ以前",
+  "back": "Before that.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsStorageUsed",
+  "en": "{size} used on this phone",
+  "tr": "このスマートフォンで {size} 使用中",
+  "back": "I'm using this smartphone.",
+  "sim": 0.22
+ },
+ {
+  "k": "exportsSelect",
+  "en": "Select",
+  "tr": "選択",
+  "back": "The choice.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsDone",
+  "en": "Done",
+  "tr": "完了",
+  "back": "It's finished.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsSelectedCount",
+  "en": "{count} selected",
+  "tr": "{count} 件選択中",
+  "back": "[Counting] In the process of selection.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsDeleteSelectedTitle",
+  "en": "Delete {count} exports?",
+  "tr": "{count} 件の書き出しを削除しますか？",
+  "back": "[count] Do you want to delete the transcript?",
+  "sim": 0.18
+ },
+ {
+  "k": "exportsDeleteAll",
+  "en": "Delete all exports",
+  "tr": "すべての書き出しを削除",
+  "back": "Delete all the headings.",
+  "sim": 0.57
+ },
+ {
+  "k": "exportsDeleteAllTitle",
+  "en": "Delete all exports?",
+  "tr": "すべての書き出しを削除しますか？",
+  "back": "Do you want to delete all the headings?",
+  "sim": 0.36
+ },
+ {
+  "k": "helpTitle",
+  "en": "Help & how to use",
+  "tr": "ヘルプと使い方",
+  "back": "Help and how to use it.",
+  "sim": 0.8
+ },
+ {
+  "k": "helpIntro",
+  "en": "Tap a topic to read how it works.",
+  "tr": "トピックをタップすると、その仕組みを読めます。",
+  "back": "You tap on a topic, and you can read how it works.",
+  "sim": 0.7
+ },
+ {
+  "k": "helpStartTitle",
+  "en": "Getting started",
+  "tr": "はじめに",
+  "back": "First of all.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpStart1",
+  "en": "On the home screen, tap Camera to take a photo or Gallery to pick one. Batch cuts out many photos at once.",
+  "tr": "ホーム画面で、写真を撮るには「カメラ」、既存の写真を選ぶには「ギャラリー」をタップします。「一括」は多くの写真をまとめて切り抜きます。",
+  "back": "On the home screen, you can tap \"camera\" to take pictures, and you can tap \"gallery\" to select existing photos.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpStart2",
+  "en": "Every photo opens in Crop & Rotate first, then in the editor. Your original photo is never changed.",
+  "tr": "写真はまず「切り抜きと回転」で開き、その後エディタに進みます。元の写真が変更されることはありません。",
+  "back": "The photo opens with \"cut and rotate\" and then goes to the editor.",
+  "sim": 0.4
+ },
+ {
+  "k": "helpStart3",
+  "en": "When you are happy, tap Export in the editor. Recent Exports on the home screen lists everything you have exported.",
+  "tr": "仕上がりに満足したら、エディタで「書き出し」をタップします。ホーム画面の「最近の書き出し」には、書き出したものがすべて表示されます。",
+  "back": "When you're satisfied with what you've done, you tap \"write\" in the editor, and the \"recent write\" on the home screen shows everything you've written.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpCropTitle",
+  "en": "Crop & Rotate",
+  "tr": "切り抜きと回転",
+  "back": "Cut and spin.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCrop1",
+  "en": "Turn the photo left or right in 90° steps, and drag the frame to choose the part you want to keep.",
+  "tr": "写真を90°ずつ左右に回転し、枠をドラッグして残したい部分を選びます。",
+  "back": "And then you rotate the image 90 degrees to the left, and then you drag the frame, and you choose the part you want to leave.",
+  "sim": 0.51
+ },
+ {
+  "k": "helpCrop2",
+  "en": "Free lets you shape the frame as you like. 1:1, 4:5 and 9:16 lock its shape. Tap Continue to open the editor.",
+  "tr": "「自由」では枠を好きな形にできます。1:1、4:5、9:16は枠の形を固定します。「続ける」をタップするとエディタが開きます。",
+  "back": "Now, with \"freedom\", you can change the frames to any shape you want.",
+  "sim": 0.17
+ },
+ {
+  "k": "helpCutoutTitle",
+  "en": "Cut-out",
+  "tr": "切り抜き",
+  "back": "Cut it off.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCutout1",
+  "en": "When the editor opens, PhotoSur finds the main subject and removes the background automatically, on your phone. No internet is needed.",
+  "tr": "エディタが開くと、PhotoSurが主役の被写体を見つけ、お使いのスマートフォン上で自動的に背景を取り除きます。インターネット接続は不要です。",
+  "back": "When the editor opens, PhotoSur finds the protagonist's camera and automatically removes the background from your smartphone. You don't need an internet connection.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpCutout2",
+  "en": "Edge Smoothness softens the edge of the cut-out, from 0 to 20 pixels.",
+  "tr": "「エッジのなめらかさ」は、切り抜きの縁を0〜20ピクセルの範囲でやわらかくします。",
+  "back": "And the edge blur makes the cutting edge blur in a range of 0 to 20 pixels.",
+  "sim": 0.47
+ },
+ {
+  "k": "helpCutout3",
+  "en": "The eye button at the top shows your original photo so you can compare. Tap it again to go back. The brush is paused while the original is shown.",
+  "tr": "上部の目のボタンをタップすると、比較用に元の写真が表示されます。もう一度タップすると戻ります。元の写真を表示している間、ブラシは一時停止します。",
+  "back": "If you tap the eye button at the top, you'll see the original image for comparison, and if you tap it again, you'll see it again.",
+  "sim": 0.4
+ },
+ {
+  "k": "helpCutout4",
+  "en": "For difficult subjects such as glass, shoes, bags and bottles, tap Get HD cut-out. The HD model downloads once, stays on your phone and then works offline. Once it is installed, every new cut-out uses it automatically. To redo the photo you have open, tap Redo cut-out in HD.",
+  "tr": "ガラス、靴、バッグ、ボトルなど難しい被写体には「HD切り抜きを入手」をタップします。HDモデルは一度だけダウンロードされ、スマートフォンに保存され、その後はオフラインで動作します。インストール後は、新しい切り抜きすべてで自動的に使われます。開いている写真をやり直すには、「HDで切り抜きをやり直す」をタップします。",
+  "back": "For the most difficult images, like glass, shoes, bags, bottles, you tap \"Get HD cutting\". The HD model is downloaded once, saved to your smartphone, and then runs offline. After installation, it's automatically used for all new cutting. To restart an open photo, you tap \"Start cutting in HD\".",
+  "sim": 0.49
+ },
+ {
+  "k": "helpBrushTitle",
+  "en": "Brush",
+  "tr": "ブラシ",
+  "back": "The brush.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpBrush1",
+  "en": "Erase removes parts of the subject. Restore brings back parts the cut-out removed.",
+  "tr": "「消去」は被写体の一部を取り除きます。「復元」は切り抜きで取り除かれた部分を戻します。",
+  "back": "Removing is removing a part of the image. Restoring is removing and returning the part that was removed.",
+  "sim": 0.26
+ },
+ {
+  "k": "helpBrush2",
+  "en": "Drag one finger to paint. Use two fingers to zoom, up to 8 times, and to move the photo. The brush keeps its size on screen, so zooming in gives finer control.",
+  "tr": "1本の指でなぞって描きます。2本の指で最大8倍まで拡大し、写真を動かせます。ブラシは画面上のサイズが変わらないため、拡大するとより細かく作業できます。",
+  "back": "You can use one finger to create a picture, and you can use two fingers to magnify it up to eight times, and you can move the image.",
+  "sim": 0.43
+ },
+ {
+  "k": "helpBrush3",
+  "en": "Brush Size goes from 1 to 50. Opacity sets how strongly each stroke applies.",
+  "tr": "「ブラシサイズ」は1〜50です。「不透明度」は1回のストロークの濃さを決めます。",
+  "back": "The brush size is 1 to 50. The opacity determines the intensity of a stroke.",
+  "sim": 0.48
+ },
+ {
+  "k": "helpBrush4",
+  "en": "Undo and Redo step through your brush strokes. Reset clears all brush strokes and goes back to the automatic cut-out; it asks you to confirm first.",
+  "tr": "「元に戻す」と「やり直し」はブラシのストロークを順に行き来します。「リセット」はすべてのストロークを消して自動の切り抜きに戻します。先に確認が表示されます。",
+  "back": "\"Return\" and \"Restart\" go back and forth between the brush strokes.",
+  "sim": 0.16
+ },
+ {
+  "k": "helpBackgroundTitle",
+  "en": "Background",
+  "tr": "背景",
+  "back": "The background.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpBackground1",
+  "en": "Choose what goes behind your subject: transparent, white, black, a gradient, a colour, a blurred copy of your photo, or your own photo.",
+  "tr": "被写体の後ろに何を置くか選びます。透明、白、黒、グラデーション、色、写真のぼかしコピー、またはご自身の写真です。",
+  "back": "You choose what to put behind the subject -- transparent, white, black, gradation, color, a dried copy of the photo, or your own photo.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpBackground2",
+  "en": "Only one background is used at a time. Your latest choice replaces the earlier one.",
+  "tr": "一度に使われる背景は1つだけです。最後に選んだものが前の選択に置き換わります。",
+  "back": "There's only one background used once, and the last one you chose replaces the last one you chose.",
+  "sim": 0.42
+ },
+ {
+  "k": "helpBackground3",
+  "en": "Add custom background lets you pick a photo from your gallery. Custom color opens a colour picker. The Blur slider goes from 0 to 25.",
+  "tr": "「カスタム背景を追加」では、ギャラリーから写真を選べます。「カスタムカラー」はカラーピッカーを開きます。「ぼかし」スライダーは0〜25です。",
+  "back": "And then when you add a custom background, you can choose a photo from the gallery, and then when you add a custom color, you open a color picker, and then when you add a nude slide, it's 0 to 25.",
+  "sim": 0.45
+ },
+ {
+  "k": "helpBackground4",
+  "en": "Transparent shows a checkerboard while you edit. Export as PNG to keep it transparent.",
+  "tr": "「透明」は編集中、市松模様で表示されます。透明を保つにはPNGで書き出してください。",
+  "back": "\"Transparency\" will be displayed in a clustered, city maple format.",
+  "sim": 0.08
+ },
+ {
+  "k": "helpTemplatesTitle",
+  "en": "Templates",
+  "tr": "テンプレート",
+  "back": "The template.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpTemplates1",
+  "en": "Templates are ready-made backgrounds in five groups: Studio, Color block, Textures, Light & shadow, and Gradients & patterns. Five scenes are shown in the panel; tap the Templates button to see them all.",
+  "tr": "テンプレートは、スタジオ、カラーブロック、テクスチャ、光と影、グラデーションとパターンの5グループに分かれた、すぐ使える背景です。パネルには5つのシーンが表示されます。すべて見るには「テンプレート」ボタンをタップします。",
+  "back": "The templates are in five groups, the studio, the color blocks, the texture, the light and the shadow, the gradients and the patterns, and they're instantly available.",
+  "sim": 0.38
+ },
+ {
+  "k": "helpTemplates2",
+  "en": "Choosing a template works like choosing your own photo as the background: it replaces your earlier background choice.",
+  "tr": "テンプレートを選ぶのは、ご自身の写真を背景に選ぶのと同じです。以前の背景の選択が置き換わります。",
+  "back": "Choosing a template is the same as choosing your own photo in the background, replacing your previous background choices.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpLayoutTitle",
+  "en": "Layout",
+  "tr": "レイアウト",
+  "back": "The layout.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpLayout1",
+  "en": "Drag the subject on the photo to move it. Pinch with two fingers to resize it.",
+  "tr": "被写体を写真の上でドラッグすると移動できます。2本の指でピンチするとサイズを変えられます。",
+  "back": "You can move the image by dragging it over the photo, you can pinch it with two fingers, and you can change the size.",
+  "sim": 0.35
+ },
+ {
+  "k": "helpLayout2",
+  "en": "Choose Original, 1:1, 4:5 or 9:16 to set the shape of the final picture.",
+  "tr": "「オリジナル」「1:1」「4:5」「9:16」から選び、最終画像の形を決めます。",
+  "back": "So we're going to choose from the original 1:1, 4:5, 9:16, and then we're going to figure out the shape of the final image.",
+  "sim": 0.58
+ },
+ {
+  "k": "helpLayout3",
+  "en": "Size sets how big the subject is, from 20% to 300%. Shadow sets how strong its shadow is. Auto-center puts the subject back in the middle. Reset undoes moving and resizing.",
+  "tr": "「サイズ」は被写体の大きさを20%〜300%で決めます。「影」は影の濃さを決めます。「自動で中央に」は被写体を中央に戻します。「リセット」は移動とサイズ変更を元に戻します。",
+  "back": "The \"size\" determines the size of the image by 20% to 300%; the \"shadow\" determines the shadow's depth; the \"automatic and central\" returns the image to the center; the \"reset\" returns the movement and the change in size.",
+  "sim": 0.23
+ },
+ {
+  "k": "helpLayout4",
+  "en": "This shape is used when the export size is Original. If you choose a size preset or a marketplace in the export sheet, that decides the final shape instead.",
+  "tr": "この形は、書き出しサイズが「オリジナル」のときに使われます。書き出しシートでプリセットサイズやマーケットプレイスを選んだ場合は、そちらが最終的な形を決めます。",
+  "back": "This form is used when the writing size is \"original\". If you choose the preset size or marketplace on the writing sheet, it determines the final shape.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpExportTitle",
+  "en": "Export",
+  "tr": "書き出し",
+  "back": "Write it down.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpExport1",
+  "en": "Tap Export to open the export sheet. Nothing is applied until you tap Save to Gallery or Share, so you can change your choices as often as you like.",
+  "tr": "「書き出し」をタップすると書き出しシートが開きます。「ギャラリーに保存」または「共有」をタップするまで何も適用されないので、選択は何度でも変更できます。",
+  "back": "And when you tap \"write\", you'll write, and the sheet will open, and nothing will be applied until you tap \"save to gallery\" or \"share\", so you can change the selection any time you want.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpExport2",
+  "en": "PNG keeps transparency. JPG makes smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a small modern format; if your phone cannot make it, the file is saved as JPG. For JPG and WEBP, the Quality slider trades file size for detail.",
+  "tr": "PNGは透明を保ちます。JPGはファイルが小さくなりますが透明にできないため、透明な背景は白になります。WEBPは新しく軽量な形式で、お使いのスマートフォンで作成できない場合はJPGとして保存されます。JPGとWEBPでは、「品質」スライダーがファイルサイズとディテールのバランスを取ります。",
+  "back": "PNG keeps it transparent. JPG makes files smaller, but it doesn't make them transparent, so the transparent background becomes white. WEBP is a new lightweight format, and if you can't create it on your smartphone, it's saved as JPG.",
+  "sim": 0.49
+ },
+ {
+  "k": "helpExport3",
+  "en": "Original keeps your photo’s size, with the shape chosen in Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. Custom lets you type a width and height in pixels.",
+  "tr": "「オリジナル」は、レイアウトで選んだ形のまま、写真のサイズを保ちます。1:1は1080 × 1080、4:5は1080 × 1350、9:16は1080 × 1920です。「カスタム」では幅と高さをピクセルで入力できます。",
+  "back": "The original keeps the size of the image as it is in the layout. 1:1 is 1080 x 1080, 4:5, 1080 x 1350, 9:16 is 1080 x 1920.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpExport4",
+  "en": "Marketplace presets set size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG kept under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices, and choosing a format or size afterwards switches the marketplace off. Marketplace rules can change, so check your marketplace’s current requirements.",
+  "tr": "マーケットプレイスのプリセットは、サイズ・形式・品質を定めます。Amazonは2000 × 2000のJPG、eBayは1600 × 1600のJPG、Etsyは2667 × 2000のJPGで1 MB未満、Shopifyは2048 × 2048のPNGです。選ぶと形式とサイズの選択が置き換わり、その後で形式やサイズを選ぶとマーケットプレイスの選択は解除されます。マーケットプレイスの規則は変わることがあるため、お使いのマーケットプレイスの最新の要件をご確認ください。",
+  "back": "The pre-set of the marketplace determines the size, format and quality. Amazon has 2000 x 2000 JPG, eBay has 1600 x 1600 JPG, Etsy has 2667 x 2000 JPG less than 1 MB, Shopify has 2048 x 2048 PNG.",
+  "sim": 0.48
+ },
+ {
+  "k": "helpExport5",
+  "en": "Amazon also uses a pure white background with no shadow and fits the subject to fill most of the frame. Your background choice in the editor is not changed. The other marketplaces keep your background.",
+  "tr": "Amazonでは、影のない純白の背景も使い、被写体がフレームの大部分を占めるよう調整します。エディタでの背景の選択は変わりません。ほかのマーケットプレイスでは、選んだ背景がそのまま使われます。",
+  "back": "At Amazon, we also use a clear white background with no shadows, and we adjust the image to make up the bulk of the frame.",
+  "sim": 0.43
+ },
+ {
+  "k": "helpExport6",
+  "en": "Save to Gallery and Share both save the picture to your gallery and to Recent Exports. Share also opens your phone’s share menu. If saving to the gallery is not possible, the share menu opens instead. After exporting you return to the home screen.",
+  "tr": "「ギャラリーに保存」と「共有」はどちらも、画像をギャラリーと「最近の書き出し」に保存します。「共有」はさらに、スマートフォンの共有メニューを開きます。ギャラリーに保存できない場合は、代わりに共有メニューが開きます。書き出しのあとは、ホーム画面に戻ります。",
+  "back": "Now, both \"Save to Gallery\" and \"Share\" save the images to the gallery and \"Recent Writing\". And then \"Share\" opens the Sharing menu on your smartphone.",
+  "sim": 0.34
+ },
+ {
+  "k": "helpExport7",
+  "en": "Unless you have removed ads, an ad can appear after an export, at most once every two minutes.",
+  "tr": "広告を削除していない場合、書き出しのあとに広告が表示されることがあります。表示は2分に1回までです。",
+  "back": "If you don't delete an ad, it may appear after you've written it down.",
+  "sim": 0.31
+ },
+ {
+  "k": "helpBatchTitle",
+  "en": "Batch",
+  "tr": "一括",
+  "back": "All in all.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBatch1",
+  "en": "Batch cuts out up to 30 photos in one go. Tap Batch on the home screen and pick your photos. The back button is turned off while a batch runs.",
+  "tr": "「一括」は最大30枚の写真をまとめて切り抜きます。ホーム画面で「一括」をタップして写真を選びます。一括処理の実行中は、戻るボタンが無効になります。",
+  "back": "So the whole thing is going to take up to 30 photos, and then you cut them, and then you tap the whole thing on the home screen, and then you select the whole thing, and when you're doing the whole thing, the return button is disabled.",
+  "sim": 0.34
+ },
+ {
+  "k": "helpBatch2",
+  "en": "All photos in a batch share one setup: one background and one marketplace. You cannot choose differently for each photo.",
+  "tr": "一括処理の写真はすべて同じ設定を共有します。背景は1つ、マーケットプレイスは1つです。写真ごとに別々に選ぶことはできません。",
+  "back": "All the photos in the whole process share the same settings, one background, one marketplace, and you can't choose for each photo separately.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpBatch3",
+  "en": "Backgrounds work as in the editor: your own photo, a colour, a template, white, transparent, black, blur or a gradient. Only one applies, and your latest choice replaces the earlier one.",
+  "tr": "背景はエディタと同じように動作します。ご自身の写真、色、テンプレート、白、透明、黒、ぼかし、グラデーションです。適用されるのは1つだけで、最後に選んだものが前の選択に置き換わります。",
+  "back": "The background works the same way as the editor -- your own photos, colors, templates, white, transparent, black, dull, grading -- only one applies, and the last one you chose replaces the last one you chose.",
+  "sim": 0.46
+ },
+ {
+  "k": "helpBatch4",
+  "en": "The file format is chosen for you. With a marketplace, the photos follow that marketplace’s size and format. Without one, a transparent background gives PNG and any other background gives JPG, at the original size.",
+  "tr": "ファイル形式は自動で選ばれます。マーケットプレイスを選ぶと、そのサイズと形式に従います。選ばない場合は、透明な背景ならPNG、それ以外の背景ならJPGで、元のサイズになります。",
+  "back": "The file format is automatically selected. If you choose the marketplace, you choose the size and format. If you don't, the transparent background is PNG, and if it's JPG, it's the original size.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpBatch5",
+  "en": "Choosing Amazon switches the background to White; if you then choose another background, Amazon is switched off. eBay, Etsy and Shopify keep your background, but a JPG cannot be transparent, so it gets a white background.",
+  "tr": "Amazonを選ぶと背景が「白」に切り替わります。その後で別の背景を選ぶと、Amazonの選択は解除されます。eBay、Etsy、Shopifyは選んだ背景のままですが、JPGは透明にできないため白い背景になります。",
+  "back": "If you choose Amazon, the background changes to \"white\". And then if you choose another background, Amazon's choice is removed.",
+  "sim": 0.39
+ },
+ {
+  "k": "helpBatch6",
+  "en": "If the HD model is installed, every photo in the batch is cut out with it. The Get HD cut-out button next to Templates downloads it.",
+  "tr": "HDモデルがインストールされていれば、一括処理のすべての写真がそれで切り抜かれます。「テンプレート」の隣にある「HD切り抜きを入手」ボタンでダウンロードできます。",
+  "back": "If you have an HD model installed, all the images of the entire process will be cut off. You can download them with the \"Get HD Cut\" button next to the template.",
+  "sim": 0.45
+ },
+ {
+  "k": "helpBatch7",
+  "en": "Each photo is saved to your gallery and to Recent Exports as soon as it finishes. Stop ends the batch after the current photo, and photos already finished stay saved. If a photo fails, the batch carries on and tells you how many could not be processed. Done takes you back to the home screen; it does not save anything.",
+  "tr": "各写真は完了するとすぐに、ギャラリーと「最近の書き出し」に保存されます。「停止」は処理中の写真のあとで一括処理を終了し、すでに完了した写真は保存されたままです。失敗した写真があっても処理は続き、処理できなかった枚数をお知らせします。「完了」をタップするとホーム画面に戻ります。保存は行いません。",
+  "back": "As soon as each photo is completed, it's stored in the gallery and in the \"Recent Writing\". The \"Stop\" is when the photo is being processed and the entire process is over, and the already completed photos are still stored.",
+  "sim": 0.22
+ },
+ {
+  "k": "helpLibraryTitle",
+  "en": "Your exports",
+  "tr": "書き出したもの",
+  "back": "What I wrote down.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpLibrary1",
+  "en": "Recent Exports on the home screen shows your latest exports. Tap See all for every export, grouped as Today, Yesterday, This week and Earlier.",
+  "tr": "ホーム画面の「最近の書き出し」には、最新の書き出しが表示されます。「すべて表示」をタップするとすべて見られ、「今日」「昨日」「今週」「それ以前」にまとめられます。",
+  "back": "On the home screen, you'll see the most recent headings, and you'll see all the headings, and you'll see all the headings, and you'll see today, yesterday, this week, and before that.",
+  "sim": 0.39
+ },
+ {
+  "k": "helpLibrary2",
+  "en": "Tap an export to open it full screen. Swipe to move between exports and pinch to zoom. The bar at the bottom has Share, Save to Gallery, Edit again and Delete.",
+  "tr": "書き出しをタップすると全画面で開きます。スワイプで切り替え、ピンチで拡大します。下部のバーには「共有」「ギャラリーに保存」「もう一度編集」「削除」があります。",
+  "back": "And when you tap on the headline, it's all over the screen, and you swipe it, and you pinch it, and you expand it, and the bottom bar has \"sharing\", \"saving to the gallery\", \"reediting\", and \"removing\".",
+  "sim": 0.29
+ },
+ {
+  "k": "helpLibrary3",
+  "en": "The three-dot button on a tile opens the same actions. Edit again opens the exported picture as a new photo, so earlier brush strokes are not restored.",
+  "tr": "サムネイルの3点ボタンからも同じ操作ができます。「もう一度編集」は書き出した画像を新しい写真として開くため、以前のブラシのストロークは復元されません。",
+  "back": "You can do the same thing with the three-point button in the summary. \"Edit Again\" opens the image you've written as a new image, so the previous brush strokes won't be restored.",
+  "sim": 0.44
+ },
+ {
+  "k": "helpLibrary4",
+  "en": "Select lets you choose several exports to share together or delete. Delete all exports removes every export from this phone.",
+  "tr": "「選択」では、複数の書き出しを選んでまとめて共有または削除できます。「すべての書き出しを削除」は、このスマートフォンからすべての書き出しを取り除きます。",
+  "back": "You can select multiple scripts, combine them, share them, or delete them.",
+  "sim": 0.25
+ },
+ {
+  "k": "helpLibrary5",
+  "en": "Deleting removes exports from PhotoSur only. Pictures already saved to your gallery are not affected. The bottom of the See all screen shows how much space exports use on this phone.",
+  "tr": "削除で消えるのは、PhotoSur内の書き出しだけです。すでにギャラリーに保存された画像には影響しません。「すべて表示」の下部で、このスマートフォンで書き出しが使っている容量を確認できます。",
+  "back": "The only thing you can delete is the writing in PhotoSur, which doesn't affect the images that are already in the gallery.",
+  "sim": 0.11
+ },
+ {
+  "k": "helpPrivacyTitle",
+  "en": "Privacy & ads",
+  "tr": "プライバシーと広告",
+  "back": "Privacy and advertising.",
+  "sim": 0.4
+ },
+ {
+  "k": "helpPrivacy1",
+  "en": "Your photos are processed on your phone and are not uploaded. There is no account and no watermark.",
+  "tr": "写真はお使いのスマートフォン上で処理され、アップロードされません。アカウントも透かしもありません。",
+  "back": "The photos aren't processed or uploaded on your smartphone, and there's no account access.",
+  "sim": 0.44
+ },
+ {
+  "k": "helpPrivacy2",
+  "en": "PhotoSur is free with every feature included, supported by ads. A banner appears at the bottom of some screens, and an ad can appear after an export.",
+  "tr": "PhotoSurは無料で、すべての機能が使え、広告で運営されています。一部の画面の下部にバナーが表示され、書き出しのあとに広告が表示されることがあります。",
+  "back": "PhotoSur is free to use, with all the features, and it's run on ads. Some of the banners are displayed at the bottom of the screen, and some of the ads are displayed after you write.",
+  "sim": 0.35
+ },
+ {
+  "k": "helpPrivacy3",
+  "en": "Go Ad-Free in Settings is a one-time purchase that removes the ads. It does not unlock anything else, because every feature is already free. Restore Purchases brings it back on a new phone.",
+  "tr": "設定の「広告を削除」は、広告をなくす1回限りの購入です。ほかには何も解除されません。すべての機能がすでに無料だからです。「購入の復元」で、新しいスマートフォンでも元に戻せます。",
+  "back": "The deleting of the ads is a one-time purchase that eliminates the ads, and nothing else is deleted, because all the features are already free.",
+  "sim": 0.38
+ },
+ {
+  "k": "helpSettingsTitle",
+  "en": "Settings",
+  "tr": "設定",
+  "back": "Set it up.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpSettings1",
+  "en": "Theme can follow your phone, or be Light or Dark. Language changes the language of the app. Both are also in the home screen header.",
+  "tr": "「テーマ」はスマートフォンに合わせるか、「ライト」または「ダーク」にできます。「言語」はアプリの言語を変えます。どちらもホーム画面のヘッダーにもあります。",
+  "back": "The theme can be in a smartphone, or the theme can be in a light or a dark, or the theme can change the language of the app, and both are in the headers of the home screen.",
+  "sim": 0.57
+ },
+ {
+  "k": "helpSettings2",
+  "en": "Edit reminders: if you leave the app with an unfinished edit, PhotoSur can remind you three hours later. Switch this off in Settings.",
+  "tr": "編集のリマインダー：編集が終わらないままアプリを離れると、PhotoSurが3時間後にお知らせすることがあります。設定でオフにできます。",
+  "back": "Editor's Reminder: If you leave the app before you finish editing, PhotoSur may notify you after three hours.",
+  "sim": 0.44
+ },
+ {
+  "k": "helpSettings3",
+  "en": "HD cut-out model shows whether it is installed. Remove deletes it from your phone to free space; you can download it again at any time.",
+  "tr": "「HD切り抜きモデル」はインストール済みかどうかを示します。「削除」は容量を空けるためにスマートフォンから取り除きます。いつでもまたダウンロードできます。",
+  "back": "The \"HD cut-off model\" indicates whether or not it's installed, and the \"delete\" indicates whether or not it's removed from your smartphone to free up capacity, so you can download it again anytime.",
+  "sim": 0.45
+ },
+ {
+  "k": "helpSettings4",
+  "en": "Replay intro shows the welcome screens again. Support opens the support page. Animated home background turns the moving picture at the top of the home screen on or off.",
+  "tr": "「イントロをもう一度見る」はウェルカム画面をもう一度表示します。「サポート」はサポートページを開きます。「ホームのアニメ背景」は、ホーム画面上部で動く画像のオンとオフを切り替えます。",
+  "back": "\"See the intro again\" shows the welcome screen again. \"Support\" opens the support page. \"Home animation background\" switches on and off the images that are moving on top of the home screen.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpFixTitle",
+  "en": "If something goes wrong",
+  "tr": "うまくいかないとき",
+  "back": "When it doesn't work.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpFix1",
+  "en": "If the automatic cut-out cannot run on a very old or low-memory phone, the brush still works, so you can finish the picture by hand.",
+  "tr": "非常に古い、またはメモリの少ないスマートフォンで自動の切り抜きが動かない場合でも、ブラシは使えるので、画像を手作業で仕上げられます。",
+  "back": "Even if you're using a very old or memory-poor smartphone that doesn't have an automatic cut-off, you can use a brush, so you can do the image manually.",
+  "sim": 0.38
+ },
+ {
+  "k": "helpFix2",
+  "en": "If the HD download stops, check your connection and try again. It continues where it left off.",
+  "tr": "HDのダウンロードが止まったら、接続を確認してもう一度お試しください。止まったところから再開します。",
+  "back": "If the HD download stops, please check the connection and try again.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpFix3",
+  "en": "For anything else, open Support from Settings.",
+  "tr": "そのほかの問題は、設定の「サポート」を開いてください。",
+  "back": "The other problem is, please open the \"Support\" settings.",
+  "sim": 0.38
+ }
+]

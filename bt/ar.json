@@ -1,0 +1,1787 @@
+[
+ {
+  "k": "onboardingPage1Title",
+  "en": "Remove backgrounds instantly. All features free.",
+  "tr": "أزل الخلفيات فورًا. جميع الميزات مجانية.",
+  "back": "Remove backgrounds immediately. All features are free.",
+  "sim": 0.77
+ },
+ {
+  "k": "onboardingPage1Body",
+  "en": "Open a photo and our on-device AI removes the background automatically — no internet required. You can also swap in your own custom background.",
+  "tr": "افتح صورة وسيزيل الذكاء الاصطناعي على جهازك الخلفية تلقائيًا — دون حاجة إلى الإنترنت. ويمكنك أيضًا استبدالها بخلفيتك المخصصة.",
+  "back": "Open an image and automatically delete the AI on your back-end device  without the need for an internet connection. You can also replace it with your custom back-end.",
+  "sim": 0.39
+ },
+ {
+  "k": "onboardingPage2Title",
+  "en": "Fine-tune with the brush",
+  "tr": "حسّن النتيجة بالفرشاة",
+  "back": "Brush the score better .",
+  "sim": 0.25
+ },
+ {
+  "k": "onboardingPage2Body",
+  "en": "Paint away what the AI missed or restore what you want to keep. Then crop, rotate, move and resize.",
+  "tr": "امسح بالفرشاة ما فاته الذكاء الاصطناعي، أو استعد ما تريد الاحتفاظ به. ثم قصّ الصورة وأدِرها وحرّكها وغيّر حجمها.",
+  "back": "Brush out what's missing from the AI, or get what you want to keep, and then cut the image, turn it, move it, and resize it.",
+  "sim": 0.53
+ },
+ {
+  "k": "onboardingPage3Title",
+  "en": "Studio-ready backgrounds",
+  "tr": "خلفيات بجودة الاستوديو",
+  "back": "Studio-quality backgrounds .",
+  "sim": 0.5
+ },
+ {
+  "k": "onboardingPage3Body",
+  "en": "Choose a colour, gradient, template or your own photo, with a natural shadow. Marketplace presets for Amazon, eBay, Etsy and Shopify set size and format for you.",
+  "tr": "اختر لونًا أو تدرجًا أو قالبًا أو صورتك الخاصة، مع ظل طبيعي. إعدادات Amazon وeBay وEtsy وShopify الجاهزة تحدد الحجم والصيغة نيابةً عنك.",
+  "back": "Choose your own color, layout, template, or image, with a natural shade. Ready-made Amazon, eBay, Etsy, and Shopify settings determine the size and format for you.",
+  "sim": 0.6
+ },
+ {
+  "k": "onboardingPage4Title",
+  "en": "Batch it, export it, keep it private",
+  "tr": "دفعة واحدة، بالصيغة التي تريد، وبخصوصية تامة",
+  "back": "One shot, in any format you want, with complete privacy.",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingPage4Body",
+  "en": "Cut out up to 30 photos at once and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "tr": "أزل الخلفية من 30 صورة دفعة واحدة وصدّرها بصيغة PNG أو JPG أو WEBP. صورك لا تغادر هاتفك أبدًا. متاح بـ 43 لغة.",
+  "back": "Remove the background from 30 images at once and export them in PNG, JPG or WEBP format. Your photos never leave your phone. Available in 43 languages.",
+  "sim": 0.73
+ },
+ {
+  "k": "onboardingNext",
+  "en": "Next",
+  "tr": "التالي",
+  "back": "The next one .",
+  "sim": 0.5
+ },
+ {
+  "k": "onboardingGetStarted",
+  "en": "Get Started",
+  "tr": "ابدأ",
+  "back": "Go ahead .",
+  "sim": 0.0
+ },
+ {
+  "k": "homeCameraButton",
+  "en": "Camera",
+  "tr": "الكاميرا",
+  "back": "The camera .",
+  "sim": 0.67
+ },
+ {
+  "k": "homeGalleryButton",
+  "en": "Gallery",
+  "tr": "المعرض",
+  "back": "The gallery .",
+  "sim": 0.67
+ },
+ {
+  "k": "dateToday",
+  "en": "Today",
+  "tr": "اليوم",
+  "back": "Today .",
+  "sim": 1.0
+ },
+ {
+  "k": "dateYesterday",
+  "en": "Yesterday",
+  "tr": "أمس",
+  "back": "Yesterday .",
+  "sim": 1.0
+ },
+ {
+  "k": "homeRecentExports",
+  "en": "Recent Exports",
+  "tr": "الصادرات الأخيرة",
+  "back": "The last exports .",
+  "sim": 0.4
+ },
+ {
+  "k": "homeEmptyStateMessage",
+  "en": "Tap Camera or Gallery to start.",
+  "tr": "اضغط على الكاميرا أو المعرض للبدء.",
+  "back": "Press the camera or the display to start.",
+  "sim": 0.57
+ },
+ {
+  "k": "homeExportUnavailable",
+  "en": "This export is no longer available.",
+  "tr": "هذا التصدير لم يعد متاحًا.",
+  "back": "This export is no longer available.",
+  "sim": 1.0
+ },
+ {
+  "k": "homeShareFailed",
+  "en": "Could not share this export.",
+  "tr": "تعذّرت مشاركة هذا التصدير.",
+  "back": "I'm sorry to share this export.",
+  "sim": 0.55
+ },
+ {
+  "k": "homeGalleryOpenFailed",
+  "en": "Could not open gallery.",
+  "tr": "تعذّر فتح المعرض.",
+  "back": "Excuse me for opening the gallery.",
+  "sim": 0.2
+ },
+ {
+  "k": "cameraTitle",
+  "en": "Camera",
+  "tr": "الكاميرا",
+  "back": "The camera .",
+  "sim": 0.67
+ },
+ {
+  "k": "cameraPermissionDenied",
+  "en": "Camera access is needed to take a photo. Please allow access.",
+  "tr": "يلزم الوصول إلى الكاميرا لالتقاط صورة. يُرجى السماح بالوصول.",
+  "back": "You need access to the camera to take a picture. Please allow access.",
+  "sim": 0.58
+ },
+ {
+  "k": "cameraPermissionPermanentlyDenied",
+  "en": "Camera access was denied. Enable it in Settings to continue.",
+  "tr": "تم رفض الوصول إلى الكاميرا. فعّله من الإعدادات للمتابعة.",
+  "back": "Access to the camera has been denied.",
+  "sim": 0.24
+ },
+ {
+  "k": "cameraPermissionRestricted",
+  "en": "Camera access is restricted on this device.",
+  "tr": "الوصول إلى الكاميرا مقيّد على هذا الجهاز.",
+  "back": "Access to the camera is restricted to this device.",
+  "sim": 0.62
+ },
+ {
+  "k": "cameraNoCameraFound",
+  "en": "No camera found on this device.",
+  "tr": "لم يتم العثور على كاميرا على هذا الجهاز.",
+  "back": "No camera was found on this device.",
+  "sim": 0.92
+ },
+ {
+  "k": "cameraStartFailed",
+  "en": "Could not start the camera.",
+  "tr": "تعذّر تشغيل الكاميرا.",
+  "back": "Excuse the camera.",
+  "sim": 0.5
+ },
+ {
+  "k": "cameraCaptureFailed",
+  "en": "Could not capture photo.",
+  "tr": "تعذّر التقاط الصورة.",
+  "back": "Sorry to take the picture.",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraOpenSettings",
+  "en": "Open Settings",
+  "tr": "فتح الإعدادات",
+  "back": "Open the settings .",
+  "sim": 0.8
+ },
+ {
+  "k": "cameraFlashTooltip",
+  "en": "Flash",
+  "tr": "الفلاش",
+  "back": "The flash .",
+  "sim": 0.67
+ },
+ {
+  "k": "cameraGalleryTooltip",
+  "en": "Gallery",
+  "tr": "المعرض",
+  "back": "The gallery .",
+  "sim": 0.67
+ },
+ {
+  "k": "cropTitle",
+  "en": "Crop & Rotate",
+  "tr": "قص وتدوير",
+  "back": "Cut and spin.",
+  "sim": 0.0
+ },
+ {
+  "k": "cropLoadFailed",
+  "en": "Could not load the image.",
+  "tr": "تعذّر تحميل الصورة.",
+  "back": "Sorry to upload the photo.",
+  "sim": 0.2
+ },
+ {
+  "k": "cropRotateFailed",
+  "en": "Could not rotate the image.",
+  "tr": "تعذّر تدوير الصورة.",
+  "back": "Excuse the rotation of the image.",
+  "sim": 0.36
+ },
+ {
+  "k": "cropFailed",
+  "en": "Crop failed.",
+  "tr": "فشل القص.",
+  "back": "The story failed.",
+  "sim": 0.4
+ },
+ {
+  "k": "cropSaveFailed",
+  "en": "Could not save the cropped image.",
+  "tr": "تعذّر حفظ الصورة المقصوصة.",
+  "back": "Excuse me for keeping the shrouded picture.",
+  "sim": 0.15
+ },
+ {
+  "k": "cropAspectFree",
+  "en": "Free",
+  "tr": "حر",
+  "back": "Free .",
+  "sim": 1.0
+ },
+ {
+  "k": "cropContinue",
+  "en": "Continue",
+  "tr": "متابعة",
+  "back": "Follow up .",
+  "sim": 0.0
+ },
+ {
+  "k": "editorSegmentationFailedMessage",
+  "en": "Your device doesn't support automatic background removal. Use the manual brush below.",
+  "tr": "جهازك لا يدعم إزالة الخلفية تلقائيًا. استخدم الممحاة اليدوية أدناه.",
+  "back": "Your device doesn't support automatic background removal.",
+  "sim": 0.74
+ },
+ {
+  "k": "brushErase",
+  "en": "Erase",
+  "tr": "مسح",
+  "back": "Deleted .",
+  "sim": 0.0
+ },
+ {
+  "k": "brushRestore",
+  "en": "Restore",
+  "tr": "استعادة",
+  "back": "Bring it back .",
+  "sim": 0.0
+ },
+ {
+  "k": "brushSizeLabel",
+  "en": "Brush Size",
+  "tr": "حجم الفرشاة",
+  "back": "The size of the brush .",
+  "sim": 0.29
+ },
+ {
+  "k": "brushOpacityLabel",
+  "en": "Opacity",
+  "tr": "العتامة",
+  "back": "It 's dark .",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundWhite",
+  "en": "White",
+  "tr": "أبيض",
+  "back": "It 's white .",
+  "sim": 0.5
+ },
+ {
+  "k": "backgroundTransparent",
+  "en": "Transparent",
+  "tr": "شفاف",
+  "back": "It 's transparent .",
+  "sim": 0.5
+ },
+ {
+  "k": "backgroundBlack",
+  "en": "Black",
+  "tr": "أسود",
+  "back": "It 's black .",
+  "sim": 0.5
+ },
+ {
+  "k": "backgroundBlurLabel",
+  "en": "Blur",
+  "tr": "تمويه",
+  "back": "It 's a cover-up .",
+  "sim": 0.0
+ },
+ {
+  "k": "edgeFeatherLabel",
+  "en": "Edge Smoothness",
+  "tr": "نعومة الحواف",
+  "back": "The smoothness of the edges .",
+  "sim": 0.29
+ },
+ {
+  "k": "toolbarUndo",
+  "en": "Undo",
+  "tr": "تراجع",
+  "back": "Get out of the way.",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarRedo",
+  "en": "Redo",
+  "tr": "إعادة",
+  "back": "Back up .",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarReset",
+  "en": "Reset",
+  "tr": "إعادة ضبط",
+  "back": "Rearranged .",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarExport",
+  "en": "Export",
+  "tr": "تصدير",
+  "back": "Exporting .",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmTitle",
+  "en": "Reset edits?",
+  "tr": "إعادة ضبط التعديلات؟",
+  "back": "Reset the adjustments?",
+  "sim": 0.4
+ },
+ {
+  "k": "resetConfirmBody",
+  "en": "This clears your manual brush strokes. This cannot be undone.",
+  "tr": "سيؤدي هذا إلى مسح ضربات الفرشاة اليدوية. لا يمكن التراجع عن هذا الإجراء.",
+  "back": "This will erase the handbrush strokes.",
+  "sim": 0.25
+ },
+ {
+  "k": "resetConfirmCancel",
+  "en": "Cancel",
+  "tr": "إلغاء",
+  "back": "Cancellation .",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmConfirm",
+  "en": "Reset",
+  "tr": "إعادة ضبط",
+  "back": "Rearranged .",
+  "sim": 0.0
+ },
+ {
+  "k": "exportTitle",
+  "en": "Export",
+  "tr": "تصدير",
+  "back": "Exporting .",
+  "sim": 0.0
+ },
+ {
+  "k": "exportQualityLabel",
+  "en": "Quality: {value}",
+  "tr": "الجودة: {value}",
+  "back": "Quality: [value]",
+  "sim": 1.0
+ },
+ {
+  "k": "exportResizeLabel",
+  "en": "Resize",
+  "tr": "تغيير الحجم",
+  "back": "Change of size .",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeOriginal",
+  "en": "Original",
+  "tr": "الأصلي",
+  "back": "The original .",
+  "sim": 0.67
+ },
+ {
+  "k": "exportResizeCustom",
+  "en": "Custom",
+  "tr": "مخصص",
+  "back": "It 's custom .",
+  "sim": 0.5
+ },
+ {
+  "k": "exportWidthLabel",
+  "en": "Width (px)",
+  "tr": "العرض (بكسل)",
+  "back": "The show is pixel.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportHeightLabel",
+  "en": "Height (px)",
+  "tr": "الارتفاع (بكسل)",
+  "back": "The height is pixel.",
+  "sim": 0.33
+ },
+ {
+  "k": "exportSaveToGallery",
+  "en": "Save to Gallery",
+  "tr": "حفظ في المعرض",
+  "back": "Saved in the gallery .",
+  "sim": 0.29
+ },
+ {
+  "k": "exportShare",
+  "en": "Share",
+  "tr": "مشاركة",
+  "back": "Sharing .",
+  "sim": 0.0
+ },
+ {
+  "k": "exportSuccess",
+  "en": "Exported!",
+  "tr": "تم التصدير!",
+  "back": "It's been exported!",
+  "sim": 0.5
+ },
+ {
+  "k": "exportFailed",
+  "en": "Export failed. Please try again.",
+  "tr": "فشل التصدير. يُرجى المحاولة مرة أخرى.",
+  "back": "Export failed. Please try again.",
+  "sim": 1.0
+ },
+ {
+  "k": "exportInProgress",
+  "en": "Exporting…",
+  "tr": "جارٍ التصدير…",
+  "back": "It's an export.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTitle",
+  "en": "Settings",
+  "tr": "الإعدادات",
+  "back": "The settings .",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsTheme",
+  "en": "Theme",
+  "tr": "المظهر",
+  "back": "The appearance .",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLanguage",
+  "en": "Language",
+  "tr": "اللغة",
+  "back": "The language .",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "استعادة المشتريات",
+  "back": "Get the purchases back.",
+  "sim": 0.33
+ },
+ {
+  "k": "settingsGoAdFree",
+  "en": "Go Ad-Free",
+  "tr": "إزالة الإعلانات",
+  "back": "Remove the ads.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsPrivacyPolicy",
+  "en": "Privacy Policy",
+  "tr": "سياسة الخصوصية",
+  "back": "Privacy policy",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsSupport",
+  "en": "Support",
+  "tr": "الدعم",
+  "back": "Support .",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRateApp",
+  "en": "Rate App",
+  "tr": "قيّم التطبيق",
+  "back": "Value the app .",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsShareApp",
+  "en": "Share App",
+  "tr": "شارك التطبيق",
+  "back": "Share the app",
+  "sim": 0.8
+ },
+ {
+  "k": "settingsLicenses",
+  "en": "Open-source licenses",
+  "tr": "تراخيص المصدر المفتوح",
+  "back": "Open source licenses",
+  "sim": 0.4
+ },
+ {
+  "k": "reminderChannelName",
+  "en": "Edit reminders",
+  "tr": "تذكيرات التعديل",
+  "back": "Reminders of the amendment",
+  "sim": 0.33
+ },
+ {
+  "k": "reminderChannelDescription",
+  "en": "Reminders about edits you have not finished.",
+  "tr": "تذكيرات بالتعديلات التي لم تنهِها.",
+  "back": "Reminds me of changes you haven't finished.",
+  "sim": 0.29
+ },
+ {
+  "k": "reminderTitle",
+  "en": "Your edit is waiting",
+  "tr": "تعديلك بانتظارك",
+  "back": "I 'm waiting for you .",
+  "sim": 0.22
+ },
+ {
+  "k": "reminderBody",
+  "en": "Pick up where you left off and export your photo.",
+  "tr": "تابع من حيث توقفت وصدّر صورتك.",
+  "back": "Follow where you left off and post your picture.",
+  "sim": 0.63
+ },
+ {
+  "k": "settingsReminders",
+  "en": "Edit reminders",
+  "tr": "تذكيرات التعديل",
+  "back": "Reminders of the amendment",
+  "sim": 0.33
+ },
+ {
+  "k": "settingsAnimatedBackground",
+  "en": "Animated home background",
+  "tr": "خلفية متحركة للرئيسية",
+  "back": "Moving background for the presidency .",
+  "sim": 0.25
+ },
+ {
+  "k": "settingsRemindersSubtitle",
+  "en": "Remind me about unfinished edits",
+  "tr": "ذكّرني بالتعديلات غير المكتملة",
+  "back": "Reminds me of the incomplete modifications.",
+  "sim": 0.18
+ },
+ {
+  "k": "settingsRemindersBlocked",
+  "en": "Notifications are turned off for PhotoSur in your phone's settings.",
+  "tr": "إشعارات PhotoSur متوقفة في إعدادات هاتفك.",
+  "back": "PhotoSur notifications are parked in your phone settings.",
+  "sim": 0.56
+ },
+ {
+  "k": "editorBrushHint",
+  "en": "Drag to paint. Pinch with two fingers to zoom.",
+  "tr": "اسحب للرسم. اقرص بإصبعين للتكبير.",
+  "back": "Draw to the drawing. Draw to the magnification.",
+  "sim": 0.24
+ },
+ {
+  "k": "editorToolCutout",
+  "en": "Cut-out",
+  "tr": "القص",
+  "back": "The story .",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBrush",
+  "en": "Brush",
+  "tr": "الفرشاة",
+  "back": "The brush .",
+  "sim": 0.67
+ },
+ {
+  "k": "editorToolBackground",
+  "en": "Background",
+  "tr": "الخلفية",
+  "back": "The back .",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolLayout",
+  "en": "Layout",
+  "tr": "التخطيط",
+  "back": "Planning .",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutAutoCenter",
+  "en": "Auto-center",
+  "tr": "توسيط تلقائي",
+  "back": "Automated settings .",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutSizeLabel",
+  "en": "Size",
+  "tr": "الحجم",
+  "back": "The size .",
+  "sim": 0.67
+ },
+ {
+  "k": "layoutShadowLabel",
+  "en": "Shadow",
+  "tr": "الظل",
+  "back": "The shadow .",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundPhoto",
+  "en": "Photo",
+  "tr": "صورة",
+  "back": "It 's a picture .",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundPhotoFailed",
+  "en": "Could not load that photo.",
+  "tr": "تعذّر تحميل تلك الصورة.",
+  "back": "Sorry to upload that picture.",
+  "sim": 0.2
+ },
+ {
+  "k": "editorLayoutHint",
+  "en": "Drag to move. Pinch with two fingers to resize.",
+  "tr": "اسحب للتحريك. اقرص بإصبعين لتغيير الحجم.",
+  "back": "Pull to move. Pull two fingers to change size.",
+  "sim": 0.56
+ },
+ {
+  "k": "languageSystemDefault",
+  "en": "System default",
+  "tr": "افتراضي النظام",
+  "back": "The assumption of the system .",
+  "sim": 0.29
+ },
+ {
+  "k": "languageSheetTitle",
+  "en": "Language",
+  "tr": "اللغة",
+  "back": "The language .",
+  "sim": 0.67
+ },
+ {
+  "k": "themeSheetTitle",
+  "en": "Theme",
+  "tr": "المظهر",
+  "back": "The appearance .",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionSystem",
+  "en": "System default",
+  "tr": "افتراضي النظام",
+  "back": "The assumption of the system .",
+  "sim": 0.29
+ },
+ {
+  "k": "themeOptionLight",
+  "en": "Light",
+  "tr": "فاتح",
+  "back": "It 's open .",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionDark",
+  "en": "Dark",
+  "tr": "داكن",
+  "back": "It 's dark .",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsLinkNotReady",
+  "en": "This link isn't set up yet.",
+  "tr": "لم يتم إعداد هذا الرابط بعد.",
+  "back": "This link hasn't been set up yet.",
+  "sim": 0.77
+ },
+ {
+  "k": "settingsLinkOpenFailed",
+  "en": "Could not open link.",
+  "tr": "تعذّر فتح الرابط.",
+  "back": "Excuse me for opening the link.",
+  "sim": 0.2
+ },
+ {
+  "k": "settingsRestoreRequested",
+  "en": "Restore requested — check back in a moment.",
+  "tr": "تم طلب الاستعادة — تحقق بعد قليل.",
+  "back": "Returns have been requested. Check in soon.",
+  "sim": 0.43
+ },
+ {
+  "k": "settingsRestoreFailed",
+  "en": "Restore failed.",
+  "tr": "فشلت الاستعادة.",
+  "back": "The recovery failed.",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsShareFailed",
+  "en": "Could not share.",
+  "tr": "تعذّرت المشاركة.",
+  "back": "I'm sorry to bother you.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsShareAppMessage",
+  "en": "Remove photo backgrounds instantly with PhotoSur — free, no watermark.",
+  "tr": "أزل خلفيات الصور فورًا مع PhotoSur — مجاني وبدون علامة مائية.",
+  "back": "Remove photo backgrounds instantly with PhotoSur  free and without a watermark.",
+  "sim": 0.8
+ },
+ {
+  "k": "paywallTitle",
+  "en": "Go Ad-Free",
+  "tr": "إزالة الإعلانات",
+  "back": "Remove the ads.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallAlreadyAdFree",
+  "en": "You're already ad-free. Thank you!",
+  "tr": "أنت بالفعل بدون إعلانات. شكرًا لك!",
+  "back": "You're already without ads.",
+  "sim": 0.44
+ },
+ {
+  "k": "paywallPlanFreeTitle",
+  "en": "Free",
+  "tr": "مجاني",
+  "back": "It 's free .",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPlanAdFreeTitle",
+  "en": "Ad-Free",
+  "tr": "بدون إعلانات",
+  "back": "No announcements .",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPlanAdFreePrice",
+  "en": "One-time purchase",
+  "tr": "عملية شراء لمرة واحدة",
+  "back": "It 's a one-time purchase .",
+  "sim": 0.57
+ },
+ {
+  "k": "paywallFeatureAllFeatures",
+  "en": "All features",
+  "tr": "جميع الميزات",
+  "back": "All the features .",
+  "sim": 0.8
+ },
+ {
+  "k": "paywallFeatureAdSupported",
+  "en": "Ad-supported",
+  "tr": "بدعم من الإعلانات",
+  "back": "Supported by advertising.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureZeroAds",
+  "en": "Zero ads",
+  "tr": "بدون أي إعلانات",
+  "back": "Without any announcements.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPurchaseButton",
+  "en": "Remove Ads",
+  "tr": "إزالة الإعلانات",
+  "back": "Remove the ads.",
+  "sim": 0.8
+ },
+ {
+  "k": "paywallPurchaseButtonPrice",
+  "en": "Remove Ads — {price}",
+  "tr": "إزالة الإعلانات — {price}",
+  "back": "Remove the ads  [price]",
+  "sim": 0.86
+ },
+ {
+  "k": "paywallRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "استعادة المشتريات",
+  "back": "Get the purchases back.",
+  "sim": 0.33
+ },
+ {
+  "k": "paywallProductUnavailable",
+  "en": "Ad removal is not available right now.",
+  "tr": "إزالة الإعلانات غير متاحة حاليًا.",
+  "back": "Removing ads is not available at this time.",
+  "sim": 0.4
+ },
+ {
+  "k": "paywallPurchaseFailed",
+  "en": "Purchase failed.",
+  "tr": "فشلت عملية الشراء.",
+  "back": "The purchase failed.",
+  "sim": 0.8
+ },
+ {
+  "k": "errorScreenTitle",
+  "en": "Something went wrong",
+  "tr": "حدث خطأ ما",
+  "back": "Something went wrong.",
+  "sim": 1.0
+ },
+ {
+  "k": "errorScreenBody",
+  "en": "Try again, or restart the app if this keeps happening.",
+  "tr": "حاول مرة أخرى، أو أعد تشغيل التطبيق إذا استمرت المشكلة.",
+  "back": "Try again, or restart the app if the problem persists.",
+  "sim": 0.7
+ },
+ {
+  "k": "errorScreenGoBack",
+  "en": "Go back",
+  "tr": "رجوع",
+  "back": "Back to the drawing board .",
+  "sim": 0.29
+ },
+ {
+  "k": "errorScreenReportEmail",
+  "en": "Report via {email}",
+  "tr": "الإبلاغ عبر {email}",
+  "back": "Report by [email]",
+  "sim": 0.67
+ },
+ {
+  "k": "unsupportedTitle",
+  "en": "Device Not Supported",
+  "tr": "الجهاز غير مدعوم",
+  "back": "The device 's unsupported .",
+  "sim": 0.29
+ },
+ {
+  "k": "unsupportedNoCameraMessage",
+  "en": "This device doesn't have a camera available.",
+  "tr": "لا تتوفر كاميرا على هذا الجهاز.",
+  "back": "There's no camera on this device.",
+  "sim": 0.31
+ },
+ {
+  "k": "unsupportedLowMemoryMessage",
+  "en": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
+  "tr": "لا يملك هذا الجهاز ذاكرة كافية لتشغيل محرر PhotoSur بشكل موثوق.",
+  "back": "This device does not have enough memory to run PhotoSur Editor reliably.",
+  "sim": 0.78
+ },
+ {
+  "k": "unsupportedManualImportHint",
+  "en": "You can still import a photo from your gallery and use the manual brush tool.",
+  "tr": "لا يزال بإمكانك استيراد صورة من المعرض واستخدام الفرشاة اليدوية.",
+  "back": "You can still import a photo from the gallery and use a handbrush.",
+  "sim": 0.71
+ },
+ {
+  "k": "unsupportedUseGalleryButton",
+  "en": "Import from Gallery",
+  "tr": "استيراد من المعرض",
+  "back": "Imported from the gallery.",
+  "sim": 0.57
+ },
+ {
+  "k": "homeBatchButton",
+  "en": "Batch",
+  "tr": "دفعة",
+  "back": "A boost .",
+  "sim": 0.0
+ },
+ {
+  "k": "batchTitle",
+  "en": "Batch cut-out",
+  "tr": "قصّ دفعة من الصور",
+  "back": "Cut a bunch of pictures.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchOutputTransparent",
+  "en": "Transparent PNG",
+  "tr": "PNG شفاف",
+  "back": "PNG is transparent.",
+  "sim": 0.4
+ },
+ {
+  "k": "batchOutputWhite",
+  "en": "White background (JPG)",
+  "tr": "خلفية بيضاء (JPG)",
+  "back": "A white background . JPG .",
+  "sim": 0.86
+ },
+ {
+  "k": "batchStart",
+  "en": "Start",
+  "tr": "ابدأ",
+  "back": "Go ahead .",
+  "sim": 0.0
+ },
+ {
+  "k": "batchStop",
+  "en": "Stop",
+  "tr": "إيقاف",
+  "back": "Stop it !",
+  "sim": 0.67
+ },
+ {
+  "k": "batchDone",
+  "en": "Done",
+  "tr": "تم",
+  "back": "It 's done .",
+  "sim": 0.5
+ },
+ {
+  "k": "batchProgress",
+  "en": "{done} of {total} done",
+  "tr": "اكتمل {done} من {total}",
+  "back": "Completed from total.",
+  "sim": 0.29
+ },
+ {
+  "k": "batchSaved",
+  "en": "{count} saved to your gallery",
+  "tr": "تم حفظ {count} في معرض الصور",
+  "back": "It's saved in the photo gallery.",
+  "sim": 0.36
+ },
+ {
+  "k": "batchSomeFailed",
+  "en": "{count} could not be processed",
+  "tr": "تعذّرت معالجة {count}",
+  "back": "I'm sorry about the count.",
+  "sim": 0.2
+ },
+ {
+  "k": "batchTooMany",
+  "en": "Up to {max} photos at a time",
+  "tr": "حتى {max} صورة في المرة الواحدة",
+  "back": "Up to [max] one shot at a time.",
+  "sim": 0.8
+ },
+ {
+  "k": "backgroundAddCustom",
+  "en": "Add custom background",
+  "tr": "إضافة خلفية مخصصة",
+  "back": "Adding a custom background",
+  "sim": 0.57
+ },
+ {
+  "k": "backgroundCustomColor",
+  "en": "Custom color",
+  "tr": "لون مخصص",
+  "back": "Custom color .",
+  "sim": 1.0
+ },
+ {
+  "k": "colorSaturation",
+  "en": "Saturation",
+  "tr": "التشبّع",
+  "back": "The saturation .",
+  "sim": 0.67
+ },
+ {
+  "k": "colorBrightness",
+  "en": "Brightness",
+  "tr": "السطوع",
+  "back": "The brilliance .",
+  "sim": 0.0
+ },
+ {
+  "k": "colorHexLabel",
+  "en": "Hex code",
+  "tr": "رمز Hex",
+  "back": "Hex code .",
+  "sim": 1.0
+ },
+ {
+  "k": "colorPickerDone",
+  "en": "Done",
+  "tr": "تم",
+  "back": "It 's done .",
+  "sim": 0.5
+ },
+ {
+  "k": "exportMarketplaceLabel",
+  "en": "Marketplace",
+  "tr": "السوق الإلكتروني",
+  "back": "The e-market",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceSummary",
+  "en": "{width} × {height} px · {format}",
+  "tr": "{width} × {height} بكسل · {format}",
+  "back": "[width] x [height] pixel · [format]",
+  "sim": 0.67
+ },
+ {
+  "k": "exportMarketplaceWhiteFill",
+  "en": "Pure white background, product fills the frame",
+  "tr": "خلفية بيضاء نقية والمنتج يملأ الإطار",
+  "back": "Pure white background and the product fills the frame.",
+  "sim": 0.88
+ },
+ {
+  "k": "exportMarketplaceSizeCap",
+  "en": "File kept under {size} MB",
+  "tr": "حجم الملف أقل من {size} ميغابايت",
+  "back": "The file size is less than [size] megabytes.",
+  "sim": 0.31
+ },
+ {
+  "k": "editorToolTemplates",
+  "en": "Templates",
+  "tr": "قوالب",
+  "back": "Templates .",
+  "sim": 1.0
+ },
+ {
+  "k": "templatesTitle",
+  "en": "Choose a template",
+  "tr": "اختر قالبًا",
+  "back": "Choose a template .",
+  "sim": 1.0
+ },
+ {
+  "k": "templatesStudio",
+  "en": "Studio",
+  "tr": "استوديو",
+  "back": "The studio .",
+  "sim": 0.67
+ },
+ {
+  "k": "templatesColorBlock",
+  "en": "Color block",
+  "tr": "كتل لونية",
+  "back": "Colored blocks .",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTextures",
+  "en": "Textures",
+  "tr": "خامات",
+  "back": "Raw materials .",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesLight",
+  "en": "Light & shadow",
+  "tr": "ضوء وظل",
+  "back": "Light and still.",
+  "sim": 0.4
+ },
+ {
+  "k": "templatesPatterns",
+  "en": "Gradients & patterns",
+  "tr": "تدرجات وأنماط",
+  "back": "Grades and patterns .",
+  "sim": 0.4
+ },
+ {
+  "k": "hdGetAction",
+  "en": "Get HD cut-out",
+  "tr": "احصل على القص عالي الدقة",
+  "back": "Get a high-precision story .",
+  "sim": 0.29
+ },
+ {
+  "k": "hdRedoAction",
+  "en": "Redo cut-out in HD",
+  "tr": "أعد القص بدقة عالية",
+  "back": "Prepare the story with high precision.",
+  "sim": 0.0
+ },
+ {
+  "k": "hdDownloading",
+  "en": "HD cut-out in progress… {percent}%",
+  "tr": "القص عالي الدقة قيد التنفيذ… {percent}%",
+  "back": "High-precision reporting is underway... [percent] %",
+  "sim": 0.2
+ },
+ {
+  "k": "hdDownloadingShort",
+  "en": "HD cut-out… {percent}%",
+  "tr": "القص عالي الدقة… {percent}%",
+  "back": "The high-precision story... [percent] percent.",
+  "sim": 0.25
+ },
+ {
+  "k": "hdConfirmTitle",
+  "en": "Download HD cut-out model?",
+  "tr": "تنزيل نموذج القص عالي الدقة؟",
+  "back": "Downloading the high-resolution story model?",
+  "sim": 0.22
+ },
+ {
+  "k": "hdConfirmBody",
+  "en": "Cleaner edges on tricky objects like shoes, bags and bottles. It downloads once, stays on your phone and then works offline. Mobile data charges may apply.",
+  "tr": "حواف أنظف للأشياء الصعبة مثل الأحذية والحقائب والزجاجات. يُنزَّل مرة واحدة ويبقى على هاتفك ثم يعمل دون إنترنت. قد تُطبَّق رسوم بيانات الجوال.",
+  "back": "The edges are cleaner for hard stuff like shoes, bags, bottles. It's downloaded once and stays on your phone and then works offline.",
+  "sim": 0.53
+ },
+ {
+  "k": "hdDownload",
+  "en": "Download",
+  "tr": "تنزيل",
+  "back": "Down .",
+  "sim": 0.0
+ },
+ {
+  "k": "hdFailed",
+  "en": "HD cut-out didn’t finish. Check your connection and try again.",
+  "tr": "لم يكتمل القص عالي الدقة. تحقق من اتصالك وحاول مرة أخرى.",
+  "back": "Check your call and try again.",
+  "sim": 0.62
+ },
+ {
+  "k": "settingsHdTitle",
+  "en": "HD cut-out model",
+  "tr": "نموذج القص عالي الدقة",
+  "back": "High-precision story model .",
+  "sim": 0.33
+ },
+ {
+  "k": "settingsHdNotInstalled",
+  "en": "Not downloaded",
+  "tr": "غير منزَّل",
+  "back": "He 's not homeless .",
+  "sim": 0.33
+ },
+ {
+  "k": "settingsHdInstalled",
+  "en": "Installed · works offline",
+  "tr": "مثبَّت · يعمل دون إنترنت",
+  "back": "It 's fixed . It works without the internet .",
+  "sim": 0.18
+ },
+ {
+  "k": "settingsHdRemove",
+  "en": "Remove",
+  "tr": "إزالة",
+  "back": "Remove it .",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsReplayIntro",
+  "en": "Replay intro",
+  "tr": "إعادة عرض المقدمة",
+  "back": "Re-show the introduction .",
+  "sim": 0.0
+ },
+ {
+  "k": "homeSeeAll",
+  "en": "See all",
+  "tr": "عرض الكل",
+  "back": "Show it all .",
+  "sim": 0.4
+ },
+ {
+  "k": "exportActionEdit",
+  "en": "Edit again",
+  "tr": "تعديل مرة أخرى",
+  "back": "Adjusted again .",
+  "sim": 0.5
+ },
+ {
+  "k": "exportActionDelete",
+  "en": "Delete",
+  "tr": "حذف",
+  "back": "Deleted .",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMoreOptions",
+  "en": "More options",
+  "tr": "خيارات أخرى",
+  "back": "Other options .",
+  "sim": 0.5
+ },
+ {
+  "k": "exportDeleteTitle",
+  "en": "Delete this export?",
+  "tr": "حذف هذا التصدير؟",
+  "back": "Delete that export?",
+  "sim": 0.67
+ },
+ {
+  "k": "exportDeleteBody",
+  "en": "Exported images are removed from this phone. Your original photos and anything saved to your gallery are not affected.",
+  "tr": "تُحذف الصور المُصدَّرة من هذا الهاتف. لا تتأثر صورك الأصلية ولا ما حُفظ في معرض الصور.",
+  "back": "Your original photos or what's saved in the photo gallery will not be affected.",
+  "sim": 0.42
+ },
+ {
+  "k": "exportSavedToGallery",
+  "en": "Saved to your gallery",
+  "tr": "تم الحفظ في معرض الصور",
+  "back": "It 's saved in the photo gallery .",
+  "sim": 0.36
+ },
+ {
+  "k": "exportSaveFailed",
+  "en": "Could not save to the gallery.",
+  "tr": "تعذّر الحفظ في معرض الصور.",
+  "back": "Excuse the reservation in the photo gallery.",
+  "sim": 0.31
+ },
+ {
+  "k": "exportUnavailable",
+  "en": "Unavailable",
+  "tr": "غير متاح",
+  "back": "It 's not available .",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsGroupThisWeek",
+  "en": "This week",
+  "tr": "هذا الأسبوع",
+  "back": "This week .",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsGroupEarlier",
+  "en": "Earlier",
+  "tr": "أقدم",
+  "back": "I 'm older .",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsStorageUsed",
+  "en": "{size} used on this phone",
+  "tr": "{size} مستخدمة على هذا الهاتف",
+  "back": "[size] Used on this phone.",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsSelect",
+  "en": "Select",
+  "tr": "تحديد",
+  "back": "Determining",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsDone",
+  "en": "Done",
+  "tr": "تم",
+  "back": "It 's done .",
+  "sim": 0.5
+ },
+ {
+  "k": "exportsSelectedCount",
+  "en": "{count} selected",
+  "tr": "تم تحديد {count}",
+  "back": "Count is set.",
+  "sim": 0.4
+ },
+ {
+  "k": "exportsDeleteSelectedTitle",
+  "en": "Delete {count} exports?",
+  "tr": "حذف {count} من الصادرات؟",
+  "back": "Delete [count] from exports?",
+  "sim": 0.86
+ },
+ {
+  "k": "exportsDeleteAll",
+  "en": "Delete all exports",
+  "tr": "حذف كل الصادرات",
+  "back": "Delete all exports .",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDeleteAllTitle",
+  "en": "Delete all exports?",
+  "tr": "حذف كل الصادرات؟",
+  "back": "Delete all exports?",
+  "sim": 1.0
+ },
+ {
+  "k": "helpTitle",
+  "en": "Help & how to use",
+  "tr": "المساعدة وطريقة الاستخدام",
+  "back": "Help and use",
+  "sim": 0.57
+ },
+ {
+  "k": "helpIntro",
+  "en": "Tap a topic to read how it works.",
+  "tr": "اضغط على موضوع لتقرأ كيف يعمل.",
+  "back": "Press a subject to read how it works.",
+  "sim": 0.75
+ },
+ {
+  "k": "helpStartTitle",
+  "en": "Getting started",
+  "tr": "البدء",
+  "back": "Let 's get started .",
+  "sim": 0.33
+ },
+ {
+  "k": "helpStart1",
+  "en": "On the home screen, tap Camera to take a photo or Gallery to pick one. Batch cuts out many photos at once.",
+  "tr": "في الشاشة الرئيسية، اضغط على الكاميرا لالتقاط صورة أو المعرض لاختيار صورة. زر دفعة يقص عدة صور في وقت واحد.",
+  "back": "On the home screen, press the camera to take a photo or the display to select a photo.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpStart2",
+  "en": "Every photo opens in Crop & Rotate first, then in the editor. Your original photo is never changed.",
+  "tr": "تُفتح كل صورة أولًا في قص وتدوير ثم في المحرر. صورتك الأصلية لا تتغير أبدًا.",
+  "back": "Each image is opened first in cutting and rotating and then in the editor. Your original image never changes.",
+  "sim": 0.44
+ },
+ {
+  "k": "helpStart3",
+  "en": "When you are happy, tap Export in the editor. Recent Exports on the home screen lists everything you have exported.",
+  "tr": "عندما ترضى عن النتيجة، اضغط على تصدير في المحرر. الصادرات الأخيرة في الشاشة الرئيسية تعرض كل ما صدّرته.",
+  "back": "When you're satisfied with the result, press export in the editor.",
+  "sim": 0.32
+ },
+ {
+  "k": "helpCropTitle",
+  "en": "Crop & Rotate",
+  "tr": "قص وتدوير",
+  "back": "Cut and spin.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCrop1",
+  "en": "Turn the photo left or right in 90° steps, and drag the frame to choose the part you want to keep.",
+  "tr": "دوّر الصورة يمينًا أو يسارًا بخطوات 90° واسحب الإطار لاختيار الجزء الذي تريد الاحتفاظ به.",
+  "back": "Turn the image 90 degrees to the right or left and pull the frame to select the part you want to hold.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpCrop2",
+  "en": "Free lets you shape the frame as you like. 1:1, 4:5 and 9:16 lock its shape. Tap Continue to open the editor.",
+  "tr": "حر يتيح لك منح الإطار أي شكل تريده. 1:1 و4:5 و9:16 تثبّت شكله. اضغط على متابعة لفتح المحرر.",
+  "back": "Free allows you to give the frame any shape you want. 1:1, 4:5, and 9:16 are fixed shape.",
+  "sim": 0.5
+ },
+ {
+  "k": "helpCutoutTitle",
+  "en": "Cut-out",
+  "tr": "القص",
+  "back": "The story .",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCutout1",
+  "en": "When the editor opens, PhotoSur finds the main subject and removes the background automatically, on your phone. No internet is needed.",
+  "tr": "عند فتح المحرر، يعثر PhotoSur على الموضوع الرئيسي ويزيل الخلفية تلقائيًا على هاتفك. لا حاجة إلى الإنترنت.",
+  "back": "When you open the editor, PhotoSur finds the main theme and automatically deletes the background on your phone.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpCutout2",
+  "en": "Edge Smoothness softens the edge of the cut-out, from 0 to 20 pixels.",
+  "tr": "نعومة الحواف تنعّم حافة القص من 0 إلى 20 بكسل.",
+  "back": "Edge smoothness smooths the cutting edge from 0 to 20 pixels.",
+  "sim": 0.75
+ },
+ {
+  "k": "helpCutout3",
+  "en": "The eye button at the top shows your original photo so you can compare. Tap it again to go back. The brush is paused while the original is shown.",
+  "tr": "زر العين في الأعلى يعرض صورتك الأصلية للمقارنة. اضغط عليه مرة أخرى للعودة. تتوقف الفرشاة مؤقتًا طالما تظهر الصورة الأصلية.",
+  "back": "The eye button at the top displays your original image for comparison. Press it again to return. The brush stops temporarily as long as the original image appears.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpCutout4",
+  "en": "For difficult subjects such as glass, shoes, bags and bottles, tap Get HD cut-out. The HD model downloads once, stays on your phone and then works offline. Once it is installed, every new cut-out uses it automatically. To redo the photo you have open, tap Redo cut-out in HD.",
+  "tr": "للمواضيع الصعبة مثل الزجاج والأحذية والحقائب والزجاجات، اضغط على احصل على القص عالي الدقة. يُنزَّل النموذج عالي الدقة مرة واحدة فقط، ويبقى على هاتفك ثم يعمل دون اتصال. وبعد تثبيته يستخدمه كل قص جديد تلقائيًا. لإعادة قص الصورة المفتوحة، اضغط على أعد القص بدقة عالية.",
+  "back": "For difficult topics such as glass, shoes, bags, and bottles, press get high-precision cutting. The high-precision model is downloaded only once, stays on your phone and then works offline. Once installed, each new cutting uses it automatically.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpBrushTitle",
+  "en": "Brush",
+  "tr": "الفرشاة",
+  "back": "The brush .",
+  "sim": 0.67
+ },
+ {
+  "k": "helpBrush1",
+  "en": "Erase removes parts of the subject. Restore brings back parts the cut-out removed.",
+  "tr": "مسح يزيل أجزاء من الموضوع. استعادة تُعيد أجزاء كان القص قد أزالها.",
+  "back": "Erase removes parts of the subject, restore removes parts that the story had removed.",
+  "sim": 0.74
+ },
+ {
+  "k": "helpBrush2",
+  "en": "Drag one finger to paint. Use two fingers to zoom, up to 8 times, and to move the photo. The brush keeps its size on screen, so zooming in gives finer control.",
+  "tr": "اسحب بإصبع واحد للرسم. استخدم إصبعين للتكبير حتى 8 أضعاف ولتحريك الصورة. تحتفظ الفرشاة بحجمها على الشاشة، لذا يمكنك العمل بدقة أكبر عند التكبير.",
+  "back": "Draw with one finger to paint. Use two fingers to magnify up to eight times and move the image. The brush keeps its size on the screen, so you can work with greater accuracy when magnifying.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpBrush3",
+  "en": "Brush Size goes from 1 to 50. Opacity sets how strongly each stroke applies.",
+  "tr": "حجم الفرشاة يتراوح من 1 إلى 50. العتامة تحدد قوة كل ضربة.",
+  "back": "The brush size ranges from 1 to 50. The grip determines the strength of each stroke.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpBrush4",
+  "en": "Undo and Redo step through your brush strokes. Reset clears all brush strokes and goes back to the automatic cut-out; it asks you to confirm first.",
+  "tr": "تراجع وإعادة يتنقلان عبر ضربات الفرشاة. إعادة ضبط تمسح كل الضربات وترجع إلى القص التلقائي؛ ويُطلب منك التأكيد أولًا.",
+  "back": "Retreat and move back through the brush strokes. Reset wipes all strokes and returns to the automatic cut; you're asked to confirm first.",
+  "sim": 0.57
+ },
+ {
+  "k": "helpBackgroundTitle",
+  "en": "Background",
+  "tr": "الخلفية",
+  "back": "The back .",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBackground1",
+  "en": "Choose what goes behind your subject: transparent, white, black, a gradient, a colour, a blurred copy of your photo, or your own photo.",
+  "tr": "اختر ما يوجد خلف الموضوع: شفاف أو أبيض أو أسود أو تدرج أو لون أو نسخة مموّهة من صورتك أو صورتك الخاصة.",
+  "back": "Choose what's behind the subject: transparent, white, black, stained glass, color, or a polished copy of your own picture or photo.",
+  "sim": 0.5
+ },
+ {
+  "k": "helpBackground2",
+  "en": "Only one background is used at a time. Your latest choice replaces the earlier one.",
+  "tr": "تُستخدم خلفية واحدة فقط في كل مرة. اختيارك الأخير يحل محل السابق.",
+  "back": "You only use one background at a time. Your last choice replaces the previous one.",
+  "sim": 0.73
+ },
+ {
+  "k": "helpBackground3",
+  "en": "Add custom background lets you pick a photo from your gallery. Custom color opens a colour picker. The Blur slider goes from 0 to 25.",
+  "tr": "إضافة خلفية مخصصة تتيح لك اختيار صورة من المعرض. لون مخصص يفتح منتقي ألوان. شريط تمويه يتراوح من 0 إلى 25.",
+  "back": "Add a custom background that allows you to choose a photo from the gallery. A custom color opens a color selector.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpBackground4",
+  "en": "Transparent shows a checkerboard while you edit. Export as PNG to keep it transparent.",
+  "tr": "شفاف يعرض نمط رقعة الشطرنج أثناء التحرير. صدّر بصيغة PNG للحفاظ على الشفافية.",
+  "back": "Transparent displays the pattern of the chess patch during editing.",
+  "sim": 0.08
+ },
+ {
+  "k": "helpTemplatesTitle",
+  "en": "Templates",
+  "tr": "قوالب",
+  "back": "Templates .",
+  "sim": 1.0
+ },
+ {
+  "k": "helpTemplates1",
+  "en": "Templates are ready-made backgrounds in five groups: Studio, Color block, Textures, Light & shadow, and Gradients & patterns. Five scenes are shown in the panel; tap the Templates button to see them all.",
+  "tr": "القوالب خلفيات جاهزة في خمس مجموعات: استوديو وكتل لونية وخامات وضوء وظل وتدرجات وأنماط. تظهر خمسة مشاهد في اللوحة؛ اضغط على زر قوالب لرؤيتها كلها.",
+  "back": "The templates are ready-made backgrounds in five groups: studio, color blocks, frames, shades, scales, and patterns. Five scenes appear in the painting; press the template button to see them all.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpTemplates2",
+  "en": "Choosing a template works like choosing your own photo as the background: it replaces your earlier background choice.",
+  "tr": "اختيار قالب يشبه اختيار صورتك الخاصة كخلفية: فهو يحل محل اختيارك السابق للخلفية.",
+  "back": "Choosing a template is similar to choosing your own image as a background: it replaces your previous choice of background.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpLayoutTitle",
+  "en": "Layout",
+  "tr": "التخطيط",
+  "back": "Planning .",
+  "sim": 0.0
+ },
+ {
+  "k": "helpLayout1",
+  "en": "Drag the subject on the photo to move it. Pinch with two fingers to resize it.",
+  "tr": "اسحب الموضوع فوق الصورة لتحريكه. اقرص بإصبعين لتغيير حجمه.",
+  "back": "Pull the subject over the image to move it.",
+  "sim": 0.48
+ },
+ {
+  "k": "helpLayout2",
+  "en": "Choose Original, 1:1, 4:5 or 9:16 to set the shape of the final picture.",
+  "tr": "اختر الأصلي أو 1:1 أو 4:5 أو 9:16 لتحديد شكل الصورة النهائية.",
+  "back": "Select the original, 1:1, 4:5, or 9:16 to determine the final image format.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpLayout3",
+  "en": "Size sets how big the subject is, from 20% to 300%. Shadow sets how strong its shadow is. Auto-center puts the subject back in the middle. Reset undoes moving and resizing.",
+  "tr": "الحجم يحدد مدى كبر الموضوع، من 20% إلى 300%. الظل يحدد قوة ظله. توسيط تلقائي يعيد الموضوع إلى المنتصف. إعادة ضبط تتراجع عن التحريك وتغيير الحجم.",
+  "back": "The size determines the size of the subject, from 20% to 300%. The shadow determines the strength of its shadow.",
+  "sim": 0.39
+ },
+ {
+  "k": "helpLayout4",
+  "en": "This shape is used when the export size is Original. If you choose a size preset or a marketplace in the export sheet, that decides the final shape instead.",
+  "tr": "يُستخدم هذا الشكل عندما يكون حجم التصدير هو الأصلي. إذا اخترت في نافذة التصدير حجمًا جاهزًا أو سوقًا إلكترونيًا، فهو الذي يحدد الشكل النهائي.",
+  "back": "This format is used when the export volume is original. If you select a ready-made volume or an electronic market in the export window, it determines the final format.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpExportTitle",
+  "en": "Export",
+  "tr": "تصدير",
+  "back": "Exporting .",
+  "sim": 0.0
+ },
+ {
+  "k": "helpExport1",
+  "en": "Tap Export to open the export sheet. Nothing is applied until you tap Save to Gallery or Share, so you can change your choices as often as you like.",
+  "tr": "اضغط على تصدير لفتح نافذة التصدير. لا يُطبَّق شيء حتى تضغط على حفظ في المعرض أو مشاركة، لذا يمكنك تغيير اختياراتك كما تشاء.",
+  "back": "Nothing applies until you press save in the gallery or share, so you can change your choices as you like.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpExport2",
+  "en": "PNG keeps transparency. JPG makes smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a small modern format; if your phone cannot make it, the file is saved as JPG. For JPG and WEBP, the Quality slider trades file size for detail.",
+  "tr": "PNG يحافظ على الشفافية. JPG يعطي ملفات أصغر لكنه لا يمكن أن يكون شفافًا، لذا تتحول الخلفية الشفافة إلى بيضاء. WEBP صيغة حديثة مدمجة؛ وإذا تعذّر على هاتفك إنشاؤها يُحفظ الملف بصيغة JPG. وفي JPG وWEBP يوازن شريط الجودة بين حجم الملف والتفاصيل.",
+  "back": "PNG maintains transparency. JPG gives smaller files but can't be transparent, so the transparent background turns white. WEBP is a modern integrated format; if you can't create it, the file is saved in JPG format. In JPG and WEBP the quality bar balances file size and details.",
+  "sim": 0.66
+ },
+ {
+  "k": "helpExport3",
+  "en": "Original keeps your photo’s size, with the shape chosen in Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. Custom lets you type a width and height in pixels.",
+  "tr": "الأصلي يحافظ على حجم صورتك بالشكل الذي اخترته في التخطيط. 1:1 هو 1080 × 1080 و4:5 هو 1080 × 1350 و9:16 هو 1080 × 1920. مخصص يتيح لك إدخال العرض والارتفاع بالبكسل.",
+  "back": "The original keeps the size of your image in the format you chose in the layout. 1:1 is 1080 × 1080 and 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. A custom allows you to enter width and height in pixels.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpExport4",
+  "en": "Marketplace presets set size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG kept under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices, and choosing a format or size afterwards switches the marketplace off. Marketplace rules can change, so check your marketplace’s current requirements.",
+  "tr": "الإعدادات المسبقة للأسواق الإلكترونية تحدد الحجم والصيغة والجودة: Amazon بحجم 2000 × 2000 JPG، وeBay بحجم 1600 × 1600 JPG، وEtsy بحجم 2667 × 2000 JPG أقل من 1 ميغابايت، وShopify بحجم 2048 × 2048 PNG. اختيار أحدها يحل محل اختياراتك للصيغة والحجم؛ وإذا اخترت بعد ذلك صيغة أو حجمًا يُلغى اختيار السوق. قد تتغير قواعد الأسواق، لذا تحقق من المتطلبات الحالية لسوقك.",
+  "back": "Electronic marketplace pre-settings specify size, format, and quality: Amazon at 2000×2000 JPG, eBay at 1600×1600 JPG, Etsy at 2667×2000 JPG less than 1 MB, and Shopify at 2048×2048 PNG. Choosing one replaces your choices for format and size; if you then choose a format or size, the market choice is canceled. Market rules may change, so check the current requirements for your market.",
+  "sim": 0.57
+ },
+ {
+  "k": "helpExport5",
+  "en": "Amazon also uses a pure white background with no shadow and fits the subject to fill most of the frame. Your background choice in the editor is not changed. The other marketplaces keep your background.",
+  "tr": "يستخدم Amazon أيضًا خلفية بيضاء نقية بلا ظل ويضبط الموضوع ليملأ معظم الإطار. لا يتغير اختيارك للخلفية في المحرر. أما الأسواق الأخرى فتحتفظ بخلفيتك.",
+  "back": "Amazon also uses a pure white background with no shade and adjusts the subject to fill most of the frame. Your choice of background in the editor doesn't change. Other markets keep your background.",
+  "sim": 0.78
+ },
+ {
+  "k": "helpExport6",
+  "en": "Save to Gallery and Share both save the picture to your gallery and to Recent Exports. Share also opens your phone’s share menu. If saving to the gallery is not possible, the share menu opens instead. After exporting you return to the home screen.",
+  "tr": "حفظ في المعرض ومشاركة كلاهما يحفظ الصورة في معرضك وفي الصادرات الأخيرة. مشاركة تفتح أيضًا قائمة المشاركة في هاتفك. وإذا تعذّر الحفظ في المعرض تُفتح قائمة المشاركة بدلًا منه. بعد التصدير تعود إلى الشاشة الرئيسية.",
+  "back": "Save in the exhibition and share both save the photo in your exhibition and in recent exports. Share also opens the share list on your phone. If you excuse saving in the exhibition, the share list opens instead. After export you return to the home screen.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpExport7",
+  "en": "Unless you have removed ads, an ad can appear after an export, at most once every two minutes.",
+  "tr": "إذا لم تُزل الإعلانات، فقد يظهر إعلان بعد التصدير، مرة واحدة كل دقيقتين على الأكثر.",
+  "back": "If the advertisement is not released, an advertisement may appear after export, once every two minutes at most.",
+  "sim": 0.44
+ },
+ {
+  "k": "helpBatchTitle",
+  "en": "Batch",
+  "tr": "دفعة",
+  "back": "A boost .",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBatch1",
+  "en": "Batch cuts out up to 30 photos in one go. Tap Batch on the home screen and pick your photos. The back button is turned off while a batch runs.",
+  "tr": "دفعة تقص حتى 30 صورة في وقت واحد. اضغط على دفعة في الشاشة الرئيسية واختر صورك. يكون زر الرجوع معطلًا أثناء تشغيل الدفعة.",
+  "back": "Push up to 30 images at a time. Press Push on the home screen and select your photos. The return button is disabled while the Push is running.",
+  "sim": 0.48
+ },
+ {
+  "k": "helpBatch2",
+  "en": "All photos in a batch share one setup: one background and one marketplace. You cannot choose differently for each photo.",
+  "tr": "تشترك كل صور الدفعة في إعداد واحد: خلفية واحدة وسوق واحد. لا يمكنك الاختيار بشكل مختلف لكل صورة.",
+  "back": "All the images in the batch share one setup: one background and one market. You can't choose differently for each image.",
+  "sim": 0.73
+ },
+ {
+  "k": "helpBatch3",
+  "en": "Backgrounds work as in the editor: your own photo, a colour, a template, white, transparent, black, blur or a gradient. Only one applies, and your latest choice replaces the earlier one.",
+  "tr": "تعمل الخلفيات كما في المحرر: صورتك الخاصة أو لون أو قالب أو أبيض أو شفاف أو أسود أو تمويه أو تدرج. تُطبَّق واحدة فقط، واختيارك الأخير يحل محل السابق.",
+  "back": "Backgrounds work as in the editor: your own image, color, pattern, white, transparent, black, camouflage, or inclusion. Only one is applied, and your last choice replaces the previous one.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpBatch4",
+  "en": "The file format is chosen for you. With a marketplace, the photos follow that marketplace’s size and format. Without one, a transparent background gives PNG and any other background gives JPG, at the original size.",
+  "tr": "تُختار صيغة الملف نيابةً عنك. عند اختيار سوق إلكتروني، تتبع الصور حجمه وصيغته. وبدون سوق، تعطي الخلفية الشفافة PNG وتعطي أي خلفية أخرى JPG، بالحجم الأصلي.",
+  "back": "The file format is chosen for you. When you choose an electronic marketplace, you track the size and format of the images. Without a marketplace, you give the background a transparent PNG and give any other background JPG, the original size.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpBatch5",
+  "en": "Choosing Amazon switches the background to White; if you then choose another background, Amazon is switched off. eBay, Etsy and Shopify keep your background, but a JPG cannot be transparent, so it gets a white background.",
+  "tr": "اختيار Amazon يحوّل الخلفية إلى الأبيض؛ وإذا اخترت بعد ذلك خلفية أخرى يُلغى اختيار Amazon. تحتفظ eBay وEtsy وShopify بخلفيتك، لكن JPG لا يمكن أن يكون شفافًا لذا يحصل على خلفية بيضاء.",
+  "back": "Choosing Amazon turns the background into white; if you then choose another background, Amazon cancels your choice. eBay, Etsy and Shopify keep your background, but JPG can't be transparent so it gets a white background.",
+  "sim": 0.82
+ },
+ {
+  "k": "helpBatch6",
+  "en": "If the HD model is installed, every photo in the batch is cut out with it. The Get HD cut-out button next to Templates downloads it.",
+  "tr": "إذا كان النموذج عالي الدقة مثبّتًا، تُقص كل صورة في الدفعة به. زر احصل على القص عالي الدقة بجوار قوالب ينزّله.",
+  "back": "If the high-resolution model is fixed, each image in the batch is scaled with it.",
+  "sim": 0.49
+ },
+ {
+  "k": "helpBatch7",
+  "en": "Each photo is saved to your gallery and to Recent Exports as soon as it finishes. Stop ends the batch after the current photo, and photos already finished stay saved. If a photo fails, the batch carries on and tells you how many could not be processed. Done takes you back to the home screen; it does not save anything.",
+  "tr": "تُحفظ كل صورة في معرضك وفي الصادرات الأخيرة بمجرد اكتمالها. إيقاف ينهي الدفعة بعد الصورة الجارية، وتبقى الصور المكتملة محفوظة. وإذا فشلت صورة تستمر الدفعة وتخبرك بعدد الصور التي تعذّرت معالجتها. تم يعيدك إلى الشاشة الرئيسية؛ ولا يحفظ شيئًا.",
+  "back": "Each image in your gallery and in recent exports is saved as soon as it's completed. A stop finishes the batch after the current image, and the completed images remain saved. If the batch fails, the image continues and tells you how many images have been deleted. You are returned to the home screen; it saves nothing.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpLibraryTitle",
+  "en": "Your exports",
+  "tr": "صادراتك",
+  "back": "Your exports.",
+  "sim": 1.0
+ },
+ {
+  "k": "helpLibrary1",
+  "en": "Recent Exports on the home screen shows your latest exports. Tap See all for every export, grouped as Today, Yesterday, This week and Earlier.",
+  "tr": "الصادرات الأخيرة في الشاشة الرئيسية تعرض أحدث صادراتك. اضغط على عرض الكل لرؤيتها كلها، مجمّعة في اليوم وأمس وهذا الأسبوع وأقدم.",
+  "back": "The latest exports on the home screen showcase your latest exports.",
+  "sim": 0.46
+ },
+ {
+  "k": "helpLibrary2",
+  "en": "Tap an export to open it full screen. Swipe to move between exports and pinch to zoom. The bar at the bottom has Share, Save to Gallery, Edit again and Delete.",
+  "tr": "اضغط على أحد الصادرات لفتحه بملء الشاشة. اسحب للتنقل بين الصادرات واقرص للتكبير. يتيح الشريط السفلي مشاركة وحفظ في المعرض وتعديل مرة أخرى وحذف.",
+  "back": "Press one of the exports to open it with the full screen. Drag to navigate between the exports and the magnification disk. The bottom bar allows sharing, saving in the display, re-editing and deleting.",
+  "sim": 0.4
+ },
+ {
+  "k": "helpLibrary3",
+  "en": "The three-dot button on a tile opens the same actions. Edit again opens the exported picture as a new photo, so earlier brush strokes are not restored.",
+  "tr": "زر النقاط الثلاث على الصورة المصغرة يفتح الإجراءات نفسها. تعديل مرة أخرى يفتح الصورة المصدَّرة كصورة جديدة، لذا لا تُستعاد ضربات الفرشاة السابقة.",
+  "back": "The three-point button on the thumbnail opens the same procedure. Re-editing opens the released image as a new image, so the previous brush strokes don't come back.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpLibrary4",
+  "en": "Select lets you choose several exports to share together or delete. Delete all exports removes every export from this phone.",
+  "tr": "تحديد يتيح لك اختيار عدة صادرات لمشاركتها أو حذفها معًا. حذف كل الصادرات يزيل كل الصادرات من هذا الهاتف.",
+  "back": "Select allows you to select several exports to share or delete together. Delete all exports removes all exports from this phone.",
+  "sim": 0.73
+ },
+ {
+  "k": "helpLibrary5",
+  "en": "Deleting removes exports from PhotoSur only. Pictures already saved to your gallery are not affected. The bottom of the See all screen shows how much space exports use on this phone.",
+  "tr": "الحذف يزيل الصادرات من PhotoSur فقط. أما الصور المحفوظة بالفعل في معرضك فلا تُمسّ. وفي أسفل عرض الكل ترى المساحة التي تشغلها الصادرات على هذا الهاتف.",
+  "back": "Deleting deletes exports from PhotoSur only. The photos already saved in your gallery should not be touched. At the bottom of the screen you can see the space taken up by the exports on this phone.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpPrivacyTitle",
+  "en": "Privacy & ads",
+  "tr": "الخصوصية والإعلانات",
+  "back": "Privacy and advertising",
+  "sim": 0.4
+ },
+ {
+  "k": "helpPrivacy1",
+  "en": "Your photos are processed on your phone and are not uploaded. There is no account and no watermark.",
+  "tr": "تُعالَج صورك على هاتفك ولا تُرفع. لا يوجد حساب ولا علامة مائية.",
+  "back": "Your photos are processed on your phone and not uploaded. There's no account or watermark.",
+  "sim": 0.79
+ },
+ {
+  "k": "helpPrivacy2",
+  "en": "PhotoSur is free with every feature included, supported by ads. A banner appears at the bottom of some screens, and an ad can appear after an export.",
+  "tr": "PhotoSur مجاني، بكل الميزات، ويُموَّل بالإعلانات. يظهر شريط إعلاني في أسفل بعض الشاشات، وقد يظهر إعلان بعد التصدير.",
+  "back": "PhotoSur is free, with all the features, funded by advertising. An ad bar appears at the bottom of some screens, and an ad may appear after export.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpPrivacy3",
+  "en": "Go Ad-Free in Settings is a one-time purchase that removes the ads. It does not unlock anything else, because every feature is already free. Restore Purchases brings it back on a new phone.",
+  "tr": "إزالة الإعلانات في الإعدادات عملية شراء لمرة واحدة تزيل الإعلانات. ولا تفتح أي شيء آخر، لأن كل الميزات مجانية أصلًا. استعادة المشتريات تعيدها على هاتف جديد.",
+  "back": "Removing ads in settings is a one-time purchase removing ads. Do not open anything else, because all the features are originally free.",
+  "sim": 0.44
+ },
+ {
+  "k": "helpSettingsTitle",
+  "en": "Settings",
+  "tr": "الإعدادات",
+  "back": "The settings .",
+  "sim": 0.67
+ },
+ {
+  "k": "helpSettings1",
+  "en": "Theme can follow your phone, or be Light or Dark. Language changes the language of the app. Both are also in the home screen header.",
+  "tr": "يمكن أن يتبع المظهر هاتفك، أو يكون فاتحًا أو داكنًا. اللغة تغيّر لغة التطبيق. وكلاهما موجود أيضًا في رأس الشاشة الرئيسية.",
+  "back": "It can track the appearance of your phone, or it can be light or dark. The language changes the language of the app. Both are also at the top of the home screen.",
+  "sim": 0.72
+ },
+ {
+  "k": "helpSettings2",
+  "en": "Edit reminders: if you leave the app with an unfinished edit, PhotoSur can remind you three hours later. Switch this off in Settings.",
+  "tr": "تذكيرات التعديل: إذا غادرت التطبيق وتعديلك غير مكتمل، فقد يذكّرك PhotoSur بعد ثلاث ساعات. أوقف ذلك من الإعدادات.",
+  "back": "Modification reminders: If you leave the app and your modification is incomplete, PhotoSur may remind you after three hours.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpSettings3",
+  "en": "HD cut-out model shows whether it is installed. Remove deletes it from your phone to free space; you can download it again at any time.",
+  "tr": "نموذج القص عالي الدقة يوضح إن كان مثبّتًا. إزالة تحذفه من هاتفك لتوفير مساحة؛ ويمكنك تنزيله مرة أخرى في أي وقت.",
+  "back": "The high-resolution cutting model shows if it's fixed. Remove it from your phone to save space; you can download it again anytime.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpSettings4",
+  "en": "Replay intro shows the welcome screens again. Support opens the support page. Animated home background turns the moving picture at the top of the home screen on or off.",
+  "tr": "إعادة عرض المقدمة تعرض شاشات الترحيب مرة أخرى. الدعم يفتح صفحة الدعم. خلفية متحركة للرئيسية تشغّل الصورة المتحركة في أعلى الشاشة الرئيسية أو توقفها.",
+  "back": "Retargeting displays welcome screens again. Support opens the support page.",
+  "sim": 0.41
+ },
+ {
+  "k": "helpFixTitle",
+  "en": "If something goes wrong",
+  "tr": "إذا حدث خطأ ما",
+  "back": "If something goes wrong,",
+  "sim": 1.0
+ },
+ {
+  "k": "helpFix1",
+  "en": "If the automatic cut-out cannot run on a very old or low-memory phone, the brush still works, so you can finish the picture by hand.",
+  "tr": "إذا تعذّر تشغيل القص التلقائي على هاتف قديم جدًا أو قليل الذاكرة، تظل الفرشاة تعمل، فيمكنك إنهاء الصورة يدويًا.",
+  "back": "If you can't play auto-cutting on a very old or memory-poor phone, the brush will still work, and you can finish the picture manually.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpFix2",
+  "en": "If the HD download stops, check your connection and try again. It continues where it left off.",
+  "tr": "إذا توقف تنزيل النموذج عالي الدقة، فتحقق من اتصالك وحاول مرة أخرى. يستأنف من حيث توقف.",
+  "back": "If the high-resolution model stops downloading, check your connection and try again.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpFix3",
+  "en": "For anything else, open Support from Settings.",
+  "tr": "لأي شيء آخر، افتح الدعم من الإعدادات.",
+  "back": "For anything else, open the support from the settings.",
+  "sim": 0.88
+ }
+]

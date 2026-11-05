@@ -1,0 +1,1647 @@
+[
+ {
+  "k": "onboardingPage1Title",
+  "en": "Remove backgrounds instantly. All features free.",
+  "tr": "Alisin agad ang mga background. Libre ang lahat ng feature.",
+  "back": "Remove the background immediately. All features are free.",
+  "sim": 0.57
+ },
+ {
+  "k": "onboardingPage1Body",
+  "en": "Open a photo and our on-device AI removes the background automatically — no internet required. You can also swap in your own custom background.",
+  "tr": "Magbukas ng larawan at awtomatikong aalisin ng AI sa device mo ang background — walang internet na kailangan. Maaari mo ring palitan ito ng sarili mong custom na background.",
+  "back": "It opens the image and the AI automatically removes the background on your device  no internet required. You can also replace it with your own custom background.",
+  "sim": 0.6
+ },
+ {
+  "k": "onboardingPage2Title",
+  "en": "Fine-tune with the brush",
+  "tr": "I-fine-tune gamit ang brush",
+  "back": "Fine-tune with the brush",
+  "sim": 1.0
+ },
+ {
+  "k": "onboardingPage2Body",
+  "en": "Paint away what the AI missed or restore what you want to keep. Then crop, rotate, move and resize.",
+  "tr": "Burahin gamit ang brush ang nakaligtaan ng AI, o ibalik ang gusto mong panatilihin. Pagkatapos ay i-crop, i-rotate, ilipat at baguhin ang laki.",
+  "back": "Brush out the missing AI, or return what you want to keep, then crop, rotate, move and resize.",
+  "sim": 0.76
+ },
+ {
+  "k": "onboardingPage3Title",
+  "en": "Studio-ready backgrounds",
+  "tr": "Mga background na pang-studio",
+  "back": "Studio backgrounds",
+  "sim": 0.5
+ },
+ {
+  "k": "onboardingPage3Body",
+  "en": "Choose a colour, gradient, template or your own photo, with a natural shadow. Marketplace presets for Amazon, eBay, Etsy and Shopify set size and format for you.",
+  "tr": "Pumili ng kulay, gradient, template o sarili mong larawan, may natural na anino. Ang mga preset para sa Amazon, eBay, Etsy at Shopify ang magtatakda ng laki at format para sa iyo.",
+  "back": "Choose a color, gradient, template or your own image, with natural shadows. Presets for Amazon, eBay, Etsy and Shopify will set the size and format for you.",
+  "sim": 0.81
+ },
+ {
+  "k": "onboardingPage4Title",
+  "en": "Batch it, export it, keep it private",
+  "tr": "Sabay-sabay, sa format na gusto mo, pribado",
+  "back": "At the same time, in any format you like, private",
+  "sim": 0.12
+ },
+ {
+  "k": "onboardingPage4Body",
+  "en": "Cut out up to 30 photos at once and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "tr": "Magtanggal ng background ng hanggang 30 larawan nang sabay-sabay at i-export bilang PNG, JPG o WEBP. Hindi kailanman lalabas sa telepono mo ang mga larawan mo. Available sa 43 wika.",
+  "back": "Remove the background of up to 30 images at a time and export them as PNG, JPG or WEBP. Your photos will never appear on your phone. Available in 43 languages.",
+  "sim": 0.71
+ },
+ {
+  "k": "onboardingNext",
+  "en": "Next",
+  "tr": "Susunod",
+  "back": "Following",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingGetStarted",
+  "en": "Get Started",
+  "tr": "Magsimula",
+  "back": "Get started",
+  "sim": 1.0
+ },
+ {
+  "k": "dateToday",
+  "en": "Today",
+  "tr": "Ngayon",
+  "back": "Now",
+  "sim": 0.0
+ },
+ {
+  "k": "dateYesterday",
+  "en": "Yesterday",
+  "tr": "Kahapon",
+  "back": "Yesterday",
+  "sim": 1.0
+ },
+ {
+  "k": "homeRecentExports",
+  "en": "Recent Exports",
+  "tr": "Mga Kamakailang Export",
+  "back": "Other Exports",
+  "sim": 0.5
+ },
+ {
+  "k": "homeEmptyStateMessage",
+  "en": "Tap Camera or Gallery to start.",
+  "tr": "I-tap ang Camera o Gallery para magsimula.",
+  "back": "Tap Camera or Gallery to start.",
+  "sim": 1.0
+ },
+ {
+  "k": "homeExportUnavailable",
+  "en": "This export is no longer available.",
+  "tr": "Hindi na available ang export na ito.",
+  "back": "This export is no longer available.",
+  "sim": 1.0
+ },
+ {
+  "k": "homeShareFailed",
+  "en": "Could not share this export.",
+  "tr": "Hindi maibahagi ang export na ito.",
+  "back": "This export cannot be divided.",
+  "sim": 0.4
+ },
+ {
+  "k": "homeGalleryOpenFailed",
+  "en": "Could not open gallery.",
+  "tr": "Hindi mabuksan ang gallery.",
+  "back": "The gallery won't open.",
+  "sim": 0.25
+ },
+ {
+  "k": "cameraPermissionDenied",
+  "en": "Camera access is needed to take a photo. Please allow access.",
+  "tr": "Kailangan ang access sa camera para kumuha ng larawan. Pakipayagan ang access.",
+  "back": "You need access to the camera to take a picture.",
+  "sim": 0.38
+ },
+ {
+  "k": "cameraPermissionPermanentlyDenied",
+  "en": "Camera access was denied. Enable it in Settings to continue.",
+  "tr": "Tinanggihan ang access sa camera. I-enable ito sa Settings para magpatuloy.",
+  "back": "Access to the camera is denied. Enable it in Settings to proceed.",
+  "sim": 0.64
+ },
+ {
+  "k": "cameraPermissionRestricted",
+  "en": "Camera access is restricted on this device.",
+  "tr": "Pinaghihigpitan ang access sa camera sa device na ito.",
+  "back": "Camera access to this device is restricted.",
+  "sim": 0.57
+ },
+ {
+  "k": "cameraNoCameraFound",
+  "en": "No camera found on this device.",
+  "tr": "Walang nakitang camera sa device na ito.",
+  "back": "No camera was seen on this device.",
+  "sim": 0.77
+ },
+ {
+  "k": "cameraStartFailed",
+  "en": "Could not start the camera.",
+  "tr": "Hindi masimulan ang camera.",
+  "back": "The camera won't start.",
+  "sim": 0.44
+ },
+ {
+  "k": "cameraCaptureFailed",
+  "en": "Could not capture photo.",
+  "tr": "Hindi makuhanan ang larawan.",
+  "back": "The picture is untouchable.",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraOpenSettings",
+  "en": "Open Settings",
+  "tr": "Buksan ang Settings",
+  "back": "Open the Settings",
+  "sim": 0.8
+ },
+ {
+  "k": "cropTitle",
+  "en": "Crop & Rotate",
+  "tr": "I-crop at I-rotate",
+  "back": "Crop and Rotate",
+  "sim": 0.8
+ },
+ {
+  "k": "cropLoadFailed",
+  "en": "Could not load the image.",
+  "tr": "Hindi ma-load ang larawan.",
+  "back": "The photo cannot be loaded.",
+  "sim": 0.2
+ },
+ {
+  "k": "cropRotateFailed",
+  "en": "Could not rotate the image.",
+  "tr": "Hindi ma-rotate ang larawan.",
+  "back": "The image cannot be rotated.",
+  "sim": 0.4
+ },
+ {
+  "k": "cropFailed",
+  "en": "Crop failed.",
+  "tr": "Nabigo ang pag-crop.",
+  "back": "The crop failed.",
+  "sim": 0.8
+ },
+ {
+  "k": "cropSaveFailed",
+  "en": "Could not save the cropped image.",
+  "tr": "Hindi ma-save ang na-crop na larawan.",
+  "back": "The crop image cannot be saved.",
+  "sim": 0.33
+ },
+ {
+  "k": "cropAspectFree",
+  "en": "Free",
+  "tr": "Malaya",
+  "back": "Free",
+  "sim": 1.0
+ },
+ {
+  "k": "cropContinue",
+  "en": "Continue",
+  "tr": "Magpatuloy",
+  "back": "Keep going",
+  "sim": 0.0
+ },
+ {
+  "k": "editorSegmentationFailedMessage",
+  "en": "Your device doesn't support automatic background removal. Use the manual brush below.",
+  "tr": "Hindi sinusuportahan ng device mo ang awtomatikong pag-alis ng background. Gamitin ang manual na pambura sa ibaba.",
+  "back": "Your device does not support automatic background removal. Use the manual burner below.",
+  "sim": 0.8
+ },
+ {
+  "k": "brushErase",
+  "en": "Erase",
+  "tr": "Burahin",
+  "back": "Destroyed",
+  "sim": 0.0
+ },
+ {
+  "k": "brushRestore",
+  "en": "Restore",
+  "tr": "Ibalik",
+  "back": "Bring it back",
+  "sim": 0.0
+ },
+ {
+  "k": "brushSizeLabel",
+  "en": "Brush Size",
+  "tr": "Laki ng Brush",
+  "back": "Size of the Brush",
+  "sim": 0.33
+ },
+ {
+  "k": "backgroundWhite",
+  "en": "White",
+  "tr": "Puti",
+  "back": "White",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundBlack",
+  "en": "Black",
+  "tr": "Itim",
+  "back": "The black",
+  "sim": 0.67
+ },
+ {
+  "k": "edgeFeatherLabel",
+  "en": "Edge Smoothness",
+  "tr": "Lambot ng Gilid",
+  "back": "Cover of the Shroud",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarUndo",
+  "en": "Undo",
+  "tr": "I-undo",
+  "back": "It is stored",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarRedo",
+  "en": "Redo",
+  "tr": "I-redo",
+  "back": "Reduced",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarReset",
+  "en": "Reset",
+  "tr": "I-reset",
+  "back": "Reset it",
+  "sim": 0.67
+ },
+ {
+  "k": "toolbarExport",
+  "en": "Export",
+  "tr": "I-export",
+  "back": "Exported",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmTitle",
+  "en": "Reset edits?",
+  "tr": "I-reset ang mga edit?",
+  "back": "Reset the edits?",
+  "sim": 0.8
+ },
+ {
+  "k": "resetConfirmBody",
+  "en": "This clears your manual brush strokes. This cannot be undone.",
+  "tr": "Buburahin nito ang mga manual mong guhit ng brush. Hindi ito maaaring i-undo.",
+  "back": "It'll burn your brush drawing manuals.",
+  "sim": 0.25
+ },
+ {
+  "k": "resetConfirmCancel",
+  "en": "Cancel",
+  "tr": "Kanselahin",
+  "back": "Cancelled",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmConfirm",
+  "en": "Reset",
+  "tr": "I-reset",
+  "back": "Reset it",
+  "sim": 0.67
+ },
+ {
+  "k": "exportTitle",
+  "en": "Export",
+  "tr": "I-export",
+  "back": "Exported",
+  "sim": 0.0
+ },
+ {
+  "k": "exportQualityLabel",
+  "en": "Quality: {value}",
+  "tr": "Kalidad: {value}",
+  "back": "Quality: [value]",
+  "sim": 1.0
+ },
+ {
+  "k": "exportResizeLabel",
+  "en": "Resize",
+  "tr": "I-resize",
+  "back": "Make a decision",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeOriginal",
+  "en": "Original",
+  "tr": "Orihinal",
+  "back": "Originally",
+  "sim": 0.0
+ },
+ {
+  "k": "exportWidthLabel",
+  "en": "Width (px)",
+  "tr": "Lapad (px)",
+  "back": "Width (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportHeightLabel",
+  "en": "Height (px)",
+  "tr": "Taas (px)",
+  "back": "Height (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSaveToGallery",
+  "en": "Save to Gallery",
+  "tr": "I-save sa Gallery",
+  "back": "Save to Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "exportShare",
+  "en": "Share",
+  "tr": "Ibahagi",
+  "back": "Share",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSuccess",
+  "en": "Exported!",
+  "tr": "Na-export na!",
+  "back": "Exported already!",
+  "sim": 0.67
+ },
+ {
+  "k": "exportFailed",
+  "en": "Export failed. Please try again.",
+  "tr": "Nabigo ang pag-export. Pakisubukang muli.",
+  "back": "Export failed. Try again.",
+  "sim": 0.89
+ },
+ {
+  "k": "exportInProgress",
+  "en": "Exporting…",
+  "tr": "Ine-export…",
+  "back": "Exported...",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTheme",
+  "en": "Theme",
+  "tr": "Tema",
+  "back": "Theme",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsLanguage",
+  "en": "Language",
+  "tr": "Wika",
+  "back": "Speech",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Ibalik ang mga Pagbili",
+  "back": "Return the Purchases",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsGoAdFree",
+  "en": "Go Ad-Free",
+  "tr": "Alisin ang mga Ad",
+  "back": "Remove the Ad",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsPrivacyPolicy",
+  "en": "Privacy Policy",
+  "tr": "Patakaran sa Privacy",
+  "back": "Privacy policy",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsSupport",
+  "en": "Support",
+  "tr": "Suporta",
+  "back": "Support",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRateApp",
+  "en": "Rate App",
+  "tr": "I-rate ang App",
+  "back": "Rate the App",
+  "sim": 0.8
+ },
+ {
+  "k": "settingsShareApp",
+  "en": "Share App",
+  "tr": "Ibahagi ang App",
+  "back": "Share the App",
+  "sim": 0.8
+ },
+ {
+  "k": "settingsLicenses",
+  "en": "Open-source licenses",
+  "tr": "Mga open-source na lisensya",
+  "back": "Open-source licenses",
+  "sim": 1.0
+ },
+ {
+  "k": "reminderChannelName",
+  "en": "Edit reminders",
+  "tr": "Mga paalala sa edit",
+  "back": "Reminders of the edit",
+  "sim": 0.33
+ },
+ {
+  "k": "reminderChannelDescription",
+  "en": "Reminders about edits you have not finished.",
+  "tr": "Mga paalala tungkol sa mga edit na hindi mo pa natatapos.",
+  "back": "Reminders about edits you haven't finished yet.",
+  "sim": 0.71
+ },
+ {
+  "k": "reminderTitle",
+  "en": "Your edit is waiting",
+  "tr": "Naghihintay ang edit mo",
+  "back": "Your editor is waiting",
+  "sim": 0.75
+ },
+ {
+  "k": "reminderBody",
+  "en": "Pick up where you left off and export your photo.",
+  "tr": "Ituloy kung saan ka huminto at i-export ang larawan mo.",
+  "back": "Continue where you stopped and export your photo.",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsReminders",
+  "en": "Edit reminders",
+  "tr": "Mga paalala sa edit",
+  "back": "Reminders of the edit",
+  "sim": 0.33
+ },
+ {
+  "k": "settingsAnimatedBackground",
+  "en": "Animated home background",
+  "tr": "Animated na background ng home",
+  "back": "Animated home background",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRemindersSubtitle",
+  "en": "Remind me about unfinished edits",
+  "tr": "Paalalahanan ako tungkol sa mga hindi natapos na edit",
+  "back": "Remind me of the unfinished edits",
+  "sim": 0.73
+ },
+ {
+  "k": "settingsRemindersBlocked",
+  "en": "Notifications are turned off for PhotoSur in your phone's settings.",
+  "tr": "Naka-off ang mga notification ng PhotoSur sa settings ng telepono mo.",
+  "back": "PhotoSur notifications are disabled in your phone settings.",
+  "sim": 0.56
+ },
+ {
+  "k": "editorBrushHint",
+  "en": "Drag to paint. Pinch with two fingers to zoom.",
+  "tr": "I-drag para magpinta. Mag-pinch gamit ang dalawang daliri para mag-zoom.",
+  "back": "Drag to paint. Pinch with two fingers to zoom in.",
+  "sim": 0.95
+ },
+ {
+  "k": "layoutSizeLabel",
+  "en": "Size",
+  "tr": "Laki",
+  "back": "Large",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutShadowLabel",
+  "en": "Shadow",
+  "tr": "Anino",
+  "back": "Shadows",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundPhoto",
+  "en": "Photo",
+  "tr": "Larawan",
+  "back": "Picture of the day",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundPhotoFailed",
+  "en": "Could not load that photo.",
+  "tr": "Hindi ma-load ang larawang iyon.",
+  "back": "That picture can't be loaded.",
+  "sim": 0.2
+ },
+ {
+  "k": "editorLayoutHint",
+  "en": "Drag to move. Pinch with two fingers to resize.",
+  "tr": "I-drag para ilipat. Mag-pinch gamit ang dalawang daliri para i-resize.",
+  "back": "Drag to move. Pinch with two fingers to resize.",
+  "sim": 1.0
+ },
+ {
+  "k": "languageSystemDefault",
+  "en": "System default",
+  "tr": "Default ng system",
+  "back": "Default of the system",
+  "sim": 0.33
+ },
+ {
+  "k": "languageSheetTitle",
+  "en": "Language",
+  "tr": "Wika",
+  "back": "Speech",
+  "sim": 0.0
+ },
+ {
+  "k": "themeSheetTitle",
+  "en": "Theme",
+  "tr": "Tema",
+  "back": "Theme",
+  "sim": 1.0
+ },
+ {
+  "k": "themeOptionSystem",
+  "en": "System default",
+  "tr": "Default ng system",
+  "back": "Default of the system",
+  "sim": 0.33
+ },
+ {
+  "k": "themeOptionLight",
+  "en": "Light",
+  "tr": "Maliwanag",
+  "back": "Clearly",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionDark",
+  "en": "Dark",
+  "tr": "Madilim",
+  "back": "It is dark",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsLinkNotReady",
+  "en": "This link isn't set up yet.",
+  "tr": "Hindi pa naka-set up ang link na ito.",
+  "back": "This link has not yet been set up.",
+  "sim": 0.57
+ },
+ {
+  "k": "settingsLinkOpenFailed",
+  "en": "Could not open link.",
+  "tr": "Hindi mabuksan ang link.",
+  "back": "The link won't open.",
+  "sim": 0.25
+ },
+ {
+  "k": "settingsRestoreRequested",
+  "en": "Restore requested — check back in a moment.",
+  "tr": "Hiniling na ang pagbabalik — tingnan ulit mamaya.",
+  "back": "I've been asked to come back to see you again later.",
+  "sim": 0.11
+ },
+ {
+  "k": "settingsRestoreFailed",
+  "en": "Restore failed.",
+  "tr": "Nabigo ang pagbabalik.",
+  "back": "The return failed.",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsShareFailed",
+  "en": "Could not share.",
+  "tr": "Hindi maibahagi.",
+  "back": "Not to be shared.",
+  "sim": 0.29
+ },
+ {
+  "k": "settingsShareAppMessage",
+  "en": "Remove photo backgrounds instantly with PhotoSur — free, no watermark.",
+  "tr": "Alisin agad ang background ng mga larawan gamit ang PhotoSur — libre, walang watermark.",
+  "back": "Immediately remove the background of photos using PhotoSur  free, without watermark.",
+  "sim": 0.4
+ },
+ {
+  "k": "paywallTitle",
+  "en": "Go Ad-Free",
+  "tr": "Alisin ang mga Ad",
+  "back": "Remove the Ad",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallAlreadyAdFree",
+  "en": "You're already ad-free. Thank you!",
+  "tr": "Wala ka nang mga ad. Salamat!",
+  "back": "You don't have any more ads. Thank you!",
+  "sim": 0.31
+ },
+ {
+  "k": "paywallPlanFreeTitle",
+  "en": "Free",
+  "tr": "Libre",
+  "back": "Free",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallPlanAdFreeTitle",
+  "en": "Ad-Free",
+  "tr": "Walang Ad",
+  "back": "No Ad",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPlanAdFreePrice",
+  "en": "One-time purchase",
+  "tr": "Isang beses na pagbili",
+  "back": "A one-time purchase",
+  "sim": 0.8
+ },
+ {
+  "k": "paywallFeatureAllFeatures",
+  "en": "All features",
+  "tr": "Lahat ng feature",
+  "back": "All features",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallFeatureAdSupported",
+  "en": "Ad-supported",
+  "tr": "May mga ad",
+  "back": "There are ads",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureZeroAds",
+  "en": "Zero ads",
+  "tr": "Walang ad",
+  "back": "No ad",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPurchaseButton",
+  "en": "Remove Ads",
+  "tr": "Alisin ang mga Ad",
+  "back": "Remove the Ad",
+  "sim": 0.4
+ },
+ {
+  "k": "paywallPurchaseButtonPrice",
+  "en": "Remove Ads — {price}",
+  "tr": "Alisin ang mga Ad — {price}",
+  "back": "Remove the Ad  [price]",
+  "sim": 0.57
+ },
+ {
+  "k": "paywallRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Ibalik ang mga Pagbili",
+  "back": "Return the Purchases",
+  "sim": 0.4
+ },
+ {
+  "k": "paywallProductUnavailable",
+  "en": "Ad removal is not available right now.",
+  "tr": "Hindi available ngayon ang pag-alis ng ad.",
+  "back": "Ad withdrawal is not currently available.",
+  "sim": 0.62
+ },
+ {
+  "k": "paywallPurchaseFailed",
+  "en": "Purchase failed.",
+  "tr": "Nabigo ang pagbili.",
+  "back": "The purchase failed.",
+  "sim": 0.8
+ },
+ {
+  "k": "errorScreenTitle",
+  "en": "Something went wrong",
+  "tr": "May nangyaring mali",
+  "back": "Something went wrong",
+  "sim": 1.0
+ },
+ {
+  "k": "errorScreenBody",
+  "en": "Try again, or restart the app if this keeps happening.",
+  "tr": "Subukang muli, o i-restart ang app kung magpapatuloy ang problema.",
+  "back": "Try again, or restart the app if the problem persists.",
+  "sim": 0.7
+ },
+ {
+  "k": "errorScreenGoBack",
+  "en": "Go back",
+  "tr": "Bumalik",
+  "back": "Going back",
+  "sim": 0.5
+ },
+ {
+  "k": "errorScreenReportEmail",
+  "en": "Report via {email}",
+  "tr": "I-report sa {email}",
+  "back": "Report to [email]",
+  "sim": 0.67
+ },
+ {
+  "k": "unsupportedTitle",
+  "en": "Device Not Supported",
+  "tr": "Hindi Suportado ang Device",
+  "back": "Device Not Supported",
+  "sim": 1.0
+ },
+ {
+  "k": "unsupportedNoCameraMessage",
+  "en": "This device doesn't have a camera available.",
+  "tr": "Walang available na camera ang device na ito.",
+  "back": "This device does not have a camera available.",
+  "sim": 0.8
+ },
+ {
+  "k": "unsupportedLowMemoryMessage",
+  "en": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
+  "tr": "Kulang ang memory ng device na ito para patakbuhin nang maaasahan ang editor ng PhotoSur.",
+  "back": "This device lacks the memory to reliably run the PhotoSur editor.",
+  "sim": 0.55
+ },
+ {
+  "k": "unsupportedManualImportHint",
+  "en": "You can still import a photo from your gallery and use the manual brush tool.",
+  "tr": "Maaari ka pa ring mag-import ng larawan mula sa gallery at gamitin ang manual na brush.",
+  "back": "You can still import a photo from the gallery and use the manual brush.",
+  "sim": 0.9
+ },
+ {
+  "k": "unsupportedUseGalleryButton",
+  "en": "Import from Gallery",
+  "tr": "Mag-import mula sa Gallery",
+  "back": "Import from Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "batchTitle",
+  "en": "Batch cut-out",
+  "tr": "Batch na cut-out",
+  "back": "Batch cut out",
+  "sim": 0.4
+ },
+ {
+  "k": "batchOutputTransparent",
+  "en": "Transparent PNG",
+  "tr": "Transparent na PNG",
+  "back": "Transparent PNG",
+  "sim": 1.0
+ },
+ {
+  "k": "batchOutputWhite",
+  "en": "White background (JPG)",
+  "tr": "Puting background (JPG)",
+  "back": "White background (JPG)",
+  "sim": 1.0
+ },
+ {
+  "k": "batchStart",
+  "en": "Start",
+  "tr": "Simulan",
+  "back": "Start with",
+  "sim": 0.67
+ },
+ {
+  "k": "batchStop",
+  "en": "Stop",
+  "tr": "Ihinto",
+  "back": "Stop it",
+  "sim": 0.67
+ },
+ {
+  "k": "batchDone",
+  "en": "Done",
+  "tr": "Tapos na",
+  "back": "It's over",
+  "sim": 0.0
+ },
+ {
+  "k": "batchProgress",
+  "en": "{done} of {total} done",
+  "tr": "{done} sa {total} ang tapos na",
+  "back": "[done] to [total] is done",
+  "sim": 0.67
+ },
+ {
+  "k": "batchSaved",
+  "en": "{count} saved to your gallery",
+  "tr": "{count} ang na-save sa iyong gallery",
+  "back": "[count] is saved in your gallery",
+  "sim": 0.73
+ },
+ {
+  "k": "batchSomeFailed",
+  "en": "{count} could not be processed",
+  "tr": "{count} ang hindi naproseso",
+  "back": "[count] unprocessed",
+  "sim": 0.29
+ },
+ {
+  "k": "batchTooMany",
+  "en": "Up to {max} photos at a time",
+  "tr": "Hanggang {max} larawan nang sabay-sabay",
+  "back": "Up to [max] simultaneous image",
+  "sim": 0.5
+ },
+ {
+  "k": "backgroundAddCustom",
+  "en": "Add custom background",
+  "tr": "Magdagdag ng custom na background",
+  "back": "Add a custom background",
+  "sim": 0.86
+ },
+ {
+  "k": "backgroundCustomColor",
+  "en": "Custom color",
+  "tr": "Custom na kulay",
+  "back": "Custom colour",
+  "sim": 0.5
+ },
+ {
+  "k": "colorBrightness",
+  "en": "Brightness",
+  "tr": "Liwanag",
+  "back": "Light",
+  "sim": 0.0
+ },
+ {
+  "k": "colorPickerDone",
+  "en": "Done",
+  "tr": "Tapos na",
+  "back": "It's over",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceWhiteFill",
+  "en": "Pure white background, product fills the frame",
+  "tr": "Purong puting background, puno ng produkto ang frame",
+  "back": "Pure white background, product-filled frame",
+  "sim": 0.67
+ },
+ {
+  "k": "exportMarketplaceSizeCap",
+  "en": "File kept under {size} MB",
+  "tr": "Wala pang {size} MB ang file",
+  "back": "The file is not yet [size] MB",
+  "sim": 0.5
+ },
+ {
+  "k": "editorToolTemplates",
+  "en": "Templates",
+  "tr": "Mga template",
+  "back": "Templates",
+  "sim": 1.0
+ },
+ {
+  "k": "templatesTitle",
+  "en": "Choose a template",
+  "tr": "Pumili ng template",
+  "back": "Choose a template",
+  "sim": 1.0
+ },
+ {
+  "k": "templatesStudio",
+  "en": "Studio",
+  "tr": "Estudyo",
+  "back": "The studio",
+  "sim": 0.67
+ },
+ {
+  "k": "templatesColorBlock",
+  "en": "Color block",
+  "tr": "Mga bloke ng kulay",
+  "back": "Colored blocks",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTextures",
+  "en": "Textures",
+  "tr": "Mga tekstura",
+  "back": "Textures",
+  "sim": 1.0
+ },
+ {
+  "k": "templatesLight",
+  "en": "Light & shadow",
+  "tr": "Liwanag at anino",
+  "back": "Light and shadow",
+  "sim": 0.8
+ },
+ {
+  "k": "templatesPatterns",
+  "en": "Gradients & patterns",
+  "tr": "Mga gradient at disenyo",
+  "back": "Gradients and designs",
+  "sim": 0.4
+ },
+ {
+  "k": "hdGetAction",
+  "en": "Get HD cut-out",
+  "tr": "Kunin ang HD cutout",
+  "back": "Take the HD cutout",
+  "sim": 0.57
+ },
+ {
+  "k": "hdRedoAction",
+  "en": "Redo cut-out in HD",
+  "tr": "Ulitin ang cutout sa HD",
+  "back": "Repeat the cutout in HD",
+  "sim": 0.67
+ },
+ {
+  "k": "hdDownloading",
+  "en": "HD cut-out in progress… {percent}%",
+  "tr": "Isinasagawa ang HD cutout… {percent}%",
+  "back": "HD cutout is performed... [percent]%",
+  "sim": 0.6
+ },
+ {
+  "k": "hdDownloadingShort",
+  "en": "HD cut-out… {percent}%",
+  "tr": "HD cutout… {percent}%",
+  "back": "HD cutout... [percent] %",
+  "sim": 1.0
+ },
+ {
+  "k": "hdConfirmTitle",
+  "en": "Download HD cut-out model?",
+  "tr": "I-download ang HD cutout model?",
+  "back": "Download the HD cutout model?",
+  "sim": 0.89
+ },
+ {
+  "k": "hdConfirmBody",
+  "en": "Cleaner edges on tricky objects like shoes, bags and bottles. It downloads once, stays on your phone and then works offline. Mobile data charges may apply.",
+  "tr": "Mas malinis na gilid sa mahihirap na bagay tulad ng sapatos, bag at bote. Isang beses lang ida-download, mananatili sa phone mo at gagana na offline. Maaaring may singil sa mobile data.",
+  "back": "It's a cleaner edge to poor things like shoes, bags and bottles. Once downloaded, it stays on your phone and goes offline. There may be a charge for mobile data.",
+  "sim": 0.54
+ },
+ {
+  "k": "hdDownload",
+  "en": "Download",
+  "tr": "I-download",
+  "back": "Downloadable",
+  "sim": 0.0
+ },
+ {
+  "k": "hdFailed",
+  "en": "HD cut-out didn’t finish. Check your connection and try again.",
+  "tr": "Hindi natapos ang HD cutout. Suriin ang koneksyon at subukan ulit.",
+  "back": "The HD cutout isn't finished. Check the connection and try again.",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsHdTitle",
+  "en": "HD cut-out model",
+  "tr": "HD cutout model",
+  "back": "HD cutout model",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsHdNotInstalled",
+  "en": "Not downloaded",
+  "tr": "Hindi pa na-download",
+  "back": "Not yet downloaded",
+  "sim": 0.8
+ },
+ {
+  "k": "settingsHdInstalled",
+  "en": "Installed · works offline",
+  "tr": "Naka-install · gumagana offline",
+  "back": "Installed · working offline",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsHdRemove",
+  "en": "Remove",
+  "tr": "Alisin",
+  "back": "Take it off",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsReplayIntro",
+  "en": "Replay intro",
+  "tr": "Panoorin ulit ang intro",
+  "back": "Check out the intro again",
+  "sim": 0.29
+ },
+ {
+  "k": "homeSeeAll",
+  "en": "See all",
+  "tr": "Tingnan lahat",
+  "back": "Look at everyone",
+  "sim": 0.0
+ },
+ {
+  "k": "exportActionEdit",
+  "en": "Edit again",
+  "tr": "I-edit ulit",
+  "back": "Re-edit",
+  "sim": 0.0
+ },
+ {
+  "k": "exportActionDelete",
+  "en": "Delete",
+  "tr": "Burahin",
+  "back": "Destroyed",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMoreOptions",
+  "en": "More options",
+  "tr": "Iba pang opsyon",
+  "back": "Other options",
+  "sim": 0.5
+ },
+ {
+  "k": "exportDeleteTitle",
+  "en": "Delete this export?",
+  "tr": "Burahin ang export na ito?",
+  "back": "Destroy this export?",
+  "sim": 0.67
+ },
+ {
+  "k": "exportDeleteBody",
+  "en": "Exported images are removed from this phone. Your original photos and anything saved to your gallery are not affected.",
+  "tr": "Aalisin sa phone na ito ang mga na-export na larawan. Hindi maaapektuhan ang orihinal mong mga larawan at ang mga naka-save sa gallery mo.",
+  "back": "Remove exported photos from this phone. Your original photos and those saved in your gallery will not be affected.",
+  "sim": 0.68
+ },
+ {
+  "k": "exportSavedToGallery",
+  "en": "Saved to your gallery",
+  "tr": "Na-save sa gallery mo",
+  "back": "Saved in your gallery",
+  "sim": 0.75
+ },
+ {
+  "k": "exportSaveFailed",
+  "en": "Could not save to the gallery.",
+  "tr": "Hindi ma-save sa gallery.",
+  "back": "Can't be saved in the gallery.",
+  "sim": 0.33
+ },
+ {
+  "k": "exportUnavailable",
+  "en": "Unavailable",
+  "tr": "Hindi available",
+  "back": "Not available",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsGroupThisWeek",
+  "en": "This week",
+  "tr": "Ngayong linggo",
+  "back": "This week",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsGroupEarlier",
+  "en": "Earlier",
+  "tr": "Mas nauna",
+  "back": "Earlier",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsStorageUsed",
+  "en": "{size} used on this phone",
+  "tr": "{size} ang gamit sa phone na ito",
+  "back": "[size] the use of this phone",
+  "sim": 0.55
+ },
+ {
+  "k": "exportsSelect",
+  "en": "Select",
+  "tr": "Pumili",
+  "back": "Choose",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsDone",
+  "en": "Done",
+  "tr": "Tapos na",
+  "back": "It's over",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsSelectedCount",
+  "en": "{count} selected",
+  "tr": "{count} ang napili",
+  "back": "[count] is chosen",
+  "sim": 0.4
+ },
+ {
+  "k": "exportsDeleteSelectedTitle",
+  "en": "Delete {count} exports?",
+  "tr": "Burahin ang {count} export?",
+  "back": "Cut the exports?",
+  "sim": 0.33
+ },
+ {
+  "k": "exportsDeleteAll",
+  "en": "Delete all exports",
+  "tr": "Burahin lahat ng export",
+  "back": "Cut all exports",
+  "sim": 0.67
+ },
+ {
+  "k": "exportsDeleteAllTitle",
+  "en": "Delete all exports?",
+  "tr": "Burahin ang lahat ng export?",
+  "back": "Destroy all exports?",
+  "sim": 0.67
+ },
+ {
+  "k": "helpTitle",
+  "en": "Help & how to use",
+  "tr": "Tulong at paano gamitin",
+  "back": "Help and how to use it",
+  "sim": 0.8
+ },
+ {
+  "k": "helpIntro",
+  "en": "Tap a topic to read how it works.",
+  "tr": "Mag-tap ng paksa para basahin kung paano ito gumagana.",
+  "back": "Tap on a subject to read how it works.",
+  "sim": 0.82
+ },
+ {
+  "k": "helpStartTitle",
+  "en": "Getting started",
+  "tr": "Pagsisimula",
+  "back": "The Beginning",
+  "sim": 0.0
+ },
+ {
+  "k": "helpStart1",
+  "en": "On the home screen, tap Camera to take a photo or Gallery to pick one. Batch cuts out many photos at once.",
+  "tr": "Sa home screen, i-tap ang Camera para kumuha ng larawan o ang Gallery para pumili ng isa. Ang Batch ay nagku-cut-out ng maraming larawan nang sabay-sabay.",
+  "back": "On the home screen, tap Camera to take a picture or Gallery to select one. Batch cuts out multiple photos at once.",
+  "sim": 0.86
+ },
+ {
+  "k": "helpStart2",
+  "en": "Every photo opens in Crop & Rotate first, then in the editor. Your original photo is never changed.",
+  "tr": "Bawat larawan ay unang magbubukas sa I-crop at I-rotate, at pagkatapos ay sa editor. Hindi kailanman binabago ang orihinal mong larawan.",
+  "back": "Each image opens first to I-crop and I-rotate, and then to the editor. You never change your original image.",
+  "sim": 0.39
+ },
+ {
+  "k": "helpStart3",
+  "en": "When you are happy, tap Export in the editor. Recent Exports on the home screen lists everything you have exported.",
+  "tr": "Kapag nasiyahan ka na, i-tap ang I-export sa editor. Ang Mga Kamakailang Export sa home screen ay naglilista ng lahat ng na-export mo.",
+  "back": "When you're satisfied, tap Export to the editor.",
+  "sim": 0.36
+ },
+ {
+  "k": "helpCropTitle",
+  "en": "Crop & Rotate",
+  "tr": "I-crop at I-rotate",
+  "back": "Crop and Rotate",
+  "sim": 0.8
+ },
+ {
+  "k": "helpCrop1",
+  "en": "Turn the photo left or right in 90° steps, and drag the frame to choose the part you want to keep.",
+  "tr": "I-rotate ang larawan pakaliwa o pakanan nang 90° bawat hakbang at i-drag ang frame para piliin ang bahaging gusto mong panatilihin.",
+  "back": "Rotate the image gently or evenly at 90° each step and drag the frame to select the part you want to keep.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpCrop2",
+  "en": "Free lets you shape the frame as you like. 1:1, 4:5 and 9:16 lock its shape. Tap Continue to open the editor.",
+  "tr": "Hinahayaan ka ng Malaya na hubugin ang frame sa anumang hugis. Ang 1:1, 4:5, at 9:16 ay nagla-lock sa hugis nito. I-tap ang Magpatuloy para buksan ang editor.",
+  "back": "Malaya allows you to fold the frame into any shape. 1:1, 4:5, and 9:16 lock in its shape. Tap Continue to open the editor.",
+  "sim": 0.7
+ },
+ {
+  "k": "helpCutoutTitle",
+  "en": "Cut-out",
+  "tr": "Pag-cut-out",
+  "back": "Cutting out",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCutout1",
+  "en": "When the editor opens, PhotoSur finds the main subject and removes the background automatically, on your phone. No internet is needed.",
+  "tr": "Pagbukas ng editor, hahanapin ng PhotoSur ang pangunahing paksa at awtomatikong aalisin ang background, sa iyong telepono. Hindi kailangan ng internet.",
+  "back": "When the editor opens, PhotoSur will search for the main subject and automatically remove the background, from your phone.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpCutout2",
+  "en": "Edge Smoothness softens the edge of the cut-out, from 0 to 20 pixels.",
+  "tr": "Ang Lambot ng Gilid ay nagpapalambot sa gilid ng cut-out, mula 0 hanggang 20 pixel.",
+  "back": "The Curve Lambot softened the edge of the cut-out, from 0 to 20 pixels.",
+  "sim": 0.74
+ },
+ {
+  "k": "helpCutout3",
+  "en": "The eye button at the top shows your original photo so you can compare. Tap it again to go back. The brush is paused while the original is shown.",
+  "tr": "Ang eye button sa itaas ay nagpapakita ng orihinal mong larawan para maikumpara. I-tap ulit para bumalik. Naka-pause ang brush habang nakikita ang orihinal.",
+  "back": "The eye button above shows your original image for comparison. Tap again to return. The brush pauses as the original is seen.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpCutout4",
+  "en": "For difficult subjects such as glass, shoes, bags and bottles, tap Get HD cut-out. The HD model downloads once, stays on your phone and then works offline. Once it is installed, every new cut-out uses it automatically. To redo the photo you have open, tap Redo cut-out in HD.",
+  "tr": "Para sa mahihirap na paksa, tulad ng salamin, sapatos, bag, at bote, i-tap ang Kunin ang HD cutout. Isang beses lang dina-download ang HD model, nananatili ito sa iyong telepono, at gumagana na pagkatapos nang offline. Kapag naka-install na, awtomatiko na itong gagamitin ng bawat bagong cut-out. Para ulitin ang bukas na larawan, i-tap ang Ulitin ang cutout sa HD.",
+  "back": "For difficult topics, such as mirrors, shoes, bags, and bottles, tap Take the HD cutout. Once the HD model is downloaded, it stays on your phone, and then works offline. Once installed, it will be automatically used by each new cut-out. To repeat the open image, tap Repeat the cutout to HD.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpBrushTitle",
+  "en": "Brush",
+  "tr": "Ang Brush",
+  "back": "The Brush",
+  "sim": 0.67
+ },
+ {
+  "k": "helpBrush1",
+  "en": "Erase removes parts of the subject. Restore brings back parts the cut-out removed.",
+  "tr": "Ang Burahin ay nag-aalis ng mga bahagi ng paksa. Ang Ibalik ay nagbabalik ng mga bahaging inalis ng cut-out.",
+  "back": "The Burhin removes the parts of the subject. The Return returns the parts removed by the cut-out.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpBrush2",
+  "en": "Drag one finger to paint. Use two fingers to zoom, up to 8 times, and to move the photo. The brush keeps its size on screen, so zooming in gives finer control.",
+  "tr": "Mag-drag gamit ang isang daliri para magpinta. Gumamit ng dalawang daliri para mag-zoom, hanggang 8 beses, at para ilipat ang larawan. Pinapanatili ng brush ang laki nito sa screen, kaya mas tumpak ang gawa mo kapag naka-zoom in.",
+  "back": "Drag with one finger to paint. Use two fingers to zoom in, up to eight times, and move the image. The brush keeps its size on the screen, so you can zoom in more accurately.",
+  "sim": 0.75
+ },
+ {
+  "k": "helpBrush3",
+  "en": "Brush Size goes from 1 to 50. Opacity sets how strongly each stroke applies.",
+  "tr": "Ang Laki ng Brush ay mula 1 hanggang 50. Ang Opacity ang nagtatakda kung gaano kalakas ang bawat guhit.",
+  "back": "Brush sizes range from 1 to 50. Opacity determines how strong each drawing is.",
+  "sim": 0.57
+ },
+ {
+  "k": "helpBrush4",
+  "en": "Undo and Redo step through your brush strokes. Reset clears all brush strokes and goes back to the automatic cut-out; it asks you to confirm first.",
+  "tr": "Ang I-undo at I-redo ay dumadaan sa mga guhit mo ng brush. Binubura ng I-reset ang lahat ng guhit at bumabalik sa awtomatikong cut-out; hihingan ka muna ng kumpirmasyon.",
+  "back": "I-Delete and I-Redo pass through your brush drawings. I-Reset erases all drawings and returns to automatic cut-out; you'll need confirmation first.",
+  "sim": 0.43
+ },
+ {
+  "k": "helpBackgroundTitle",
+  "en": "Background",
+  "tr": "Ang Background",
+  "back": "The Background",
+  "sim": 0.67
+ },
+ {
+  "k": "helpBackground1",
+  "en": "Choose what goes behind your subject: transparent, white, black, a gradient, a colour, a blurred copy of your photo, or your own photo.",
+  "tr": "Piliin kung ano ang nasa likod ng paksa mo: transparent, puti, itim, gradient, kulay, malabong kopya ng iyong larawan, o sarili mong larawan.",
+  "back": "Choose what is behind your subject: transparent, white, black, gradient, color, bright copy of your picture, or your own picture.",
+  "sim": 0.7
+ },
+ {
+  "k": "helpBackground2",
+  "en": "Only one background is used at a time. Your latest choice replaces the earlier one.",
+  "tr": "Isang background lang ang ginagamit sa bawat pagkakataon. Ang huling pinili mo ang papalit sa nauna.",
+  "back": "Only one background is used at each time. The last one you choose to replace the previous one.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpBackground3",
+  "en": "Add custom background lets you pick a photo from your gallery. Custom color opens a colour picker. The Blur slider goes from 0 to 25.",
+  "tr": "Hinahayaan ka ng Magdagdag ng custom na background na pumili ng larawan mula sa iyong gallery. Binubuksan ng Custom na kulay ang color picker. Ang Blur slider ay mula 0 hanggang 25.",
+  "back": "Custom background allows you to select a photo from your gallery. Custom color opens the color picker. Blur slider is from 0 to 25.",
+  "sim": 0.73
+ },
+ {
+  "k": "helpBackground4",
+  "en": "Transparent shows a checkerboard while you edit. Export as PNG to keep it transparent.",
+  "tr": "Ang Transparent ay nagpapakita ng checkerboard habang nag-e-edit. I-export bilang PNG para manatili ang transparency.",
+  "back": "Transparent displays the checkerboard while e-editing. Export as PNG to maintain transparency.",
+  "sim": 0.54
+ },
+ {
+  "k": "helpTemplatesTitle",
+  "en": "Templates",
+  "tr": "Mga template",
+  "back": "Templates",
+  "sim": 1.0
+ },
+ {
+  "k": "helpTemplates1",
+  "en": "Templates are ready-made backgrounds in five groups: Studio, Color block, Textures, Light & shadow, and Gradients & patterns. Five scenes are shown in the panel; tap the Templates button to see them all.",
+  "tr": "Ang mga template ay handa nang background sa limang grupo: Estudyo, Mga bloke ng kulay, Mga tekstura, Liwanag at anino, at Mga gradient at disenyo. Limang eksena ang lumalabas sa panel; i-tap ang Mga template button para makita lahat.",
+  "back": "The templates are ready in the background in five groups: Studio, Color Blocks, Textures, Light and Shadow, and Gradients and Design. Five scenes will appear on the panel; tap the Templates button to view them all.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpTemplates2",
+  "en": "Choosing a template works like choosing your own photo as the background: it replaces your earlier background choice.",
+  "tr": "Ang pagpili ng template ay gaya ng pagpili ng sarili mong larawan bilang background: pinapalitan nito ang dati mong pinili.",
+  "back": "Selecting a template is like choosing your own image as a background: it replaces the one you previously chose.",
+  "sim": 0.54
+ },
+ {
+  "k": "helpLayoutTitle",
+  "en": "Layout",
+  "tr": "Ang Layout",
+  "back": "The layout",
+  "sim": 0.67
+ },
+ {
+  "k": "helpLayout1",
+  "en": "Drag the subject on the photo to move it. Pinch with two fingers to resize it.",
+  "tr": "I-drag ang paksa sa larawan para ilipat ito. I-pinch gamit ang dalawang daliri para baguhin ang laki.",
+  "back": "Drag the subject to the image to move it. Pinch with two fingers to change the size.",
+  "sim": 0.73
+ },
+ {
+  "k": "helpLayout2",
+  "en": "Choose Original, 1:1, 4:5 or 9:16 to set the shape of the final picture.",
+  "tr": "Piliin ang Orihinal, 1:1, 4:5, o 9:16 para itakda ang hugis ng pinal na larawan.",
+  "back": "Choose the Original, 1:1, 4:5, or 9:16 to set the shape of the pin image.",
+  "sim": 0.83
+ },
+ {
+  "k": "helpLayout3",
+  "en": "Size sets how big the subject is, from 20% to 300%. Shadow sets how strong its shadow is. Auto-center puts the subject back in the middle. Reset undoes moving and resizing.",
+  "tr": "Ang Laki ang nagtatakda kung gaano kalaki ang paksa, mula 20% hanggang 300%. Ang Anino ang nagtatakda kung gaano kalakas ang anino nito. Ibinabalik ng Auto-center ang paksa sa gitna. Binabawi ng I-reset ang mga paglilipat at pagbabago ng laki.",
+  "back": "The size determines the size of the subject, from 20% to 300%. The Shadow determines the strength of its shadow. The Auto-center returns the subject to the center.",
+  "sim": 0.47
+ },
+ {
+  "k": "helpLayout4",
+  "en": "This shape is used when the export size is Original. If you choose a size preset or a marketplace in the export sheet, that decides the final shape instead.",
+  "tr": "Ang hugis na ito ang ginagamit kapag Orihinal ang laki ng export. Kung pipili ka ng preset na laki o marketplace sa export sheet, iyon ang magpapasya sa pinal na hugis.",
+  "back": "This shape is used when the original export size. If you select a preset size or marketplace on the export sheet, it will determine the pinal shape.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpExportTitle",
+  "en": "Export",
+  "tr": "I-export",
+  "back": "Exported",
+  "sim": 0.0
+ },
+ {
+  "k": "helpExport1",
+  "en": "Tap Export to open the export sheet. Nothing is applied until you tap Save to Gallery or Share, so you can change your choices as often as you like.",
+  "tr": "I-tap ang I-export para buksan ang export sheet. Walang ipapatupad hangga't hindi mo tina-tap ang I-save sa Gallery o Ibahagi, kaya puwede mong baguhin ang mga pinili mo nang ilang beses mo gusto.",
+  "back": "Tap Export to open the export sheet. Nothing will be executed until you tap Save to Gallery or Share, so you can change your preferences as many times as you like.",
+  "sim": 0.83
+ },
+ {
+  "k": "helpExport2",
+  "en": "PNG keeps transparency. JPG makes smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a small modern format; if your phone cannot make it, the file is saved as JPG. For JPG and WEBP, the Quality slider trades file size for detail.",
+  "tr": "Pinapanatili ng PNG ang transparency. Mas maliliit na file ang gawa ng JPG pero hindi ito puwedeng maging transparent, kaya nagiging puti ang transparent na background. Ang WEBP ay moderno at siksik na format; kung hindi ito magawa ng telepono mo, ise-save ang file bilang JPG. Para sa JPG at WEBP, binabalanse ng Quality slider ang laki ng file at detalye.",
+  "back": "PNG maintains transparency. JPG files are smaller but cannot be transparent, so the transparent background becomes white. WEBP is a modern and compact format; if your phone cannot do this, save the file as JPG. For JPG and WEBP, Quality slider balances file size and detail.",
+  "sim": 0.75
+ },
+ {
+  "k": "helpExport3",
+  "en": "Original keeps your photo’s size, with the shape chosen in Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. Custom lets you type a width and height in pixels.",
+  "tr": "Pinapanatili ng Orihinal ang laki ng larawan mo, sa hugis na pinili mo sa Layout. Ang 1:1 ay 1080 × 1080, ang 4:5 ay 1080 × 1350, at ang 9:16 ay 1080 × 1920. Hinahayaan ka ng Custom na maglagay ng lapad at taas sa pixel.",
+  "back": "The Original keeps the size of your image, in the shape you choose in the Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350, and 9:16 is 1080 × 1920. Custom allows you to place width and height in the pixel.",
+  "sim": 0.7
+ },
+ {
+  "k": "helpExport4",
+  "en": "Marketplace presets set size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG kept under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices, and choosing a format or size afterwards switches the marketplace off. Marketplace rules can change, so check your marketplace’s current requirements.",
+  "tr": "Itinatakda ng mga marketplace preset ang laki, format, at kalidad: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG na wala pang 1 MB, at Shopify 2048 × 2048 PNG. Ang pagpili ng isa ay pumapalit sa pinili mong format at laki; kung pagkatapos ay pumili ka ng format o laki, aalisin ang marketplace. Maaaring magbago ang mga patakaran ng marketplace, kaya suriin ang kasalukuyang kinakailangan ng sa iyo.",
+  "back": "Marketplaces preset size, format, and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG with less than 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces the format and size you choose; if you then choose a format or size, remove the marketplace. Marketplace policies may change, so check the current requirements of you.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpExport5",
+  "en": "Amazon also uses a pure white background with no shadow and fits the subject to fill most of the frame. Your background choice in the editor is not changed. The other marketplaces keep your background.",
+  "tr": "Gumagamit din ang Amazon ng purong puting background na walang anino at inaayos ang paksa para mapuno ang karamihan ng frame. Hindi nagbabago ang pinili mong background sa editor. Pinapanatili ng ibang marketplace ang background mo.",
+  "back": "Amazon also uses a pure white background with no shadows and the theme is customized to fill most of the frame. The background you choose does not change in the editor. Other marketplaces keep your background.",
+  "sim": 0.73
+ },
+ {
+  "k": "helpExport6",
+  "en": "Save to Gallery and Share both save the picture to your gallery and to Recent Exports. Share also opens your phone’s share menu. If saving to the gallery is not possible, the share menu opens instead. After exporting you return to the home screen.",
+  "tr": "Pareho nang sine-save ng I-save sa Gallery at Ibahagi ang larawan sa iyong gallery at sa Mga Kamakailang Export. Binubuksan din ng Ibahagi ang share menu ng telepono mo. Kung hindi posible ang pag-save sa gallery, ang share menu ang magbubukas sa halip. Pagkatapos mag-export, babalik ka sa home screen.",
+  "back": "Both Save to Gallery and Share the photo in your gallery and Exports to Friends. Share also opens your phone's share menu. If gallery saving is not possible, the share menu will open instead. After exporting, you will return to the home screen.",
+  "sim": 0.78
+ },
+ {
+  "k": "helpExport7",
+  "en": "Unless you have removed ads, an ad can appear after an export, at most once every two minutes.",
+  "tr": "Kung hindi mo pa naaalis ang mga ad, maaaring lumabas ang isang ad pagkatapos ng export, hanggang isang beses lang bawat dalawang minuto.",
+  "back": "If you haven't already deleted the ads, an ad may appear after export, up to once every two minutes.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpBatchTitle",
+  "en": "Batch",
+  "tr": "Pag-batch",
+  "back": "Batch",
+  "sim": 1.0
+ },
+ {
+  "k": "helpBatch1",
+  "en": "Batch cuts out up to 30 photos in one go. Tap Batch on the home screen and pick your photos. The back button is turned off while a batch runs.",
+  "tr": "Ang Batch ay nagku-cut-out ng hanggang 30 larawan nang sabay-sabay. I-tap ang Batch sa home screen at piliin ang mga larawan mo. Naka-disable ang Back button habang tumatakbo ang batch.",
+  "back": "Batch cuts out up to 30 photos at a time. Tap Batch on the home screen and select your photos. The Back button is disabled while the batch is running.",
+  "sim": 0.73
+ },
+ {
+  "k": "helpBatch2",
+  "en": "All photos in a batch share one setup: one background and one marketplace. You cannot choose differently for each photo.",
+  "tr": "Iisang setting ang ibinabahagi ng lahat ng larawan sa isang batch: isang background at isang marketplace. Hindi ka puwedeng pumili ng iba-iba para sa bawat larawan.",
+  "back": "All images share the same setting in a batch: a background and a marketplace. You can't choose different ones for each image.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpBatch3",
+  "en": "Backgrounds work as in the editor: your own photo, a colour, a template, white, transparent, black, blur or a gradient. Only one applies, and your latest choice replaces the earlier one.",
+  "tr": "Gumagana ang mga background gaya sa editor: sarili mong larawan, kulay, template, puti, transparent, itim, blur, o gradient. Isa lang ang umiiral, at ang huling pinili mo ang papalit sa nauna.",
+  "back": "The background works like the editor: your own image, color, template, white, transparent, black, blur, or gradient. There's only one existing, and the last one you choose will replace the previous one.",
+  "sim": 0.51
+ },
+ {
+  "k": "helpBatch4",
+  "en": "The file format is chosen for you. With a marketplace, the photos follow that marketplace’s size and format. Without one, a transparent background gives PNG and any other background gives JPG, at the original size.",
+  "tr": "Pinipili para sa iyo ang format ng file. Kapag may marketplace, sinusunod ng mga larawan ang laki at format nito. Kapag wala, ang transparent na background ay nagiging PNG at ang anumang ibang background ay nagiging JPG, sa orihinal na laki.",
+  "back": "The file format is chosen for you. When there is a marketplace, the images follow its size and format. When there is none, the transparent background becomes PNG and any other background becomes JPG, in the original size.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpBatch5",
+  "en": "Choosing Amazon switches the background to White; if you then choose another background, Amazon is switched off. eBay, Etsy and Shopify keep your background, but a JPG cannot be transparent, so it gets a white background.",
+  "tr": "Ang pagpili ng Amazon ay ginagawang Puti ang background; kung pagkatapos ay pumili ka ng ibang background, aalisin ang Amazon. Pinapanatili ng eBay, Etsy, at Shopify ang background mo, pero hindi puwedeng maging transparent ang JPG kaya puting background ang ibinibigay dito.",
+  "back": "Choosing Amazon makes the background White; if you then choose another background, remove Amazon. eBay, Etsy, and Shopify keep your background, but JPG cannot be transparent so it provides a white background.",
+  "sim": 0.85
+ },
+ {
+  "k": "helpBatch6",
+  "en": "If the HD model is installed, every photo in the batch is cut out with it. The Get HD cut-out button next to Templates downloads it.",
+  "tr": "Kung naka-install ang HD model, lahat ng larawan sa batch ay ina-cut-out gamit ito. Dina-download ito ng Kunin ang HD cutout button sa tabi ng Mga template.",
+  "back": "If the HD model is installed, all images in the batch are cut out using it.",
+  "sim": 0.57
+ },
+ {
+  "k": "helpBatch7",
+  "en": "Each photo is saved to your gallery and to Recent Exports as soon as it finishes. Stop ends the batch after the current photo, and photos already finished stay saved. If a photo fails, the batch carries on and tells you how many could not be processed. Done takes you back to the home screen; it does not save anything.",
+  "tr": "Bawat larawan ay sine-save sa iyong gallery at sa Mga Kamakailang Export sa sandaling matapos ito. Tinatapos ng Ihinto ang batch pagkatapos ng kasalukuyang larawan, at nananatiling naka-save ang mga larawang tapos na. Kung may larawang pumalya, magpapatuloy ang batch at sasabihin sa iyo kung ilan ang hindi naproseso. Ibinabalik ka ng Tapos na sa home screen; wala itong sine-save.",
+  "back": "Each photo is saved to your gallery and to Best Exports as soon as it expires. Stop stops the batch after the current photo, and the finished images remain saved. If an image fails, the batch will continue and tell you how many are unprocessed. End returns you to the home screen; it has no movie saved.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpLibraryTitle",
+  "en": "Your exports",
+  "tr": "Ang mga export mo",
+  "back": "Your exports",
+  "sim": 1.0
+ },
+ {
+  "k": "helpLibrary1",
+  "en": "Recent Exports on the home screen shows your latest exports. Tap See all for every export, grouped as Today, Yesterday, This week and Earlier.",
+  "tr": "Ipinapakita ng Mga Kamakailang Export sa home screen ang pinakabago mong mga export. I-tap ang Tingnan lahat para makita ang lahat, na naka-grupo sa Ngayon, Kahapon, Ngayong linggo, at Mas nauna.",
+  "back": "Recent Exports displays your latest exports on the home screen. Tap View all to see all, grouped into Today, Yesterday, This Week, and Earlier.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpLibrary2",
+  "en": "Tap an export to open it full screen. Swipe to move between exports and pinch to zoom. The bar at the bottom has Share, Save to Gallery, Edit again and Delete.",
+  "tr": "Mag-tap ng export para buksan ito nang full screen. Mag-swipe para lumipat sa pagitan ng mga export at mag-pinch para mag-zoom. Nag-aalok ang ilalim na bar ng Ibahagi, I-save sa Gallery, I-edit ulit, at Burahin.",
+  "back": "Tap export to open it in full screen. Swipe to switch between exports and pinch to zoom. The bottom bar offers Share, Save to Gallery, Re-edit, and Browse.",
+  "sim": 0.75
+ },
+ {
+  "k": "helpLibrary3",
+  "en": "The three-dot button on a tile opens the same actions. Edit again opens the exported picture as a new photo, so earlier brush strokes are not restored.",
+  "tr": "Binubuksan ng three-dot button sa isang thumbnail ang parehong mga aksyon. Binubuksan ng I-edit ulit ang na-export na larawan bilang bagong larawan, kaya hindi naibabalik ang mga dating guhit ng brush.",
+  "back": "The three-dot button in a thumbnail opens the same actions. Edit reopens the exported image as a new image, so the old brush drawings are not returned.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpLibrary4",
+  "en": "Select lets you choose several exports to share together or delete. Delete all exports removes every export from this phone.",
+  "tr": "Hinahayaan ka ng Pumili na pumili ng maraming export para ibahagi o burahin nang sabay. Inaalis ng Burahin lahat ng export ang lahat ng export sa teleponong ito.",
+  "back": "Select allows you to select multiple exports to share or share simultaneously.",
+  "sim": 0.38
+ },
+ {
+  "k": "helpLibrary5",
+  "en": "Deleting removes exports from PhotoSur only. Pictures already saved to your gallery are not affected. The bottom of the See all screen shows how much space exports use on this phone.",
+  "tr": "Sa PhotoSur lang inaalis ng pagbura ang mga export. Hindi ginagalaw ang mga larawang naka-save na sa iyong gallery. Sa ibaba ng Tingnan lahat, makikita mo kung gaano karaming espasyo ang kinukuha ng mga export sa teleponong ito.",
+  "back": "PhotoSur only removes exports. The images already saved in your gallery are not moved. Below View All, you can see how much space exports take up on this phone.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpPrivacyTitle",
+  "en": "Privacy & ads",
+  "tr": "Privacy at mga ad",
+  "back": "Privacy and advertising",
+  "sim": 0.4
+ },
+ {
+  "k": "helpPrivacy1",
+  "en": "Your photos are processed on your phone and are not uploaded. There is no account and no watermark.",
+  "tr": "Pino-proseso ang mga larawan mo sa iyong telepono at hindi ina-upload. Walang account at walang watermark.",
+  "back": "Your photos are being processed on your phone and not uploaded. No account and no watermark.",
+  "sim": 0.88
+ },
+ {
+  "k": "helpPrivacy2",
+  "en": "PhotoSur is free with every feature included, supported by ads. A banner appears at the bottom of some screens, and an ad can appear after an export.",
+  "tr": "Libre ang PhotoSur, kasama ang lahat ng feature, at sinusuportahan ng mga ad. May banner sa ibaba ng ilang screen, at maaaring lumabas ang isang ad pagkatapos ng export.",
+  "back": "PhotoSur is free, with all features, and is supported by ads. There is a banner at the bottom of some screens, and an ad may appear after export.",
+  "sim": 0.76
+ },
+ {
+  "k": "helpPrivacy3",
+  "en": "Go Ad-Free in Settings is a one-time purchase that removes the ads. It does not unlock anything else, because every feature is already free. Restore Purchases brings it back on a new phone.",
+  "tr": "Ang Alisin ang mga Ad sa Settings ay isang beses na pagbili na nag-aalis ng mga ad. Wala na itong ibang binubuksan, dahil libre na ang lahat ng feature. Ibinabalik ito ng Ibalik ang mga Pagbili sa bagong telepono.",
+  "back": "Remove Ads from Settings is a one-time purchase that removes ads. It is no longer open, as all features are now free.",
+  "sim": 0.4
+ },
+ {
+  "k": "helpSettingsTitle",
+  "en": "Settings",
+  "tr": "Mga Setting",
+  "back": "Settings",
+  "sim": 1.0
+ },
+ {
+  "k": "helpSettings1",
+  "en": "Theme can follow your phone, or be Light or Dark. Language changes the language of the app. Both are also in the home screen header.",
+  "tr": "Ang Tema ay puwedeng sumunod sa telepono mo, o maging Maliwanag o Madilim. Binabago ng Wika ang wika ng app. Parehong nasa header ng home screen ang dalawa.",
+  "back": "The theme can follow your phone, or it can be Light or Dark. Wicca changes the language of the app. Both are in the home screen header.",
+  "sim": 0.88
+ },
+ {
+  "k": "helpSettings2",
+  "en": "Edit reminders: if you leave the app with an unfinished edit, PhotoSur can remind you three hours later. Switch this off in Settings.",
+  "tr": "Mga paalala sa edit: kung aalis ka sa app na may hindi pa tapos na edit, maaaring ipaalala ito ng PhotoSur pagkalipas ng tatlong oras. I-off ito sa Settings.",
+  "back": "Edit reminders: if you leave the app with an unfinished edit, PhotoSur may remind you after three hours. Turn it off in Settings.",
+  "sim": 0.83
+ },
+ {
+  "k": "helpSettings3",
+  "en": "HD cut-out model shows whether it is installed. Remove deletes it from your phone to free space; you can download it again at any time.",
+  "tr": "Ipinapakita ng HD cutout model kung naka-install ito. Binubura ito ng Alisin sa iyong telepono para magbakante ng espasyo; puwede mo itong i-download ulit anumang oras.",
+  "back": "The HD cutout model displays when it is installed. Remove it from your phone to empty space; you can download it again at any time.",
+  "sim": 0.84
+ },
+ {
+  "k": "helpSettings4",
+  "en": "Replay intro shows the welcome screens again. Support opens the support page. Animated home background turns the moving picture at the top of the home screen on or off.",
+  "tr": "Ipinapakita ulit ng Panoorin ulit ang intro ang mga welcome screen. Binubuksan ng Suporta ang support page. Ang Animated na background ng home ay nag-o-on o nag-o-off sa gumagalaw na larawan sa itaas ng home screen.",
+  "back": "The Viewer re-shows the intro the welcome screens. The Support opens the support page. The Animated home background switches on or off the moving image above the home screen.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpFixTitle",
+  "en": "If something goes wrong",
+  "tr": "Kung may magkamali",
+  "back": "If something goes wrong",
+  "sim": 1.0
+ },
+ {
+  "k": "helpFix1",
+  "en": "If the automatic cut-out cannot run on a very old or low-memory phone, the brush still works, so you can finish the picture by hand.",
+  "tr": "Kung hindi tumakbo ang awtomatikong cut-out sa napakaluma o kulang sa memory na telepono, gumagana pa rin ang brush, kaya puwede mong tapusin ang larawan nang mano-mano.",
+  "back": "If the automatic cut-out does not run on a late or memory-poor phone, the brush is still working, so you can finish the picture by hand.",
+  "sim": 0.78
+ },
+ {
+  "k": "helpFix2",
+  "en": "If the HD download stops, check your connection and try again. It continues where it left off.",
+  "tr": "Kung huminto ang HD download, suriin ang koneksyon mo at subukan ulit. Magpapatuloy ito mula sa kung saan ito huminto.",
+  "back": "If the HD download stops, check your connection and try again.",
+  "sim": 0.79
+ },
+ {
+  "k": "helpFix3",
+  "en": "For anything else, open Support from Settings.",
+  "tr": "Para sa anupamang iba pa, buksan ang Suporta mula sa Settings.",
+  "back": "For anything else, open Support from Settings.",
+  "sim": 1.0
+ }
+]

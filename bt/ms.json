@@ -1,0 +1,1773 @@
+[
+ {
+  "k": "onboardingPage1Title",
+  "en": "Remove backgrounds instantly. All features free.",
+  "tr": "Alih keluar latar belakang serta-merta. Semua ciri percuma.",
+  "back": "All the features are free.",
+  "sim": 0.55
+ },
+ {
+  "k": "onboardingPage1Body",
+  "en": "Open a photo and our on-device AI removes the background automatically — no internet required. You can also swap in your own custom background.",
+  "tr": "Buka foto dan AI pada peranti anda membuang latar belakang secara automatik — tanpa internet. Anda juga boleh menggantikannya dengan latar belakang tersuai anda sendiri.",
+  "back": "Open the photos and AI on your device automatically removes the background  without internet. You can also replace it with your own custom background.",
+  "sim": 0.6
+ },
+ {
+  "k": "onboardingPage2Title",
+  "en": "Fine-tune with the brush",
+  "tr": "Halusi dengan berus",
+  "back": "Hallucinations with brushes",
+  "sim": 0.29
+ },
+ {
+  "k": "onboardingPage2Body",
+  "en": "Paint away what the AI missed or restore what you want to keep. Then crop, rotate, move and resize.",
+  "tr": "Padam dengan berus apa yang terlepas oleh AI, atau pulihkan bahagian yang anda mahu simpan. Kemudian pangkas, putar, alih dan ubah saiz.",
+  "back": "Brush down what the AI missed, or repair the part you want to keep, then fold, rotate, move and resize.",
+  "sim": 0.72
+ },
+ {
+  "k": "onboardingPage3Title",
+  "en": "Studio-ready backgrounds",
+  "tr": "Latar belakang gaya studio",
+  "back": "Studio style background",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingPage3Body",
+  "en": "Choose a colour, gradient, template or your own photo, with a natural shadow. Marketplace presets for Amazon, eBay, Etsy and Shopify set size and format for you.",
+  "tr": "Pilih warna, kecerunan, templat atau foto anda sendiri, dengan bayang semula jadi. Pratetap untuk Amazon, eBay, Etsy dan Shopify menetapkan saiz dan format untuk anda.",
+  "back": "Choose your own colors, patterns, templates or photos, with natural shadows. Pre-apps for Amazon, eBay, Etsy and Shopify set the size and format for you.",
+  "sim": 0.65
+ },
+ {
+  "k": "onboardingPage4Title",
+  "en": "Batch it, export it, keep it private",
+  "tr": "Secara kelompok, format pilihan anda, kekal peribadi",
+  "back": "Group, format of your choice, stay private",
+  "sim": 0.14
+ },
+ {
+  "k": "onboardingPage4Body",
+  "en": "Cut out up to 30 photos at once and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "tr": "Potong sehingga 30 foto sekali gus dan eksport sebagai PNG, JPG atau WEBP. Foto anda tidak pernah keluar dari telefon. Tersedia dalam 43 bahasa.",
+  "back": "Cut up to 30 photos at a time and export them as PNG, JPG or WEBP. Your photos never come out of your phone. Available in 43 languages.",
+  "sim": 0.83
+ },
+ {
+  "k": "onboardingNext",
+  "en": "Next",
+  "tr": "Seterusnya",
+  "back": "Next up.",
+  "sim": 0.67
+ },
+ {
+  "k": "onboardingGetStarted",
+  "en": "Get Started",
+  "tr": "Mulakan",
+  "back": "Let's get this started.",
+  "sim": 0.67
+ },
+ {
+  "k": "homeCameraButton",
+  "en": "Camera",
+  "tr": "Kamera",
+  "back": "The camera.",
+  "sim": 0.67
+ },
+ {
+  "k": "homeGalleryButton",
+  "en": "Gallery",
+  "tr": "Galeri",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "dateToday",
+  "en": "Today",
+  "tr": "Hari ini",
+  "back": "It's today.",
+  "sim": 0.67
+ },
+ {
+  "k": "dateYesterday",
+  "en": "Yesterday",
+  "tr": "Semalam",
+  "back": "Yesterday",
+  "sim": 1.0
+ },
+ {
+  "k": "homeRecentExports",
+  "en": "Recent Exports",
+  "tr": "Eksport Terkini",
+  "back": "Recent exports",
+  "sim": 1.0
+ },
+ {
+  "k": "homeEmptyStateMessage",
+  "en": "Tap Camera or Gallery to start.",
+  "tr": "Ketik Kamera atau Galeri untuk bermula.",
+  "back": "Type Camera or Gallery to start.",
+  "sim": 0.83
+ },
+ {
+  "k": "homeExportUnavailable",
+  "en": "This export is no longer available.",
+  "tr": "Eksport ini tidak lagi tersedia.",
+  "back": "This export is no longer available.",
+  "sim": 1.0
+ },
+ {
+  "k": "homeShareFailed",
+  "en": "Could not share this export.",
+  "tr": "Tidak dapat berkongsi eksport ini.",
+  "back": "Can't share this export.",
+  "sim": 0.67
+ },
+ {
+  "k": "homeGalleryOpenFailed",
+  "en": "Could not open gallery.",
+  "tr": "Tidak dapat membuka galeri.",
+  "back": "Can't open the gallery.",
+  "sim": 0.5
+ },
+ {
+  "k": "cameraTitle",
+  "en": "Camera",
+  "tr": "Kamera",
+  "back": "The camera.",
+  "sim": 0.67
+ },
+ {
+  "k": "cameraPermissionDenied",
+  "en": "Camera access is needed to take a photo. Please allow access.",
+  "tr": "Akses kamera diperlukan untuk mengambil foto. Sila benarkan akses.",
+  "back": "Camera access is required to take photos.",
+  "sim": 0.56
+ },
+ {
+  "k": "cameraPermissionPermanentlyDenied",
+  "en": "Camera access was denied. Enable it in Settings to continue.",
+  "tr": "Akses kamera ditolak. Aktifkannya dalam Tetapan untuk meneruskan.",
+  "back": "Camera access is denied.",
+  "sim": 0.43
+ },
+ {
+  "k": "cameraPermissionRestricted",
+  "en": "Camera access is restricted on this device.",
+  "tr": "Akses kamera dihadkan pada peranti ini.",
+  "back": "Camera access is restricted to this device.",
+  "sim": 0.86
+ },
+ {
+  "k": "cameraNoCameraFound",
+  "en": "No camera found on this device.",
+  "tr": "Tiada kamera ditemui pada peranti ini.",
+  "back": "No cameras were found on this device.",
+  "sim": 0.77
+ },
+ {
+  "k": "cameraStartFailed",
+  "en": "Could not start the camera.",
+  "tr": "Tidak dapat memulakan kamera.",
+  "back": "Can't start the camera.",
+  "sim": 0.67
+ },
+ {
+  "k": "cameraCaptureFailed",
+  "en": "Could not capture photo.",
+  "tr": "Tidak dapat mengambil foto.",
+  "back": "I can't take a picture.",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraOpenSettings",
+  "en": "Open Settings",
+  "tr": "Buka Tetapan",
+  "back": "Open the settings",
+  "sim": 0.8
+ },
+ {
+  "k": "cameraFlashTooltip",
+  "en": "Flash",
+  "tr": "Denyar",
+  "back": "Denmark",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraGalleryTooltip",
+  "en": "Gallery",
+  "tr": "Galeri",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "cropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Pangkas & Putar",
+  "back": "Folding & Spinning",
+  "sim": 0.0
+ },
+ {
+  "k": "cropLoadFailed",
+  "en": "Could not load the image.",
+  "tr": "Tidak dapat memuatkan imej.",
+  "back": "Can't load the image.",
+  "sim": 0.67
+ },
+ {
+  "k": "cropRotateFailed",
+  "en": "Could not rotate the image.",
+  "tr": "Tidak dapat memutar imej.",
+  "back": "Can't turn the image.",
+  "sim": 0.44
+ },
+ {
+  "k": "cropFailed",
+  "en": "Crop failed.",
+  "tr": "Pemangkasan gagal.",
+  "back": "The pruning failed.",
+  "sim": 0.4
+ },
+ {
+  "k": "cropSaveFailed",
+  "en": "Could not save the cropped image.",
+  "tr": "Tidak dapat menyimpan imej yang dipangkas.",
+  "back": "Couldn't keep the edited image.",
+  "sim": 0.36
+ },
+ {
+  "k": "cropAspectFree",
+  "en": "Free",
+  "tr": "Bebas",
+  "back": "Free",
+  "sim": 1.0
+ },
+ {
+  "k": "cropContinue",
+  "en": "Continue",
+  "tr": "Teruskan",
+  "back": "Keep going.",
+  "sim": 0.0
+ },
+ {
+  "k": "editorSegmentationFailedMessage",
+  "en": "Your device doesn't support automatic background removal. Use the manual brush below.",
+  "tr": "Peranti anda tidak menyokong pembuangan latar belakang automatik. Gunakan berus manual di bawah.",
+  "back": "Your device doesn't support automatic background disposal. Use the manual brush below.",
+  "sim": 0.92
+ },
+ {
+  "k": "brushErase",
+  "en": "Erase",
+  "tr": "Padam",
+  "back": "The Padam",
+  "sim": 0.0
+ },
+ {
+  "k": "brushRestore",
+  "en": "Restore",
+  "tr": "Pulihkan",
+  "back": "Bring it back.",
+  "sim": 0.0
+ },
+ {
+  "k": "brushSizeLabel",
+  "en": "Brush Size",
+  "tr": "Saiz Berus",
+  "back": "The size of a pear",
+  "sim": 0.29
+ },
+ {
+  "k": "brushOpacityLabel",
+  "en": "Opacity",
+  "tr": "Kelegapan",
+  "back": "Humidity",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundWhite",
+  "en": "White",
+  "tr": "Putih",
+  "back": "It's white.",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundTransparent",
+  "en": "Transparent",
+  "tr": "Lut sinar",
+  "back": "Lot of rays",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundBlack",
+  "en": "Black",
+  "tr": "Hitam",
+  "back": "It's black.",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundBlurLabel",
+  "en": "Blur",
+  "tr": "Kabur",
+  "back": "Shut up!",
+  "sim": 0.0
+ },
+ {
+  "k": "edgeFeatherLabel",
+  "en": "Edge Smoothness",
+  "tr": "Kehalusan Tepi",
+  "back": "Softness of the Edge",
+  "sim": 0.33
+ },
+ {
+  "k": "toolbarUndo",
+  "en": "Undo",
+  "tr": "Buat asal",
+  "back": "Make the originals",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarRedo",
+  "en": "Redo",
+  "tr": "Buat semula",
+  "back": "Do it again.",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarReset",
+  "en": "Reset",
+  "tr": "Set semula",
+  "back": "Reset",
+  "sim": 1.0
+ },
+ {
+  "k": "toolbarExport",
+  "en": "Export",
+  "tr": "Eksport",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmTitle",
+  "en": "Reset edits?",
+  "tr": "Set semula suntingan?",
+  "back": "Reset the editing?",
+  "sim": 0.4
+ },
+ {
+  "k": "resetConfirmBody",
+  "en": "This clears your manual brush strokes. This cannot be undone.",
+  "tr": "Ini memadam coretan berus manual anda. Tindakan ini tidak boleh dibuat asal.",
+  "back": "This erases your manual brush stroke.",
+  "sim": 0.5
+ },
+ {
+  "k": "resetConfirmCancel",
+  "en": "Cancel",
+  "tr": "Batal",
+  "back": "Cancelled",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmConfirm",
+  "en": "Reset",
+  "tr": "Set semula",
+  "back": "Reset",
+  "sim": 1.0
+ },
+ {
+  "k": "exportTitle",
+  "en": "Export",
+  "tr": "Eksport",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "exportQualityLabel",
+  "en": "Quality: {value}",
+  "tr": "Kualiti: {value}",
+  "back": "Quality: [value]",
+  "sim": 1.0
+ },
+ {
+  "k": "exportResizeLabel",
+  "en": "Resize",
+  "tr": "Ubah saiz",
+  "back": "Change the size",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeOriginal",
+  "en": "Original",
+  "tr": "Asal",
+  "back": "The origin",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeCustom",
+  "en": "Custom",
+  "tr": "Tersuai",
+  "back": "That's right.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportWidthLabel",
+  "en": "Width (px)",
+  "tr": "Lebar (px)",
+  "back": "Width (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportHeightLabel",
+  "en": "Height (px)",
+  "tr": "Tinggi (px)",
+  "back": "Height (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSaveToGallery",
+  "en": "Save to Gallery",
+  "tr": "Simpan ke Galeri",
+  "back": "Save it to the gallery.",
+  "sim": 0.75
+ },
+ {
+  "k": "exportShare",
+  "en": "Share",
+  "tr": "Kongsi",
+  "back": "The King",
+  "sim": 0.0
+ },
+ {
+  "k": "exportSuccess",
+  "en": "Exported!",
+  "tr": "Berjaya dieksport!",
+  "back": "Successfully exported!",
+  "sim": 0.67
+ },
+ {
+  "k": "exportFailed",
+  "en": "Export failed. Please try again.",
+  "tr": "Eksport gagal. Sila cuba lagi.",
+  "back": "Export failed, please try again.",
+  "sim": 1.0
+ },
+ {
+  "k": "exportInProgress",
+  "en": "Exporting…",
+  "tr": "Mengeksport…",
+  "back": "Exporting...",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsTitle",
+  "en": "Settings",
+  "tr": "Tetapan",
+  "back": "Settings",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsTheme",
+  "en": "Theme",
+  "tr": "Tema",
+  "back": "The theme",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsLanguage",
+  "en": "Language",
+  "tr": "Bahasa",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Pulihkan Pembelian",
+  "back": "Returning the Purchases",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsGoAdFree",
+  "en": "Go Ad-Free",
+  "tr": "Buang Iklan",
+  "back": "Throw away the ads.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsPrivacyPolicy",
+  "en": "Privacy Policy",
+  "tr": "Dasar Privasi",
+  "back": "Privacy Policy",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsSupport",
+  "en": "Support",
+  "tr": "Sokongan",
+  "back": "Support",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRateApp",
+  "en": "Rate App",
+  "tr": "Nilai Aplikasi",
+  "back": "Value of the Application",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsShareApp",
+  "en": "Share App",
+  "tr": "Kongsi Aplikasi",
+  "back": "Application fees",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLicenses",
+  "en": "Open-source licenses",
+  "tr": "Lesen sumber terbuka",
+  "back": "License is open source",
+  "sim": 0.0
+ },
+ {
+  "k": "reminderChannelName",
+  "en": "Edit reminders",
+  "tr": "Peringatan suntingan",
+  "back": "A slight warning",
+  "sim": 0.0
+ },
+ {
+  "k": "reminderChannelDescription",
+  "en": "Reminders about edits you have not finished.",
+  "tr": "Peringatan tentang suntingan yang belum anda selesaikan.",
+  "back": "Warnings about editing that you haven't finished.",
+  "sim": 0.43
+ },
+ {
+  "k": "reminderTitle",
+  "en": "Your edit is waiting",
+  "tr": "Suntingan anda sedang menunggu",
+  "back": "Your editing is waiting",
+  "sim": 0.75
+ },
+ {
+  "k": "reminderBody",
+  "en": "Pick up where you left off and export your photo.",
+  "tr": "Sambung semula dari tempat anda berhenti dan eksport foto anda.",
+  "back": "Reconnect from where you stopped and export your photos.",
+  "sim": 0.53
+ },
+ {
+  "k": "settingsReminders",
+  "en": "Edit reminders",
+  "tr": "Peringatan suntingan",
+  "back": "A slight warning",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsAnimatedBackground",
+  "en": "Animated home background",
+  "tr": "Latar belakang laman utama beranimasi",
+  "back": "Background of the animated main page",
+  "sim": 0.22
+ },
+ {
+  "k": "settingsRemindersSubtitle",
+  "en": "Remind me about unfinished edits",
+  "tr": "Ingatkan saya tentang suntingan yang belum siap",
+  "back": "Reminds me of the unfinished editing.",
+  "sim": 0.36
+ },
+ {
+  "k": "settingsRemindersBlocked",
+  "en": "Notifications are turned off for PhotoSur in your phone's settings.",
+  "tr": "Pemberitahuan untuk PhotoSur dimatikan dalam tetapan telefon anda.",
+  "back": "The notification for PhotoSur is turned off in your phone settings.",
+  "sim": 0.48
+ },
+ {
+  "k": "editorBrushHint",
+  "en": "Drag to paint. Pinch with two fingers to zoom.",
+  "tr": "Seret untuk melukis. Cubit dengan dua jari untuk zum.",
+  "back": "Draw to paint, pinch with two fingers to zoom.",
+  "sim": 0.89
+ },
+ {
+  "k": "editorToolCutout",
+  "en": "Cut-out",
+  "tr": "Potongan",
+  "back": "Cut it out.",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBrush",
+  "en": "Brush",
+  "tr": "Berus",
+  "back": "Berry",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBackground",
+  "en": "Background",
+  "tr": "Latar belakang",
+  "back": "The background",
+  "sim": 0.67
+ },
+ {
+  "k": "editorToolLayout",
+  "en": "Layout",
+  "tr": "Susun atur",
+  "back": "Set it up.",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutAutoCenter",
+  "en": "Auto-center",
+  "tr": "Autopusat",
+  "back": "Highway station",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutSizeLabel",
+  "en": "Size",
+  "tr": "Saiz",
+  "back": "Size",
+  "sim": 1.0
+ },
+ {
+  "k": "layoutShadowLabel",
+  "en": "Shadow",
+  "tr": "Bayang",
+  "back": "Shadows",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundPhoto",
+  "en": "Photo",
+  "tr": "Foto",
+  "back": "The photo",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundPhotoFailed",
+  "en": "Could not load that photo.",
+  "tr": "Tidak dapat memuatkan foto itu.",
+  "back": "I can't upload that photo.",
+  "sim": 0.4
+ },
+ {
+  "k": "editorLayoutHint",
+  "en": "Drag to move. Pinch with two fingers to resize.",
+  "tr": "Seret untuk alih. Cubit dengan dua jari untuk ubah saiz.",
+  "back": "Drag to move, pinch with two fingers to change size.",
+  "sim": 0.84
+ },
+ {
+  "k": "languageSystemDefault",
+  "en": "System default",
+  "tr": "Lalai sistem",
+  "back": "Lalai system",
+  "sim": 0.5
+ },
+ {
+  "k": "languageSheetTitle",
+  "en": "Language",
+  "tr": "Bahasa",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "themeSheetTitle",
+  "en": "Theme",
+  "tr": "Tema",
+  "back": "The theme",
+  "sim": 0.67
+ },
+ {
+  "k": "themeOptionSystem",
+  "en": "System default",
+  "tr": "Lalai sistem",
+  "back": "Lalai system",
+  "sim": 0.5
+ },
+ {
+  "k": "themeOptionLight",
+  "en": "Light",
+  "tr": "Cerah",
+  "back": "It's bright",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionDark",
+  "en": "Dark",
+  "tr": "Gelap",
+  "back": "It's dark",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsLinkNotReady",
+  "en": "This link isn't set up yet.",
+  "tr": "Pautan ini belum disediakan.",
+  "back": "This link hasn't been made available yet.",
+  "sim": 0.46
+ },
+ {
+  "k": "settingsLinkOpenFailed",
+  "en": "Could not open link.",
+  "tr": "Tidak dapat membuka pautan.",
+  "back": "Couldn't open the link.",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsRestoreRequested",
+  "en": "Restore requested — check back in a moment.",
+  "tr": "Pemulihan diminta — semak semula sebentar lagi.",
+  "back": "Rehabilitation requested to be reviewed shortly.",
+  "sim": 0.15
+ },
+ {
+  "k": "settingsRestoreFailed",
+  "en": "Restore failed.",
+  "tr": "Pemulihan gagal.",
+  "back": "The recovery failed.",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsShareFailed",
+  "en": "Could not share.",
+  "tr": "Tidak dapat berkongsi.",
+  "back": "Can't share.",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsShareAppMessage",
+  "en": "Remove photo backgrounds instantly with PhotoSur — free, no watermark.",
+  "tr": "Buang latar belakang foto serta-merta dengan PhotoSur — percuma, tanpa tera air.",
+  "back": "Throw away the background of the photo instantly with PhotoSur  free, waterproof.",
+  "sim": 0.48
+ },
+ {
+  "k": "paywallTitle",
+  "en": "Go Ad-Free",
+  "tr": "Buang Iklan",
+  "back": "Throw away the ads.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallAlreadyAdFree",
+  "en": "You're already ad-free. Thank you!",
+  "tr": "Anda sudah bebas iklan. Terima kasih!",
+  "back": "You're ad-free now.",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPlanFreeTitle",
+  "en": "Free",
+  "tr": "Percuma",
+  "back": "It's free.",
+  "sim": 0.67
+ },
+ {
+  "k": "paywallPlanAdFreeTitle",
+  "en": "Ad-Free",
+  "tr": "Bebas Iklan",
+  "back": "Free of Advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPlanAdFreePrice",
+  "en": "One-time purchase",
+  "tr": "Pembelian sekali sahaja",
+  "back": "A one-time purchase",
+  "sim": 0.8
+ },
+ {
+  "k": "paywallFeatureAllFeatures",
+  "en": "All features",
+  "tr": "Semua ciri",
+  "back": "All the features",
+  "sim": 0.8
+ },
+ {
+  "k": "paywallFeatureAdSupported",
+  "en": "Ad-supported",
+  "tr": "Disokong iklan",
+  "back": "Ad-supported",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallFeatureZeroAds",
+  "en": "Zero ads",
+  "tr": "Tiada iklan",
+  "back": "There are no advertisements.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPurchaseButton",
+  "en": "Remove Ads",
+  "tr": "Buang Iklan",
+  "back": "Throw away the ads.",
+  "sim": 0.33
+ },
+ {
+  "k": "paywallPurchaseButtonPrice",
+  "en": "Remove Ads — {price}",
+  "tr": "Buang Iklan — {price}",
+  "back": "Throw away the ads  [price]",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Pulihkan Pembelian",
+  "back": "Returning the Purchases",
+  "sim": 0.4
+ },
+ {
+  "k": "paywallProductUnavailable",
+  "en": "Ad removal is not available right now.",
+  "tr": "Pembuangan iklan tidak tersedia sekarang.",
+  "back": "Advertising isn't available right now.",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPurchaseFailed",
+  "en": "Purchase failed.",
+  "tr": "Pembelian gagal.",
+  "back": "The purchase failed.",
+  "sim": 0.8
+ },
+ {
+  "k": "errorScreenTitle",
+  "en": "Something went wrong",
+  "tr": "Sesuatu tidak kena",
+  "back": "Something's wrong.",
+  "sim": 0.4
+ },
+ {
+  "k": "errorScreenBody",
+  "en": "Try again, or restart the app if this keeps happening.",
+  "tr": "Cuba lagi, atau mulakan semula aplikasi jika masalah berterusan.",
+  "back": "Try again, or restart the app if the problem persists.",
+  "sim": 0.7
+ },
+ {
+  "k": "errorScreenGoBack",
+  "en": "Go back",
+  "tr": "Kembali",
+  "back": "Get back in there.",
+  "sim": 0.33
+ },
+ {
+  "k": "errorScreenReportEmail",
+  "en": "Report via {email}",
+  "tr": "Laporkan melalui {email}",
+  "back": "Report by [email]",
+  "sim": 0.67
+ },
+ {
+  "k": "unsupportedTitle",
+  "en": "Device Not Supported",
+  "tr": "Peranti Tidak Disokong",
+  "back": "Device not supported",
+  "sim": 1.0
+ },
+ {
+  "k": "unsupportedNoCameraMessage",
+  "en": "This device doesn't have a camera available.",
+  "tr": "Peranti ini tidak mempunyai kamera yang tersedia.",
+  "back": "This device doesn't have a camera available.",
+  "sim": 1.0
+ },
+ {
+  "k": "unsupportedLowMemoryMessage",
+  "en": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
+  "tr": "Peranti ini tidak mempunyai memori yang mencukupi untuk menjalankan editor PhotoSur dengan boleh dipercayai.",
+  "back": "This device does not have enough memory to run the PhotoSur editor reliably.",
+  "sim": 0.75
+ },
+ {
+  "k": "unsupportedManualImportHint",
+  "en": "You can still import a photo from your gallery and use the manual brush tool.",
+  "tr": "Anda masih boleh mengimport foto dari galeri dan menggunakan berus manual.",
+  "back": "You can still import photos from the gallery and use the manual brush.",
+  "sim": 0.79
+ },
+ {
+  "k": "unsupportedUseGalleryButton",
+  "en": "Import from Gallery",
+  "tr": "Import dari Galeri",
+  "back": "Imports from the Gallery",
+  "sim": 0.57
+ },
+ {
+  "k": "homeBatchButton",
+  "en": "Batch",
+  "tr": "Kelompok",
+  "back": "Groups",
+  "sim": 0.0
+ },
+ {
+  "k": "batchTitle",
+  "en": "Batch cut-out",
+  "tr": "Potongan kelompok",
+  "back": "Groups of cuts",
+  "sim": 0.0
+ },
+ {
+  "k": "batchOutputTransparent",
+  "en": "Transparent PNG",
+  "tr": "PNG lutsinar",
+  "back": "Luminary PNG",
+  "sim": 0.5
+ },
+ {
+  "k": "batchOutputWhite",
+  "en": "White background (JPG)",
+  "tr": "Latar putih (JPG)",
+  "back": "White background (JPG)",
+  "sim": 1.0
+ },
+ {
+  "k": "batchStart",
+  "en": "Start",
+  "tr": "Mula",
+  "back": "Let's get started.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchStop",
+  "en": "Stop",
+  "tr": "Henti",
+  "back": "Stop it!",
+  "sim": 0.67
+ },
+ {
+  "k": "batchDone",
+  "en": "Done",
+  "tr": "Selesai",
+  "back": "It's over.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchProgress",
+  "en": "{done} of {total} done",
+  "tr": "{done} daripada {total} selesai",
+  "back": "[done] of [total] finished",
+  "sim": 0.75
+ },
+ {
+  "k": "batchSaved",
+  "en": "{count} saved to your gallery",
+  "tr": "{count} disimpan ke galeri anda",
+  "back": "[count] saved to your gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "batchSomeFailed",
+  "en": "{count} could not be processed",
+  "tr": "{count} tidak dapat diproses",
+  "back": "[count] unprocessed",
+  "sim": 0.29
+ },
+ {
+  "k": "batchTooMany",
+  "en": "Up to {max} photos at a time",
+  "tr": "Sehingga {max} foto sekali gus",
+  "back": "Until [max] the photo is instantaneous",
+  "sim": 0.15
+ },
+ {
+  "k": "backgroundAddCustom",
+  "en": "Add custom background",
+  "tr": "Tambah latar belakang tersuai",
+  "back": "Add a customized background",
+  "sim": 0.57
+ },
+ {
+  "k": "backgroundCustomColor",
+  "en": "Custom color",
+  "tr": "Warna tersuai",
+  "back": "Customized colour",
+  "sim": 0.0
+ },
+ {
+  "k": "colorSaturation",
+  "en": "Saturation",
+  "tr": "Ketepuan",
+  "back": "Lies",
+  "sim": 0.0
+ },
+ {
+  "k": "colorBrightness",
+  "en": "Brightness",
+  "tr": "Kecerahan",
+  "back": "Enlightenment",
+  "sim": 0.0
+ },
+ {
+  "k": "colorHexLabel",
+  "en": "Hex code",
+  "tr": "Kod hex",
+  "back": "Hex code",
+  "sim": 1.0
+ },
+ {
+  "k": "colorPickerDone",
+  "en": "Done",
+  "tr": "Selesai",
+  "back": "It's over.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceLabel",
+  "en": "Marketplace",
+  "tr": "Pasar dalam talian",
+  "back": "The online market",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceWhiteFill",
+  "en": "Pure white background, product fills the frame",
+  "tr": "Latar putih tulen, produk memenuhi bingkai",
+  "back": "Pure white background, the product meets the frame",
+  "sim": 0.8
+ },
+ {
+  "k": "exportMarketplaceSizeCap",
+  "en": "File kept under {size} MB",
+  "tr": "Fail di bawah {size} MB",
+  "back": "File below [size] MB",
+  "sim": 0.67
+ },
+ {
+  "k": "editorToolTemplates",
+  "en": "Templates",
+  "tr": "Templat",
+  "back": "Template",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTitle",
+  "en": "Choose a template",
+  "tr": "Pilih templat",
+  "back": "Select the template",
+  "sim": 0.33
+ },
+ {
+  "k": "templatesColorBlock",
+  "en": "Color block",
+  "tr": "Blok warna",
+  "back": "Colored blocks",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTextures",
+  "en": "Textures",
+  "tr": "Tekstur",
+  "back": "The texture",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesLight",
+  "en": "Light & shadow",
+  "tr": "Cahaya & bayang",
+  "back": "Light and shadow",
+  "sim": 0.8
+ },
+ {
+  "k": "templatesPatterns",
+  "en": "Gradients & patterns",
+  "tr": "Kecerunan & corak",
+  "back": "Slumps and patterns",
+  "sim": 0.4
+ },
+ {
+  "k": "hdGetAction",
+  "en": "Get HD cut-out",
+  "tr": "Dapatkan potongan HD",
+  "back": "Get some HD footage.",
+  "sim": 0.57
+ },
+ {
+  "k": "hdRedoAction",
+  "en": "Redo cut-out in HD",
+  "tr": "Ulang potongan dalam HD",
+  "back": "Repeat the cut in HD",
+  "sim": 0.44
+ },
+ {
+  "k": "hdDownloading",
+  "en": "HD cut-out in progress… {percent}%",
+  "tr": "Potongan HD sedang dijalankan… {percent}%",
+  "back": "The HD cut is running... [percent] %",
+  "sim": 0.36
+ },
+ {
+  "k": "hdDownloadingShort",
+  "en": "HD cut-out… {percent}%",
+  "tr": "Potongan HD… {percent}%",
+  "back": "The HD cut... [percent] percent",
+  "sim": 0.5
+ },
+ {
+  "k": "hdConfirmTitle",
+  "en": "Download HD cut-out model?",
+  "tr": "Muat turun model potongan HD?",
+  "back": "Download the HD cut model?",
+  "sim": 0.67
+ },
+ {
+  "k": "hdConfirmBody",
+  "en": "Cleaner edges on tricky objects like shoes, bags and bottles. It downloads once, stays on your phone and then works offline. Mobile data charges may apply.",
+  "tr": "Tepi lebih bersih pada objek sukar seperti kasut, beg dan botol. Dimuat turun sekali, disimpan dalam telefon dan kemudian berfungsi luar talian. Caj data mudah alih mungkin dikenakan.",
+  "back": "The edges are cleaner on hard objects like shoes, bags and bottles. Once downloaded, stored in the phone and then working offline. Mobile data charges may be charged.",
+  "sim": 0.63
+ },
+ {
+  "k": "hdDownload",
+  "en": "Download",
+  "tr": "Muat turun",
+  "back": "Load it down.",
+  "sim": 0.0
+ },
+ {
+  "k": "hdFailed",
+  "en": "HD cut-out didn’t finish. Check your connection and try again.",
+  "tr": "Potongan HD tidak selesai. Semak sambungan anda dan cuba lagi.",
+  "back": "The HD cut isn't finished. Check your connection and try again.",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsHdTitle",
+  "en": "HD cut-out model",
+  "tr": "Model potongan HD",
+  "back": "Models of HD clips",
+  "sim": 0.29
+ },
+ {
+  "k": "settingsHdNotInstalled",
+  "en": "Not downloaded",
+  "tr": "Belum dimuat turun",
+  "back": "Not downloaded yet",
+  "sim": 0.8
+ },
+ {
+  "k": "settingsHdInstalled",
+  "en": "Installed · works offline",
+  "tr": "Dipasang · berfungsi luar talian",
+  "back": "Installed · operates offline",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsHdRemove",
+  "en": "Remove",
+  "tr": "Alih keluar",
+  "back": "Instead of going out.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsReplayIntro",
+  "en": "Replay intro",
+  "tr": "Main semula pengenalan",
+  "back": "Re-play the identification",
+  "sim": 0.4
+ },
+ {
+  "k": "homeSeeAll",
+  "en": "See all",
+  "tr": "Lihat semua",
+  "back": "Look at all of them.",
+  "sim": 0.29
+ },
+ {
+  "k": "exportActionEdit",
+  "en": "Edit again",
+  "tr": "Edit semula",
+  "back": "Re-edit",
+  "sim": 0.0
+ },
+ {
+  "k": "exportActionDelete",
+  "en": "Delete",
+  "tr": "Padam",
+  "back": "The Padam",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMoreOptions",
+  "en": "More options",
+  "tr": "Pilihan lain",
+  "back": "Other options",
+  "sim": 0.5
+ },
+ {
+  "k": "exportDeleteTitle",
+  "en": "Delete this export?",
+  "tr": "Padam eksport ini?",
+  "back": "This export ban?",
+  "sim": 0.67
+ },
+ {
+  "k": "exportDeleteBody",
+  "en": "Exported images are removed from this phone. Your original photos and anything saved to your gallery are not affected.",
+  "tr": "Imej yang dieksport dialih keluar daripada telefon ini. Foto asal anda dan apa yang disimpan dalam galeri tidak terjejas.",
+  "back": "Exported images are removed from this phone, and your original photos and what's stored in the gallery are intact.",
+  "sim": 0.68
+ },
+ {
+  "k": "exportSavedToGallery",
+  "en": "Saved to your gallery",
+  "tr": "Disimpan dalam galeri anda",
+  "back": "It's stored in your gallery.",
+  "sim": 0.44
+ },
+ {
+  "k": "exportSaveFailed",
+  "en": "Could not save to the gallery.",
+  "tr": "Tidak dapat menyimpan ke galeri.",
+  "back": "Can't keep it in the gallery.",
+  "sim": 0.33
+ },
+ {
+  "k": "exportUnavailable",
+  "en": "Unavailable",
+  "tr": "Tidak tersedia",
+  "back": "Not available",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsGroupThisWeek",
+  "en": "This week",
+  "tr": "Minggu ini",
+  "back": "This week.",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsGroupEarlier",
+  "en": "Earlier",
+  "tr": "Terdahulu",
+  "back": "Previously on",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsStorageUsed",
+  "en": "{size} used on this phone",
+  "tr": "{size} digunakan pada telefon ini",
+  "back": "[size] used on this phone",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsSelect",
+  "en": "Select",
+  "tr": "Pilih",
+  "back": "Choose",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsDone",
+  "en": "Done",
+  "tr": "Selesai",
+  "back": "It's over.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsSelectedCount",
+  "en": "{count} selected",
+  "tr": "{count} dipilih",
+  "back": "[count] selected",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDeleteSelectedTitle",
+  "en": "Delete {count} exports?",
+  "tr": "Padam {count} eksport?",
+  "back": "Counting the exports?",
+  "sim": 0.33
+ },
+ {
+  "k": "exportsDeleteAll",
+  "en": "Delete all exports",
+  "tr": "Padam semua eksport",
+  "back": "Turn off all exports",
+  "sim": 0.57
+ },
+ {
+  "k": "exportsDeleteAllTitle",
+  "en": "Delete all exports?",
+  "tr": "Padam semua eksport?",
+  "back": "Turn off all exports?",
+  "sim": 0.57
+ },
+ {
+  "k": "helpTitle",
+  "en": "Help & how to use",
+  "tr": "Bantuan & cara menggunakan",
+  "back": "Help & how to use",
+  "sim": 1.0
+ },
+ {
+  "k": "helpIntro",
+  "en": "Tap a topic to read how it works.",
+  "tr": "Ketik sesuatu topik untuk membaca cara ia berfungsi.",
+  "back": "Type in a topic to read how it works.",
+  "sim": 0.82
+ },
+ {
+  "k": "helpStartTitle",
+  "en": "Getting started",
+  "tr": "Bermula",
+  "back": "Let's get started.",
+  "sim": 0.4
+ },
+ {
+  "k": "helpStart1",
+  "en": "On the home screen, tap Camera to take a photo or Gallery to pick one. Batch cuts out many photos at once.",
+  "tr": "Pada skrin utama, ketik Kamera untuk mengambil foto atau Galeri untuk memilih foto. Kelompok memotong banyak foto serentak.",
+  "back": "On the main screen, type Camera to take photos or Gallery to select photos.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpStart2",
+  "en": "Every photo opens in Crop & Rotate first, then in the editor. Your original photo is never changed.",
+  "tr": "Setiap foto dibuka dahulu dalam Pangkas & Putar, kemudian dalam editor. Foto asal anda tidak pernah diubah.",
+  "back": "Each photo is opened first in the File & Spin, then in the editor. Your original photo has never been changed.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpStart3",
+  "en": "When you are happy, tap Export in the editor. Recent Exports on the home screen lists everything you have exported.",
+  "tr": "Apabila anda berpuas hati, ketik Eksport dalam editor. Eksport Terkini pada skrin utama menyenaraikan semua yang telah anda eksport.",
+  "back": "When you're satisfied, type Export in the editor.",
+  "sim": 0.36
+ },
+ {
+  "k": "helpCropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Pangkas & Putar",
+  "back": "Folding & Spinning",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCrop1",
+  "en": "Turn the photo left or right in 90° steps, and drag the frame to choose the part you want to keep.",
+  "tr": "Putar foto ke kiri atau kanan setiap 90° dan seret bingkai untuk memilih bahagian yang anda mahu simpan.",
+  "back": "Turn the photo to the left or right every 90 degrees and drag the frame to select the part you want to save.",
+  "sim": 0.77
+ },
+ {
+  "k": "helpCrop2",
+  "en": "Free lets you shape the frame as you like. 1:1, 4:5 and 9:16 lock its shape. Tap Continue to open the editor.",
+  "tr": "Bebas membolehkan anda membentuk bingkai mengikut kehendak anda. 1:1, 4:5 dan 9:16 mengunci bentuknya. Ketik Teruskan untuk membuka editor.",
+  "back": "Free allows you to shape the frame as you want. 1:1, 4:5 and 9:16 lock the shape. Tap Continue to open the editor.",
+  "sim": 0.84
+ },
+ {
+  "k": "helpCutoutTitle",
+  "en": "Cut-out",
+  "tr": "Potongan",
+  "back": "Cut it out.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCutout1",
+  "en": "When the editor opens, PhotoSur finds the main subject and removes the background automatically, on your phone. No internet is needed.",
+  "tr": "Apabila editor dibuka, PhotoSur mencari subjek utama dan membuang latar belakang secara automatik, pada telefon anda. Internet tidak diperlukan.",
+  "back": "When the editor opens, PhotoSur finds the main subject and automatically removes the background on your phone.",
+  "sim": 0.84
+ },
+ {
+  "k": "helpCutout2",
+  "en": "Edge Smoothness softens the edge of the cut-out, from 0 to 20 pixels.",
+  "tr": "Kehalusan Tepi melembutkan tepi potongan, dari 0 hingga 20 piksel.",
+  "back": "The edge gentleness softened the edge of the cut, from 0 to 20 pixels.",
+  "sim": 0.74
+ },
+ {
+  "k": "helpCutout3",
+  "en": "The eye button at the top shows your original photo so you can compare. Tap it again to go back. The brush is paused while the original is shown.",
+  "tr": "Butang mata di bahagian atas menunjukkan foto asal anda untuk perbandingan. Ketik lagi untuk kembali. Berus dijeda selagi foto asal dipaparkan.",
+  "back": "The button at the top shows your original photo for comparison. Tap again to return. The brush is paused while the original photo is displayed.",
+  "sim": 0.74
+ },
+ {
+  "k": "helpCutout4",
+  "en": "For difficult subjects such as glass, shoes, bags and bottles, tap Get HD cut-out. The HD model downloads once, stays on your phone and then works offline. Once it is installed, every new cut-out uses it automatically. To redo the photo you have open, tap Redo cut-out in HD.",
+  "tr": "Untuk subjek yang sukar, seperti kaca, kasut, beg dan botol, ketik Dapatkan potongan HD. Model HD dimuat turun sekali sahaja, kekal pada telefon anda, dan kemudian berfungsi luar talian. Setelah dipasang, setiap potongan baharu menggunakannya secara automatik. Untuk mengulang foto yang sedang dibuka, ketik Ulang potongan dalam HD.",
+  "back": "For difficult subjects, such as glass, shoes, bags and bottles, type Get HD clips. The HD model is downloaded once, stays on your phone, and then works offline. Once installed, each new piece uses it automatically. To repeat the photo being opened, type Repeat clips in HD.",
+  "sim": 0.73
+ },
+ {
+  "k": "helpBrushTitle",
+  "en": "Brush",
+  "tr": "Berus",
+  "back": "Berry",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBrush1",
+  "en": "Erase removes parts of the subject. Restore brings back parts the cut-out removed.",
+  "tr": "Padam membuang bahagian subjek. Pulihkan membawa balik bahagian yang telah dibuang oleh potongan.",
+  "back": "Remove the part of the subject, restore the part that was removed by the cut.",
+  "sim": 0.43
+ },
+ {
+  "k": "helpBrush2",
+  "en": "Drag one finger to paint. Use two fingers to zoom, up to 8 times, and to move the photo. The brush keeps its size on screen, so zooming in gives finer control.",
+  "tr": "Seret satu jari untuk melukis. Gunakan dua jari untuk mengezum, sehingga 8 kali, dan menggerakkan foto. Berus mengekalkan saiznya pada skrin, jadi apabila mengezum masuk anda boleh bekerja dengan lebih tepat.",
+  "back": "Draw one finger to paint. Use two fingers to zoom in, up to eight times, and move the photo. The brush keeps its size on the screen, so when you zoom in you can work more accurately.",
+  "sim": 0.72
+ },
+ {
+  "k": "helpBrush3",
+  "en": "Brush Size goes from 1 to 50. Opacity sets how strongly each stroke applies.",
+  "tr": "Saiz Berus terentang dari 1 hingga 50. Kelegapan menentukan kekuatan setiap sapuan.",
+  "back": "The size of the bear ranges from 1 to 50. The frequency determines the strength of each spark.",
+  "sim": 0.38
+ },
+ {
+  "k": "helpBrush4",
+  "en": "Undo and Redo step through your brush strokes. Reset clears all brush strokes and goes back to the automatic cut-out; it asks you to confirm first.",
+  "tr": "Buat asal dan Buat semula menelusuri sapuan berus anda. Set semula memadam semua sapuan dan kembali kepada potongan automatik; anda akan diminta mengesahkan dahulu.",
+  "back": "Create the original and re-create browse your browsers. Reset delete all the browsers and go back to the autocut; you'll be prompted to verify first.",
+  "sim": 0.39
+ },
+ {
+  "k": "helpBackgroundTitle",
+  "en": "Background",
+  "tr": "Latar belakang",
+  "back": "The background",
+  "sim": 0.67
+ },
+ {
+  "k": "helpBackground1",
+  "en": "Choose what goes behind your subject: transparent, white, black, a gradient, a colour, a blurred copy of your photo, or your own photo.",
+  "tr": "Pilih apa yang berada di belakang subjek anda: lut sinar, putih, hitam, kecerunan, warna, salinan kabur foto anda atau foto anda sendiri.",
+  "back": "Choose what's behind your subject: rays of light, white, black, slant, color, a blurry copy of your photo or your own photo.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpBackground2",
+  "en": "Only one background is used at a time. Your latest choice replaces the earlier one.",
+  "tr": "Hanya satu latar belakang digunakan pada satu masa. Pilihan terakhir anda menggantikan yang sebelumnya.",
+  "back": "Only one background is used at a time.",
+  "sim": 0.7
+ },
+ {
+  "k": "helpBackground3",
+  "en": "Add custom background lets you pick a photo from your gallery. Custom color opens a colour picker. The Blur slider goes from 0 to 25.",
+  "tr": "Tambah latar belakang tersuai membolehkan anda memilih foto daripada galeri. Warna tersuai membuka pemilih warna. Peluncur Kabur terentang dari 0 hingga 25.",
+  "back": "Adding customised backgrounds allows you to select photos from a gallery. Customised colors open a color selector. Scratch sliders range from 0 to 25.",
+  "sim": 0.33
+ },
+ {
+  "k": "helpBackground4",
+  "en": "Transparent shows a checkerboard while you edit. Export as PNG to keep it transparent.",
+  "tr": "Lut sinar menunjukkan corak papan dam semasa menyunting. Eksport sebagai PNG untuk mengekalkan kelutsinaran.",
+  "back": "Lots of beams show the pattern of the dam board while editing. Export as PNG to maintain alignment.",
+  "sim": 0.31
+ },
+ {
+  "k": "helpTemplatesTitle",
+  "en": "Templates",
+  "tr": "Templat",
+  "back": "Template",
+  "sim": 0.0
+ },
+ {
+  "k": "helpTemplates1",
+  "en": "Templates are ready-made backgrounds in five groups: Studio, Color block, Textures, Light & shadow, and Gradients & patterns. Five scenes are shown in the panel; tap the Templates button to see them all.",
+  "tr": "Templat ialah latar belakang siap pakai dalam lima kumpulan: Studio, Blok warna, Tekstur, Cahaya & bayang dan Kecerunan & corak. Lima babak muncul dalam panel; ketik butang Templat untuk melihat semuanya.",
+  "back": "Templates are ready-to-use backgrounds in five groups: Studio, Color Blocks, Textures, Light & Shadows and Trends & Patterns. Five rounds appear in the panel; tap the Template button to view them all.",
+  "sim": 0.72
+ },
+ {
+  "k": "helpTemplates2",
+  "en": "Choosing a template works like choosing your own photo as the background: it replaces your earlier background choice.",
+  "tr": "Memilih templat sama seperti memilih foto anda sendiri sebagai latar belakang: ia menggantikan pilihan latar belakang anda sebelum ini.",
+  "back": "Choosing a template is like choosing your own photo as a background: it replaces your previous background choices.",
+  "sim": 0.78
+ },
+ {
+  "k": "helpLayoutTitle",
+  "en": "Layout",
+  "tr": "Susun atur",
+  "back": "Set it up.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpLayout1",
+  "en": "Drag the subject on the photo to move it. Pinch with two fingers to resize it.",
+  "tr": "Seret subjek merentasi foto untuk menggerakkannya. Cubit dengan dua jari untuk mengubah saiznya.",
+  "back": "Drag the subject across the photo to move it.",
+  "sim": 0.64
+ },
+ {
+  "k": "helpLayout2",
+  "en": "Choose Original, 1:1, 4:5 or 9:16 to set the shape of the final picture.",
+  "tr": "Pilih Asal, 1:1, 4:5 atau 9:16 untuk menetapkan bentuk imej akhir.",
+  "back": "Select Origin, 1:1, 4:5 or 9:16 to set the final image shape.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpLayout3",
+  "en": "Size sets how big the subject is, from 20% to 300%. Shadow sets how strong its shadow is. Auto-center puts the subject back in the middle. Reset undoes moving and resizing.",
+  "tr": "Saiz menentukan betapa besarnya subjek, dari 20% hingga 300%. Bayang menentukan kekuatan bayangnya. Autopusat mengembalikan subjek ke tengah. Set semula membatalkan pergerakan dan perubahan saiz.",
+  "back": "The size determines the size of the subject, from 20% to 300%. The shadow determines the intensity of the image. The autocenter returns the subject to the center. The reset cancels the movement and changes in size.",
+  "sim": 0.35
+ },
+ {
+  "k": "helpLayout4",
+  "en": "This shape is used when the export size is Original. If you choose a size preset or a marketplace in the export sheet, that decides the final shape instead.",
+  "tr": "Bentuk ini terpakai apabila saiz eksport ialah Asal. Jika anda memilih saiz pratetap atau pasar dalam talian dalam helaian eksport, itulah yang menentukan bentuk akhir.",
+  "back": "This form is used when the export size is the origin. If you choose the default size or the online market in the export sheet, that determines the final form.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpExportTitle",
+  "en": "Export",
+  "tr": "Eksport",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "helpExport1",
+  "en": "Tap Export to open the export sheet. Nothing is applied until you tap Save to Gallery or Share, so you can change your choices as often as you like.",
+  "tr": "Ketik Eksport untuk membuka helaian eksport. Tiada apa-apa dilaksanakan sehingga anda mengetik Simpan ke Galeri atau Kongsi, jadi anda boleh mengubah pilihan seberapa kerap yang anda mahu.",
+  "back": "Export type to open the export sheet. Nothing is done until you type Save to Gallery or Consignment, so you can change the option as often as you want.",
+  "sim": 0.76
+ },
+ {
+  "k": "helpExport2",
+  "en": "PNG keeps transparency. JPG makes smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a small modern format; if your phone cannot make it, the file is saved as JPG. For JPG and WEBP, the Quality slider trades file size for detail.",
+  "tr": "PNG mengekalkan kelutsinaran. JPG menghasilkan fail lebih kecil tetapi tidak boleh lut sinar, jadi latar belakang lut sinar menjadi putih. WEBP ialah format moden yang padat; jika telefon anda tidak dapat menciptanya, fail disimpan sebagai JPG. Untuk JPG dan WEBP, peluncur Kualiti mengimbangi saiz fail dengan perincian.",
+  "back": "PNG maintains clarity. The JPG produces smaller files but can't shoot the beam, so the background of the beam is turned white. WEBP is a modern compact format; if your phone can't create it, the file is stored as JPG. For JPG and WEBP, the Quality launcher balances file size with detail.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpExport3",
+  "en": "Original keeps your photo’s size, with the shape chosen in Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. Custom lets you type a width and height in pixels.",
+  "tr": "Asal mengekalkan saiz foto anda, dengan bentuk yang anda pilih dalam Susun atur. 1:1 ialah 1080 × 1080, 4:5 ialah 1080 × 1350 dan 9:16 ialah 1080 × 1920. Tersuai membolehkan anda memasukkan lebar dan tinggi dalam piksel.",
+  "back": "The original keeps the size of your photo, with the shape you choose in the Settings. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpExport4",
+  "en": "Marketplace presets set size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG kept under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices, and choosing a format or size afterwards switches the marketplace off. Marketplace rules can change, so check your marketplace’s current requirements.",
+  "tr": "Pratetap pasar dalam talian menetapkan saiz, format dan kualiti: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG di bawah 1 MB dan Shopify 2048 × 2048 PNG. Memilih satu menggantikan pilihan format dan saiz anda; jika selepas itu anda memilih format atau saiz, pasar dalam talian dinyahpilih. Peraturan pasar dalam talian boleh berubah, jadi semak keperluan terkini pasar anda.",
+  "back": "Online market pre-set sets sizes, formats and qualities: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG under 1 MB and Shopify 2048 × 2048 PNG. Choose one that replaces your format and size preferences; if after that you choose a format or size, the online market is de-selected. Online market rules can change, so check the current needs of your market.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpExport5",
+  "en": "Amazon also uses a pure white background with no shadow and fits the subject to fill most of the frame. Your background choice in the editor is not changed. The other marketplaces keep your background.",
+  "tr": "Amazon juga menggunakan latar belakang putih tulen tanpa bayang dan melaraskan subjek supaya memenuhi sebahagian besar bingkai. Pilihan latar belakang anda dalam editor tidak berubah. Pasar dalam talian lain mengekalkan latar belakang anda.",
+  "back": "Amazon also uses pure white background without shadows and adjusts the subject to fit most of the frames. Your background choices in the editor don't change. Other online markets keep your background.",
+  "sim": 0.66
+ },
+ {
+  "k": "helpExport6",
+  "en": "Save to Gallery and Share both save the picture to your gallery and to Recent Exports. Share also opens your phone’s share menu. If saving to the gallery is not possible, the share menu opens instead. After exporting you return to the home screen.",
+  "tr": "Simpan ke Galeri dan Kongsi kedua-duanya menyimpan imej ke galeri anda dan ke Eksport Terkini. Kongsi turut membuka menu perkongsian telefon anda. Jika penyimpanan ke galeri tidak dapat dilakukan, menu perkongsian dibuka sebagai gantinya. Selepas eksport, anda kembali ke skrin utama.",
+  "back": "Save to the Gallery and Save to the Export both save images to your gallery and to the Recent Export. Save to the Export also opens your phone's sharing menu. If storage to the gallery is not possible, the sharing menu opens instead. After export, you go back to the main screen.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpExport7",
+  "en": "Unless you have removed ads, an ad can appear after an export, at most once every two minutes.",
+  "tr": "Jika anda belum membuang iklan, iklan boleh muncul selepas eksport, paling kerap sekali setiap dua minit.",
+  "back": "If you haven't already discarded an ad, it can appear after export, most often every two minutes.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpBatchTitle",
+  "en": "Batch",
+  "tr": "Kelompok",
+  "back": "Groups",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBatch1",
+  "en": "Batch cuts out up to 30 photos in one go. Tap Batch on the home screen and pick your photos. The back button is turned off while a batch runs.",
+  "tr": "Kelompok memotong sehingga 30 foto serentak. Ketik Kelompok pada skrin utama dan pilih foto anda. Butang Kembali dilumpuhkan semasa kelompok berjalan.",
+  "back": "The group cuts up to 30 photos at a time. Type the group on the main screen and select your photo. The return button is disabled while the group is running.",
+  "sim": 0.46
+ },
+ {
+  "k": "helpBatch2",
+  "en": "All photos in a batch share one setup: one background and one marketplace. You cannot choose differently for each photo.",
+  "tr": "Semua foto dalam satu kelompok berkongsi satu tetapan: satu latar belakang dan satu pasar dalam talian. Anda tidak boleh memilih secara berbeza untuk setiap foto.",
+  "back": "All the photos in a group share one setting: one background and one online marketplace. You can't choose differently for each photo.",
+  "sim": 0.81
+ },
+ {
+  "k": "helpBatch3",
+  "en": "Backgrounds work as in the editor: your own photo, a colour, a template, white, transparent, black, blur or a gradient. Only one applies, and your latest choice replaces the earlier one.",
+  "tr": "Latar belakang berfungsi seperti dalam editor: foto anda sendiri, warna, templat, putih, lut sinar, hitam, kabur atau kecerunan. Hanya satu yang terpakai, dan pilihan terakhir anda menggantikan yang sebelumnya.",
+  "back": "The background works the same way as in the editor: your own photo, color, template, white, lustre, black, blur or slope. Only one is used, and your last option replaces the previous one.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpBatch4",
+  "en": "The file format is chosen for you. With a marketplace, the photos follow that marketplace’s size and format. Without one, a transparent background gives PNG and any other background gives JPG, at the original size.",
+  "tr": "Format fail dipilih untuk anda. Dengan pasar dalam talian, foto mengikut saiz dan formatnya. Tanpa pasar dalam talian, latar belakang lut sinar menghasilkan PNG dan mana-mana latar belakang lain menghasilkan JPG, dalam saiz asal.",
+  "back": "The file format is chosen for you. With the online market, the photos by size and format. Without the online market, the background of the beam lot produces PNG and any other background produces JPG, in the original size.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpBatch5",
+  "en": "Choosing Amazon switches the background to White; if you then choose another background, Amazon is switched off. eBay, Etsy and Shopify keep your background, but a JPG cannot be transparent, so it gets a white background.",
+  "tr": "Memilih Amazon menukar latar belakang kepada Putih; jika selepas itu anda memilih latar belakang lain, Amazon dinyahpilih. eBay, Etsy dan Shopify mengekalkan latar belakang anda, tetapi JPG tidak boleh lut sinar jadi ia mendapat latar belakang putih.",
+  "back": "Choosing Amazon changes the background to White; if after that you choose another background, Amazon is de-selected. eBay, Etsy and Shopify keep your background, but JPG can't flash rays so it gets a white background.",
+  "sim": 0.79
+ },
+ {
+  "k": "helpBatch6",
+  "en": "If the HD model is installed, every photo in the batch is cut out with it. The Get HD cut-out button next to Templates downloads it.",
+  "tr": "Jika model HD dipasang, setiap foto dalam kelompok dipotong dengannya. Butang Dapatkan potongan HD di sebelah Templat memuat turunnya.",
+  "back": "If the HD model is installed, every photo in the group is cut with it.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpBatch7",
+  "en": "Each photo is saved to your gallery and to Recent Exports as soon as it finishes. Stop ends the batch after the current photo, and photos already finished stay saved. If a photo fails, the batch carries on and tells you how many could not be processed. Done takes you back to the home screen; it does not save anything.",
+  "tr": "Setiap foto disimpan ke galeri anda dan ke Eksport Terkini sebaik sahaja siap. Henti menamatkan kelompok selepas foto semasa, dan foto yang sudah siap kekal tersimpan. Jika sesuatu foto gagal, kelompok diteruskan dan memberitahu anda berapa banyak yang tidak dapat diproses. Selesai membawa anda kembali ke skrin utama; ia tidak menyimpan apa-apa.",
+  "back": "Each photo is saved to your gallery and to the latest export as soon as it's finished. Stop finishing the group after the current photo, and the finished photo stays stored. If one photo fails, the group continues and tells you how much can't be processed. It takes you back to the home screen; it doesn't save anything.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpLibraryTitle",
+  "en": "Your exports",
+  "tr": "Eksport anda",
+  "back": "Your export",
+  "sim": 0.5
+ },
+ {
+  "k": "helpLibrary1",
+  "en": "Recent Exports on the home screen shows your latest exports. Tap See all for every export, grouped as Today, Yesterday, This week and Earlier.",
+  "tr": "Eksport Terkini pada skrin utama memaparkan eksport terbaharu anda. Ketik Lihat semua untuk melihat semuanya, dikumpulkan kepada Hari ini, Semalam, Minggu ini dan Terdahulu.",
+  "back": "Recent Exports on the home screen displays your latest exports. Tap View All to see everything, collected to Today, Yesterday, This Week and Last.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpLibrary2",
+  "en": "Tap an export to open it full screen. Swipe to move between exports and pinch to zoom. The bar at the bottom has Share, Save to Gallery, Edit again and Delete.",
+  "tr": "Ketik eksport untuk membukanya dalam skrin penuh. Leret untuk bertukar antara eksport dan cubit untuk mengezum. Bar bawah menawarkan Kongsi, Simpan ke Galeri, Edit semula dan Padam.",
+  "back": "Type export to open it in the full screen, drag to switch between export and cubit to absorb, the bottom bar offers Download, Save to Gallery, Re-edit and Pad.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpLibrary3",
+  "en": "The three-dot button on a tile opens the same actions. Edit again opens the exported picture as a new photo, so earlier brush strokes are not restored.",
+  "tr": "Butang tiga titik pada gambar kecil membuka tindakan yang sama. Edit semula membuka imej yang dieksport sebagai foto baharu, jadi sapuan berus sebelum ini tidak dipulihkan.",
+  "back": "Taping three dots on a small image opens the same action. Re-edit opens the exported image as a new photo, so the previous brushstroke is not recovered.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpLibrary4",
+  "en": "Select lets you choose several exports to share together or delete. Delete all exports removes every export from this phone.",
+  "tr": "Pilih membolehkan anda memilih beberapa eksport untuk dikongsi atau dipadam bersama. Padam semua eksport membuang semua eksport daripada telefon ini.",
+  "back": "Select allows you to select multiple exports to share or delete together. Delete all exports removes all exports from this phone.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpLibrary5",
+  "en": "Deleting removes exports from PhotoSur only. Pictures already saved to your gallery are not affected. The bottom of the See all screen shows how much space exports use on this phone.",
+  "tr": "Pemadaman hanya membuang eksport daripada PhotoSur. Imej yang sudah disimpan dalam galeri anda tidak disentuh. Di bahagian bawah Lihat semua, anda boleh melihat berapa banyak ruang yang digunakan eksport pada telefon ini.",
+  "back": "The deactivation just removes the export from PhotoSur. The images that are already stored in your gallery are untouched. At the bottom of the view, you can see how much export space is used on this phone.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpPrivacyTitle",
+  "en": "Privacy & ads",
+  "tr": "Privasi & iklan",
+  "back": "Privacy and advertising",
+  "sim": 0.4
+ },
+ {
+  "k": "helpPrivacy1",
+  "en": "Your photos are processed on your phone and are not uploaded. There is no account and no watermark.",
+  "tr": "Foto anda diproses pada telefon anda dan tidak dimuat naik. Tiada akaun dan tiada tera air.",
+  "back": "Your photos were processed on your phone and not uploaded.",
+  "sim": 0.64
+ },
+ {
+  "k": "helpPrivacy2",
+  "en": "PhotoSur is free with every feature included, supported by ads. A banner appears at the bottom of some screens, and an ad can appear after an export.",
+  "tr": "PhotoSur percuma, dengan semua ciri disertakan, dan disokong oleh iklan. Sepanduk muncul di bahagian bawah sesetengah skrin, dan iklan boleh muncul selepas eksport.",
+  "back": "PhotoSur is free, with all the features included, and it's ad-supported. Banners appear at the bottom of some screens, and ads can appear after export.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpPrivacy3",
+  "en": "Go Ad-Free in Settings is a one-time purchase that removes the ads. It does not unlock anything else, because every feature is already free. Restore Purchases brings it back on a new phone.",
+  "tr": "Buang Iklan dalam Tetapan ialah pembelian sekali sahaja yang membuang iklan. Ia tidak membuka apa-apa lagi, kerana semua ciri sudah percuma. Pulihkan Pembelian mengembalikannya pada telefon baharu.",
+  "back": "In-Setting Ad Disposal is a one-time purchase that deletes the ad. It doesn't open anything anymore, because all the features are now free.",
+  "sim": 0.36
+ },
+ {
+  "k": "helpSettingsTitle",
+  "en": "Settings",
+  "tr": "Tetapan",
+  "back": "Settings",
+  "sim": 1.0
+ },
+ {
+  "k": "helpSettings1",
+  "en": "Theme can follow your phone, or be Light or Dark. Language changes the language of the app. Both are also in the home screen header.",
+  "tr": "Tema boleh mengikut telefon anda, atau Cerah atau Gelap. Bahasa menukar bahasa aplikasi. Kedua-duanya juga terdapat pada pengepala skrin utama.",
+  "back": "The theme can follow your phone, or Bright or Dark. The language changes the language of the app. Both are also available on the home screen header.",
+  "sim": 0.85
+ },
+ {
+  "k": "helpSettings2",
+  "en": "Edit reminders: if you leave the app with an unfinished edit, PhotoSur can remind you three hours later. Switch this off in Settings.",
+  "tr": "Peringatan suntingan: jika anda keluar dari aplikasi dengan suntingan yang belum selesai, PhotoSur boleh mengingatkan anda tiga jam kemudian. Matikannya dalam Tetapan.",
+  "back": "Editor's note: if you leave the app with unfinished editing, PhotoSur can remind you three hours later. Turn it off in Settings.",
+  "sim": 0.76
+ },
+ {
+  "k": "helpSettings3",
+  "en": "HD cut-out model shows whether it is installed. Remove deletes it from your phone to free space; you can download it again at any time.",
+  "tr": "Model potongan HD menunjukkan sama ada ia dipasang. Alih keluar memadamkannya daripada telefon anda untuk membebaskan ruang; anda boleh memuat turunnya semula pada bila-bila masa.",
+  "back": "The HD snippet model shows if it's installed. Instead of deleting it from your phone to free up space; you can re-download it at any time.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpSettings4",
+  "en": "Replay intro shows the welcome screens again. Support opens the support page. Animated home background turns the moving picture at the top of the home screen on or off.",
+  "tr": "Main semula pengenalan memaparkan semula skrin selamat datang. Sokongan membuka halaman sokongan. Latar belakang laman utama beranimasi menghidupkan atau mematikan gambar bergerak di bahagian atas skrin utama.",
+  "back": "Replay identifiers re-displays the welcome screen. Support opens the support page. The animated homepage background turns on or off the moving image at the top of the home screen.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpFixTitle",
+  "en": "If something goes wrong",
+  "tr": "Jika ada yang tidak kena",
+  "back": "If something goes wrong",
+  "sim": 1.0
+ },
+ {
+  "k": "helpFix1",
+  "en": "If the automatic cut-out cannot run on a very old or low-memory phone, the brush still works, so you can finish the picture by hand.",
+  "tr": "Jika potongan automatik tidak dapat berjalan pada telefon yang sangat lama atau berbekalan memori kecil, berus tetap berfungsi, jadi anda boleh menyiapkan imej secara manual.",
+  "back": "If the auto-cut doesn't work on a very long phone or with little memory, the brush keeps working, so you can manually finish the image.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpFix2",
+  "en": "If the HD download stops, check your connection and try again. It continues where it left off.",
+  "tr": "Jika muat turun HD berhenti, semak sambungan anda dan cuba lagi. Ia disambung semula dari tempat ia berhenti.",
+  "back": "If the HD download stops, check your connection and try again.",
+  "sim": 0.79
+ },
+ {
+  "k": "helpFix3",
+  "en": "For anything else, open Support from Settings.",
+  "tr": "Untuk perkara lain, buka Sokongan daripada Tetapan.",
+  "back": "For other things, open Settings Support.",
+  "sim": 0.46
+ }
+]

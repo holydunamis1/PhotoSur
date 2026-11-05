@@ -1,0 +1,1773 @@
+[
+ {
+  "k": "onboardingPage1Title",
+  "en": "Remove backgrounds instantly. All features free.",
+  "tr": "Odstráňte pozadie okamžite. Všetky funkcie zadarmo.",
+  "back": "Remove the background immediately.",
+  "sim": 0.2
+ },
+ {
+  "k": "onboardingPage1Body",
+  "en": "Open a photo and our on-device AI removes the background automatically — no internet required. You can also swap in your own custom background.",
+  "tr": "Otvorte fotku a umelá inteligencia vo vašom zariadení automaticky odstráni pozadie — bez pripojenia na internet. Môžete tiež použiť vlastné pozadie.",
+  "back": "Open the photo and the artificial intelligence on your device will automatically remove the background  without an internet connection. You can also use your own backgrounds.",
+  "sim": 0.45
+ },
+ {
+  "k": "onboardingPage2Title",
+  "en": "Fine-tune with the brush",
+  "tr": "Doladte štetcom",
+  "back": "Put it on the whore.",
+  "sim": 0.22
+ },
+ {
+  "k": "onboardingPage2Body",
+  "en": "Paint away what the AI missed or restore what you want to keep. Then crop, rotate, move and resize.",
+  "tr": "Štetcom zotrite, čo umelá inteligencia prehliadla, alebo obnovte, čo chcete zachovať. Potom orežte, otočte, presuňte a zmeňte veľkosť.",
+  "back": "With the calculator, check what the AI is looking at, or restore what you want to keep, then cut, rotate, move, and resize.",
+  "sim": 0.71
+ },
+ {
+  "k": "onboardingPage3Title",
+  "en": "Studio-ready backgrounds",
+  "tr": "Pozadia ako zo štúdia",
+  "back": "Backwards like from the studio.",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingPage3Body",
+  "en": "Choose a colour, gradient, template or your own photo, with a natural shadow. Marketplace presets for Amazon, eBay, Etsy and Shopify set size and format for you.",
+  "tr": "Vyberte farbu, prechod, šablónu alebo vlastnú fotku s prirodzeným tieňom. Predvoľby pre Amazon, eBay, Etsy a Shopify nastavia veľkosť a formát za vás.",
+  "back": "Choose a color, a transition, a template, or your own natural shade photo. Amazon, eBay, Etsy, and Shopify default settings set the size and format for you.",
+  "sim": 0.67
+ },
+ {
+  "k": "onboardingPage4Title",
+  "en": "Batch it, export it, keep it private",
+  "tr": "Hromadne, vo formáte, aký chcete, súkromne",
+  "back": "Collectively, in any format you want, privately.",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingPage4Body",
+  "en": "Cut out up to 30 photos at once and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "tr": "Vystrihnite až 30 fotiek naraz a exportujte ich ako PNG, JPG alebo WEBP. Vaše fotky nikdy neopustia telefón. K dispozícii v 43 jazykoch.",
+  "back": "Take up to 30 photos at a time and export them as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "sim": 0.86
+ },
+ {
+  "k": "onboardingNext",
+  "en": "Next",
+  "tr": "Ďalej",
+  "back": "Furthermore",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingGetStarted",
+  "en": "Get Started",
+  "tr": "Začať",
+  "back": "Starting",
+  "sim": 0.0
+ },
+ {
+  "k": "homeCameraButton",
+  "en": "Camera",
+  "tr": "Fotoaparát",
+  "back": "This is not to be confused with a camera.",
+  "sim": 0.2
+ },
+ {
+  "k": "homeGalleryButton",
+  "en": "Gallery",
+  "tr": "Galéria",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "dateToday",
+  "en": "Today",
+  "tr": "Dnes",
+  "back": "Today",
+  "sim": 1.0
+ },
+ {
+  "k": "dateYesterday",
+  "en": "Yesterday",
+  "tr": "Včera",
+  "back": "Yesterday .",
+  "sim": 1.0
+ },
+ {
+  "k": "homeRecentExports",
+  "en": "Recent Exports",
+  "tr": "Nedávne exporty",
+  "back": "Recent exports",
+  "sim": 1.0
+ },
+ {
+  "k": "homeEmptyStateMessage",
+  "en": "Tap Camera or Gallery to start.",
+  "tr": "Začnite klepnutím na Fotoaparát alebo Galériu.",
+  "back": "Start by tapping Camera or Gallery.",
+  "sim": 0.5
+ },
+ {
+  "k": "homeExportUnavailable",
+  "en": "This export is no longer available.",
+  "tr": "Tento export už nie je dostupný.",
+  "back": "This export is no longer available.",
+  "sim": 1.0
+ },
+ {
+  "k": "homeShareFailed",
+  "en": "Could not share this export.",
+  "tr": "Tento export sa nepodarilo zdieľať.",
+  "back": "This export was not able to be shared.",
+  "sim": 0.31
+ },
+ {
+  "k": "homeGalleryOpenFailed",
+  "en": "Could not open gallery.",
+  "tr": "Galériu sa nepodarilo otvoriť.",
+  "back": "The gallery failed to open.",
+  "sim": 0.22
+ },
+ {
+  "k": "cameraTitle",
+  "en": "Camera",
+  "tr": "Fotoaparát",
+  "back": "This is not to be confused with a camera.",
+  "sim": 0.2
+ },
+ {
+  "k": "cameraPermissionDenied",
+  "en": "Camera access is needed to take a photo. Please allow access.",
+  "tr": "Na vytvorenie fotky je potrebný prístup k fotoaparátu. Povoľte ho, prosím.",
+  "back": "You need access to the camera to take a picture.",
+  "sim": 0.38
+ },
+ {
+  "k": "cameraPermissionPermanentlyDenied",
+  "en": "Camera access was denied. Enable it in Settings to continue.",
+  "tr": "Prístup k fotoaparátu bol zamietnutý. Ak chcete pokračovať, povoľte ho v Nastaveniach.",
+  "back": "Access to the camera has been denied.",
+  "sim": 0.24
+ },
+ {
+  "k": "cameraPermissionRestricted",
+  "en": "Camera access is restricted on this device.",
+  "tr": "Prístup k fotoaparátu je v tomto zariadení obmedzený.",
+  "back": "Access to the camera is restricted in this device.",
+  "sim": 0.62
+ },
+ {
+  "k": "cameraNoCameraFound",
+  "en": "No camera found on this device.",
+  "tr": "V tomto zariadení sa nenašiel žiadny fotoaparát.",
+  "back": "No camera was found in this device.",
+  "sim": 0.77
+ },
+ {
+  "k": "cameraStartFailed",
+  "en": "Could not start the camera.",
+  "tr": "Fotoaparát sa nepodarilo spustiť.",
+  "back": "The camera failed to launch.",
+  "sim": 0.4
+ },
+ {
+  "k": "cameraCaptureFailed",
+  "en": "Could not capture photo.",
+  "tr": "Fotku sa nepodarilo vytvoriť.",
+  "back": "The photo couldn't be made.",
+  "sim": 0.22
+ },
+ {
+  "k": "cameraOpenSettings",
+  "en": "Open Settings",
+  "tr": "Otvoriť Nastavenia",
+  "back": "Open the settings",
+  "sim": 0.8
+ },
+ {
+  "k": "cameraFlashTooltip",
+  "en": "Flash",
+  "tr": "Blesk",
+  "back": "Lightning",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraGalleryTooltip",
+  "en": "Gallery",
+  "tr": "Galéria",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "cropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Orezať a otočiť",
+  "back": "Cutting and turning",
+  "sim": 0.0
+ },
+ {
+  "k": "cropLoadFailed",
+  "en": "Could not load the image.",
+  "tr": "Obrázok sa nepodarilo načítať.",
+  "back": "The image failed to load.",
+  "sim": 0.4
+ },
+ {
+  "k": "cropRotateFailed",
+  "en": "Could not rotate the image.",
+  "tr": "Obrázok sa nepodarilo otočiť.",
+  "back": "The picture failed to turn.",
+  "sim": 0.2
+ },
+ {
+  "k": "cropFailed",
+  "en": "Crop failed.",
+  "tr": "Orezanie zlyhalo.",
+  "back": "The cutting failed.",
+  "sim": 0.4
+ },
+ {
+  "k": "cropSaveFailed",
+  "en": "Could not save the cropped image.",
+  "tr": "Orezaný obrázok sa nepodarilo uložiť.",
+  "back": "The sliced image failed to be saved.",
+  "sim": 0.31
+ },
+ {
+  "k": "cropAspectFree",
+  "en": "Free",
+  "tr": "Voľné",
+  "back": "Free of charge",
+  "sim": 0.5
+ },
+ {
+  "k": "cropContinue",
+  "en": "Continue",
+  "tr": "Pokračovať",
+  "back": "Keep going",
+  "sim": 0.0
+ },
+ {
+  "k": "editorSegmentationFailedMessage",
+  "en": "Your device doesn't support automatic background removal. Use the manual brush below.",
+  "tr": "Vaše zariadenie nepodporuje automatické odstránenie pozadia. Použite ručný štetec nižšie.",
+  "back": "Your device does not support automatic background removal.",
+  "sim": 0.6
+ },
+ {
+  "k": "brushErase",
+  "en": "Erase",
+  "tr": "Zmazať",
+  "back": "Deleted",
+  "sim": 0.0
+ },
+ {
+  "k": "brushRestore",
+  "en": "Restore",
+  "tr": "Obnoviť",
+  "back": "Renew",
+  "sim": 0.0
+ },
+ {
+  "k": "brushSizeLabel",
+  "en": "Brush Size",
+  "tr": "Veľkosť štetca",
+  "back": "Size of whore",
+  "sim": 0.4
+ },
+ {
+  "k": "brushOpacityLabel",
+  "en": "Opacity",
+  "tr": "Priehľadnosť",
+  "back": "Transparency",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundWhite",
+  "en": "White",
+  "tr": "Biela",
+  "back": "White",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundTransparent",
+  "en": "Transparent",
+  "tr": "Priehľadné",
+  "back": "Transparent",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundBlack",
+  "en": "Black",
+  "tr": "Čierna",
+  "back": "Black",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundBlurLabel",
+  "en": "Blur",
+  "tr": "Rozmazanie",
+  "back": "Drying",
+  "sim": 0.0
+ },
+ {
+  "k": "edgeFeatherLabel",
+  "en": "Edge Smoothness",
+  "tr": "Mäkkosť okrajov",
+  "back": "Softness of the edges",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarUndo",
+  "en": "Undo",
+  "tr": "Späť",
+  "back": "I'm going back.",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarRedo",
+  "en": "Redo",
+  "tr": "Znova",
+  "back": "It's over again.",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarReset",
+  "en": "Reset",
+  "tr": "Resetovať",
+  "back": "Reset",
+  "sim": 1.0
+ },
+ {
+  "k": "toolbarExport",
+  "en": "Export",
+  "tr": "Exportovať",
+  "back": "Exported",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmTitle",
+  "en": "Reset edits?",
+  "tr": "Resetovať úpravy?",
+  "back": "Reset the settings?",
+  "sim": 0.4
+ },
+ {
+  "k": "resetConfirmBody",
+  "en": "This clears your manual brush strokes. This cannot be undone.",
+  "tr": "Týmto sa zmažú vaše ručne namaľované ťahy štetcom. Akciu nemožno vrátiť späť.",
+  "back": "This will erase your hand-painted moves with a hammer.",
+  "sim": 0.21
+ },
+ {
+  "k": "resetConfirmCancel",
+  "en": "Cancel",
+  "tr": "Zrušiť",
+  "back": "Cancellation",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmConfirm",
+  "en": "Reset",
+  "tr": "Resetovať",
+  "back": "Reset",
+  "sim": 1.0
+ },
+ {
+  "k": "exportQualityLabel",
+  "en": "Quality: {value}",
+  "tr": "Kvalita: {value}",
+  "back": "Quality: [value]",
+  "sim": 1.0
+ },
+ {
+  "k": "exportResizeLabel",
+  "en": "Resize",
+  "tr": "Zmena veľkosti",
+  "back": "Change of size",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeOriginal",
+  "en": "Original",
+  "tr": "Originál",
+  "back": "The original",
+  "sim": 0.67
+ },
+ {
+  "k": "exportResizeCustom",
+  "en": "Custom",
+  "tr": "Vlastné",
+  "back": "Own",
+  "sim": 0.0
+ },
+ {
+  "k": "exportWidthLabel",
+  "en": "Width (px)",
+  "tr": "Šírka (px)",
+  "back": "Width (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportHeightLabel",
+  "en": "Height (px)",
+  "tr": "Výška (px)",
+  "back": "Height (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSaveToGallery",
+  "en": "Save to Gallery",
+  "tr": "Uložiť do Galérie",
+  "back": "Store in the Gallery",
+  "sim": 0.29
+ },
+ {
+  "k": "exportShare",
+  "en": "Share",
+  "tr": "Zdieľať",
+  "back": "Sharing",
+  "sim": 0.0
+ },
+ {
+  "k": "exportSuccess",
+  "en": "Exported!",
+  "tr": "Exportované!",
+  "back": "Exported!",
+  "sim": 1.0
+ },
+ {
+  "k": "exportFailed",
+  "en": "Export failed. Please try again.",
+  "tr": "Export zlyhal. Skúste to znova.",
+  "back": "Export failed, try again.",
+  "sim": 0.89
+ },
+ {
+  "k": "exportInProgress",
+  "en": "Exporting…",
+  "tr": "Exportuje sa…",
+  "back": "It's being exported...",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTitle",
+  "en": "Settings",
+  "tr": "Nastavenia",
+  "back": "Settings",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsTheme",
+  "en": "Theme",
+  "tr": "Motív",
+  "back": "The motive",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLanguage",
+  "en": "Language",
+  "tr": "Jazyk",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Obnoviť nákupy",
+  "back": "Renew purchases",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsGoAdFree",
+  "en": "Go Ad-Free",
+  "tr": "Bez reklám",
+  "back": "No advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsPrivacyPolicy",
+  "en": "Privacy Policy",
+  "tr": "Zásady ochrany osobných údajov",
+  "back": "The data subject shall be informed of any changes to the data subject's personal data.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsSupport",
+  "en": "Support",
+  "tr": "Podpora",
+  "back": "Support",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRateApp",
+  "en": "Rate App",
+  "tr": "Ohodnotiť aplikáciu",
+  "back": "Evaluation of the application",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsShareApp",
+  "en": "Share App",
+  "tr": "Zdieľať aplikáciu",
+  "back": "Sharing the Application",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLicenses",
+  "en": "Open-source licenses",
+  "tr": "Open-source licencie",
+  "back": "Open-source licenses",
+  "sim": 1.0
+ },
+ {
+  "k": "reminderChannelName",
+  "en": "Edit reminders",
+  "tr": "Pripomienky úprav",
+  "back": "Comments on the amendments",
+  "sim": 0.0
+ },
+ {
+  "k": "reminderChannelDescription",
+  "en": "Reminders about edits you have not finished.",
+  "tr": "Pripomienky nedokončených úprav.",
+  "back": "Remarks of unfinished edits.",
+  "sim": 0.18
+ },
+ {
+  "k": "reminderTitle",
+  "en": "Your edit is waiting",
+  "tr": "Vaša úprava čaká",
+  "back": "Your adjustment is waiting",
+  "sim": 0.75
+ },
+ {
+  "k": "reminderBody",
+  "en": "Pick up where you left off and export your photo.",
+  "tr": "Pokračujte tam, kde ste skončili, a exportujte svoju fotku.",
+  "back": "Continue where you left off and export your photo.",
+  "sim": 0.84
+ },
+ {
+  "k": "settingsReminders",
+  "en": "Edit reminders",
+  "tr": "Pripomienky úprav",
+  "back": "Comments on the amendments",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsAnimatedBackground",
+  "en": "Animated home background",
+  "tr": "Animované pozadie domovskej obrazovky",
+  "back": "Animated home screen backgrounds",
+  "sim": 0.57
+ },
+ {
+  "k": "settingsRemindersSubtitle",
+  "en": "Remind me about unfinished edits",
+  "tr": "Pripomínať nedokončené úpravy",
+  "back": "Recalling unfinished modifications",
+  "sim": 0.25
+ },
+ {
+  "k": "settingsRemindersBlocked",
+  "en": "Notifications are turned off for PhotoSur in your phone's settings.",
+  "tr": "Upozornenia pre PhotoSur sú vypnuté v nastaveniach telefónu.",
+  "back": "The PhotoSur alerts are turned off in the phone settings.",
+  "sim": 0.5
+ },
+ {
+  "k": "editorBrushHint",
+  "en": "Drag to paint. Pinch with two fingers to zoom.",
+  "tr": "Ťahaním maľujte. Dvoma prstami približujte.",
+  "back": "Draw with two fingers, draw with two fingers.",
+  "sim": 0.35
+ },
+ {
+  "k": "editorToolCutout",
+  "en": "Cut-out",
+  "tr": "Vystrihnutie",
+  "back": "Cutting off",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBrush",
+  "en": "Brush",
+  "tr": "Štetec",
+  "back": "Other, not further worked than hot-rolled, hot-rolled or cold-rolled",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBackground",
+  "en": "Background",
+  "tr": "Pozadie",
+  "back": "Background",
+  "sim": 1.0
+ },
+ {
+  "k": "editorToolLayout",
+  "en": "Layout",
+  "tr": "Rozloženie",
+  "back": "The breakdown",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutAutoCenter",
+  "en": "Auto-center",
+  "tr": "Vycentrovať",
+  "back": "Focusing",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutSizeLabel",
+  "en": "Size",
+  "tr": "Veľkosť",
+  "back": "Size",
+  "sim": 1.0
+ },
+ {
+  "k": "layoutShadowLabel",
+  "en": "Shadow",
+  "tr": "Tieň",
+  "back": "Shadow",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundPhoto",
+  "en": "Photo",
+  "tr": "Fotka",
+  "back": "The photo",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundPhotoFailed",
+  "en": "Could not load that photo.",
+  "tr": "Túto fotku sa nepodarilo načítať.",
+  "back": "This photo failed to be uploaded.",
+  "sim": 0.18
+ },
+ {
+  "k": "editorLayoutHint",
+  "en": "Drag to move. Pinch with two fingers to resize.",
+  "tr": "Ťahaním presuniete. Dvoma prstami zmeníte veľkosť.",
+  "back": "You pull it, you move it, you change the size with two fingers.",
+  "sim": 0.36
+ },
+ {
+  "k": "languageSystemDefault",
+  "en": "System default",
+  "tr": "Predvolené podľa systému",
+  "back": "Selected by system",
+  "sim": 0.4
+ },
+ {
+  "k": "languageSheetTitle",
+  "en": "Language",
+  "tr": "Jazyk",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "themeSheetTitle",
+  "en": "Theme",
+  "tr": "Motív",
+  "back": "The motive",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionSystem",
+  "en": "System default",
+  "tr": "Predvolené podľa systému",
+  "back": "Selected by system",
+  "sim": 0.4
+ },
+ {
+  "k": "themeOptionLight",
+  "en": "Light",
+  "tr": "Svetlý",
+  "back": "Light",
+  "sim": 1.0
+ },
+ {
+  "k": "themeOptionDark",
+  "en": "Dark",
+  "tr": "Tmavý",
+  "back": "It 's dark .",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsLinkNotReady",
+  "en": "This link isn't set up yet.",
+  "tr": "Tento odkaz ešte nie je nastavený.",
+  "back": "This message isn't set yet.",
+  "sim": 0.73
+ },
+ {
+  "k": "settingsLinkOpenFailed",
+  "en": "Could not open link.",
+  "tr": "Odkaz sa nepodarilo otvoriť.",
+  "back": "The message failed to open.",
+  "sim": 0.22
+ },
+ {
+  "k": "settingsRestoreRequested",
+  "en": "Restore requested — check back in a moment.",
+  "tr": "Obnovenie vyžiadané — skúste to o chvíľu.",
+  "back": "Restore requested. Try it in a minute.",
+  "sim": 0.57
+ },
+ {
+  "k": "settingsRestoreFailed",
+  "en": "Restore failed.",
+  "tr": "Obnovenie zlyhalo.",
+  "back": "The restoration failed.",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsShareFailed",
+  "en": "Could not share.",
+  "tr": "Zdieľanie zlyhalo.",
+  "back": "The split failed.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsShareAppMessage",
+  "en": "Remove photo backgrounds instantly with PhotoSur — free, no watermark.",
+  "tr": "Odstráňte pozadie fotiek okamžite s PhotoSur — zadarmo, bez vodotlače.",
+  "back": "Remove the background of photos immediately with PhotoSur  free of charge, without a watermark.",
+  "sim": 0.43
+ },
+ {
+  "k": "paywallTitle",
+  "en": "Go Ad-Free",
+  "tr": "Bez reklám",
+  "back": "No advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallAlreadyAdFree",
+  "en": "You're already ad-free. Thank you!",
+  "tr": "Reklamy už nevidíte. Ďakujeme!",
+  "back": "You don't see the commercials anymore.",
+  "sim": 0.18
+ },
+ {
+  "k": "paywallPlanFreeTitle",
+  "en": "Free",
+  "tr": "Zadarmo",
+  "back": "Free of charge",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPlanAdFreeTitle",
+  "en": "Ad-Free",
+  "tr": "Bez reklám",
+  "back": "No advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPlanAdFreePrice",
+  "en": "One-time purchase",
+  "tr": "Jednorazový nákup",
+  "back": "One-time purchase",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallFeatureAllFeatures",
+  "en": "All features",
+  "tr": "Všetky funkcie",
+  "back": "All functions",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallFeatureAdSupported",
+  "en": "Ad-supported",
+  "tr": "S reklamami",
+  "back": "With advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureZeroAds",
+  "en": "Zero ads",
+  "tr": "Žiadne reklamy",
+  "back": "No advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPurchaseButton",
+  "en": "Remove Ads",
+  "tr": "Odstrániť reklamy",
+  "back": "Remove the advertisements",
+  "sim": 0.4
+ },
+ {
+  "k": "paywallPurchaseButtonPrice",
+  "en": "Remove Ads — {price}",
+  "tr": "Odstrániť reklamy — {price}",
+  "back": "Remove the advertisements  [more]",
+  "sim": 0.29
+ },
+ {
+  "k": "paywallRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Obnoviť nákupy",
+  "back": "Renew purchases",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallProductUnavailable",
+  "en": "Ad removal is not available right now.",
+  "tr": "Odstránenie reklám teraz nie je dostupné.",
+  "back": "Ad removal is not available now.",
+  "sim": 0.92
+ },
+ {
+  "k": "paywallPurchaseFailed",
+  "en": "Purchase failed.",
+  "tr": "Nákup zlyhal.",
+  "back": "The purchase failed.",
+  "sim": 0.8
+ },
+ {
+  "k": "errorScreenTitle",
+  "en": "Something went wrong",
+  "tr": "Niečo sa pokazilo",
+  "back": "Something went wrong.",
+  "sim": 1.0
+ },
+ {
+  "k": "errorScreenBody",
+  "en": "Try again, or restart the app if this keeps happening.",
+  "tr": "Skúste to znova alebo reštartujte aplikáciu, ak problém pretrváva.",
+  "back": "Try again or restart the application if the problem persists.",
+  "sim": 0.6
+ },
+ {
+  "k": "errorScreenGoBack",
+  "en": "Go back",
+  "tr": "Späť",
+  "back": "I'm going back.",
+  "sim": 0.4
+ },
+ {
+  "k": "errorScreenReportEmail",
+  "en": "Report via {email}",
+  "tr": "Nahlásiť na {email}",
+  "back": "Report to [email]",
+  "sim": 0.67
+ },
+ {
+  "k": "unsupportedTitle",
+  "en": "Device Not Supported",
+  "tr": "Zariadenie nie je podporované",
+  "back": "Equipment not supported",
+  "sim": 0.67
+ },
+ {
+  "k": "unsupportedNoCameraMessage",
+  "en": "This device doesn't have a camera available.",
+  "tr": "Toto zariadenie nemá dostupný fotoaparát.",
+  "back": "This device doesn't have a camera available.",
+  "sim": 1.0
+ },
+ {
+  "k": "unsupportedLowMemoryMessage",
+  "en": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
+  "tr": "Toto zariadenie nemá dostatok pamäte na spoľahlivý chod editora PhotoSur.",
+  "back": "This device does not have enough memory for the reliable operation of the PhotoSur editor.",
+  "sim": 0.46
+ },
+ {
+  "k": "unsupportedManualImportHint",
+  "en": "You can still import a photo from your gallery and use the manual brush tool.",
+  "tr": "Stále môžete importovať fotku z galérie a použiť ručný štetec.",
+  "back": "You can still import a photo from the gallery and use a handbrush.",
+  "sim": 0.71
+ },
+ {
+  "k": "unsupportedUseGalleryButton",
+  "en": "Import from Gallery",
+  "tr": "Importovať z Galérie",
+  "back": "Imported from the Gallery",
+  "sim": 0.57
+ },
+ {
+  "k": "homeBatchButton",
+  "en": "Batch",
+  "tr": "Dávka",
+  "back": "The dose",
+  "sim": 0.0
+ },
+ {
+  "k": "batchTitle",
+  "en": "Batch cut-out",
+  "tr": "Dávkové vystrihnutie",
+  "back": "Amount of duty deducted",
+  "sim": 0.0
+ },
+ {
+  "k": "batchOutputTransparent",
+  "en": "Transparent PNG",
+  "tr": "Priehľadné PNG",
+  "back": "Transparent PNG",
+  "sim": 1.0
+ },
+ {
+  "k": "batchOutputWhite",
+  "en": "White background (JPG)",
+  "tr": "Biele pozadie (JPG)",
+  "back": "White background (JPG)",
+  "sim": 1.0
+ },
+ {
+  "k": "batchStart",
+  "en": "Start",
+  "tr": "Spustiť",
+  "back": "Running",
+  "sim": 0.0
+ },
+ {
+  "k": "batchStop",
+  "en": "Stop",
+  "tr": "Zastaviť",
+  "back": "Stop",
+  "sim": 1.0
+ },
+ {
+  "k": "batchDone",
+  "en": "Done",
+  "tr": "Hotovo",
+  "back": "It 's done .",
+  "sim": 0.5
+ },
+ {
+  "k": "batchProgress",
+  "en": "{done} of {total} done",
+  "tr": "Hotovo {done} z {total}",
+  "back": "Finished [done] from [total]",
+  "sim": 0.5
+ },
+ {
+  "k": "batchSaved",
+  "en": "{count} saved to your gallery",
+  "tr": "Uložené do galérie: {count}",
+  "back": "Stored in the gallery: [count]",
+  "sim": 0.2
+ },
+ {
+  "k": "batchSomeFailed",
+  "en": "{count} could not be processed",
+  "tr": "Nepodarilo sa spracovať: {count}",
+  "back": "Failed to process: [count]",
+  "sim": 0.22
+ },
+ {
+  "k": "batchTooMany",
+  "en": "Up to {max} photos at a time",
+  "tr": "Naraz až {max} fotiek",
+  "back": "All at once up to [max] photos",
+  "sim": 0.57
+ },
+ {
+  "k": "backgroundAddCustom",
+  "en": "Add custom background",
+  "tr": "Pridať vlastné pozadie",
+  "back": "Add your own background",
+  "sim": 0.57
+ },
+ {
+  "k": "backgroundCustomColor",
+  "en": "Custom color",
+  "tr": "Vlastná farba",
+  "back": "Own colour",
+  "sim": 0.0
+ },
+ {
+  "k": "colorSaturation",
+  "en": "Saturation",
+  "tr": "Sýtosť",
+  "back": "Satisfaction",
+  "sim": 0.0
+ },
+ {
+  "k": "colorBrightness",
+  "en": "Brightness",
+  "tr": "Jas",
+  "back": "Oh, yeah.",
+  "sim": 0.0
+ },
+ {
+  "k": "colorHexLabel",
+  "en": "Hex code",
+  "tr": "Kód HEX",
+  "back": "HEX code",
+  "sim": 1.0
+ },
+ {
+  "k": "colorPickerDone",
+  "en": "Done",
+  "tr": "Hotovo",
+  "back": "It 's done .",
+  "sim": 0.5
+ },
+ {
+  "k": "exportMarketplaceLabel",
+  "en": "Marketplace",
+  "tr": "Trhovisko",
+  "back": "Market",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceWhiteFill",
+  "en": "Pure white background, product fills the frame",
+  "tr": "Čisto biele pozadie, produkt vypĺňa záber",
+  "back": "Pure white background, the product completes the shot",
+  "sim": 0.67
+ },
+ {
+  "k": "exportMarketplaceSizeCap",
+  "en": "File kept under {size} MB",
+  "tr": "Súbor pod {size} MB",
+  "back": "File under [size] MB",
+  "sim": 0.89
+ },
+ {
+  "k": "editorToolTemplates",
+  "en": "Templates",
+  "tr": "Šablóny",
+  "back": "Manufacture from materials of any heading",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTitle",
+  "en": "Choose a template",
+  "tr": "Vyberte šablónu",
+  "back": "Select the template",
+  "sim": 0.33
+ },
+ {
+  "k": "templatesStudio",
+  "en": "Studio",
+  "tr": "Štúdio",
+  "back": "The studio.",
+  "sim": 0.67
+ },
+ {
+  "k": "templatesColorBlock",
+  "en": "Color block",
+  "tr": "Farebné bloky",
+  "back": "Colour blocks",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTextures",
+  "en": "Textures",
+  "tr": "Textúry",
+  "back": "Textures",
+  "sim": 1.0
+ },
+ {
+  "k": "templatesLight",
+  "en": "Light & shadow",
+  "tr": "Svetlo a tieň",
+  "back": "Light and Shadow",
+  "sim": 0.8
+ },
+ {
+  "k": "templatesPatterns",
+  "en": "Gradients & patterns",
+  "tr": "Prechody a vzory",
+  "back": "Transitions and patterns",
+  "sim": 0.4
+ },
+ {
+  "k": "hdGetAction",
+  "en": "Get HD cut-out",
+  "tr": "Stiahnuť HD vystrihnutie",
+  "back": "Download the HD snippet",
+  "sim": 0.29
+ },
+ {
+  "k": "hdRedoAction",
+  "en": "Redo cut-out in HD",
+  "tr": "Vystrihnúť znova v HD",
+  "back": "Cutting it out again in HD",
+  "sim": 0.4
+ },
+ {
+  "k": "hdDownloading",
+  "en": "HD cut-out in progress… {percent}%",
+  "tr": "HD vystrihnutie prebieha… {percent} %",
+  "back": "HD cutting is ongoing... [percent] %",
+  "sim": 0.4
+ },
+ {
+  "k": "hdDownloadingShort",
+  "en": "HD cut-out… {percent}%",
+  "tr": "HD vystrihnutie… {percent} %",
+  "back": "HD cutting... [percent] %",
+  "sim": 0.67
+ },
+ {
+  "k": "hdConfirmTitle",
+  "en": "Download HD cut-out model?",
+  "tr": "Stiahnuť model HD vystrihnutia?",
+  "back": "Download the HD model of the clip?",
+  "sim": 0.55
+ },
+ {
+  "k": "hdConfirmBody",
+  "en": "Cleaner edges on tricky objects like shoes, bags and bottles. It downloads once, stays on your phone and then works offline. Mobile data charges may apply.",
+  "tr": "Čistejšie okraje pri náročných predmetoch, ako sú topánky, tašky a fľaše. Stiahne sa raz, zostane v telefóne a potom funguje offline. Môžu sa účtovať mobilné dáta.",
+  "back": "Cleaner edges for challenging items like shoes, bags, and bottles. It's downloaded once, stays on the phone, and then works offline.",
+  "sim": 0.64
+ },
+ {
+  "k": "hdDownload",
+  "en": "Download",
+  "tr": "Stiahnuť",
+  "back": "Downloading",
+  "sim": 0.0
+ },
+ {
+  "k": "hdFailed",
+  "en": "HD cut-out didn’t finish. Check your connection and try again.",
+  "tr": "HD vystrihnutie sa nedokončilo. Skontrolujte pripojenie a skúste to znova.",
+  "back": "The HD scan isn't finished, so check the connection and try again.",
+  "sim": 0.55
+ },
+ {
+  "k": "settingsHdTitle",
+  "en": "HD cut-out model",
+  "tr": "Model HD vystrihnutia",
+  "back": "HD model of cutting",
+  "sim": 0.57
+ },
+ {
+  "k": "settingsHdNotInstalled",
+  "en": "Not downloaded",
+  "tr": "Nestiahnuté",
+  "back": "Unloaded",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsHdInstalled",
+  "en": "Installed · works offline",
+  "tr": "Nainštalované · funguje offline",
+  "back": "Installed · works offline",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsHdRemove",
+  "en": "Remove",
+  "tr": "Odstrániť",
+  "back": "Removing",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsReplayIntro",
+  "en": "Replay intro",
+  "tr": "Znova prehrať úvod",
+  "back": "Lose the introduction again",
+  "sim": 0.0
+ },
+ {
+  "k": "homeSeeAll",
+  "en": "See all",
+  "tr": "Zobraziť všetko",
+  "back": "Displaying everything",
+  "sim": 0.0
+ },
+ {
+  "k": "exportActionEdit",
+  "en": "Edit again",
+  "tr": "Upraviť znova",
+  "back": "Repair",
+  "sim": 0.0
+ },
+ {
+  "k": "exportActionDelete",
+  "en": "Delete",
+  "tr": "Odstrániť",
+  "back": "Removing",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMoreOptions",
+  "en": "More options",
+  "tr": "Ďalšie možnosti",
+  "back": "Other options",
+  "sim": 0.5
+ },
+ {
+  "k": "exportDeleteTitle",
+  "en": "Delete this export?",
+  "tr": "Odstrániť tento export?",
+  "back": "Remove this export?",
+  "sim": 0.67
+ },
+ {
+  "k": "exportDeleteBody",
+  "en": "Exported images are removed from this phone. Your original photos and anything saved to your gallery are not affected.",
+  "tr": "Exportované obrázky sa z tohto telefónu odstránia. Vaše pôvodné fotky a všetko uložené v galérii zostane nedotknuté.",
+  "back": "Exported photos will be removed from this phone, and your original photos and everything stored in the gallery will remain intact.",
+  "sim": 0.5
+ },
+ {
+  "k": "exportSavedToGallery",
+  "en": "Saved to your gallery",
+  "tr": "Uložené do galérie",
+  "back": "Stored in the gallery",
+  "sim": 0.25
+ },
+ {
+  "k": "exportSaveFailed",
+  "en": "Could not save to the gallery.",
+  "tr": "Do galérie sa nepodarilo uložiť.",
+  "back": "It didn't make it to the gallery.",
+  "sim": 0.46
+ },
+ {
+  "k": "exportUnavailable",
+  "en": "Unavailable",
+  "tr": "Nedostupné",
+  "back": "Not available",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsGroupThisWeek",
+  "en": "This week",
+  "tr": "Tento týždeň",
+  "back": "This week",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsGroupEarlier",
+  "en": "Earlier",
+  "tr": "Skôr",
+  "back": "Rather",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsStorageUsed",
+  "en": "{size} used on this phone",
+  "tr": "V tomto telefóne využité: {size}",
+  "back": "Used on this phone: [size]",
+  "sim": 0.8
+ },
+ {
+  "k": "exportsSelect",
+  "en": "Select",
+  "tr": "Vybrať",
+  "back": "Choose",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsDone",
+  "en": "Done",
+  "tr": "Hotovo",
+  "back": "It 's done .",
+  "sim": 0.5
+ },
+ {
+  "k": "exportsSelectedCount",
+  "en": "{count} selected",
+  "tr": "Vybrané: {count}",
+  "back": "Selected: [count]",
+  "sim": 0.5
+ },
+ {
+  "k": "exportsDeleteSelectedTitle",
+  "en": "Delete {count} exports?",
+  "tr": "Odstrániť exporty ({count})?",
+  "back": "Exports are excluded ([count])?",
+  "sim": 0.29
+ },
+ {
+  "k": "exportsDeleteAll",
+  "en": "Delete all exports",
+  "tr": "Odstrániť všetky exporty",
+  "back": "Eliminate all exports",
+  "sim": 0.67
+ },
+ {
+  "k": "exportsDeleteAllTitle",
+  "en": "Delete all exports?",
+  "tr": "Odstrániť všetky exporty?",
+  "back": "Eliminate all exports?",
+  "sim": 0.67
+ },
+ {
+  "k": "helpTitle",
+  "en": "Help & how to use",
+  "tr": "Pomocník a návod",
+  "back": "Assistant and instructions",
+  "sim": 0.0
+ },
+ {
+  "k": "helpIntro",
+  "en": "Tap a topic to read how it works.",
+  "tr": "Ťuknite na tému a prečítajte si, ako funguje.",
+  "back": "Click on the subject and read how it works.",
+  "sim": 0.47
+ },
+ {
+  "k": "helpStartTitle",
+  "en": "Getting started",
+  "tr": "Začíname",
+  "back": "Let's get started.",
+  "sim": 0.4
+ },
+ {
+  "k": "helpStart1",
+  "en": "On the home screen, tap Camera to take a photo or Gallery to pick one. Batch cuts out many photos at once.",
+  "tr": "Na úvodnej obrazovke ťuknite na Fotoaparát a odfoťte snímku, alebo na Galéria a vyberte existujúcu. Dávka vystrihne veľa fotiek naraz.",
+  "back": "On the home screen, tap the Camera and take a picture, or the Gallery and select an existing one.",
+  "sim": 0.54
+ },
+ {
+  "k": "helpStart2",
+  "en": "Every photo opens in Crop & Rotate first, then in the editor. Your original photo is never changed.",
+  "tr": "Každá fotka sa najprv otvorí v Orezať a otočiť a potom v editore. Vaša pôvodná fotka sa nikdy nemení.",
+  "back": "Every photo opens in the cut and twist, and then in the editor.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpStart3",
+  "en": "When you are happy, tap Export in the editor. Recent Exports on the home screen lists everything you have exported.",
+  "tr": "Keď budete spokojní, ťuknite v editore na Exportovať. Nedávne exporty na úvodnej obrazovke vypisujú všetko, čo ste exportovali.",
+  "back": "When you're satisfied, tap Export in the editor. Recent exports on the home screen list everything you've exported.",
+  "sim": 0.74
+ },
+ {
+  "k": "helpCropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Orezať a otočiť",
+  "back": "Cutting and turning",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCrop1",
+  "en": "Turn the photo left or right in 90° steps, and drag the frame to choose the part you want to keep.",
+  "tr": "Otáčajte fotku doľava alebo doprava po 90° a ťahaním rámika vyberte časť, ktorú chcete zachovať.",
+  "back": "Turn the photo 90° to the left or to the right and select the part you want to save by pulling the frame.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpCrop2",
+  "en": "Free lets you shape the frame as you like. 1:1, 4:5 and 9:16 lock its shape. Tap Continue to open the editor.",
+  "tr": "Voľné vám umožní dať rámiku ľubovoľný tvar. 1:1, 4:5 a 9:16 jeho tvar zamknú. Ťuknutím na Pokračovať otvoríte editor.",
+  "back": "Free will allow you to frame any shape. 1:1, 4:5 and 9:16 will lock its shape.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpCutoutTitle",
+  "en": "Cut-out",
+  "tr": "Vystrihnutie",
+  "back": "Cutting off",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCutout1",
+  "en": "When the editor opens, PhotoSur finds the main subject and removes the background automatically, on your phone. No internet is needed.",
+  "tr": "Po otvorení editora PhotoSur nájde hlavný objekt a automaticky odstráni pozadie, priamo vo vašom telefóne. Internet nepotrebujete.",
+  "back": "When you open the PhotoSur editor, it finds the main object and automatically deletes the background, right on your phone.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpCutout2",
+  "en": "Edge Smoothness softens the edge of the cut-out, from 0 to 20 pixels.",
+  "tr": "Mäkkosť okrajov zjemní okraj vystrihnutia, od 0 do 20 pixelov.",
+  "back": "The softness of the edges will capture the edge of the cut, from 0 to 20 pixels.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpCutout3",
+  "en": "The eye button at the top shows your original photo so you can compare. Tap it again to go back. The brush is paused while the original is shown.",
+  "tr": "Tlačidlo oka hore ukáže pôvodnú fotku na porovnanie. Ďalším ťuknutím sa vrátite. Štetec je pozastavený, kým je vidieť originál.",
+  "back": "The upper eye button will show the original photo for comparison. The next tap will return. The shutter is suspended until the original is seen.",
+  "sim": 0.44
+ },
+ {
+  "k": "helpCutout4",
+  "en": "For difficult subjects such as glass, shoes, bags and bottles, tap Get HD cut-out. The HD model downloads once, stays on your phone and then works offline. Once it is installed, every new cut-out uses it automatically. To redo the photo you have open, tap Redo cut-out in HD.",
+  "tr": "Pri náročných objektoch, ako je sklo, topánky, tašky a fľaše, ťuknite na Stiahnuť HD vystrihnutie. Model HD sa stiahne len raz, zostane v telefóne a potom funguje offline. Po inštalácii ho každé nové vystrihnutie používa automaticky. Ak chcete znova spracovať otvorenú fotku, ťuknite na Vystrihnúť znova v HD.",
+  "back": "For heavy objects like glass, shoes, bags, and bottles, tap Download HD snippet. The HD model is downloaded only once, stays on the phone, and then runs offline. Once installed, each new snippet uses it automatically. If you want to re-process an open photo, tap Download in HD again.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpBrushTitle",
+  "en": "Brush",
+  "tr": "Štetec",
+  "back": "Other, not further worked than hot-rolled, hot-rolled or cold-rolled",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBrush1",
+  "en": "Erase removes parts of the subject. Restore brings back parts the cut-out removed.",
+  "tr": "Zmazať odstráni časti objektu. Obnoviť vráti časti, ktoré vystrihnutie odobralo.",
+  "back": "Delete removes parts of the object, restore the parts that were removed by the removal.",
+  "sim": 0.5
+ },
+ {
+  "k": "helpBrush2",
+  "en": "Drag one finger to paint. Use two fingers to zoom, up to 8 times, and to move the photo. The brush keeps its size on screen, so zooming in gives finer control.",
+  "tr": "Ťahaním jedného prsta maľujete. Dvoma prstami približujete, až 8-krát, a posúvate fotku. Štetec si na obrazovke drží rovnakú veľkosť, takže pri priblížení pracujete presnejšie.",
+  "back": "You draw with one finger, you draw with two fingers, you draw with two fingers, you draw with two fingers, you draw with two fingers, you draw with two fingers, you draw with two fingers, you draw with two fingers, you draw with two fingers, you draw with two fingers, you draw with two fingers, you draw with two fingers, you draw with two fingers, you draw with two fingers, you draw with two fingers, you draw with two fingers, you draw with two fingers, you draw with two fingers, you draw with two fingers, you draw with two fingers, you draw with two fingers, you draw with two fingers, you draw with two fingers, and you draw with two fingers, and you draw with two fingers, and you draw with two fingers, and you draw with two fingers, and you draw with two fingers, and you draw with two fingers, and you draw with two fingers.",
+  "sim": 0.05
+ },
+ {
+  "k": "helpBrush3",
+  "en": "Brush Size goes from 1 to 50. Opacity sets how strongly each stroke applies.",
+  "tr": "Veľkosť štetca je od 1 do 50. Priehľadnosť určuje silu každého ťahu.",
+  "back": "The size of the trigger is 1 to 50. Transparency determines the force of each pull.",
+  "sim": 0.33
+ },
+ {
+  "k": "helpBrush4",
+  "en": "Undo and Redo step through your brush strokes. Reset clears all brush strokes and goes back to the automatic cut-out; it asks you to confirm first.",
+  "tr": "Späť a Znova prechádzajú vaše ťahy štetcom. Resetovať zmaže všetky ťahy a vráti sa k automatickému vystrihnutiu; predtým sa zobrazí žiadosť o potvrdenie.",
+  "back": "Returns and Returns your moves with the numerator. Reset erases all moves and returns to automatically pulling; a confirmation request is displayed first.",
+  "sim": 0.29
+ },
+ {
+  "k": "helpBackgroundTitle",
+  "en": "Background",
+  "tr": "Pozadie",
+  "back": "Background",
+  "sim": 1.0
+ },
+ {
+  "k": "helpBackground1",
+  "en": "Choose what goes behind your subject: transparent, white, black, a gradient, a colour, a blurred copy of your photo, or your own photo.",
+  "tr": "Vyberte, čo je za objektom: priehľadné, biele, čierne, prechod, farba, rozmazaná kópia vašej fotky alebo vaša vlastná fotka.",
+  "back": "Choose what's behind the object: clear, white, black, transition, color, blurred copy of your photo or your own photo.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpBackground2",
+  "en": "Only one background is used at a time. Your latest choice replaces the earlier one.",
+  "tr": "Naraz sa používa len jedno pozadie. Váš posledný výber nahradí predchádzajúci.",
+  "back": "Only one background is used at a time. Your last choice will replace the previous one.",
+  "sim": 0.77
+ },
+ {
+  "k": "helpBackground3",
+  "en": "Add custom background lets you pick a photo from your gallery. Custom color opens a colour picker. The Blur slider goes from 0 to 25.",
+  "tr": "Pridať vlastné pozadie vám umožní vybrať fotku z galérie. Vlastná farba otvorí výber farby. Posuvník Rozmazanie má rozsah 0 až 25.",
+  "back": "Adding your own backgrounds will allow you to select a photo from the gallery.",
+  "sim": 0.26
+ },
+ {
+  "k": "helpBackground4",
+  "en": "Transparent shows a checkerboard while you edit. Export as PNG to keep it transparent.",
+  "tr": "Priehľadné zobrazuje pri úpravách šachovnicu. Ak chcete zachovať priehľadnosť, exportujte ako PNG.",
+  "back": "It shows transparency when you edit the chessboard.",
+  "sim": 0.27
+ },
+ {
+  "k": "helpTemplatesTitle",
+  "en": "Templates",
+  "tr": "Šablóny",
+  "back": "Manufacture from materials of any heading",
+  "sim": 0.0
+ },
+ {
+  "k": "helpTemplates1",
+  "en": "Templates are ready-made backgrounds in five groups: Studio, Color block, Textures, Light & shadow, and Gradients & patterns. Five scenes are shown in the panel; tap the Templates button to see them all.",
+  "tr": "Šablóny sú hotové pozadia v piatich skupinách: Štúdio, Farebné bloky, Textúry, Svetlo a tieň a Prechody a vzory. V paneli je vidieť päť scén; ťuknutím na tlačidlo Šablóny zobrazíte všetky.",
+  "back": "The templates are finished backgrounds in five groups: Studio, Color Blocks, Textures, Light and Shadow, and Walks and Patterns.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpTemplates2",
+  "en": "Choosing a template works like choosing your own photo as the background: it replaces your earlier background choice.",
+  "tr": "Výber šablóny funguje rovnako ako výber vlastnej fotky ako pozadia: nahradí váš predchádzajúci výber pozadia.",
+  "back": "Selecting a template works just like selecting your own photo as a background: it replaces your previous background selection.",
+  "sim": 0.7
+ },
+ {
+  "k": "helpLayoutTitle",
+  "en": "Layout",
+  "tr": "Rozloženie",
+  "back": "The breakdown",
+  "sim": 0.0
+ },
+ {
+  "k": "helpLayout1",
+  "en": "Drag the subject on the photo to move it. Pinch with two fingers to resize it.",
+  "tr": "Presunutím objektu po fotke ho posuniete. Stiahnutím alebo roztiahnutím dvoch prstov zmeníte jeho veľkosť.",
+  "back": "By moving the object around the photo, you can move it, and by pulling or pulling out two fingers, you can change the size of the object.",
+  "sim": 0.33
+ },
+ {
+  "k": "helpLayout2",
+  "en": "Choose Original, 1:1, 4:5 or 9:16 to set the shape of the final picture.",
+  "tr": "Vyberte Originál, 1:1, 4:5 alebo 9:16 a nastavte tvar výsledného obrázka.",
+  "back": "Select Original, 1:1, 4:5, or 9:16 and set the shape of the resulting image.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpLayout3",
+  "en": "Size sets how big the subject is, from 20% to 300%. Shadow sets how strong its shadow is. Auto-center puts the subject back in the middle. Reset undoes moving and resizing.",
+  "tr": "Veľkosť určuje, aký veľký je objekt, od 20 % do 300 %. Tieň určuje silu jeho tieňa. Vycentrovať vráti objekt do stredu. Resetovať vráti späť posuny a zmeny veľkosti.",
+  "back": "The size determines the size of the object, from 20 percent to 300 percent. The shadow determines the strength of its shadow. Focusing returns the object to the center. Resetting returns shifts and changes in size.",
+  "sim": 0.33
+ },
+ {
+  "k": "helpLayout4",
+  "en": "This shape is used when the export size is Original. If you choose a size preset or a marketplace in the export sheet, that decides the final shape instead.",
+  "tr": "Tento tvar platí, keď je veľkosť exportu Originál. Ak v exportnom liste vyberiete preddefinovanú veľkosť alebo trhovisko, o konečnom tvare rozhoduje ono.",
+  "back": "This shape applies when the export size is Original. If you select a predefined size or marketplace in the export sheet, the final shape is decided by it.",
+  "sim": 0.74
+ },
+ {
+  "k": "helpExportTitle",
+  "en": "Export",
+  "tr": "Exportovať",
+  "back": "Exported",
+  "sim": 0.0
+ },
+ {
+  "k": "helpExport1",
+  "en": "Tap Export to open the export sheet. Nothing is applied until you tap Save to Gallery or Share, so you can change your choices as often as you like.",
+  "tr": "Ťuknutím na Exportovať otvoríte exportný list. Nič sa neuplatní, kým neťuknete na Uložiť do Galérie alebo Zdieľať, takže svoj výber môžete meniť, koľkokrát chcete.",
+  "back": "When you click Export, you open the export letter. Nothing applies until you click Save to Gallery or Share, so you can change your selection as many times as you want.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpExport2",
+  "en": "PNG keeps transparency. JPG makes smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a small modern format; if your phone cannot make it, the file is saved as JPG. For JPG and WEBP, the Quality slider trades file size for detail.",
+  "tr": "PNG zachováva priehľadnosť. JPG vytvára menšie súbory, ale nemôže byť priehľadný, takže priehľadné pozadie sa zmení na biele. WEBP je moderný, úsporný formát; ak ho telefón nevie vytvoriť, súbor sa uloží ako JPG. Pri JPG a WEBP posuvník Kvalita vyvažuje veľkosť súboru a detail.",
+  "back": "PNG maintains transparency. JPG creates smaller files but cannot be transparent, so the transparent background changes to white. WEBP is a modern, economical format; if the phone cannot create it, the file is saved as JPG. In JPG and WEBP, the Quality slider balances file size and detail.",
+  "sim": 0.78
+ },
+ {
+  "k": "helpExport3",
+  "en": "Original keeps your photo’s size, with the shape chosen in Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. Custom lets you type a width and height in pixels.",
+  "tr": "Originál zachová veľkosť vašej fotky, s tvarom vybraným v Rozložení. 1:1 je 1080 × 1080, 4:5 je 1080 × 1350 a 9:16 je 1080 × 1920. Vlastné vám umožní zadať šírku a výšku v pixeloch.",
+  "back": "The original keeps the size of your photo, with the shape chosen in the layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350, and 9:16 is 1080 × 1920.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpExport4",
+  "en": "Marketplace presets set size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG kept under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices, and choosing a format or size afterwards switches the marketplace off. Marketplace rules can change, so check your marketplace’s current requirements.",
+  "tr": "Predvoľby trhovísk určujú veľkosť, formát a kvalitu: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG do 1 MB a Shopify 2048 × 2048 PNG. Výber jednej z nich nahradí váš výber formátu a veľkosti; ak potom vyberiete formát alebo veľkosť, trhovisko sa zruší. Pravidlá trhovísk sa môžu meniť, preto si overte aktuálne požiadavky svojho trhoviska.",
+  "back": "Marketplace pre-selections determine size, format, and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG up to 1 MB, and Shopify 2048 × 2048 PNG. Choosing one of these will replace your choice of format and size; if you then choose a format or size, the marketplace will be cancelled. Marketplace rules may change, so check the current requirements of your marketplace.",
+  "sim": 0.7
+ },
+ {
+  "k": "helpExport5",
+  "en": "Amazon also uses a pure white background with no shadow and fits the subject to fill most of the frame. Your background choice in the editor is not changed. The other marketplaces keep your background.",
+  "tr": "Amazon navyše používa čisto biele pozadie bez tieňa a upraví objekt tak, aby vyplnil väčšinu záberu. Váš výber pozadia v editore zostane bez zmeny. Ostatné trhoviská si ponechajú vaše pozadie.",
+  "back": "In addition, Amazon uses a pure white background without a shadow, and it will edit the object to fill most of the shot. Your choice of backgrounds in the editor will remain unchanged. Other markets will keep your backgrounds.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpExport6",
+  "en": "Save to Gallery and Share both save the picture to your gallery and to Recent Exports. Share also opens your phone’s share menu. If saving to the gallery is not possible, the share menu opens instead. After exporting you return to the home screen.",
+  "tr": "Uložiť do Galérie aj Zdieľať uložia obrázok do vašej galérie a do Nedávnych exportov. Zdieľať navyše otvorí zdieľaciu ponuku telefónu. Ak uloženie do galérie nejde, otvorí sa namiesto toho zdieľacia ponuka. Po exporte sa vrátite na úvodnú obrazovku.",
+  "back": "Save to Gallery and Share will save the image to your gallery and to Recent Exports. Additionally, share will open the phone's offer sharing. If the gallery storage doesn't work, the offer sharing will open instead. After export, you'll go back to the home screen.",
+  "sim": 0.58
+ },
+ {
+  "k": "helpExport7",
+  "en": "Unless you have removed ads, an ad can appear after an export, at most once every two minutes.",
+  "tr": "Ak ste neodstránili reklamy, môže sa po exporte objaviť reklama, najviac raz za dve minúty.",
+  "back": "If you have not removed the advertisement, an advertisement may appear after export, no more than once every two minutes.",
+  "sim": 0.58
+ },
+ {
+  "k": "helpBatchTitle",
+  "en": "Batch",
+  "tr": "Dávka",
+  "back": "The dose",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBatch1",
+  "en": "Batch cuts out up to 30 photos in one go. Tap Batch on the home screen and pick your photos. The back button is turned off while a batch runs.",
+  "tr": "Dávka vystrihne až 30 fotiek naraz. Ťuknite na úvodnej obrazovke na Dávka a vyberte fotky. Tlačidlo Späť je pri behu dávky vypnuté.",
+  "back": "The dose will take up to 30 photos at a time. Tap the Start screen on the Dose and select the photos.",
+  "sim": 0.35
+ },
+ {
+  "k": "helpBatch2",
+  "en": "All photos in a batch share one setup: one background and one marketplace. You cannot choose differently for each photo.",
+  "tr": "Všetky fotky v dávke zdieľajú jedno nastavenie: jedno pozadie a jedno trhovisko. Pre každú fotku zvlášť vyberať nemožno.",
+  "back": "All the photos in the batch share the same setting: one background and one marketplace.",
+  "sim": 0.57
+ },
+ {
+  "k": "helpBatch3",
+  "en": "Backgrounds work as in the editor: your own photo, a colour, a template, white, transparent, black, blur or a gradient. Only one applies, and your latest choice replaces the earlier one.",
+  "tr": "Pozadia fungujú ako v editore: vaša vlastná fotka, farba, šablóna, biele, priehľadné, čierne, rozmazané alebo prechod. Platí len jedno a váš posledný výber nahradí predchádzajúci.",
+  "back": "Backgrounds work like an editor: your own photo, color, template, white, transparent, black, blurred, or transition.",
+  "sim": 0.47
+ },
+ {
+  "k": "helpBatch4",
+  "en": "The file format is chosen for you. With a marketplace, the photos follow that marketplace’s size and format. Without one, a transparent background gives PNG and any other background gives JPG, at the original size.",
+  "tr": "Formát súboru sa vyberie za vás. S trhoviskom sa fotky riadia jeho veľkosťou a formátom. Bez trhoviska dáva priehľadné pozadie PNG a akékoľvek iné pozadie JPG, v pôvodnej veľkosti.",
+  "back": "The file format is chosen for you. With the website, the photos are controlled by their size and format. Without the website, it gives a transparent PNG background and any other JPG background, in the original size.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpBatch5",
+  "en": "Choosing Amazon switches the background to White; if you then choose another background, Amazon is switched off. eBay, Etsy and Shopify keep your background, but a JPG cannot be transparent, so it gets a white background.",
+  "tr": "Výber Amazon prepne pozadie na Biele; ak potom vyberiete iné pozadie, Amazon sa zruší. eBay, Etsy a Shopify si ponechajú vaše pozadie, ale JPG nemôže byť priehľadný, a preto dostane biele pozadie.",
+  "back": "Amazon selects the background to white; then if you choose another background, Amazon will be deleted. eBay, Etsy and Shopify will keep your background, but JPG can't be transparent, so it gets a white background.",
+  "sim": 0.79
+ },
+ {
+  "k": "helpBatch6",
+  "en": "If the HD model is installed, every photo in the batch is cut out with it. The Get HD cut-out button next to Templates downloads it.",
+  "tr": "Ak je nainštalovaný model HD, vystrihne sa ním každá fotka v dávke. Tlačidlo Stiahnuť HD vystrihnutie vedľa tlačidla Šablóny ho stiahne.",
+  "back": "If the HD model is installed, it will pull out each photo in the dose. The Download HD clip button next to the Template button will pull it.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpBatch7",
+  "en": "Each photo is saved to your gallery and to Recent Exports as soon as it finishes. Stop ends the batch after the current photo, and photos already finished stay saved. If a photo fails, the batch carries on and tells you how many could not be processed. Done takes you back to the home screen; it does not save anything.",
+  "tr": "Každá fotka sa uloží do galérie a do Nedávnych exportov hneď po dokončení. Zastaviť ukončí dávku po aktuálnej fotke a už dokončené fotky zostanú uložené. Ak fotka zlyhá, dávka pokračuje a povie vám, koľko sa ich spracovať nepodarilo. Hotovo vás vráti na úvodnú obrazovku; nič neukladá.",
+  "back": "Each photo will be stored in the gallery and in Recent Exports as soon as it's finished. Stopping will terminate the dose after the current photo and the finished photos will remain stored. If the photo fails, the dose continues and tells you how much it failed to process. It'll get you back to the original screen; nothing is stored.",
+  "sim": 0.48
+ },
+ {
+  "k": "helpLibraryTitle",
+  "en": "Your exports",
+  "tr": "Vaše exporty",
+  "back": "Your exports",
+  "sim": 1.0
+ },
+ {
+  "k": "helpLibrary1",
+  "en": "Recent Exports on the home screen shows your latest exports. Tap See all for every export, grouped as Today, Yesterday, This week and Earlier.",
+  "tr": "Nedávne exporty na úvodnej obrazovke ukazujú vaše najnovšie exporty. Ťuknutím na Zobraziť všetko uvidíte všetky, zoskupené do Dnes, Včera, Tento týždeň a Skôr.",
+  "back": "Recent exports on the home screen show your latest exports.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpLibrary2",
+  "en": "Tap an export to open it full screen. Swipe to move between exports and pinch to zoom. The bar at the bottom has Share, Save to Gallery, Edit again and Delete.",
+  "tr": "Ťuknutím na export ho otvoríte na celú obrazovku. Potiahnutím sa medzi exportmi prepínate a roztiahnutím prstov približujete. Spodná lišta ponúka Zdieľať, Uložiť do Galérie, Upraviť znova a Odstrániť.",
+  "back": "By tapping Export, you'll open it on the full screen, by tapping between exports, and by tapping your fingers, you'll get closer, and the bottom sheet offers Share, Store, Re-Edit, and Remove.",
+  "sim": 0.38
+ },
+ {
+  "k": "helpLibrary3",
+  "en": "The three-dot button on a tile opens the same actions. Edit again opens the exported picture as a new photo, so earlier brush strokes are not restored.",
+  "tr": "Tlačidlo s tromi bodkami na náhľade otvorí rovnaké akcie. Upraviť znova otvorí exportovaný obrázok ako novú fotku, takže predchádzajúce ťahy štetcom sa neobnovia.",
+  "back": "The three-point view button opens the same actions. Edit reopens the exported image as a new photo, so the previous moves with the numerator do not resume.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpLibrary4",
+  "en": "Select lets you choose several exports to share together or delete. Delete all exports removes every export from this phone.",
+  "tr": "Vybrať vám umožní zvoliť viac exportov a zdieľať ich alebo odstrániť naraz. Odstrániť všetky exporty odstráni všetky exporty z tohto telefónu.",
+  "back": "Select allows you to select multiple exports and share them or delete them at the same time. Delete all exports will delete all exports from this phone.",
+  "sim": 0.51
+ },
+ {
+  "k": "helpLibrary5",
+  "en": "Deleting removes exports from PhotoSur only. Pictures already saved to your gallery are not affected. The bottom of the See all screen shows how much space exports use on this phone.",
+  "tr": "Odstránenie vymaže exporty len z PhotoSur. Obrázky už uložené v galérii zostanú nedotknuté. Dole v Zobraziť všetko vidíte, koľko miesta exporty v tomto telefóne zaberajú.",
+  "back": "Removing it will delete exports only from PhotoSur. The images already stored in the gallery will remain intact. Below in View everything, you can see how many exports this phone takes up.",
+  "sim": 0.32
+ },
+ {
+  "k": "helpPrivacyTitle",
+  "en": "Privacy & ads",
+  "tr": "Súkromie a reklamy",
+  "back": "Privacy and Advertising",
+  "sim": 0.4
+ },
+ {
+  "k": "helpPrivacy1",
+  "en": "Your photos are processed on your phone and are not uploaded. There is no account and no watermark.",
+  "tr": "Vaše fotky sa spracúvajú v telefóne a nenahrávajú sa. Nie je tu žiadny účet ani vodoznak.",
+  "back": "Your photos are being processed on your phone, and they're not being recorded.",
+  "sim": 0.58
+ },
+ {
+  "k": "helpPrivacy2",
+  "en": "PhotoSur is free with every feature included, supported by ads. A banner appears at the bottom of some screens, and an ad can appear after an export.",
+  "tr": "PhotoSur je zadarmo, so všetkými funkciami, a financuje sa z reklám. Dole na niektorých obrazovkách je banner a po exporte sa môže objaviť reklama.",
+  "back": "PhotoSur is free, with all the features, and it's funded by advertising.",
+  "sim": 0.26
+ },
+ {
+  "k": "helpPrivacy3",
+  "en": "Go Ad-Free in Settings is a one-time purchase that removes the ads. It does not unlock anything else, because every feature is already free. Restore Purchases brings it back on a new phone.",
+  "tr": "Bez reklám v Nastaveniach je jednorazový nákup, ktorý reklamy odstráni. Nič ďalšie neodomkne, pretože všetky funkcie sú už zadarmo. Obnoviť nákupy ho obnoví na novom telefóne.",
+  "back": "Without ads in Settings, it's a one-time purchase that removes the ads. It won't unlock anything else because all the features are already free.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpSettingsTitle",
+  "en": "Settings",
+  "tr": "Nastavenia",
+  "back": "Settings",
+  "sim": 1.0
+ },
+ {
+  "k": "helpSettings1",
+  "en": "Theme can follow your phone, or be Light or Dark. Language changes the language of the app. Both are also in the home screen header.",
+  "tr": "Motív sa môže riadiť telefónom, alebo byť Svetlý či Tmavý. Jazyk mení jazyk aplikácie. Oboje nájdete aj v hlavičke úvodnej obrazovky.",
+  "back": "The theme can be controlled by the phone, or it can be Light or Dark. The language changes the language of the application. You can also find both in the header of the home screen.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpSettings2",
+  "en": "Edit reminders: if you leave the app with an unfinished edit, PhotoSur can remind you three hours later. Switch this off in Settings.",
+  "tr": "Pripomienky úprav: ak opustíte aplikáciu s nedokončenou úpravou, môže vám PhotoSur po troch hodinách pripomenúť, že nie je hotová. Vypnete to v Nastaveniach.",
+  "back": "Remarks for editing: if you leave the application with an unfinished editing, PhotoSur may remind you after three hours that it is not finished.",
+  "sim": 0.51
+ },
+ {
+  "k": "helpSettings3",
+  "en": "HD cut-out model shows whether it is installed. Remove deletes it from your phone to free space; you can download it again at any time.",
+  "tr": "Model HD vystrihnutia ukazuje, či je nainštalovaný. Odstrániť ho vymaže z telefónu a uvoľní miesto; kedykoľvek ho môžete stiahnuť znova.",
+  "back": "The HD snippet model shows if it's installed. Removing it will erase it from the phone and free up space; you can download it again anytime.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpSettings4",
+  "en": "Replay intro shows the welcome screens again. Support opens the support page. Animated home background turns the moving picture at the top of the home screen on or off.",
+  "tr": "Znova prehrať úvod zobrazí uvítacie obrazovky znova. Podpora otvorí stránku podpory. Animované pozadie domovskej obrazovky zapína alebo vypína pohyblivý obrázok v hornej časti domovskej obrazovky.",
+  "back": "To play the intro again shows the welcome screens again. Support opens the support page. Animated home screen backgrounds turn on or off the moving image at the top of the home screen.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpFixTitle",
+  "en": "If something goes wrong",
+  "tr": "Keď sa niečo pokazí",
+  "back": "When something goes wrong",
+  "sim": 0.75
+ },
+ {
+  "k": "helpFix1",
+  "en": "If the automatic cut-out cannot run on a very old or low-memory phone, the brush still works, so you can finish the picture by hand.",
+  "tr": "Ak automatické vystrihnutie nemôže bežať na veľmi starom telefóne alebo telefóne s malou pamäťou, štetec funguje ďalej, takže obrázok môžete dokončiť ručne.",
+  "back": "If the autocut can't run on a very old phone or a phone with little memory, the brush works further, so you can finish the image manually.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpFix2",
+  "en": "If the HD download stops, check your connection and try again. It continues where it left off.",
+  "tr": "Ak sa sťahovanie HD zastaví, skontrolujte pripojenie a skúste to znova. Nadviaže tam, kde skončilo.",
+  "back": "If the HD download stops, check the connection and try again.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpFix3",
+  "en": "For anything else, open Support from Settings.",
+  "tr": "S čímkoľvek ďalším otvorte položku Podpora v Nastaveniach.",
+  "back": "With anything else, open Support in Settings.",
+  "sim": 0.71
+ }
+]

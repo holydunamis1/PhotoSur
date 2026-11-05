@@ -1,0 +1,1780 @@
+[
+ {
+  "k": "onboardingPage1Title",
+  "en": "Remove backgrounds instantly. All features free.",
+  "tr": "배경을 즉시 제거하세요. 모든 기능 무료.",
+  "back": "Remove the background immediately. All features are free.",
+  "sim": 0.57
+ },
+ {
+  "k": "onboardingPage1Body",
+  "en": "Open a photo and our on-device AI removes the background automatically — no internet required. You can also swap in your own custom background.",
+  "tr": "사진을 열면 기기 내 AI가 배경을 자동으로 제거합니다. 인터넷이 필요 없습니다. 원하는 나만의 배경으로 바꿀 수도 있습니다.",
+  "back": "When you open a photo, the AI in the device automatically removes the background, no internet, and you can change it to your own background.",
+  "sim": 0.58
+ },
+ {
+  "k": "onboardingPage2Title",
+  "en": "Fine-tune with the brush",
+  "tr": "브러시로 세밀하게 다듬기",
+  "back": "It's a very fine brush.",
+  "sim": 0.22
+ },
+ {
+  "k": "onboardingPage2Body",
+  "en": "Paint away what the AI missed or restore what you want to keep. Then crop, rotate, move and resize.",
+  "tr": "AI가 놓친 부분은 브러시로 지우고, 남기고 싶은 부분은 복원하세요. 그다음 자르기, 회전, 이동, 크기 조정까지.",
+  "back": "So you erase the missing part of the AI with a brush, restore the part you want to leave behind, then cut, rotate, move, resize.",
+  "sim": 0.45
+ },
+ {
+  "k": "onboardingPage3Title",
+  "en": "Studio-ready backgrounds",
+  "tr": "스튜디오급 배경",
+  "back": "Studio-class backgrounds",
+  "sim": 0.5
+ },
+ {
+  "k": "onboardingPage3Body",
+  "en": "Choose a colour, gradient, template or your own photo, with a natural shadow. Marketplace presets for Amazon, eBay, Etsy and Shopify set size and format for you.",
+  "tr": "색상, 그라데이션, 템플릿 또는 내 사진을 선택하세요. 자연스러운 그림자도 함께. Amazon, eBay, Etsy, Shopify용 프리셋이 크기와 형식을 알아서 정해 줍니다.",
+  "back": "Choose colors, grades, templates, or my photos, along with natural shadows, and Amazon, eBay, Etsy, Shopify presets determine the size and format.",
+  "sim": 0.45
+ },
+ {
+  "k": "onboardingPage4Title",
+  "en": "Batch it, export it, keep it private",
+  "tr": "한 번에 여러 장, 원하는 형식, 완전한 개인정보 보호",
+  "back": "Multiple chapters at a time, the desired format, complete privacy protection.",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingPage4Body",
+  "en": "Cut out up to 30 photos at once and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "tr": "최대 30장의 배경을 한 번에 제거하고 PNG, JPG 또는 WEBP로 내보내세요. 사진은 휴대전화 밖으로 나가지 않습니다. 43개 언어를 지원합니다.",
+  "back": "Remove up to 30 backgrounds at a time and export them to PNG, JPG, or WEBP. The photos don't go out of your phone. It supports 43 languages.",
+  "sim": 0.57
+ },
+ {
+  "k": "onboardingNext",
+  "en": "Next",
+  "tr": "다음",
+  "back": "Next thing you know,",
+  "sim": 0.4
+ },
+ {
+  "k": "onboardingGetStarted",
+  "en": "Get Started",
+  "tr": "시작하기",
+  "back": "Let's get started.",
+  "sim": 0.8
+ },
+ {
+  "k": "homeCameraButton",
+  "en": "Camera",
+  "tr": "카메라",
+  "back": "The camera.",
+  "sim": 0.67
+ },
+ {
+  "k": "homeGalleryButton",
+  "en": "Gallery",
+  "tr": "갤러리",
+  "back": "The gallery.",
+  "sim": 0.67
+ },
+ {
+  "k": "dateToday",
+  "en": "Today",
+  "tr": "오늘",
+  "back": "Today.",
+  "sim": 1.0
+ },
+ {
+  "k": "dateYesterday",
+  "en": "Yesterday",
+  "tr": "어제",
+  "back": "Yesterday.",
+  "sim": 1.0
+ },
+ {
+  "k": "homeRecentExports",
+  "en": "Recent Exports",
+  "tr": "최근 내보내기",
+  "back": "Recently released.",
+  "sim": 0.0
+ },
+ {
+  "k": "homeEmptyStateMessage",
+  "en": "Tap Camera or Gallery to start.",
+  "tr": "카메라 또는 갤러리를 눌러 시작하세요.",
+  "back": "Start by pressing the camera or the gallery.",
+  "sim": 0.43
+ },
+ {
+  "k": "homeExportUnavailable",
+  "en": "This export is no longer available.",
+  "tr": "이 내보내기는 더 이상 사용할 수 없습니다.",
+  "back": "This output is no longer usable.",
+  "sim": 0.67
+ },
+ {
+  "k": "homeShareFailed",
+  "en": "Could not share this export.",
+  "tr": "이 내보내기를 공유할 수 없습니다.",
+  "back": "You can't share this output.",
+  "sim": 0.4
+ },
+ {
+  "k": "homeGalleryOpenFailed",
+  "en": "Could not open gallery.",
+  "tr": "갤러리를 열 수 없습니다.",
+  "back": "I can't open the gallery.",
+  "sim": 0.44
+ },
+ {
+  "k": "cameraTitle",
+  "en": "Camera",
+  "tr": "카메라",
+  "back": "The camera.",
+  "sim": 0.67
+ },
+ {
+  "k": "cameraPermissionDenied",
+  "en": "Camera access is needed to take a photo. Please allow access.",
+  "tr": "사진을 찍으려면 카메라 접근 권한이 필요합니다. 접근을 허용해 주세요.",
+  "back": "If you want to take a photo, you need camera access. Please allow access.",
+  "sim": 0.56
+ },
+ {
+  "k": "cameraPermissionPermanentlyDenied",
+  "en": "Camera access was denied. Enable it in Settings to continue.",
+  "tr": "카메라 접근이 거부되었습니다. 계속하려면 설정에서 허용해 주세요.",
+  "back": "Camera access has been denied. Please allow it in the settings to continue.",
+  "sim": 0.7
+ },
+ {
+  "k": "cameraPermissionRestricted",
+  "en": "Camera access is restricted on this device.",
+  "tr": "이 기기에서는 카메라 접근이 제한되어 있습니다.",
+  "back": "This device has limited camera access.",
+  "sim": 0.31
+ },
+ {
+  "k": "cameraNoCameraFound",
+  "en": "No camera found on this device.",
+  "tr": "이 기기에서 카메라를 찾을 수 없습니다.",
+  "back": "You can't find a camera on this machine.",
+  "sim": 0.43
+ },
+ {
+  "k": "cameraStartFailed",
+  "en": "Could not start the camera.",
+  "tr": "카메라를 시작할 수 없습니다.",
+  "back": "You can't start the camera.",
+  "sim": 0.6
+ },
+ {
+  "k": "cameraCaptureFailed",
+  "en": "Could not capture photo.",
+  "tr": "사진을 촬영할 수 없습니다.",
+  "back": "You can't take pictures.",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraOpenSettings",
+  "en": "Open Settings",
+  "tr": "설정 열기",
+  "back": "Setup opens",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraFlashTooltip",
+  "en": "Flash",
+  "tr": "플래시",
+  "back": "Flash, please.",
+  "sim": 0.67
+ },
+ {
+  "k": "cameraGalleryTooltip",
+  "en": "Gallery",
+  "tr": "갤러리",
+  "back": "The gallery.",
+  "sim": 0.67
+ },
+ {
+  "k": "cropTitle",
+  "en": "Crop & Rotate",
+  "tr": "자르기 및 회전",
+  "back": "Cutting and rotating",
+  "sim": 0.0
+ },
+ {
+  "k": "cropLoadFailed",
+  "en": "Could not load the image.",
+  "tr": "이미지를 불러올 수 없습니다.",
+  "back": "You can't get an image.",
+  "sim": 0.2
+ },
+ {
+  "k": "cropRotateFailed",
+  "en": "Could not rotate the image.",
+  "tr": "이미지를 회전할 수 없습니다.",
+  "back": "You can't rotate the image.",
+  "sim": 0.6
+ },
+ {
+  "k": "cropFailed",
+  "en": "Crop failed.",
+  "tr": "자르기에 실패했습니다.",
+  "back": "It failed to cut.",
+  "sim": 0.33
+ },
+ {
+  "k": "cropSaveFailed",
+  "en": "Could not save the cropped image.",
+  "tr": "자른 이미지를 저장할 수 없습니다.",
+  "back": "You can't save the sliced image.",
+  "sim": 0.5
+ },
+ {
+  "k": "cropAspectFree",
+  "en": "Free",
+  "tr": "자유",
+  "back": "Freedom.",
+  "sim": 0.0
+ },
+ {
+  "k": "cropContinue",
+  "en": "Continue",
+  "tr": "계속",
+  "back": "Keep going.",
+  "sim": 0.0
+ },
+ {
+  "k": "editorSegmentationFailedMessage",
+  "en": "Your device doesn't support automatic background removal. Use the manual brush below.",
+  "tr": "이 기기는 자동 배경 제거를 지원하지 않습니다. 아래의 수동 브러시를 사용하세요.",
+  "back": "This device doesn't support automatic background removal. Use the manual brush below.",
+  "sim": 0.92
+ },
+ {
+  "k": "brushErase",
+  "en": "Erase",
+  "tr": "지우기",
+  "back": "I'm going to wipe it off.",
+  "sim": 0.0
+ },
+ {
+  "k": "brushRestore",
+  "en": "Restore",
+  "tr": "복원",
+  "back": "Restoration",
+  "sim": 0.0
+ },
+ {
+  "k": "brushSizeLabel",
+  "en": "Brush Size",
+  "tr": "브러시 크기",
+  "back": "Brush size.",
+  "sim": 1.0
+ },
+ {
+  "k": "brushOpacityLabel",
+  "en": "Opacity",
+  "tr": "불투명도",
+  "back": "It's not transparent.",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundWhite",
+  "en": "White",
+  "tr": "흰색",
+  "back": "It's white.",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundTransparent",
+  "en": "Transparent",
+  "tr": "투명",
+  "back": "Transparency.",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundBlack",
+  "en": "Black",
+  "tr": "검정",
+  "back": "It's black.",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundBlurLabel",
+  "en": "Blur",
+  "tr": "흐림",
+  "back": "It's dark.",
+  "sim": 0.0
+ },
+ {
+  "k": "edgeFeatherLabel",
+  "en": "Edge Smoothness",
+  "tr": "가장자리 부드러움",
+  "back": "The edge smoothness",
+  "sim": 0.8
+ },
+ {
+  "k": "toolbarUndo",
+  "en": "Undo",
+  "tr": "실행 취소",
+  "back": "Cancel the run.",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarRedo",
+  "en": "Redo",
+  "tr": "다시 실행",
+  "back": "Run it again.",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarReset",
+  "en": "Reset",
+  "tr": "초기화",
+  "back": "Initialization",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarExport",
+  "en": "Export",
+  "tr": "내보내기",
+  "back": "Let me out.",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmTitle",
+  "en": "Reset edits?",
+  "tr": "편집을 초기화할까요?",
+  "back": "Do you want to initialize editing?",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmBody",
+  "en": "This clears your manual brush strokes. This cannot be undone.",
+  "tr": "수동 브러시 작업이 모두 지워집니다. 이 작업은 되돌릴 수 없습니다.",
+  "back": "All the manual brushes are deleted, and it's irreversible.",
+  "sim": 0.11
+ },
+ {
+  "k": "resetConfirmCancel",
+  "en": "Cancel",
+  "tr": "취소",
+  "back": "Cancel it.",
+  "sim": 0.67
+ },
+ {
+  "k": "resetConfirmConfirm",
+  "en": "Reset",
+  "tr": "초기화",
+  "back": "Initialization",
+  "sim": 0.0
+ },
+ {
+  "k": "exportTitle",
+  "en": "Export",
+  "tr": "내보내기",
+  "back": "Let me out.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportQualityLabel",
+  "en": "Quality: {value}",
+  "tr": "품질: {value}",
+  "back": "Quality: [value]",
+  "sim": 1.0
+ },
+ {
+  "k": "exportResizeLabel",
+  "en": "Resize",
+  "tr": "크기 조절",
+  "back": "Size adjustment",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeOriginal",
+  "en": "Original",
+  "tr": "원본",
+  "back": "The original.",
+  "sim": 0.67
+ },
+ {
+  "k": "exportResizeCustom",
+  "en": "Custom",
+  "tr": "사용자 지정",
+  "back": "Customized",
+  "sim": 0.0
+ },
+ {
+  "k": "exportWidthLabel",
+  "en": "Width (px)",
+  "tr": "너비 (px)",
+  "back": "The width (px)",
+  "sim": 0.8
+ },
+ {
+  "k": "exportHeightLabel",
+  "en": "Height (px)",
+  "tr": "높이 (px)",
+  "back": "Height (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSaveToGallery",
+  "en": "Save to Gallery",
+  "tr": "갤러리에 저장",
+  "back": "Save it in the gallery.",
+  "sim": 0.5
+ },
+ {
+  "k": "exportShare",
+  "en": "Share",
+  "tr": "공유",
+  "back": "Sharing",
+  "sim": 0.0
+ },
+ {
+  "k": "exportSuccess",
+  "en": "Exported!",
+  "tr": "내보냈습니다!",
+  "back": "I got it!",
+  "sim": 0.0
+ },
+ {
+  "k": "exportFailed",
+  "en": "Export failed. Please try again.",
+  "tr": "내보내기에 실패했습니다. 다시 시도해 주세요.",
+  "back": "I failed to get it out. Please try again.",
+  "sim": 0.57
+ },
+ {
+  "k": "exportInProgress",
+  "en": "Exporting…",
+  "tr": "내보내는 중…",
+  "back": "I'm going to show you...",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTitle",
+  "en": "Settings",
+  "tr": "설정",
+  "back": "Set it up",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTheme",
+  "en": "Theme",
+  "tr": "테마",
+  "back": "The theme.",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsLanguage",
+  "en": "Language",
+  "tr": "언어",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "구매 복원",
+  "back": "Purchasing and restoring",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsGoAdFree",
+  "en": "Go Ad-Free",
+  "tr": "광고 제거",
+  "back": "Remove the ad.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsPrivacyPolicy",
+  "en": "Privacy Policy",
+  "tr": "개인정보 처리방침",
+  "back": "Personal data processing policy",
+  "sim": 0.33
+ },
+ {
+  "k": "settingsSupport",
+  "en": "Support",
+  "tr": "지원",
+  "back": "Support",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRateApp",
+  "en": "Rate App",
+  "tr": "앱 평가하기",
+  "back": "To evaluate the app.",
+  "sim": 0.33
+ },
+ {
+  "k": "settingsShareApp",
+  "en": "Share App",
+  "tr": "앱 공유하기",
+  "back": "Sharing apps",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLicenses",
+  "en": "Open-source licenses",
+  "tr": "오픈소스 라이선스",
+  "back": "It's an open source license.",
+  "sim": 0.0
+ },
+ {
+  "k": "reminderChannelName",
+  "en": "Edit reminders",
+  "tr": "편집 알림",
+  "back": "Alert to edit",
+  "sim": 0.4
+ },
+ {
+  "k": "reminderChannelDescription",
+  "en": "Reminders about edits you have not finished.",
+  "tr": "끝내지 않은 편집에 대한 알림입니다.",
+  "back": "It's a warning about unfinished editing.",
+  "sim": 0.15
+ },
+ {
+  "k": "reminderTitle",
+  "en": "Your edit is waiting",
+  "tr": "편집이 기다리고 있어요",
+  "back": "I'm waiting for an edit.",
+  "sim": 0.22
+ },
+ {
+  "k": "reminderBody",
+  "en": "Pick up where you left off and export your photo.",
+  "tr": "멈춘 곳에서 이어서 사진을 내보내 보세요.",
+  "back": "Take a photo of where you stopped and send it out.",
+  "sim": 0.29
+ },
+ {
+  "k": "settingsReminders",
+  "en": "Edit reminders",
+  "tr": "편집 알림",
+  "back": "Alert to edit",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsAnimatedBackground",
+  "en": "Animated home background",
+  "tr": "홈 애니메이션 배경",
+  "back": "Home animated backdrop",
+  "sim": 0.33
+ },
+ {
+  "k": "settingsRemindersSubtitle",
+  "en": "Remind me about unfinished edits",
+  "tr": "끝내지 않은 편집을 알려주기",
+  "back": "I'm here to tell you about the unfinished editing.",
+  "sim": 0.29
+ },
+ {
+  "k": "settingsRemindersBlocked",
+  "en": "Notifications are turned off for PhotoSur in your phone's settings.",
+  "tr": "휴대전화 설정에서 PhotoSur 알림이 꺼져 있습니다.",
+  "back": "The PhotoSur alert is off from the cell phone settings.",
+  "sim": 0.2
+ },
+ {
+  "k": "editorBrushHint",
+  "en": "Drag to paint. Pinch with two fingers to zoom.",
+  "tr": "드래그해서 칠하세요. 두 손가락으로 모아 확대할 수 있습니다.",
+  "back": "Drag and paint, and you can use both fingers to zoom in.",
+  "sim": 0.48
+ },
+ {
+  "k": "editorToolCutout",
+  "en": "Cut-out",
+  "tr": "누끼",
+  "back": "I'm going to take care of you.",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBrush",
+  "en": "Brush",
+  "tr": "브러시",
+  "back": "The brush.",
+  "sim": 0.67
+ },
+ {
+  "k": "editorToolBackground",
+  "en": "Background",
+  "tr": "배경",
+  "back": "Background",
+  "sim": 1.0
+ },
+ {
+  "k": "editorToolLayout",
+  "en": "Layout",
+  "tr": "레이아웃",
+  "back": "The layout.",
+  "sim": 0.67
+ },
+ {
+  "k": "layoutAutoCenter",
+  "en": "Auto-center",
+  "tr": "자동 가운데",
+  "back": "In the middle of the automatic.",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutSizeLabel",
+  "en": "Size",
+  "tr": "크기",
+  "back": "The size.",
+  "sim": 0.67
+ },
+ {
+  "k": "layoutShadowLabel",
+  "en": "Shadow",
+  "tr": "그림자",
+  "back": "The shadow.",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundPhoto",
+  "en": "Photo",
+  "tr": "사진",
+  "back": "It's a photo.",
+  "sim": 0.5
+ },
+ {
+  "k": "backgroundPhotoFailed",
+  "en": "Could not load that photo.",
+  "tr": "해당 사진을 불러올 수 없습니다.",
+  "back": "I can't get that picture back.",
+  "sim": 0.18
+ },
+ {
+  "k": "editorLayoutHint",
+  "en": "Drag to move. Pinch with two fingers to resize.",
+  "tr": "드래그해서 이동하고, 두 손가락으로 모아 크기를 조절하세요.",
+  "back": "Drag it around, move it around, pull it together with your two fingers and adjust the size.",
+  "sim": 0.38
+ },
+ {
+  "k": "languageSystemDefault",
+  "en": "System default",
+  "tr": "시스템 기본값",
+  "back": "The default value of the system.",
+  "sim": 0.25
+ },
+ {
+  "k": "languageSheetTitle",
+  "en": "Language",
+  "tr": "언어",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "themeSheetTitle",
+  "en": "Theme",
+  "tr": "테마",
+  "back": "The theme.",
+  "sim": 0.67
+ },
+ {
+  "k": "themeOptionSystem",
+  "en": "System default",
+  "tr": "시스템 기본값",
+  "back": "The default value of the system.",
+  "sim": 0.25
+ },
+ {
+  "k": "themeOptionLight",
+  "en": "Light",
+  "tr": "라이트",
+  "back": "Light, please.",
+  "sim": 0.67
+ },
+ {
+  "k": "themeOptionDark",
+  "en": "Dark",
+  "tr": "다크",
+  "back": "You know, Dark.",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsLinkNotReady",
+  "en": "This link isn't set up yet.",
+  "tr": "이 링크는 아직 설정되지 않았습니다.",
+  "back": "This link hasn't been set yet.",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsLinkOpenFailed",
+  "en": "Could not open link.",
+  "tr": "링크를 열 수 없습니다.",
+  "back": "I can't open the link.",
+  "sim": 0.44
+ },
+ {
+  "k": "settingsRestoreRequested",
+  "en": "Restore requested — check back in a moment.",
+  "tr": "복원을 요청했습니다. 잠시 후 다시 확인해 주세요.",
+  "back": "I've requested a restoration. Please check back in a minute.",
+  "sim": 0.59
+ },
+ {
+  "k": "settingsRestoreFailed",
+  "en": "Restore failed.",
+  "tr": "복원에 실패했습니다.",
+  "back": "They failed to restore it.",
+  "sim": 0.29
+ },
+ {
+  "k": "settingsShareFailed",
+  "en": "Could not share.",
+  "tr": "공유할 수 없습니다.",
+  "back": "You can't share.",
+  "sim": 0.33
+ },
+ {
+  "k": "settingsShareAppMessage",
+  "en": "Remove photo backgrounds instantly with PhotoSur — free, no watermark.",
+  "tr": "PhotoSur로 사진 배경을 즉시 제거하세요. 무료, 워터마크 없음.",
+  "back": "With PhotoSur, remove the background immediately. It's free, no watermark.",
+  "sim": 0.53
+ },
+ {
+  "k": "paywallTitle",
+  "en": "Go Ad-Free",
+  "tr": "광고 제거",
+  "back": "Remove the ad.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallAlreadyAdFree",
+  "en": "You're already ad-free. Thank you!",
+  "tr": "이미 광고가 제거되었습니다. 감사합니다!",
+  "back": "The ad has already been removed. Thank you!",
+  "sim": 0.46
+ },
+ {
+  "k": "paywallPlanFreeTitle",
+  "en": "Free",
+  "tr": "무료",
+  "back": "It's free.",
+  "sim": 0.67
+ },
+ {
+  "k": "paywallPlanAdFreeTitle",
+  "en": "Ad-Free",
+  "tr": "광고 없음",
+  "back": "There's no advertising.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPlanAdFreePrice",
+  "en": "One-time purchase",
+  "tr": "1회 결제",
+  "back": "Payment for the first time.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureAllFeatures",
+  "en": "All features",
+  "tr": "모든 기능",
+  "back": "All the functionality",
+  "sim": 0.4
+ },
+ {
+  "k": "paywallFeatureAdSupported",
+  "en": "Ad-supported",
+  "tr": "광고 포함",
+  "back": "Includes advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureZeroAds",
+  "en": "Zero ads",
+  "tr": "광고 없음",
+  "back": "There's no advertising.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPurchaseButton",
+  "en": "Remove Ads",
+  "tr": "광고 제거",
+  "back": "Remove the ad.",
+  "sim": 0.4
+ },
+ {
+  "k": "paywallPurchaseButtonPrice",
+  "en": "Remove Ads — {price}",
+  "tr": "광고 제거 — {price}",
+  "back": "Remove the ad  [price]",
+  "sim": 0.57
+ },
+ {
+  "k": "paywallRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "구매 복원",
+  "back": "Purchasing and restoring",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallProductUnavailable",
+  "en": "Ad removal is not available right now.",
+  "tr": "지금은 광고 제거를 사용할 수 없습니다.",
+  "back": "Now you can't use ad removal.",
+  "sim": 0.31
+ },
+ {
+  "k": "paywallPurchaseFailed",
+  "en": "Purchase failed.",
+  "tr": "구매에 실패했습니다.",
+  "back": "It failed to buy.",
+  "sim": 0.33
+ },
+ {
+  "k": "errorScreenTitle",
+  "en": "Something went wrong",
+  "tr": "문제가 발생했습니다",
+  "back": "There's been a problem.",
+  "sim": 0.0
+ },
+ {
+  "k": "errorScreenBody",
+  "en": "Try again, or restart the app if this keeps happening.",
+  "tr": "다시 시도하거나, 문제가 계속되면 앱을 다시 시작해 주세요.",
+  "back": "Try again, or if the problem persists, restart the app.",
+  "sim": 0.6
+ },
+ {
+  "k": "errorScreenGoBack",
+  "en": "Go back",
+  "tr": "돌아가기",
+  "back": "I'm going back.",
+  "sim": 0.4
+ },
+ {
+  "k": "errorScreenReportEmail",
+  "en": "Report via {email}",
+  "tr": "{email}(으)로 신고",
+  "back": "Call me at [email]",
+  "sim": 0.29
+ },
+ {
+  "k": "unsupportedTitle",
+  "en": "Device Not Supported",
+  "tr": "지원되지 않는 기기",
+  "back": "It's not supported.",
+  "sim": 0.67
+ },
+ {
+  "k": "unsupportedNoCameraMessage",
+  "en": "This device doesn't have a camera available.",
+  "tr": "이 기기에서는 사용할 수 있는 카메라가 없습니다.",
+  "back": "There's no camera on this device.",
+  "sim": 0.31
+ },
+ {
+  "k": "unsupportedLowMemoryMessage",
+  "en": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
+  "tr": "이 기기는 PhotoSur 편집기를 안정적으로 실행할 메모리가 부족합니다.",
+  "back": "This device lacks the memory to run the PhotoSur editor stably.",
+  "sim": 0.55
+ },
+ {
+  "k": "unsupportedManualImportHint",
+  "en": "You can still import a photo from your gallery and use the manual brush tool.",
+  "tr": "그래도 갤러리에서 사진을 가져와 수동 브러시를 사용할 수 있습니다.",
+  "back": "But you can still take pictures from the gallery and use a manual brush.",
+  "sim": 0.62
+ },
+ {
+  "k": "unsupportedUseGalleryButton",
+  "en": "Import from Gallery",
+  "tr": "갤러리에서 가져오기",
+  "back": "Bring it from the gallery.",
+  "sim": 0.5
+ },
+ {
+  "k": "homeBatchButton",
+  "en": "Batch",
+  "tr": "일괄",
+  "back": "Inclusive",
+  "sim": 0.0
+ },
+ {
+  "k": "batchTitle",
+  "en": "Batch cut-out",
+  "tr": "일괄 누끼",
+  "back": "The whole thing.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchOutputTransparent",
+  "en": "Transparent PNG",
+  "tr": "투명 PNG",
+  "back": "Transparency PNG",
+  "sim": 0.5
+ },
+ {
+  "k": "batchOutputWhite",
+  "en": "White background (JPG)",
+  "tr": "흰색 배경(JPG)",
+  "back": "It's a white background.",
+  "sim": 0.57
+ },
+ {
+  "k": "batchStart",
+  "en": "Start",
+  "tr": "시작",
+  "back": "Let's get started.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchStop",
+  "en": "Stop",
+  "tr": "중지",
+  "back": "Stop it.",
+  "sim": 0.67
+ },
+ {
+  "k": "batchDone",
+  "en": "Done",
+  "tr": "완료",
+  "back": "Finished.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchProgress",
+  "en": "{done} of {total} done",
+  "tr": "{total}장 중 {done}장 완료",
+  "back": "[total] field of [done] field completed",
+  "sim": 0.2
+ },
+ {
+  "k": "batchSaved",
+  "en": "{count} saved to your gallery",
+  "tr": "{count}장이 갤러리에 저장되었습니다",
+  "back": "[count] head is stored in the gallery",
+  "sim": 0.33
+ },
+ {
+  "k": "batchSomeFailed",
+  "en": "{count} could not be processed",
+  "tr": "{count}장을 처리하지 못했습니다",
+  "back": "I couldn't handle the count.",
+  "sim": 0.2
+ },
+ {
+  "k": "batchTooMany",
+  "en": "Up to {max} photos at a time",
+  "tr": "한 번에 최대 {max}장",
+  "back": "Maximum at a time.",
+  "sim": 0.55
+ },
+ {
+  "k": "backgroundAddCustom",
+  "en": "Add custom background",
+  "tr": "사용자 지정 배경 추가",
+  "back": "Customized background added",
+  "sim": 0.33
+ },
+ {
+  "k": "backgroundCustomColor",
+  "en": "Custom color",
+  "tr": "사용자 지정 색상",
+  "back": "Customized colors",
+  "sim": 0.0
+ },
+ {
+  "k": "colorSaturation",
+  "en": "Saturation",
+  "tr": "채도",
+  "back": "It's all right.",
+  "sim": 0.0
+ },
+ {
+  "k": "colorBrightness",
+  "en": "Brightness",
+  "tr": "밝기",
+  "back": "It's bright.",
+  "sim": 0.0
+ },
+ {
+  "k": "colorHexLabel",
+  "en": "Hex code",
+  "tr": "16진수 코드",
+  "back": "Sixteen digits of code.",
+  "sim": 0.33
+ },
+ {
+  "k": "colorPickerDone",
+  "en": "Done",
+  "tr": "완료",
+  "back": "Finished.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceLabel",
+  "en": "Marketplace",
+  "tr": "마켓플레이스",
+  "back": "The marketplace.",
+  "sim": 0.67
+ },
+ {
+  "k": "exportMarketplaceWhiteFill",
+  "en": "Pure white background, product fills the frame",
+  "tr": "순백 배경, 제품이 프레임을 가득 채움",
+  "back": "The white background, the product is full of frames.",
+  "sim": 0.38
+ },
+ {
+  "k": "exportMarketplaceSizeCap",
+  "en": "File kept under {size} MB",
+  "tr": "파일 크기 {size}MB 미만",
+  "back": "File size less than MB",
+  "sim": 0.6
+ },
+ {
+  "k": "editorToolTemplates",
+  "en": "Templates",
+  "tr": "템플릿",
+  "back": "The template.",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTitle",
+  "en": "Choose a template",
+  "tr": "템플릿 선택",
+  "back": "Template selection",
+  "sim": 0.4
+ },
+ {
+  "k": "templatesStudio",
+  "en": "Studio",
+  "tr": "스튜디오",
+  "back": "The studio.",
+  "sim": 0.67
+ },
+ {
+  "k": "templatesColorBlock",
+  "en": "Color block",
+  "tr": "컬러 블록",
+  "back": "Color blocks",
+  "sim": 0.5
+ },
+ {
+  "k": "templatesTextures",
+  "en": "Textures",
+  "tr": "텍스처",
+  "back": "The texture.",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesLight",
+  "en": "Light & shadow",
+  "tr": "빛과 그림자",
+  "back": "Light and shadow.",
+  "sim": 0.8
+ },
+ {
+  "k": "templatesPatterns",
+  "en": "Gradients & patterns",
+  "tr": "그라데이션 및 패턴",
+  "back": "Grading and pattern",
+  "sim": 0.0
+ },
+ {
+  "k": "hdGetAction",
+  "en": "Get HD cut-out",
+  "tr": "HD 누끼 받기",
+  "back": "I'm going to get an HD scratch.",
+  "sim": 0.4
+ },
+ {
+  "k": "hdRedoAction",
+  "en": "Redo cut-out in HD",
+  "tr": "HD로 누끼 다시 따기",
+  "back": "I'm going back to HD.",
+  "sim": 0.22
+ },
+ {
+  "k": "hdDownloading",
+  "en": "HD cut-out in progress… {percent}%",
+  "tr": "HD 누끼 진행 중… {percent}%",
+  "back": "HD nesting is going on... [percent] %",
+  "sim": 0.36
+ },
+ {
+  "k": "hdDownloadingShort",
+  "en": "HD cut-out… {percent}%",
+  "tr": "HD 누끼… {percent}%",
+  "back": "HD nest... [percent] percent",
+  "sim": 0.57
+ },
+ {
+  "k": "hdConfirmTitle",
+  "en": "Download HD cut-out model?",
+  "tr": "HD 누끼 모델을 다운로드할까요?",
+  "back": "Do you want to download the HD nest model?",
+  "sim": 0.46
+ },
+ {
+  "k": "hdConfirmBody",
+  "en": "Cleaner edges on tricky objects like shoes, bags and bottles. It downloads once, stays on your phone and then works offline. Mobile data charges may apply.",
+  "tr": "신발, 가방, 병처럼 까다로운 사물도 가장자리가 더 깔끔해집니다. 한 번만 다운로드하면 휴대전화에 저장되어 이후에는 오프라인에서 작동합니다. 모바일 데이터 요금이 발생할 수 있습니다.",
+  "back": "Even sophisticated things like shoes, bags, bottles, get the edges cleaner, and once downloaded, they're stored on your cell phone, and then they're offline, and there's a charge for mobile data.",
+  "sim": 0.46
+ },
+ {
+  "k": "hdDownload",
+  "en": "Download",
+  "tr": "다운로드",
+  "back": "Download it",
+  "sim": 0.67
+ },
+ {
+  "k": "hdFailed",
+  "en": "HD cut-out didn’t finish. Check your connection and try again.",
+  "tr": "HD 누끼가 완료되지 않았습니다. 연결을 확인하고 다시 시도하세요.",
+  "back": "The HD grid is not complete. Check the connection and try again.",
+  "sim": 0.55
+ },
+ {
+  "k": "settingsHdTitle",
+  "en": "HD cut-out model",
+  "tr": "HD 누끼 모델",
+  "back": "HD nest model",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsHdNotInstalled",
+  "en": "Not downloaded",
+  "tr": "다운로드 안 됨",
+  "back": "It's not downloaded.",
+  "sim": 0.8
+ },
+ {
+  "k": "settingsHdInstalled",
+  "en": "Installed · works offline",
+  "tr": "설치됨 · 오프라인 작동",
+  "back": "Installed · Offline operation",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsHdRemove",
+  "en": "Remove",
+  "tr": "삭제",
+  "back": "Deleted",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsReplayIntro",
+  "en": "Replay intro",
+  "tr": "소개 다시 보기",
+  "back": "See the introduction again.",
+  "sim": 0.0
+ },
+ {
+  "k": "homeSeeAll",
+  "en": "See all",
+  "tr": "모두 보기",
+  "back": "See all of them.",
+  "sim": 0.67
+ },
+ {
+  "k": "exportActionEdit",
+  "en": "Edit again",
+  "tr": "다시 편집",
+  "back": "Re-edited",
+  "sim": 0.0
+ },
+ {
+  "k": "exportActionDelete",
+  "en": "Delete",
+  "tr": "삭제",
+  "back": "Deleted",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMoreOptions",
+  "en": "More options",
+  "tr": "더보기",
+  "back": "More of this.",
+  "sim": 0.4
+ },
+ {
+  "k": "exportDeleteTitle",
+  "en": "Delete this export?",
+  "tr": "이 내보내기를 삭제할까요?",
+  "back": "Do you want to delete this output?",
+  "sim": 0.4
+ },
+ {
+  "k": "exportDeleteBody",
+  "en": "Exported images are removed from this phone. Your original photos and anything saved to your gallery are not affected.",
+  "tr": "내보낸 이미지는 이 휴대전화에서 삭제됩니다. 원본 사진과 갤러리에 저장된 항목은 영향을 받지 않습니다.",
+  "back": "The uploaded images will be deleted from this cell phone, and the original photos and items stored in the gallery will be unaffected.",
+  "sim": 0.38
+ },
+ {
+  "k": "exportSavedToGallery",
+  "en": "Saved to your gallery",
+  "tr": "갤러리에 저장했습니다",
+  "back": "I saved it in the gallery.",
+  "sim": 0.4
+ },
+ {
+  "k": "exportSaveFailed",
+  "en": "Could not save to the gallery.",
+  "tr": "갤러리에 저장하지 못했습니다.",
+  "back": "I didn't save it in the gallery.",
+  "sim": 0.46
+ },
+ {
+  "k": "exportUnavailable",
+  "en": "Unavailable",
+  "tr": "사용할 수 없음",
+  "back": "It's not available.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsGroupThisWeek",
+  "en": "This week",
+  "tr": "이번 주",
+  "back": "This week.",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsGroupEarlier",
+  "en": "Earlier",
+  "tr": "이전",
+  "back": "Previously",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsStorageUsed",
+  "en": "{size} used on this phone",
+  "tr": "이 휴대전화에서 {size} 사용 중",
+  "back": "I'm using [size] on this cell phone.",
+  "sim": 0.67
+ },
+ {
+  "k": "exportsSelect",
+  "en": "Select",
+  "tr": "선택",
+  "back": "The choice.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsDone",
+  "en": "Done",
+  "tr": "완료",
+  "back": "Finished.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsSelectedCount",
+  "en": "{count} selected",
+  "tr": "{count}개 선택됨",
+  "back": "[count] Selected",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDeleteSelectedTitle",
+  "en": "Delete {count} exports?",
+  "tr": "내보내기 {count}개를 삭제할까요?",
+  "back": "Can you delete the output count?",
+  "sim": 0.44
+ },
+ {
+  "k": "exportsDeleteAll",
+  "en": "Delete all exports",
+  "tr": "모든 내보내기 삭제",
+  "back": "Delete all exits",
+  "sim": 0.67
+ },
+ {
+  "k": "exportsDeleteAllTitle",
+  "en": "Delete all exports?",
+  "tr": "모든 내보내기를 삭제할까요?",
+  "back": "Can we delete all the exits?",
+  "sim": 0.44
+ },
+ {
+  "k": "helpTitle",
+  "en": "Help & how to use",
+  "tr": "도움말 및 사용 방법",
+  "back": "Help and Use",
+  "sim": 0.57
+ },
+ {
+  "k": "helpIntro",
+  "en": "Tap a topic to read how it works.",
+  "tr": "주제를 탭하면 작동 방식을 읽을 수 있습니다.",
+  "back": "Tap on the subject and you can read how it works.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpStartTitle",
+  "en": "Getting started",
+  "tr": "시작하기",
+  "back": "Let's get started.",
+  "sim": 0.4
+ },
+ {
+  "k": "helpStart1",
+  "en": "On the home screen, tap Camera to take a photo or Gallery to pick one. Batch cuts out many photos at once.",
+  "tr": "홈 화면에서 사진을 찍으려면 카메라를, 기존 사진을 고르려면 갤러리를 탭하세요. 일괄은 여러 장의 사진을 한꺼번에 누끼 따 줍니다.",
+  "back": "If you want to take a photo on your home screen, tap the camera, and if you want to select the existing photo, tap the gallery, and you can take multiple photos at once.",
+  "sim": 0.29
+ },
+ {
+  "k": "helpStart2",
+  "en": "Every photo opens in Crop & Rotate first, then in the editor. Your original photo is never changed.",
+  "tr": "모든 사진은 먼저 자르기 및 회전에서 열린 다음 편집기로 넘어갑니다. 원본 사진은 절대 변경되지 않습니다.",
+  "back": "All the photos go first to cut and rotate, then open and go to the editor, and the original photo never changes.",
+  "sim": 0.36
+ },
+ {
+  "k": "helpStart3",
+  "en": "When you are happy, tap Export in the editor. Recent Exports on the home screen lists everything you have exported.",
+  "tr": "마음에 들면 편집기에서 내보내기를 탭하세요. 홈 화면의 최근 내보내기에는 내보낸 모든 항목이 표시됩니다.",
+  "back": "If you like it, tap Exit from the editor, and the most recent Exit on the home screen will show all the items you've exited.",
+  "sim": 0.4
+ },
+ {
+  "k": "helpCropTitle",
+  "en": "Crop & Rotate",
+  "tr": "자르기 및 회전",
+  "back": "Cutting and rotating",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCrop1",
+  "en": "Turn the photo left or right in 90° steps, and drag the frame to choose the part you want to keep.",
+  "tr": "사진을 90° 단위로 왼쪽이나 오른쪽으로 회전하고, 프레임을 드래그해 남길 부분을 고르세요.",
+  "back": "Turn the image 90 degrees to the left or right, then drag the frame and choose the left part.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpCrop2",
+  "en": "Free lets you shape the frame as you like. 1:1, 4:5 and 9:16 lock its shape. Tap Continue to open the editor.",
+  "tr": "자유로 하면 프레임을 원하는 모양으로 만들 수 있습니다. 1:1, 4:5, 9:16은 프레임 모양을 고정합니다. 계속을 탭하면 편집기가 열립니다.",
+  "back": "If you're free, you can create the frame in the shape you want. 1:1, 4:5, 9:16 fix the frame shape, and if you tap on the continuum, the editor opens.",
+  "sim": 0.42
+ },
+ {
+  "k": "helpCutoutTitle",
+  "en": "Cut-out",
+  "tr": "누끼",
+  "back": "I'm going to take care of you.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCutout1",
+  "en": "When the editor opens, PhotoSur finds the main subject and removes the background automatically, on your phone. No internet is needed.",
+  "tr": "편집기가 열리면 PhotoSur가 주요 피사체를 찾아 휴대전화에서 자동으로 배경을 제거합니다. 인터넷 연결이 필요 없습니다.",
+  "back": "When you open the editor, PhotoSur automatically finds the main overlay and removes the background from your cell phone, and you don't need an internet connection.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpCutout2",
+  "en": "Edge Smoothness softens the edge of the cut-out, from 0 to 20 pixels.",
+  "tr": "가장자리 부드러움은 누끼의 가장자리를 0~20픽셀 범위에서 부드럽게 만듭니다.",
+  "back": "Edge smoothness makes the edges of the nest softer in the range of 0 to 20 pixels.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpCutout3",
+  "en": "The eye button at the top shows your original photo so you can compare. Tap it again to go back. The brush is paused while the original is shown.",
+  "tr": "상단의 눈 모양 버튼은 비교를 위해 원본 사진을 보여 줍니다. 다시 탭하면 돌아갑니다. 원본이 표시되는 동안에는 브러시가 일시 중지됩니다.",
+  "back": "The eye-shaped button at the top shows the original image for comparison, and if you tap it again, it goes back.",
+  "sim": 0.48
+ },
+ {
+  "k": "helpCutout4",
+  "en": "For difficult subjects such as glass, shoes, bags and bottles, tap Get HD cut-out. The HD model downloads once, stays on your phone and then works offline. Once it is installed, every new cut-out uses it automatically. To redo the photo you have open, tap Redo cut-out in HD.",
+  "tr": "유리, 신발, 가방, 병처럼 까다로운 피사체에는 HD 누끼 받기를 탭하세요. HD 모델은 한 번만 다운로드되어 휴대전화에 남고, 이후에는 오프라인으로 작동합니다. 설치된 뒤에는 모든 새 누끼에 자동으로 사용됩니다. 열려 있는 사진을 다시 하려면 HD로 누끼 다시 따기를 탭하세요.",
+  "back": "On complex surfaces like glass, shoes, bags, and bottles, tap the HD button. The HD model is downloaded once, left on your phone, and then works offline. Once installed, it's automatically used on all new buttons. To retrieve an open photo, tap the HD button again.",
+  "sim": 0.51
+ },
+ {
+  "k": "helpBrushTitle",
+  "en": "Brush",
+  "tr": "브러시",
+  "back": "The brush.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpBrush1",
+  "en": "Erase removes parts of the subject. Restore brings back parts the cut-out removed.",
+  "tr": "지우기는 피사체의 일부를 제거합니다. 복원은 누끼가 제거한 부분을 되돌립니다.",
+  "back": "The vacuum removes part of the body, and the restoration returns the part that the scratch removed.",
+  "sim": 0.33
+ },
+ {
+  "k": "helpBrush2",
+  "en": "Drag one finger to paint. Use two fingers to zoom, up to 8 times, and to move the photo. The brush keeps its size on screen, so zooming in gives finer control.",
+  "tr": "손가락 하나로 드래그해 그립니다. 손가락 두 개로 최대 8배까지 확대하고 사진을 이동할 수 있습니다. 브러시는 화면에서 크기가 유지되므로 확대하면 더 정밀하게 작업할 수 있습니다.",
+  "back": "You can drag and drag with one finger, and you can scale up to eight times with two fingers, and you can move the image around, and the brush keeps the size on the screen, so you can work more precisely when you scale.",
+  "sim": 0.42
+ },
+ {
+  "k": "helpBrush3",
+  "en": "Brush Size goes from 1 to 50. Opacity sets how strongly each stroke applies.",
+  "tr": "브러시 크기는 1~50입니다. 불투명도는 각 획의 진하기를 정합니다.",
+  "back": "The brush size is 1 to 50, and the opacity determines the angle of each brush.",
+  "sim": 0.47
+ },
+ {
+  "k": "helpBrush4",
+  "en": "Undo and Redo step through your brush strokes. Reset clears all brush strokes and goes back to the automatic cut-out; it asks you to confirm first.",
+  "tr": "실행 취소와 다시 실행은 브러시 획을 차례로 오갑니다. 초기화는 모든 획을 지우고 자동 누끼로 돌아가며, 먼저 확인을 요청합니다.",
+  "back": "Running cancels and running again, brushes the milestones one by one, initializes all the milestones, goes back to the automatic hub, and asks for verification first.",
+  "sim": 0.35
+ },
+ {
+  "k": "helpBackgroundTitle",
+  "en": "Background",
+  "tr": "배경",
+  "back": "Background",
+  "sim": 1.0
+ },
+ {
+  "k": "helpBackground1",
+  "en": "Choose what goes behind your subject: transparent, white, black, a gradient, a colour, a blurred copy of your photo, or your own photo.",
+  "tr": "피사체 뒤에 무엇을 둘지 고르세요. 투명, 흰색, 검정, 그라데이션, 색상, 내 사진을 흐리게 한 복사본, 또는 내 사진입니다.",
+  "back": "Choose what to put behind your body -- transparent, white, black, graded, colored, a copy that blurs my picture, or a photo of me.",
+  "sim": 0.43
+ },
+ {
+  "k": "helpBackground2",
+  "en": "Only one background is used at a time. Your latest choice replaces the earlier one.",
+  "tr": "한 번에 하나의 배경만 사용됩니다. 마지막으로 고른 것이 이전 선택을 대체합니다.",
+  "back": "Only one background is used at a time, and the last one replaces the previous one.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpBackground3",
+  "en": "Add custom background lets you pick a photo from your gallery. Custom color opens a colour picker. The Blur slider goes from 0 to 25.",
+  "tr": "사용자 지정 배경 추가로 갤러리에서 사진을 고를 수 있습니다. 사용자 지정 색상은 색상 선택기를 엽니다. 흐림 슬라이더는 0~25입니다.",
+  "back": "You can also choose a photo from the gallery to create a custom background, and the custom color opens the color selector, and the blur slider is 0 to 25.",
+  "sim": 0.51
+ },
+ {
+  "k": "helpBackground4",
+  "en": "Transparent shows a checkerboard while you edit. Export as PNG to keep it transparent.",
+  "tr": "투명은 편집 중에 체크무늬로 표시됩니다. 투명을 유지하려면 PNG로 내보내세요.",
+  "back": "The assignment is displayed as a check mark during editing. To maintain the assignment, send it out to PNG.",
+  "sim": 0.12
+ },
+ {
+  "k": "helpTemplatesTitle",
+  "en": "Templates",
+  "tr": "템플릿",
+  "back": "The template.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpTemplates1",
+  "en": "Templates are ready-made backgrounds in five groups: Studio, Color block, Textures, Light & shadow, and Gradients & patterns. Five scenes are shown in the panel; tap the Templates button to see them all.",
+  "tr": "템플릿은 스튜디오, 컬러 블록, 텍스처, 빛과 그림자, 그라데이션 및 패턴의 다섯 그룹으로 나뉜 즉시 쓸 수 있는 배경입니다. 패널에는 다섯 장면이 표시되며, 모두 보려면 템플릿 버튼을 탭하세요.",
+  "back": "The template is a backdrop where you can write in five groups of studios, color blocks, textures, light and shadows, gradations and patterns, and you can instantly write five scenes on the panel, and you can tap the template button to see them all.",
+  "sim": 0.51
+ },
+ {
+  "k": "helpTemplates2",
+  "en": "Choosing a template works like choosing your own photo as the background: it replaces your earlier background choice.",
+  "tr": "템플릿을 고르는 것은 내 사진을 배경으로 고르는 것과 같습니다. 이전 배경 선택을 대체합니다.",
+  "back": "Choosing a template is like choosing my photo in the background, replacing my previous background choices.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpLayoutTitle",
+  "en": "Layout",
+  "tr": "레이아웃",
+  "back": "The layout.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpLayout1",
+  "en": "Drag the subject on the photo to move it. Pinch with two fingers to resize it.",
+  "tr": "피사체를 사진 위에서 드래그하면 이동합니다. 손가락 두 개로 핀치하면 크기를 바꿀 수 있습니다.",
+  "back": "If you drag the surface over the photo, it moves, and if you pinch it with two fingers, you can change the size.",
+  "sim": 0.46
+ },
+ {
+  "k": "helpLayout2",
+  "en": "Choose Original, 1:1, 4:5 or 9:16 to set the shape of the final picture.",
+  "tr": "원본, 1:1, 4:5, 9:16 중에서 골라 최종 이미지의 모양을 정하세요.",
+  "back": "Choose from the original, 1:1, 4:5, 9:16, and determine the shape of the final image.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpLayout3",
+  "en": "Size sets how big the subject is, from 20% to 300%. Shadow sets how strong its shadow is. Auto-center puts the subject back in the middle. Reset undoes moving and resizing.",
+  "tr": "크기는 피사체의 크기를 20%~300%로 정합니다. 그림자는 그림자의 진하기를 정합니다. 자동 가운데는 피사체를 다시 가운데로 옮깁니다. 초기화는 이동과 크기 변경을 취소합니다.",
+  "back": "The size sets the size of the surface to 20 to 300 percent, the shadow sets the depth of the shadow, automatically moves the surface back to the center, initializes the movement and cancels the change in size.",
+  "sim": 0.35
+ },
+ {
+  "k": "helpLayout4",
+  "en": "This shape is used when the export size is Original. If you choose a size preset or a marketplace in the export sheet, that decides the final shape instead.",
+  "tr": "이 모양은 내보내기 크기가 원본일 때 사용됩니다. 내보내기 시트에서 사전 설정 크기나 마켓플레이스를 고르면 그쪽이 최종 모양을 결정합니다.",
+  "back": "This shape is used when the output size is the original, and if you select a pre-set size or marketplace from the output sheet, that determines the final shape.",
+  "sim": 0.72
+ },
+ {
+  "k": "helpExportTitle",
+  "en": "Export",
+  "tr": "내보내기",
+  "back": "Let me out.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpExport1",
+  "en": "Tap Export to open the export sheet. Nothing is applied until you tap Save to Gallery or Share, so you can change your choices as often as you like.",
+  "tr": "내보내기를 탭하면 내보내기 시트가 열립니다. 갤러리에 저장이나 공유를 탭하기 전에는 아무것도 적용되지 않으므로, 선택을 몇 번이든 바꿀 수 있습니다.",
+  "back": "When you tap Export, the Export Sheet opens, so nothing applies until you tap Save or Share in the gallery, so you can change your choice any number of times.",
+  "sim": 0.58
+ },
+ {
+  "k": "helpExport2",
+  "en": "PNG keeps transparency. JPG makes smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a small modern format; if your phone cannot make it, the file is saved as JPG. For JPG and WEBP, the Quality slider trades file size for detail.",
+  "tr": "PNG는 투명을 유지합니다. JPG는 파일이 더 작지만 투명할 수 없으므로 투명한 배경은 흰색이 됩니다. WEBP는 작고 최신인 형식이며, 휴대전화에서 만들 수 없으면 JPG로 저장됩니다. JPG와 WEBP에서는 품질 슬라이더가 파일 크기와 디테일 사이의 균형을 맞춥니다.",
+  "back": "PNG keeps the translucency. JPG keeps the files smaller, but not transparent, so the transparent background becomes white. WEBP is a small, up-to-date format, and if you can't create it on a mobile phone, it's stored as JPG. In JPG and WEBP, the quality slider balances the file size with the detail.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpExport3",
+  "en": "Original keeps your photo’s size, with the shape chosen in Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. Custom lets you type a width and height in pixels.",
+  "tr": "원본은 레이아웃에서 고른 모양으로 사진의 크기를 유지합니다. 1:1은 1080 × 1080, 4:5는 1080 × 1350, 9:16은 1080 × 1920입니다. 사용자 지정은 너비와 높이를 픽셀 단위로 입력할 수 있습니다.",
+  "back": "The original keeps the size of the image in the shape you choose from the layout. 1:1 is 1080 x 1080, 4:5 is 1080 x 1350, 9:16 is 1080 x 1920.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpExport4",
+  "en": "Marketplace presets set size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG kept under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices, and choosing a format or size afterwards switches the marketplace off. Marketplace rules can change, so check your marketplace’s current requirements.",
+  "tr": "마켓플레이스 사전 설정은 크기, 형식, 품질을 정합니다. Amazon은 2000 × 2000 JPG, eBay는 1600 × 1600 JPG, Etsy는 2667 × 2000 JPG로 1 MB 미만, Shopify는 2048 × 2048 PNG입니다. 하나를 고르면 형식과 크기 선택이 대체되고, 이후 형식이나 크기를 고르면 마켓플레이스 선택이 해제됩니다. 마켓플레이스 규정은 바뀔 수 있으니 사용하는 마켓플레이스의 최신 요건을 확인하세요.",
+  "back": "Marketplace pre-set determines size, format, and quality. Amazon has 2000×2000 JPG, eBay has 1600×1600 JPG, Etsy has 2667×2000 JPG less than 1 MB, Shopify has 2048×2048 PNG. If you choose one, the format and size selection is replaced, and then if you choose the format or size, the marketplace selection is deleted.",
+  "sim": 0.46
+ },
+ {
+  "k": "helpExport5",
+  "en": "Amazon also uses a pure white background with no shadow and fits the subject to fill most of the frame. Your background choice in the editor is not changed. The other marketplaces keep your background.",
+  "tr": "Amazon은 그림자 없는 순백색 배경도 사용하고, 피사체가 프레임 대부분을 채우도록 조정합니다. 편집기에서 고른 배경은 바뀌지 않습니다. 다른 마켓플레이스는 내가 고른 배경을 그대로 유지합니다.",
+  "back": "Amazon also uses a shade-free, white background, and it adjusts the surface to fill most of the frames, so the background you choose from the editor doesn't change, and other marketplaces keep the background you choose.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpExport6",
+  "en": "Save to Gallery and Share both save the picture to your gallery and to Recent Exports. Share also opens your phone’s share menu. If saving to the gallery is not possible, the share menu opens instead. After exporting you return to the home screen.",
+  "tr": "갤러리에 저장과 공유는 둘 다 이미지를 갤러리와 최근 내보내기에 저장합니다. 공유는 추가로 휴대전화의 공유 메뉴도 엽니다. 갤러리에 저장할 수 없으면 대신 공유 메뉴가 열립니다. 내보낸 뒤에는 홈 화면으로 돌아갑니다.",
+  "back": "Storing and sharing in the gallery both save images to the gallery and to recent exports. Sharing also opens the sharing menu on your mobile phone. If you can't save it in the gallery, then the sharing menu opens instead, and after you've uploaded it, it goes back to the home screen.",
+  "sim": 0.5
+ },
+ {
+  "k": "helpExport7",
+  "en": "Unless you have removed ads, an ad can appear after an export, at most once every two minutes.",
+  "tr": "광고를 제거하지 않았다면 내보낸 뒤에 광고가 나타날 수 있으며, 2분에 한 번을 넘지 않습니다.",
+  "back": "If you don't remove the ad, it can appear after you've shown it, no more than once every two minutes.",
+  "sim": 0.47
+ },
+ {
+  "k": "helpBatchTitle",
+  "en": "Batch",
+  "tr": "일괄",
+  "back": "Inclusive",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBatch1",
+  "en": "Batch cuts out up to 30 photos in one go. Tap Batch on the home screen and pick your photos. The back button is turned off while a batch runs.",
+  "tr": "일괄은 한 번에 최대 30장의 사진을 누끼 따 줍니다. 홈 화면에서 일괄을 탭하고 사진을 고르세요. 일괄 작업이 실행되는 동안에는 뒤로 가기 버튼이 비활성화됩니다.",
+  "back": "The bundle lets you take up to 30 photos at a time. Tap the bundle on the home screen and select the photo. The back button is disabled while the bundle is running.",
+  "sim": 0.48
+ },
+ {
+  "k": "helpBatch2",
+  "en": "All photos in a batch share one setup: one background and one marketplace. You cannot choose differently for each photo.",
+  "tr": "한 일괄의 모든 사진은 하나의 설정을 공유합니다. 배경 하나와 마켓플레이스 하나입니다. 사진마다 다르게 고를 수는 없습니다.",
+  "back": "All the photos in a bundle share the same setup, one background and one marketplace, so you can't choose differently for each photo.",
+  "sim": 0.79
+ },
+ {
+  "k": "helpBatch3",
+  "en": "Backgrounds work as in the editor: your own photo, a colour, a template, white, transparent, black, blur or a gradient. Only one applies, and your latest choice replaces the earlier one.",
+  "tr": "배경은 편집기와 같은 방식으로 작동합니다. 내 사진, 색상, 템플릿, 흰색, 투명, 검정, 흐림, 그라데이션입니다. 하나만 적용되며 마지막으로 고른 것이 이전 선택을 대체합니다.",
+  "back": "The background works the same way as the editor -- my photos, colors, templates, white, transparency, black, blur, grading -- only one applies, and the last one replaces the previous one.",
+  "sim": 0.43
+ },
+ {
+  "k": "helpBatch4",
+  "en": "The file format is chosen for you. With a marketplace, the photos follow that marketplace’s size and format. Without one, a transparent background gives PNG and any other background gives JPG, at the original size.",
+  "tr": "파일 형식은 자동으로 선택됩니다. 마켓플레이스를 쓰면 사진이 그 크기와 형식을 따릅니다. 쓰지 않으면 투명한 배경은 PNG, 그 밖의 배경은 JPG로 원본 크기가 됩니다.",
+  "back": "The file format is automatically selected, and if you write the marketplace, the picture is the same size and format, and if you don't write it, the background is transparent PNG, and the background is JPG.",
+  "sim": 0.42
+ },
+ {
+  "k": "helpBatch5",
+  "en": "Choosing Amazon switches the background to White; if you then choose another background, Amazon is switched off. eBay, Etsy and Shopify keep your background, but a JPG cannot be transparent, so it gets a white background.",
+  "tr": "Amazon을 고르면 배경이 흰색으로 바뀌고, 이후 다른 배경을 고르면 Amazon 선택이 해제됩니다. eBay, Etsy, Shopify는 내가 고른 배경을 유지하지만 JPG는 투명할 수 없으므로 흰색 배경이 적용됩니다.",
+  "back": "If you choose Amazon, the background changes to white, and then you choose a different background, the Amazon option is deleted. eBay, Etsy, Shopify keep the background I've chosen, but JPG is not transparent, so the white background applies.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpBatch6",
+  "en": "If the HD model is installed, every photo in the batch is cut out with it. The Get HD cut-out button next to Templates downloads it.",
+  "tr": "HD 모델이 설치되어 있으면 일괄의 모든 사진이 그것으로 누끼 따집니다. 템플릿 옆의 HD 누끼 받기 버튼으로 다운로드할 수 있습니다.",
+  "back": "If you've got an HD model installed, all the images in the bracket are hooked up with it, and you can download them with the HD hook button next to the template.",
+  "sim": 0.21
+ },
+ {
+  "k": "helpBatch7",
+  "en": "Each photo is saved to your gallery and to Recent Exports as soon as it finishes. Stop ends the batch after the current photo, and photos already finished stay saved. If a photo fails, the batch carries on and tells you how many could not be processed. Done takes you back to the home screen; it does not save anything.",
+  "tr": "각 사진은 완료되는 즉시 갤러리와 최근 내보내기에 저장됩니다. 중지는 진행 중인 사진 다음에 일괄을 끝내며, 이미 끝난 사진은 저장된 상태로 남습니다. 사진 하나가 실패해도 일괄은 계속되며 처리하지 못한 장수를 알려 줍니다. 완료는 홈 화면으로 돌아가며 아무것도 저장하지 않습니다.",
+  "back": "Each photo is stored in the gallery as soon as it's finished, and in the recent outputs. The center finishes the next in-progress photo, and the already finished photo remains in storage. Even if one photo fails, the sequence continues and tells the unprocessed file. The finish goes back to the home screen, and it doesn't save anything.",
+  "sim": 0.46
+ },
+ {
+  "k": "helpLibraryTitle",
+  "en": "Your exports",
+  "tr": "내보낸 항목",
+  "back": "It's an item I've put out.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpLibrary1",
+  "en": "Recent Exports on the home screen shows your latest exports. Tap See all for every export, grouped as Today, Yesterday, This week and Earlier.",
+  "tr": "홈 화면의 최근 내보내기에는 가장 최근에 내보낸 항목이 표시됩니다. 모두 보기를 탭하면 전부 볼 수 있으며 오늘, 어제, 이번 주, 이전으로 묶여 있습니다.",
+  "back": "The most recent outputs on the home screen show the most recent outputs, and if you tap \"see all\", you can see all of them, and they're tied to today, yesterday, this week, and before.",
+  "sim": 0.44
+ },
+ {
+  "k": "helpLibrary2",
+  "en": "Tap an export to open it full screen. Swipe to move between exports and pinch to zoom. The bar at the bottom has Share, Save to Gallery, Edit again and Delete.",
+  "tr": "내보낸 항목을 탭하면 전체 화면으로 열립니다. 스와이프로 항목 사이를 이동하고 핀치로 확대합니다. 하단 바에는 공유, 갤러리에 저장, 다시 편집, 삭제가 있습니다.",
+  "back": "You tap on the output, it opens up to the full screen, swipes between the items, and then you zoom in to the pinch, and the bottom bar has sharing, gallery saving, re-editing, deleting.",
+  "sim": 0.31
+ },
+ {
+  "k": "helpLibrary3",
+  "en": "The three-dot button on a tile opens the same actions. Edit again opens the exported picture as a new photo, so earlier brush strokes are not restored.",
+  "tr": "썸네일의 점 세 개 버튼에서도 같은 동작을 할 수 있습니다. 다시 편집은 내보낸 이미지를 새 사진으로 열기 때문에 이전 브러시 획은 복원되지 않습니다.",
+  "back": "You can do the same thing with the three dot buttons on the pinnacle, and again, the editing opens the output image to a new one, so the old brush line doesn't get restored.",
+  "sim": 0.3
+ },
+ {
+  "k": "helpLibrary4",
+  "en": "Select lets you choose several exports to share together or delete. Delete all exports removes every export from this phone.",
+  "tr": "선택으로 여러 내보낸 항목을 골라 한꺼번에 공유하거나 삭제할 수 있습니다. 모든 내보내기 삭제는 이 휴대전화에서 모든 내보낸 항목을 제거합니다.",
+  "back": "You can choose to share or delete multiple output items at once, and all output deletions remove all output items from this cell phone.",
+  "sim": 0.45
+ },
+ {
+  "k": "helpLibrary5",
+  "en": "Deleting removes exports from PhotoSur only. Pictures already saved to your gallery are not affected. The bottom of the See all screen shows how much space exports use on this phone.",
+  "tr": "삭제하면 PhotoSur 안의 내보낸 항목만 제거됩니다. 이미 갤러리에 저장된 이미지는 건드리지 않습니다. 모두 보기 하단에서 이 휴대전화에서 내보낸 항목이 차지하는 공간을 확인할 수 있습니다.",
+  "back": "If you delete it, you'll remove only the output from PhotoSur, and you won't touch the images that are already stored in the gallery, so you can see the space that the output from this phone takes up under \"See All\".",
+  "sim": 0.22
+ },
+ {
+  "k": "helpPrivacyTitle",
+  "en": "Privacy & ads",
+  "tr": "개인정보 보호 및 광고",
+  "back": "Privacy and Advertising",
+  "sim": 0.4
+ },
+ {
+  "k": "helpPrivacy1",
+  "en": "Your photos are processed on your phone and are not uploaded. There is no account and no watermark.",
+  "tr": "사진은 휴대전화에서 처리되며 업로드되지 않습니다. 계정도 워터마크도 없습니다.",
+  "back": "Photos are processed on mobile phones, they're not uploaded, they don't have a profile, they don't have a watermark.",
+  "sim": 0.38
+ },
+ {
+  "k": "helpPrivacy2",
+  "en": "PhotoSur is free with every feature included, supported by ads. A banner appears at the bottom of some screens, and an ad can appear after an export.",
+  "tr": "PhotoSur는 무료이고 모든 기능이 포함되어 있으며 광고로 운영됩니다. 일부 화면 하단에 배너가 표시되고, 내보낸 뒤에 광고가 나타날 수 있습니다.",
+  "back": "PhotoSur is free, full-featured, advertising-driven, with banners at the bottom of some of the screens, and ads may appear after you've shown them.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpPrivacy3",
+  "en": "Go Ad-Free in Settings is a one-time purchase that removes the ads. It does not unlock anything else, because every feature is already free. Restore Purchases brings it back on a new phone.",
+  "tr": "설정의 광고 제거는 광고를 없애는 일회성 구매입니다. 다른 것은 잠금 해제하지 않으며, 모든 기능이 이미 무료이기 때문입니다. 구매 복원으로 새 휴대전화에서도 되살릴 수 있습니다.",
+  "back": "Removing ads from the settings is a one-time purchase that removes ads, and the other one is not unlocked, because all the features are already free, and you can reset them to your new cell phone as a shopping mall.",
+  "sim": 0.36
+ },
+ {
+  "k": "helpSettingsTitle",
+  "en": "Settings",
+  "tr": "설정",
+  "back": "Set it up",
+  "sim": 0.0
+ },
+ {
+  "k": "helpSettings1",
+  "en": "Theme can follow your phone, or be Light or Dark. Language changes the language of the app. Both are also in the home screen header.",
+  "tr": "테마는 휴대전화를 따르거나 라이트 또는 다크로 지정할 수 있습니다. 언어는 앱 언어를 바꿉니다. 둘 다 홈 화면 헤더에도 있습니다.",
+  "back": "The theme can follow a cell phone, or it can be set to light or dark, and the language changes the language of the app, and both are in the home screen headers.",
+  "sim": 0.76
+ },
+ {
+  "k": "helpSettings2",
+  "en": "Edit reminders: if you leave the app with an unfinished edit, PhotoSur can remind you three hours later. Switch this off in Settings.",
+  "tr": "편집 알림: 편집을 끝내지 않은 채 앱을 나가면 PhotoSur가 세 시간 뒤에 알려 줄 수 있습니다. 설정에서 끌 수 있습니다.",
+  "back": "Edit alert: If you leave the app without completing the edit, PhotoSur will let you know three hours later. You can pull it from the settings.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpSettings3",
+  "en": "HD cut-out model shows whether it is installed. Remove deletes it from your phone to free space; you can download it again at any time.",
+  "tr": "HD 누끼 모델은 설치 여부를 보여 줍니다. 삭제는 공간을 확보하기 위해 휴대전화에서 제거하며, 언제든 다시 다운로드할 수 있습니다.",
+  "back": "The HD Nest model shows you whether you're installing it, removing it from your cell phone to save space, and you can download it again anytime.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpSettings4",
+  "en": "Replay intro shows the welcome screens again. Support opens the support page. Animated home background turns the moving picture at the top of the home screen on or off.",
+  "tr": "소개 다시 보기는 환영 화면을 다시 보여 줍니다. 지원은 지원 페이지를 엽니다. 홈 애니메이션 배경은 홈 화면 상단의 움직이는 이미지를 켜거나 끕니다.",
+  "back": "Retargeting shows the welcome screen again, the support opens the support page, and the home animation backgrounds turn on or off the moving image at the top of the home screen.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpFixTitle",
+  "en": "If something goes wrong",
+  "tr": "문제가 생겼을 때",
+  "back": "When there's a problem,",
+  "sim": 0.0
+ },
+ {
+  "k": "helpFix1",
+  "en": "If the automatic cut-out cannot run on a very old or low-memory phone, the brush still works, so you can finish the picture by hand.",
+  "tr": "매우 오래되었거나 메모리가 적은 휴대전화에서 자동 누끼가 실행되지 않더라도 브러시는 작동하므로 이미지를 직접 마무리할 수 있습니다.",
+  "back": "Even if you don't run an automatic shutter on a very old or memory-poor cell phone, the brush works, so you can finish the image automatically.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpFix2",
+  "en": "If the HD download stops, check your connection and try again. It continues where it left off.",
+  "tr": "HD 다운로드가 멈추면 연결을 확인하고 다시 시도하세요. 멈춘 지점부터 이어집니다.",
+  "back": "When the HD download stops, check the connection and try again.",
+  "sim": 0.64
+ },
+ {
+  "k": "helpFix3",
+  "en": "For anything else, open Support from Settings.",
+  "tr": "그 밖의 문제는 설정에서 지원을 여세요.",
+  "back": "The other problem is the support in the settings.",
+  "sim": 0.25
+ }
+]

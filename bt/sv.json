@@ -1,0 +1,1717 @@
+[
+ {
+  "k": "onboardingPage1Title",
+  "en": "Remove backgrounds instantly. All features free.",
+  "tr": "Ta bort bakgrunder direkt. Alla funktioner gratis.",
+  "back": "Remove backgrounds immediately, all features are free.",
+  "sim": 0.77
+ },
+ {
+  "k": "onboardingPage1Body",
+  "en": "Open a photo and our on-device AI removes the background automatically — no internet required. You can also swap in your own custom background.",
+  "tr": "Öppna ett foto så tar AI:n på din enhet bort bakgrunden automatiskt — utan internet. Du kan också byta till din egen bakgrund.",
+  "back": "Open a photo and the AI on your device will automatically remove the background without the internet.",
+  "sim": 0.4
+ },
+ {
+  "k": "onboardingPage2Title",
+  "en": "Fine-tune with the brush",
+  "tr": "Finjustera med penseln",
+  "back": "Fine-tuning with the brush",
+  "sim": 0.75
+ },
+ {
+  "k": "onboardingPage2Body",
+  "en": "Paint away what the AI missed or restore what you want to keep. Then crop, rotate, move and resize.",
+  "tr": "Radera med penseln det AI:n missade, eller återställ det du vill behålla. Beskär, rotera, flytta och ändra storlek sedan.",
+  "back": "Erase the brush that the AI missed, or restore what you want to keep, and then cut, rotate, move, and resize.",
+  "sim": 0.75
+ },
+ {
+  "k": "onboardingPage3Title",
+  "en": "Studio-ready backgrounds",
+  "tr": "Studiobakgrunder",
+  "back": "Graduate studies",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingPage3Body",
+  "en": "Choose a colour, gradient, template or your own photo, with a natural shadow. Marketplace presets for Amazon, eBay, Etsy and Shopify set size and format for you.",
+  "tr": "Välj en färg, en toning, en mall eller ditt eget foto, med naturlig skugga. Förinställningar för Amazon, eBay, Etsy och Shopify väljer storlek och format åt dig.",
+  "back": "Choose a color, a hue, a template, or your own photo, with natural shade.",
+  "sim": 0.44
+ },
+ {
+  "k": "onboardingPage4Title",
+  "en": "Batch it, export it, keep it private",
+  "tr": "Många åt gången, i valfritt format, helt privat",
+  "back": "Many at a time, in any format, entirely private",
+  "sim": 0.12
+ },
+ {
+  "k": "onboardingPage4Body",
+  "en": "Cut out up to 30 photos at once and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "tr": "Frilägg upp till 30 foton på en gång och exportera som PNG, JPG eller WEBP. Dina foton lämnar aldrig din telefon. Finns på 43 språk.",
+  "back": "Up to 30 photos at a time and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "sim": 0.9
+ },
+ {
+  "k": "onboardingNext",
+  "en": "Next",
+  "tr": "Nästa",
+  "back": "Next one",
+  "sim": 0.67
+ },
+ {
+  "k": "onboardingGetStarted",
+  "en": "Get Started",
+  "tr": "Kom igång",
+  "back": "Let's get on with it.",
+  "sim": 0.29
+ },
+ {
+  "k": "homeCameraButton",
+  "en": "Camera",
+  "tr": "Kamera",
+  "back": "The camera",
+  "sim": 0.67
+ },
+ {
+  "k": "homeGalleryButton",
+  "en": "Gallery",
+  "tr": "Galleri",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "dateToday",
+  "en": "Today",
+  "tr": "Idag",
+  "back": "Today",
+  "sim": 1.0
+ },
+ {
+  "k": "dateYesterday",
+  "en": "Yesterday",
+  "tr": "Igår",
+  "back": "Yesterday",
+  "sim": 1.0
+ },
+ {
+  "k": "homeRecentExports",
+  "en": "Recent Exports",
+  "tr": "Senaste exporter",
+  "back": "Recent exports",
+  "sim": 1.0
+ },
+ {
+  "k": "homeEmptyStateMessage",
+  "en": "Tap Camera or Gallery to start.",
+  "tr": "Tryck på Kamera eller Galleri för att börja.",
+  "back": "Press Camera or Gallery to start.",
+  "sim": 0.83
+ },
+ {
+  "k": "homeExportUnavailable",
+  "en": "This export is no longer available.",
+  "tr": "Den här exporten är inte längre tillgänglig.",
+  "back": "This export is no longer available.",
+  "sim": 1.0
+ },
+ {
+  "k": "homeShareFailed",
+  "en": "Could not share this export.",
+  "tr": "Det gick inte att dela den här exporten.",
+  "back": "We couldn't share this export.",
+  "sim": 0.6
+ },
+ {
+  "k": "homeGalleryOpenFailed",
+  "en": "Could not open gallery.",
+  "tr": "Det gick inte att öppna galleriet.",
+  "back": "We couldn't open the gallery.",
+  "sim": 0.44
+ },
+ {
+  "k": "cameraTitle",
+  "en": "Camera",
+  "tr": "Kamera",
+  "back": "The camera",
+  "sim": 0.67
+ },
+ {
+  "k": "cameraPermissionDenied",
+  "en": "Camera access is needed to take a photo. Please allow access.",
+  "tr": "Kameraåtkomst behövs för att ta ett foto. Tillåt åtkomst.",
+  "back": "Camera access is required to take a photo.",
+  "sim": 0.74
+ },
+ {
+  "k": "cameraPermissionPermanentlyDenied",
+  "en": "Camera access was denied. Enable it in Settings to continue.",
+  "tr": "Kameraåtkomst nekades. Aktivera den i Inställningar för att fortsätta.",
+  "back": "Camera access was denied, so activate it in Settings to proceed.",
+  "sim": 0.76
+ },
+ {
+  "k": "cameraPermissionRestricted",
+  "en": "Camera access is restricted on this device.",
+  "tr": "Kameraåtkomst är begränsad på den här enheten.",
+  "back": "Camera access is restricted on this unit.",
+  "sim": 0.86
+ },
+ {
+  "k": "cameraNoCameraFound",
+  "en": "No camera found on this device.",
+  "tr": "Ingen kamera hittades på den här enheten.",
+  "back": "No cameras were found on this unit.",
+  "sim": 0.62
+ },
+ {
+  "k": "cameraStartFailed",
+  "en": "Could not start the camera.",
+  "tr": "Det gick inte att starta kameran.",
+  "back": "I couldn't start the camera.",
+  "sim": 0.6
+ },
+ {
+  "k": "cameraCaptureFailed",
+  "en": "Could not capture photo.",
+  "tr": "Det gick inte att ta fotot.",
+  "back": "I couldn't get the picture.",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraOpenSettings",
+  "en": "Open Settings",
+  "tr": "Öppna Inställningar",
+  "back": "Open settings",
+  "sim": 1.0
+ },
+ {
+  "k": "cameraFlashTooltip",
+  "en": "Flash",
+  "tr": "Blixt",
+  "back": "Lightning",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraGalleryTooltip",
+  "en": "Gallery",
+  "tr": "Galleri",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "cropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Beskär och rotera",
+  "back": "Cutting and rotating",
+  "sim": 0.0
+ },
+ {
+  "k": "cropLoadFailed",
+  "en": "Could not load the image.",
+  "tr": "Det gick inte att läsa in bilden.",
+  "back": "I couldn't read the picture.",
+  "sim": 0.2
+ },
+ {
+  "k": "cropRotateFailed",
+  "en": "Could not rotate the image.",
+  "tr": "Det gick inte att rotera bilden.",
+  "back": "I couldn't rotate the picture.",
+  "sim": 0.4
+ },
+ {
+  "k": "cropFailed",
+  "en": "Crop failed.",
+  "tr": "Beskärningen misslyckades.",
+  "back": "The cutting was unsuccessful.",
+  "sim": 0.0
+ },
+ {
+  "k": "cropSaveFailed",
+  "en": "Could not save the cropped image.",
+  "tr": "Det gick inte att spara den beskurna bilden.",
+  "back": "It wasn't possible to save the modest image.",
+  "sim": 0.43
+ },
+ {
+  "k": "cropAspectFree",
+  "en": "Free",
+  "tr": "Fritt",
+  "back": "Free of charge",
+  "sim": 0.5
+ },
+ {
+  "k": "cropContinue",
+  "en": "Continue",
+  "tr": "Fortsätt",
+  "back": "Keep going.",
+  "sim": 0.0
+ },
+ {
+  "k": "editorSegmentationFailedMessage",
+  "en": "Your device doesn't support automatic background removal. Use the manual brush below.",
+  "tr": "Din enhet stöder inte automatisk bakgrundsborttagning. Använd det manuella suddgummit nedan.",
+  "back": "Your device does not support automatic background removal.",
+  "sim": 0.6
+ },
+ {
+  "k": "brushErase",
+  "en": "Erase",
+  "tr": "Sudda",
+  "back": "South",
+  "sim": 0.0
+ },
+ {
+  "k": "brushRestore",
+  "en": "Restore",
+  "tr": "Återställ",
+  "back": "Restore",
+  "sim": 1.0
+ },
+ {
+  "k": "brushSizeLabel",
+  "en": "Brush Size",
+  "tr": "Penselstorlek",
+  "back": "Size of brush",
+  "sim": 0.4
+ },
+ {
+  "k": "brushOpacityLabel",
+  "en": "Opacity",
+  "tr": "Opacitet",
+  "back": "Uncertainty",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundWhite",
+  "en": "White",
+  "tr": "Vit",
+  "back": "White",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundBlack",
+  "en": "Black",
+  "tr": "Svart",
+  "back": "It's black.",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundBlurLabel",
+  "en": "Blur",
+  "tr": "Oskärpa",
+  "back": "Not sharp",
+  "sim": 0.0
+ },
+ {
+  "k": "edgeFeatherLabel",
+  "en": "Edge Smoothness",
+  "tr": "Kantmjukhet",
+  "back": "Extreme softness",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarUndo",
+  "en": "Undo",
+  "tr": "Ångra",
+  "back": "Repentance",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarRedo",
+  "en": "Redo",
+  "tr": "Gör om",
+  "back": "Turn around.",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarReset",
+  "en": "Reset",
+  "tr": "Nollställ",
+  "back": "0 position",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarExport",
+  "en": "Export",
+  "tr": "Exportera",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmTitle",
+  "en": "Reset edits?",
+  "tr": "Nollställa ändringar?",
+  "back": "Zeroing the changes?",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmBody",
+  "en": "This clears your manual brush strokes. This cannot be undone.",
+  "tr": "Det här rensar dina manuella penseldrag. Det går inte att ångra.",
+  "back": "This will clear your hand brushes.",
+  "sim": 0.25
+ },
+ {
+  "k": "resetConfirmCancel",
+  "en": "Cancel",
+  "tr": "Avbryt",
+  "back": "Discontinued",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmConfirm",
+  "en": "Reset",
+  "tr": "Nollställ",
+  "back": "0 position",
+  "sim": 0.0
+ },
+ {
+  "k": "exportTitle",
+  "en": "Export",
+  "tr": "Exportera",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "exportQualityLabel",
+  "en": "Quality: {value}",
+  "tr": "Kvalitet: {value}",
+  "back": "Quality: [value]",
+  "sim": 1.0
+ },
+ {
+  "k": "exportResizeLabel",
+  "en": "Resize",
+  "tr": "Ändra storlek",
+  "back": "Change the size",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeCustom",
+  "en": "Custom",
+  "tr": "Anpassad",
+  "back": "For the purposes of this Regulation:",
+  "sim": 0.0
+ },
+ {
+  "k": "exportWidthLabel",
+  "en": "Width (px)",
+  "tr": "Bredd (px)",
+  "back": "Width (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportHeightLabel",
+  "en": "Height (px)",
+  "tr": "Höjd (px)",
+  "back": "Height (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSaveToGallery",
+  "en": "Save to Gallery",
+  "tr": "Spara i Galleri",
+  "back": "Save in Gallery",
+  "sim": 0.67
+ },
+ {
+  "k": "exportShare",
+  "en": "Share",
+  "tr": "Dela",
+  "back": "Sharing",
+  "sim": 0.0
+ },
+ {
+  "k": "exportSuccess",
+  "en": "Exported!",
+  "tr": "Exporterad!",
+  "back": "Exported!",
+  "sim": 1.0
+ },
+ {
+  "k": "exportFailed",
+  "en": "Export failed. Please try again.",
+  "tr": "Exporten misslyckades. Försök igen.",
+  "back": "Export failed, try again.",
+  "sim": 0.89
+ },
+ {
+  "k": "exportInProgress",
+  "en": "Exporting…",
+  "tr": "Exporterar…",
+  "back": "It exports...",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTitle",
+  "en": "Settings",
+  "tr": "Inställningar",
+  "back": "Settings",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsTheme",
+  "en": "Theme",
+  "tr": "Tema",
+  "back": "Subjects",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLanguage",
+  "en": "Language",
+  "tr": "Språk",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Återställ köp",
+  "back": "Restore purchases",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsGoAdFree",
+  "en": "Go Ad-Free",
+  "tr": "Ta bort annonser",
+  "back": "Remove the ads",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsPrivacyPolicy",
+  "en": "Privacy Policy",
+  "tr": "Integritetspolicy",
+  "back": "Integrity policy",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsRateApp",
+  "en": "Rate App",
+  "tr": "Betygsätt appen",
+  "back": "Rate the app",
+  "sim": 0.8
+ },
+ {
+  "k": "settingsShareApp",
+  "en": "Share App",
+  "tr": "Dela appen",
+  "back": "Share the app",
+  "sim": 0.8
+ },
+ {
+  "k": "settingsLicenses",
+  "en": "Open-source licenses",
+  "tr": "Licenser för öppen källkod",
+  "back": "Licences for open source",
+  "sim": 0.0
+ },
+ {
+  "k": "reminderChannelName",
+  "en": "Edit reminders",
+  "tr": "Påminnelser om redigering",
+  "back": "Reminders of editing",
+  "sim": 0.4
+ },
+ {
+  "k": "reminderChannelDescription",
+  "en": "Reminders about edits you have not finished.",
+  "tr": "Påminnelser om redigeringar du inte har avslutat.",
+  "back": "Reminds me of edits you haven't finished.",
+  "sim": 0.43
+ },
+ {
+  "k": "reminderTitle",
+  "en": "Your edit is waiting",
+  "tr": "Din redigering väntar",
+  "back": "Your editing awaits",
+  "sim": 0.29
+ },
+ {
+  "k": "reminderBody",
+  "en": "Pick up where you left off and export your photo.",
+  "tr": "Fortsätt där du slutade och exportera ditt foto.",
+  "back": "Go back to where you left off and export your photo.",
+  "sim": 0.76
+ },
+ {
+  "k": "settingsReminders",
+  "en": "Edit reminders",
+  "tr": "Påminnelser om redigering",
+  "back": "Reminders of editing",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsAnimatedBackground",
+  "en": "Animated home background",
+  "tr": "Animerad startbakgrund",
+  "back": "Animated starting background",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsRemindersSubtitle",
+  "en": "Remind me about unfinished edits",
+  "tr": "Påminn mig om ofärdiga redigeringar",
+  "back": "Remind me of incomplete edits",
+  "sim": 0.6
+ },
+ {
+  "k": "settingsRemindersBlocked",
+  "en": "Notifications are turned off for PhotoSur in your phone's settings.",
+  "tr": "Aviseringar för PhotoSur är avstängda i telefonens inställningar.",
+  "back": "PhotoSur alerts are turned off in the phone settings.",
+  "sim": 0.53
+ },
+ {
+  "k": "editorBrushHint",
+  "en": "Drag to paint. Pinch with two fingers to zoom.",
+  "tr": "Dra för att måla. Nyp med två fingrar för att zooma.",
+  "back": "Draw to paint, tap with two fingers to zoom in.",
+  "sim": 0.74
+ },
+ {
+  "k": "editorToolCutout",
+  "en": "Cut-out",
+  "tr": "Frilägg",
+  "back": "Excluded",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBrush",
+  "en": "Brush",
+  "tr": "Pensel",
+  "back": "Brushes and brushes",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBackground",
+  "en": "Background",
+  "tr": "Bakgrund",
+  "back": "Background",
+  "sim": 1.0
+ },
+ {
+  "k": "layoutAutoCenter",
+  "en": "Auto-center",
+  "tr": "Centrera auto",
+  "back": "Central car",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutSizeLabel",
+  "en": "Size",
+  "tr": "Storlek",
+  "back": "Size",
+  "sim": 1.0
+ },
+ {
+  "k": "layoutShadowLabel",
+  "en": "Shadow",
+  "tr": "Skugga",
+  "back": "Shadow",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundPhoto",
+  "en": "Photo",
+  "tr": "Foto",
+  "back": "This is a photo.",
+  "sim": 0.4
+ },
+ {
+  "k": "backgroundPhotoFailed",
+  "en": "Could not load that photo.",
+  "tr": "Det gick inte att läsa in fotot.",
+  "back": "I couldn't read the photo.",
+  "sim": 0.2
+ },
+ {
+  "k": "editorLayoutHint",
+  "en": "Drag to move. Pinch with two fingers to resize.",
+  "tr": "Dra för att flytta. Nyp med två fingrar för att ändra storlek.",
+  "back": "Pull to move, tap with two fingers to change size.",
+  "sim": 0.63
+ },
+ {
+  "k": "languageSystemDefault",
+  "en": "System default",
+  "tr": "Systemstandard",
+  "back": "Standard of the system",
+  "sim": 0.33
+ },
+ {
+  "k": "languageSheetTitle",
+  "en": "Language",
+  "tr": "Språk",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "themeSheetTitle",
+  "en": "Theme",
+  "tr": "Tema",
+  "back": "Subjects",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionSystem",
+  "en": "System default",
+  "tr": "Systemstandard",
+  "back": "Standard of the system",
+  "sim": 0.33
+ },
+ {
+  "k": "themeOptionLight",
+  "en": "Light",
+  "tr": "Ljust",
+  "back": "Light",
+  "sim": 1.0
+ },
+ {
+  "k": "themeOptionDark",
+  "en": "Dark",
+  "tr": "Mörkt",
+  "back": "It's dark.",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsLinkNotReady",
+  "en": "This link isn't set up yet.",
+  "tr": "Länken är inte konfigurerad än.",
+  "back": "The link hasn't been set up yet.",
+  "sim": 0.62
+ },
+ {
+  "k": "settingsLinkOpenFailed",
+  "en": "Could not open link.",
+  "tr": "Det gick inte att öppna länken.",
+  "back": "We couldn't open the link.",
+  "sim": 0.44
+ },
+ {
+  "k": "settingsRestoreRequested",
+  "en": "Restore requested — check back in a moment.",
+  "tr": "Återställning begärd — kolla igen om en stund.",
+  "back": "Restoration requested  check again in a moment.",
+  "sim": 0.71
+ },
+ {
+  "k": "settingsRestoreFailed",
+  "en": "Restore failed.",
+  "tr": "Återställningen misslyckades.",
+  "back": "The restoration was unsuccessful.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsShareFailed",
+  "en": "Could not share.",
+  "tr": "Det gick inte att dela.",
+  "back": "I couldn't share it.",
+  "sim": 0.29
+ },
+ {
+  "k": "settingsShareAppMessage",
+  "en": "Remove photo backgrounds instantly with PhotoSur — free, no watermark.",
+  "tr": "Ta bort bakgrunden på foton direkt med PhotoSur — gratis, utan vattenstämpel.",
+  "back": "Remove the background of the photos directly with PhotoSur  free of charge, without watermark.",
+  "sim": 0.43
+ },
+ {
+  "k": "paywallTitle",
+  "en": "Go Ad-Free",
+  "tr": "Ta bort annonser",
+  "back": "Remove the ads",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallAlreadyAdFree",
+  "en": "You're already ad-free. Thank you!",
+  "tr": "Du har redan tagit bort annonserna. Tack!",
+  "back": "You've already deleted the ads.",
+  "sim": 0.2
+ },
+ {
+  "k": "paywallPlanFreeTitle",
+  "en": "Free",
+  "tr": "Gratis",
+  "back": "Free of charge",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPlanAdFreeTitle",
+  "en": "Ad-Free",
+  "tr": "Annonsfritt",
+  "back": "Advertising free",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPlanAdFreePrice",
+  "en": "One-time purchase",
+  "tr": "Engångsköp",
+  "back": "One-time purchase",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallFeatureAllFeatures",
+  "en": "All features",
+  "tr": "Alla funktioner",
+  "back": "All functions",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallFeatureAdSupported",
+  "en": "Ad-supported",
+  "tr": "Med annonser",
+  "back": "With advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureZeroAds",
+  "en": "Zero ads",
+  "tr": "Inga annonser",
+  "back": "No ads",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPurchaseButton",
+  "en": "Remove Ads",
+  "tr": "Ta bort annonser",
+  "back": "Remove the ads",
+  "sim": 0.8
+ },
+ {
+  "k": "paywallPurchaseButtonPrice",
+  "en": "Remove Ads — {price}",
+  "tr": "Ta bort annonser — {price}",
+  "back": "Remove ads  [price]",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Återställ köp",
+  "back": "Restore purchases",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallProductUnavailable",
+  "en": "Ad removal is not available right now.",
+  "tr": "Annonsborttagning är inte tillgänglig just nu.",
+  "back": "Ad removal is not available at this time.",
+  "sim": 0.67
+ },
+ {
+  "k": "paywallPurchaseFailed",
+  "en": "Purchase failed.",
+  "tr": "Köpet misslyckades.",
+  "back": "The purchase failed.",
+  "sim": 0.8
+ },
+ {
+  "k": "errorScreenTitle",
+  "en": "Something went wrong",
+  "tr": "Något gick fel",
+  "back": "Something went wrong.",
+  "sim": 1.0
+ },
+ {
+  "k": "errorScreenBody",
+  "en": "Try again, or restart the app if this keeps happening.",
+  "tr": "Försök igen, eller starta om appen om problemet kvarstår.",
+  "back": "Try again, or restart the app if the problem persists.",
+  "sim": 0.7
+ },
+ {
+  "k": "errorScreenGoBack",
+  "en": "Go back",
+  "tr": "Tillbaka",
+  "back": "Back to the drawing board.",
+  "sim": 0.29
+ },
+ {
+  "k": "errorScreenReportEmail",
+  "en": "Report via {email}",
+  "tr": "Rapportera via {email}",
+  "back": "Reporting by [email]",
+  "sim": 0.33
+ },
+ {
+  "k": "unsupportedTitle",
+  "en": "Device Not Supported",
+  "tr": "Enheten stöds inte",
+  "back": "Unit not supported",
+  "sim": 0.67
+ },
+ {
+  "k": "unsupportedNoCameraMessage",
+  "en": "This device doesn't have a camera available.",
+  "tr": "Den här enheten har ingen tillgänglig kamera.",
+  "back": "This unit doesn't have a camera available.",
+  "sim": 0.86
+ },
+ {
+  "k": "unsupportedLowMemoryMessage",
+  "en": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
+  "tr": "Den här enheten har inte tillräckligt med minne för att köra PhotoSurs redigerare pålitligt.",
+  "back": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
+  "sim": 1.0
+ },
+ {
+  "k": "unsupportedManualImportHint",
+  "en": "You can still import a photo from your gallery and use the manual brush tool.",
+  "tr": "Du kan fortfarande importera ett foto från galleriet och använda den manuella penseln.",
+  "back": "You can still import a photo from the gallery and use the manual brush.",
+  "sim": 0.9
+ },
+ {
+  "k": "unsupportedUseGalleryButton",
+  "en": "Import from Gallery",
+  "tr": "Importera från Galleri",
+  "back": "Imported from Gallery",
+  "sim": 0.67
+ },
+ {
+  "k": "batchTitle",
+  "en": "Batch cut-out",
+  "tr": "Batch-frilägg",
+  "back": "Batch release",
+  "sim": 0.5
+ },
+ {
+  "k": "batchOutputWhite",
+  "en": "White background (JPG)",
+  "tr": "Vit bakgrund (JPG)",
+  "back": "White background (JPG)",
+  "sim": 1.0
+ },
+ {
+  "k": "batchStart",
+  "en": "Start",
+  "tr": "Starta",
+  "back": "Starting",
+  "sim": 0.0
+ },
+ {
+  "k": "batchStop",
+  "en": "Stop",
+  "tr": "Stoppa",
+  "back": "Stop it!",
+  "sim": 0.67
+ },
+ {
+  "k": "batchDone",
+  "en": "Done",
+  "tr": "Klart",
+  "back": "Of course.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchProgress",
+  "en": "{done} of {total} done",
+  "tr": "{done} av {total} klara",
+  "back": "[done] of [total] finished",
+  "sim": 0.75
+ },
+ {
+  "k": "batchSaved",
+  "en": "{count} saved to your gallery",
+  "tr": "{count} sparade i ditt galleri",
+  "back": "[count] saved in your gallery",
+  "sim": 0.8
+ },
+ {
+  "k": "batchSomeFailed",
+  "en": "{count} could not be processed",
+  "tr": "{count} kunde inte bearbetas",
+  "back": "[count] could not be processed",
+  "sim": 1.0
+ },
+ {
+  "k": "batchTooMany",
+  "en": "Up to {max} photos at a time",
+  "tr": "Upp till {max} foton åt gången",
+  "back": "Up to [max] photos at a time",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundAddCustom",
+  "en": "Add custom background",
+  "tr": "Lägg till egen bakgrund",
+  "back": "Add your own background",
+  "sim": 0.57
+ },
+ {
+  "k": "backgroundCustomColor",
+  "en": "Custom color",
+  "tr": "Egen färg",
+  "back": "Own colour",
+  "sim": 0.0
+ },
+ {
+  "k": "colorSaturation",
+  "en": "Saturation",
+  "tr": "Mättnad",
+  "back": "Satisfaction",
+  "sim": 0.0
+ },
+ {
+  "k": "colorBrightness",
+  "en": "Brightness",
+  "tr": "Ljusstyrka",
+  "back": "Light intensity",
+  "sim": 0.0
+ },
+ {
+  "k": "colorHexLabel",
+  "en": "Hex code",
+  "tr": "Hexkod",
+  "back": "Hex code",
+  "sim": 1.0
+ },
+ {
+  "k": "colorPickerDone",
+  "en": "Done",
+  "tr": "Klart",
+  "back": "Of course.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceLabel",
+  "en": "Marketplace",
+  "tr": "Marknadsplats",
+  "back": "Market location",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceWhiteFill",
+  "en": "Pure white background, product fills the frame",
+  "tr": "Helvit bakgrund, produkten fyller bilden",
+  "back": "In the background, the product fills the picture.",
+  "sim": 0.53
+ },
+ {
+  "k": "exportMarketplaceSizeCap",
+  "en": "File kept under {size} MB",
+  "tr": "Filen under {size} MB",
+  "back": "The file is under [size] MB",
+  "sim": 0.73
+ },
+ {
+  "k": "editorToolTemplates",
+  "en": "Templates",
+  "tr": "Mallar",
+  "back": "Manufacture from materials of any heading",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTitle",
+  "en": "Choose a template",
+  "tr": "Välj en mall",
+  "back": "Choose a template",
+  "sim": 1.0
+ },
+ {
+  "k": "templatesColorBlock",
+  "en": "Color block",
+  "tr": "Färgblock",
+  "back": "Colour blocks",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTextures",
+  "en": "Textures",
+  "tr": "Texturer",
+  "back": "Textures",
+  "sim": 1.0
+ },
+ {
+  "k": "templatesLight",
+  "en": "Light & shadow",
+  "tr": "Ljus & skugga",
+  "back": "Light and shadow",
+  "sim": 0.8
+ },
+ {
+  "k": "templatesPatterns",
+  "en": "Gradients & patterns",
+  "tr": "Toningar & mönster",
+  "back": "Tones and patterns",
+  "sim": 0.4
+ },
+ {
+  "k": "hdGetAction",
+  "en": "Get HD cut-out",
+  "tr": "Hämta HD-frilägg",
+  "back": "Get the HD footage.",
+  "sim": 0.57
+ },
+ {
+  "k": "hdRedoAction",
+  "en": "Redo cut-out in HD",
+  "tr": "Gör om frilägget i HD",
+  "back": "Re-create the frequency in HD",
+  "sim": 0.44
+ },
+ {
+  "k": "hdDownloading",
+  "en": "HD cut-out in progress… {percent}%",
+  "tr": "HD-frilägg pågår… {percent} %",
+  "back": "HD free play is ongoing... [percentage] %",
+  "sim": 0.18
+ },
+ {
+  "k": "hdDownloadingShort",
+  "en": "HD cut-out… {percent}%",
+  "tr": "HD-frilägg… {percent} %",
+  "back": "High frequency (HD) displays... [percentage] %",
+  "sim": 0.25
+ },
+ {
+  "k": "hdConfirmTitle",
+  "en": "Download HD cut-out model?",
+  "tr": "Ladda ned HD-friläggsmodellen?",
+  "back": "You want to download the HD freeware model?",
+  "sim": 0.5
+ },
+ {
+  "k": "hdConfirmBody",
+  "en": "Cleaner edges on tricky objects like shoes, bags and bottles. It downloads once, stays on your phone and then works offline. Mobile data charges may apply.",
+  "tr": "Renare kanter på svåra objekt som skor, väskor och flaskor. Laddas ned en gång, ligger kvar på telefonen och fungerar sedan offline. Kostnader för mobildata kan tillkomma.",
+  "back": "Cleaner edges on hard objects like shoes, suitcases, and bottles -- downloaded once, left on the phone, then offline -- mobile data costs can add up.",
+  "sim": 0.6
+ },
+ {
+  "k": "hdDownload",
+  "en": "Download",
+  "tr": "Ladda ned",
+  "back": "Load it down",
+  "sim": 0.0
+ },
+ {
+  "k": "hdFailed",
+  "en": "HD cut-out didn’t finish. Check your connection and try again.",
+  "tr": "HD-frilägg blev inte klart. Kontrollera anslutningen och försök igen.",
+  "back": "The HD screen wasn't finished, so check the connection and try again.",
+  "sim": 0.55
+ },
+ {
+  "k": "settingsHdTitle",
+  "en": "HD cut-out model",
+  "tr": "HD-friläggsmodell",
+  "back": "High frequency frequency (HD) model",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsHdNotInstalled",
+  "en": "Not downloaded",
+  "tr": "Inte nedladdad",
+  "back": "Not downloaded",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsHdInstalled",
+  "en": "Installed · works offline",
+  "tr": "Installerad · fungerar offline",
+  "back": "Installed · works offline",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsHdRemove",
+  "en": "Remove",
+  "tr": "Ta bort",
+  "back": "Take it off.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsReplayIntro",
+  "en": "Replay intro",
+  "tr": "Visa introt igen",
+  "back": "Show the entrance again",
+  "sim": 0.0
+ },
+ {
+  "k": "homeSeeAll",
+  "en": "See all",
+  "tr": "Visa alla",
+  "back": "Show them all",
+  "sim": 0.4
+ },
+ {
+  "k": "exportActionEdit",
+  "en": "Edit again",
+  "tr": "Redigera igen",
+  "back": "Edit again",
+  "sim": 1.0
+ },
+ {
+  "k": "exportActionDelete",
+  "en": "Delete",
+  "tr": "Radera",
+  "back": "Deleted",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMoreOptions",
+  "en": "More options",
+  "tr": "Fler alternativ",
+  "back": "More options",
+  "sim": 1.0
+ },
+ {
+  "k": "exportDeleteTitle",
+  "en": "Delete this export?",
+  "tr": "Radera den här exporten?",
+  "back": "Erase this export?",
+  "sim": 0.67
+ },
+ {
+  "k": "exportDeleteBody",
+  "en": "Exported images are removed from this phone. Your original photos and anything saved to your gallery are not affected.",
+  "tr": "Exporterade bilder tas bort från den här telefonen. Dina originalfoton och det du sparat i galleriet påverkas inte.",
+  "back": "Exported photos will be removed from this phone, and your original photos and what you saved in the gallery will not be affected.",
+  "sim": 0.62
+ },
+ {
+  "k": "exportSavedToGallery",
+  "en": "Saved to your gallery",
+  "tr": "Sparad i galleriet",
+  "back": "Saved in the Gallery",
+  "sim": 0.5
+ },
+ {
+  "k": "exportSaveFailed",
+  "en": "Could not save to the gallery.",
+  "tr": "Det gick inte att spara i galleriet.",
+  "back": "It couldn't be saved in the gallery.",
+  "sim": 0.31
+ },
+ {
+  "k": "exportUnavailable",
+  "en": "Unavailable",
+  "tr": "Inte tillgänglig",
+  "back": "Not available",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsGroupThisWeek",
+  "en": "This week",
+  "tr": "Den här veckan",
+  "back": "This week",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsGroupEarlier",
+  "en": "Earlier",
+  "tr": "Tidigare",
+  "back": "Previously on",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsStorageUsed",
+  "en": "{size} used on this phone",
+  "tr": "{size} används på den här telefonen",
+  "back": "[size] used on this phone",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsSelect",
+  "en": "Select",
+  "tr": "Välj",
+  "back": "Choose",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsDone",
+  "en": "Done",
+  "tr": "Klar",
+  "back": "I'm ready to go.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsSelectedCount",
+  "en": "{count} selected",
+  "tr": "{count} valda",
+  "back": "[count] selected",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDeleteSelectedTitle",
+  "en": "Delete {count} exports?",
+  "tr": "Radera {count} exporter?",
+  "back": "Erase [count] exports?",
+  "sim": 0.67
+ },
+ {
+  "k": "exportsDeleteAll",
+  "en": "Delete all exports",
+  "tr": "Radera alla exporter",
+  "back": "Delete all exports",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDeleteAllTitle",
+  "en": "Delete all exports?",
+  "tr": "Radera alla exporter?",
+  "back": "Erase all exports?",
+  "sim": 0.67
+ },
+ {
+  "k": "helpTitle",
+  "en": "Help & how to use",
+  "tr": "Hjälp och instruktioner",
+  "back": "Help and instructions",
+  "sim": 0.29
+ },
+ {
+  "k": "helpIntro",
+  "en": "Tap a topic to read how it works.",
+  "tr": "Tryck på ett ämne för att läsa hur det fungerar.",
+  "back": "Press a subject to read how it works.",
+  "sim": 0.75
+ },
+ {
+  "k": "helpStartTitle",
+  "en": "Getting started",
+  "tr": "Komma igång",
+  "back": "Let's get started.",
+  "sim": 0.4
+ },
+ {
+  "k": "helpStart1",
+  "en": "On the home screen, tap Camera to take a photo or Gallery to pick one. Batch cuts out many photos at once.",
+  "tr": "På startskärmen trycker du på Kamera för att ta ett foto eller Galleri för att välja ett. Batch frilägger många foton på en gång.",
+  "back": "On the home screen, press Camera to take a photo, or Gallery to choose one, and Batch releases multiple photos at once.",
+  "sim": 0.77
+ },
+ {
+  "k": "helpStart2",
+  "en": "Every photo opens in Crop & Rotate first, then in the editor. Your original photo is never changed.",
+  "tr": "Varje foto öppnas först i Beskär och rotera och sedan i redigeraren. Ditt originalfoto ändras aldrig.",
+  "back": "Every photo opens first in Scroll and Rotate and then in the editor.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpStart3",
+  "en": "When you are happy, tap Export in the editor. Recent Exports on the home screen lists everything you have exported.",
+  "tr": "När du är nöjd trycker du på Exportera i redigeraren. Senaste exporter på startskärmen listar allt du har exporterat.",
+  "back": "When you're satisfied, press Export in the editor, and the latest exports on the home screen list everything you've exported.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpCropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Beskär och rotera",
+  "back": "Cutting and rotating",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCrop1",
+  "en": "Turn the photo left or right in 90° steps, and drag the frame to choose the part you want to keep.",
+  "tr": "Rotera fotot åt vänster eller höger i steg om 90° och dra i ramen för att välja den del du vill behålla.",
+  "back": "Rotate the photo to the left or to the right in 90° steps and pull into the frame to select the part you want to keep.",
+  "sim": 0.77
+ },
+ {
+  "k": "helpCrop2",
+  "en": "Free lets you shape the frame as you like. 1:1, 4:5 and 9:16 lock its shape. Tap Continue to open the editor.",
+  "tr": "Fritt låter dig ge ramen vilken form du vill. 1:1, 4:5 och 9:16 låser dess form. Tryck på Fortsätt för att öppna redigeraren.",
+  "back": "Free allows you to give the frame whatever shape you want. 1:1, 4:5, and 9:16 lock its shape.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpCutoutTitle",
+  "en": "Cut-out",
+  "tr": "Frilägg",
+  "back": "Excluded",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCutout1",
+  "en": "When the editor opens, PhotoSur finds the main subject and removes the background automatically, on your phone. No internet is needed.",
+  "tr": "När redigeraren öppnas hittar PhotoSur huvudmotivet och tar bort bakgrunden automatiskt, på din telefon. Du behöver inget internet.",
+  "back": "When the editor opens, PhotoSur will find the main motif and automatically remove the background on your phone.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpCutout2",
+  "en": "Edge Smoothness softens the edge of the cut-out, from 0 to 20 pixels.",
+  "tr": "Kantmjukhet mjukar upp kanten på friläggningen, från 0 till 20 pixlar.",
+  "back": "Edge softness softened the edge of the release, from 0 to 20 pixels.",
+  "sim": 0.77
+ },
+ {
+  "k": "helpCutout3",
+  "en": "The eye button at the top shows your original photo so you can compare. Tap it again to go back. The brush is paused while the original is shown.",
+  "tr": "Ögonknappen högst upp visar ditt originalfoto för jämförelse. Tryck på den igen för att gå tillbaka. Penseln är pausad så länge originalet visas.",
+  "back": "The eye button at the top shows your original photo for comparison, press it again to go back, and the pencil is paused as long as the original is shown.",
+  "sim": 0.75
+ },
+ {
+  "k": "helpCutout4",
+  "en": "For difficult subjects such as glass, shoes, bags and bottles, tap Get HD cut-out. The HD model downloads once, stays on your phone and then works offline. Once it is installed, every new cut-out uses it automatically. To redo the photo you have open, tap Redo cut-out in HD.",
+  "tr": "För svåra motiv, som glas, skor, väskor och flaskor, trycker du på Hämta HD-frilägg. HD-modellen laddas ned bara en gång, finns kvar på din telefon och fungerar sedan offline. När den är installerad använder varje nytt frilägg den automatiskt. Om du vill göra om det öppna fotot trycker du på Gör om frilägget i HD.",
+  "back": "For heavy objects like glass, shoes, bags, and bottles, you press \"Get HD view\". The HD model is downloaded only once, stays on your phone, and then works offline. When it's installed, each new view uses it automatically. If you want to re-open the photo, press \"Reset the view in HD\".",
+  "sim": 0.6
+ },
+ {
+  "k": "helpBrushTitle",
+  "en": "Brush",
+  "tr": "Pensel",
+  "back": "Brushes and brushes",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBrush1",
+  "en": "Erase removes parts of the subject. Restore brings back parts the cut-out removed.",
+  "tr": "Sudda tar bort delar av motivet. Återställ tar tillbaka delar som friläggningen tog bort.",
+  "back": "Sudda removes parts of the motive.",
+  "sim": 0.42
+ },
+ {
+  "k": "helpBrush2",
+  "en": "Drag one finger to paint. Use two fingers to zoom, up to 8 times, and to move the photo. The brush keeps its size on screen, so zooming in gives finer control.",
+  "tr": "Dra med ett finger för att måla. Använd två fingrar för att zooma, upp till 8 gånger, och flytta fotot. Penseln behåller sin storlek på skärmen, så när du zoomar in kan du arbeta mer exakt.",
+  "back": "Draw with one finger to paint. Use two fingers to zoom in, up to eight times, and move the photo. The pencil keeps its size on the screen, so when you zoom in you can work more accurately.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpBrush3",
+  "en": "Brush Size goes from 1 to 50. Opacity sets how strongly each stroke applies.",
+  "tr": "Penselstorlek går från 1 till 50. Opacitet styr hur kraftigt varje penseldrag blir.",
+  "back": "Brush size ranges from 1 to 50. The opacity determines how strong each brush stroke becomes.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpBrush4",
+  "en": "Undo and Redo step through your brush strokes. Reset clears all brush strokes and goes back to the automatic cut-out; it asks you to confirm first.",
+  "tr": "Ångra och Gör om stegar genom dina penseldrag. Nollställ raderar alla penseldrag och går tillbaka till den automatiska friläggningen; först ber appen om bekräftelse.",
+  "back": "Repent and re-step through your brush strokes. Zero stop erases all brush strokes and goes back to the automatic release; first, the app asks for confirmation.",
+  "sim": 0.58
+ },
+ {
+  "k": "helpBackgroundTitle",
+  "en": "Background",
+  "tr": "Bakgrund",
+  "back": "Background",
+  "sim": 1.0
+ },
+ {
+  "k": "helpBackground1",
+  "en": "Choose what goes behind your subject: transparent, white, black, a gradient, a colour, a blurred copy of your photo, or your own photo.",
+  "tr": "Välj vad som ska finnas bakom ditt motiv: transparent, vit, svart, en toning, en färg, en suddig kopia av ditt foto eller ditt eget foto.",
+  "back": "Choose what should be behind your subject: transparent, white, black, a hue, a color, a blurry copy of your photo or your own photo.",
+  "sim": 0.81
+ },
+ {
+  "k": "helpBackground2",
+  "en": "Only one background is used at a time. Your latest choice replaces the earlier one.",
+  "tr": "Bara en bakgrund används åt gången. Ditt senaste val ersätter det förra.",
+  "back": "Only one background is used at a time, and your last choice replaces your last.",
+  "sim": 0.73
+ },
+ {
+  "k": "helpBackground3",
+  "en": "Add custom background lets you pick a photo from your gallery. Custom color opens a colour picker. The Blur slider goes from 0 to 25.",
+  "tr": "Lägg till egen bakgrund låter dig välja ett foto från ditt galleri. Egen färg öppnar en färgväljare. Reglaget Oskärpa går från 0 till 25.",
+  "back": "Add your own background, let you choose a photo from your gallery, your own color opens a color selector, the rule of thumb goes from 0 to 25.",
+  "sim": 0.64
+ },
+ {
+  "k": "helpBackground4",
+  "en": "Transparent shows a checkerboard while you edit. Export as PNG to keep it transparent.",
+  "tr": "Transparent visar ett rutmönster under redigering. Exportera som PNG för att behålla transparensen.",
+  "back": "Transparent displays a runtime pattern during editing. Export as PNG to maintain transparency.",
+  "sim": 0.44
+ },
+ {
+  "k": "helpTemplatesTitle",
+  "en": "Templates",
+  "tr": "Mallar",
+  "back": "Manufacture from materials of any heading",
+  "sim": 0.0
+ },
+ {
+  "k": "helpTemplates1",
+  "en": "Templates are ready-made backgrounds in five groups: Studio, Color block, Textures, Light & shadow, and Gradients & patterns. Five scenes are shown in the panel; tap the Templates button to see them all.",
+  "tr": "Mallar är färdiga bakgrunder i fem grupper: Studio, Färgblock, Texturer, Ljus & skugga och Toningar & mönster. Fem scener visas i panelen; tryck på knappen Mallar för att se alla.",
+  "back": "Templates are finished backgrounds in five groups: Studio, Color Block, Textures, Light & Shadow and Tones & Patterns. Five scenes are displayed in the panel; press the Templates button to view them all.",
+  "sim": 0.84
+ },
+ {
+  "k": "helpTemplates2",
+  "en": "Choosing a template works like choosing your own photo as the background: it replaces your earlier background choice.",
+  "tr": "Att välja en mall är som att välja ditt eget foto som bakgrund: den ersätter ditt tidigare bakgrundsval.",
+  "back": "Choosing a template is like choosing your own photo as a background: it replaces your previous background choice.",
+  "sim": 0.83
+ },
+ {
+  "k": "helpLayout1",
+  "en": "Drag the subject on the photo to move it. Pinch with two fingers to resize it.",
+  "tr": "Dra motivet över fotot för att flytta det. Nyp med två fingrar för att ändra storlek.",
+  "back": "Pull the subject over the photo to move it, tap with two fingers to change size.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpLayout2",
+  "en": "Choose Original, 1:1, 4:5 or 9:16 to set the shape of the final picture.",
+  "tr": "Välj Original, 1:1, 4:5 eller 9:16 för att ställa in formen på den färdiga bilden.",
+  "back": "Select Original, 1:1, 4:5, or 9:16 to set the shape of the finished image.",
+  "sim": 0.79
+ },
+ {
+  "k": "helpLayout3",
+  "en": "Size sets how big the subject is, from 20% to 300%. Shadow sets how strong its shadow is. Auto-center puts the subject back in the middle. Reset undoes moving and resizing.",
+  "tr": "Storlek styr hur stort motivet är, från 20 % till 300 %. Skugga styr hur kraftig dess skugga är. Centrera auto flyttar tillbaka motivet till mitten. Nollställ ångrar förflyttningar och storleksändringar.",
+  "back": "Size controls the size of the subject, from 20 percent to 300 percent. Shadow controls the intensity of its shadow. Centrera auto moves the subject back to the center.",
+  "sim": 0.47
+ },
+ {
+  "k": "helpLayout4",
+  "en": "This shape is used when the export size is Original. If you choose a size preset or a marketplace in the export sheet, that decides the final shape instead.",
+  "tr": "Den här formen gäller när exportstorleken är Original. Om du väljer en färdig storlek eller en marknadsplats i exportvyn är det den som avgör den slutliga formen.",
+  "back": "This form applies when the export size is Original. If you choose a finished size or a marketplace in the export view, it is it that determines the final shape.",
+  "sim": 0.75
+ },
+ {
+  "k": "helpExportTitle",
+  "en": "Export",
+  "tr": "Exportera",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "helpExport1",
+  "en": "Tap Export to open the export sheet. Nothing is applied until you tap Save to Gallery or Share, so you can change your choices as often as you like.",
+  "tr": "Tryck på Exportera för att öppna exportvyn. Inget tillämpas förrän du trycker på Spara i Galleri eller Dela, så du kan ändra dina val hur många gånger du vill.",
+  "back": "Press Export to open the export view. Nothing applies until you press Save in Gallery or Share, so you can change your choices as many times as you want.",
+  "sim": 0.72
+ },
+ {
+  "k": "helpExport2",
+  "en": "PNG keeps transparency. JPG makes smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a small modern format; if your phone cannot make it, the file is saved as JPG. For JPG and WEBP, the Quality slider trades file size for detail.",
+  "tr": "PNG behåller transparens. JPG ger mindre filer men kan inte vara transparent, så en transparent bakgrund blir vit. WEBP är ett modernt, kompakt format; om din telefon inte kan skapa det sparas filen som JPG. För JPG och WEBP balanserar reglaget Kvalitet filstorlek mot detaljer.",
+  "back": "PNG maintains transparency. JPG provides smaller files but can't be transparent, so a transparent background becomes white. WEBP is a modern, compact format; if your phone can't create it saves the file as JPG. For JPG and WEBP, the control balances file size against detail.",
+  "sim": 0.76
+ },
+ {
+  "k": "helpExport3",
+  "en": "Original keeps your photo’s size, with the shape chosen in Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. Custom lets you type a width and height in pixels.",
+  "tr": "Original behåller storleken på ditt foto, med den form du valde i Layout. 1:1 är 1080 × 1080, 4:5 är 1080 × 1350 och 9:16 är 1080 × 1920. Anpassad låter dig skriva in bredd och höjd i pixlar.",
+  "back": "Original keeps the size of your photo, with the shape you chose in the layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350, and 9:16 is 1080 × 1920. Custom allows you to type width and height in pixels.",
+  "sim": 0.81
+ },
+ {
+  "k": "helpExport4",
+  "en": "Marketplace presets set size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG kept under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices, and choosing a format or size afterwards switches the marketplace off. Marketplace rules can change, so check your marketplace’s current requirements.",
+  "tr": "Förinställningar för marknadsplatser anger storlek, format och kvalitet: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG under 1 MB och Shopify 2048 × 2048 PNG. Att välja en ersätter dina val av format och storlek; om du sedan väljer ett format eller en storlek avmarkeras marknadsplatsen. Marknadsplatsernas regler kan ändras, så kontrollera de aktuella kraven för din.",
+  "back": "Marketplace settings specify size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG under 1 MB and Shopify 2048 × 2048 PNG. Choosing one replaces your choices of format and size; if you choose a format or size, the marketplace will be marked. Marketplace rules may change, so check the current requirements for yours.",
+  "sim": 0.78
+ },
+ {
+  "k": "helpExport5",
+  "en": "Amazon also uses a pure white background with no shadow and fits the subject to fill most of the frame. Your background choice in the editor is not changed. The other marketplaces keep your background.",
+  "tr": "Amazon använder dessutom en helvit bakgrund utan skugga och justerar motivet så att det fyller större delen av bilden. Ditt bakgrundsval i redigeraren ändras inte. De andra marknadsplatserna behåller din bakgrund.",
+  "back": "In addition, Amazon uses a hell of a background without shadows and adjusts the subject so that it fills most of the image.",
+  "sim": 0.34
+ },
+ {
+  "k": "helpExport6",
+  "en": "Save to Gallery and Share both save the picture to your gallery and to Recent Exports. Share also opens your phone’s share menu. If saving to the gallery is not possible, the share menu opens instead. After exporting you return to the home screen.",
+  "tr": "Spara i Galleri och Dela sparar båda bilden i ditt galleri och i Senaste exporter. Dela öppnar dessutom telefonens delningsmeny. Om det inte går att spara i galleriet öppnas delningsmenyn i stället. Efter exporten kommer du tillbaka till startskärmen.",
+  "back": "Save in Gallery and Share save both the image in your gallery and in Last Exports. Share also opens the sharing menu on your phone. If you can't save in the gallery, the sharing menu opens instead. After exporting, you'll return to the home screen.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpExport7",
+  "en": "Unless you have removed ads, an ad can appear after an export, at most once every two minutes.",
+  "tr": "Om du inte har tagit bort annonserna kan en annons visas efter en export, högst en gång var andra minut.",
+  "back": "If you have not deleted the advertisements, an advertisement may be displayed after an export, not more than once every two minutes.",
+  "sim": 0.5
+ },
+ {
+  "k": "helpBatch1",
+  "en": "Batch cuts out up to 30 photos in one go. Tap Batch on the home screen and pick your photos. The back button is turned off while a batch runs.",
+  "tr": "Batch frilägger upp till 30 foton på en gång. Tryck på Batch på startskärmen och välj dina foton. Bakåtknappen är avstängd medan en batch körs.",
+  "back": "Batch releases up to 30 photos at a time, press Batch on the home screen, select your photos, and the reverse button is turned off while a batch is running.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpBatch2",
+  "en": "All photos in a batch share one setup: one background and one marketplace. You cannot choose differently for each photo.",
+  "tr": "Alla foton i en batch delar en inställning: en bakgrund och en marknadsplats. Du kan inte välja olika för varje foto.",
+  "back": "All the photos in a batch share a setting: a background and a marketplace. You can't choose different for each photo.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpBatch3",
+  "en": "Backgrounds work as in the editor: your own photo, a colour, a template, white, transparent, black, blur or a gradient. Only one applies, and your latest choice replaces the earlier one.",
+  "tr": "Bakgrunderna fungerar som i redigeraren: ditt eget foto, en färg, en mall, vit, transparent, svart, suddig eller en toning. Bara en gäller, och ditt senaste val ersätter det förra.",
+  "back": "The backgrounds work like in the editor: your own photo, a color, a template, white, transparent, black, blurry, or a hue. Only one applies, and your last choice replaces the first.",
+  "sim": 0.77
+ },
+ {
+  "k": "helpBatch4",
+  "en": "The file format is chosen for you. With a marketplace, the photos follow that marketplace’s size and format. Without one, a transparent background gives PNG and any other background gives JPG, at the original size.",
+  "tr": "Filformatet väljs åt dig. Med en marknadsplats följer fotona dess storlek och format. Utan marknadsplats ger en transparent bakgrund PNG och alla andra bakgrunder JPG, i originalstorlek.",
+  "back": "The file format is chosen for you. With a marketplace, the photos follow its size and format. Without a marketplace, a transparent background provides PNG and all other JPG backgrounds, in original size.",
+  "sim": 0.76
+ },
+ {
+  "k": "helpBatch5",
+  "en": "Choosing Amazon switches the background to White; if you then choose another background, Amazon is switched off. eBay, Etsy and Shopify keep your background, but a JPG cannot be transparent, so it gets a white background.",
+  "tr": "Att välja Amazon sätter bakgrunden till Vit; om du sedan väljer en annan bakgrund avmarkeras Amazon. eBay, Etsy och Shopify behåller din bakgrund, men en JPG kan inte vara transparent och får därför en vit bakgrund.",
+  "back": "Choosing Amazon puts the background to White; then if you choose another background, Amazon is de-marked. eBay, Etsy and Shopify keep your background, but a JPG can't be transparent and therefore gets a white background.",
+  "sim": 0.82
+ },
+ {
+  "k": "helpBatch6",
+  "en": "If the HD model is installed, every photo in the batch is cut out with it. The Get HD cut-out button next to Templates downloads it.",
+  "tr": "Om HD-modellen är installerad friläggs varje foto i batchen med den. Knappen Hämta HD-frilägg bredvid Mallar laddar ned den.",
+  "back": "If the HD model is installed, every photo in the batch with it is released, and the Download HD release button next to Mallar downloads it.",
+  "sim": 0.77
+ },
+ {
+  "k": "helpBatch7",
+  "en": "Each photo is saved to your gallery and to Recent Exports as soon as it finishes. Stop ends the batch after the current photo, and photos already finished stay saved. If a photo fails, the batch carries on and tells you how many could not be processed. Done takes you back to the home screen; it does not save anything.",
+  "tr": "Varje foto sparas i ditt galleri och i Senaste exporter så fort det är klart. Stoppa avslutar batchen efter det pågående fotot, och foton som redan är klara förblir sparade. Om ett foto misslyckas fortsätter batchen och berättar hur många som inte kunde bearbetas. Klart tar dig tillbaka till startskärmen; det sparar ingenting.",
+  "back": "Every photo is saved in your gallery and in Last Export as soon as it's finished. Stop closes the batch after the current photo, and the photos that are already finished remain saved. If a photo fails, the batch continues and tells you how many were not processed.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpLibraryTitle",
+  "en": "Your exports",
+  "tr": "Dina exporter",
+  "back": "Your exports",
+  "sim": 1.0
+ },
+ {
+  "k": "helpLibrary1",
+  "en": "Recent Exports on the home screen shows your latest exports. Tap See all for every export, grouped as Today, Yesterday, This week and Earlier.",
+  "tr": "Senaste exporter på startskärmen visar dina nyaste exporter. Tryck på Visa alla för att se alla, grupperade i Idag, Igår, Den här veckan och Tidigare.",
+  "back": "Last exports on the home screen show your latest exports. Click Show all to see all, grouped into Today, Yesterday, This Week and Earlier.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpLibrary2",
+  "en": "Tap an export to open it full screen. Swipe to move between exports and pinch to zoom. The bar at the bottom has Share, Save to Gallery, Edit again and Delete.",
+  "tr": "Tryck på en export för att öppna den i helskärm. Svep för att växla mellan exporter och nyp för att zooma. Det nedre fältet erbjuder Dela, Spara i Galleri, Redigera igen och Radera.",
+  "back": "Press an export to open it in full-screen, swipe to switch between exports and swipe to zoom, and the bottom field offers Share, Save in Gallery, Edit Again, and Radar.",
+  "sim": 0.66
+ },
+ {
+  "k": "helpLibrary3",
+  "en": "The three-dot button on a tile opens the same actions. Edit again opens the exported picture as a new photo, so earlier brush strokes are not restored.",
+  "tr": "Knappen med tre punkter på en miniatyr öppnar samma åtgärder. Redigera igen öppnar den exporterade bilden som ett nytt foto, så tidigare penseldrag återställs inte.",
+  "back": "The three-point button on a thumbnail opens the same action, and the Reedit button opens the exported image as a new photo, so that previous brushstrokes are not restored.",
+  "sim": 0.64
+ },
+ {
+  "k": "helpLibrary4",
+  "en": "Select lets you choose several exports to share together or delete. Delete all exports removes every export from this phone.",
+  "tr": "Välj låter dig markera flera exporter för att dela eller radera dem tillsammans. Radera alla exporter tar bort alla exporter från den här telefonen.",
+  "back": "Select allows you to select multiple exports to share or delete them together.",
+  "sim": 0.42
+ },
+ {
+  "k": "helpLibrary5",
+  "en": "Deleting removes exports from PhotoSur only. Pictures already saved to your gallery are not affected. The bottom of the See all screen shows how much space exports use on this phone.",
+  "tr": "Radering tar bara bort exporter från PhotoSur. Bilder som redan sparats i ditt galleri berörs inte. Längst ned i Visa alla ser du hur mycket utrymme exporterna tar på den här telefonen.",
+  "back": "Deleting just removes exports from PhotoSur, and images that are already saved in your gallery are not affected, and the bottom of View All, you can see how much space the exports take up on this phone.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpPrivacyTitle",
+  "en": "Privacy & ads",
+  "tr": "Integritet och annonser",
+  "back": "Integrity and Advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "helpPrivacy1",
+  "en": "Your photos are processed on your phone and are not uploaded. There is no account and no watermark.",
+  "tr": "Dina foton bearbetas på din telefon och laddas inte upp. Det finns inget konto och ingen vattenstämpel.",
+  "back": "Your photos are processed on your phone and not uploaded, there's no account and no watermark.",
+  "sim": 0.88
+ },
+ {
+  "k": "helpPrivacy2",
+  "en": "PhotoSur is free with every feature included, supported by ads. A banner appears at the bottom of some screens, and an ad can appear after an export.",
+  "tr": "PhotoSur är gratis, med alla funktioner inkluderade, och finansieras av annonser. Längst ned på vissa skärmar visas en banner, och efter en export kan en annons visas.",
+  "back": "PhotoSur is free, with all features included, and funded by ads. At the bottom of some screens, a banner appears, and after an export, an advertisement can be displayed.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpPrivacy3",
+  "en": "Go Ad-Free in Settings is a one-time purchase that removes the ads. It does not unlock anything else, because every feature is already free. Restore Purchases brings it back on a new phone.",
+  "tr": "Ta bort annonser i Inställningar är ett engångsköp som tar bort annonserna. Det låser inte upp något annat, eftersom alla funktioner redan är gratis. Återställ köp tar tillbaka det på en ny telefon.",
+  "back": "Removing ads in Settings is a one-time purchase that removes the ads. It doesn't unlock anything else because all the features are already free.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpSettingsTitle",
+  "en": "Settings",
+  "tr": "Inställningar",
+  "back": "Settings",
+  "sim": 1.0
+ },
+ {
+  "k": "helpSettings1",
+  "en": "Theme can follow your phone, or be Light or Dark. Language changes the language of the app. Both are also in the home screen header.",
+  "tr": "Tema kan följa din telefon eller vara Ljust eller Mörkt. Språk ändrar appens språk. Båda finns också i startskärmens huvud.",
+  "back": "The theme can follow your phone, or it can be Light or Dark, language changes the language of the app, and both are also in the head of the home screen.",
+  "sim": 0.86
+ },
+ {
+  "k": "helpSettings2",
+  "en": "Edit reminders: if you leave the app with an unfinished edit, PhotoSur can remind you three hours later. Switch this off in Settings.",
+  "tr": "Påminnelser om redigering: om du lämnar appen med en oavslutad redigering kan PhotoSur påminna dig tre timmar senare. Stäng av det i Inställningar.",
+  "back": "Edit Reminders: if you leave the app with an unfinished edit, PhotoSur may remind you three hours later.",
+  "sim": 0.83
+ },
+ {
+  "k": "helpSettings3",
+  "en": "HD cut-out model shows whether it is installed. Remove deletes it from your phone to free space; you can download it again at any time.",
+  "tr": "HD-friläggsmodell visar om den är installerad. Ta bort raderar den från din telefon för att frigöra utrymme; du kan ladda ned den igen när som helst.",
+  "back": "The HD freeware model shows if it's installed. Remove deletes it from your phone to free up space; you can download it again at any time.",
+  "sim": 0.82
+ },
+ {
+  "k": "helpSettings4",
+  "en": "Replay intro shows the welcome screens again. Support opens the support page. Animated home background turns the moving picture at the top of the home screen on or off.",
+  "tr": "Visa introt igen visar välkomstskärmarna en gång till. Support öppnar supportsidan. Animerad startbakgrund slår på eller av den rörliga bilden högst upp på startskärmen.",
+  "back": "Show the entry again, show the welcome screens one more time, support opens the support page, animated start background turns on or off the moving image at the top of the start screen.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpFixTitle",
+  "en": "If something goes wrong",
+  "tr": "Om något går fel",
+  "back": "If something goes wrong",
+  "sim": 1.0
+ },
+ {
+  "k": "helpFix1",
+  "en": "If the automatic cut-out cannot run on a very old or low-memory phone, the brush still works, so you can finish the picture by hand.",
+  "tr": "Om den automatiska friläggningen inte kan köras på en mycket gammal telefon eller en med lite minne fungerar penseln ändå, så du kan göra klart bilden för hand.",
+  "back": "If the automatic unfolding cannot be run on a very old phone or one with little memory, the brush will work anyway, so you can clear the picture by hand.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpFix2",
+  "en": "If the HD download stops, check your connection and try again. It continues where it left off.",
+  "tr": "Om HD-nedladdningen stannar, kontrollera din anslutning och försök igen. Den fortsätter där den slutade.",
+  "back": "If the HD download stops, check your connection and try again.",
+  "sim": 0.79
+ },
+ {
+  "k": "helpFix3",
+  "en": "For anything else, open Support from Settings.",
+  "tr": "För allt annat, öppna Support i Inställningar.",
+  "back": "For everything else, open Support in Settings.",
+  "sim": 0.71
+ }
+]

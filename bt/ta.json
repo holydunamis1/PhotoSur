@@ -1,0 +1,1780 @@
+[
+ {
+  "k": "onboardingPage1Title",
+  "en": "Remove backgrounds instantly. All features free.",
+  "tr": "பின்னணிகளை உடனே நீக்குங்கள். எல்லா அம்சங்களும் இலவசம்.",
+  "back": "Remove the background immediately. All features are free.",
+  "sim": 0.57
+ },
+ {
+  "k": "onboardingPage1Body",
+  "en": "Open a photo and our on-device AI removes the background automatically — no internet required. You can also swap in your own custom background.",
+  "tr": "புகைப்படத்தைத் திறந்தால் போதும், சாதனத்திலேயே இயங்கும் AI தானாகப் பின்னணியை நீக்கும் — இணையம் தேவையில்லை. நீங்கள் விரும்பினால் உங்கள் சொந்த தனிப்பயன் பின்னணியையும் வைக்கலாம்.",
+  "back": "If you just open the photo, you don't need an AI that automatically deletes the background on the device. You can also create your own custom background if you want.",
+  "sim": 0.45
+ },
+ {
+  "k": "onboardingPage2Title",
+  "en": "Fine-tune with the brush",
+  "tr": "பிரஷ் மூலம் நுட்பமாகச் செம்மைப்படுத்துங்கள்",
+  "back": "In fact, it can be difficult to use a brush.",
+  "sim": 0.14
+ },
+ {
+  "k": "onboardingPage2Body",
+  "en": "Paint away what the AI missed or restore what you want to keep. Then crop, rotate, move and resize.",
+  "tr": "AI தவறவிட்டதை பிரஷ் மூலம் அழியுங்கள், அல்லது வைத்துக்கொள்ள விரும்புவதை மீட்டெடுங்கள். பிறகு க்ராப் செய்யுங்கள், சுழற்றுங்கள், நகர்த்துங்கள், அளவை மாற்றுங்கள்.",
+  "back": "Brush away what AI missed, or recover what you want to keep, and then grab, spin, move, resize.",
+  "sim": 0.7
+ },
+ {
+  "k": "onboardingPage3Title",
+  "en": "Studio-ready backgrounds",
+  "tr": "ஸ்டுடியோ தரப் பின்னணிகள்",
+  "back": "Studio quality backgrounds",
+  "sim": 0.4
+ },
+ {
+  "k": "onboardingPage3Body",
+  "en": "Choose a colour, gradient, template or your own photo, with a natural shadow. Marketplace presets for Amazon, eBay, Etsy and Shopify set size and format for you.",
+  "tr": "ஒரு நிறம், கிரேடியன்ட், டெம்ப்ளேட் அல்லது உங்கள் சொந்த புகைப்படத்தைத் தேர்வுசெய்யுங்கள், இயற்கையான நிழலுடன். Amazon, eBay, Etsy, Shopify ஆகியவற்றுக்கான முன்அமைவுகள் உங்களுக்காக அளவையும் வடிவத்தையும் அமைக்கும்.",
+  "back": "Choose a color, gradient, template, or your own photo, with a natural shade. The presets for Amazon, eBay, Etsy, Shopify will set the size and shape for you.",
+  "sim": 0.8
+ },
+ {
+  "k": "onboardingPage4Title",
+  "en": "Batch it, export it, keep it private",
+  "tr": "ஒரே நேரத்தில் பல, விரும்பிய வடிவத்தில், முழுமையாகத் தனிப்பட்டது",
+  "back": "Many at once, in the desired form, completely private.",
+  "sim": 0.12
+ },
+ {
+  "k": "onboardingPage4Body",
+  "en": "Cut out up to 30 photos at once and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "tr": "ஒரே நேரத்தில் 30 புகைப்படங்கள் வரை பின்னணியை நீக்கி PNG, JPG அல்லது WEBP ஆக ஏற்றுமதி செய்யுங்கள். உங்கள் புகைப்படங்கள் உங்கள் ஃபோனை விட்டு வெளியே செல்லாது. 43 மொழிகளில் கிடைக்கும்.",
+  "back": "Remove up to 30 photos at a time and export them as PNG, JPG or WEBP. Your photos won't leave your phone. Available in 43 languages.",
+  "sim": 0.82
+ },
+ {
+  "k": "onboardingNext",
+  "en": "Next",
+  "tr": "அடுத்து",
+  "back": "next",
+  "sim": 1.0
+ },
+ {
+  "k": "onboardingGetStarted",
+  "en": "Get Started",
+  "tr": "தொடங்கவும்",
+  "back": "Get started",
+  "sim": 1.0
+ },
+ {
+  "k": "homeCameraButton",
+  "en": "Camera",
+  "tr": "கேமரா",
+  "back": "the camera",
+  "sim": 0.67
+ },
+ {
+  "k": "homeGalleryButton",
+  "en": "Gallery",
+  "tr": "கேலரி",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "dateToday",
+  "en": "Today",
+  "tr": "இன்று",
+  "back": "Today",
+  "sim": 1.0
+ },
+ {
+  "k": "dateYesterday",
+  "en": "Yesterday",
+  "tr": "நேற்று",
+  "back": "Yesterday",
+  "sim": 1.0
+ },
+ {
+  "k": "homeRecentExports",
+  "en": "Recent Exports",
+  "tr": "சமீபத்திய ஏற்றுமதிகள்",
+  "back": "Recent exports",
+  "sim": 1.0
+ },
+ {
+  "k": "homeEmptyStateMessage",
+  "en": "Tap Camera or Gallery to start.",
+  "tr": "தொடங்க கேமரா அல்லது கேலரியைத் தட்டவும்.",
+  "back": "Tap the camera or gallery to start.",
+  "sim": 0.92
+ },
+ {
+  "k": "homeExportUnavailable",
+  "en": "This export is no longer available.",
+  "tr": "இந்த ஏற்றுமதி இனி கிடைக்காது.",
+  "back": "This shipment is no longer available.",
+  "sim": 0.83
+ },
+ {
+  "k": "homeShareFailed",
+  "en": "Could not share this export.",
+  "tr": "இந்த ஏற்றுமதியைப் பகிர முடியவில்லை.",
+  "back": "I couldn't share this export.",
+  "sim": 0.6
+ },
+ {
+  "k": "homeGalleryOpenFailed",
+  "en": "Could not open gallery.",
+  "tr": "கேலரியைத் திறக்க முடியவில்லை.",
+  "back": "I couldn't open the gallery.",
+  "sim": 0.44
+ },
+ {
+  "k": "cameraTitle",
+  "en": "Camera",
+  "tr": "கேமரா",
+  "back": "the camera",
+  "sim": 0.67
+ },
+ {
+  "k": "cameraPermissionDenied",
+  "en": "Camera access is needed to take a photo. Please allow access.",
+  "tr": "புகைப்படம் எடுக்க கேமரா அணுகல் தேவை. அணுகலை அனுமதிக்கவும்.",
+  "back": "We need camera access to take pictures. Please allow access.",
+  "sim": 0.67
+ },
+ {
+  "k": "cameraPermissionPermanentlyDenied",
+  "en": "Camera access was denied. Enable it in Settings to continue.",
+  "tr": "கேமரா அணுகல் மறுக்கப்பட்டது. தொடர அமைப்புகளில் இயக்கவும்.",
+  "back": "Camera access denied. Turn it on in continuous settings.",
+  "sim": 0.63
+ },
+ {
+  "k": "cameraPermissionRestricted",
+  "en": "Camera access is restricted on this device.",
+  "tr": "இந்தச் சாதனத்தில் கேமரா அணுகல் கட்டுப்படுத்தப்பட்டுள்ளது.",
+  "back": "The camera access is restricted on this device.",
+  "sim": 0.93
+ },
+ {
+  "k": "cameraNoCameraFound",
+  "en": "No camera found on this device.",
+  "tr": "இந்தச் சாதனத்தில் கேமரா இல்லை.",
+  "back": "This device does not have a camera.",
+  "sim": 0.31
+ },
+ {
+  "k": "cameraStartFailed",
+  "en": "Could not start the camera.",
+  "tr": "கேமராவைத் தொடங்க முடியவில்லை.",
+  "back": "I couldn't start the camera.",
+  "sim": 0.6
+ },
+ {
+  "k": "cameraCaptureFailed",
+  "en": "Could not capture photo.",
+  "tr": "புகைப்படம் எடுக்க முடியவில்லை.",
+  "back": "I couldn't take a picture.",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraOpenSettings",
+  "en": "Open Settings",
+  "tr": "அமைப்புகளைத் திற",
+  "back": "Open the settings",
+  "sim": 0.8
+ },
+ {
+  "k": "cameraFlashTooltip",
+  "en": "Flash",
+  "tr": "ஃபிளாஷ்",
+  "back": "flash",
+  "sim": 1.0
+ },
+ {
+  "k": "cameraGalleryTooltip",
+  "en": "Gallery",
+  "tr": "கேலரி",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "cropTitle",
+  "en": "Crop & Rotate",
+  "tr": "வெட்டு & சுழற்று",
+  "back": "Cut and spin",
+  "sim": 0.0
+ },
+ {
+  "k": "cropLoadFailed",
+  "en": "Could not load the image.",
+  "tr": "படத்தை ஏற்ற முடியவில்லை.",
+  "back": "I couldn't upload the picture.",
+  "sim": 0.2
+ },
+ {
+  "k": "cropRotateFailed",
+  "en": "Could not rotate the image.",
+  "tr": "படத்தைச் சுழற்ற முடியவில்லை.",
+  "back": "I couldn't turn the picture.",
+  "sim": 0.2
+ },
+ {
+  "k": "cropFailed",
+  "en": "Crop failed.",
+  "tr": "வெட்டுவது தோல்வியடைந்தது.",
+  "back": "The cutting failed.",
+  "sim": 0.4
+ },
+ {
+  "k": "cropSaveFailed",
+  "en": "Could not save the cropped image.",
+  "tr": "வெட்டிய படத்தைச் சேமிக்க முடியவில்லை.",
+  "back": "The cut image could not be saved.",
+  "sim": 0.31
+ },
+ {
+  "k": "cropAspectFree",
+  "en": "Free",
+  "tr": "தனிப்பயன்",
+  "back": "customized",
+  "sim": 0.0
+ },
+ {
+  "k": "cropContinue",
+  "en": "Continue",
+  "tr": "தொடர்க",
+  "back": "Keep going",
+  "sim": 0.0
+ },
+ {
+  "k": "editorSegmentationFailedMessage",
+  "en": "Your device doesn't support automatic background removal. Use the manual brush below.",
+  "tr": "உங்கள் சாதனம் தானியங்கிப் பின்னணி நீக்கத்தை ஆதரிக்கவில்லை. கீழே உள்ள கைமுறை பிரஷ்ஷைப் பயன்படுத்துங்கள்.",
+  "back": "Your device does not support automatic background removal. Use the manual brush below.",
+  "sim": 0.88
+ },
+ {
+  "k": "brushErase",
+  "en": "Erase",
+  "tr": "அழி",
+  "back": "Destroy",
+  "sim": 0.0
+ },
+ {
+  "k": "brushRestore",
+  "en": "Restore",
+  "tr": "மீட்டெடு",
+  "back": "Restore",
+  "sim": 1.0
+ },
+ {
+  "k": "brushSizeLabel",
+  "en": "Brush Size",
+  "tr": "பிரஷ் அளவு",
+  "back": "Brush size",
+  "sim": 1.0
+ },
+ {
+  "k": "brushOpacityLabel",
+  "en": "Opacity",
+  "tr": "ஒளிபுகாமை",
+  "back": "Optical power",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundWhite",
+  "en": "White",
+  "tr": "வெள்ளை",
+  "back": "white",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundTransparent",
+  "en": "Transparent",
+  "tr": "ஒளிஊடுருவும்",
+  "back": "Lighting",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundBlack",
+  "en": "Black",
+  "tr": "கருப்பு",
+  "back": "black",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundBlurLabel",
+  "en": "Blur",
+  "tr": "மங்கல்",
+  "back": "dimming",
+  "sim": 0.0
+ },
+ {
+  "k": "edgeFeatherLabel",
+  "en": "Edge Smoothness",
+  "tr": "விளிம்பு மென்மை",
+  "back": "Extreme softness",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarUndo",
+  "en": "Undo",
+  "tr": "செயல்தவிர்",
+  "back": "Effective",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarRedo",
+  "en": "Redo",
+  "tr": "மீண்டும் செய்",
+  "back": "Do it again",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarReset",
+  "en": "Reset",
+  "tr": "மீட்டமை",
+  "back": "Restore",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarExport",
+  "en": "Export",
+  "tr": "ஏற்றுமதி",
+  "back": "exports",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmTitle",
+  "en": "Reset edits?",
+  "tr": "திருத்தங்களை மீட்டமைக்கவா?",
+  "back": "Do you want to reset the corrections?",
+  "sim": 0.22
+ },
+ {
+  "k": "resetConfirmBody",
+  "en": "This clears your manual brush strokes. This cannot be undone.",
+  "tr": "இது நீங்கள் கையால் வரைந்த பிரஷ் தீட்டுகளை அழிக்கும். இதைச் செயல்தவிர்க்க முடியாது.",
+  "back": "It will remove the hand-painted brush stains. It cannot be deactivated.",
+  "sim": 0.29
+ },
+ {
+  "k": "resetConfirmCancel",
+  "en": "Cancel",
+  "tr": "ரத்துசெய்",
+  "back": "Cancel",
+  "sim": 1.0
+ },
+ {
+  "k": "resetConfirmConfirm",
+  "en": "Reset",
+  "tr": "மீட்டமை",
+  "back": "Restore",
+  "sim": 0.0
+ },
+ {
+  "k": "exportTitle",
+  "en": "Export",
+  "tr": "ஏற்றுமதி",
+  "back": "exports",
+  "sim": 0.0
+ },
+ {
+  "k": "exportQualityLabel",
+  "en": "Quality: {value}",
+  "tr": "தரம்: {value}",
+  "back": "Quality: [value]",
+  "sim": 1.0
+ },
+ {
+  "k": "exportResizeLabel",
+  "en": "Resize",
+  "tr": "அளவு மாற்று",
+  "back": "Size change",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeOriginal",
+  "en": "Original",
+  "tr": "அசல்",
+  "back": "The original",
+  "sim": 0.67
+ },
+ {
+  "k": "exportResizeCustom",
+  "en": "Custom",
+  "tr": "தனிப்பயன்",
+  "back": "customized",
+  "sim": 0.0
+ },
+ {
+  "k": "exportWidthLabel",
+  "en": "Width (px)",
+  "tr": "அகலம் (px)",
+  "back": "width (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportHeightLabel",
+  "en": "Height (px)",
+  "tr": "உயரம் (px)",
+  "back": "Height (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSaveToGallery",
+  "en": "Save to Gallery",
+  "tr": "கேலரியில் சேமி",
+  "back": "Save in the gallery",
+  "sim": 0.57
+ },
+ {
+  "k": "exportShare",
+  "en": "Share",
+  "tr": "பகிர்",
+  "back": "share",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSuccess",
+  "en": "Exported!",
+  "tr": "ஏற்றுமதி முடிந்தது!",
+  "back": "The shipment is over!",
+  "sim": 0.0
+ },
+ {
+  "k": "exportFailed",
+  "en": "Export failed. Please try again.",
+  "tr": "ஏற்றுமதி தோல்வியடைந்தது. மீண்டும் முயலவும்.",
+  "back": "The shipment failed. Try again.",
+  "sim": 0.6
+ },
+ {
+  "k": "exportInProgress",
+  "en": "Exporting…",
+  "tr": "ஏற்றுமதி செய்யப்படுகிறது…",
+  "back": "It's being shipped...",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTitle",
+  "en": "Settings",
+  "tr": "அமைப்புகள்",
+  "back": "systems",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTheme",
+  "en": "Theme",
+  "tr": "தீம்",
+  "back": "theme",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsLanguage",
+  "en": "Language",
+  "tr": "மொழி",
+  "back": "language",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "வாங்கியதை மீட்டெடு",
+  "back": "Recover what you have purchased",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsGoAdFree",
+  "en": "Go Ad-Free",
+  "tr": "விளம்பரமின்றிப் பயன்படுத்து",
+  "back": "Use without advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsPrivacyPolicy",
+  "en": "Privacy Policy",
+  "tr": "தனியுரிமைக் கொள்கை",
+  "back": "Privacy Policy",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsSupport",
+  "en": "Support",
+  "tr": "ஆதரவு",
+  "back": "support",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRateApp",
+  "en": "Rate App",
+  "tr": "செயலியை மதிப்பிடு",
+  "back": "Rate the app",
+  "sim": 0.8
+ },
+ {
+  "k": "settingsShareApp",
+  "en": "Share App",
+  "tr": "செயலியைப் பகிர்",
+  "back": "Share the app",
+  "sim": 0.8
+ },
+ {
+  "k": "settingsLicenses",
+  "en": "Open-source licenses",
+  "tr": "திறந்தமூல உரிமங்கள்",
+  "back": "Open source licenses",
+  "sim": 0.4
+ },
+ {
+  "k": "reminderChannelName",
+  "en": "Edit reminders",
+  "tr": "திருத்த நினைவூட்டல்கள்",
+  "back": "Reminders to edit",
+  "sim": 0.4
+ },
+ {
+  "k": "reminderChannelDescription",
+  "en": "Reminders about edits you have not finished.",
+  "tr": "நீங்கள் முடிக்காத திருத்தங்கள் பற்றிய நினைவூட்டல்கள்.",
+  "back": "Reminders of changes you haven't completed.",
+  "sim": 0.31
+ },
+ {
+  "k": "reminderTitle",
+  "en": "Your edit is waiting",
+  "tr": "உங்கள் திருத்தம் காத்திருக்கிறது",
+  "back": "Your correction is awaiting",
+  "sim": 0.5
+ },
+ {
+  "k": "reminderBody",
+  "en": "Pick up where you left off and export your photo.",
+  "tr": "விட்ட இடத்திலிருந்து தொடர்ந்து உங்கள் புகைப்படத்தை ஏற்றுமதி செய்யுங்கள்.",
+  "back": "Continue to export your photo from where it left off.",
+  "sim": 0.3
+ },
+ {
+  "k": "settingsReminders",
+  "en": "Edit reminders",
+  "tr": "திருத்த நினைவூட்டல்கள்",
+  "back": "Reminders to edit",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsAnimatedBackground",
+  "en": "Animated home background",
+  "tr": "முகப்பின் அனிமேஷன் பின்னணி",
+  "back": "The animated background of the face",
+  "sim": 0.44
+ },
+ {
+  "k": "settingsRemindersSubtitle",
+  "en": "Remind me about unfinished edits",
+  "tr": "முடிக்காத திருத்தங்கள் பற்றி நினைவூட்டு",
+  "back": "A reminder of unfinished edits",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsRemindersBlocked",
+  "en": "Notifications are turned off for PhotoSur in your phone's settings.",
+  "tr": "உங்கள் தொலைபேசி அமைப்புகளில் PhotoSur-க்கான அறிவிப்புகள் அணைக்கப்பட்டுள்ளன.",
+  "back": "Photosur notifications are turned off on your phone settings.",
+  "sim": 0.63
+ },
+ {
+  "k": "editorBrushHint",
+  "en": "Drag to paint. Pinch with two fingers to zoom.",
+  "tr": "வரைய இழுக்கவும். பெரிதாக்க இரு விரல்களால் கிள்ளவும்.",
+  "back": "Pull the drawing. Pull with both fingers to enlarge.",
+  "sim": 0.33
+ },
+ {
+  "k": "editorToolCutout",
+  "en": "Cut-out",
+  "tr": "வெட்டு",
+  "back": "Cutting",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBrush",
+  "en": "Brush",
+  "tr": "பிரஷ்",
+  "back": "brush",
+  "sim": 1.0
+ },
+ {
+  "k": "editorToolBackground",
+  "en": "Background",
+  "tr": "பின்னணி",
+  "back": "the background",
+  "sim": 0.67
+ },
+ {
+  "k": "editorToolLayout",
+  "en": "Layout",
+  "tr": "அமைவு",
+  "back": "setting",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutAutoCenter",
+  "en": "Auto-center",
+  "tr": "தானாக மையப்படுத்து",
+  "back": "Self-centered",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutSizeLabel",
+  "en": "Size",
+  "tr": "அளவு",
+  "back": "size",
+  "sim": 1.0
+ },
+ {
+  "k": "layoutShadowLabel",
+  "en": "Shadow",
+  "tr": "நிழல்",
+  "back": "shadow",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundPhoto",
+  "en": "Photo",
+  "tr": "புகைப்படம்",
+  "back": "The photo",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundPhotoFailed",
+  "en": "Could not load that photo.",
+  "tr": "அந்தப் புகைப்படத்தை ஏற்ற முடியவில்லை.",
+  "back": "I couldn't upload that photo.",
+  "sim": 0.4
+ },
+ {
+  "k": "editorLayoutHint",
+  "en": "Drag to move. Pinch with two fingers to resize.",
+  "tr": "நகர்த்த இழுக்கவும். அளவை மாற்ற இரு விரல்களால் கிள்ளவும்.",
+  "back": "Pull to move. Pull with two fingers to change size.",
+  "sim": 0.63
+ },
+ {
+  "k": "languageSystemDefault",
+  "en": "System default",
+  "tr": "சாதன இயல்பு",
+  "back": "The nature of the device",
+  "sim": 0.0
+ },
+ {
+  "k": "languageSheetTitle",
+  "en": "Language",
+  "tr": "மொழி",
+  "back": "language",
+  "sim": 1.0
+ },
+ {
+  "k": "themeSheetTitle",
+  "en": "Theme",
+  "tr": "தீம்",
+  "back": "theme",
+  "sim": 1.0
+ },
+ {
+  "k": "themeOptionSystem",
+  "en": "System default",
+  "tr": "சாதன இயல்பு",
+  "back": "The nature of the device",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionLight",
+  "en": "Light",
+  "tr": "ஒளி",
+  "back": "Light",
+  "sim": 1.0
+ },
+ {
+  "k": "themeOptionDark",
+  "en": "Dark",
+  "tr": "இருள்",
+  "back": "the darkness",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLinkNotReady",
+  "en": "This link isn't set up yet.",
+  "tr": "இந்த இணைப்பு இன்னும் அமைக்கப்படவில்லை.",
+  "back": "This link has not yet been set up.",
+  "sim": 0.57
+ },
+ {
+  "k": "settingsLinkOpenFailed",
+  "en": "Could not open link.",
+  "tr": "இணைப்பைத் திறக்க முடியவில்லை.",
+  "back": "Couldn't unlock the link.",
+  "sim": 0.25
+ },
+ {
+  "k": "settingsRestoreRequested",
+  "en": "Restore requested — check back in a moment.",
+  "tr": "மீட்டெடுப்பு கோரப்பட்டது — சிறிது நேரம் கழித்துப் பாருங்கள்.",
+  "back": "Recovering requested  Take a moment to look.",
+  "sim": 0.43
+ },
+ {
+  "k": "settingsRestoreFailed",
+  "en": "Restore failed.",
+  "tr": "மீட்டெடுப்பு தோல்வியடைந்தது.",
+  "back": "The recovery failed.",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsShareFailed",
+  "en": "Could not share.",
+  "tr": "பகிர முடியவில்லை.",
+  "back": "I couldn't share.",
+  "sim": 0.33
+ },
+ {
+  "k": "settingsShareAppMessage",
+  "en": "Remove photo backgrounds instantly with PhotoSur — free, no watermark.",
+  "tr": "PhotoSur மூலம் புகைப்படப் பின்னணிகளை உடனே நீக்குங்கள் — இலவசம், வாட்டர்மார்க் இல்லை.",
+  "back": "With PhotoSur, immediately remove the background of the photo.  Free, no watermark.",
+  "sim": 0.48
+ },
+ {
+  "k": "paywallTitle",
+  "en": "Go Ad-Free",
+  "tr": "விளம்பரமின்றிப் பயன்படுத்து",
+  "back": "Use without advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallAlreadyAdFree",
+  "en": "You're already ad-free. Thank you!",
+  "tr": "நீங்கள் ஏற்கெனவே விளம்பரமின்றிப் பயன்படுத்துகிறீர்கள். நன்றி!",
+  "back": "You're already using it without advertising. Thank you!",
+  "sim": 0.62
+ },
+ {
+  "k": "paywallPlanFreeTitle",
+  "en": "Free",
+  "tr": "இலவசம்",
+  "back": "Free",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallPlanAdFreeTitle",
+  "en": "Ad-Free",
+  "tr": "விளம்பரமின்றி",
+  "back": "without advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPlanAdFreePrice",
+  "en": "One-time purchase",
+  "tr": "ஒரு முறை கட்டணம்",
+  "back": "One-time charge",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallFeatureAllFeatures",
+  "en": "All features",
+  "tr": "எல்லா வசதிகளும்",
+  "back": "All facilities",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallFeatureAdSupported",
+  "en": "Ad-supported",
+  "tr": "விளம்பரங்களுடன்",
+  "back": "With advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureZeroAds",
+  "en": "Zero ads",
+  "tr": "விளம்பரங்கள் இல்லை",
+  "back": "There are no advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPurchaseButton",
+  "en": "Remove Ads",
+  "tr": "விளம்பரங்களை நீக்கு",
+  "back": "Remove the ads",
+  "sim": 0.8
+ },
+ {
+  "k": "paywallPurchaseButtonPrice",
+  "en": "Remove Ads — {price}",
+  "tr": "விளம்பரங்களை நீக்கு — {price}",
+  "back": "Remove ads  [price]",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "வாங்கியதை மீட்டெடு",
+  "back": "Recover what you have purchased",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallProductUnavailable",
+  "en": "Ad removal is not available right now.",
+  "tr": "விளம்பர நீக்கம் இப்போது கிடைக்கவில்லை.",
+  "back": "Ad removal is not available now.",
+  "sim": 0.92
+ },
+ {
+  "k": "paywallPurchaseFailed",
+  "en": "Purchase failed.",
+  "tr": "வாங்குதல் தோல்வியடைந்தது.",
+  "back": "The purchase failed.",
+  "sim": 0.8
+ },
+ {
+  "k": "errorScreenTitle",
+  "en": "Something went wrong",
+  "tr": "ஏதோ தவறாகிவிட்டது",
+  "back": "Something is wrong.",
+  "sim": 0.67
+ },
+ {
+  "k": "errorScreenBody",
+  "en": "Try again, or restart the app if this keeps happening.",
+  "tr": "மீண்டும் முயலவும்; தொடர்ந்து நடந்தால் செயலியை மறுதொடக்கம் செய்யவும்.",
+  "back": "Try again; restart the app if it continues.",
+  "sim": 0.67
+ },
+ {
+  "k": "errorScreenGoBack",
+  "en": "Go back",
+  "tr": "திரும்பிச் செல்",
+  "back": "Going back",
+  "sim": 0.5
+ },
+ {
+  "k": "errorScreenReportEmail",
+  "en": "Report via {email}",
+  "tr": "{email} மூலம் புகாரளி",
+  "back": "Reporting by [email]",
+  "sim": 0.33
+ },
+ {
+  "k": "unsupportedTitle",
+  "en": "Device Not Supported",
+  "tr": "சாதனம் ஆதரிக்கப்படவில்லை",
+  "back": "Device not supported",
+  "sim": 1.0
+ },
+ {
+  "k": "unsupportedNoCameraMessage",
+  "en": "This device doesn't have a camera available.",
+  "tr": "இந்தச் சாதனத்தில் கேமரா கிடைக்கவில்லை.",
+  "back": "The camera is not available on this device.",
+  "sim": 0.27
+ },
+ {
+  "k": "unsupportedLowMemoryMessage",
+  "en": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
+  "tr": "PhotoSur எடிட்டரை நம்பகமாக இயக்க இந்தச் சாதனத்தில் போதுமான நினைவகம் இல்லை.",
+  "back": "The device does not have enough memory to reliably run the PhotoSur editor.",
+  "sim": 0.58
+ },
+ {
+  "k": "unsupportedManualImportHint",
+  "en": "You can still import a photo from your gallery and use the manual brush tool.",
+  "tr": "கேலரியிலிருந்து புகைப்படத்தை இறக்குமதி செய்து கைமுறை பிரஷ் கருவியைப் பயன்படுத்தலாம்.",
+  "back": "You can import a photo from the gallery and use a manual brush tool.",
+  "sim": 0.83
+ },
+ {
+  "k": "unsupportedUseGalleryButton",
+  "en": "Import from Gallery",
+  "tr": "கேலரியிலிருந்து இறக்குமதி",
+  "back": "Import from the gallery",
+  "sim": 0.86
+ },
+ {
+  "k": "homeBatchButton",
+  "en": "Batch",
+  "tr": "தொகுப்பு",
+  "back": "collection",
+  "sim": 0.0
+ },
+ {
+  "k": "batchTitle",
+  "en": "Batch cut-out",
+  "tr": "தொகுப்பு கட்-அவுட்",
+  "back": "Package cut-out",
+  "sim": 0.5
+ },
+ {
+  "k": "batchOutputTransparent",
+  "en": "Transparent PNG",
+  "tr": "வெளிப்படையான PNG",
+  "back": "Transparent PNG",
+  "sim": 1.0
+ },
+ {
+  "k": "batchOutputWhite",
+  "en": "White background (JPG)",
+  "tr": "வெள்ளைப் பின்னணி (JPG)",
+  "back": "White background (JPG)",
+  "sim": 1.0
+ },
+ {
+  "k": "batchStart",
+  "en": "Start",
+  "tr": "தொடங்கு",
+  "back": "Starting",
+  "sim": 0.0
+ },
+ {
+  "k": "batchStop",
+  "en": "Stop",
+  "tr": "நிறுத்து",
+  "back": "Stop",
+  "sim": 1.0
+ },
+ {
+  "k": "batchDone",
+  "en": "Done",
+  "tr": "முடிந்தது",
+  "back": "It's over.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchProgress",
+  "en": "{done} of {total} done",
+  "tr": "{total}-இல் {done} முடிந்தது",
+  "back": "[total] in [done] finished",
+  "sim": 0.25
+ },
+ {
+  "k": "batchSaved",
+  "en": "{count} saved to your gallery",
+  "tr": "{count} படங்கள் உங்கள் கேலரியில் சேமிக்கப்பட்டன",
+  "back": "[count] Images saved in your gallery",
+  "sim": 0.73
+ },
+ {
+  "k": "batchSomeFailed",
+  "en": "{count} could not be processed",
+  "tr": "{count} படங்களைச் செயலாக்க முடியவில்லை",
+  "back": "[count] Can not process images",
+  "sim": 0.4
+ },
+ {
+  "k": "batchTooMany",
+  "en": "Up to {max} photos at a time",
+  "tr": "ஒரே நேரத்தில் அதிகபட்சம் {max} படங்கள்",
+  "back": "Maximum [max] images at the same time",
+  "sim": 0.43
+ },
+ {
+  "k": "backgroundAddCustom",
+  "en": "Add custom background",
+  "tr": "தனிப்பயன் பின்னணியைச் சேர்",
+  "back": "Add a custom background",
+  "sim": 0.86
+ },
+ {
+  "k": "backgroundCustomColor",
+  "en": "Custom color",
+  "tr": "தனிப்பயன் நிறம்",
+  "back": "Custom color",
+  "sim": 1.0
+ },
+ {
+  "k": "colorSaturation",
+  "en": "Saturation",
+  "tr": "செறிவு",
+  "back": "Concentration",
+  "sim": 0.0
+ },
+ {
+  "k": "colorBrightness",
+  "en": "Brightness",
+  "tr": "பிரகாசம்",
+  "back": "brightness",
+  "sim": 1.0
+ },
+ {
+  "k": "colorHexLabel",
+  "en": "Hex code",
+  "tr": "ஹெக்ஸ் குறியீடு",
+  "back": "Hex code",
+  "sim": 1.0
+ },
+ {
+  "k": "colorPickerDone",
+  "en": "Done",
+  "tr": "முடிந்தது",
+  "back": "It's over.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceLabel",
+  "en": "Marketplace",
+  "tr": "மார்க்கெட்பிளேஸ்",
+  "back": "Marketplace",
+  "sim": 1.0
+ },
+ {
+  "k": "exportMarketplaceWhiteFill",
+  "en": "Pure white background, product fills the frame",
+  "tr": "தூய வெள்ளைப் பின்னணி, பொருள் சட்டத்தை நிரப்பும்",
+  "back": "A pure white background, filling the law of matter",
+  "sim": 0.5
+ },
+ {
+  "k": "exportMarketplaceSizeCap",
+  "en": "File kept under {size} MB",
+  "tr": "கோப்பு {size} MB-க்குக் கீழ்",
+  "back": "File [size] below MB",
+  "sim": 0.67
+ },
+ {
+  "k": "editorToolTemplates",
+  "en": "Templates",
+  "tr": "டெம்ப்ளேட்கள்",
+  "back": "Templates",
+  "sim": 1.0
+ },
+ {
+  "k": "templatesTitle",
+  "en": "Choose a template",
+  "tr": "டெம்ப்ளேட்டைத் தேர்ந்தெடுக்கவும்",
+  "back": "Select the template",
+  "sim": 0.33
+ },
+ {
+  "k": "templatesStudio",
+  "en": "Studio",
+  "tr": "ஸ்டுடியோ",
+  "back": "The studio",
+  "sim": 0.67
+ },
+ {
+  "k": "templatesColorBlock",
+  "en": "Color block",
+  "tr": "வண்ணத் தொகுதிகள்",
+  "back": "Colored blocks",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTextures",
+  "en": "Textures",
+  "tr": "அமைப்புகள்",
+  "back": "systems",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesLight",
+  "en": "Light & shadow",
+  "tr": "ஒளி & நிழல்",
+  "back": "Light and Shadow",
+  "sim": 0.8
+ },
+ {
+  "k": "templatesPatterns",
+  "en": "Gradients & patterns",
+  "tr": "கிரேடியண்ட் & வடிவங்கள்",
+  "back": "Gradient & shapes",
+  "sim": 0.0
+ },
+ {
+  "k": "hdGetAction",
+  "en": "Get HD cut-out",
+  "tr": "HD கட்அவுட்டைப் பெறுங்கள்",
+  "back": "Get an HD cut out",
+  "sim": 0.5
+ },
+ {
+  "k": "hdRedoAction",
+  "en": "Redo cut-out in HD",
+  "tr": "HD-யில் கட்அவுட்டை மீண்டும் செய்",
+  "back": "Repeat the cut-out in HD",
+  "sim": 0.67
+ },
+ {
+  "k": "hdDownloading",
+  "en": "HD cut-out in progress… {percent}%",
+  "tr": "HD கட்அவுட் செயலில் உள்ளது… {percent}%",
+  "back": "HD cutout is active... [percent]%",
+  "sim": 0.6
+ },
+ {
+  "k": "hdDownloadingShort",
+  "en": "HD cut-out… {percent}%",
+  "tr": "HD கட்அவுட்… {percent}%",
+  "back": "HD cut out... [percent]%",
+  "sim": 0.57
+ },
+ {
+  "k": "hdConfirmTitle",
+  "en": "Download HD cut-out model?",
+  "tr": "HD கட்அவுட் மாடலைப் பதிவிறக்கவா?",
+  "back": "Do you want to download the HD cut-out model?",
+  "sim": 0.62
+ },
+ {
+  "k": "hdConfirmBody",
+  "en": "Cleaner edges on tricky objects like shoes, bags and bottles. It downloads once, stays on your phone and then works offline. Mobile data charges may apply.",
+  "tr": "காலணிகள், பைகள், பாட்டில்கள் போன்ற கடினமான பொருட்களில் தெளிவான விளிம்புகளைத் தரும். ஒரு முறை மட்டுமே பதிவிறக்கப்படும், உங்கள் தொலைபேசியில் இருக்கும், பிறகு ஆஃப்லைனில் வேலை செய்யும். மொபைல் டேட்டா கட்டணம் ஏற்படலாம்.",
+  "back": "It gives you a clear edge on hard stuff like shoes, bags, bottles. It's only downloaded once, it's on your phone, and then it works offline.",
+  "sim": 0.5
+ },
+ {
+  "k": "hdDownload",
+  "en": "Download",
+  "tr": "பதிவிறக்கு",
+  "back": "download",
+  "sim": 1.0
+ },
+ {
+  "k": "hdFailed",
+  "en": "HD cut-out didn’t finish. Check your connection and try again.",
+  "tr": "HD கட்அவுட் முடியவில்லை. இணைப்பைச் சரிபார்த்து மீண்டும் முயலுங்கள்.",
+  "back": "HD cut out failed. Check the link and try again.",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsHdTitle",
+  "en": "HD cut-out model",
+  "tr": "HD கட்அவுட் மாடல்",
+  "back": "HD cut-out model",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsHdNotInstalled",
+  "en": "Not downloaded",
+  "tr": "பதிவிறக்கப்படவில்லை",
+  "back": "Not downloaded",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsHdInstalled",
+  "en": "Installed · works offline",
+  "tr": "நிறுவப்பட்டது · ஆஃப்லைனில் வேலை செய்யும்",
+  "back": "Installed · Working offline",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsHdRemove",
+  "en": "Remove",
+  "tr": "நீக்கு",
+  "back": "Get out of here",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsReplayIntro",
+  "en": "Replay intro",
+  "tr": "அறிமுகத்தை மீண்டும் காண்க",
+  "back": "See also Introduction",
+  "sim": 0.0
+ },
+ {
+  "k": "homeSeeAll",
+  "en": "See all",
+  "tr": "அனைத்தையும் காண்க",
+  "back": "See all",
+  "sim": 1.0
+ },
+ {
+  "k": "exportActionEdit",
+  "en": "Edit again",
+  "tr": "மீண்டும் திருத்து",
+  "back": "Edit again",
+  "sim": 1.0
+ },
+ {
+  "k": "exportActionDelete",
+  "en": "Delete",
+  "tr": "நீக்கு",
+  "back": "Get out of here",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMoreOptions",
+  "en": "More options",
+  "tr": "மேலும் விருப்பங்கள்",
+  "back": "More options",
+  "sim": 1.0
+ },
+ {
+  "k": "exportDeleteTitle",
+  "en": "Delete this export?",
+  "tr": "இந்த ஏற்றுமதியை நீக்கவா?",
+  "back": "Can you remove this shipment?",
+  "sim": 0.25
+ },
+ {
+  "k": "exportDeleteBody",
+  "en": "Exported images are removed from this phone. Your original photos and anything saved to your gallery are not affected.",
+  "tr": "ஏற்றுமதி செய்த படங்கள் இந்த தொலைபேசியிலிருந்து நீக்கப்படும். உங்கள் அசல் புகைப்படங்களும் கேலரியில் சேமித்தவையும் பாதிக்கப்படாது.",
+  "back": "The exported images will be deleted from the phone and your original photos and those stored in the gallery will not be affected.",
+  "sim": 0.52
+ },
+ {
+  "k": "exportSavedToGallery",
+  "en": "Saved to your gallery",
+  "tr": "உங்கள் கேலரியில் சேமிக்கப்பட்டது",
+  "back": "Saved in your gallery",
+  "sim": 0.75
+ },
+ {
+  "k": "exportSaveFailed",
+  "en": "Could not save to the gallery.",
+  "tr": "கேலரியில் சேமிக்க முடியவில்லை.",
+  "back": "Could not save in the gallery.",
+  "sim": 0.83
+ },
+ {
+  "k": "exportUnavailable",
+  "en": "Unavailable",
+  "tr": "கிடைக்கவில்லை",
+  "back": "Not found",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsGroupThisWeek",
+  "en": "This week",
+  "tr": "இந்த வாரம்",
+  "back": "This week",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsGroupEarlier",
+  "en": "Earlier",
+  "tr": "முந்தையவை",
+  "back": "previously",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsStorageUsed",
+  "en": "{size} used on this phone",
+  "tr": "இந்த தொலைபேசியில் {size} பயன்பாடு",
+  "back": "[size] app on this phone",
+  "sim": 0.8
+ },
+ {
+  "k": "exportsSelect",
+  "en": "Select",
+  "tr": "தேர்ந்தெடு",
+  "back": "Select",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDone",
+  "en": "Done",
+  "tr": "முடிந்தது",
+  "back": "It's over.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsSelectedCount",
+  "en": "{count} selected",
+  "tr": "{count} தேர்ந்தெடுக்கப்பட்டன",
+  "back": "[count] selected",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDeleteSelectedTitle",
+  "en": "Delete {count} exports?",
+  "tr": "{count} ஏற்றுமதிகளை நீக்கவா?",
+  "back": "[count] Delete the shipments?",
+  "sim": 0.29
+ },
+ {
+  "k": "exportsDeleteAll",
+  "en": "Delete all exports",
+  "tr": "அனைத்து ஏற்றுமதிகளையும் நீக்கு",
+  "back": "Delete all shipments",
+  "sim": 0.67
+ },
+ {
+  "k": "exportsDeleteAllTitle",
+  "en": "Delete all exports?",
+  "tr": "அனைத்து ஏற்றுமதிகளையும் நீக்கவா?",
+  "back": "Cancel all shipments?",
+  "sim": 0.33
+ },
+ {
+  "k": "helpTitle",
+  "en": "Help & how to use",
+  "tr": "உதவி மற்றும் பயன்படுத்தும் முறை",
+  "back": "Help and method of use",
+  "sim": 0.44
+ },
+ {
+  "k": "helpIntro",
+  "en": "Tap a topic to read how it works.",
+  "tr": "ஒரு தலைப்பைத் தொட்டு, அது எப்படி வேலை செய்கிறது என்பதைப் படியுங்கள்.",
+  "back": "Touch a subject and read how it works.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpStartTitle",
+  "en": "Getting started",
+  "tr": "தொடங்குவது",
+  "back": "Starting",
+  "sim": 0.0
+ },
+ {
+  "k": "helpStart1",
+  "en": "On the home screen, tap Camera to take a photo or Gallery to pick one. Batch cuts out many photos at once.",
+  "tr": "முகப்புத் திரையில் புகைப்படம் எடுக்க கேமரா அல்லது ஒன்றைத் தேர்ந்தெடுக்க கேலரி என்பதைத் தொடவும். தொகுப்பு ஒரே நேரத்தில் பல புகைப்படங்களை வெட்டும்.",
+  "back": "Tap the camera or gallery to select one to take a photo on the home screen.",
+  "sim": 0.21
+ },
+ {
+  "k": "helpStart2",
+  "en": "Every photo opens in Crop & Rotate first, then in the editor. Your original photo is never changed.",
+  "tr": "ஒவ்வொரு புகைப்படமும் முதலில் வெட்டு & சுழற்று என்பதில் திறக்கும், பிறகு எடிட்டரில். உங்கள் அசல் புகைப்படம் ஒருபோதும் மாற்றப்படாது.",
+  "back": "Each photo opens first in Cut & Spin, then in the editor. Your original photo will never be changed.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpStart3",
+  "en": "When you are happy, tap Export in the editor. Recent Exports on the home screen lists everything you have exported.",
+  "tr": "திருப்தியானதும் எடிட்டரில் ஏற்றுமதி என்பதைத் தொடவும். முகப்புத் திரையில் உள்ள சமீபத்திய ஏற்றுமதிகள் நீங்கள் ஏற்றுமதி செய்த அனைத்தையும் காட்டும்.",
+  "back": "Tap Export in the content editor and the latest shipments on the home screen will show everything you have exported.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpCropTitle",
+  "en": "Crop & Rotate",
+  "tr": "வெட்டு & சுழற்று",
+  "back": "Cut and spin",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCrop1",
+  "en": "Turn the photo left or right in 90° steps, and drag the frame to choose the part you want to keep.",
+  "tr": "புகைப்படத்தை 90° படிகளில் இடது அல்லது வலது பக்கம் சுழற்றி, வைத்திருக்க விரும்பும் பகுதியைத் தேர்ந்தெடுக்க சட்டத்தை இழுக்கவும்.",
+  "back": "Rotate the photo 90° to the left or right and drag the frame to select the area you want to hold.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpCrop2",
+  "en": "Free lets you shape the frame as you like. 1:1, 4:5 and 9:16 lock its shape. Tap Continue to open the editor.",
+  "tr": "தனிப்பயன் சட்டத்துக்கு நீங்கள் விரும்பும் வடிவத்தைக் கொடுக்க அனுமதிக்கிறது. 1:1, 4:5, 9:16 ஆகியவை அதன் வடிவத்தைப் பூட்டுகின்றன. எடிட்டரைத் திறக்க தொடர்க என்பதைத் தொடவும்.",
+  "back": "It allows you to give the custom font the shape you want. 1:1, 4:5, 9:16 locks the shape.",
+  "sim": 0.35
+ },
+ {
+  "k": "helpCutoutTitle",
+  "en": "Cut-out",
+  "tr": "வெட்டு",
+  "back": "Cutting",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCutout1",
+  "en": "When the editor opens, PhotoSur finds the main subject and removes the background automatically, on your phone. No internet is needed.",
+  "tr": "எடிட்டர் திறந்ததும், PhotoSur முக்கியப் பொருளைக் கண்டறிந்து உங்கள் தொலைபேசியிலேயே தானாகப் பின்னணியை நீக்கும். இணையம் தேவையில்லை.",
+  "back": "Once the editor opens, PhotoSur will locate the key and automatically delete the background on your phone.",
+  "sim": 0.58
+ },
+ {
+  "k": "helpCutout2",
+  "en": "Edge Smoothness softens the edge of the cut-out, from 0 to 20 pixels.",
+  "tr": "விளிம்பு மென்மை வெட்டின் விளிம்பை 0 முதல் 20 பிக்சல் வரை மென்மையாக்குகிறது.",
+  "back": "The edge softness smooths the edge of the cut to 0 to 20 pixels.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpCutout3",
+  "en": "The eye button at the top shows your original photo so you can compare. Tap it again to go back. The brush is paused while the original is shown.",
+  "tr": "மேலே உள்ள கண் பொத்தான் ஒப்பிடுவதற்காக உங்கள் அசல் புகைப்படத்தைக் காட்டும். திரும்பிச் செல்ல மீண்டும் தொடவும். அசல் தெரியும் வரை பிரஷ் இடைநிறுத்தப்பட்டிருக்கும்.",
+  "back": "The eye button above will show your original photo for comparison. Touch again to go back and the brush will be suspended until the original is visible.",
+  "sim": 0.54
+ },
+ {
+  "k": "helpCutout4",
+  "en": "For difficult subjects such as glass, shoes, bags and bottles, tap Get HD cut-out. The HD model downloads once, stays on your phone and then works offline. Once it is installed, every new cut-out uses it automatically. To redo the photo you have open, tap Redo cut-out in HD.",
+  "tr": "கண்ணாடி, காலணிகள், பைகள், பாட்டில்கள் போன்ற கடினமான பொருட்களுக்கு HD கட்அவுட்டைப் பெறுங்கள் என்பதைத் தொடவும். HD மாடல் ஒரே ஒரு முறை பதிவிறக்கப்பட்டு, உங்கள் தொலைபேசியில் இருந்து, பிறகு ஆஃப்லைனில் இயங்கும். நிறுவப்பட்டதும் ஒவ்வொரு புதிய வெட்டும் அதைத் தானாகப் பயன்படுத்தும். திறந்திருக்கும் புகைப்படத்தை மீண்டும் செய்ய HD-யில் கட்அவுட்டை மீண்டும் செய் என்பதைத் தொடவும்.",
+  "back": "Tap Get HD Cut Out for hard objects such as glasses, shoes, bags, bottles. The HD model will only be downloaded once and run from your phone, then offline. Once installed, each new cutter will automatically use it. Tap Repeat Cut Out in HD to repeat an open photo.",
+  "sim": 0.33
+ },
+ {
+  "k": "helpBrushTitle",
+  "en": "Brush",
+  "tr": "பிரஷ்",
+  "back": "brush",
+  "sim": 1.0
+ },
+ {
+  "k": "helpBrush1",
+  "en": "Erase removes parts of the subject. Restore brings back parts the cut-out removed.",
+  "tr": "அழி பொருளின் சில பகுதிகளை நீக்குகிறது. மீட்டெடு வெட்டு நீக்கிய பகுதிகளைத் திரும்பக் கொண்டுவருகிறது.",
+  "back": "Delete removes some parts of the object. Retrieve removes the parts that were deleted.",
+  "sim": 0.37
+ },
+ {
+  "k": "helpBrush2",
+  "en": "Drag one finger to paint. Use two fingers to zoom, up to 8 times, and to move the photo. The brush keeps its size on screen, so zooming in gives finer control.",
+  "tr": "வரைய ஒரு விரலால் இழுக்கவும். 8 மடங்கு வரை பெரிதாக்கவும் புகைப்படத்தை நகர்த்தவும் இரண்டு விரல்களைப் பயன்படுத்தவும். பிரஷ் திரையில் தன் அளவை மாற்றாது, எனவே பெரிதாக்கும்போது இன்னும் துல்லியமாக வேலை செய்யலாம்.",
+  "back": "Draw with one finger. Enlarge up to 8 times and move the photo with two fingers. The brush does not change its size on the screen, so it can work more accurately when enlarged.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpBrush3",
+  "en": "Brush Size goes from 1 to 50. Opacity sets how strongly each stroke applies.",
+  "tr": "பிரஷ் அளவு 1 முதல் 50 வரை இருக்கும். ஒளிபுகாமை ஒவ்வொரு தீட்டும் எவ்வளவு அடர்த்தியாக இருக்கும் என்பதை நிர்ணயிக்கிறது.",
+  "back": "The brush size ranges from 1 to 50, and the optical spectrum determines the density of each brush.",
+  "sim": 0.44
+ },
+ {
+  "k": "helpBrush4",
+  "en": "Undo and Redo step through your brush strokes. Reset clears all brush strokes and goes back to the automatic cut-out; it asks you to confirm first.",
+  "tr": "செயல்தவிர் மற்றும் மீண்டும் செய் உங்கள் பிரஷ் தீட்டல்களில் முன்னும் பின்னும் செல்கின்றன. மீட்டமை அனைத்து தீட்டல்களையும் அழித்து தானியங்கி வெட்டுக்குத் திரும்புகிறது; முதலில் உறுதிப்படுத்தக் கேட்கப்படும்.",
+  "back": "Deactivate and repeat go back and forth between your brush settings. Reset deletes all settings and returns to automatic cutting; first you'll be asked to confirm.",
+  "sim": 0.38
+ },
+ {
+  "k": "helpBackgroundTitle",
+  "en": "Background",
+  "tr": "பின்னணி",
+  "back": "the background",
+  "sim": 0.67
+ },
+ {
+  "k": "helpBackground1",
+  "en": "Choose what goes behind your subject: transparent, white, black, a gradient, a colour, a blurred copy of your photo, or your own photo.",
+  "tr": "உங்கள் பொருளுக்குப் பின்னால் என்ன இருக்க வேண்டும் என்பதைத் தேர்ந்தெடுங்கள்: ஒளிஊடுருவும், வெள்ளை, கருப்பு, கிரேடியண்ட், ஒரு நிறம், உங்கள் புகைப்படத்தின் மங்கலான நகல், அல்லது உங்கள் சொந்தப் புகைப்படம்.",
+  "back": "Choose what you want to be behind your object: a translucent, white, black, gradient, a color, a blurry copy of your photograph, or your own photograph.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpBackground2",
+  "en": "Only one background is used at a time. Your latest choice replaces the earlier one.",
+  "tr": "ஒரு நேரத்தில் ஒரே ஒரு பின்னணி மட்டுமே பயன்படுத்தப்படும். உங்கள் கடைசித் தேர்வு முந்தையதை மாற்றும்.",
+  "back": "Only one background will be used at a time. Your last choice will replace the previous one.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpBackground3",
+  "en": "Add custom background lets you pick a photo from your gallery. Custom color opens a colour picker. The Blur slider goes from 0 to 25.",
+  "tr": "தனிப்பயன் பின்னணியைச் சேர் கேலரியிலிருந்து ஒரு புகைப்படத்தைத் தேர்ந்தெடுக்க அனுமதிக்கிறது. தனிப்பயன் நிறம் வண்ணத் தேர்வியைத் திறக்கும். மங்கல் ஸ்லைடர் 0 முதல் 25 வரை.",
+  "back": "Add a custom background allows you to select a photo from the gallery. A custom color will open the color selection.",
+  "sim": 0.48
+ },
+ {
+  "k": "helpBackground4",
+  "en": "Transparent shows a checkerboard while you edit. Export as PNG to keep it transparent.",
+  "tr": "ஒளிஊடுருவும் திருத்தும்போது சதுரங்கப் பலகை வடிவத்தைக் காட்டும். ஒளிஊடுருவலைத் தக்கவைக்க PNG ஆக ஏற்றுமதி செய்யுங்கள்.",
+  "back": "Show the shape of the chessboard when you edit the penetration. Export it as PNG to maintain the penetration.",
+  "sim": 0.36
+ },
+ {
+  "k": "helpTemplatesTitle",
+  "en": "Templates",
+  "tr": "டெம்ப்ளேட்கள்",
+  "back": "Templates",
+  "sim": 1.0
+ },
+ {
+  "k": "helpTemplates1",
+  "en": "Templates are ready-made backgrounds in five groups: Studio, Color block, Textures, Light & shadow, and Gradients & patterns. Five scenes are shown in the panel; tap the Templates button to see them all.",
+  "tr": "டெம்ப்ளேட்கள் ஐந்து குழுக்களில் தயாரான பின்னணிகள்: ஸ்டுடியோ, வண்ணத் தொகுதிகள், அமைப்புகள், ஒளி & நிழல், கிரேடியண்ட் & வடிவங்கள். பேனலில் ஐந்து காட்சிகள் தெரியும்; அனைத்தையும் பார்க்க டெம்ப்ளேட்கள் பொத்தானைத் தொடவும்.",
+  "back": "Templates are ready-made backgrounds in five groups: Studio, color modules, settings, light & shadow, gradient & patterns. Five displays appear on the panel; tap the Templates button to see everything.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpTemplates2",
+  "en": "Choosing a template works like choosing your own photo as the background: it replaces your earlier background choice.",
+  "tr": "டெம்ப்ளேட்டைத் தேர்ந்தெடுப்பது உங்கள் சொந்தப் புகைப்படத்தைப் பின்னணியாகத் தேர்ந்தெடுப்பதற்குச் சமம்: அது உங்கள் முந்தைய பின்னணித் தேர்வை மாற்றும்.",
+  "back": "Choosing a template is like choosing your own photo as a background: it will change your previous background choice.",
+  "sim": 0.76
+ },
+ {
+  "k": "helpLayoutTitle",
+  "en": "Layout",
+  "tr": "அமைவு",
+  "back": "setting",
+  "sim": 0.0
+ },
+ {
+  "k": "helpLayout1",
+  "en": "Drag the subject on the photo to move it. Pinch with two fingers to resize it.",
+  "tr": "பொருளை நகர்த்த புகைப்படத்தின் மேல் இழுக்கவும். அளவை மாற்ற இரண்டு விரல்களால் கிள்ளவும்.",
+  "back": "Drag the object to the top of the photo to move it, and swipe with two fingers to change the size.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpLayout2",
+  "en": "Choose Original, 1:1, 4:5 or 9:16 to set the shape of the final picture.",
+  "tr": "இறுதிப் படத்தின் வடிவத்தை அமைக்க அசல், 1:1, 4:5 அல்லது 9:16 ஐத் தேர்ந்தெடுக்கவும்.",
+  "back": "To set the format of the final image, select the original, 1:1, 4:5, or 9:16.",
+  "sim": 0.34
+ },
+ {
+  "k": "helpLayout3",
+  "en": "Size sets how big the subject is, from 20% to 300%. Shadow sets how strong its shadow is. Auto-center puts the subject back in the middle. Reset undoes moving and resizing.",
+  "tr": "அளவு பொருள் எவ்வளவு பெரியது என்பதை 20% முதல் 300% வரை நிர்ணயிக்கிறது. நிழல் அதன் நிழல் எவ்வளவு அடர்த்தி என்பதை நிர்ணயிக்கிறது. தானாக மையப்படுத்து பொருளை மீண்டும் நடுவில் கொண்டுவருகிறது. மீட்டமை நகர்த்தல்களையும் அளவு மாற்றங்களையும் செயல்தவிர்க்கிறது.",
+  "back": "The size determines how large an object is by 20% to 300%. The shadow determines how dense its shadow is. Automatically centering brings the object back to the center.",
+  "sim": 0.47
+ },
+ {
+  "k": "helpLayout4",
+  "en": "This shape is used when the export size is Original. If you choose a size preset or a marketplace in the export sheet, that decides the final shape instead.",
+  "tr": "ஏற்றுமதி அளவு அசல் ஆக இருக்கும்போது இந்த வடிவம் பொருந்தும். ஏற்றுமதித் தாளில் முன்னமைந்த அளவையோ மார்க்கெட்பிளேஸையோ தேர்ந்தெடுத்தால், இறுதி வடிவத்தை அதுவே தீர்மானிக்கும்.",
+  "back": "This format applies when the export quantity is original. If the pre-set quantity or marketplace is selected on the export sheet, it will determine the final format.",
+  "sim": 0.54
+ },
+ {
+  "k": "helpExportTitle",
+  "en": "Export",
+  "tr": "ஏற்றுமதி",
+  "back": "exports",
+  "sim": 0.0
+ },
+ {
+  "k": "helpExport1",
+  "en": "Tap Export to open the export sheet. Nothing is applied until you tap Save to Gallery or Share, so you can change your choices as often as you like.",
+  "tr": "ஏற்றுமதித் தாளைத் திறக்க ஏற்றுமதி என்பதைத் தொடவும். கேலரியில் சேமி அல்லது பகிர் என்பதைத் தொடும் வரை எதுவும் செயல்படுத்தப்படாது, எனவே உங்கள் தேர்வுகளை எத்தனை முறை வேண்டுமானாலும் மாற்றலாம்.",
+  "back": "Nothing will be activated until you touch Save or Share in Gallery, so you can change your choices as many times as you want.",
+  "sim": 0.57
+ },
+ {
+  "k": "helpExport2",
+  "en": "PNG keeps transparency. JPG makes smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a small modern format; if your phone cannot make it, the file is saved as JPG. For JPG and WEBP, the Quality slider trades file size for detail.",
+  "tr": "PNG ஒளிஊடுருவலைத் தக்கவைக்கும். JPG சிறிய கோப்புகளைத் தரும் ஆனால் ஒளிஊடுருவ முடியாது, எனவே ஒளிஊடுருவும் பின்னணி வெள்ளையாகிவிடும். WEBP நவீன, சுருக்கமான வடிவம்; உங்கள் தொலைபேசியால் அதை உருவாக்க முடியாவிட்டால் கோப்பு JPG ஆகச் சேமிக்கப்படும். JPG மற்றும் WEBP-க்கு தர ஸ்லைடர் கோப்பு அளவுக்கும் விவரத்துக்கும் இடையே சமநிலை அமைக்கிறது.",
+  "back": "PNG will retain penetration. JPG will give small files but cannot penetrate, so the penetration will turn the background white. WEBP is a modern, compact format; if your phone cannot generate it, the file will be saved as JPG. The quality slider for JPG and WEBP balances between file size and detail.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpExport3",
+  "en": "Original keeps your photo’s size, with the shape chosen in Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. Custom lets you type a width and height in pixels.",
+  "tr": "அசல் உங்கள் புகைப்படத்தின் அளவை, அமைவு-இல் தேர்ந்த வடிவத்துடன் தக்கவைக்கிறது. 1:1 என்றால் 1080 × 1080, 4:5 என்றால் 1080 × 1350, 9:16 என்றால் 1080 × 1920. தனிப்பயன் பிக்சல்களில் அகலத்தையும் உயரத்தையும் உள்ளிட அனுமதிக்கிறது.",
+  "back": "The original keeps the size of your photo with the format selected in the setup. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350, 9:16 is 1080 × 1920. Allows you to enter width and height in custom pixels.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpExport4",
+  "en": "Marketplace presets set size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG kept under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices, and choosing a format or size afterwards switches the marketplace off. Marketplace rules can change, so check your marketplace’s current requirements.",
+  "tr": "மார்க்கெட்பிளேஸ் முன்னமைவுகள் அளவு, வடிவம், தரம் ஆகியவற்றை நிர்ணயிக்கின்றன: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG 1 MB-க்குக் குறைவாக, Shopify 2048 × 2048 PNG. ஒன்றைத் தேர்ந்தெடுத்தால் உங்கள் வடிவம் மற்றும் அளவுத் தேர்வுகள் மாறும்; பிறகு வடிவம் அல்லது அளவைத் தேர்ந்தெடுத்தால் மார்க்கெட்பிளேஸ் தேர்வு நீங்கும். மார்க்கெட்பிளேஸ் விதிகள் மாறக்கூடும், எனவே உங்கள் மார்க்கெட்பிளேஸின் தற்போதைய தேவைகளைச் சரிபாருங்கள்.",
+  "back": "Marketplace presets determine size, shape, and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG for less than 1 MB, Shopify 2048 × 2048 PNG. If you choose one, your shape and size preferences will change; then if you choose shape or size, the marketplace choice will disappear. Marketplace rules may change, so check the current requirements of your marketplace.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpExport5",
+  "en": "Amazon also uses a pure white background with no shadow and fits the subject to fill most of the frame. Your background choice in the editor is not changed. The other marketplaces keep your background.",
+  "tr": "Amazon நிழலற்ற தூய வெள்ளைப் பின்னணியையும் பயன்படுத்தி, சட்டத்தின் பெரும்பகுதியை நிரப்பும்படி பொருளைச் சரிசெய்கிறது. எடிட்டரில் உங்கள் பின்னணித் தேர்வு மாறாது. மற்ற மார்க்கெட்பிளேஸ்கள் உங்கள் பின்னணியைத் தக்கவைக்கும்.",
+  "back": "Amazon also adjusts the material to fill in the majority of the frame using a clear white background. Your background selection in the editor will remain unchanged. Other marketplaces will retain your background.",
+  "sim": 0.5
+ },
+ {
+  "k": "helpExport6",
+  "en": "Save to Gallery and Share both save the picture to your gallery and to Recent Exports. Share also opens your phone’s share menu. If saving to the gallery is not possible, the share menu opens instead. After exporting you return to the home screen.",
+  "tr": "கேலரியில் சேமி மற்றும் பகிர் இரண்டும் படத்தை உங்கள் கேலரியிலும் சமீபத்திய ஏற்றுமதிகள் பகுதியிலும் சேமிக்கும். பகிர் கூடுதலாக உங்கள் தொலைபேசியின் பகிர்வு மெனுவையும் திறக்கும். கேலரியில் சேமிக்க முடியாவிட்டால், அதற்குப் பதிலாகப் பகிர்வு மெனு திறக்கும். ஏற்றுமதிக்குப் பிறகு நீங்கள் முகப்புத் திரைக்குத் திரும்புவீர்கள்.",
+  "back": "Both save and share in the gallery will save the image in your gallery and in the latest shipments area. Share will also open the share menu of your phone. If you can't save in the gallery, the share menu will open instead. After shipment you will return to the home screen.",
+  "sim": 0.44
+ },
+ {
+  "k": "helpExport7",
+  "en": "Unless you have removed ads, an ad can appear after an export, at most once every two minutes.",
+  "tr": "நீங்கள் விளம்பரங்களை நீக்கவில்லை என்றால், ஏற்றுமதிக்குப் பிறகு ஒரு விளம்பரம் தோன்றலாம், இரண்டு நிமிடங்களுக்கு ஒருமுறைக்கு மேல் அல்ல.",
+  "back": "If you do not remove ads, an ad may appear after shipping, no more than once every two minutes.",
+  "sim": 0.54
+ },
+ {
+  "k": "helpBatchTitle",
+  "en": "Batch",
+  "tr": "தொகுப்பு",
+  "back": "collection",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBatch1",
+  "en": "Batch cuts out up to 30 photos in one go. Tap Batch on the home screen and pick your photos. The back button is turned off while a batch runs.",
+  "tr": "தொகுப்பு ஒரே நேரத்தில் 30 புகைப்படங்கள் வரை வெட்டும். முகப்புத் திரையில் தொகுப்பு என்பதைத் தொட்டு உங்கள் புகைப்படங்களைத் தேர்ந்தெடுக்கவும். தொகுப்பு இயங்கும்போது பின் பொத்தான் முடக்கப்பட்டிருக்கும்.",
+  "back": "The package can cut up to 30 photos at a time. Tap the Gallery on the home screen and select your photos. The back button will be turned off when the package is running.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpBatch2",
+  "en": "All photos in a batch share one setup: one background and one marketplace. You cannot choose differently for each photo.",
+  "tr": "ஒரு தொகுப்பில் உள்ள அனைத்துப் புகைப்படங்களும் ஒரே அமைப்பைப் பகிர்கின்றன: ஒரு பின்னணி, ஒரு மார்க்கெட்பிளேஸ். ஒவ்வொரு புகைப்படத்துக்கும் வெவ்வேறாகத் தேர்ந்தெடுக்க முடியாது.",
+  "back": "All the photos in a collection share the same layout: a background, a marketplace. You can't choose differently for each photo.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpBatch3",
+  "en": "Backgrounds work as in the editor: your own photo, a colour, a template, white, transparent, black, blur or a gradient. Only one applies, and your latest choice replaces the earlier one.",
+  "tr": "பின்னணிகள் எடிட்டரில் உள்ளதைப் போலவே செயல்படும்: உங்கள் சொந்தப் புகைப்படம், ஒரு நிறம், ஒரு டெம்ப்ளேட், வெள்ளை, ஒளிஊடுருவும், கருப்பு, மங்கல் அல்லது கிரேடியண்ட். ஒன்று மட்டுமே பொருந்தும், உங்கள் கடைசித் தேர்வு முந்தையதை மாற்றும்.",
+  "back": "The backgrounds will work the same way as in the editor: your own photo, a color, a template, white, translucent, black, dim, or gradient. Only one applies, and your last choice will replace the previous one.",
+  "sim": 0.72
+ },
+ {
+  "k": "helpBatch4",
+  "en": "The file format is chosen for you. With a marketplace, the photos follow that marketplace’s size and format. Without one, a transparent background gives PNG and any other background gives JPG, at the original size.",
+  "tr": "கோப்பு வடிவம் உங்களுக்காகத் தேர்ந்தெடுக்கப்படும். மார்க்கெட்பிளேஸ் இருந்தால் புகைப்படங்கள் அதன் அளவையும் வடிவத்தையும் பின்பற்றும். இல்லையென்றால், ஒளிஊடுருவும் பின்னணி PNG தரும், மற்ற எந்தப் பின்னணியும் JPG தரும், அசல் அளவில்.",
+  "back": "The file format will be selected for you. If there is a marketplace, the photos will follow its size and shape. If not, the filter will give the background PNG, and any other background will give the JPG, on the original scale.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpBatch5",
+  "en": "Choosing Amazon switches the background to White; if you then choose another background, Amazon is switched off. eBay, Etsy and Shopify keep your background, but a JPG cannot be transparent, so it gets a white background.",
+  "tr": "Amazon ஐத் தேர்ந்தெடுத்தால் பின்னணி வெள்ளை ஆகும்; பிறகு வேறொரு பின்னணியைத் தேர்ந்தெடுத்தால் Amazon தேர்வு நீங்கும். eBay, Etsy, Shopify உங்கள் பின்னணியைத் தக்கவைக்கும், ஆனால் JPG ஒளிஊடுருவ முடியாததால் அது வெள்ளைப் பின்னணியைப் பெறும்.",
+  "back": "If you choose Amazon, the background is white; then if you choose another background, Amazon will be removed. eBay, Etsy, Shopify will keep your background, but it will get a white background because JPG is not transparent.",
+  "sim": 0.58
+ },
+ {
+  "k": "helpBatch6",
+  "en": "If the HD model is installed, every photo in the batch is cut out with it. The Get HD cut-out button next to Templates downloads it.",
+  "tr": "HD மாடல் நிறுவப்பட்டிருந்தால், தொகுப்பில் உள்ள ஒவ்வொரு புகைப்படமும் அதைக் கொண்டே வெட்டப்படும். டெம்ப்ளேட்கள் அருகிலுள்ள HD கட்அவுட்டைப் பெறுங்கள் பொத்தான் அதைப் பதிவிறக்கும்.",
+  "back": "If the HD model is installed, every photo in the package will be cut with it. Get the HD cut out button near the templates to download it.",
+  "sim": 0.48
+ },
+ {
+  "k": "helpBatch7",
+  "en": "Each photo is saved to your gallery and to Recent Exports as soon as it finishes. Stop ends the batch after the current photo, and photos already finished stay saved. If a photo fails, the batch carries on and tells you how many could not be processed. Done takes you back to the home screen; it does not save anything.",
+  "tr": "ஒவ்வொரு புகைப்படமும் முடிந்தவுடனே உங்கள் கேலரியிலும் சமீபத்திய ஏற்றுமதிகள் பகுதியிலும் சேமிக்கப்படும். நிறுத்து நடப்பிலுள்ள புகைப்படத்துக்குப் பிறகு தொகுப்பை முடிக்கும், ஏற்கனவே முடிந்த புகைப்படங்கள் சேமிக்கப்பட்டவையாகவே இருக்கும். ஒரு புகைப்படம் தோல்வியடைந்தால் தொகுப்பு தொடரும், எத்தனை செயலாக்க முடியவில்லை என்பதையும் சொல்லும். முடிந்தது உங்களை முகப்புத் திரைக்குத் திருப்புகிறது; அது எதையும் சேமிக்காது.",
+  "back": "Each photo will be stored in your gallery and in the latest shipments section as soon as it's finished. After stopping the current photo, the collection will be finished and the already finished photos will be saved as they were. If a photo fails, the collection will continue and tell you how many have not been processed. Finished will return you to the home screen; it won't save anything.",
+  "sim": 0.54
+ },
+ {
+  "k": "helpLibraryTitle",
+  "en": "Your exports",
+  "tr": "உங்கள் ஏற்றுமதிகள்",
+  "back": "Your exports",
+  "sim": 1.0
+ },
+ {
+  "k": "helpLibrary1",
+  "en": "Recent Exports on the home screen shows your latest exports. Tap See all for every export, grouped as Today, Yesterday, This week and Earlier.",
+  "tr": "முகப்புத் திரையில் உள்ள சமீபத்திய ஏற்றுமதிகள் உங்கள் புதிய ஏற்றுமதிகளைக் காட்டும். அனைத்தையும் பார்க்க அனைத்தையும் காண்க என்பதைத் தொடவும்; அவை இன்று, நேற்று, இந்த வாரம், முந்தையவை எனக் குழுவாகும்.",
+  "back": "The most recent shipments on the home screen will show your new shipments. Tap See Everything to see everything; they are grouped as Today, Yesterday, This Week, Previous.",
+  "sim": 0.54
+ },
+ {
+  "k": "helpLibrary2",
+  "en": "Tap an export to open it full screen. Swipe to move between exports and pinch to zoom. The bar at the bottom has Share, Save to Gallery, Edit again and Delete.",
+  "tr": "ஒரு ஏற்றுமதியை முழுத்திரையில் திறக்க அதைத் தொடவும். ஏற்றுமதிகளுக்கு இடையே மாற ஸ்வைப் செய்யவும், பெரிதாக்க கிள்ளவும். கீழ்ப் பட்டியில் பகிர், கேலரியில் சேமி, மீண்டும் திருத்து, நீக்கு ஆகியவை கிடைக்கும்.",
+  "back": "To open an export on the full screen, tap it, swipe between exports, and click Enlarge. Share in the bottom bar, save in the gallery, edit, and delete.",
+  "sim": 0.51
+ },
+ {
+  "k": "helpLibrary3",
+  "en": "The three-dot button on a tile opens the same actions. Edit again opens the exported picture as a new photo, so earlier brush strokes are not restored.",
+  "tr": "சிறுபடத்தில் உள்ள மூன்று புள்ளிப் பொத்தான் அதே செயல்களைத் திறக்கும். மீண்டும் திருத்து ஏற்றுமதி செய்த படத்தைப் புதிய புகைப்படமாகத் திறக்கும், எனவே முந்தைய பிரஷ் தீட்டல்கள் மீட்டெடுக்கப்படாது.",
+  "back": "The three-point button in the thumbnail will unlock the same actions. The re-edited and exported image will open as a new photo, so the previous brush settings will not be restored.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpLibrary4",
+  "en": "Select lets you choose several exports to share together or delete. Delete all exports removes every export from this phone.",
+  "tr": "தேர்ந்தெடு பல ஏற்றுமதிகளைத் தேர்ந்தெடுத்து ஒன்றாகப் பகிர அல்லது நீக்க அனுமதிக்கிறது. அனைத்து ஏற்றுமதிகளையும் நீக்கு இந்தத் தொலைபேசியிலிருந்து அனைத்து ஏற்றுமதிகளையும் நீக்குகிறது.",
+  "back": "Select allows multiple shipments to be shared or deleted together. Delete all shipments Delets all shipments from this phone.",
+  "sim": 0.41
+ },
+ {
+  "k": "helpLibrary5",
+  "en": "Deleting removes exports from PhotoSur only. Pictures already saved to your gallery are not affected. The bottom of the See all screen shows how much space exports use on this phone.",
+  "tr": "நீக்குவது ஏற்றுமதிகளை PhotoSur-இலிருந்து மட்டுமே நீக்கும். உங்கள் கேலரியில் ஏற்கனவே சேமிக்கப்பட்ட படங்கள் தொடப்படாது. அனைத்தையும் காண்க பக்கத்தின் கீழே, இந்தத் தொலைபேசியில் ஏற்றுமதிகள் எவ்வளவு இடத்தை எடுத்துக்கொள்கின்றன என்பதைக் காணலாம்.",
+  "back": "Deleting will only delete exports from PhotoSur. Images already saved in your gallery will not be touched. See All at the bottom of the page, where you can see how much space exports take up on this phone.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpPrivacyTitle",
+  "en": "Privacy & ads",
+  "tr": "தனியுரிமை & விளம்பரங்கள்",
+  "back": "Privacy and Advertising",
+  "sim": 0.4
+ },
+ {
+  "k": "helpPrivacy1",
+  "en": "Your photos are processed on your phone and are not uploaded. There is no account and no watermark.",
+  "tr": "உங்கள் புகைப்படங்கள் உங்கள் தொலைபேசியிலேயே செயலாக்கப்படும், பதிவேற்றப்படாது. கணக்கு இல்லை, வாட்டர்மார்க் இல்லை.",
+  "back": "Your photos will be processed on your phone, not uploaded. No account, no watermark.",
+  "sim": 0.75
+ },
+ {
+  "k": "helpPrivacy2",
+  "en": "PhotoSur is free with every feature included, supported by ads. A banner appears at the bottom of some screens, and an ad can appear after an export.",
+  "tr": "PhotoSur இலவசம், அனைத்து அம்சங்களுடனும், விளம்பரங்களால் ஆதரிக்கப்படுகிறது. சில திரைகளின் கீழே ஒரு பேனர் தோன்றும், ஏற்றுமதிக்குப் பிறகு ஒரு விளம்பரம் தோன்றலாம்.",
+  "back": "PhotoSur is free, with all features, supported by ads. A banner appears at the bottom of some screens, and an ad may appear after shipping.",
+  "sim": 0.81
+ },
+ {
+  "k": "helpPrivacy3",
+  "en": "Go Ad-Free in Settings is a one-time purchase that removes the ads. It does not unlock anything else, because every feature is already free. Restore Purchases brings it back on a new phone.",
+  "tr": "அமைப்புகளில் உள்ள விளம்பரமின்றிப் பயன்படுத்து என்பது விளம்பரங்களை நீக்கும் ஒருமுறை வாங்குதல். அனைத்து அம்சங்களும் ஏற்கனவே இலவசம் என்பதால் அது வேறு எதையும் திறக்காது. வாங்கியதை மீட்டெடு அதைப் புதிய தொலைபேசியில் மீண்டும் கொண்டுவரும்.",
+  "back": "Use without ads in the settings is a one-time purchase that removes ads. Since all the features are already free, it won't unlock anything else.",
+  "sim": 0.45
+ },
+ {
+  "k": "helpSettingsTitle",
+  "en": "Settings",
+  "tr": "அமைப்புகள்",
+  "back": "systems",
+  "sim": 0.0
+ },
+ {
+  "k": "helpSettings1",
+  "en": "Theme can follow your phone, or be Light or Dark. Language changes the language of the app. Both are also in the home screen header.",
+  "tr": "தீம் உங்கள் தொலைபேசியைப் பின்பற்றலாம், அல்லது ஒளி அல்லது இருள் ஆக இருக்கலாம். மொழி செயலியின் மொழியை மாற்றும். இரண்டும் முகப்புத் திரையின் தலைப்புப் பகுதியிலும் உள்ளன.",
+  "back": "The theme can follow your phone, or it can be light or dark. The language will change the language of the app. Both are in the title section of the home screen.",
+  "sim": 0.77
+ },
+ {
+  "k": "helpSettings2",
+  "en": "Edit reminders: if you leave the app with an unfinished edit, PhotoSur can remind you three hours later. Switch this off in Settings.",
+  "tr": "திருத்த நினைவூட்டல்கள்: முடிக்காத திருத்தத்துடன் செயலியை விட்டு வெளியேறினால், PhotoSur மூன்று மணி நேரம் கழித்து நினைவூட்டலாம். இதை அமைப்புகளில் அணைக்கலாம்.",
+  "back": "Reminders to edit: If you leave the processor with an unfinished edit, PhotoSur can be reminded after three hours. It can be turned off in settings.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpSettings3",
+  "en": "HD cut-out model shows whether it is installed. Remove deletes it from your phone to free space; you can download it again at any time.",
+  "tr": "HD கட்அவுட் மாடல் அது நிறுவப்பட்டுள்ளதா என்பதைக் காட்டும். நீக்கு இடத்தை விடுவிக்க அதை உங்கள் தொலைபேசியிலிருந்து அழிக்கும்; எப்போது வேண்டுமானாலும் மீண்டும் பதிவிறக்கலாம்.",
+  "back": "The HD cut-out model will show if it's installed. Delete will delete it from your phone to free up space; you can download it again at any time.",
+  "sim": 0.72
+ },
+ {
+  "k": "helpSettings4",
+  "en": "Replay intro shows the welcome screens again. Support opens the support page. Animated home background turns the moving picture at the top of the home screen on or off.",
+  "tr": "அறிமுகத்தை மீண்டும் காண்க வரவேற்புத் திரைகளை மீண்டும் காட்டும். ஆதரவு ஆதரவுப் பக்கத்தைத் திறக்கும். முகப்பின் அனிமேஷன் பின்னணி முகப்புத் திரையின் மேலுள்ள நகரும் படத்தை இயக்கும் அல்லது நிறுத்தும்.",
+  "back": "Re-view the introduction will show the welcome screens again. Support will open the support page. The animation of the face will activate or stop the moving image above the background home screen.",
+  "sim": 0.43
+ },
+ {
+  "k": "helpFixTitle",
+  "en": "If something goes wrong",
+  "tr": "ஏதாவது தவறாகப் போனால்",
+  "back": "If something goes wrong",
+  "sim": 1.0
+ },
+ {
+  "k": "helpFix1",
+  "en": "If the automatic cut-out cannot run on a very old or low-memory phone, the brush still works, so you can finish the picture by hand.",
+  "tr": "மிகப் பழைய அல்லது குறைந்த நினைவகம் உள்ள தொலைபேசியில் தானியங்கி வெட்டு இயங்க முடியாவிட்டாலும் பிரஷ் வேலை செய்யும், எனவே படத்தைக் கையால் முடிக்கலாம்.",
+  "back": "The brush will work even if you can't run the automatic cut on a very old or low-memory phone, so you can finish the image by hand.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpFix2",
+  "en": "If the HD download stops, check your connection and try again. It continues where it left off.",
+  "tr": "HD பதிவிறக்கம் நின்றுவிட்டால், உங்கள் இணைப்பைச் சரிபார்த்து மீண்டும் முயலுங்கள். அது நின்ற இடத்திலிருந்து தொடரும்.",
+  "back": "If the HD download stops, check your link and try again.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpFix3",
+  "en": "For anything else, open Support from Settings.",
+  "tr": "வேறு எதற்கும், அமைப்புகளிலிருந்து ஆதரவைத் திறக்கவும்.",
+  "back": "For anything else, unlock support from the settings.",
+  "sim": 0.8
+ }
+]

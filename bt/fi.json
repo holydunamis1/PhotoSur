@@ -1,0 +1,1773 @@
+[
+ {
+  "k": "onboardingPage1Title",
+  "en": "Remove backgrounds instantly. All features free.",
+  "tr": "Poista taustat heti. Kaikki ominaisuudet ilmaisia.",
+  "back": "Remove the background immediately, all features are free.",
+  "sim": 0.57
+ },
+ {
+  "k": "onboardingPage1Body",
+  "en": "Open a photo and our on-device AI removes the background automatically — no internet required. You can also swap in your own custom background.",
+  "tr": "Avaa kuva, niin laitteellasi toimiva tekoäly poistaa taustan automaattisesti — ilman internetyhteyttä. Voit myös vaihtaa tilalle oman taustasi.",
+  "back": "Open the image, and the AI on your device will automatically remove the background without an internet connection, and you can also replace it with your own background.",
+  "sim": 0.47
+ },
+ {
+  "k": "onboardingPage2Title",
+  "en": "Fine-tune with the brush",
+  "tr": "Hienosäädä siveltimellä",
+  "back": "Getting Fitted With a Browser",
+  "sim": 0.22
+ },
+ {
+  "k": "onboardingPage2Body",
+  "en": "Paint away what the AI missed or restore what you want to keep. Then crop, rotate, move and resize.",
+  "tr": "Pyyhi siveltimellä pois se, minkä tekoäly ohitti, tai palauta se, minkä haluat säilyttää. Sen jälkeen rajaa, kierrä, siirrä ja muuta kokoa.",
+  "back": "Clean out what your AI missed with a scrub, or restore what you want to keep, and then line it up, spin it, move it, and all that.",
+  "sim": 0.55
+ },
+ {
+  "k": "onboardingPage3Title",
+  "en": "Studio-ready backgrounds",
+  "tr": "Studiotason taustat",
+  "back": "Backgrounds at the studio level",
+  "sim": 0.29
+ },
+ {
+  "k": "onboardingPage3Body",
+  "en": "Choose a colour, gradient, template or your own photo, with a natural shadow. Marketplace presets for Amazon, eBay, Etsy and Shopify set size and format for you.",
+  "tr": "Valitse väri, liukuväri, malli tai oma kuvasi luonnollisella varjolla. Amazonin, eBayn, Etsyn ja Shopifyn esiasetukset määrittävät koon ja muodon puolestasi.",
+  "back": "Choose a color, slide color, model, or your own image in a natural shade. Amazon, eBay, Etsy, and Shopify pre-orders will determine the size and shape for you.",
+  "sim": 0.58
+ },
+ {
+  "k": "onboardingPage4Title",
+  "en": "Batch it, export it, keep it private",
+  "tr": "Erässä, haluamassasi muodossa, täysin yksityisesti",
+  "back": "In a batch, in the form you want, completely private.",
+  "sim": 0.24
+ },
+ {
+  "k": "onboardingPage4Body",
+  "en": "Cut out up to 30 photos at once and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "tr": "Poista jopa 30 kuvan tausta kerralla ja vie kuvat PNG-, JPG- tai WEBP-muodossa. Kuvasi eivät koskaan poistu puhelimestasi. Saatavilla 43 kielellä.",
+  "back": "Remove up to 30 images from the background at a time and export them in PNG, JPG, or WEBP. Your images will never be removed from your phone. Available in 43 languages.",
+  "sim": 0.63
+ },
+ {
+  "k": "onboardingNext",
+  "en": "Next",
+  "tr": "Seuraava",
+  "back": "The following:",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingGetStarted",
+  "en": "Get Started",
+  "tr": "Aloita",
+  "back": "Let 's get started .",
+  "sim": 0.67
+ },
+ {
+  "k": "homeCameraButton",
+  "en": "Camera",
+  "tr": "Kamera",
+  "back": "The camera .",
+  "sim": 0.67
+ },
+ {
+  "k": "homeGalleryButton",
+  "en": "Gallery",
+  "tr": "Galleria",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "dateToday",
+  "en": "Today",
+  "tr": "Tänään",
+  "back": "Today .",
+  "sim": 1.0
+ },
+ {
+  "k": "dateYesterday",
+  "en": "Yesterday",
+  "tr": "Eilen",
+  "back": "Yesterday .",
+  "sim": 1.0
+ },
+ {
+  "k": "homeRecentExports",
+  "en": "Recent Exports",
+  "tr": "Viimeisimmät viennit",
+  "back": "The latest exports",
+  "sim": 0.4
+ },
+ {
+  "k": "homeEmptyStateMessage",
+  "en": "Tap Camera or Gallery to start.",
+  "tr": "Aloita napauttamalla Kamera tai Galleria.",
+  "back": "Start by tapping Camera or Gallery.",
+  "sim": 0.5
+ },
+ {
+  "k": "homeExportUnavailable",
+  "en": "This export is no longer available.",
+  "tr": "Tämä vienti ei ole enää saatavilla.",
+  "back": "This export is no longer available.",
+  "sim": 1.0
+ },
+ {
+  "k": "homeShareFailed",
+  "en": "Could not share this export.",
+  "tr": "Tämän viennin jakaminen epäonnistui.",
+  "back": "The distribution of this export was unsuccessful.",
+  "sim": 0.33
+ },
+ {
+  "k": "homeGalleryOpenFailed",
+  "en": "Could not open gallery.",
+  "tr": "Galleriaa ei voitu avata.",
+  "back": "They couldn't open the gallery.",
+  "sim": 0.44
+ },
+ {
+  "k": "cameraTitle",
+  "en": "Camera",
+  "tr": "Kamera",
+  "back": "The camera .",
+  "sim": 0.67
+ },
+ {
+  "k": "cameraPermissionDenied",
+  "en": "Camera access is needed to take a photo. Please allow access.",
+  "tr": "Kuvan ottaminen vaatii kameran käyttöoikeuden. Salli käyttö.",
+  "back": "Taking a picture requires a license to use the camera.",
+  "sim": 0.1
+ },
+ {
+  "k": "cameraPermissionPermanentlyDenied",
+  "en": "Camera access was denied. Enable it in Settings to continue.",
+  "tr": "Kameran käyttö estettiin. Ota se käyttöön Asetuksissa jatkaaksesi.",
+  "back": "The camera's been blocked, so use it in the settings to continue.",
+  "sim": 0.45
+ },
+ {
+  "k": "cameraPermissionRestricted",
+  "en": "Camera access is restricted on this device.",
+  "tr": "Kameran käyttö on rajoitettu tällä laitteella.",
+  "back": "The use of the camera is restricted to this device.",
+  "sim": 0.59
+ },
+ {
+  "k": "cameraNoCameraFound",
+  "en": "No camera found on this device.",
+  "tr": "Tältä laitteelta ei löytynyt kameraa.",
+  "back": "There was no camera found on this device.",
+  "sim": 0.86
+ },
+ {
+  "k": "cameraStartFailed",
+  "en": "Could not start the camera.",
+  "tr": "Kameraa ei voitu käynnistää.",
+  "back": "The camera couldn't be turned on.",
+  "sim": 0.36
+ },
+ {
+  "k": "cameraCaptureFailed",
+  "en": "Could not capture photo.",
+  "tr": "Kuvaa ei voitu ottaa.",
+  "back": "They couldn't take a picture.",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraOpenSettings",
+  "en": "Open Settings",
+  "tr": "Avaa Asetukset",
+  "back": "Open the settings",
+  "sim": 0.8
+ },
+ {
+  "k": "cameraFlashTooltip",
+  "en": "Flash",
+  "tr": "Salama",
+  "back": "The Secret",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraGalleryTooltip",
+  "en": "Gallery",
+  "tr": "Galleria",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "cropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Rajaa ja kierrä",
+  "back": "Boundary and rotation",
+  "sim": 0.0
+ },
+ {
+  "k": "cropLoadFailed",
+  "en": "Could not load the image.",
+  "tr": "Kuvaa ei voitu ladata.",
+  "back": "We couldn't upload the image.",
+  "sim": 0.4
+ },
+ {
+  "k": "cropRotateFailed",
+  "en": "Could not rotate the image.",
+  "tr": "Kuvaa ei voitu kiertää.",
+  "back": "We couldn't get the picture around.",
+  "sim": 0.18
+ },
+ {
+  "k": "cropFailed",
+  "en": "Crop failed.",
+  "tr": "Rajaus epäonnistui.",
+  "back": "The limit failed.",
+  "sim": 0.4
+ },
+ {
+  "k": "cropSaveFailed",
+  "en": "Could not save the cropped image.",
+  "tr": "Rajattua kuvaa ei voitu tallentaa.",
+  "back": "We couldn't save the limited footage.",
+  "sim": 0.33
+ },
+ {
+  "k": "cropAspectFree",
+  "en": "Free",
+  "tr": "Vapaa",
+  "back": "I 'm free .",
+  "sim": 0.5
+ },
+ {
+  "k": "cropContinue",
+  "en": "Continue",
+  "tr": "Jatka",
+  "back": "Keep going .",
+  "sim": 0.0
+ },
+ {
+  "k": "editorSegmentationFailedMessage",
+  "en": "Your device doesn't support automatic background removal. Use the manual brush below.",
+  "tr": "Laitteesi ei tue taustan automaattista poistoa. Käytä alla olevaa manuaalista pyyhekumia.",
+  "back": "Your device doesn't support automatic background removal.",
+  "sim": 0.74
+ },
+ {
+  "k": "brushErase",
+  "en": "Erase",
+  "tr": "Pyyhi",
+  "back": "Washing",
+  "sim": 0.0
+ },
+ {
+  "k": "brushRestore",
+  "en": "Restore",
+  "tr": "Palauta",
+  "back": "Give it back.",
+  "sim": 0.0
+ },
+ {
+  "k": "brushSizeLabel",
+  "en": "Brush Size",
+  "tr": "Siveltimen koko",
+  "back": "The size of the rib cage",
+  "sim": 0.25
+ },
+ {
+  "k": "brushOpacityLabel",
+  "en": "Opacity",
+  "tr": "Peittävyys",
+  "back": "Coverage",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundWhite",
+  "en": "White",
+  "tr": "Valkoinen",
+  "back": "White",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundTransparent",
+  "en": "Transparent",
+  "tr": "Läpinäkyvä",
+  "back": "Transparent",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundBlack",
+  "en": "Black",
+  "tr": "Musta",
+  "back": "It 's black .",
+  "sim": 0.5
+ },
+ {
+  "k": "backgroundBlurLabel",
+  "en": "Blur",
+  "tr": "Sumennus",
+  "back": "In the case of non-compliance with the requirements of this Regulation, the following conditions shall apply:",
+  "sim": 0.0
+ },
+ {
+  "k": "edgeFeatherLabel",
+  "en": "Edge Smoothness",
+  "tr": "Reunojen pehmeys",
+  "back": "Softness of edges",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarUndo",
+  "en": "Undo",
+  "tr": "Kumoa",
+  "back": "I'm going to kill you.",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarRedo",
+  "en": "Redo",
+  "tr": "Tee uudelleen",
+  "back": "Do it again.",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarReset",
+  "en": "Reset",
+  "tr": "Nollaa",
+  "back": "It 's zero .",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarExport",
+  "en": "Export",
+  "tr": "Vie",
+  "back": "Take it .",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmTitle",
+  "en": "Reset edits?",
+  "tr": "Nollataanko muokkaukset?",
+  "back": "What do you say we cut the edits to zero?",
+  "sim": 0.17
+ },
+ {
+  "k": "resetConfirmBody",
+  "en": "This clears your manual brush strokes. This cannot be undone.",
+  "tr": "Tämä tyhjentää käsin tekemäsi siveltimenvedot. Toimintoa ei voi kumota.",
+  "back": "This will eliminate all of your hand-drawn sideburns, so you can't cancel the operation.",
+  "sim": 0.17
+ },
+ {
+  "k": "resetConfirmCancel",
+  "en": "Cancel",
+  "tr": "Peruuta",
+  "back": "Withdrawal",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmConfirm",
+  "en": "Reset",
+  "tr": "Nollaa",
+  "back": "It 's zero .",
+  "sim": 0.0
+ },
+ {
+  "k": "exportTitle",
+  "en": "Export",
+  "tr": "Vie",
+  "back": "Take it .",
+  "sim": 0.0
+ },
+ {
+  "k": "exportQualityLabel",
+  "en": "Quality: {value}",
+  "tr": "Laatu: {value}",
+  "back": "Quality: [review]",
+  "sim": 0.5
+ },
+ {
+  "k": "exportResizeLabel",
+  "en": "Resize",
+  "tr": "Muuta kokoa",
+  "back": "Other sizes",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeOriginal",
+  "en": "Original",
+  "tr": "Alkuperäinen",
+  "back": "Indigenous",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeCustom",
+  "en": "Custom",
+  "tr": "Oma",
+  "back": "My own .",
+  "sim": 0.0
+ },
+ {
+  "k": "exportWidthLabel",
+  "en": "Width (px)",
+  "tr": "Leveys (px)",
+  "back": "Distance (px)",
+  "sim": 0.5
+ },
+ {
+  "k": "exportHeightLabel",
+  "en": "Height (px)",
+  "tr": "Korkeus (px)",
+  "back": "Height (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSaveToGallery",
+  "en": "Save to Gallery",
+  "tr": "Tallenna Galleriaan",
+  "back": "Save it to the gallery",
+  "sim": 0.75
+ },
+ {
+  "k": "exportShare",
+  "en": "Share",
+  "tr": "Jaa",
+  "back": "Share",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSuccess",
+  "en": "Exported!",
+  "tr": "Viety!",
+  "back": "I got it!",
+  "sim": 0.0
+ },
+ {
+  "k": "exportFailed",
+  "en": "Export failed. Please try again.",
+  "tr": "Vienti epäonnistui. Yritä uudelleen.",
+  "back": "Export failed, try again.",
+  "sim": 0.89
+ },
+ {
+  "k": "exportInProgress",
+  "en": "Exporting…",
+  "tr": "Viedään…",
+  "back": "Let's take the...",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTitle",
+  "en": "Settings",
+  "tr": "Asetukset",
+  "back": "This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTheme",
+  "en": "Theme",
+  "tr": "Teema",
+  "back": "Subject",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLanguage",
+  "en": "Language",
+  "tr": "Kieli",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Palauta ostokset",
+  "back": "Return your purchases",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsGoAdFree",
+  "en": "Go Ad-Free",
+  "tr": "Poista mainokset",
+  "back": "Remove the ads",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsPrivacyPolicy",
+  "en": "Privacy Policy",
+  "tr": "Tietosuojakäytäntö",
+  "back": "Data protection policy",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsSupport",
+  "en": "Support",
+  "tr": "Tuki",
+  "back": "Support",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRateApp",
+  "en": "Rate App",
+  "tr": "Arvioi sovellus",
+  "back": "Evaluate the application",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsShareApp",
+  "en": "Share App",
+  "tr": "Jaa sovellus",
+  "back": "Distribute the application",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLicenses",
+  "en": "Open-source licenses",
+  "tr": "Avoimen lähdekoodin lisenssit",
+  "back": "Open source licenses",
+  "sim": 0.4
+ },
+ {
+  "k": "reminderChannelName",
+  "en": "Edit reminders",
+  "tr": "Muokkausmuistutukset",
+  "back": "Reminders of modification",
+  "sim": 0.4
+ },
+ {
+  "k": "reminderChannelDescription",
+  "en": "Reminders about edits you have not finished.",
+  "tr": "Muistutukset keskeneräisistä muokkauksista.",
+  "back": "Reminders of unfinished edits.",
+  "sim": 0.36
+ },
+ {
+  "k": "reminderTitle",
+  "en": "Your edit is waiting",
+  "tr": "Muokkauksesi odottaa",
+  "back": "Your editing 's waiting .",
+  "sim": 0.5
+ },
+ {
+  "k": "reminderBody",
+  "en": "Pick up where you left off and export your photo.",
+  "tr": "Jatka siitä, mihin jäit, ja vie kuvasi.",
+  "back": "Go back to where you left off and take a picture.",
+  "sim": 0.48
+ },
+ {
+  "k": "settingsReminders",
+  "en": "Edit reminders",
+  "tr": "Muokkausmuistutukset",
+  "back": "Reminders of modification",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsAnimatedBackground",
+  "en": "Animated home background",
+  "tr": "Animoitu aloitusnäytön tausta",
+  "back": "Animated start screen background",
+  "sim": 0.57
+ },
+ {
+  "k": "settingsRemindersSubtitle",
+  "en": "Remind me about unfinished edits",
+  "tr": "Muistuta keskeneräisistä muokkauksista",
+  "back": "Reminds me of the unfinished edits",
+  "sim": 0.55
+ },
+ {
+  "k": "settingsRemindersBlocked",
+  "en": "Notifications are turned off for PhotoSur in your phone's settings.",
+  "tr": "PhotoSurin ilmoitukset on kytketty pois puhelimen asetuksissa.",
+  "back": "PhotoSur's notifications are deactivated in the phone's settings.",
+  "sim": 0.56
+ },
+ {
+  "k": "editorBrushHint",
+  "en": "Drag to paint. Pinch with two fingers to zoom.",
+  "tr": "Maalaa vetämällä. Zoomaa nipistämällä kahdella sormella.",
+  "back": "Paint by pulling, zoom in by pinching with two fingers.",
+  "sim": 0.42
+ },
+ {
+  "k": "editorToolCutout",
+  "en": "Cut-out",
+  "tr": "Rajaus",
+  "back": "Restriction",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBrush",
+  "en": "Brush",
+  "tr": "Sivellin",
+  "back": "The side",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBackground",
+  "en": "Background",
+  "tr": "Tausta",
+  "back": "Background",
+  "sim": 1.0
+ },
+ {
+  "k": "editorToolLayout",
+  "en": "Layout",
+  "tr": "Asettelu",
+  "back": "Settings",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutAutoCenter",
+  "en": "Auto-center",
+  "tr": "Keskitä",
+  "back": "Focus .",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutSizeLabel",
+  "en": "Size",
+  "tr": "Koko",
+  "back": "The whole",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutShadowLabel",
+  "en": "Shadow",
+  "tr": "Varjo",
+  "back": "Shadow",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundPhoto",
+  "en": "Photo",
+  "tr": "Kuva",
+  "back": "It 's a picture .",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundPhotoFailed",
+  "en": "Could not load that photo.",
+  "tr": "Kuvaa ei voitu ladata.",
+  "back": "We couldn't upload the image.",
+  "sim": 0.0
+ },
+ {
+  "k": "editorLayoutHint",
+  "en": "Drag to move. Pinch with two fingers to resize.",
+  "tr": "Siirrä vetämällä. Muuta kokoa nipistämällä kahdella sormella.",
+  "back": "Move by pulling, change the size by pinching with two fingers.",
+  "sim": 0.4
+ },
+ {
+  "k": "languageSystemDefault",
+  "en": "System default",
+  "tr": "Järjestelmän oletus",
+  "back": "Default of the system",
+  "sim": 0.33
+ },
+ {
+  "k": "languageSheetTitle",
+  "en": "Language",
+  "tr": "Kieli",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "themeSheetTitle",
+  "en": "Theme",
+  "tr": "Teema",
+  "back": "Subject",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionSystem",
+  "en": "System default",
+  "tr": "Järjestelmän oletus",
+  "back": "Default of the system",
+  "sim": 0.33
+ },
+ {
+  "k": "themeOptionLight",
+  "en": "Light",
+  "tr": "Vaalea",
+  "back": "Voting",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionDark",
+  "en": "Dark",
+  "tr": "Tumma",
+  "back": "It 's dark .",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsLinkNotReady",
+  "en": "This link isn't set up yet.",
+  "tr": "Tätä linkkiä ei ole vielä otettu käyttöön.",
+  "back": "This link has not yet been activated.",
+  "sim": 0.46
+ },
+ {
+  "k": "settingsLinkOpenFailed",
+  "en": "Could not open link.",
+  "tr": "Linkkiä ei voitu avata.",
+  "back": "They couldn't open the link.",
+  "sim": 0.44
+ },
+ {
+  "k": "settingsRestoreRequested",
+  "en": "Restore requested — check back in a moment.",
+  "tr": "Palautus pyydetty — tarkista hetken kuluttua.",
+  "back": "Return requested  check in a moment.",
+  "sim": 0.77
+ },
+ {
+  "k": "settingsRestoreFailed",
+  "en": "Restore failed.",
+  "tr": "Palautus epäonnistui.",
+  "back": "The return was unsuccessful.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsShareFailed",
+  "en": "Could not share.",
+  "tr": "Jakaminen epäonnistui.",
+  "back": "The distribution failed.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsShareAppMessage",
+  "en": "Remove photo backgrounds instantly with PhotoSur — free, no watermark.",
+  "tr": "Poista kuvien taustat hetkessä PhotoSurilla — ilmaiseksi ja ilman vesileimaa.",
+  "back": "Instantly remove the background of the images with PhotoSur  free of charge and without a watermark.",
+  "sim": 0.4
+ },
+ {
+  "k": "paywallTitle",
+  "en": "Go Ad-Free",
+  "tr": "Poista mainokset",
+  "back": "Remove the ads",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallAlreadyAdFree",
+  "en": "You're already ad-free. Thank you!",
+  "tr": "Käytät jo sovellusta ilman mainoksia. Kiitos!",
+  "back": "You're already using the app without ads.",
+  "sim": 0.33
+ },
+ {
+  "k": "paywallPlanFreeTitle",
+  "en": "Free",
+  "tr": "Ilmainen",
+  "back": "Free of charge",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPlanAdFreeTitle",
+  "en": "Ad-Free",
+  "tr": "Mainokseton",
+  "back": "Not advertised",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPlanAdFreePrice",
+  "en": "One-time purchase",
+  "tr": "Kertaostos",
+  "back": "Repeated purchase",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallFeatureAllFeatures",
+  "en": "All features",
+  "tr": "Kaikki ominaisuudet",
+  "back": "All features",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallFeatureAdSupported",
+  "en": "Ad-supported",
+  "tr": "Mainoksilla",
+  "back": "Advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureZeroAds",
+  "en": "Zero ads",
+  "tr": "Ei mainoksia",
+  "back": "No ads .",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPurchaseButton",
+  "en": "Remove Ads",
+  "tr": "Poista mainokset",
+  "back": "Remove the ads",
+  "sim": 0.8
+ },
+ {
+  "k": "paywallPurchaseButtonPrice",
+  "en": "Remove Ads — {price}",
+  "tr": "Poista mainokset — {price}",
+  "back": "Remove the advertisements  [price]",
+  "sim": 0.57
+ },
+ {
+  "k": "paywallRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Palauta ostokset",
+  "back": "Return your purchases",
+  "sim": 0.4
+ },
+ {
+  "k": "paywallProductUnavailable",
+  "en": "Ad removal is not available right now.",
+  "tr": "Mainosten poisto ei ole juuri nyt saatavilla.",
+  "back": "Ad removal is not available at this time.",
+  "sim": 0.67
+ },
+ {
+  "k": "paywallPurchaseFailed",
+  "en": "Purchase failed.",
+  "tr": "Osto epäonnistui.",
+  "back": "The purchase failed.",
+  "sim": 0.8
+ },
+ {
+  "k": "errorScreenTitle",
+  "en": "Something went wrong",
+  "tr": "Jokin meni pieleen",
+  "back": "Something went wrong .",
+  "sim": 1.0
+ },
+ {
+  "k": "errorScreenBody",
+  "en": "Try again, or restart the app if this keeps happening.",
+  "tr": "Yritä uudelleen tai käynnistä sovellus uudelleen, jos ongelma toistuu.",
+  "back": "Please try again or restart the application if the problem occurs again.",
+  "sim": 0.55
+ },
+ {
+  "k": "errorScreenGoBack",
+  "en": "Go back",
+  "tr": "Takaisin",
+  "back": "♪ Back to the drawing board ♪",
+  "sim": 0.29
+ },
+ {
+  "k": "errorScreenReportEmail",
+  "en": "Report via {email}",
+  "tr": "Ilmoita osoitteeseen {email}",
+  "back": "Please notify us at [email]",
+  "sim": 0.25
+ },
+ {
+  "k": "unsupportedTitle",
+  "en": "Device Not Supported",
+  "tr": "Laitetta ei tueta",
+  "back": "The device is not supported",
+  "sim": 0.75
+ },
+ {
+  "k": "unsupportedNoCameraMessage",
+  "en": "This device doesn't have a camera available.",
+  "tr": "Tällä laitteella ei ole käytettävissä olevaa kameraa.",
+  "back": "This device doesn't have a camera available.",
+  "sim": 1.0
+ },
+ {
+  "k": "unsupportedLowMemoryMessage",
+  "en": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
+  "tr": "Tällä laitteella ei ole tarpeeksi muistia PhotoSurin editorin luotettavaan ajamiseen.",
+  "back": "This device doesn't have enough memory to run the PhotoSurin editor reliably.",
+  "sim": 0.87
+ },
+ {
+  "k": "unsupportedManualImportHint",
+  "en": "You can still import a photo from your gallery and use the manual brush tool.",
+  "tr": "Voit silti tuoda kuvan galleriasta ja käyttää manuaalista sivellintä.",
+  "back": "You can still bring a picture from the gallery and use a manual browsing.",
+  "sim": 0.62
+ },
+ {
+  "k": "unsupportedUseGalleryButton",
+  "en": "Import from Gallery",
+  "tr": "Tuo Galleriasta",
+  "back": "Bring it from the gallery.",
+  "sim": 0.5
+ },
+ {
+  "k": "homeBatchButton",
+  "en": "Batch",
+  "tr": "Erä",
+  "back": "Parts and accessories",
+  "sim": 0.0
+ },
+ {
+  "k": "batchTitle",
+  "en": "Batch cut-out",
+  "tr": "Erärajaus",
+  "back": "Separation",
+  "sim": 0.0
+ },
+ {
+  "k": "batchOutputTransparent",
+  "en": "Transparent PNG",
+  "tr": "Läpinäkyvä PNG",
+  "back": "Transparent PNG",
+  "sim": 1.0
+ },
+ {
+  "k": "batchOutputWhite",
+  "en": "White background (JPG)",
+  "tr": "Valkoinen tausta (JPG)",
+  "back": "White background (JPG)",
+  "sim": 1.0
+ },
+ {
+  "k": "batchStart",
+  "en": "Start",
+  "tr": "Aloita",
+  "back": "Let 's get started .",
+  "sim": 0.0
+ },
+ {
+  "k": "batchStop",
+  "en": "Stop",
+  "tr": "Pysäytä",
+  "back": "Stop it ! Stop it !",
+  "sim": 0.4
+ },
+ {
+  "k": "batchDone",
+  "en": "Done",
+  "tr": "Valmis",
+  "back": "I'm ready to go.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchProgress",
+  "en": "{done} of {total} done",
+  "tr": "{done} / {total} valmis",
+  "back": "[done] / [total] finished",
+  "sim": 0.57
+ },
+ {
+  "k": "batchSaved",
+  "en": "{count} saved to your gallery",
+  "tr": "Tallennettu galleriaan: {count}",
+  "back": "Recorded in the gallery:",
+  "sim": 0.22
+ },
+ {
+  "k": "batchSomeFailed",
+  "en": "{count} could not be processed",
+  "tr": "Ei voitu käsitellä: {count}",
+  "back": "Not able to handle: [count]",
+  "sim": 0.2
+ },
+ {
+  "k": "batchTooMany",
+  "en": "Up to {max} photos at a time",
+  "tr": "Enintään {max} kuvaa kerrallaan",
+  "back": "Not more than [max] image at a time",
+  "sim": 0.53
+ },
+ {
+  "k": "backgroundAddCustom",
+  "en": "Add custom background",
+  "tr": "Lisää oma tausta",
+  "back": "More of your own background",
+  "sim": 0.25
+ },
+ {
+  "k": "backgroundCustomColor",
+  "en": "Custom color",
+  "tr": "Oma väri",
+  "back": "Own colour",
+  "sim": 0.0
+ },
+ {
+  "k": "colorSaturation",
+  "en": "Saturation",
+  "tr": "Kylläisyys",
+  "back": "Boredom",
+  "sim": 0.0
+ },
+ {
+  "k": "colorBrightness",
+  "en": "Brightness",
+  "tr": "Kirkkaus",
+  "back": "The Glory",
+  "sim": 0.0
+ },
+ {
+  "k": "colorHexLabel",
+  "en": "Hex code",
+  "tr": "Heksakoodi",
+  "back": "Hex code",
+  "sim": 1.0
+ },
+ {
+  "k": "colorPickerDone",
+  "en": "Done",
+  "tr": "Valmis",
+  "back": "I'm ready to go.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceLabel",
+  "en": "Marketplace",
+  "tr": "Verkkomarkkinapaikka",
+  "back": "Online market location",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceWhiteFill",
+  "en": "Pure white background, product fills the frame",
+  "tr": "Puhtaan valkoinen tausta, tuote täyttää kuvan",
+  "back": "A clean white background, the product completes the image",
+  "sim": 0.5
+ },
+ {
+  "k": "exportMarketplaceSizeCap",
+  "en": "File kept under {size} MB",
+  "tr": "Tiedosto alle {size} Mt",
+  "back": "File below [size] Mt",
+  "sim": 0.44
+ },
+ {
+  "k": "editorToolTemplates",
+  "en": "Templates",
+  "tr": "Mallit",
+  "back": "Models",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTitle",
+  "en": "Choose a template",
+  "tr": "Valitse malli",
+  "back": "Choose a model",
+  "sim": 0.67
+ },
+ {
+  "k": "templatesColorBlock",
+  "en": "Color block",
+  "tr": "Värilohkot",
+  "back": "Colour plates",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTextures",
+  "en": "Textures",
+  "tr": "Rakenteet",
+  "back": "Structures",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesLight",
+  "en": "Light & shadow",
+  "tr": "Valo ja varjo",
+  "back": "Light and Shadow",
+  "sim": 0.8
+ },
+ {
+  "k": "templatesPatterns",
+  "en": "Gradients & patterns",
+  "tr": "Liukuvärit ja kuviot",
+  "back": "Sliding colours and patterns",
+  "sim": 0.33
+ },
+ {
+  "k": "hdGetAction",
+  "en": "Get HD cut-out",
+  "tr": "Hanki HD-rajaus",
+  "back": "Get an HD frame .",
+  "sim": 0.57
+ },
+ {
+  "k": "hdRedoAction",
+  "en": "Redo cut-out in HD",
+  "tr": "Tee rajaus uudelleen HD:nä",
+  "back": "Rearrange the range in HD",
+  "sim": 0.44
+ },
+ {
+  "k": "hdDownloading",
+  "en": "HD cut-out in progress… {percent}%",
+  "tr": "HD-rajaus käynnissä… {percent} %",
+  "back": "The HD limit is running... [percent] %",
+  "sim": 0.36
+ },
+ {
+  "k": "hdDownloadingShort",
+  "en": "HD cut-out… {percent}%",
+  "tr": "HD-rajaus… {percent} %",
+  "back": "High frequency bandwidth... [percent] %",
+  "sim": 0.29
+ },
+ {
+  "k": "hdConfirmTitle",
+  "en": "Download HD cut-out model?",
+  "tr": "Ladataanko HD-rajausmalli?",
+  "back": "Do you want to load the HD frame model?",
+  "sim": 0.31
+ },
+ {
+  "k": "hdConfirmBody",
+  "en": "Cleaner edges on tricky objects like shoes, bags and bottles. It downloads once, stays on your phone and then works offline. Mobile data charges may apply.",
+  "tr": "Siistimmät reunat hankaliin kohteisiin, kuten kenkiin, laukkuihin ja pulloihin. Ladataan kerran, pysyy puhelimessa ja toimii sen jälkeen offline-tilassa. Mobiilidatamaksuja voi tulla.",
+  "back": "The most sensitive edges are to be placed on objects such as shoes, bags and bottles, charged once, kept on the phone, and then operated offline, and mobile phone charges may come in.",
+  "sim": 0.54
+ },
+ {
+  "k": "hdDownload",
+  "en": "Download",
+  "tr": "Lataa",
+  "back": "Charge",
+  "sim": 0.0
+ },
+ {
+  "k": "hdFailed",
+  "en": "HD cut-out didn’t finish. Check your connection and try again.",
+  "tr": "HD-rajaus ei valmistunut. Tarkista yhteys ja yritä uudelleen.",
+  "back": "I don't think the HD barrier is complete, so check the connection and try again.",
+  "sim": 0.48
+ },
+ {
+  "k": "settingsHdTitle",
+  "en": "HD cut-out model",
+  "tr": "HD-rajausmalli",
+  "back": "High frequency banding model",
+  "sim": 0.29
+ },
+ {
+  "k": "settingsHdNotInstalled",
+  "en": "Not downloaded",
+  "tr": "Ei ladattu",
+  "back": "Not charged",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsHdInstalled",
+  "en": "Installed · works offline",
+  "tr": "Asennettu · toimii offline-tilassa",
+  "back": "Installed · operates offline",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsHdRemove",
+  "en": "Remove",
+  "tr": "Poista",
+  "back": "Take it off.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsReplayIntro",
+  "en": "Replay intro",
+  "tr": "Katso esittely uudelleen",
+  "back": "Watch the presentation again .",
+  "sim": 0.0
+ },
+ {
+  "k": "homeSeeAll",
+  "en": "See all",
+  "tr": "Näytä kaikki",
+  "back": "Show me all of them.",
+  "sim": 0.29
+ },
+ {
+  "k": "exportActionEdit",
+  "en": "Edit again",
+  "tr": "Muokkaa uudelleen",
+  "back": "Re-edit it .",
+  "sim": 0.0
+ },
+ {
+  "k": "exportActionDelete",
+  "en": "Delete",
+  "tr": "Poista",
+  "back": "Take it off.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMoreOptions",
+  "en": "More options",
+  "tr": "Lisää vaihtoehtoja",
+  "back": "More options",
+  "sim": 1.0
+ },
+ {
+  "k": "exportDeleteTitle",
+  "en": "Delete this export?",
+  "tr": "Poistetaanko tämä vienti?",
+  "back": "Can we cancel this export?",
+  "sim": 0.5
+ },
+ {
+  "k": "exportDeleteBody",
+  "en": "Exported images are removed from this phone. Your original photos and anything saved to your gallery are not affected.",
+  "tr": "Viedyt kuvat poistetaan tästä puhelimesta. Alkuperäiset valokuvasi ja galleriaan tallennetut eivät muutu.",
+  "back": "Any photos you export will be deleted from this phone, and the original photos you took and those you saved to the gallery will remain the same.",
+  "sim": 0.39
+ },
+ {
+  "k": "exportSavedToGallery",
+  "en": "Saved to your gallery",
+  "tr": "Tallennettu galleriaan",
+  "back": "Stored in the gallery",
+  "sim": 0.25
+ },
+ {
+  "k": "exportSaveFailed",
+  "en": "Could not save to the gallery.",
+  "tr": "Galleriaan tallennus epäonnistui.",
+  "back": "The gallery recording failed.",
+  "sim": 0.4
+ },
+ {
+  "k": "exportUnavailable",
+  "en": "Unavailable",
+  "tr": "Ei saatavilla",
+  "back": "Not available",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsGroupThisWeek",
+  "en": "This week",
+  "tr": "Tällä viikolla",
+  "back": "This week.",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsGroupEarlier",
+  "en": "Earlier",
+  "tr": "Aiemmin",
+  "back": "Previously on",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsStorageUsed",
+  "en": "{size} used on this phone",
+  "tr": "{size} käytössä tässä puhelimessa",
+  "back": "[size] used on this phone",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsSelect",
+  "en": "Select",
+  "tr": "Valitse",
+  "back": "Choose",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsDone",
+  "en": "Done",
+  "tr": "Valmis",
+  "back": "I'm ready to go.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsSelectedCount",
+  "en": "{count} selected",
+  "tr": "{count} valittu",
+  "back": "[count] selected",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDeleteSelectedTitle",
+  "en": "Delete {count} exports?",
+  "tr": "Poistetaanko {count} vientiä?",
+  "back": "Do you want to cancel [count] exports?",
+  "sim": 0.4
+ },
+ {
+  "k": "exportsDeleteAll",
+  "en": "Delete all exports",
+  "tr": "Poista kaikki viennit",
+  "back": "Remove all exports",
+  "sim": 0.67
+ },
+ {
+  "k": "exportsDeleteAllTitle",
+  "en": "Delete all exports?",
+  "tr": "Poistetaanko kaikki viennit?",
+  "back": "Do you want to remove all exports?",
+  "sim": 0.4
+ },
+ {
+  "k": "helpTitle",
+  "en": "Help & how to use",
+  "tr": "Ohje ja käyttöopas",
+  "back": "Instructions and instructions",
+  "sim": 0.0
+ },
+ {
+  "k": "helpIntro",
+  "en": "Tap a topic to read how it works.",
+  "tr": "Napauta aihetta lukeaksesi, miten se toimii.",
+  "back": "Press the subject to read how it works.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpStartTitle",
+  "en": "Getting started",
+  "tr": "Aloittaminen",
+  "back": "Starting",
+  "sim": 0.0
+ },
+ {
+  "k": "helpStart1",
+  "en": "On the home screen, tap Camera to take a photo or Gallery to pick one. Batch cuts out many photos at once.",
+  "tr": "Napauta aloitusnäytössä Kamera ottaaksesi kuvan tai Galleria valitaksesi olemassa olevan. Erä rajaa monta kuvaa kerralla.",
+  "back": "Press the start screen to take a picture or the Gallery to select an existing one.",
+  "sim": 0.47
+ },
+ {
+  "k": "helpStart2",
+  "en": "Every photo opens in Crop & Rotate first, then in the editor. Your original photo is never changed.",
+  "tr": "Jokainen kuva avautuu ensin kohdassa Rajaa ja kierrä ja sitten muokkaimessa. Alkuperäistä kuvaasi ei koskaan muuteta.",
+  "back": "Each image opens first in the Border and Spin area, and then in the editing area, so your original image will never be changed.",
+  "sim": 0.44
+ },
+ {
+  "k": "helpStart3",
+  "en": "When you are happy, tap Export in the editor. Recent Exports on the home screen lists everything you have exported.",
+  "tr": "Kun olet tyytyväinen, napauta muokkaimessa Vie. Aloitusnäytön Viimeisimmät viennit listaa kaiken, minkä olet vienyt.",
+  "back": "When you're satisfied, tap the edit Take. Start screen The most recent exports list everything you've taken.",
+  "sim": 0.32
+ },
+ {
+  "k": "helpCropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Rajaa ja kierrä",
+  "back": "Boundary and rotation",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCrop1",
+  "en": "Turn the photo left or right in 90° steps, and drag the frame to choose the part you want to keep.",
+  "tr": "Kierrä kuvaa vasemmalle tai oikealle 90° askelin ja vedä kehystä valitaksesi osan, jonka haluat säilyttää.",
+  "back": "Turn the image 90 degrees to the left or right and drag the frame to select the part you want to save.",
+  "sim": 0.7
+ },
+ {
+  "k": "helpCrop2",
+  "en": "Free lets you shape the frame as you like. 1:1, 4:5 and 9:16 lock its shape. Tap Continue to open the editor.",
+  "tr": "Vapaa antaa sinun muotoilla kehyksen miksi haluat. 1:1, 4:5 ja 9:16 lukitsevat sen muodon. Avaa muokkain napauttamalla Jatka.",
+  "back": "Free to let you shape the frame any way you want, 1:1, 4:5, and 9:16 lock in the shape.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpCutoutTitle",
+  "en": "Cut-out",
+  "tr": "Rajaus",
+  "back": "Restriction",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCutout1",
+  "en": "When the editor opens, PhotoSur finds the main subject and removes the background automatically, on your phone. No internet is needed.",
+  "tr": "Kun muokkain avautuu, PhotoSur löytää pääkohteen ja poistaa taustan automaattisesti puhelimellasi. Internetyhteyttä ei tarvita.",
+  "back": "When the editor opens, PhotoSur will locate the main target and automatically delete the background on your phone.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpCutout2",
+  "en": "Edge Smoothness softens the edge of the cut-out, from 0 to 20 pixels.",
+  "tr": "Reunojen pehmeys pehmentää rajauksen reunaa, 0–20 pikseliä.",
+  "back": "The softness of the edges soften the edge of the edge, 020 pixels.",
+  "sim": 0.38
+ },
+ {
+  "k": "helpCutout3",
+  "en": "The eye button at the top shows your original photo so you can compare. Tap it again to go back. The brush is paused while the original is shown.",
+  "tr": "Ylhäällä oleva silmäpainike näyttää alkuperäisen kuvan vertailua varten. Palaa napauttamalla sitä uudelleen. Sivellin on tauolla, kun alkuperäinen näkyy.",
+  "back": "The eye button at the top shows the original image for comparison.",
+  "sim": 0.44
+ },
+ {
+  "k": "helpCutout4",
+  "en": "For difficult subjects such as glass, shoes, bags and bottles, tap Get HD cut-out. The HD model downloads once, stays on your phone and then works offline. Once it is installed, every new cut-out uses it automatically. To redo the photo you have open, tap Redo cut-out in HD.",
+  "tr": "Vaikeille kohteille, kuten lasille, kengille, laukuille ja pulloille, napauta Hanki HD-rajaus. HD-malli ladataan vain kerran, se pysyy puhelimessasi ja toimii sen jälkeen offline-tilassa. Asennuksen jälkeen jokainen uusi rajaus käyttää sitä automaattisesti. Voit tehdä avoinna olevan kuvan uudelleen napauttamalla Tee rajaus uudelleen HD:nä.",
+  "back": "For difficult objects like glasses, shoes, bags and bottles, tap Get HD boundary. The HD model is only uploaded once, stays on your phone, and then works offline. After installation, each new boundary uses it automatically. You can re-tap the open image by re-taping Make the boundary in HD.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpBrushTitle",
+  "en": "Brush",
+  "tr": "Sivellin",
+  "back": "The side",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBrush1",
+  "en": "Erase removes parts of the subject. Restore brings back parts the cut-out removed.",
+  "tr": "Pyyhi poistaa osia kohteesta. Palauta tuo takaisin osia, jotka rajaus poisti.",
+  "back": "The towel removes the parts from the target, returns the parts that the boundary removed.",
+  "sim": 0.43
+ },
+ {
+  "k": "helpBrush2",
+  "en": "Drag one finger to paint. Use two fingers to zoom, up to 8 times, and to move the photo. The brush keeps its size on screen, so zooming in gives finer control.",
+  "tr": "Maalaa vetämällä yhdellä sormella. Käytä kahta sormea zoomaamiseen, jopa 8-kertaiseksi, ja kuvan siirtämiseen. Sivellin säilyttää kokonsa näytöllä, joten zoomaamalla työskentelet tarkemmin.",
+  "back": "Draw with one finger, use two fingers to zoom in, up to eight times, and move the image, and the side will retain its size on the screen, so zooming in will make you work more accurately.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpBrush3",
+  "en": "Brush Size goes from 1 to 50. Opacity sets how strongly each stroke applies.",
+  "tr": "Siveltimen koko vaihtelee 1–50. Peittävyys määrää, kuinka voimakas kukin siveltimenveto on.",
+  "back": "The size of the sidebar varies from 1 to 50. The coverage determines how strong each sidebar is.",
+  "sim": 0.44
+ },
+ {
+  "k": "helpBrush4",
+  "en": "Undo and Redo step through your brush strokes. Reset clears all brush strokes and goes back to the automatic cut-out; it asks you to confirm first.",
+  "tr": "Kumoa ja Tee uudelleen käyvät läpi siveltimenvetosi. Nollaa poistaa kaikki siveltimenvedot ja palaa automaattiseen rajaukseen; ensin pyydetään vahvistus.",
+  "back": "Kumo and Tee again will go through your sidebar, zero will remove all sidebar and return to the automatic limitation, first requesting confirmation.",
+  "sim": 0.37
+ },
+ {
+  "k": "helpBackgroundTitle",
+  "en": "Background",
+  "tr": "Tausta",
+  "back": "Background",
+  "sim": 1.0
+ },
+ {
+  "k": "helpBackground1",
+  "en": "Choose what goes behind your subject: transparent, white, black, a gradient, a colour, a blurred copy of your photo, or your own photo.",
+  "tr": "Valitse, mitä kohteen takana on: läpinäkyvä, valkoinen, musta, liukuväri, väri, sumennettu kopio kuvastasi tai oma kuvasi.",
+  "back": "Choose what's behind the object: transparent, white, black, sliding color, color, a glossy copy of your image or your own.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpBackground2",
+  "en": "Only one background is used at a time. Your latest choice replaces the earlier one.",
+  "tr": "Kerrallaan käytetään vain yhtä taustaa. Viimeisin valintasi korvaa edellisen.",
+  "back": "You only use one background at a time, and your last choice will replace the previous one.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpBackground3",
+  "en": "Add custom background lets you pick a photo from your gallery. Custom color opens a colour picker. The Blur slider goes from 0 to 25.",
+  "tr": "Lisää oma tausta antaa valita kuvan galleriasta. Oma väri avaa värinvalitsimen. Sumennus-liukusäädin on välillä 0–25.",
+  "back": "More of your own background allows you to choose a picture from the gallery.",
+  "sim": 0.26
+ },
+ {
+  "k": "helpBackground4",
+  "en": "Transparent shows a checkerboard while you edit. Export as PNG to keep it transparent.",
+  "tr": "Läpinäkyvä näyttää muokatessa ruutukuvion. Vie PNG-muodossa, jotta läpinäkyvyys säilyy.",
+  "back": "It's transparent when you're editing the square root, and then it's taken to PNG to keep it transparent.",
+  "sim": 0.38
+ },
+ {
+  "k": "helpTemplatesTitle",
+  "en": "Templates",
+  "tr": "Mallit",
+  "back": "Models",
+  "sim": 0.0
+ },
+ {
+  "k": "helpTemplates1",
+  "en": "Templates are ready-made backgrounds in five groups: Studio, Color block, Textures, Light & shadow, and Gradients & patterns. Five scenes are shown in the panel; tap the Templates button to see them all.",
+  "tr": "Mallit ovat valmiita taustoja viidessä ryhmässä: Studio, Värilohkot, Rakenteet, Valo ja varjo sekä Liukuvärit ja kuviot. Paneelissa näkyy viisi kohtausta; näet kaikki napauttamalla Mallit-painiketta.",
+  "back": "The models are ready-made backgrounds in five groups: Studio, Colors, Structures, Light and Shadow, and Sliding Colors and Images.",
+  "sim": 0.4
+ },
+ {
+  "k": "helpTemplates2",
+  "en": "Choosing a template works like choosing your own photo as the background: it replaces your earlier background choice.",
+  "tr": "Mallin valinta on sama kuin oman kuvan valinta taustaksi: se korvaa aiemman taustavalintasi.",
+  "back": "Choosing a model is the same as choosing your own image as a background: it replaces your previous background choices.",
+  "sim": 0.58
+ },
+ {
+  "k": "helpLayoutTitle",
+  "en": "Layout",
+  "tr": "Asettelu",
+  "back": "Settings",
+  "sim": 0.0
+ },
+ {
+  "k": "helpLayout1",
+  "en": "Drag the subject on the photo to move it. Pinch with two fingers to resize it.",
+  "tr": "Siirrä kohdetta vetämällä sitä kuvan päällä. Muuta sen kokoa nipistämällä kahdella sormella.",
+  "back": "Move the object by pulling it over the image, change its size by pinching it with two fingers.",
+  "sim": 0.35
+ },
+ {
+  "k": "helpLayout2",
+  "en": "Choose Original, 1:1, 4:5 or 9:16 to set the shape of the final picture.",
+  "tr": "Valitse Alkuperäinen, 1:1, 4:5 tai 9:16 asettaaksesi valmiin kuvan muodon.",
+  "back": "Select Original, 1:1, 4:5, or 9:16 to set the finished image shape.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpLayout3",
+  "en": "Size sets how big the subject is, from 20% to 300%. Shadow sets how strong its shadow is. Auto-center puts the subject back in the middle. Reset undoes moving and resizing.",
+  "tr": "Koko määrää kohteen koon, 20–300 %. Varjo määrää sen varjon voimakkuuden. Keskitä palauttaa kohteen keskelle. Nollaa kumoaa siirrot ja koon muutokset.",
+  "back": "The total determines the size of the object, 20 to 300 percent. The shadow determines the intensity of its shadow. Center returns to the center of the object.",
+  "sim": 0.34
+ },
+ {
+  "k": "helpLayout4",
+  "en": "This shape is used when the export size is Original. If you choose a size preset or a marketplace in the export sheet, that decides the final shape instead.",
+  "tr": "Tämä muoto on voimassa, kun viennin koko on Alkuperäinen. Jos valitset vientitaulusta valmiin koon tai verkkomarkkinapaikan, se määrää lopullisen muodon.",
+  "back": "This form is valid if the export size is Original, and if you select the export table for the finished size or online marketplace, it determines the final format.",
+  "sim": 0.45
+ },
+ {
+  "k": "helpExportTitle",
+  "en": "Export",
+  "tr": "Vie",
+  "back": "Take it .",
+  "sim": 0.0
+ },
+ {
+  "k": "helpExport1",
+  "en": "Tap Export to open the export sheet. Nothing is applied until you tap Save to Gallery or Share, so you can change your choices as often as you like.",
+  "tr": "Avaa vientitaulu napauttamalla Vie. Mitään ei oteta käyttöön, ennen kuin napautat Tallenna Galleriaan tai Jaa, joten voit muuttaa valintojasi niin monta kertaa kuin haluat.",
+  "back": "You can open the export table by clicking Take, and nothing will be activated until you click Save Gallery or Share, so you can change your choices as many times as you want.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpExport2",
+  "en": "PNG keeps transparency. JPG makes smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a small modern format; if your phone cannot make it, the file is saved as JPG. For JPG and WEBP, the Quality slider trades file size for detail.",
+  "tr": "PNG säilyttää läpinäkyvyyden. JPG tuottaa pienempiä tiedostoja mutta ei voi olla läpinäkyvä, joten läpinäkyvä tausta muuttuu valkoiseksi. WEBP on nykyaikainen, tiivis muoto; jos puhelimesi ei pysty luomaan sitä, tiedosto tallennetaan JPG-muodossa. JPG:llä ja WEBP:llä Laatu-liukusäädin tasapainottaa tiedostokoon ja yksityiskohdat.",
+  "back": "PNG maintains transparency. JPG produces smaller files but cannot be transparent, so the transparent background becomes white. WEBP is a modern, compact format; if your phone can't create it, the file is saved in JPG format. With JPG and WEBP, the Quality slider balances the file size and details.",
+  "sim": 0.75
+ },
+ {
+  "k": "helpExport3",
+  "en": "Original keeps your photo’s size, with the shape chosen in Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. Custom lets you type a width and height in pixels.",
+  "tr": "Alkuperäinen säilyttää kuvasi koon Asettelussa valitulla muodolla. 1:1 on 1080 × 1080, 4:5 on 1080 × 1350 ja 9:16 on 1080 × 1920. Oma antaa syöttää leveyden ja korkeuden pikseleinä.",
+  "back": "The original keeps the size of the image in the format chosen in the Settings. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350, and 9:16 is 1080 × 1920.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpExport4",
+  "en": "Marketplace presets set size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG kept under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices, and choosing a format or size afterwards switches the marketplace off. Marketplace rules can change, so check your marketplace’s current requirements.",
+  "tr": "Verkkomarkkinapaikkojen esiasetukset määräävät koon, muodon ja laadun: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG alle 1 Mt ja Shopify 2048 × 2048 PNG. Yhden valinta korvaa muoto- ja kokovalintasi; jos valitset sen jälkeen muodon tai koon, verkkomarkkinapaikan valinta poistuu. Verkkomarkkinapaikkojen säännöt voivat muuttua, joten tarkista omasi nykyiset vaatimukset.",
+  "back": "The presets for online marketplaces dictate the size, shape and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG under 1 Mt, and Shopify 2048 × 2048 PNG. One choice replaces your shape and size preference; if you choose the shape or size after that, the choice of online marketplace is removed. Online marketplace rules may change, so check your current requirements.",
+  "sim": 0.66
+ },
+ {
+  "k": "helpExport5",
+  "en": "Amazon also uses a pure white background with no shadow and fits the subject to fill most of the frame. Your background choice in the editor is not changed. The other marketplaces keep your background.",
+  "tr": "Amazon käyttää lisäksi puhtaan valkoista taustaa ilman varjoa ja säätää kohteen täyttämään suurimman osan kuvasta. Muokkaimessa tekemäsi taustavalinta ei muutu. Muut verkkomarkkinapaikat säilyttävät taustasi.",
+  "back": "In addition, Amazon uses a clear white background with no shade and sets the subject to fill most of the image, and the background you choose to edit will remain the same, and other online marketplaces will keep your background.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpExport6",
+  "en": "Save to Gallery and Share both save the picture to your gallery and to Recent Exports. Share also opens your phone’s share menu. If saving to the gallery is not possible, the share menu opens instead. After exporting you return to the home screen.",
+  "tr": "Tallenna Galleriaan ja Jaa tallentavat molemmat kuvan galleriaasi ja Viimeisimpiin vienteihin. Jaa avaa lisäksi puhelimesi jakovalikon. Jos galleriaan tallennus ei onnistu, jakovalikko avautuu sen sijaan. Viennin jälkeen palaat aloitusnäyttöön.",
+  "back": "Save to Gallery and Share both save the image to your gallery and to your most recent exports. In addition to sharing, open the distribution pane on your phone. If you fail to save to the gallery, the distribution pane will open instead. After exporting, you'll return to the start screen.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpExport7",
+  "en": "Unless you have removed ads, an ad can appear after an export, at most once every two minutes.",
+  "tr": "Jos et ole poistanut mainoksia, viennin jälkeen voi näkyä mainos, enintään kerran kahdessa minuutissa.",
+  "back": "If you have not deleted the advertisements, an advertisement may appear after export, up to once every two minutes.",
+  "sim": 0.54
+ },
+ {
+  "k": "helpBatchTitle",
+  "en": "Batch",
+  "tr": "Erä",
+  "back": "Parts and accessories",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBatch1",
+  "en": "Batch cuts out up to 30 photos in one go. Tap Batch on the home screen and pick your photos. The back button is turned off while a batch runs.",
+  "tr": "Erä rajaa jopa 30 kuvaa kerralla. Napauta aloitusnäytössä Erä ja valitse kuvasi. Takaisin-painike on pois käytöstä erän ollessa käynnissä.",
+  "back": "One block captures up to 30 images at a time, and then you click on the Start screen to select your image, and then the Back button is disabled while the block is running.",
+  "sim": 0.38
+ },
+ {
+  "k": "helpBatch2",
+  "en": "All photos in a batch share one setup: one background and one marketplace. You cannot choose differently for each photo.",
+  "tr": "Kaikilla erän kuvilla on yksi yhteinen asetus: yksi tausta ja yksi verkkomarkkinapaikka. Et voi valita eri asetusta jokaiselle kuvalle.",
+  "back": "All the images in the batch have one setup in common: one background and one online marketplace.",
+  "sim": 0.54
+ },
+ {
+  "k": "helpBatch3",
+  "en": "Backgrounds work as in the editor: your own photo, a colour, a template, white, transparent, black, blur or a gradient. Only one applies, and your latest choice replaces the earlier one.",
+  "tr": "Taustat toimivat kuten muokkaimessa: oma kuvasi, väri, malli, valkoinen, läpinäkyvä, musta, sumennettu tai liukuväri. Vain yksi on voimassa, ja viimeisin valintasi korvaa edellisen.",
+  "back": "The backgrounds work just like in the editing process: your own image, color, model, white, transparent, black, glossy or sliding color, only one is valid, and your last choice replaces the previous one.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpBatch4",
+  "en": "The file format is chosen for you. With a marketplace, the photos follow that marketplace’s size and format. Without one, a transparent background gives PNG and any other background gives JPG, at the original size.",
+  "tr": "Tiedostomuoto valitaan puolestasi. Verkkomarkkinapaikalla kuvat noudattavat sen kokoa ja muotoa. Ilman verkkomarkkinapaikkaa läpinäkyvä tausta tuottaa PNG:n ja mikä tahansa muu tausta JPG:n alkuperäisessä koossa.",
+  "back": "The file format is chosen for you, and in the online marketplace, the images follow its size and shape, and without the online marketplace, a transparent background produces PNG and any other background in the original size of JPG.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpBatch5",
+  "en": "Choosing Amazon switches the background to White; if you then choose another background, Amazon is switched off. eBay, Etsy and Shopify keep your background, but a JPG cannot be transparent, so it gets a white background.",
+  "tr": "Amazonin valinta vaihtaa taustaksi Valkoinen; jos valitset sen jälkeen toisen taustan, Amazonin valinta poistuu. eBay, Etsy ja Shopify säilyttävät taustasi, mutta JPG ei voi olla läpinäkyvä, joten se saa valkoisen taustan.",
+  "back": "Amazon's choice changes to a white background; if you choose another background after that, Amazon's choice is removed. eBay, Etsy and Shopify keep your background, but JPG can't be transparent, so it gets a white background.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpBatch6",
+  "en": "If the HD model is installed, every photo in the batch is cut out with it. The Get HD cut-out button next to Templates downloads it.",
+  "tr": "Jos HD-malli on asennettu, jokainen erän kuva rajataan sillä. Mallit-painikkeen vieressä oleva Hanki HD-rajaus lataa sen.",
+  "back": "If the HD model is installed, each batch image is bounded by it.",
+  "sim": 0.46
+ },
+ {
+  "k": "helpBatch7",
+  "en": "Each photo is saved to your gallery and to Recent Exports as soon as it finishes. Stop ends the batch after the current photo, and photos already finished stay saved. If a photo fails, the batch carries on and tells you how many could not be processed. Done takes you back to the home screen; it does not save anything.",
+  "tr": "Jokainen kuva tallennetaan galleriaasi ja Viimeisimpiin vienteihin heti valmistuttuaan. Pysäytä päättää erän käynnissä olevan kuvan jälkeen, ja jo valmistuneet kuvat pysyvät tallennettuina. Jos kuva epäonnistuu, erä jatkuu ja kertoo, montako ei voitu käsitellä. Valmis vie sinut takaisin aloitusnäyttöön; se ei tallenna mitään.",
+  "back": "Each image is saved to your gallery and to Last Export as soon as it's finished. Stop after the current image of the batch is finished, and the already finished images remain saved. If the image fails, the batch continues and tells you how many were not processed. The batch will take you back to the start screen; it won't save anything.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpLibraryTitle",
+  "en": "Your exports",
+  "tr": "Vientisi",
+  "back": "Exports",
+  "sim": 0.67
+ },
+ {
+  "k": "helpLibrary1",
+  "en": "Recent Exports on the home screen shows your latest exports. Tap See all for every export, grouped as Today, Yesterday, This week and Earlier.",
+  "tr": "Aloitusnäytön Viimeisimmät viennit näyttää uusimmat vientisi. Napauta Näytä kaikki nähdäksesi kaikki, ryhmiteltyinä: Tänään, Eilen, Tällä viikolla ja Aiemmin.",
+  "back": "Start screen The latest exports show your latest exports. Click Show all to see all, grouped by today, yesterday, this week and earlier.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpLibrary2",
+  "en": "Tap an export to open it full screen. Swipe to move between exports and pinch to zoom. The bar at the bottom has Share, Save to Gallery, Edit again and Delete.",
+  "tr": "Avaa vienti koko näytölle napauttamalla sitä. Pyyhkäise vaihtaaksesi vientien välillä ja nipistä zoomataksesi. Alapalkki tarjoaa Jaa, Tallenna Galleriaan, Muokkaa uudelleen ja Poista.",
+  "back": "Open the export to the full screen by tapping it, scroll to switch between the exports, and tap to zoom, and the bottom prize is Share, Save to Gallery, Re-edit, and Remove.",
+  "sim": 0.54
+ },
+ {
+  "k": "helpLibrary3",
+  "en": "The three-dot button on a tile opens the same actions. Edit again opens the exported picture as a new photo, so earlier brush strokes are not restored.",
+  "tr": "Pikkukuvan kolmen pisteen painike avaa samat toiminnot. Muokkaa uudelleen avaa viedyn kuvan uutena kuvana, joten aiempia siveltimenvetoja ei palauteta.",
+  "back": "The three-point button on the long image opens the same functions, so edit again opens the exported image as a new image, so that the previous page views are not returned.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpLibrary4",
+  "en": "Select lets you choose several exports to share together or delete. Delete all exports removes every export from this phone.",
+  "tr": "Valitse antaa valita useita vientejä jaettavaksi tai poistettavaksi yhdessä. Poista kaikki viennit poistaa kaikki viennit tästä puhelimesta.",
+  "back": "Select multiple exports to share or remove together. Delete all exports Delete all exports from this phone.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpLibrary5",
+  "en": "Deleting removes exports from PhotoSur only. Pictures already saved to your gallery are not affected. The bottom of the See all screen shows how much space exports use on this phone.",
+  "tr": "Poistaminen poistaa viennit vain PhotoSurista. Jo galleriaasi tallennettuihin kuviin ei kosketa. Näytä kaikki -näkymän alareunasta näet, kuinka paljon tilaa viennit vievät tässä puhelimessa.",
+  "back": "Removing it only removes exports from PhotoSur, which doesn't affect the photos in your gallery anymore, so you can see from the bottom of the view how much space the exports take up on this phone.",
+  "sim": 0.51
+ },
+ {
+  "k": "helpPrivacyTitle",
+  "en": "Privacy & ads",
+  "tr": "Yksityisyys ja mainokset",
+  "back": "Privacy and advertising",
+  "sim": 0.4
+ },
+ {
+  "k": "helpPrivacy1",
+  "en": "Your photos are processed on your phone and are not uploaded. There is no account and no watermark.",
+  "tr": "Kuvasi käsitellään puhelimellasi, eikä niitä lähetetä minnekään. Tiliä tai vesileimaa ei ole.",
+  "back": "Your photos are processed on your phone, and they're not being sent anywhere.",
+  "sim": 0.58
+ },
+ {
+  "k": "helpPrivacy2",
+  "en": "PhotoSur is free with every feature included, supported by ads. A banner appears at the bottom of some screens, and an ad can appear after an export.",
+  "tr": "PhotoSur on ilmainen, kaikki ominaisuudet mukana, ja sitä rahoitetaan mainoksilla. Joidenkin näyttöjen alareunassa näkyy banneri, ja viennin jälkeen voi näkyä mainos.",
+  "back": "PhotoSur is free with all the features, and it's funded by advertising, and on the bottom of some displays, you can see a banner, and after export, you can see an ad.",
+  "sim": 0.41
+ },
+ {
+  "k": "helpPrivacy3",
+  "en": "Go Ad-Free in Settings is a one-time purchase that removes the ads. It does not unlock anything else, because every feature is already free. Restore Purchases brings it back on a new phone.",
+  "tr": "Poista mainokset Asetuksissa on kertaostos, joka poistaa mainokset. Se ei avaa mitään muuta, koska kaikki ominaisuudet ovat jo ilmaisia. Palauta ostokset tuo sen takaisin uudessa puhelimessa.",
+  "back": "Remove ads In the settings, there's a one-time purchase that removes the ads, and it doesn't open anything else because all the features are already free.",
+  "sim": 0.51
+ },
+ {
+  "k": "helpSettingsTitle",
+  "en": "Settings",
+  "tr": "Asetukset",
+  "back": "This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpSettings1",
+  "en": "Theme can follow your phone, or be Light or Dark. Language changes the language of the app. Both are also in the home screen header.",
+  "tr": "Teema voi seurata puhelintasi tai olla Vaalea tai Tumma. Kieli vaihtaa sovelluksen kielen. Molemmat löytyvät myös aloitusnäytön ylälaidasta.",
+  "back": "The theme can track your phone, or it can be Blue or Dark, and the language changes the language of the app, and both can also be found at the top of the home screen.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpSettings2",
+  "en": "Edit reminders: if you leave the app with an unfinished edit, PhotoSur can remind you three hours later. Switch this off in Settings.",
+  "tr": "Muokkausmuistutukset: jos poistut sovelluksesta kesken jääneen muokkauksen kanssa, PhotoSur voi muistuttaa siitä kolmen tunnin kuluttua. Voit kytkeä tämän pois Asetuksissa.",
+  "back": "Edit Reminders: If you leave the app with an unfinished edit, PhotoSur can remind you of it after three hours.",
+  "sim": 0.79
+ },
+ {
+  "k": "helpSettings3",
+  "en": "HD cut-out model shows whether it is installed. Remove deletes it from your phone to free space; you can download it again at any time.",
+  "tr": "HD-rajausmalli näyttää, onko se asennettu. Poista poistaa sen puhelimestasi tilan vapauttamiseksi; voit ladata sen uudelleen milloin tahansa.",
+  "back": "The HD border model shows if it's installed. Remove it from your phone to free up space; you can recharge it at any time.",
+  "sim": 0.73
+ },
+ {
+  "k": "helpSettings4",
+  "en": "Replay intro shows the welcome screens again. Support opens the support page. Animated home background turns the moving picture at the top of the home screen on or off.",
+  "tr": "Katso esittely uudelleen näyttää tervetulonäytöt uudelleen. Tuki avaa tukisivun. Animoitu aloitusnäytön tausta kytkee aloitusnäytön yläreunan liikkuvan kuvan päälle tai pois.",
+  "back": "Check out the presentation again, show the welcome displays again, help opens the support page, animated start screen background connects the start screen to the top of the moving image, or off.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpFixTitle",
+  "en": "If something goes wrong",
+  "tr": "Jos jokin menee pieleen",
+  "back": "If something goes wrong,",
+  "sim": 1.0
+ },
+ {
+  "k": "helpFix1",
+  "en": "If the automatic cut-out cannot run on a very old or low-memory phone, the brush still works, so you can finish the picture by hand.",
+  "tr": "Jos automaattinen rajaus ei voi toimia hyvin vanhalla tai vähämuistisella puhelimella, sivellin toimii silti, joten voit viimeistellä kuvan käsin.",
+  "back": "If the automatic limitation can't work on a very old or memory-poor phone, the sidebar will still work, so you can finish the image by hand.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpFix2",
+  "en": "If the HD download stops, check your connection and try again. It continues where it left off.",
+  "tr": "Jos HD-lataus pysähtyy, tarkista yhteytesi ja yritä uudelleen. Se jatkuu siitä, mihin jäi.",
+  "back": "If the HD download stops, check your connection and try again.",
+  "sim": 0.79
+ },
+ {
+  "k": "helpFix3",
+  "en": "For anything else, open Support from Settings.",
+  "tr": "Kaikessa muussa avaa Tuki Asetuksista.",
+  "back": "In everything else, we're going to open the Settlement Support.",
+  "sim": 0.35
+ }
+]

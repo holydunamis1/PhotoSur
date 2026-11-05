@@ -1,0 +1,1780 @@
+[
+ {
+  "k": "onboardingPage1Title",
+  "en": "Remove backgrounds instantly. All features free.",
+  "tr": "బ్యాక్‌గ్రౌండ్‌లను తక్షణమే తొలగించండి. అన్ని ఫీచర్లు ఉచితం.",
+  "back": "Remove the backgrounds immediately. All features are free.",
+  "sim": 0.71
+ },
+ {
+  "k": "onboardingPage1Body",
+  "en": "Open a photo and our on-device AI removes the background automatically — no internet required. You can also swap in your own custom background.",
+  "tr": "ఫోటోను తెరవండి చాలు, మీ ఫోన్‌లోనే పనిచేసే AI ఆటోమేటిక్‌గా బ్యాక్‌గ్రౌండ్‌ను తొలగిస్తుంది — ఇంటర్నెట్ అవసరం లేదు. మీరు కోరుకుంటే మీ సొంత కస్టమ్ బ్యాక్‌గ్రౌండ్‌ను కూడా పెట్టుకోవచ్చు.",
+  "back": "Open the photo and put it in, the AI that works on your phone automatically removes the backgrounds. You don't need the internet. You can also put your own custom backgrounds if you want.",
+  "sim": 0.46
+ },
+ {
+  "k": "onboardingPage2Title",
+  "en": "Fine-tune with the brush",
+  "tr": "బ్రష్‌తో మరింత మెరుగుపరచండి",
+  "back": "Improve with a brush",
+  "sim": 0.5
+ },
+ {
+  "k": "onboardingPage2Body",
+  "en": "Paint away what the AI missed or restore what you want to keep. Then crop, rotate, move and resize.",
+  "tr": "AI వదిలేసినదాన్ని బ్రష్‌తో తుడిచేయండి, లేదా ఉంచుకోవాలనుకున్నదాన్ని తిరిగి తెచ్చుకోండి. తర్వాత క్రాప్ చేయండి, తిప్పండి, కదిలించండి, పరిమాణం మార్చండి.",
+  "back": "Erase what's left of AI with a brush, or get back what you want to keep. Then crop, roll, move, resize.",
+  "sim": 0.55
+ },
+ {
+  "k": "onboardingPage3Title",
+  "en": "Studio-ready backgrounds",
+  "tr": "స్టూడియో స్థాయి బ్యాక్‌గ్రౌండ్‌లు",
+  "back": "Studio-level backgrounds",
+  "sim": 0.5
+ },
+ {
+  "k": "onboardingPage3Body",
+  "en": "Choose a colour, gradient, template or your own photo, with a natural shadow. Marketplace presets for Amazon, eBay, Etsy and Shopify set size and format for you.",
+  "tr": "ఒక రంగు, గ్రేడియంట్, టెంప్లేట్ లేదా మీ సొంత ఫోటోను ఎంచుకోండి, సహజమైన నీడతో. Amazon, eBay, Etsy, Shopify కోసం ప్రీసెట్లు మీ కోసం పరిమాణం, ఫార్మాట్ సెట్ చేస్తాయి.",
+  "back": "Choose a color, gradient, template, or your own photo, with a natural shade. Presets for Amazon, eBay, Etsy, Shopify set the size, format for you.",
+  "sim": 0.85
+ },
+ {
+  "k": "onboardingPage4Title",
+  "en": "Batch it, export it, keep it private",
+  "tr": "ఒకేసారి చాలా, మీకు నచ్చిన ఫార్మాట్‌లో, పూర్తిగా ప్రైవేట్",
+  "back": "At once too, in your preferred format, completely private",
+  "sim": 0.12
+ },
+ {
+  "k": "onboardingPage4Body",
+  "en": "Cut out up to 30 photos at once and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "tr": "ఒకేసారి 30 ఫోటోల వరకు బ్యాక్‌గ్రౌండ్ తొలగించి PNG, JPG లేదా WEBPగా ఎగుమతి చేయండి. మీ ఫోటోలు మీ ఫోన్ దాటి వెళ్లవు. 43 భాషల్లో అందుబాటులో ఉంది.",
+  "back": "Remove the background of up to 30 photos at once and export them as PNG, JPG or WEBP. Your photos will not go beyond your phone. Available in 43 languages.",
+  "sim": 0.76
+ },
+ {
+  "k": "onboardingNext",
+  "en": "Next",
+  "tr": "తదుపరి",
+  "back": "Next",
+  "sim": 1.0
+ },
+ {
+  "k": "onboardingGetStarted",
+  "en": "Get Started",
+  "tr": "ప్రారంభించండి",
+  "back": "Get started",
+  "sim": 1.0
+ },
+ {
+  "k": "homeCameraButton",
+  "en": "Camera",
+  "tr": "కెమెరా",
+  "back": "The camera",
+  "sim": 0.67
+ },
+ {
+  "k": "homeGalleryButton",
+  "en": "Gallery",
+  "tr": "గ్యాలరీ",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "dateToday",
+  "en": "Today",
+  "tr": "ఈరోజు",
+  "back": "Today",
+  "sim": 1.0
+ },
+ {
+  "k": "dateYesterday",
+  "en": "Yesterday",
+  "tr": "నిన్న",
+  "back": "Yesterday's",
+  "sim": 0.0
+ },
+ {
+  "k": "homeRecentExports",
+  "en": "Recent Exports",
+  "tr": "ఇటీవలి ఎగుమతులు",
+  "back": "Recent exports",
+  "sim": 1.0
+ },
+ {
+  "k": "homeEmptyStateMessage",
+  "en": "Tap Camera or Gallery to start.",
+  "tr": "ప్రారంభించడానికి కెమెరా లేదా గ్యాలరీని తాకండి.",
+  "back": "Touch the camera or gallery to start.",
+  "sim": 0.77
+ },
+ {
+  "k": "homeExportUnavailable",
+  "en": "This export is no longer available.",
+  "tr": "ఈ ఎగుమతి ఇక అందుబాటులో లేదు.",
+  "back": "This export is no longer available.",
+  "sim": 1.0
+ },
+ {
+  "k": "homeShareFailed",
+  "en": "Could not share this export.",
+  "tr": "ఈ ఎగుమతిని షేర్ చేయడం సాధ్యం కాలేదు.",
+  "back": "Exports could not be shared.",
+  "sim": 0.4
+ },
+ {
+  "k": "homeGalleryOpenFailed",
+  "en": "Could not open gallery.",
+  "tr": "గ్యాలరీని తెరవడం సాధ్యం కాలేదు.",
+  "back": "The gallery could not be opened.",
+  "sim": 0.4
+ },
+ {
+  "k": "cameraTitle",
+  "en": "Camera",
+  "tr": "కెమెరా",
+  "back": "The camera",
+  "sim": 0.67
+ },
+ {
+  "k": "cameraPermissionDenied",
+  "en": "Camera access is needed to take a photo. Please allow access.",
+  "tr": "ఫోటో తీయడానికి కెమెరా యాక్సెస్ అవసరం. దయచేసి యాక్సెస్‌ను అనుమతించండి.",
+  "back": "Camera access is required to take a photo. Please allow access.",
+  "sim": 0.91
+ },
+ {
+  "k": "cameraPermissionPermanentlyDenied",
+  "en": "Camera access was denied. Enable it in Settings to continue.",
+  "tr": "కెమెరా యాక్సెస్ నిరాకరించబడింది. కొనసాగడానికి సెట్టింగ్‌లలో ప్రారంభించండి.",
+  "back": "Camera access denied. Start in settings to continue.",
+  "sim": 0.78
+ },
+ {
+  "k": "cameraPermissionRestricted",
+  "en": "Camera access is restricted on this device.",
+  "tr": "ఈ పరికరంలో కెమెరా యాక్సెస్ పరిమితం చేయబడింది.",
+  "back": "Camera access on this device is restricted.",
+  "sim": 0.71
+ },
+ {
+  "k": "cameraNoCameraFound",
+  "en": "No camera found on this device.",
+  "tr": "ఈ పరికరంలో కెమెరా కనుగొనబడలేదు.",
+  "back": "The camera was not found on this device.",
+  "sim": 0.71
+ },
+ {
+  "k": "cameraStartFailed",
+  "en": "Could not start the camera.",
+  "tr": "కెమెరాను ప్రారంభించడం సాధ్యం కాలేదు.",
+  "back": "The camera could not be turned on.",
+  "sim": 0.33
+ },
+ {
+  "k": "cameraCaptureFailed",
+  "en": "Could not capture photo.",
+  "tr": "ఫోటో తీయడం సాధ్యం కాలేదు.",
+  "back": "It was not possible to take a photo.",
+  "sim": 0.33
+ },
+ {
+  "k": "cameraOpenSettings",
+  "en": "Open Settings",
+  "tr": "సెట్టింగ్‌లను తెరువు",
+  "back": "Open the settings",
+  "sim": 0.8
+ },
+ {
+  "k": "cameraFlashTooltip",
+  "en": "Flash",
+  "tr": "ఫ్లాష్",
+  "back": "Flash",
+  "sim": 1.0
+ },
+ {
+  "k": "cameraGalleryTooltip",
+  "en": "Gallery",
+  "tr": "గ్యాలరీ",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "cropTitle",
+  "en": "Crop & Rotate",
+  "tr": "కత్తిరించు & తిప్పు",
+  "back": "Cut and paste",
+  "sim": 0.0
+ },
+ {
+  "k": "cropLoadFailed",
+  "en": "Could not load the image.",
+  "tr": "చిత్రాన్ని లోడ్ చేయడం సాధ్యం కాలేదు.",
+  "back": "Image cannot be loaded.",
+  "sim": 0.22
+ },
+ {
+  "k": "cropRotateFailed",
+  "en": "Could not rotate the image.",
+  "tr": "చిత్రాన్ని తిప్పడం సాధ్యం కాలేదు.",
+  "back": "The picture could not be turned.",
+  "sim": 0.36
+ },
+ {
+  "k": "cropFailed",
+  "en": "Crop failed.",
+  "tr": "కత్తిరించడం విఫలమైంది.",
+  "back": "Cutting failed.",
+  "sim": 0.5
+ },
+ {
+  "k": "cropSaveFailed",
+  "en": "Could not save the cropped image.",
+  "tr": "కత్తిరించిన చిత్రాన్ని సేవ్ చేయడం సాధ్యం కాలేదు.",
+  "back": "The cut image could not be saved.",
+  "sim": 0.31
+ },
+ {
+  "k": "cropAspectFree",
+  "en": "Free",
+  "tr": "ఫ్రీ",
+  "back": "Free",
+  "sim": 1.0
+ },
+ {
+  "k": "cropContinue",
+  "en": "Continue",
+  "tr": "కొనసాగించు",
+  "back": "Go on",
+  "sim": 0.0
+ },
+ {
+  "k": "editorSegmentationFailedMessage",
+  "en": "Your device doesn't support automatic background removal. Use the manual brush below.",
+  "tr": "మీ పరికరం ఆటోమేటిక్ బ్యాక్‌గ్రౌండ్ తొలగింపుకు మద్దతు ఇవ్వదు. క్రింద ఉన్న మాన్యువల్ బ్రష్‌ను ఉపయోగించండి.",
+  "back": "Your device does not support automatic background removal. Use the manual brush below.",
+  "sim": 0.88
+ },
+ {
+  "k": "brushErase",
+  "en": "Erase",
+  "tr": "చెరపు",
+  "back": "Prisoners",
+  "sim": 0.0
+ },
+ {
+  "k": "brushRestore",
+  "en": "Restore",
+  "tr": "పునరుద్ధరించు",
+  "back": "Restored",
+  "sim": 0.0
+ },
+ {
+  "k": "brushSizeLabel",
+  "en": "Brush Size",
+  "tr": "బ్రష్ పరిమాణం",
+  "back": "Size of brush",
+  "sim": 0.4
+ },
+ {
+  "k": "brushOpacityLabel",
+  "en": "Opacity",
+  "tr": "అపారదర్శకత",
+  "back": "The lack of transparency",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundWhite",
+  "en": "White",
+  "tr": "తెలుపు",
+  "back": "Open the door",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundTransparent",
+  "en": "Transparent",
+  "tr": "పారదర్శకం",
+  "back": "Transparency",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundBlack",
+  "en": "Black",
+  "tr": "నలుపు",
+  "back": "What is it?",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundBlurLabel",
+  "en": "Blur",
+  "tr": "బ్లర్",
+  "back": "Blur",
+  "sim": 1.0
+ },
+ {
+  "k": "edgeFeatherLabel",
+  "en": "Edge Smoothness",
+  "tr": "అంచుల మృదుత్వం",
+  "back": "Softness of edges",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarUndo",
+  "en": "Undo",
+  "tr": "రద్దు",
+  "back": "Cancellation",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarRedo",
+  "en": "Redo",
+  "tr": "మళ్లీ చేయి",
+  "back": "Do it again",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarReset",
+  "en": "Reset",
+  "tr": "రీసెట్",
+  "back": "Reset",
+  "sim": 1.0
+ },
+ {
+  "k": "toolbarExport",
+  "en": "Export",
+  "tr": "ఎగుమతి",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmTitle",
+  "en": "Reset edits?",
+  "tr": "ఎడిట్‌లను రీసెట్ చేయాలా?",
+  "back": "How can I change my mind?",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmBody",
+  "en": "This clears your manual brush strokes. This cannot be undone.",
+  "tr": "ఇది మీరు చేతితో వేసిన బ్రష్ స్ట్రోక్‌లను తొలగిస్తుంది. దీన్ని రద్దు చేయలేరు.",
+  "back": "It removes your hand-brush strokes. It can't be reversed.",
+  "sim": 0.32
+ },
+ {
+  "k": "resetConfirmCancel",
+  "en": "Cancel",
+  "tr": "రద్దు",
+  "back": "Cancellation",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmConfirm",
+  "en": "Reset",
+  "tr": "రీసెట్",
+  "back": "Reset",
+  "sim": 1.0
+ },
+ {
+  "k": "exportTitle",
+  "en": "Export",
+  "tr": "ఎగుమతి",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "exportQualityLabel",
+  "en": "Quality: {value}",
+  "tr": "నాణ్యత: {value}",
+  "back": "Quality: [value]",
+  "sim": 1.0
+ },
+ {
+  "k": "exportResizeLabel",
+  "en": "Resize",
+  "tr": "పరిమాణం మార్చు",
+  "back": "Change the size",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeOriginal",
+  "en": "Original",
+  "tr": "అసలు",
+  "back": "What is the meaning of life?",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeCustom",
+  "en": "Custom",
+  "tr": "కస్టమ్",
+  "back": "the custom",
+  "sim": 0.67
+ },
+ {
+  "k": "exportWidthLabel",
+  "en": "Width (px)",
+  "tr": "వెడల్పు (px)",
+  "back": "width (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportHeightLabel",
+  "en": "Height (px)",
+  "tr": "ఎత్తు (px)",
+  "back": "Height (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSaveToGallery",
+  "en": "Save to Gallery",
+  "tr": "గ్యాలరీలో సేవ్ చేయి",
+  "back": "Save in the gallery",
+  "sim": 0.57
+ },
+ {
+  "k": "exportShare",
+  "en": "Share",
+  "tr": "షేర్",
+  "back": "share",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSuccess",
+  "en": "Exported!",
+  "tr": "ఎగుమతి పూర్తైంది!",
+  "back": "The shipment is complete!",
+  "sim": 0.0
+ },
+ {
+  "k": "exportFailed",
+  "en": "Export failed. Please try again.",
+  "tr": "ఎగుమతి విఫలమైంది. దయచేసి మళ్లీ ప్రయత్నించండి.",
+  "back": "Export failed. Please try again.",
+  "sim": 1.0
+ },
+ {
+  "k": "exportInProgress",
+  "en": "Exporting…",
+  "tr": "ఎగుమతి అవుతోంది…",
+  "back": "Exporting...",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsTitle",
+  "en": "Settings",
+  "tr": "సెట్టింగ్‌లు",
+  "back": "Settings",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsTheme",
+  "en": "Theme",
+  "tr": "థీమ్",
+  "back": "The theme",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsLanguage",
+  "en": "Language",
+  "tr": "భాష",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "కొనుగోళ్లను పునరుద్ధరించు",
+  "back": "In fact, there is no such thing as a free lunch.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsGoAdFree",
+  "en": "Go Ad-Free",
+  "tr": "ప్రకటనలు లేకుండా వాడండి",
+  "back": "Use without advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsPrivacyPolicy",
+  "en": "Privacy Policy",
+  "tr": "గోప్యతా విధానం",
+  "back": "Privacy policy",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsSupport",
+  "en": "Support",
+  "tr": "మద్దతు",
+  "back": "Support",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRateApp",
+  "en": "Rate App",
+  "tr": "యాప్‌కు రేటింగ్ ఇవ్వండి",
+  "back": "Give the app a rating",
+  "sim": 0.29
+ },
+ {
+  "k": "settingsShareApp",
+  "en": "Share App",
+  "tr": "యాప్‌ను షేర్ చేయండి",
+  "back": "Share the app",
+  "sim": 0.8
+ },
+ {
+  "k": "settingsLicenses",
+  "en": "Open-source licenses",
+  "tr": "ఓపెన్-సోర్స్ లైసెన్స్‌లు",
+  "back": "Open-source licenses",
+  "sim": 1.0
+ },
+ {
+  "k": "reminderChannelName",
+  "en": "Edit reminders",
+  "tr": "ఎడిట్ రిమైండర్‌లు",
+  "back": "Edit Reminders",
+  "sim": 1.0
+ },
+ {
+  "k": "reminderChannelDescription",
+  "en": "Reminders about edits you have not finished.",
+  "tr": "మీరు పూర్తి చేయని ఎడిట్‌ల గురించి రిమైండర్‌లు.",
+  "back": "Reminders about edits you haven't completed.",
+  "sim": 0.62
+ },
+ {
+  "k": "reminderTitle",
+  "en": "Your edit is waiting",
+  "tr": "మీ ఎడిట్ వేచి ఉంది",
+  "back": "Your edit is waiting",
+  "sim": 1.0
+ },
+ {
+  "k": "reminderBody",
+  "en": "Pick up where you left off and export your photo.",
+  "tr": "ఆపిన చోటి నుండి కొనసాగించి మీ ఫోటోను ఎగుమతి చేయండి.",
+  "back": "Continue from where you left off and export your photo.",
+  "sim": 0.8
+ },
+ {
+  "k": "settingsReminders",
+  "en": "Edit reminders",
+  "tr": "ఎడిట్ రిమైండర్‌లు",
+  "back": "Edit Reminders",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsAnimatedBackground",
+  "en": "Animated home background",
+  "tr": "హోమ్ యానిమేటెడ్ బ్యాక్‌గ్రౌండ్",
+  "back": "Home Animated Background",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsRemindersSubtitle",
+  "en": "Remind me about unfinished edits",
+  "tr": "పూర్తి కాని ఎడిట్‌ల గురించి గుర్తు చేయి",
+  "back": "Remind yourself of incomplete edits",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsRemindersBlocked",
+  "en": "Notifications are turned off for PhotoSur in your phone's settings.",
+  "tr": "మీ ఫోన్ సెట్టింగ్‌లలో PhotoSur నోటిఫికేషన్‌లు ఆఫ్ చేయబడ్డాయి.",
+  "back": "PhotoSur notifications have been turned off in your phone settings.",
+  "sim": 0.6
+ },
+ {
+  "k": "editorBrushHint",
+  "en": "Drag to paint. Pinch with two fingers to zoom.",
+  "tr": "గీయడానికి లాగండి. జూమ్ చేయడానికి రెండు వేళ్లతో పించ్ చేయండి.",
+  "back": "Pull to draw. Pinch with two fingers to zoom.",
+  "sim": 0.78
+ },
+ {
+  "k": "editorToolCutout",
+  "en": "Cut-out",
+  "tr": "కట్-అవుట్",
+  "back": "Cut-out",
+  "sim": 1.0
+ },
+ {
+  "k": "editorToolBrush",
+  "en": "Brush",
+  "tr": "బ్రష్",
+  "back": "Brush",
+  "sim": 1.0
+ },
+ {
+  "k": "editorToolBackground",
+  "en": "Background",
+  "tr": "బ్యాక్‌గ్రౌండ్",
+  "back": "Background",
+  "sim": 1.0
+ },
+ {
+  "k": "editorToolLayout",
+  "en": "Layout",
+  "tr": "లేఅవుట్",
+  "back": "The layout",
+  "sim": 0.67
+ },
+ {
+  "k": "layoutAutoCenter",
+  "en": "Auto-center",
+  "tr": "ఆటో-సెంటర్",
+  "back": "Auto-center",
+  "sim": 1.0
+ },
+ {
+  "k": "layoutSizeLabel",
+  "en": "Size",
+  "tr": "పరిమాణం",
+  "back": "Size",
+  "sim": 1.0
+ },
+ {
+  "k": "layoutShadowLabel",
+  "en": "Shadow",
+  "tr": "నీడ",
+  "back": "The Shadow",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundPhoto",
+  "en": "Photo",
+  "tr": "ఫోటో",
+  "back": "The photo",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundPhotoFailed",
+  "en": "Could not load that photo.",
+  "tr": "ఆ ఫోటోను లోడ్ చేయడం సాధ్యం కాలేదు.",
+  "back": "The photo could not be uploaded.",
+  "sim": 0.36
+ },
+ {
+  "k": "editorLayoutHint",
+  "en": "Drag to move. Pinch with two fingers to resize.",
+  "tr": "కదిలించడానికి లాగండి. పరిమాణం మార్చడానికి రెండు వేళ్లతో పించ్ చేయండి.",
+  "back": "Pull to move. Pinch with two fingers to change size.",
+  "sim": 0.74
+ },
+ {
+  "k": "languageSystemDefault",
+  "en": "System default",
+  "tr": "సిస్టమ్ డిఫాల్ట్",
+  "back": "System Default",
+  "sim": 1.0
+ },
+ {
+  "k": "languageSheetTitle",
+  "en": "Language",
+  "tr": "భాష",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "themeSheetTitle",
+  "en": "Theme",
+  "tr": "థీమ్",
+  "back": "The theme",
+  "sim": 0.67
+ },
+ {
+  "k": "themeOptionSystem",
+  "en": "System default",
+  "tr": "సిస్టమ్ డిఫాల్ట్",
+  "back": "System Default",
+  "sim": 1.0
+ },
+ {
+  "k": "themeOptionLight",
+  "en": "Light",
+  "tr": "లైట్",
+  "back": "The Light",
+  "sim": 0.67
+ },
+ {
+  "k": "themeOptionDark",
+  "en": "Dark",
+  "tr": "డార్క్",
+  "back": "The dark",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsLinkNotReady",
+  "en": "This link isn't set up yet.",
+  "tr": "ఈ లింక్ ఇంకా సెటప్ కాలేదు.",
+  "back": "This link has not yet been set up.",
+  "sim": 0.57
+ },
+ {
+  "k": "settingsLinkOpenFailed",
+  "en": "Could not open link.",
+  "tr": "లింక్‌ను తెరవడం సాధ్యం కాలేదు.",
+  "back": "Link could not be opened.",
+  "sim": 0.44
+ },
+ {
+  "k": "settingsRestoreRequested",
+  "en": "Restore requested — check back in a moment.",
+  "tr": "పునరుద్ధరణ అభ్యర్థించబడింది — కాసేపటి తర్వాత చూడండి.",
+  "back": "Repair requested  See after a while.",
+  "sim": 0.31
+ },
+ {
+  "k": "settingsRestoreFailed",
+  "en": "Restore failed.",
+  "tr": "పునరుద్ధరణ విఫలమైంది.",
+  "back": "The restoration failed.",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsShareFailed",
+  "en": "Could not share.",
+  "tr": "షేర్ చేయడం సాధ్యం కాలేదు.",
+  "back": "Sharing was not possible.",
+  "sim": 0.29
+ },
+ {
+  "k": "settingsShareAppMessage",
+  "en": "Remove photo backgrounds instantly with PhotoSur — free, no watermark.",
+  "tr": "PhotoSur తో ఫోటో బ్యాక్‌గ్రౌండ్‌లను తక్షణమే తొలగించండి — ఉచితం, వాటర్‌మార్క్ లేదు.",
+  "back": "Immediately remove photo backgrounds with PhotoSur  Free, no watermark.",
+  "sim": 0.89
+ },
+ {
+  "k": "paywallTitle",
+  "en": "Go Ad-Free",
+  "tr": "ప్రకటనలు లేకుండా వాడండి",
+  "back": "Use without advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallAlreadyAdFree",
+  "en": "You're already ad-free. Thank you!",
+  "tr": "మీరు ఇప్పటికే ప్రకటనలు లేకుండా వాడుతున్నారు. ధన్యవాదాలు!",
+  "back": "You're already using it without ads. Thank you!",
+  "sim": 0.62
+ },
+ {
+  "k": "paywallPlanFreeTitle",
+  "en": "Free",
+  "tr": "ఉచితం",
+  "back": "Free of charge",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPlanAdFreeTitle",
+  "en": "Ad-Free",
+  "tr": "ప్రకటనలు లేకుండా",
+  "back": "Without advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPlanAdFreePrice",
+  "en": "One-time purchase",
+  "tr": "ఒక్కసారి చెల్లింపు",
+  "back": "One-time payment",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallFeatureAllFeatures",
+  "en": "All features",
+  "tr": "అన్ని ఫీచర్లు",
+  "back": "All features",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallFeatureAdSupported",
+  "en": "Ad-supported",
+  "tr": "ప్రకటనలతో",
+  "back": "With announcements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureZeroAds",
+  "en": "Zero ads",
+  "tr": "ప్రకటనలు లేవు",
+  "back": "No announcements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPurchaseButton",
+  "en": "Remove Ads",
+  "tr": "ప్రకటనలను తొలగించు",
+  "back": "Remove the ads",
+  "sim": 0.8
+ },
+ {
+  "k": "paywallPurchaseButtonPrice",
+  "en": "Remove Ads — {price}",
+  "tr": "ప్రకటనలను తొలగించు — {price}",
+  "back": "Remove ads  [price]",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "కొనుగోళ్లను పునరుద్ధరించు",
+  "back": "In fact, there is no such thing as a free lunch.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallProductUnavailable",
+  "en": "Ad removal is not available right now.",
+  "tr": "ప్రకటనల తొలగింపు ప్రస్తుతం అందుబాటులో లేదు.",
+  "back": "Ad removal is not currently available.",
+  "sim": 0.77
+ },
+ {
+  "k": "paywallPurchaseFailed",
+  "en": "Purchase failed.",
+  "tr": "కొనుగోలు విఫలమైంది.",
+  "back": "The purchase failed.",
+  "sim": 0.8
+ },
+ {
+  "k": "errorScreenTitle",
+  "en": "Something went wrong",
+  "tr": "ఏదో తప్పు జరిగింది",
+  "back": "Something went wrong.",
+  "sim": 1.0
+ },
+ {
+  "k": "errorScreenBody",
+  "en": "Try again, or restart the app if this keeps happening.",
+  "tr": "మళ్లీ ప్రయత్నించండి; ఇది కొనసాగితే యాప్‌ను రీస్టార్ట్ చేయండి.",
+  "back": "Try again; restart the app if it continues.",
+  "sim": 0.67
+ },
+ {
+  "k": "errorScreenGoBack",
+  "en": "Go back",
+  "tr": "వెనక్కి వెళ్లు",
+  "back": "Going back",
+  "sim": 0.5
+ },
+ {
+  "k": "errorScreenReportEmail",
+  "en": "Report via {email}",
+  "tr": "{email} ద్వారా నివేదించండి",
+  "back": "Report by [email]",
+  "sim": 0.67
+ },
+ {
+  "k": "unsupportedTitle",
+  "en": "Device Not Supported",
+  "tr": "పరికరానికి మద్దతు లేదు",
+  "back": "The device is not supported",
+  "sim": 0.75
+ },
+ {
+  "k": "unsupportedNoCameraMessage",
+  "en": "This device doesn't have a camera available.",
+  "tr": "ఈ పరికరంలో కెమెరా అందుబాటులో లేదు.",
+  "back": "The camera is not available on this device.",
+  "sim": 0.27
+ },
+ {
+  "k": "unsupportedLowMemoryMessage",
+  "en": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
+  "tr": "PhotoSur ఎడిటర్‌ను నమ్మకంగా నడపడానికి ఈ పరికరంలో తగినంత మెమరీ లేదు.",
+  "back": "The device does not have enough memory to run the PhotoSur editor confidently.",
+  "sim": 0.58
+ },
+ {
+  "k": "unsupportedManualImportHint",
+  "en": "You can still import a photo from your gallery and use the manual brush tool.",
+  "tr": "గ్యాలరీ నుండి ఫోటోను దిగుమతి చేసి మాన్యువల్ బ్రష్ టూల్‌ను ఇప్పటికీ ఉపయోగించవచ్చు.",
+  "back": "The manual brush tool can still be used to import a photo from the gallery.",
+  "sim": 0.47
+ },
+ {
+  "k": "unsupportedUseGalleryButton",
+  "en": "Import from Gallery",
+  "tr": "గ్యాలరీ నుండి దిగుమతి",
+  "back": "Imported from the gallery",
+  "sim": 0.57
+ },
+ {
+  "k": "homeBatchButton",
+  "en": "Batch",
+  "tr": "బ్యాచ్",
+  "back": "Batch",
+  "sim": 1.0
+ },
+ {
+  "k": "batchTitle",
+  "en": "Batch cut-out",
+  "tr": "బ్యాచ్ కట్-అవుట్",
+  "back": "Batch cut-out",
+  "sim": 1.0
+ },
+ {
+  "k": "batchOutputTransparent",
+  "en": "Transparent PNG",
+  "tr": "పారదర్శక PNG",
+  "back": "Transparent PNG",
+  "sim": 1.0
+ },
+ {
+  "k": "batchOutputWhite",
+  "en": "White background (JPG)",
+  "tr": "తెల్లని నేపథ్యం (JPG)",
+  "back": "White background (JPG)",
+  "sim": 1.0
+ },
+ {
+  "k": "batchStart",
+  "en": "Start",
+  "tr": "ప్రారంభించు",
+  "back": "Starting",
+  "sim": 0.0
+ },
+ {
+  "k": "batchStop",
+  "en": "Stop",
+  "tr": "ఆపు",
+  "back": "Stop it!",
+  "sim": 0.67
+ },
+ {
+  "k": "batchDone",
+  "en": "Done",
+  "tr": "పూర్తయింది",
+  "back": "Finished",
+  "sim": 0.0
+ },
+ {
+  "k": "batchProgress",
+  "en": "{done} of {total} done",
+  "tr": "{total}లో {done} పూర్తయ్యాయి",
+  "back": "[total] in [done] completed",
+  "sim": 0.25
+ },
+ {
+  "k": "batchSaved",
+  "en": "{count} saved to your gallery",
+  "tr": "{count} ఫోటోలు మీ గ్యాలరీలో సేవ్ అయ్యాయి",
+  "back": "[count] Photos are saved in your gallery",
+  "sim": 0.67
+ },
+ {
+  "k": "batchSomeFailed",
+  "en": "{count} could not be processed",
+  "tr": "{count} ఫోటోలను ప్రాసెస్ చేయలేకపోయాం",
+  "back": "[count] Photos could not be processed",
+  "sim": 0.91
+ },
+ {
+  "k": "batchTooMany",
+  "en": "Up to {max} photos at a time",
+  "tr": "ఒకేసారి గరిష్ఠంగా {max} ఫోటోలు",
+  "back": "Maximum number of simultaneous [max] photos",
+  "sim": 0.31
+ },
+ {
+  "k": "backgroundAddCustom",
+  "en": "Add custom background",
+  "tr": "అనుకూల నేపథ్యాన్ని జోడించు",
+  "back": "Add a Positive Background",
+  "sim": 0.57
+ },
+ {
+  "k": "backgroundCustomColor",
+  "en": "Custom color",
+  "tr": "అనుకూల రంగు",
+  "back": "Custom color",
+  "sim": 1.0
+ },
+ {
+  "k": "colorSaturation",
+  "en": "Saturation",
+  "tr": "సంతృప్తత",
+  "back": "Satisfaction",
+  "sim": 0.0
+ },
+ {
+  "k": "colorBrightness",
+  "en": "Brightness",
+  "tr": "ప్రకాశం",
+  "back": "The Light",
+  "sim": 0.0
+ },
+ {
+  "k": "colorHexLabel",
+  "en": "Hex code",
+  "tr": "హెక్స్ కోడ్",
+  "back": "Hex code",
+  "sim": 1.0
+ },
+ {
+  "k": "colorPickerDone",
+  "en": "Done",
+  "tr": "పూర్తయింది",
+  "back": "Finished",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceLabel",
+  "en": "Marketplace",
+  "tr": "మార్కెట్‌ప్లేస్",
+  "back": "Marketplace",
+  "sim": 1.0
+ },
+ {
+  "k": "exportMarketplaceWhiteFill",
+  "en": "Pure white background, product fills the frame",
+  "tr": "స్వచ్ఛమైన తెల్లని నేపథ్యం, ఉత్పత్తి ఫ్రేమ్‌ను నింపుతుంది",
+  "back": "A pure white background fills the production frame",
+  "sim": 0.8
+ },
+ {
+  "k": "exportMarketplaceSizeCap",
+  "en": "File kept under {size} MB",
+  "tr": "ఫైల్ {size} MB కంటే తక్కువ",
+  "back": "File [size] less than MB",
+  "sim": 0.6
+ },
+ {
+  "k": "editorToolTemplates",
+  "en": "Templates",
+  "tr": "టెంప్లేట్లు",
+  "back": "Templates",
+  "sim": 1.0
+ },
+ {
+  "k": "templatesTitle",
+  "en": "Choose a template",
+  "tr": "టెంప్లేట్‌ను ఎంచుకోండి",
+  "back": "Select a template",
+  "sim": 0.67
+ },
+ {
+  "k": "templatesStudio",
+  "en": "Studio",
+  "tr": "స్టూడియో",
+  "back": "The studio",
+  "sim": 0.67
+ },
+ {
+  "k": "templatesColorBlock",
+  "en": "Color block",
+  "tr": "కలర్ బ్లాక్‌లు",
+  "back": "Colored Blacks",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTextures",
+  "en": "Textures",
+  "tr": "టెక్స్చర్లు",
+  "back": "Textures",
+  "sim": 1.0
+ },
+ {
+  "k": "templatesLight",
+  "en": "Light & shadow",
+  "tr": "కాంతి & నీడ",
+  "back": "Light and Shadow",
+  "sim": 0.8
+ },
+ {
+  "k": "templatesPatterns",
+  "en": "Gradients & patterns",
+  "tr": "గ్రేడియంట్లు & నమూనాలు",
+  "back": "Gradients & Models",
+  "sim": 0.5
+ },
+ {
+  "k": "hdGetAction",
+  "en": "Get HD cut-out",
+  "tr": "HD కటౌట్ పొందండి",
+  "back": "Get an HD cut out",
+  "sim": 0.5
+ },
+ {
+  "k": "hdRedoAction",
+  "en": "Redo cut-out in HD",
+  "tr": "HDలో కటౌట్ మళ్లీ చేయండి",
+  "back": "Cut out again in HD",
+  "sim": 0.44
+ },
+ {
+  "k": "hdDownloading",
+  "en": "HD cut-out in progress… {percent}%",
+  "tr": "HD కటౌట్ జరుగుతోంది… {percent}%",
+  "back": "HD cutting is going on... [percent]%",
+  "sim": 0.36
+ },
+ {
+  "k": "hdDownloadingShort",
+  "en": "HD cut-out… {percent}%",
+  "tr": "HD కటౌట్… {percent}%",
+  "back": "HD cut out... [percent]%",
+  "sim": 0.57
+ },
+ {
+  "k": "hdConfirmTitle",
+  "en": "Download HD cut-out model?",
+  "tr": "HD కటౌట్ మోడల్‌ను డౌన్‌లోడ్ చేయాలా?",
+  "back": "Should I download the HD cut-out model?",
+  "sim": 0.73
+ },
+ {
+  "k": "hdConfirmBody",
+  "en": "Cleaner edges on tricky objects like shoes, bags and bottles. It downloads once, stays on your phone and then works offline. Mobile data charges may apply.",
+  "tr": "బూట్లు, బ్యాగులు, సీసాల వంటి కష్టమైన వస్తువులకు మరింత శుభ్రమైన అంచులు. ఒక్కసారే డౌన్‌లోడ్ అవుతుంది, మీ ఫోన్‌లో ఉంటుంది, తర్వాత ఆఫ్‌లైన్‌లో పనిచేస్తుంది. మొబైల్ డేటా ఛార్జీలు వర్తించవచ్చు.",
+  "back": "Cleaner edges for difficult items like shoes, bags, bottles. Once downloaded, on your phone, then offline. Mobile data charges may apply.",
+  "sim": 0.72
+ },
+ {
+  "k": "hdDownload",
+  "en": "Download",
+  "tr": "డౌన్‌లోడ్",
+  "back": "How to download",
+  "sim": 0.5
+ },
+ {
+  "k": "hdFailed",
+  "en": "HD cut-out didn’t finish. Check your connection and try again.",
+  "tr": "HD కటౌట్ పూర్తి కాలేదు. కనెక్షన్ చూసి మళ్లీ ప్రయత్నించండి.",
+  "back": "HD cutout is not complete. See the connection and try again.",
+  "sim": 0.57
+ },
+ {
+  "k": "settingsHdTitle",
+  "en": "HD cut-out model",
+  "tr": "HD కటౌట్ మోడల్",
+  "back": "HD cut-out model",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsHdNotInstalled",
+  "en": "Not downloaded",
+  "tr": "డౌన్‌లోడ్ కాలేదు",
+  "back": "It is not available for download.",
+  "sim": 0.25
+ },
+ {
+  "k": "settingsHdInstalled",
+  "en": "Installed · works offline",
+  "tr": "ఇన్‌స్టాల్ అయింది · ఆఫ్‌లైన్‌లో పనిచేస్తుంది",
+  "back": "Installed · Operates offline",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsHdRemove",
+  "en": "Remove",
+  "tr": "తొలగించు",
+  "back": "Remove",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsReplayIntro",
+  "en": "Replay intro",
+  "tr": "పరిచయాన్ని మళ్లీ చూడండి",
+  "back": "Revisit the contact",
+  "sim": 0.0
+ },
+ {
+  "k": "homeSeeAll",
+  "en": "See all",
+  "tr": "అన్నీ చూడండి",
+  "back": "See all",
+  "sim": 1.0
+ },
+ {
+  "k": "exportActionEdit",
+  "en": "Edit again",
+  "tr": "మళ్లీ సవరించండి",
+  "back": "Re-edit",
+  "sim": 0.0
+ },
+ {
+  "k": "exportActionDelete",
+  "en": "Delete",
+  "tr": "తొలగించు",
+  "back": "Remove",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMoreOptions",
+  "en": "More options",
+  "tr": "మరిన్ని ఎంపికలు",
+  "back": "More options",
+  "sim": 1.0
+ },
+ {
+  "k": "exportDeleteTitle",
+  "en": "Delete this export?",
+  "tr": "ఈ ఎగుమతిని తొలగించాలా?",
+  "back": "Should we eliminate these exports?",
+  "sim": 0.0
+ },
+ {
+  "k": "exportDeleteBody",
+  "en": "Exported images are removed from this phone. Your original photos and anything saved to your gallery are not affected.",
+  "tr": "ఎగుమతి చేసిన చిత్రాలు ఈ ఫోన్ నుండి తొలగించబడతాయి. మీ అసలు ఫోటోలు, గ్యాలరీలో సేవ్ చేసినవి ప్రభావితం కావు.",
+  "back": "Exported images will be deleted from this phone. Your original photos and those saved in the gallery will not be affected.",
+  "sim": 0.65
+ },
+ {
+  "k": "exportSavedToGallery",
+  "en": "Saved to your gallery",
+  "tr": "మీ గ్యాలరీలో సేవ్ అయింది",
+  "back": "It's saved in your gallery.",
+  "sim": 0.67
+ },
+ {
+  "k": "exportSaveFailed",
+  "en": "Could not save to the gallery.",
+  "tr": "గ్యాలరీలో సేవ్ చేయలేకపోయాము.",
+  "back": "We couldn't save it in the gallery.",
+  "sim": 0.46
+ },
+ {
+  "k": "exportUnavailable",
+  "en": "Unavailable",
+  "tr": "అందుబాటులో లేదు",
+  "back": "Not available",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsGroupThisWeek",
+  "en": "This week",
+  "tr": "ఈ వారం",
+  "back": "This week",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsGroupEarlier",
+  "en": "Earlier",
+  "tr": "అంతకుముందు",
+  "back": "Previously",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsStorageUsed",
+  "en": "{size} used on this phone",
+  "tr": "ఈ ఫోన్‌లో {size} వాడబడింది",
+  "back": "This phone uses [size]",
+  "sim": 0.44
+ },
+ {
+  "k": "exportsSelect",
+  "en": "Select",
+  "tr": "ఎంచుకోండి",
+  "back": "Select",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDone",
+  "en": "Done",
+  "tr": "పూర్తి",
+  "back": "Fulfilled",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsSelectedCount",
+  "en": "{count} selected",
+  "tr": "{count} ఎంచుకున్నారు",
+  "back": "[count] selected",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDeleteSelectedTitle",
+  "en": "Delete {count} exports?",
+  "tr": "{count} ఎగుమతులను తొలగించాలా?",
+  "back": "[count] Remove the exports?",
+  "sim": 0.57
+ },
+ {
+  "k": "exportsDeleteAll",
+  "en": "Delete all exports",
+  "tr": "అన్ని ఎగుమతులను తొలగించు",
+  "back": "Delete all exports",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDeleteAllTitle",
+  "en": "Delete all exports?",
+  "tr": "అన్ని ఎగుమతులను తొలగించాలా?",
+  "back": "Should all exports be eliminated?",
+  "sim": 0.5
+ },
+ {
+  "k": "helpTitle",
+  "en": "Help & how to use",
+  "tr": "సహాయం మరియు ఉపయోగించే విధానం",
+  "back": "How to help and use",
+  "sim": 0.67
+ },
+ {
+  "k": "helpIntro",
+  "en": "Tap a topic to read how it works.",
+  "tr": "ఒక అంశాన్ని తాకి అది ఎలా పనిచేస్తుందో చదవండి.",
+  "back": "Touch an object and read how it works.",
+  "sim": 0.5
+ },
+ {
+  "k": "helpStartTitle",
+  "en": "Getting started",
+  "tr": "ప్రారంభించడం",
+  "back": "Starting",
+  "sim": 0.0
+ },
+ {
+  "k": "helpStart1",
+  "en": "On the home screen, tap Camera to take a photo or Gallery to pick one. Batch cuts out many photos at once.",
+  "tr": "హోమ్ స్క్రీన్‌లో ఫోటో తీయడానికి కెమెరా లేదా ఒకటి ఎంచుకోవడానికి గ్యాలరీ తాకండి. బ్యాచ్ ఒకేసారి చాలా ఫోటోలను కట్-అవుట్ చేస్తుంది.",
+  "back": "Touch the camera or gallery to select one to take a photo on the home screen. The batch will cut out multiple photos at once.",
+  "sim": 0.38
+ },
+ {
+  "k": "helpStart2",
+  "en": "Every photo opens in Crop & Rotate first, then in the editor. Your original photo is never changed.",
+  "tr": "ప్రతి ఫోటో ముందుగా కత్తిరించు & తిప్పు లో తెరుచుకుంటుంది, తర్వాత ఎడిటర్‌లో. మీ అసలు ఫోటో ఎప్పటికీ మారదు.",
+  "back": "Each photo is first cut and rolled in, then in the editor. Your original photo will never change.",
+  "sim": 0.57
+ },
+ {
+  "k": "helpStart3",
+  "en": "When you are happy, tap Export in the editor. Recent Exports on the home screen lists everything you have exported.",
+  "tr": "సంతృప్తి చెందాక ఎడిటర్‌లో ఎగుమతి తాకండి. హోమ్ స్క్రీన్‌లోని ఇటీవలి ఎగుమతులు మీరు ఎగుమతి చేసినవన్నీ చూపిస్తుంది.",
+  "back": "If you are satisfied, export to the editor. Recent exports on the home screen show everything you have exported.",
+  "sim": 0.77
+ },
+ {
+  "k": "helpCropTitle",
+  "en": "Crop & Rotate",
+  "tr": "కత్తిరించు & తిప్పు",
+  "back": "Cut and paste",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCrop1",
+  "en": "Turn the photo left or right in 90° steps, and drag the frame to choose the part you want to keep.",
+  "tr": "ఫోటోను 90° దశల్లో ఎడమకు లేదా కుడికి తిప్పండి, ఉంచాలనుకున్న భాగాన్ని ఎంచుకోవడానికి ఫ్రేమ్‌ను లాగండి.",
+  "back": "Turn the photo to the left or right in 90° steps and drag the frame to select the part you want to place.",
+  "sim": 0.86
+ },
+ {
+  "k": "helpCrop2",
+  "en": "Free lets you shape the frame as you like. 1:1, 4:5 and 9:16 lock its shape. Tap Continue to open the editor.",
+  "tr": "ఫ్రీ ఫ్రేమ్‌కు మీకు నచ్చిన ఆకారం ఇవ్వడానికి అనుమతిస్తుంది. 1:1, 4:5, 9:16 దాని ఆకారాన్ని లాక్ చేస్తాయి. ఎడిటర్ తెరవడానికి కొనసాగించు తాకండి.",
+  "back": "The free frame allows you to give it the shape you want. 1:1, 4:5, 9:16 lock its shape. Continue to open the editor.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpCutoutTitle",
+  "en": "Cut-out",
+  "tr": "కట్-అవుట్",
+  "back": "Cut-out",
+  "sim": 1.0
+ },
+ {
+  "k": "helpCutout1",
+  "en": "When the editor opens, PhotoSur finds the main subject and removes the background automatically, on your phone. No internet is needed.",
+  "tr": "ఎడిటర్ తెరుచుకున్నప్పుడు PhotoSur ప్రధాన విషయాన్ని గుర్తించి, మీ ఫోన్‌లోనే ఆటోమేటిక్‌గా బ్యాక్‌గ్రౌండ్ తొలగిస్తుంది. ఇంటర్నెట్ అవసరం లేదు.",
+  "back": "When the editor is opened, PhotoSur detects the main content and automatically removes the background on your phone.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpCutout2",
+  "en": "Edge Smoothness softens the edge of the cut-out, from 0 to 20 pixels.",
+  "tr": "అంచుల మృదుత్వం కట్-అవుట్ అంచును 0 నుండి 20 పిక్సెల్స్ వరకు మృదువుగా చేస్తుంది.",
+  "back": "The softness of the edges soften the cut-out edge from 0 to 20 pixels.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpCutout3",
+  "en": "The eye button at the top shows your original photo so you can compare. Tap it again to go back. The brush is paused while the original is shown.",
+  "tr": "పైన ఉన్న కన్ను బటన్ పోల్చడానికి మీ అసలు ఫోటోను చూపిస్తుంది. వెనక్కి వెళ్లడానికి మళ్లీ తాకండి. అసలు కనిపిస్తున్నంత సేపు బ్రష్ పాజ్‌లో ఉంటుంది.",
+  "back": "The eye button above shows your original photo to compare. Touch again to go back. The brush is in pause as long as it looks original.",
+  "sim": 0.58
+ },
+ {
+  "k": "helpCutout4",
+  "en": "For difficult subjects such as glass, shoes, bags and bottles, tap Get HD cut-out. The HD model downloads once, stays on your phone and then works offline. Once it is installed, every new cut-out uses it automatically. To redo the photo you have open, tap Redo cut-out in HD.",
+  "tr": "గాజు, బూట్లు, బ్యాగులు, సీసాల వంటి కష్టమైన వాటికి HD కటౌట్ పొందండి తాకండి. HD మోడల్ ఒక్కసారి మాత్రమే డౌన్‌లోడ్ అవుతుంది, మీ ఫోన్‌లోనే ఉంటుంది, ఆ తర్వాత ఆఫ్‌లైన్‌లో పనిచేస్తుంది. ఇన్‌స్టాల్ అయ్యాక ప్రతి కొత్త కట్-అవుట్ దాన్ని ఆటోమేటిక్‌గా వాడుతుంది. తెరిచి ఉన్న ఫోటోను మళ్లీ చేయడానికి HDలో కటౌట్ మళ్లీ చేయండి తాకండి.",
+  "back": "Get an HD cut-out for difficult items like glass, shoes, bags, and bottles. The HD model is only downloaded once, stays on your phone, and then works offline. Each new cut-out will automatically use it once installed.",
+  "sim": 0.51
+ },
+ {
+  "k": "helpBrushTitle",
+  "en": "Brush",
+  "tr": "బ్రష్",
+  "back": "Brush",
+  "sim": 1.0
+ },
+ {
+  "k": "helpBrush1",
+  "en": "Erase removes parts of the subject. Restore brings back parts the cut-out removed.",
+  "tr": "చెరపు విషయంలోని కొన్ని భాగాలను తొలగిస్తుంది. పునరుద్ధరించు కట్-అవుట్ తొలగించిన భాగాలను తిరిగి తెస్తుంది.",
+  "back": "Removes some of the parts in the captivity case. Restore cut-out returns the removed parts.",
+  "sim": 0.36
+ },
+ {
+  "k": "helpBrush2",
+  "en": "Drag one finger to paint. Use two fingers to zoom, up to 8 times, and to move the photo. The brush keeps its size on screen, so zooming in gives finer control.",
+  "tr": "పెయింట్ చేయడానికి ఒక వేలితో లాగండి. 8 రెట్ల వరకు జూమ్ చేయడానికి, ఫోటోను జరపడానికి రెండు వేళ్లు వాడండి. బ్రష్ స్క్రీన్‌పై తన పరిమాణాన్ని ఉంచుకుంటుంది, కాబట్టి జూమ్ చేస్తే మరింత కచ్చితంగా పని చేయవచ్చు.",
+  "back": "Draw with one finger to paint. To zoom up to 8 times, use two fingers to take a photo. The brush will keep its size on the screen, so zooming can work more accurately.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpBrush3",
+  "en": "Brush Size goes from 1 to 50. Opacity sets how strongly each stroke applies.",
+  "tr": "బ్రష్ పరిమాణం 1 నుండి 50 వరకు ఉంటుంది. అపారదర్శకత ప్రతి స్ట్రోక్ ఎంత గాఢంగా ఉండాలో నిర్ణయిస్తుంది.",
+  "back": "Brush sizes range from 1 to 50. The opacity determines how intense each stroke is.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpBrush4",
+  "en": "Undo and Redo step through your brush strokes. Reset clears all brush strokes and goes back to the automatic cut-out; it asks you to confirm first.",
+  "tr": "రద్దు మరియు మళ్లీ చేయి మీ బ్రష్ స్ట్రోక్‌ల గుండా ముందుకు వెనక్కు వెళ్తాయి. రీసెట్ అన్ని స్ట్రోక్‌లను తుడిచి ఆటోమేటిక్ కట్-అవుట్‌కు తిరిగి వెళ్తుంది; ముందుగా నిర్ధారణ అడుగుతుంది.",
+  "back": "Cancel and reset the hand will go back and forth through your brush strokes. Reset will wipe all strokes and go back to automatic cut-out; prior confirmation is requested.",
+  "sim": 0.47
+ },
+ {
+  "k": "helpBackgroundTitle",
+  "en": "Background",
+  "tr": "బ్యాక్‌గ్రౌండ్",
+  "back": "Background",
+  "sim": 1.0
+ },
+ {
+  "k": "helpBackground1",
+  "en": "Choose what goes behind your subject: transparent, white, black, a gradient, a colour, a blurred copy of your photo, or your own photo.",
+  "tr": "మీ విషయం వెనుక ఏముండాలో ఎంచుకోండి: పారదర్శకం, తెలుపు, నలుపు, గ్రేడియంట్, ఒక రంగు, మీ ఫోటో బ్లర్ చేసిన కాపీ లేదా మీ సొంత ఫోటో.",
+  "back": "Choose what's behind your subject: transparent, white, black, gradient, a color, a blurred copy of your photo, or your own photo.",
+  "sim": 0.86
+ },
+ {
+  "k": "helpBackground2",
+  "en": "Only one background is used at a time. Your latest choice replaces the earlier one.",
+  "tr": "ఒకేసారి ఒక బ్యాక్‌గ్రౌండ్ మాత్రమే వాడబడుతుంది. మీ చివరి ఎంపిక ముందుదాన్ని భర్తీ చేస్తుంది.",
+  "back": "Only one background is used at a time. Your last option will replace the previous one.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpBackground3",
+  "en": "Add custom background lets you pick a photo from your gallery. Custom color opens a colour picker. The Blur slider goes from 0 to 25.",
+  "tr": "అనుకూల నేపథ్యాన్ని జోడించు గ్యాలరీ నుండి ఫోటో ఎంచుకోవడానికి అనుమతిస్తుంది. అనుకూల రంగు రంగు ఎంపికను తెరుస్తుంది. బ్లర్ స్లైడర్ 0 నుండి 25 వరకు ఉంటుంది.",
+  "back": "Add a custom background allows you to select a photo from the gallery. Opens the custom color color option. The blur slider ranges from 0 to 25.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpBackground4",
+  "en": "Transparent shows a checkerboard while you edit. Export as PNG to keep it transparent.",
+  "tr": "పారదర్శకం ఎడిట్ చేసేటప్పుడు చెక్కర్‌బోర్డ్ నమూనాను చూపిస్తుంది. పారదర్శకత ఉంచడానికి PNG గా ఎగుమతి చేయండి.",
+  "back": "The checkerboard shows the pattern when editing transparency. Export as PNG to maintain transparency.",
+  "sim": 0.36
+ },
+ {
+  "k": "helpTemplatesTitle",
+  "en": "Templates",
+  "tr": "టెంప్లేట్లు",
+  "back": "Templates",
+  "sim": 1.0
+ },
+ {
+  "k": "helpTemplates1",
+  "en": "Templates are ready-made backgrounds in five groups: Studio, Color block, Textures, Light & shadow, and Gradients & patterns. Five scenes are shown in the panel; tap the Templates button to see them all.",
+  "tr": "టెంప్లేట్లు ఐదు సమూహాలలో సిద్ధంగా ఉన్న బ్యాక్‌గ్రౌండ్‌లు: స్టూడియో, కలర్ బ్లాక్‌లు, టెక్స్చర్లు, కాంతి & నీడ, గ్రేడియంట్లు & నమూనాలు. ప్యానెల్‌లో ఐదు దృశ్యాలు కనిపిస్తాయి; అన్నీ చూడడానికి టెంప్లేట్లు బటన్ తాకండి.",
+  "back": "Templates are available in five groups of ready-made backgrounds: Studio, Color Blocks, Textures, Light & Shadow, Gradients & Patterns.",
+  "sim": 0.5
+ },
+ {
+  "k": "helpTemplates2",
+  "en": "Choosing a template works like choosing your own photo as the background: it replaces your earlier background choice.",
+  "tr": "టెంప్లేట్ ఎంచుకోవడం అంటే మీ సొంత ఫోటోను బ్యాక్‌గ్రౌండ్‌గా ఎంచుకోవడం లాంటిదే: ఇది మీ ముందటి బ్యాక్‌గ్రౌండ్ ఎంపికను భర్తీ చేస్తుంది.",
+  "back": "Selecting a template is like selecting your own photo as a background: it replaces your previous background option.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpLayoutTitle",
+  "en": "Layout",
+  "tr": "లేఅవుట్",
+  "back": "The layout",
+  "sim": 0.67
+ },
+ {
+  "k": "helpLayout1",
+  "en": "Drag the subject on the photo to move it. Pinch with two fingers to resize it.",
+  "tr": "విషయాన్ని కదిలించడానికి ఫోటోపై లాగండి. పరిమాణం మార్చడానికి రెండు వేళ్లతో పించ్ చేయండి.",
+  "back": "Drag on the photo to move the object. Pinch with two fingers to change size.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpLayout2",
+  "en": "Choose Original, 1:1, 4:5 or 9:16 to set the shape of the final picture.",
+  "tr": "తుది చిత్రం ఆకారాన్ని సెట్ చేయడానికి అసలు, 1:1, 4:5 లేదా 9:16 ఎంచుకోండి.",
+  "back": "To set the final image size, select the original, 1:1, 4:5, or 9:16.",
+  "sim": 0.37
+ },
+ {
+  "k": "helpLayout3",
+  "en": "Size sets how big the subject is, from 20% to 300%. Shadow sets how strong its shadow is. Auto-center puts the subject back in the middle. Reset undoes moving and resizing.",
+  "tr": "పరిమాణం విషయం ఎంత పెద్దదో నిర్ణయిస్తుంది, 20% నుండి 300% వరకు. నీడ దాని నీడ ఎంత గాఢంగా ఉండాలో నిర్ణయిస్తుంది. ఆటో-సెంటర్ విషయాన్ని తిరిగి మధ్యలోకి తెస్తుంది. రీసెట్ కదలికలను, పరిమాణ మార్పులను రద్దు చేస్తుంది.",
+  "back": "The size determines how large the object is, from 20% to 300%. The shadow determines how deep its shadow is. Auto-center brings the object back to the center.",
+  "sim": 0.58
+ },
+ {
+  "k": "helpLayout4",
+  "en": "This shape is used when the export size is Original. If you choose a size preset or a marketplace in the export sheet, that decides the final shape instead.",
+  "tr": "ఎగుమతి పరిమాణం అసలు అయినప్పుడు ఈ ఆకారం వర్తిస్తుంది. ఎగుమతి షీట్‌లో ముందే నిర్ణయించిన పరిమాణం లేదా మార్కెట్‌ప్లేస్ ఎంచుకుంటే, తుది ఆకారాన్ని అదే నిర్ణయిస్తుంది.",
+  "back": "This shape applies when the export quantity is original. If a pre-determined quantity or marketplace is selected on the export sheet, the final shape will be determined by the same.",
+  "sim": 0.58
+ },
+ {
+  "k": "helpExportTitle",
+  "en": "Export",
+  "tr": "ఎగుమతి",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "helpExport1",
+  "en": "Tap Export to open the export sheet. Nothing is applied until you tap Save to Gallery or Share, so you can change your choices as often as you like.",
+  "tr": "ఎగుమతి షీట్ తెరవడానికి ఎగుమతి తాకండి. గ్యాలరీలో సేవ్ చేయి లేదా షేర్ తాకే వరకు ఏదీ వర్తించదు, కాబట్టి మీ ఎంపికలను ఎన్నిసార్లైనా మార్చవచ్చు.",
+  "back": "Save in the gallery or nothing applies until you touch the share, so you can change your options as many times as you like.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpExport2",
+  "en": "PNG keeps transparency. JPG makes smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a small modern format; if your phone cannot make it, the file is saved as JPG. For JPG and WEBP, the Quality slider trades file size for detail.",
+  "tr": "PNG పారదర్శకతను ఉంచుతుంది. JPG చిన్న ఫైళ్లను ఇస్తుంది కానీ పారదర్శకంగా ఉండదు, కాబట్టి పారదర్శక బ్యాక్‌గ్రౌండ్ తెలుపుగా మారుతుంది. WEBP ఆధునిక, కాంపాక్ట్ ఫార్మాట్; మీ ఫోన్ దాన్ని సృష్టించలేకపోతే ఫైల్ JPG గా సేవ్ అవుతుంది. JPG, WEBP కోసం నాణ్యత స్లైడర్ ఫైల్ పరిమాణానికి, వివరాలకు మధ్య సమతుల్యం ఉంచుతుంది.",
+  "back": "PNG maintains transparency. JPG gives small files but is not transparent, so the transparent background becomes white. WEBP is a modern, compact format; if your phone cannot create it, the file will be saved as JPG. The quality slider for JPG, WEBP maintains a balance between file size and details.",
+  "sim": 0.64
+ },
+ {
+  "k": "helpExport3",
+  "en": "Original keeps your photo’s size, with the shape chosen in Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. Custom lets you type a width and height in pixels.",
+  "tr": "అసలు మీ ఫోటో పరిమాణాన్ని, లేఅవుట్‌లో ఎంచుకున్న ఆకారంతో ఉంచుతుంది. 1:1 అంటే 1080 × 1080, 4:5 అంటే 1080 × 1350, 9:16 అంటే 1080 × 1920. కస్టమ్ పిక్సెల్స్‌లో వెడల్పు, ఎత్తు నమోదు చేయడానికి అనుమతిస్తుంది.",
+  "back": "It keeps the size of your original photo in the chosen shape in the layout. 1:1 means 1080 × 1080, 4:5 means 1080 × 1350, 9:16 means 1080 × 1920. Allows you to enter width and height in custom pixels.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpExport4",
+  "en": "Marketplace presets set size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG kept under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices, and choosing a format or size afterwards switches the marketplace off. Marketplace rules can change, so check your marketplace’s current requirements.",
+  "tr": "మార్కెట్‌ప్లేస్ ప్రీసెట్‌లు పరిమాణం, ఫార్మాట్, నాణ్యతను నిర్ణయిస్తాయి: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG 1 MB లోపు, Shopify 2048 × 2048 PNG. ఒకటి ఎంచుకుంటే మీ ఫార్మాట్, పరిమాణ ఎంపికలు మారిపోతాయి; ఆ తర్వాత ఫార్మాట్ లేదా పరిమాణం ఎంచుకుంటే మార్కెట్‌ప్లేస్ ఎంపిక తొలగిపోతుంది. మార్కెట్‌ప్లేస్ నియమాలు మారవచ్చు, కాబట్టి మీ మార్కెట్‌ప్లేస్ ప్రస్తుత అవసరాలను తనిఖీ చేయండి.",
+  "back": "Marketplace presets determine size, format, and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG under 1 MB, Shopify 2048 × 2048 PNG. If you choose one, your format, size options will change; if you choose a format or size, then the marketplace option will be removed.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpExport5",
+  "en": "Amazon also uses a pure white background with no shadow and fits the subject to fill most of the frame. Your background choice in the editor is not changed. The other marketplaces keep your background.",
+  "tr": "Amazon నీడ లేని స్వచ్ఛమైన తెలుపు బ్యాక్‌గ్రౌండ్‌ను కూడా వాడుతుంది, ఫ్రేమ్‌లో ఎక్కువ భాగం నిండేలా విషయాన్ని సర్దుబాటు చేస్తుంది. ఎడిటర్‌లో మీ బ్యాక్‌గ్రౌండ్ ఎంపిక మారదు. ఇతర మార్కెట్‌ప్లేస్‌లు మీ బ్యాక్‌గ్రౌండ్‌ను ఉంచుతాయి.",
+  "back": "Amazon also uses a clear, shadeless white background, adjusting the content to fill most of the frame. Your background selection in the editor will remain the same. Other marketplaces will keep your background.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpExport6",
+  "en": "Save to Gallery and Share both save the picture to your gallery and to Recent Exports. Share also opens your phone’s share menu. If saving to the gallery is not possible, the share menu opens instead. After exporting you return to the home screen.",
+  "tr": "గ్యాలరీలో సేవ్ చేయి మరియు షేర్ రెండూ చిత్రాన్ని మీ గ్యాలరీలో, ఇటీవలి ఎగుమతులు లో సేవ్ చేస్తాయి. షేర్ అదనంగా మీ ఫోన్ షేర్ మెనూను కూడా తెరుస్తుంది. గ్యాలరీలో సేవ్ చేయడం సాధ్యం కాకపోతే, దానికి బదులు షేర్ మెనూ తెరుచుకుంటుంది. ఎగుమతి తర్వాత మీరు హోమ్ స్క్రీన్‌కు తిరిగి వస్తారు.",
+  "back": "Save in Gallery and share both save the image in your gallery and in recent exports. Share also opens your phone's share menu. If you can't save in the gallery, the share menu opens instead. After exporting you will return to the home screen.",
+  "sim": 0.8
+ },
+ {
+  "k": "helpExport7",
+  "en": "Unless you have removed ads, an ad can appear after an export, at most once every two minutes.",
+  "tr": "మీరు ప్రకటనలను తొలగించకపోతే, ఎగుమతి తర్వాత ఒక ప్రకటన కనిపించవచ్చు, రెండు నిమిషాలకు ఒకసారి కంటే ఎక్కువ కాదు.",
+  "back": "If you do not delete ads, an ad may appear after export, no more than once every two minutes.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpBatchTitle",
+  "en": "Batch",
+  "tr": "బ్యాచ్",
+  "back": "Batch",
+  "sim": 1.0
+ },
+ {
+  "k": "helpBatch1",
+  "en": "Batch cuts out up to 30 photos in one go. Tap Batch on the home screen and pick your photos. The back button is turned off while a batch runs.",
+  "tr": "బ్యాచ్ ఒకేసారి 30 ఫోటోల వరకు కట్-అవుట్ చేస్తుంది. హోమ్ స్క్రీన్‌లో బ్యాచ్ తాకి మీ ఫోటోలను ఎంచుకోండి. బ్యాచ్ నడుస్తున్నప్పుడు వెనుక బటన్ నిలిపివేయబడుతుంది.",
+  "back": "The batch will cut-out up to 30 photos at once. Touch the batch on the home screen and select your photos. The back button will be turned off when the batch is running.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpBatch2",
+  "en": "All photos in a batch share one setup: one background and one marketplace. You cannot choose differently for each photo.",
+  "tr": "ఒక బ్యాచ్‌లోని అన్ని ఫోటోలు ఒకే సెట్టింగ్‌ను పంచుకుంటాయి: ఒక బ్యాక్‌గ్రౌండ్, ఒక మార్కెట్‌ప్లేస్. ప్రతి ఫోటోకు వేరువేరుగా ఎంచుకోలేరు.",
+  "back": "All photos in a batch share the same setting: a background, a marketplace.",
+  "sim": 0.48
+ },
+ {
+  "k": "helpBatch3",
+  "en": "Backgrounds work as in the editor: your own photo, a colour, a template, white, transparent, black, blur or a gradient. Only one applies, and your latest choice replaces the earlier one.",
+  "tr": "బ్యాక్‌గ్రౌండ్‌లు ఎడిటర్‌లో లాగానే పనిచేస్తాయి: మీ సొంత ఫోటో, రంగు, టెంప్లేట్, తెలుపు, పారదర్శకం, నలుపు, బ్లర్ లేదా గ్రేడియంట్. ఒకటి మాత్రమే వర్తిస్తుంది, మీ చివరి ఎంపిక ముందుదాన్ని భర్తీ చేస్తుంది.",
+  "back": "Backgrounds work the same as in an editor: your own photo, color, template, white, transparent, black, blur, or gradient. Only one applies, your last choice replacing the previous one.",
+  "sim": 0.73
+ },
+ {
+  "k": "helpBatch4",
+  "en": "The file format is chosen for you. With a marketplace, the photos follow that marketplace’s size and format. Without one, a transparent background gives PNG and any other background gives JPG, at the original size.",
+  "tr": "ఫైల్ ఫార్మాట్ మీ కోసం ఎంచబడుతుంది. మార్కెట్‌ప్లేస్ ఉంటే ఫోటోలు దాని పరిమాణాన్ని, ఫార్మాట్‌ను అనుసరిస్తాయి. లేకపోతే పారదర్శక బ్యాక్‌గ్రౌండ్ PNG ఇస్తుంది, మిగతా ఏ బ్యాక్‌గ్రౌండ్ అయినా JPG ఇస్తుంది, అసలు పరిమాణంలో.",
+  "back": "The file format is selected for you. If there is a marketplace, the photos will follow its size and format. Otherwise the transparent background will give PNG, while any other background will give JPG, in the original size.",
+  "sim": 0.66
+ },
+ {
+  "k": "helpBatch5",
+  "en": "Choosing Amazon switches the background to White; if you then choose another background, Amazon is switched off. eBay, Etsy and Shopify keep your background, but a JPG cannot be transparent, so it gets a white background.",
+  "tr": "Amazon ఎంచుకుంటే బ్యాక్‌గ్రౌండ్ తెలుపుగా మారుతుంది; ఆ తర్వాత వేరే బ్యాక్‌గ్రౌండ్ ఎంచుకుంటే Amazon ఎంపిక తొలగిపోతుంది. eBay, Etsy, Shopify మీ బ్యాక్‌గ్రౌండ్‌ను ఉంచుతాయి, కానీ JPG పారదర్శకంగా ఉండదు కాబట్టి దానికి తెలుపు బ్యాక్‌గ్రౌండ్ వస్తుంది.",
+  "back": "If you select Amazon, the background becomes white; then if you choose a different background, the Amazon option is removed. eBay, Etsy, Shopify will keep your background, but JPG will not be transparent, so it will have a white background.",
+  "sim": 0.66
+ },
+ {
+  "k": "helpBatch6",
+  "en": "If the HD model is installed, every photo in the batch is cut out with it. The Get HD cut-out button next to Templates downloads it.",
+  "tr": "HD మోడల్ ఇన్‌స్టాల్ అయి ఉంటే, బ్యాచ్‌లోని ప్రతి ఫోటో దానితోనే కట్-అవుట్ అవుతుంది. టెంప్లేట్లు పక్కన ఉన్న HD కటౌట్ పొందండి బటన్ దాన్ని డౌన్‌లోడ్ చేస్తుంది.",
+  "back": "If the HD model is installed, each photo in the batch will be cut-out with it. The Get HD Cut-out button next to the templates will download it.",
+  "sim": 0.78
+ },
+ {
+  "k": "helpBatch7",
+  "en": "Each photo is saved to your gallery and to Recent Exports as soon as it finishes. Stop ends the batch after the current photo, and photos already finished stay saved. If a photo fails, the batch carries on and tells you how many could not be processed. Done takes you back to the home screen; it does not save anything.",
+  "tr": "ప్రతి ఫోటో పూర్తయిన వెంటనే మీ గ్యాలరీలో, ఇటీవలి ఎగుమతులు లో సేవ్ అవుతుంది. ఆపు ప్రస్తుత ఫోటో తర్వాత బ్యాచ్‌ను ముగిస్తుంది, ఇప్పటికే పూర్తయిన ఫోటోలు సేవ్ చేయబడి ఉంటాయి. ఏదైనా ఫోటో విఫలమైతే బ్యాచ్ కొనసాగుతుంది, ఎన్ని ప్రాసెస్ కాలేదో చెబుతుంది. పూర్తయింది మిమ్మల్ని హోమ్ స్క్రీన్‌కు తిరిగి తీసుకెళ్తుంది; అది ఏదీ సేవ్ చేయదు.",
+  "back": "Each photo will be saved in your gallery as soon as it is finished, in recent exports. Stop the current photo after the batch ends, already completed photos will be saved. If any photo fails, the batch will continue, telling you how many were not processed.",
+  "sim": 0.47
+ },
+ {
+  "k": "helpLibraryTitle",
+  "en": "Your exports",
+  "tr": "మీ ఎగుమతులు",
+  "back": "Your exports",
+  "sim": 1.0
+ },
+ {
+  "k": "helpLibrary1",
+  "en": "Recent Exports on the home screen shows your latest exports. Tap See all for every export, grouped as Today, Yesterday, This week and Earlier.",
+  "tr": "హోమ్ స్క్రీన్‌లోని ఇటీవలి ఎగుమతులు మీ తాజా ఎగుమతులను చూపిస్తుంది. అన్నీ చూడడానికి అన్నీ చూడండి తాకండి; అవి ఈరోజు, నిన్న, ఈ వారం, అంతకుముందు అని సమూహం చేయబడతాయి.",
+  "back": "The most recent exports on the home screen show your latest exports. Check everything to see everything; they are grouped as today, yesterday, this week, and before.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpLibrary2",
+  "en": "Tap an export to open it full screen. Swipe to move between exports and pinch to zoom. The bar at the bottom has Share, Save to Gallery, Edit again and Delete.",
+  "tr": "ఒక ఎగుమతిని ఫుల్ స్క్రీన్‌లో తెరవడానికి దాన్ని తాకండి. ఎగుమతుల మధ్య మారడానికి స్వైప్ చేయండి, జూమ్ చేయడానికి పించ్ చేయండి. కింది బార్‌లో షేర్, గ్యాలరీలో సేవ్ చేయి, మళ్లీ సవరించండి, తొలగించు ఉంటాయి.",
+  "back": "Touch it to open an export on the full screen. Swipe to switch between exports, pinch to zoom. Share in the bottom bar, save in the gallery, edit again, and delete.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpLibrary3",
+  "en": "The three-dot button on a tile opens the same actions. Edit again opens the exported picture as a new photo, so earlier brush strokes are not restored.",
+  "tr": "థంబ్‌నెయిల్‌పై ఉన్న మూడు చుక్కల బటన్ అవే చర్యలను తెరుస్తుంది. మళ్లీ సవరించండి ఎగుమతి చేసిన చిత్రాన్ని కొత్త ఫోటోగా తెరుస్తుంది, కాబట్టి ముందటి బ్రష్ స్ట్రోక్‌లు పునరుద్ధరించబడవు.",
+  "back": "The three-drop button on the thumbnail opens the same actions. Re-edit opens the exported image as a new photo, so the previous brush strokes will not be restored.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpLibrary4",
+  "en": "Select lets you choose several exports to share together or delete. Delete all exports removes every export from this phone.",
+  "tr": "ఎంచుకోండి అనేక ఎగుమతులను ఎంచుకుని వాటిని కలిసి షేర్ చేయడానికి లేదా తొలగించడానికి అనుమతిస్తుంది. అన్ని ఎగుమతులను తొలగించు ఈ ఫోన్ నుండి అన్ని ఎగుమతులను తీసివేస్తుంది.",
+  "back": "Select allows you to select multiple exports and share or delete them together. Delete all exports removes all exports from this phone.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpLibrary5",
+  "en": "Deleting removes exports from PhotoSur only. Pictures already saved to your gallery are not affected. The bottom of the See all screen shows how much space exports use on this phone.",
+  "tr": "తొలగించడం ఎగుమతులను PhotoSur నుండి మాత్రమే తీసివేస్తుంది. మీ గ్యాలరీలో ఇప్పటికే సేవ్ చేసిన చిత్రాలను ముట్టుకోదు. అన్నీ చూడండి దిగువన, ఈ ఫోన్‌లో ఎగుమతులు ఎంత స్థలం తీసుకుంటున్నాయో చూడవచ్చు.",
+  "back": "Deleting only removes exports from PhotoSur. It doesn't touch images already saved in your gallery. See all below, to see how much space exports take up on this phone.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpPrivacyTitle",
+  "en": "Privacy & ads",
+  "tr": "గోప్యత & ప్రకటనలు",
+  "back": "Privacy and disclosures",
+  "sim": 0.4
+ },
+ {
+  "k": "helpPrivacy1",
+  "en": "Your photos are processed on your phone and are not uploaded. There is no account and no watermark.",
+  "tr": "మీ ఫోటోలు మీ ఫోన్‌లోనే ప్రాసెస్ అవుతాయి, అప్‌లోడ్ కావు. ఖాతా లేదు, వాటర్‌మార్క్ లేదు.",
+  "back": "Your photos are processed on your phone, not uploaded. No account, no watermark.",
+  "sim": 0.84
+ },
+ {
+  "k": "helpPrivacy2",
+  "en": "PhotoSur is free with every feature included, supported by ads. A banner appears at the bottom of some screens, and an ad can appear after an export.",
+  "tr": "PhotoSur ఉచితం, అన్ని ఫీచర్లతో, ప్రకటనల ద్వారా నడుస్తుంది. కొన్ని స్క్రీన్‌ల దిగువన బ్యానర్ కనిపిస్తుంది, ఎగుమతి తర్వాత ఒక ప్రకటన కనిపించవచ్చు.",
+  "back": "PhotoSur is free, with all features, running through ads. A banner appears at the bottom of some screens, and an advertisement may appear after export.",
+  "sim": 0.73
+ },
+ {
+  "k": "helpPrivacy3",
+  "en": "Go Ad-Free in Settings is a one-time purchase that removes the ads. It does not unlock anything else, because every feature is already free. Restore Purchases brings it back on a new phone.",
+  "tr": "సెట్టింగ్‌లలోని ప్రకటనలు లేకుండా వాడండి ఒకసారి చేసే కొనుగోలు, అది ప్రకటనలను తొలగిస్తుంది. అన్ని ఫీచర్లు ఇప్పటికే ఉచితం కాబట్టి అది ఇంకేదీ అన్‌లాక్ చేయదు. కొనుగోళ్లను పునరుద్ధరించు దాన్ని కొత్త ఫోన్‌లో తిరిగి తెస్తుంది.",
+  "back": "Use without ads in the settings Once a purchase is made, it will remove ads. All features are already free so it will not unlock anything else. Restore purchases will bring it back to a new phone.",
+  "sim": 0.46
+ },
+ {
+  "k": "helpSettingsTitle",
+  "en": "Settings",
+  "tr": "సెట్టింగ్‌లు",
+  "back": "Settings",
+  "sim": 1.0
+ },
+ {
+  "k": "helpSettings1",
+  "en": "Theme can follow your phone, or be Light or Dark. Language changes the language of the app. Both are also in the home screen header.",
+  "tr": "థీమ్ మీ ఫోన్‌ను అనుసరించవచ్చు, లేదా లైట్ లేదా డార్క్ కావచ్చు. భాష యాప్ భాషను మారుస్తుంది. రెండూ హోమ్ స్క్రీన్ హెడర్‌లో కూడా ఉన్నాయి.",
+  "back": "The theme can follow your phone, or be light or dark. The language changes the language of the app. Both are also in the home screen header.",
+  "sim": 0.96
+ },
+ {
+  "k": "helpSettings2",
+  "en": "Edit reminders: if you leave the app with an unfinished edit, PhotoSur can remind you three hours later. Switch this off in Settings.",
+  "tr": "ఎడిట్ రిమైండర్‌లు: అసంపూర్తి ఎడిట్‌తో మీరు యాప్ నుండి బయటకు వెళ్తే, PhotoSur మూడు గంటల తర్వాత గుర్తు చేయవచ్చు. దీన్ని సెట్టింగ్‌లలో ఆఫ్ చేయండి.",
+  "back": "Edit Reminders: If you leave the app with incomplete editing, PhotoSur can be remembered after three hours.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpSettings3",
+  "en": "HD cut-out model shows whether it is installed. Remove deletes it from your phone to free space; you can download it again at any time.",
+  "tr": "HD కటౌట్ మోడల్ అది ఇన్‌స్టాల్ అయిందో లేదో చూపిస్తుంది. తొలగించు స్థలం ఖాళీ చేయడానికి దాన్ని మీ ఫోన్ నుండి తొలగిస్తుంది; మీరు ఎప్పుడైనా మళ్లీ డౌన్‌లోడ్ చేయవచ్చు.",
+  "back": "The HD cut-out model shows if it's installed. Remove removes it from your phone to clear space; you can download it again at any time.",
+  "sim": 0.8
+ },
+ {
+  "k": "helpSettings4",
+  "en": "Replay intro shows the welcome screens again. Support opens the support page. Animated home background turns the moving picture at the top of the home screen on or off.",
+  "tr": "పరిచయాన్ని మళ్లీ చూడండి స్వాగత స్క్రీన్‌లను మళ్లీ చూపిస్తుంది. మద్దతు మద్దతు పేజీని తెరుస్తుంది. హోమ్ యానిమేటెడ్ బ్యాక్‌గ్రౌండ్ హోమ్ స్క్రీన్ పైన కదిలే చిత్రాన్ని ఆన్ లేదా ఆఫ్ చేస్తుంది.",
+  "back": "See the contact again shows the welcome screens again. Opens the support page. Home Animated Background turns on or off the moving image at the top of the home screen.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpFixTitle",
+  "en": "If something goes wrong",
+  "tr": "ఏదైనా తప్పు జరిగితే",
+  "back": "If something goes wrong",
+  "sim": 1.0
+ },
+ {
+  "k": "helpFix1",
+  "en": "If the automatic cut-out cannot run on a very old or low-memory phone, the brush still works, so you can finish the picture by hand.",
+  "tr": "చాలా పాత లేదా తక్కువ మెమరీ ఉన్న ఫోన్‌లో ఆటోమేటిక్ కట్-అవుట్ నడవలేకపోయినా బ్రష్ పనిచేస్తుంది, కాబట్టి మీరు చిత్రాన్ని చేత్తో పూర్తి చేయవచ్చు.",
+  "back": "The brush works even if the automatic cut-out cannot run on a phone with too much old or less memory, so you can complete the picture by hand.",
+  "sim": 0.64
+ },
+ {
+  "k": "helpFix2",
+  "en": "If the HD download stops, check your connection and try again. It continues where it left off.",
+  "tr": "HD డౌన్‌లోడ్ ఆగిపోతే, మీ కనెక్షన్‌ను తనిఖీ చేసి మళ్లీ ప్రయత్నించండి. అది ఆగిన చోటు నుండి కొనసాగుతుంది.",
+  "back": "If the HD download stops, check your connection and try again. It will continue from where it stopped.",
+  "sim": 0.8
+ },
+ {
+  "k": "helpFix3",
+  "en": "For anything else, open Support from Settings.",
+  "tr": "మరే ఇతర విషయానికైనా, సెట్టింగ్‌ల నుండి మద్దతు తెరవండి.",
+  "back": "For anything else, open support from settings.",
+  "sim": 1.0
+ }
+]

@@ -1,0 +1,1780 @@
+[
+ {
+  "k": "onboardingPage1Title",
+  "en": "Remove backgrounds instantly. All features free.",
+  "tr": "Видаляйте фон миттєво. Усі функції безкоштовно.",
+  "back": "Remove the background instantly. All features are free.",
+  "sim": 0.71
+ },
+ {
+  "k": "onboardingPage1Body",
+  "en": "Open a photo and our on-device AI removes the background automatically — no internet required. You can also swap in your own custom background.",
+  "tr": "Відкрийте фото, і ШІ на пристрої автоматично видалить фон — інтернет не потрібен. Також можна замінити його власним фоном.",
+  "back": "Open the photo, and the AI will automatically delete the background on the device. You don't need the Internet. You can also replace it with your own background.",
+  "sim": 0.51
+ },
+ {
+  "k": "onboardingPage2Title",
+  "en": "Fine-tune with the brush",
+  "tr": "Доопрацюйте пензлем",
+  "back": "Finish with a Pencil",
+  "sim": 0.25
+ },
+ {
+  "k": "onboardingPage2Body",
+  "en": "Paint away what the AI missed or restore what you want to keep. Then crop, rotate, move and resize.",
+  "tr": "Зітріть пензлем те, що пропустив ШІ, або відновіть те, що хочете залишити. Потім обріжте, поверніть, перемістіть і змініть розмір.",
+  "back": "Remove the brush with the brush that you missed, or put the brush with the brush that you want to leave behind, and then cut, roll, move, and change the size.",
+  "sim": 0.36
+ },
+ {
+  "k": "onboardingPage3Title",
+  "en": "Studio-ready backgrounds",
+  "tr": "Студійні фони",
+  "back": "Studio backgrounds",
+  "sim": 0.5
+ },
+ {
+  "k": "onboardingPage3Body",
+  "en": "Choose a colour, gradient, template or your own photo, with a natural shadow. Marketplace presets for Amazon, eBay, Etsy and Shopify set size and format for you.",
+  "tr": "Оберіть колір, градієнт, шаблон або власне фото з природною тінню. Пресети для Amazon, eBay, Etsy та Shopify самі задають розмір і формат.",
+  "back": "Choose a color, gradient, pattern, or your own photo with a natural shade.",
+  "sim": 0.5
+ },
+ {
+  "k": "onboardingPage4Title",
+  "en": "Batch it, export it, keep it private",
+  "tr": "Пакетно, у потрібному форматі, конфіденційно",
+  "back": "Packeted, in the right format, confidential",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingPage4Body",
+  "en": "Cut out up to 30 photos at once and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "tr": "Вирізайте до 30 фото за раз і експортуйте у PNG, JPG або WEBP. Ваші фото ніколи не залишають телефон. Доступно 43 мовами.",
+  "back": "Cut up to 30 photos at a time and export to PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "sim": 0.88
+ },
+ {
+  "k": "onboardingNext",
+  "en": "Next",
+  "tr": "Далі",
+  "back": "Next up",
+  "sim": 0.67
+ },
+ {
+  "k": "onboardingGetStarted",
+  "en": "Get Started",
+  "tr": "Почати",
+  "back": "How to Start",
+  "sim": 0.0
+ },
+ {
+  "k": "homeCameraButton",
+  "en": "Camera",
+  "tr": "Камера",
+  "back": "The camera",
+  "sim": 0.67
+ },
+ {
+  "k": "homeGalleryButton",
+  "en": "Gallery",
+  "tr": "Галерея",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "dateToday",
+  "en": "Today",
+  "tr": "Сьогодні",
+  "back": "Today",
+  "sim": 1.0
+ },
+ {
+  "k": "dateYesterday",
+  "en": "Yesterday",
+  "tr": "Учора",
+  "back": "Yesterday",
+  "sim": 1.0
+ },
+ {
+  "k": "homeRecentExports",
+  "en": "Recent Exports",
+  "tr": "Нещодавній експорт",
+  "back": "Recent exports",
+  "sim": 1.0
+ },
+ {
+  "k": "homeEmptyStateMessage",
+  "en": "Tap Camera or Gallery to start.",
+  "tr": "Торкніться «Камера» або «Галерея», щоб почати.",
+  "back": "Turn on the camera or the gallery to get started.",
+  "sim": 0.5
+ },
+ {
+  "k": "homeExportUnavailable",
+  "en": "This export is no longer available.",
+  "tr": "Цей експорт більше недоступний.",
+  "back": "This export is no longer available.",
+  "sim": 1.0
+ },
+ {
+  "k": "homeShareFailed",
+  "en": "Could not share this export.",
+  "tr": "Не вдалося поділитися цим експортом.",
+  "back": "We haven't been able to share this export.",
+  "sim": 0.46
+ },
+ {
+  "k": "homeGalleryOpenFailed",
+  "en": "Could not open gallery.",
+  "tr": "Не вдалося відкрити галерею.",
+  "back": "I couldn't open the gallery.",
+  "sim": 0.44
+ },
+ {
+  "k": "cameraTitle",
+  "en": "Camera",
+  "tr": "Камера",
+  "back": "The camera",
+  "sim": 0.67
+ },
+ {
+  "k": "cameraPermissionDenied",
+  "en": "Camera access is needed to take a photo. Please allow access.",
+  "tr": "Для фото потрібен доступ до камери. Будь ласка, надайте доступ.",
+  "back": "For the photo, you need access to the camera.",
+  "sim": 0.1
+ },
+ {
+  "k": "cameraPermissionPermanentlyDenied",
+  "en": "Camera access was denied. Enable it in Settings to continue.",
+  "tr": "Доступ до камери відхилено. Увімкніть його в налаштуваннях, щоб продовжити.",
+  "back": "Access to the camera is denied.",
+  "sim": 0.25
+ },
+ {
+  "k": "cameraPermissionRestricted",
+  "en": "Camera access is restricted on this device.",
+  "tr": "Доступ до камери на цьому пристрої обмежено.",
+  "back": "Access to the camera on this device is limited.",
+  "sim": 0.5
+ },
+ {
+  "k": "cameraNoCameraFound",
+  "en": "No camera found on this device.",
+  "tr": "На цьому пристрої не знайдено камеру.",
+  "back": "No camera was found on this device.",
+  "sim": 0.92
+ },
+ {
+  "k": "cameraStartFailed",
+  "en": "Could not start the camera.",
+  "tr": "Не вдалося запустити камеру.",
+  "back": "Couldn't get the camera started.",
+  "sim": 0.4
+ },
+ {
+  "k": "cameraCaptureFailed",
+  "en": "Could not capture photo.",
+  "tr": "Не вдалося зробити фото.",
+  "back": "I couldn't get a picture.",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraOpenSettings",
+  "en": "Open Settings",
+  "tr": "Відкрити налаштування",
+  "back": "Open the settings",
+  "sim": 0.8
+ },
+ {
+  "k": "cameraFlashTooltip",
+  "en": "Flash",
+  "tr": "Спалах",
+  "back": "The burning",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraGalleryTooltip",
+  "en": "Gallery",
+  "tr": "Галерея",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "cropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Обрізання й поворот",
+  "back": "Circumcision and Turning",
+  "sim": 0.0
+ },
+ {
+  "k": "cropLoadFailed",
+  "en": "Could not load the image.",
+  "tr": "Не вдалося завантажити зображення.",
+  "back": "Couldn't upload the image.",
+  "sim": 0.44
+ },
+ {
+  "k": "cropRotateFailed",
+  "en": "Could not rotate the image.",
+  "tr": "Не вдалося повернути зображення.",
+  "back": "I couldn't recover the image.",
+  "sim": 0.4
+ },
+ {
+  "k": "cropFailed",
+  "en": "Crop failed.",
+  "tr": "Не вдалося обрізати.",
+  "back": "They didn't get circumcised.",
+  "sim": 0.0
+ },
+ {
+  "k": "cropSaveFailed",
+  "en": "Could not save the cropped image.",
+  "tr": "Не вдалося зберегти обрізане зображення.",
+  "back": "There's no way to save the cut image.",
+  "sim": 0.43
+ },
+ {
+  "k": "cropAspectFree",
+  "en": "Free",
+  "tr": "Вільно",
+  "back": "It's all right.",
+  "sim": 0.0
+ },
+ {
+  "k": "cropContinue",
+  "en": "Continue",
+  "tr": "Продовжити",
+  "back": "Continued",
+  "sim": 0.0
+ },
+ {
+  "k": "editorSegmentationFailedMessage",
+  "en": "Your device doesn't support automatic background removal. Use the manual brush below.",
+  "tr": "Ваш пристрій не підтримує автоматичне видалення фону. Скористайтеся ручним пензлем нижче.",
+  "back": "Your device doesn't support automatic background removal.",
+  "sim": 0.74
+ },
+ {
+  "k": "brushErase",
+  "en": "Erase",
+  "tr": "Стерти",
+  "back": "Destroyed",
+  "sim": 0.0
+ },
+ {
+  "k": "brushRestore",
+  "en": "Restore",
+  "tr": "Повернути",
+  "back": "Going back",
+  "sim": 0.0
+ },
+ {
+  "k": "brushSizeLabel",
+  "en": "Brush Size",
+  "tr": "Розмір пензля",
+  "back": "Size of pencil",
+  "sim": 0.4
+ },
+ {
+  "k": "brushOpacityLabel",
+  "en": "Opacity",
+  "tr": "Непрозорість",
+  "back": "Insightlessness",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundWhite",
+  "en": "White",
+  "tr": "Білий",
+  "back": "White",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundTransparent",
+  "en": "Transparent",
+  "tr": "Прозорий",
+  "back": "Look out the window.",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundBlack",
+  "en": "Black",
+  "tr": "Чорний",
+  "back": "It's black.",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundBlurLabel",
+  "en": "Blur",
+  "tr": "Розмиття",
+  "back": "Washing",
+  "sim": 0.0
+ },
+ {
+  "k": "edgeFeatherLabel",
+  "en": "Edge Smoothness",
+  "tr": "М'якість країв",
+  "back": "Flexibility of the edges",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarUndo",
+  "en": "Undo",
+  "tr": "Скасувати",
+  "back": "Cancelled",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarRedo",
+  "en": "Redo",
+  "tr": "Повторити",
+  "back": "Repeat this",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarReset",
+  "en": "Reset",
+  "tr": "Скинути",
+  "back": "Get rid of it",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarExport",
+  "en": "Export",
+  "tr": "Експорт",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmTitle",
+  "en": "Reset edits?",
+  "tr": "Скинути правки?",
+  "back": "Do you want me to make amends?",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmBody",
+  "en": "This clears your manual brush strokes. This cannot be undone.",
+  "tr": "Ручні мазки пензлем буде видалено. Цю дію неможливо скасувати.",
+  "back": "The brushes will be removed with a pencil.",
+  "sim": 0.11
+ },
+ {
+  "k": "resetConfirmCancel",
+  "en": "Cancel",
+  "tr": "Скасувати",
+  "back": "Cancelled",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmConfirm",
+  "en": "Reset",
+  "tr": "Скинути",
+  "back": "Get rid of it",
+  "sim": 0.0
+ },
+ {
+  "k": "exportTitle",
+  "en": "Export",
+  "tr": "Експорт",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "exportQualityLabel",
+  "en": "Quality: {value}",
+  "tr": "Якість: {value}",
+  "back": "Quality: [value]",
+  "sim": 1.0
+ },
+ {
+  "k": "exportResizeLabel",
+  "en": "Resize",
+  "tr": "Розмір",
+  "back": "Size",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeOriginal",
+  "en": "Original",
+  "tr": "Оригінал",
+  "back": "The original",
+  "sim": 0.67
+ },
+ {
+  "k": "exportResizeCustom",
+  "en": "Custom",
+  "tr": "Власний",
+  "back": "Owned",
+  "sim": 0.0
+ },
+ {
+  "k": "exportWidthLabel",
+  "en": "Width (px)",
+  "tr": "Ширина (px)",
+  "back": "Width (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportHeightLabel",
+  "en": "Height (px)",
+  "tr": "Висота (px)",
+  "back": "Height (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSaveToGallery",
+  "en": "Save to Gallery",
+  "tr": "Зберегти в галерею",
+  "back": "Save in the gallery",
+  "sim": 0.57
+ },
+ {
+  "k": "exportShare",
+  "en": "Share",
+  "tr": "Поділитися",
+  "back": "Sharing",
+  "sim": 0.0
+ },
+ {
+  "k": "exportSuccess",
+  "en": "Exported!",
+  "tr": "Експортовано!",
+  "back": "Exported!",
+  "sim": 1.0
+ },
+ {
+  "k": "exportFailed",
+  "en": "Export failed. Please try again.",
+  "tr": "Не вдалося експортувати. Спробуйте ще раз.",
+  "back": "It failed to export. Try again.",
+  "sim": 0.55
+ },
+ {
+  "k": "exportInProgress",
+  "en": "Exporting…",
+  "tr": "Експорт…",
+  "back": "The export...",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTitle",
+  "en": "Settings",
+  "tr": "Налаштування",
+  "back": "Adjustment",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTheme",
+  "en": "Theme",
+  "tr": "Тема",
+  "back": "Subject",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLanguage",
+  "en": "Language",
+  "tr": "Мова",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Відновити покупки",
+  "back": "Restarting Purchases",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsGoAdFree",
+  "en": "Go Ad-Free",
+  "tr": "Вимкнути рекламу",
+  "back": "Turn off advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsPrivacyPolicy",
+  "en": "Privacy Policy",
+  "tr": "Політика конфіденційності",
+  "back": "Privacy policy",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsSupport",
+  "en": "Support",
+  "tr": "Підтримка",
+  "back": "Support",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRateApp",
+  "en": "Rate App",
+  "tr": "Оцінити застосунок",
+  "back": "Evaluating the Application",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsShareApp",
+  "en": "Share App",
+  "tr": "Поділитися застосунком",
+  "back": "Sharing the Application",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLicenses",
+  "en": "Open-source licenses",
+  "tr": "Ліцензії відкритого ПЗ",
+  "back": "Licensing of the open source software",
+  "sim": 0.0
+ },
+ {
+  "k": "reminderChannelName",
+  "en": "Edit reminders",
+  "tr": "Нагадування про правки",
+  "back": "Reminders of Correction",
+  "sim": 0.4
+ },
+ {
+  "k": "reminderChannelDescription",
+  "en": "Reminders about edits you have not finished.",
+  "tr": "Нагадування про незавершені правки.",
+  "back": "A reminder of unfinished business.",
+  "sim": 0.0
+ },
+ {
+  "k": "reminderTitle",
+  "en": "Your edit is waiting",
+  "tr": "Ваша правка чекає",
+  "back": "Your correction is waiting.",
+  "sim": 0.75
+ },
+ {
+  "k": "reminderBody",
+  "en": "Pick up where you left off and export your photo.",
+  "tr": "Продовжте з місця, де зупинилися, і експортуйте фото.",
+  "back": "Move from where you stopped and export the photo.",
+  "sim": 0.53
+ },
+ {
+  "k": "settingsReminders",
+  "en": "Edit reminders",
+  "tr": "Нагадування про правки",
+  "back": "Reminders of Correction",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsAnimatedBackground",
+  "en": "Animated home background",
+  "tr": "Анімований фон головної",
+  "back": "Animated background of the main",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsRemindersSubtitle",
+  "en": "Remind me about unfinished edits",
+  "tr": "Нагадувати про незавершені правки",
+  "back": "Reminds Us of Unfinished Changes",
+  "sim": 0.2
+ },
+ {
+  "k": "settingsRemindersBlocked",
+  "en": "Notifications are turned off for PhotoSur in your phone's settings.",
+  "tr": "Сповіщення PhotoSur вимкнено в налаштуваннях телефона.",
+  "back": "The PhotoSur notification is turned off in the phone settings.",
+  "sim": 0.4
+ },
+ {
+  "k": "editorBrushHint",
+  "en": "Drag to paint. Pinch with two fingers to zoom.",
+  "tr": "Проведіть пальцем, щоб малювати. Зведіть два пальці для масштабування.",
+  "back": "Take your finger to draw. Take two fingers to scale.",
+  "sim": 0.42
+ },
+ {
+  "k": "editorToolCutout",
+  "en": "Cut-out",
+  "tr": "Виріз",
+  "back": "Cut it out.",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBrush",
+  "en": "Brush",
+  "tr": "Пензель",
+  "back": "Pencil",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBackground",
+  "en": "Background",
+  "tr": "Тло",
+  "back": "Fat",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolLayout",
+  "en": "Layout",
+  "tr": "Макет",
+  "back": "The model",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutAutoCenter",
+  "en": "Auto-center",
+  "tr": "Автоцентр",
+  "back": "The car centre",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutSizeLabel",
+  "en": "Size",
+  "tr": "Розмір",
+  "back": "Size",
+  "sim": 1.0
+ },
+ {
+  "k": "layoutShadowLabel",
+  "en": "Shadow",
+  "tr": "Тінь",
+  "back": "The Shadow",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundPhoto",
+  "en": "Photo",
+  "tr": "Фото",
+  "back": "The photo",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundPhotoFailed",
+  "en": "Could not load that photo.",
+  "tr": "Не вдалося завантажити це фото.",
+  "back": "I couldn't upload this photo.",
+  "sim": 0.2
+ },
+ {
+  "k": "editorLayoutHint",
+  "en": "Drag to move. Pinch with two fingers to resize.",
+  "tr": "Перетягніть, щоб перемістити. Зведіть два пальці, щоб змінити розмір.",
+  "back": "Pull over to move. Pull over two fingers to change the size.",
+  "sim": 0.48
+ },
+ {
+  "k": "languageSystemDefault",
+  "en": "System default",
+  "tr": "Як у системі",
+  "back": "As in the system",
+  "sim": 0.33
+ },
+ {
+  "k": "languageSheetTitle",
+  "en": "Language",
+  "tr": "Мова",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "themeSheetTitle",
+  "en": "Theme",
+  "tr": "Тема",
+  "back": "Subject",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionSystem",
+  "en": "System default",
+  "tr": "Як у системі",
+  "back": "As in the system",
+  "sim": 0.33
+ },
+ {
+  "k": "themeOptionLight",
+  "en": "Light",
+  "tr": "Світла",
+  "back": "The Light",
+  "sim": 0.67
+ },
+ {
+  "k": "themeOptionDark",
+  "en": "Dark",
+  "tr": "Темна",
+  "back": "It's dark",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsLinkNotReady",
+  "en": "This link isn't set up yet.",
+  "tr": "Це посилання ще не налаштоване.",
+  "back": "This link hasn't been set yet.",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsLinkOpenFailed",
+  "en": "Could not open link.",
+  "tr": "Не вдалося відкрити посилання.",
+  "back": "Couldn't find the link.",
+  "sim": 0.25
+ },
+ {
+  "k": "settingsRestoreRequested",
+  "en": "Restore requested — check back in a moment.",
+  "tr": "Відновлення запитано — перевірте трохи згодом.",
+  "back": "Review asked  check a little later.",
+  "sim": 0.31
+ },
+ {
+  "k": "settingsRestoreFailed",
+  "en": "Restore failed.",
+  "tr": "Не вдалося відновити.",
+  "back": "Failed to restore.",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsShareFailed",
+  "en": "Could not share.",
+  "tr": "Не вдалося поділитися.",
+  "back": "Couldn't share it.",
+  "sim": 0.33
+ },
+ {
+  "k": "settingsShareAppMessage",
+  "en": "Remove photo backgrounds instantly with PhotoSur — free, no watermark.",
+  "tr": "Миттєво видаляйте фон із фото в PhotoSur — безкоштовно й без водяних знаків.",
+  "back": "Immediately remove the background from PhotoSur  photos for free and without watermarks.",
+  "sim": 0.29
+ },
+ {
+  "k": "paywallTitle",
+  "en": "Go Ad-Free",
+  "tr": "Вимкнути рекламу",
+  "back": "Turn off advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallAlreadyAdFree",
+  "en": "You're already ad-free. Thank you!",
+  "tr": "Рекламу вже вимкнено. Дякуємо!",
+  "back": "The ad is already off.",
+  "sim": 0.2
+ },
+ {
+  "k": "paywallPlanFreeTitle",
+  "en": "Free",
+  "tr": "Безкоштовно",
+  "back": "Free of charge",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPlanAdFreeTitle",
+  "en": "Ad-Free",
+  "tr": "Без реклами",
+  "back": "No Advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPlanAdFreePrice",
+  "en": "One-time purchase",
+  "tr": "Одноразова покупка",
+  "back": "One-time purchase",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallFeatureAllFeatures",
+  "en": "All features",
+  "tr": "Усі функції",
+  "back": "All the functions",
+  "sim": 0.4
+ },
+ {
+  "k": "paywallFeatureAdSupported",
+  "en": "Ad-supported",
+  "tr": "З рекламою",
+  "back": "With Advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureZeroAds",
+  "en": "Zero ads",
+  "tr": "Без реклами",
+  "back": "No Advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPurchaseButton",
+  "en": "Remove Ads",
+  "tr": "Вимкнути рекламу",
+  "back": "Turn off advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPurchaseButtonPrice",
+  "en": "Remove Ads — {price}",
+  "tr": "Вимкнути рекламу — {price}",
+  "back": "Turn off advertising  [price]",
+  "sim": 0.29
+ },
+ {
+  "k": "paywallRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Відновити покупки",
+  "back": "Restarting Purchases",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallProductUnavailable",
+  "en": "Ad removal is not available right now.",
+  "tr": "Вимкнення реклами зараз недоступне.",
+  "back": "Turning off advertising is not available right now.",
+  "sim": 0.67
+ },
+ {
+  "k": "paywallPurchaseFailed",
+  "en": "Purchase failed.",
+  "tr": "Не вдалося здійснити покупку.",
+  "back": "Couldn't make the purchase.",
+  "sim": 0.33
+ },
+ {
+  "k": "errorScreenTitle",
+  "en": "Something went wrong",
+  "tr": "Щось пішло не так",
+  "back": "Something went wrong.",
+  "sim": 1.0
+ },
+ {
+  "k": "errorScreenBody",
+  "en": "Try again, or restart the app if this keeps happening.",
+  "tr": "Спробуйте ще раз або перезапустіть застосунок, якщо проблема повторюється.",
+  "back": "Try again or restart the application if the problem repeats.",
+  "sim": 0.6
+ },
+ {
+  "k": "errorScreenGoBack",
+  "en": "Go back",
+  "tr": "Назад",
+  "back": "Back to the drawing board.",
+  "sim": 0.29
+ },
+ {
+  "k": "errorScreenReportEmail",
+  "en": "Report via {email}",
+  "tr": "Повідомити на {email}",
+  "back": "Please contact us at [email protected]",
+  "sim": 0.22
+ },
+ {
+  "k": "unsupportedTitle",
+  "en": "Device Not Supported",
+  "tr": "Пристрій не підтримується",
+  "back": "The device is not supported",
+  "sim": 0.75
+ },
+ {
+  "k": "unsupportedNoCameraMessage",
+  "en": "This device doesn't have a camera available.",
+  "tr": "На цьому пристрої немає доступної камери.",
+  "back": "There's no camera available on this device.",
+  "sim": 0.29
+ },
+ {
+  "k": "unsupportedLowMemoryMessage",
+  "en": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
+  "tr": "На цьому пристрої недостатньо пам'яті для стабільної роботи редактора PhotoSur.",
+  "back": "This device does not have enough memory for the stable work of the PhotoSur editor.",
+  "sim": 0.46
+ },
+ {
+  "k": "unsupportedManualImportHint",
+  "en": "You can still import a photo from your gallery and use the manual brush tool.",
+  "tr": "Ви все одно можете імпортувати фото з галереї та користуватися ручним пензлем.",
+  "back": "You can still import photos from the gallery and use a handheld pencil.",
+  "sim": 0.57
+ },
+ {
+  "k": "unsupportedUseGalleryButton",
+  "en": "Import from Gallery",
+  "tr": "Імпорт із галереї",
+  "back": "Imported from the gallery",
+  "sim": 0.57
+ },
+ {
+  "k": "homeBatchButton",
+  "en": "Batch",
+  "tr": "Пакет",
+  "back": "Package",
+  "sim": 0.0
+ },
+ {
+  "k": "batchTitle",
+  "en": "Batch cut-out",
+  "tr": "Пакетне вирізання",
+  "back": "Package cutting",
+  "sim": 0.0
+ },
+ {
+  "k": "batchOutputTransparent",
+  "en": "Transparent PNG",
+  "tr": "Прозорий PNG",
+  "back": "PNG window",
+  "sim": 0.5
+ },
+ {
+  "k": "batchOutputWhite",
+  "en": "White background (JPG)",
+  "tr": "Білий фон (JPG)",
+  "back": "White background (JPG)",
+  "sim": 1.0
+ },
+ {
+  "k": "batchStart",
+  "en": "Start",
+  "tr": "Почати",
+  "back": "How to Start",
+  "sim": 0.5
+ },
+ {
+  "k": "batchStop",
+  "en": "Stop",
+  "tr": "Стоп",
+  "back": "Stop it!",
+  "sim": 0.67
+ },
+ {
+  "k": "batchDone",
+  "en": "Done",
+  "tr": "Готово",
+  "back": "I'm ready to go.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchProgress",
+  "en": "{done} of {total} done",
+  "tr": "Готово: {done} з {total}",
+  "back": "Ready: [done] from [total]",
+  "sim": 0.5
+ },
+ {
+  "k": "batchSaved",
+  "en": "{count} saved to your gallery",
+  "tr": "Збережено в галерею: {count}",
+  "back": "Stored in the gallery: [count]",
+  "sim": 0.2
+ },
+ {
+  "k": "batchSomeFailed",
+  "en": "{count} could not be processed",
+  "tr": "Не вдалося обробити: {count}",
+  "back": "Failed to process: [count]",
+  "sim": 0.22
+ },
+ {
+  "k": "batchTooMany",
+  "en": "Up to {max} photos at a time",
+  "tr": "До {max} фото за раз",
+  "back": "Up to [max] photo at a time",
+  "sim": 0.86
+ },
+ {
+  "k": "backgroundAddCustom",
+  "en": "Add custom background",
+  "tr": "Додати власний фон",
+  "back": "Add your own background",
+  "sim": 0.57
+ },
+ {
+  "k": "backgroundCustomColor",
+  "en": "Custom color",
+  "tr": "Власний колір",
+  "back": "Its own color",
+  "sim": 0.4
+ },
+ {
+  "k": "colorSaturation",
+  "en": "Saturation",
+  "tr": "Насиченість",
+  "back": "Satisfaction",
+  "sim": 0.0
+ },
+ {
+  "k": "colorBrightness",
+  "en": "Brightness",
+  "tr": "Яскравість",
+  "back": "Brightness",
+  "sim": 1.0
+ },
+ {
+  "k": "colorHexLabel",
+  "en": "Hex code",
+  "tr": "HEX-код",
+  "back": "HEX code",
+  "sim": 1.0
+ },
+ {
+  "k": "colorPickerDone",
+  "en": "Done",
+  "tr": "Готово",
+  "back": "I'm ready to go.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceLabel",
+  "en": "Marketplace",
+  "tr": "Маркетплейс",
+  "back": "Marketplace",
+  "sim": 1.0
+ },
+ {
+  "k": "exportMarketplaceWhiteFill",
+  "en": "Pure white background, product fills the frame",
+  "tr": "Чисто білий фон, товар заповнює кадр",
+  "back": "Purely white background, the merchandise fills the frame",
+  "sim": 0.67
+ },
+ {
+  "k": "exportMarketplaceSizeCap",
+  "en": "File kept under {size} MB",
+  "tr": "Файл менший за {size} МБ",
+  "back": "File smaller than [size] MB",
+  "sim": 0.6
+ },
+ {
+  "k": "editorToolTemplates",
+  "en": "Templates",
+  "tr": "Шаблони",
+  "back": "Templates",
+  "sim": 1.0
+ },
+ {
+  "k": "templatesTitle",
+  "en": "Choose a template",
+  "tr": "Оберіть шаблон",
+  "back": "Select the template",
+  "sim": 0.33
+ },
+ {
+  "k": "templatesStudio",
+  "en": "Studio",
+  "tr": "Студія",
+  "back": "The studio",
+  "sim": 0.67
+ },
+ {
+  "k": "templatesColorBlock",
+  "en": "Color block",
+  "tr": "Кольорові блоки",
+  "back": "Colored blocks",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTextures",
+  "en": "Textures",
+  "tr": "Текстури",
+  "back": "Textures",
+  "sim": 1.0
+ },
+ {
+  "k": "templatesLight",
+  "en": "Light & shadow",
+  "tr": "Світло й тінь",
+  "back": "Light and Shadow",
+  "sim": 0.8
+ },
+ {
+  "k": "templatesPatterns",
+  "en": "Gradients & patterns",
+  "tr": "Градієнти й візерунки",
+  "back": "Building blocks and patterns",
+  "sim": 0.33
+ },
+ {
+  "k": "hdGetAction",
+  "en": "Get HD cut-out",
+  "tr": "Отримати HD-вирізання",
+  "back": "Get the HD footage",
+  "sim": 0.57
+ },
+ {
+  "k": "hdRedoAction",
+  "en": "Redo cut-out in HD",
+  "tr": "Повторити вирізання в HD",
+  "back": "Repeat the cut in HD",
+  "sim": 0.44
+ },
+ {
+  "k": "hdDownloading",
+  "en": "HD cut-out in progress… {percent}%",
+  "tr": "HD-вирізання триває… {percent}%",
+  "back": "HD cutting is ongoing... [percent] %",
+  "sim": 0.4
+ },
+ {
+  "k": "hdDownloadingShort",
+  "en": "HD cut-out… {percent}%",
+  "tr": "HD-вирізання… {percent}%",
+  "back": "HD cutting... [percent] percent",
+  "sim": 0.57
+ },
+ {
+  "k": "hdConfirmTitle",
+  "en": "Download HD cut-out model?",
+  "tr": "Завантажити модель HD-вирізання?",
+  "back": "Do you want to download the HD model?",
+  "sim": 0.5
+ },
+ {
+  "k": "hdConfirmBody",
+  "en": "Cleaner edges on tricky objects like shoes, bags and bottles. It downloads once, stays on your phone and then works offline. Mobile data charges may apply.",
+  "tr": "Чистіші краї складних предметів: взуття, сумок, пляшок. Завантажується один раз, зберігається на телефоні й далі працює офлайн. Може стягуватися плата за мобільний інтернет.",
+  "back": "Cleaner edges of complex items: shoes, bags, bottles. It's downloaded once, stored on your phone, and kept offline.",
+  "sim": 0.5
+ },
+ {
+  "k": "hdDownload",
+  "en": "Download",
+  "tr": "Завантажити",
+  "back": "How to download",
+  "sim": 0.5
+ },
+ {
+  "k": "hdFailed",
+  "en": "HD cut-out didn’t finish. Check your connection and try again.",
+  "tr": "HD-вирізання не завершилося. Перевірте з’єднання й повторіть.",
+  "back": "The HD cutting is not complete. Check the connection and repeat.",
+  "sim": 0.38
+ },
+ {
+  "k": "settingsHdTitle",
+  "en": "HD cut-out model",
+  "tr": "Модель HD-вирізання",
+  "back": "HD-cutting model",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsHdNotInstalled",
+  "en": "Not downloaded",
+  "tr": "Не завантажено",
+  "back": "Not loaded",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsHdInstalled",
+  "en": "Installed · works offline",
+  "tr": "Встановлено · працює офлайн",
+  "back": "Installed · works offline",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsHdRemove",
+  "en": "Remove",
+  "tr": "Видалити",
+  "back": "Removing",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsReplayIntro",
+  "en": "Replay intro",
+  "tr": "Переглянути вступ ще раз",
+  "back": "Review the entry again",
+  "sim": 0.0
+ },
+ {
+  "k": "homeSeeAll",
+  "en": "See all",
+  "tr": "Показати все",
+  "back": "Showing it all",
+  "sim": 0.4
+ },
+ {
+  "k": "exportActionEdit",
+  "en": "Edit again",
+  "tr": "Редагувати знову",
+  "back": "Edit again",
+  "sim": 1.0
+ },
+ {
+  "k": "exportActionDelete",
+  "en": "Delete",
+  "tr": "Видалити",
+  "back": "Removing",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMoreOptions",
+  "en": "More options",
+  "tr": "Більше опцій",
+  "back": "More options",
+  "sim": 1.0
+ },
+ {
+  "k": "exportDeleteTitle",
+  "en": "Delete this export?",
+  "tr": "Видалити цей експорт?",
+  "back": "Remove this export?",
+  "sim": 0.67
+ },
+ {
+  "k": "exportDeleteBody",
+  "en": "Exported images are removed from this phone. Your original photos and anything saved to your gallery are not affected.",
+  "tr": "Експортовані зображення буде видалено з цього телефона. Оригінальні фото й усе, що збережено в галереї, не зміниться.",
+  "back": "Exported images will be deleted from this phone, and the original photos and everything in the gallery will remain the same.",
+  "sim": 0.45
+ },
+ {
+  "k": "exportSavedToGallery",
+  "en": "Saved to your gallery",
+  "tr": "Збережено в галерею",
+  "back": "Stored in a gallery",
+  "sim": 0.25
+ },
+ {
+  "k": "exportSaveFailed",
+  "en": "Could not save to the gallery.",
+  "tr": "Не вдалося зберегти в галерею.",
+  "back": "Couldn't keep it in the gallery.",
+  "sim": 0.33
+ },
+ {
+  "k": "exportUnavailable",
+  "en": "Unavailable",
+  "tr": "Недоступно",
+  "back": "Not Available",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsGroupThisWeek",
+  "en": "This week",
+  "tr": "Цього тижня",
+  "back": "This week",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsGroupEarlier",
+  "en": "Earlier",
+  "tr": "Раніше",
+  "back": "Previously on",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsStorageUsed",
+  "en": "{size} used on this phone",
+  "tr": "Зайнято на телефоні: {size}",
+  "back": "Packed on the phone: [size]",
+  "sim": 0.2
+ },
+ {
+  "k": "exportsSelect",
+  "en": "Select",
+  "tr": "Вибрати",
+  "back": "Choose",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsDone",
+  "en": "Done",
+  "tr": "Готово",
+  "back": "I'm ready to go.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsSelectedCount",
+  "en": "{count} selected",
+  "tr": "Вибрано: {count}",
+  "back": "Selected: [count]",
+  "sim": 0.5
+ },
+ {
+  "k": "exportsDeleteSelectedTitle",
+  "en": "Delete {count} exports?",
+  "tr": "Видалити експорти ({count})?",
+  "back": "Remove exports ([count])?",
+  "sim": 0.33
+ },
+ {
+  "k": "exportsDeleteAll",
+  "en": "Delete all exports",
+  "tr": "Видалити всі експорти",
+  "back": "Remove all exports",
+  "sim": 0.67
+ },
+ {
+  "k": "exportsDeleteAllTitle",
+  "en": "Delete all exports?",
+  "tr": "Видалити всі експорти?",
+  "back": "Remove all exports?",
+  "sim": 0.67
+ },
+ {
+  "k": "helpTitle",
+  "en": "Help & how to use",
+  "tr": "Довідка та інструкція",
+  "back": "Evidence and instructions",
+  "sim": 0.0
+ },
+ {
+  "k": "helpIntro",
+  "en": "Tap a topic to read how it works.",
+  "tr": "Торкніться теми, щоб прочитати, як це працює.",
+  "back": "Scroll through the topics to see how it works.",
+  "sim": 0.47
+ },
+ {
+  "k": "helpStartTitle",
+  "en": "Getting started",
+  "tr": "Початок роботи",
+  "back": "Start of work",
+  "sim": 0.0
+ },
+ {
+  "k": "helpStart1",
+  "en": "On the home screen, tap Camera to take a photo or Gallery to pick one. Batch cuts out many photos at once.",
+  "tr": "На головному екрані торкніться Камера, щоб зробити фото, або Галерея, щоб вибрати наявне. Пакет вирізає багато фото одночасно.",
+  "back": "On the home screen, tap the camera to take a photo, or the gallery to select the one available.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpStart2",
+  "en": "Every photo opens in Crop & Rotate first, then in the editor. Your original photo is never changed.",
+  "tr": "Кожне фото спершу відкривається в Обрізання й поворот, а потім у редакторі. Ваше оригінальне фото ніколи не змінюється.",
+  "back": "Each photo opens first in Circumcision and turn, and then in the editor.",
+  "sim": 0.47
+ },
+ {
+  "k": "helpStart3",
+  "en": "When you are happy, tap Export in the editor. Recent Exports on the home screen lists everything you have exported.",
+  "tr": "Коли будете задоволені, торкніться Експорт у редакторі. Нещодавній експорт на головному екрані показує все, що ви експортували.",
+  "back": "When you're satisfied, you'll tap Export in the editor.",
+  "sim": 0.41
+ },
+ {
+  "k": "helpCropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Обрізання й поворот",
+  "back": "Circumcision and Turning",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCrop1",
+  "en": "Turn the photo left or right in 90° steps, and drag the frame to choose the part you want to keep.",
+  "tr": "Повертайте фото ліворуч або праворуч кроками по 90° і перетягуйте рамку, щоб вибрати частину, яку хочете залишити.",
+  "back": "Turn the photo 90 degrees to the left or right and drag the frame to select the part you want to leave behind.",
+  "sim": 0.73
+ },
+ {
+  "k": "helpCrop2",
+  "en": "Free lets you shape the frame as you like. 1:1, 4:5 and 9:16 lock its shape. Tap Continue to open the editor.",
+  "tr": "Вільно дає змогу надати рамці будь-яку форму. 1:1, 4:5 і 9:16 фіксують її форму. Торкніться Продовжити, щоб відкрити редактор.",
+  "back": "It's free to give frames of any shape. 1:1, 4:5 and 9:16 fix its shape.",
+  "sim": 0.43
+ },
+ {
+  "k": "helpCutoutTitle",
+  "en": "Cut-out",
+  "tr": "Виріз",
+  "back": "Cut it out.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCutout1",
+  "en": "When the editor opens, PhotoSur finds the main subject and removes the background automatically, on your phone. No internet is needed.",
+  "tr": "Коли редактор відкривається, PhotoSur знаходить головний об’єкт і автоматично прибирає тло, на вашому телефоні. Інтернет не потрібен.",
+  "back": "When the editor opens, PhotoSur finds the main object and automatically cleans the floor on your phone.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpCutout2",
+  "en": "Edge Smoothness softens the edge of the cut-out, from 0 to 20 pixels.",
+  "tr": "М'якість країв пом’якшує край вирізу, від 0 до 20 пікселів.",
+  "back": "The softness of the edges soften the edge of the cut, from 0 to 20 pixels.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpCutout3",
+  "en": "The eye button at the top shows your original photo so you can compare. Tap it again to go back. The brush is paused while the original is shown.",
+  "tr": "Кнопка з оком угорі показує оригінальне фото для порівняння. Торкніться її ще раз, щоб повернутися. Пензель призупинений, доки видно оригінал.",
+  "back": "The eye button above shows the original photo for comparison. Turtle it again to turn it around. The pencil is suspended until the original can be seen.",
+  "sim": 0.46
+ },
+ {
+  "k": "helpCutout4",
+  "en": "For difficult subjects such as glass, shoes, bags and bottles, tap Get HD cut-out. The HD model downloads once, stays on your phone and then works offline. Once it is installed, every new cut-out uses it automatically. To redo the photo you have open, tap Redo cut-out in HD.",
+  "tr": "Для складних об’єктів, як-от скло, взуття, сумки й пляшки, торкніться Отримати HD-вирізання. HD-модель завантажується лише раз, залишається на телефоні й далі працює офлайн. Після встановлення кожне нове вирізання використовує її автоматично. Щоб переробити відкрите фото, торкніться Повторити вирізання в HD.",
+  "back": "For complex objects such as glass, shoes, bags, and bottles, tap Get HD cutting. The HD model is downloaded only once, stays on the phone, and continues to work offline. Once installed, each new cutting uses it automatically. To retouch an open photo, tap Repeat Cutting in HD.",
+  "sim": 0.64
+ },
+ {
+  "k": "helpBrushTitle",
+  "en": "Brush",
+  "tr": "Пензель",
+  "back": "Pencil",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBrush1",
+  "en": "Erase removes parts of the subject. Restore brings back parts the cut-out removed.",
+  "tr": "Стерти прибирає частини об’єкта. Повернути повертає частини, які виріз прибрав.",
+  "back": "Scurry clears the parts of the object.",
+  "sim": 0.3
+ },
+ {
+  "k": "helpBrush2",
+  "en": "Drag one finger to paint. Use two fingers to zoom, up to 8 times, and to move the photo. The brush keeps its size on screen, so zooming in gives finer control.",
+  "tr": "Проведіть одним пальцем, щоб малювати. Двома пальцями збільшуйте, до 8 разів, і пересувайте фото. Пензель зберігає свій розмір на екрані, тому під час збільшення ви працюєте точніше.",
+  "back": "Take one finger to paint, increase the two fingers up to eight times, and move the photo. The pencil keeps its size on the screen, so when you're magnifying, you're working more accurately.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpBrush3",
+  "en": "Brush Size goes from 1 to 50. Opacity sets how strongly each stroke applies.",
+  "tr": "Розмір пензля — від 1 до 50. Непрозорість визначає силу кожного мазка.",
+  "back": "The size of the pencil is from 1 to 50. Blurredness determines the strength of each pencil.",
+  "sim": 0.39
+ },
+ {
+  "k": "helpBrush4",
+  "en": "Undo and Redo step through your brush strokes. Reset clears all brush strokes and goes back to the automatic cut-out; it asks you to confirm first.",
+  "tr": "Скасувати і Повторити проходять по ваших мазках пензлем. Скинути видаляє всі мазки й повертається до автоматичного вирізу; спершу запитується підтвердження.",
+  "back": "Remove and Repeat goes through your brushes with a pencil. Remove removes all the brushes and goes back to automatic cutting; first, confirmation is requested.",
+  "sim": 0.39
+ },
+ {
+  "k": "helpBackgroundTitle",
+  "en": "Background",
+  "tr": "Тло",
+  "back": "Fat",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBackground1",
+  "en": "Choose what goes behind your subject: transparent, white, black, a gradient, a colour, a blurred copy of your photo, or your own photo.",
+  "tr": "Виберіть, що буде за об’єктом: прозоре, біле, чорне, градієнт, колір, розмита копія вашого фото або ваше власне фото.",
+  "back": "Choose what's next to the object: glass, white, black, gradient, color, a clear copy of your photo or your own photo.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpBackground2",
+  "en": "Only one background is used at a time. Your latest choice replaces the earlier one.",
+  "tr": "Одночасно використовується лише одне тло. Ваш останній вибір замінює попередній.",
+  "back": "Only one floor is used at a time. Your last choice replaces the previous one.",
+  "sim": 0.8
+ },
+ {
+  "k": "helpBackground3",
+  "en": "Add custom background lets you pick a photo from your gallery. Custom color opens a colour picker. The Blur slider goes from 0 to 25.",
+  "tr": "Додати власний фон дає змогу вибрати фото з галереї. Власний колір відкриває вибір кольору. Повзунок Розмиття — від 0 до 25.",
+  "back": "Adding your own background allows you to select a photo from the gallery. Your own color opens up the color selection.",
+  "sim": 0.39
+ },
+ {
+  "k": "helpBackground4",
+  "en": "Transparent shows a checkerboard while you edit. Export as PNG to keep it transparent.",
+  "tr": "Прозорий показує шахівницю під час редагування. Експортуйте як PNG, щоб зберегти прозорість.",
+  "back": "The window shows the chessboard while you're editing. Export as PNG to keep the view.",
+  "sim": 0.48
+ },
+ {
+  "k": "helpTemplatesTitle",
+  "en": "Templates",
+  "tr": "Шаблони",
+  "back": "Templates",
+  "sim": 1.0
+ },
+ {
+  "k": "helpTemplates1",
+  "en": "Templates are ready-made backgrounds in five groups: Studio, Color block, Textures, Light & shadow, and Gradients & patterns. Five scenes are shown in the panel; tap the Templates button to see them all.",
+  "tr": "Шаблони — це готові тла у п’яти групах: Студія, Кольорові блоки, Текстури, Світло й тінь та Градієнти й візерунки. На панелі видно п’ять сцен; торкніться кнопки Шаблони, щоб побачити всі.",
+  "back": "Templates  are ready-to-use flooring in five groups: Studio, Color Blocks, Textures, Light and Shadows and Gradients and Patterns. You can see five scenes on the panel; tap the Template buttons to see them all.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpTemplates2",
+  "en": "Choosing a template works like choosing your own photo as the background: it replaces your earlier background choice.",
+  "tr": "Вибір шаблону — це те саме, що вибір власного фото як тла: він замінює ваш попередній вибір тла.",
+  "back": "Choosing a pattern  is the same as choosing your own photo as a background: it replaces your previous choice of background.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpLayoutTitle",
+  "en": "Layout",
+  "tr": "Макет",
+  "back": "The model",
+  "sim": 0.0
+ },
+ {
+  "k": "helpLayout1",
+  "en": "Drag the subject on the photo to move it. Pinch with two fingers to resize it.",
+  "tr": "Перетягніть об’єкт по фото, щоб його пересунути. Зведіть або розведіть два пальці, щоб змінити його розмір.",
+  "back": "Pull over the object in the photo to move it. Pull over or pull over two fingers to change its size.",
+  "sim": 0.49
+ },
+ {
+  "k": "helpLayout2",
+  "en": "Choose Original, 1:1, 4:5 or 9:16 to set the shape of the final picture.",
+  "tr": "Виберіть Оригінал, 1:1, 4:5 або 9:16, щоб задати форму підсумкового зображення.",
+  "back": "Select Original, 1:1, 4:5, or 9:16 to form the final image.",
+  "sim": 0.64
+ },
+ {
+  "k": "helpLayout3",
+  "en": "Size sets how big the subject is, from 20% to 300%. Shadow sets how strong its shadow is. Auto-center puts the subject back in the middle. Reset undoes moving and resizing.",
+  "tr": "Розмір визначає, наскільки великий об’єкт, від 20% до 300%. Тінь визначає силу його тіні. Автоцентр повертає об’єкт у середину. Скинути скасовує переміщення та зміни розміру.",
+  "back": "The size determines how large the object is, from 20% to 300%. The shadow determines the strength of its shadow. The autocenter returns the object to the center.",
+  "sim": 0.47
+ },
+ {
+  "k": "helpLayout4",
+  "en": "This shape is used when the export size is Original. If you choose a size preset or a marketplace in the export sheet, that decides the final shape instead.",
+  "tr": "Ця форма діє, коли розмір експорту — Оригінал. Якщо в аркуші експорту ви вибираєте готовий розмір або маркетплейс, остаточну форму визначає він.",
+  "back": "This form works when the export size is  Original. If you select the finished size or marketplace on the export sheet, it determines the final shape.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpExportTitle",
+  "en": "Export",
+  "tr": "Експорт",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "helpExport1",
+  "en": "Tap Export to open the export sheet. Nothing is applied until you tap Save to Gallery or Share, so you can change your choices as often as you like.",
+  "tr": "Торкніться Експорт, щоб відкрити аркуш експорту. Нічого не застосовується, доки ви не торкнетеся Зберегти в галерею або Поділитися, тож свій вибір можна змінювати скільки завгодно разів.",
+  "back": "Touch Export to open the export sheet. Nothing applies until you touch Save in Gallery or Share, so you can change your choice as many times as you want.",
+  "sim": 0.72
+ },
+ {
+  "k": "helpExport2",
+  "en": "PNG keeps transparency. JPG makes smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a small modern format; if your phone cannot make it, the file is saved as JPG. For JPG and WEBP, the Quality slider trades file size for detail.",
+  "tr": "PNG зберігає прозорість. JPG дає менші файли, але не може бути прозорим, тому прозоре тло стає білим. WEBP — сучасний компактний формат; якщо телефон не може його створити, файл збережеться як JPG. Для JPG і WEBP повзунок Якість балансує розмір файлу й деталізацію.",
+  "back": "PNG maintains transparency. JPG gives smaller files but cannot be transparent, so the transparent background becomes white. WEBP  is a modern compact format; if the phone cannot create it, the file will be saved as JPG. For JPG and WEBP the quality overlay balances file size and detail.",
+  "sim": 0.78
+ },
+ {
+  "k": "helpExport3",
+  "en": "Original keeps your photo’s size, with the shape chosen in Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. Custom lets you type a width and height in pixels.",
+  "tr": "Оригінал зберігає розмір вашого фото, з формою, вибраною в Макет. 1:1 — це 1080 × 1080, 4:5 — 1080 × 1350, а 9:16 — 1080 × 1920. Власний дає змогу ввести ширину й висоту в пікселях.",
+  "back": "The original keeps the size of your photo, with the shape chosen in the layout. 1:1  is 1080 × 1080, 4:5  1080 × 1350, and 9:16  1080 × 1920.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpExport4",
+  "en": "Marketplace presets set size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG kept under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices, and choosing a format or size afterwards switches the marketplace off. Marketplace rules can change, so check your marketplace’s current requirements.",
+  "tr": "Пресети маркетплейсів задають розмір, формат і якість: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG до 1 МБ і Shopify 2048 × 2048 PNG. Вибір одного замінює ваш вибір формату й розміру; якщо потім вибрати формат або розмір, маркетплейс знімається. Правила маркетплейсів можуть змінюватися, тож перевіряйте актуальні вимоги свого.",
+  "back": "Marketplace networks specify size, format, and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG up to 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your choice of format and size; if you then choose a format or size, the marketplace is removed. Marketplace rules may change, so check your current requirements.",
+  "sim": 0.78
+ },
+ {
+  "k": "helpExport5",
+  "en": "Amazon also uses a pure white background with no shadow and fits the subject to fill most of the frame. Your background choice in the editor is not changed. The other marketplaces keep your background.",
+  "tr": "Amazon також використовує суто біле тло без тіні й підлаштовує об’єкт так, щоб він заповнював більшу частину кадру. Ваш вибір тла в редакторі не змінюється. Інші маркетплейси залишають ваше тло.",
+  "back": "Amazon also uses essentially white, shade-free soil and tweaks the subject to fill most of the frame. Your choice of soil in the editor is unchanged. Other marketplaces leave your soil.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpExport6",
+  "en": "Save to Gallery and Share both save the picture to your gallery and to Recent Exports. Share also opens your phone’s share menu. If saving to the gallery is not possible, the share menu opens instead. After exporting you return to the home screen.",
+  "tr": "Зберегти в галерею і Поділитися обидві зберігають зображення в галереї та у розділі Нещодавній експорт. Поділитися додатково відкриває меню поширення телефона. Якщо збереження в галерею неможливе, натомість відкривається меню поширення. Після експорту ви повертаєтеся на головний екран.",
+  "back": "Save in the Gallery and Share both store images in the Gallery and in the Recent Export section. Sharing opens the extension menu of the phone. If saving in the Gallery is not possible, the extension menu opens instead. After exporting, you go back to the home screen.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpExport7",
+  "en": "Unless you have removed ads, an ad can appear after an export, at most once every two minutes.",
+  "tr": "Якщо ви не вимкнули рекламу, після експорту може з’явитися оголошення, щонайбільше раз на дві хвилини.",
+  "back": "If you do not turn off the advertisement, an advertisement may appear after the export, at most once every two minutes.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpBatchTitle",
+  "en": "Batch",
+  "tr": "Пакет",
+  "back": "Package",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBatch1",
+  "en": "Batch cuts out up to 30 photos in one go. Tap Batch on the home screen and pick your photos. The back button is turned off while a batch runs.",
+  "tr": "Пакет вирізає до 30 фото одночасно. Торкніться Пакет на головному екрані й виберіть фото. Кнопка Назад вимкнена, доки виконується пакет.",
+  "back": "The packet cuts up to 30 photos at a time, then you click the packet on the home screen and select the photo, and the Back button is turned off until the packet is executed.",
+  "sim": 0.49
+ },
+ {
+  "k": "helpBatch2",
+  "en": "All photos in a batch share one setup: one background and one marketplace. You cannot choose differently for each photo.",
+  "tr": "Усі фото в пакеті мають одне налаштування: одне тло й один маркетплейс. Для кожного фото окремо вибирати не можна.",
+  "back": "All the photos in the package have the same settings: one background and one marketplace.",
+  "sim": 0.46
+ },
+ {
+  "k": "helpBatch3",
+  "en": "Backgrounds work as in the editor: your own photo, a colour, a template, white, transparent, black, blur or a gradient. Only one applies, and your latest choice replaces the earlier one.",
+  "tr": "Тла працюють так само, як у редакторі: ваше фото, колір, шаблон, біле, прозоре, чорне, розмите або градієнт. Діє лише одне, а ваш останній вибір замінює попередній.",
+  "back": "So the background works the same way as the editor: your photo, color, pattern, white, transparent, black, colored, or gradient. Only one thing works, and your last choice replaces the previous one.",
+  "sim": 0.57
+ },
+ {
+  "k": "helpBatch4",
+  "en": "The file format is chosen for you. With a marketplace, the photos follow that marketplace’s size and format. Without one, a transparent background gives PNG and any other background gives JPG, at the original size.",
+  "tr": "Формат файлу вибирається за вас. З маркетплейсом фото відповідають його розміру й формату. Без маркетплейсу прозоре тло дає PNG, а будь-яке інше тло — JPG, в оригінальному розмірі.",
+  "back": "The format of the file is chosen by you. With the marketplace, the photo matches its size and format. Without the marketplace, the transparent background gives PNG, and any other background  JPG, in the original size.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpBatch5",
+  "en": "Choosing Amazon switches the background to White; if you then choose another background, Amazon is switched off. eBay, Etsy and Shopify keep your background, but a JPG cannot be transparent, so it gets a white background.",
+  "tr": "Вибір Amazon перемикає тло на Білий; якщо потім вибрати інше тло, Amazon знімається. eBay, Etsy і Shopify залишають ваше тло, але JPG не може бути прозорим, тому отримує біле тло.",
+  "back": "Amazon selection switches the background to White; if you then choose another background, Amazon is removed. eBay, Etsy and Shopify leave your background, but JPG can't be transparent, so you get a white background.",
+  "sim": 0.8
+ },
+ {
+  "k": "helpBatch6",
+  "en": "If the HD model is installed, every photo in the batch is cut out with it. The Get HD cut-out button next to Templates downloads it.",
+  "tr": "Якщо HD-модель встановлено, кожне фото в пакеті вирізається нею. Кнопка Отримати HD-вирізання поруч із кнопкою Шаблони завантажує її.",
+  "back": "If the HD model is installed, every photo in the packet is cut by it. The Get HD cut button next to the Template button loads it.",
+  "sim": 0.75
+ },
+ {
+  "k": "helpBatch7",
+  "en": "Each photo is saved to your gallery and to Recent Exports as soon as it finishes. Stop ends the batch after the current photo, and photos already finished stay saved. If a photo fails, the batch carries on and tells you how many could not be processed. Done takes you back to the home screen; it does not save anything.",
+  "tr": "Кожне фото зберігається в галереї та у розділі Нещодавній експорт одразу після завершення. Стоп завершує пакет після поточного фото, а вже готові фото залишаються збереженими. Якщо фото не вдалося, пакет триває й повідомляє, скільки не вдалося обробити. Готово повертає вас на головний екран; нічого не зберігає.",
+  "back": "Each photo is stored in the gallery and in the Recent Export section immediately after completion. The stop completes the packet after the current photo, and the finished photos remain stored. If the photo fails, the packet continues and reports how much has failed to be processed. It's ready to return you to the home screen; it doesn't store anything.",
+  "sim": 0.48
+ },
+ {
+  "k": "helpLibraryTitle",
+  "en": "Your exports",
+  "tr": "Ваші експорти",
+  "back": "Your exports",
+  "sim": 1.0
+ },
+ {
+  "k": "helpLibrary1",
+  "en": "Recent Exports on the home screen shows your latest exports. Tap See all for every export, grouped as Today, Yesterday, This week and Earlier.",
+  "tr": "Нещодавній експорт на головному екрані показує ваші найновіші експорти. Торкніться Показати все, щоб побачити всі, згруповані за Сьогодні, Учора, Цього тижня та Раніше.",
+  "back": "The recent export on the home screen shows your latest exports.Turn to Show Everything to see all grouped for Today, Yesterday, This Week and Earlier.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpLibrary2",
+  "en": "Tap an export to open it full screen. Swipe to move between exports and pinch to zoom. The bar at the bottom has Share, Save to Gallery, Edit again and Delete.",
+  "tr": "Торкніться експорту, щоб відкрити його на весь екран. Проводьте пальцем, щоб перемикатися між експортами, і зводьте пальці, щоб збільшувати. Нижня панель пропонує Поділитися, Зберегти в галерею, Редагувати знову і Видалити.",
+  "back": "Turn the export to open it on the full screen. Swipe your finger to switch between the exports, and lower your fingers to enlarge. The bottom panel suggests Sharing, Save to Gallery, Edit Again, and Remove.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpLibrary3",
+  "en": "The three-dot button on a tile opens the same actions. Edit again opens the exported picture as a new photo, so earlier brush strokes are not restored.",
+  "tr": "Кнопка з трьома крапками на мініатюрі відкриває ті самі дії. Редагувати знову відкриває експортоване зображення як нове фото, тож попередні мазки пензлем не відновлюються.",
+  "back": "The three-dot button on the miniature opens the same actions, and the edit opens the exported image as a new photo, so the previous brushes are not restored with the pencil.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpLibrary4",
+  "en": "Select lets you choose several exports to share together or delete. Delete all exports removes every export from this phone.",
+  "tr": "Вибрати дає змогу позначити кілька експортів, щоб поділитися ними або видалити разом. Видалити всі експорти прибирає всі експорти з цього телефона.",
+  "back": "Select allows you to tag multiple exports to share or delete together. Remove all exports removes all exports from this phone.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpLibrary5",
+  "en": "Deleting removes exports from PhotoSur only. Pictures already saved to your gallery are not affected. The bottom of the See all screen shows how much space exports use on this phone.",
+  "tr": "Видалення прибирає експорти лише з PhotoSur. Зображення, уже збережені в галереї, не зачіпаються. Унизу екрана Показати все видно, скільки місця експорти займають на цьому телефоні.",
+  "back": "The remote removes exports only from PhotoSur. Images already stored in the gallery are not affected. The bottom of the screen shows how much space exports take up on this phone.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpPrivacyTitle",
+  "en": "Privacy & ads",
+  "tr": "Конфіденційність і реклама",
+  "back": "Privacy and Advertising",
+  "sim": 0.4
+ },
+ {
+  "k": "helpPrivacy1",
+  "en": "Your photos are processed on your phone and are not uploaded. There is no account and no watermark.",
+  "tr": "Ваші фото обробляються на телефоні й не завантажуються. Немає облікового запису й водяного знака.",
+  "back": "Your photos are processed on your phone and not uploaded.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpPrivacy2",
+  "en": "PhotoSur is free with every feature included, supported by ads. A banner appears at the bottom of some screens, and an ad can appear after an export.",
+  "tr": "PhotoSur безплатний, з усіма функціями, і фінансується рекламою. Унизу деяких екранів є банер, а після експорту може з’явитися оголошення.",
+  "back": "PhotoSur is free, with all the features, and is funded by advertising.",
+  "sim": 0.26
+ },
+ {
+  "k": "helpPrivacy3",
+  "en": "Go Ad-Free in Settings is a one-time purchase that removes the ads. It does not unlock anything else, because every feature is already free. Restore Purchases brings it back on a new phone.",
+  "tr": "Вимкнути рекламу в Налаштуваннях — це разова покупка, що прибирає оголошення. Вона нічого більше не розблоковує, бо всі функції вже безплатні. Відновити покупки повертає її на новому телефоні.",
+  "back": "Turning off the Ad in Settings is a one-time purchase that clears the ad. It doesn't unlock anything anymore because all the features are now free.",
+  "sim": 0.44
+ },
+ {
+  "k": "helpSettingsTitle",
+  "en": "Settings",
+  "tr": "Налаштування",
+  "back": "Adjustment",
+  "sim": 0.0
+ },
+ {
+  "k": "helpSettings1",
+  "en": "Theme can follow your phone, or be Light or Dark. Language changes the language of the app. Both are also in the home screen header.",
+  "tr": "Тема може відповідати телефону або бути Світла чи Темна. Мова змінює мову застосунку. Обидва параметри є також у шапці головного екрана.",
+  "back": "The theme can be the answer to the phone, or it can be Light or Dark, the language changes the language of the application, and both parameters are also in the cap of the home screen.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpSettings2",
+  "en": "Edit reminders: if you leave the app with an unfinished edit, PhotoSur can remind you three hours later. Switch this off in Settings.",
+  "tr": "Нагадування про правки: якщо ви виходите із застосунку з незавершеною правкою, PhotoSur може нагадати про неї через три години. Вимкніть це в Налаштуваннях.",
+  "back": "Reminder: If you leave an app with an unfinished reminder, PhotoSur can remember it in three hours. Turn it off in Settings.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpSettings3",
+  "en": "HD cut-out model shows whether it is installed. Remove deletes it from your phone to free space; you can download it again at any time.",
+  "tr": "Модель HD-вирізання показує, чи її встановлено. Видалити прибирає її з телефона, щоб звільнити місце; завантажити її знову можна будь-коли.",
+  "back": "The HD cutting model shows if it's installed. Remove removes it from the phone to free up space; you can download it again at any time.",
+  "sim": 0.75
+ },
+ {
+  "k": "helpSettings4",
+  "en": "Replay intro shows the welcome screens again. Support opens the support page. Animated home background turns the moving picture at the top of the home screen on or off.",
+  "tr": "Переглянути вступ ще раз знову показує вітальні екрани. Підтримка відкриває сторінку підтримки. Анімований фон головної вмикає або вимикає рухоме зображення вгорі головного екрана.",
+  "back": "Reviewing the input once again shows the home screens. The support opens the support page. The animated background of the main screen turns on or off the moving image at the top of the main screen.",
+  "sim": 0.58
+ },
+ {
+  "k": "helpFixTitle",
+  "en": "If something goes wrong",
+  "tr": "Якщо щось пішло не так",
+  "back": "If something goes wrong",
+  "sim": 1.0
+ },
+ {
+  "k": "helpFix1",
+  "en": "If the automatic cut-out cannot run on a very old or low-memory phone, the brush still works, so you can finish the picture by hand.",
+  "tr": "Якщо автоматичне вирізання не може працювати на дуже старому телефоні або телефоні з малою пам’яттю, пензель усе одно працює, тож ви можете завершити зображення вручну.",
+  "back": "If automatic cutting can't work on a very old phone or a phone with little memory, the pencil still works, so you can finish the image manually.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpFix2",
+  "en": "If the HD download stops, check your connection and try again. It continues where it left off.",
+  "tr": "Якщо завантаження HD зупинилося, перевірте з’єднання й спробуйте ще раз. Воно продовжується з того місця, де зупинилося.",
+  "back": "If the HD download stops, check the connection and try again.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpFix3",
+  "en": "For anything else, open Support from Settings.",
+  "tr": "З усім іншим відкрийте розділ Підтримка в Налаштуваннях.",
+  "back": "With everything else, open the Settings Support section.",
+  "sim": 0.4
+ }
+]

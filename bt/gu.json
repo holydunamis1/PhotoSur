@@ -1,0 +1,1780 @@
+[
+ {
+  "k": "onboardingPage1Title",
+  "en": "Remove backgrounds instantly. All features free.",
+  "tr": "બૅકગ્રાઉન્ડ તરત દૂર કરો. બધા ફીચર્સ મફત.",
+  "back": "Remove the background immediately. All features are free.",
+  "sim": 0.57
+ },
+ {
+  "k": "onboardingPage1Body",
+  "en": "Open a photo and our on-device AI removes the background automatically — no internet required. You can also swap in your own custom background.",
+  "tr": "ફોટો ખોલો અને તમારા ફોનમાં ચાલતું AI આપમેળે બૅકગ્રાઉન્ડ દૂર કરશે — ઇન્ટરનેટની જરૂર નથી. તમે તમારું પોતાનું કસ્ટમ બૅકગ્રાઉન્ડ પણ મૂકી શકો છો.",
+  "back": "Open a photo and the AI running on your phone will automatically remove the background  No Internet required. You can also place your own custom background.",
+  "sim": 0.69
+ },
+ {
+  "k": "onboardingPage2Title",
+  "en": "Fine-tune with the brush",
+  "tr": "બ્રશથી બારીકાઈથી સુધારો",
+  "back": "The brush has been improved with brushes.",
+  "sim": 0.36
+ },
+ {
+  "k": "onboardingPage2Body",
+  "en": "Paint away what the AI missed or restore what you want to keep. Then crop, rotate, move and resize.",
+  "tr": "AI એ જે છોડ્યું તે બ્રશથી ભૂંસો, અથવા જે રાખવું હોય તે પાછું લાવો. પછી ક્રોપ કરો, ફેરવો, ખસેડો અને કદ બદલો.",
+  "back": "Erase what AI left behind from the brush, or bring back what you want to keep. Then crop, rotate, move, and resize.",
+  "sim": 0.68
+ },
+ {
+  "k": "onboardingPage3Title",
+  "en": "Studio-ready backgrounds",
+  "tr": "સ્ટુડિયો જેવા બૅકગ્રાઉન્ડ",
+  "back": "A studio-like background",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingPage3Body",
+  "en": "Choose a colour, gradient, template or your own photo, with a natural shadow. Marketplace presets for Amazon, eBay, Etsy and Shopify set size and format for you.",
+  "tr": "કોઈ રંગ, ગ્રેડિયન્ટ, ટેમ્પલેટ કે તમારો પોતાનો ફોટો પસંદ કરો, કુદરતી પડછાયા સાથે. Amazon, eBay, Etsy અને Shopify માટેના પ્રીસેટ તમારા માટે કદ અને ફોર્મેટ નક્કી કરે છે.",
+  "back": "Choose a color, gradient, template, or your own photo, with a natural shade. The preset for Amazon, eBay, Etsy, and Shopify determines the size and format for you.",
+  "sim": 0.8
+ },
+ {
+  "k": "onboardingPage4Title",
+  "en": "Batch it, export it, keep it private",
+  "tr": "એકસાથે ઘણા, મનપસંદ ફોર્મેટમાં, સંપૂર્ણ ખાનગી",
+  "back": "Many at once, in a favorite format, completely private",
+  "sim": 0.12
+ },
+ {
+  "k": "onboardingPage4Body",
+  "en": "Cut out up to 30 photos at once and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "tr": "એકસાથે 30 સુધી ફોટાનું બૅકગ્રાઉન્ડ દૂર કરો અને PNG, JPG કે WEBP તરીકે એક્સપોર્ટ કરો. તમારા ફોટા ક્યારેય તમારા ફોનની બહાર જતા નથી. 43 ભાષાઓમાં ઉપલબ્ધ.",
+  "back": "Remove the background of up to 30 photos at a time and export them as PNG, JPG, or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "sim": 0.81
+ },
+ {
+  "k": "onboardingNext",
+  "en": "Next",
+  "tr": "આગળ",
+  "back": "Next up",
+  "sim": 0.67
+ },
+ {
+  "k": "onboardingGetStarted",
+  "en": "Get Started",
+  "tr": "શરૂ કરો",
+  "back": "How to Start",
+  "sim": 0.0
+ },
+ {
+  "k": "homeCameraButton",
+  "en": "Camera",
+  "tr": "કેમેરા",
+  "back": "camera",
+  "sim": 1.0
+ },
+ {
+  "k": "homeGalleryButton",
+  "en": "Gallery",
+  "tr": "ગેલેરી",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "dateToday",
+  "en": "Today",
+  "tr": "આજે",
+  "back": "Today",
+  "sim": 1.0
+ },
+ {
+  "k": "dateYesterday",
+  "en": "Yesterday",
+  "tr": "ગઈકાલે",
+  "back": "Yesterday",
+  "sim": 1.0
+ },
+ {
+  "k": "homeRecentExports",
+  "en": "Recent Exports",
+  "tr": "તાજેતરના એક્સપોર્ટ",
+  "back": "Recent exports",
+  "sim": 1.0
+ },
+ {
+  "k": "homeEmptyStateMessage",
+  "en": "Tap Camera or Gallery to start.",
+  "tr": "શરૂ કરવા કેમેરા અથવા ગેલેરી પર ટૅપ કરો.",
+  "back": "Tap on the camera or gallery to start.",
+  "sim": 0.86
+ },
+ {
+  "k": "homeExportUnavailable",
+  "en": "This export is no longer available.",
+  "tr": "આ એક્સપોર્ટ હવે ઉપલબ્ધ નથી.",
+  "back": "This export is no longer available.",
+  "sim": 1.0
+ },
+ {
+  "k": "homeShareFailed",
+  "en": "Could not share this export.",
+  "tr": "આ એક્સપોર્ટ શેર કરી શકાયું નથી.",
+  "back": "This export could not be shared.",
+  "sim": 0.36
+ },
+ {
+  "k": "homeGalleryOpenFailed",
+  "en": "Could not open gallery.",
+  "tr": "ગેલેરી ખોલી શકાઈ નથી.",
+  "back": "The gallery could not be opened.",
+  "sim": 0.4
+ },
+ {
+  "k": "cameraTitle",
+  "en": "Camera",
+  "tr": "કેમેરા",
+  "back": "camera",
+  "sim": 1.0
+ },
+ {
+  "k": "cameraPermissionDenied",
+  "en": "Camera access is needed to take a photo. Please allow access.",
+  "tr": "ફોટો લેવા માટે કેમેરા ઍક્સેસ જરૂરી છે. કૃપા કરીને ઍક્સેસ આપો.",
+  "back": "A camera access is required to take a photo. Please provide access.",
+  "sim": 0.78
+ },
+ {
+  "k": "cameraPermissionPermanentlyDenied",
+  "en": "Camera access was denied. Enable it in Settings to continue.",
+  "tr": "કેમેરા ઍક્સેસ નકારવામાં આવી. આગળ વધવા સેટિંગ્સમાં ચાલુ કરો.",
+  "back": "Camera access was denied. Turn on the settings to proceed.",
+  "sim": 0.6
+ },
+ {
+  "k": "cameraPermissionRestricted",
+  "en": "Camera access is restricted on this device.",
+  "tr": "આ ડિવાઇસ પર કેમેરા ઍક્સેસ પ્રતિબંધિત છે.",
+  "back": "Access to the camera on this device is prohibited.",
+  "sim": 0.5
+ },
+ {
+  "k": "cameraNoCameraFound",
+  "en": "No camera found on this device.",
+  "tr": "આ ડિવાઇસ પર કેમેરા મળ્યો નથી.",
+  "back": "There is no camera on this device.",
+  "sim": 0.77
+ },
+ {
+  "k": "cameraStartFailed",
+  "en": "Could not start the camera.",
+  "tr": "કેમેરા શરૂ કરી શકાયો નથી.",
+  "back": "The camera cannot be started.",
+  "sim": 0.4
+ },
+ {
+  "k": "cameraCaptureFailed",
+  "en": "Could not capture photo.",
+  "tr": "ફોટો લઈ શકાયો નથી.",
+  "back": "Can't take a photo.",
+  "sim": 0.25
+ },
+ {
+  "k": "cameraOpenSettings",
+  "en": "Open Settings",
+  "tr": "સેટિંગ્સ ખોલો",
+  "back": "Open the settings",
+  "sim": 0.8
+ },
+ {
+  "k": "cameraFlashTooltip",
+  "en": "Flash",
+  "tr": "ફ્લેશ",
+  "back": "flash",
+  "sim": 1.0
+ },
+ {
+  "k": "cameraGalleryTooltip",
+  "en": "Gallery",
+  "tr": "ગેલેરી",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "cropTitle",
+  "en": "Crop & Rotate",
+  "tr": "ક્રોપ અને ફેરવો",
+  "back": "Crop and turn",
+  "sim": 0.4
+ },
+ {
+  "k": "cropLoadFailed",
+  "en": "Could not load the image.",
+  "tr": "છબી લોડ કરી શકાઈ નથી.",
+  "back": "The image could not be loaded.",
+  "sim": 0.36
+ },
+ {
+  "k": "cropRotateFailed",
+  "en": "Could not rotate the image.",
+  "tr": "છબી ફેરવી શકાઈ નથી.",
+  "back": "The image could not be turned.",
+  "sim": 0.36
+ },
+ {
+  "k": "cropFailed",
+  "en": "Crop failed.",
+  "tr": "ક્રોપ નિષ્ફળ ગયું.",
+  "back": "The crop failed.",
+  "sim": 0.8
+ },
+ {
+  "k": "cropSaveFailed",
+  "en": "Could not save the cropped image.",
+  "tr": "ક્રોપ કરેલી છબી સાચવી શકાઈ નથી.",
+  "back": "The cropped image could not be saved.",
+  "sim": 0.46
+ },
+ {
+  "k": "cropAspectFree",
+  "en": "Free",
+  "tr": "મુક્ત",
+  "back": "Free",
+  "sim": 1.0
+ },
+ {
+  "k": "cropContinue",
+  "en": "Continue",
+  "tr": "ચાલુ રાખો",
+  "back": "Keep on doing so.",
+  "sim": 0.0
+ },
+ {
+  "k": "editorSegmentationFailedMessage",
+  "en": "Your device doesn't support automatic background removal. Use the manual brush below.",
+  "tr": "તમારું ડિવાઇસ આપમેળે બૅકગ્રાઉન્ડ દૂર કરવાને સપોર્ટ કરતું નથી. નીચેના મેન્યુઅલ ઇરેઝરનો ઉપયોગ કરો.",
+  "back": "Your device does not support automatic background removal. Use the following manual eraser.",
+  "sim": 0.72
+ },
+ {
+  "k": "brushErase",
+  "en": "Erase",
+  "tr": "ભૂંસો",
+  "back": "Erase",
+  "sim": 1.0
+ },
+ {
+  "k": "brushRestore",
+  "en": "Restore",
+  "tr": "પાછું લાવો",
+  "back": "Bring it back.",
+  "sim": 0.0
+ },
+ {
+  "k": "brushSizeLabel",
+  "en": "Brush Size",
+  "tr": "બ્રશનું કદ",
+  "back": "The size of the brush",
+  "sim": 0.29
+ },
+ {
+  "k": "brushOpacityLabel",
+  "en": "Opacity",
+  "tr": "અપારદર્શકતા",
+  "back": "This is not the case in the United States.",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundWhite",
+  "en": "White",
+  "tr": "સફેદ",
+  "back": "White",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundTransparent",
+  "en": "Transparent",
+  "tr": "પારદર્શક",
+  "back": "Transparent",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundBlack",
+  "en": "Black",
+  "tr": "કાળો",
+  "back": "black",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundBlurLabel",
+  "en": "Blur",
+  "tr": "બ્લર",
+  "back": "blurred",
+  "sim": 0.0
+ },
+ {
+  "k": "edgeFeatherLabel",
+  "en": "Edge Smoothness",
+  "tr": "કિનારીની નરમાઈ",
+  "back": "The softness of the edge",
+  "sim": 0.29
+ },
+ {
+  "k": "toolbarUndo",
+  "en": "Undo",
+  "tr": "પૂર્વવત્",
+  "back": "What is the meaning of this verse?",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarRedo",
+  "en": "Redo",
+  "tr": "ફરી કરો",
+  "back": "Do it again",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarReset",
+  "en": "Reset",
+  "tr": "રીસેટ",
+  "back": "Reset",
+  "sim": 1.0
+ },
+ {
+  "k": "toolbarExport",
+  "en": "Export",
+  "tr": "એક્સપોર્ટ",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmTitle",
+  "en": "Reset edits?",
+  "tr": "ફેરફારો રીસેટ કરવા છે?",
+  "back": "Are the changes to reset?",
+  "sim": 0.29
+ },
+ {
+  "k": "resetConfirmBody",
+  "en": "This clears your manual brush strokes. This cannot be undone.",
+  "tr": "આનાથી તમે હાથે કરેલા બ્રશ સ્ટ્રોક ભૂંસાઈ જશે. આ પાછું લઈ શકાતું નથી.",
+  "back": "This will erase your hand-brush stroke. This cannot be withdrawn.",
+  "sim": 0.5
+ },
+ {
+  "k": "resetConfirmCancel",
+  "en": "Cancel",
+  "tr": "રદ કરો",
+  "back": "Cancellation",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmConfirm",
+  "en": "Reset",
+  "tr": "રીસેટ",
+  "back": "Reset",
+  "sim": 1.0
+ },
+ {
+  "k": "exportTitle",
+  "en": "Export",
+  "tr": "એક્સપોર્ટ",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "exportQualityLabel",
+  "en": "Quality: {value}",
+  "tr": "ગુણવત્તા: {value}",
+  "back": "Quality: [value]",
+  "sim": 1.0
+ },
+ {
+  "k": "exportResizeLabel",
+  "en": "Resize",
+  "tr": "કદ બદલો",
+  "back": "Change the size",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeOriginal",
+  "en": "Original",
+  "tr": "મૂળ",
+  "back": "The origin",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeCustom",
+  "en": "Custom",
+  "tr": "કસ્ટમ",
+  "back": "custom",
+  "sim": 1.0
+ },
+ {
+  "k": "exportWidthLabel",
+  "en": "Width (px)",
+  "tr": "પહોળાઈ (px)",
+  "back": "width (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportHeightLabel",
+  "en": "Height (px)",
+  "tr": "ઊંચાઈ (px)",
+  "back": "Height (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSaveToGallery",
+  "en": "Save to Gallery",
+  "tr": "ગેલેરીમાં સાચવો",
+  "back": "Save in the Gallery",
+  "sim": 0.57
+ },
+ {
+  "k": "exportShare",
+  "en": "Share",
+  "tr": "શેર",
+  "back": "share",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSuccess",
+  "en": "Exported!",
+  "tr": "એક્સપોર્ટ થયું!",
+  "back": "Exported!",
+  "sim": 1.0
+ },
+ {
+  "k": "exportFailed",
+  "en": "Export failed. Please try again.",
+  "tr": "એક્સપોર્ટ નિષ્ફળ. કૃપા કરીને ફરી પ્રયાસ કરો.",
+  "back": "Export failed. Please try again.",
+  "sim": 1.0
+ },
+ {
+  "k": "exportInProgress",
+  "en": "Exporting…",
+  "tr": "એક્સપોર્ટ થઈ રહ્યું છે…",
+  "back": "Exporting is...",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsTitle",
+  "en": "Settings",
+  "tr": "સેટિંગ્સ",
+  "back": "Settings",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsTheme",
+  "en": "Theme",
+  "tr": "થીમ",
+  "back": "theme",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsLanguage",
+  "en": "Language",
+  "tr": "ભાષા",
+  "back": "language",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "ખરીદી પુનઃસ્થાપિત કરો",
+  "back": "Restore purchases",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsGoAdFree",
+  "en": "Go Ad-Free",
+  "tr": "જાહેરાત-મુક્ત બનો",
+  "back": "Become an Advertiser-Free Person",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsPrivacyPolicy",
+  "en": "Privacy Policy",
+  "tr": "ગોપનીયતા નીતિ",
+  "back": "Privacy Policy",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsSupport",
+  "en": "Support",
+  "tr": "સપોર્ટ",
+  "back": "Support",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRateApp",
+  "en": "Rate App",
+  "tr": "એપને રેટિંગ આપો",
+  "back": "Give the app a rating",
+  "sim": 0.29
+ },
+ {
+  "k": "settingsShareApp",
+  "en": "Share App",
+  "tr": "એપ શેર કરો",
+  "back": "Share the App",
+  "sim": 0.8
+ },
+ {
+  "k": "settingsLicenses",
+  "en": "Open-source licenses",
+  "tr": "ઓપન-સોર્સ લાઇસન્સ",
+  "back": "Open-source licenses",
+  "sim": 1.0
+ },
+ {
+  "k": "reminderChannelName",
+  "en": "Edit reminders",
+  "tr": "એડિટ રિમાઇન્ડર",
+  "back": "Edit a reminder",
+  "sim": 0.4
+ },
+ {
+  "k": "reminderChannelDescription",
+  "en": "Reminders about edits you have not finished.",
+  "tr": "તમે પૂરા ન કરેલા એડિટ વિશે રિમાઇન્ડર.",
+  "back": "A reminder about an edit you haven't completed.",
+  "sim": 0.27
+ },
+ {
+  "k": "reminderTitle",
+  "en": "Your edit is waiting",
+  "tr": "તમારું એડિટ રાહ જોઈ રહ્યું છે",
+  "back": "Your editor is waiting.",
+  "sim": 0.75
+ },
+ {
+  "k": "reminderBody",
+  "en": "Pick up where you left off and export your photo.",
+  "tr": "જ્યાં છોડ્યું હતું ત્યાંથી આગળ વધો અને તમારો ફોટો એક્સપોર્ટ કરો.",
+  "back": "Move from where it left off and export your photo.",
+  "sim": 0.7
+ },
+ {
+  "k": "settingsReminders",
+  "en": "Edit reminders",
+  "tr": "એડિટ રિમાઇન્ડર",
+  "back": "Edit a reminder",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsAnimatedBackground",
+  "en": "Animated home background",
+  "tr": "હોમનું એનિમેટેડ બૅકગ્રાઉન્ડ",
+  "back": "An animated background of a home",
+  "sim": 0.44
+ },
+ {
+  "k": "settingsRemindersSubtitle",
+  "en": "Remind me about unfinished edits",
+  "tr": "અધૂરા એડિટ વિશે યાદ અપાવો",
+  "back": "Remind yourself of incomplete edits.",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsRemindersBlocked",
+  "en": "Notifications are turned off for PhotoSur in your phone's settings.",
+  "tr": "તમારા ફોનના સેટિંગ્સમાં PhotoSur માટે નોટિફિકેશન બંધ છે.",
+  "back": "Notifications for PhotoSur are off in your phone settings.",
+  "sim": 0.63
+ },
+ {
+  "k": "editorBrushHint",
+  "en": "Drag to paint. Pinch with two fingers to zoom.",
+  "tr": "રંગવા માટે ખેંચો. ઝૂમ કરવા બે આંગળીથી પિંચ કરો.",
+  "back": "Pull to paint. Pinch with two fingers to zoom in.",
+  "sim": 0.84
+ },
+ {
+  "k": "editorToolCutout",
+  "en": "Cut-out",
+  "tr": "કટ-આઉટ",
+  "back": "Cut-out",
+  "sim": 1.0
+ },
+ {
+  "k": "editorToolBrush",
+  "en": "Brush",
+  "tr": "બ્રશ",
+  "back": "brush",
+  "sim": 1.0
+ },
+ {
+  "k": "editorToolBackground",
+  "en": "Background",
+  "tr": "બૅકગ્રાઉન્ડ",
+  "back": "Background",
+  "sim": 1.0
+ },
+ {
+  "k": "editorToolLayout",
+  "en": "Layout",
+  "tr": "લેઆઉટ",
+  "back": "layout",
+  "sim": 1.0
+ },
+ {
+  "k": "layoutAutoCenter",
+  "en": "Auto-center",
+  "tr": "ઓટો-સેન્ટર",
+  "back": "Auto-centered",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutSizeLabel",
+  "en": "Size",
+  "tr": "કદ",
+  "back": "size",
+  "sim": 1.0
+ },
+ {
+  "k": "layoutShadowLabel",
+  "en": "Shadow",
+  "tr": "પડછાયો",
+  "back": "The Shadow",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundPhoto",
+  "en": "Photo",
+  "tr": "ફોટો",
+  "back": "photo",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundPhotoFailed",
+  "en": "Could not load that photo.",
+  "tr": "તે ફોટો લોડ કરી શકાયો નથી.",
+  "back": "That photo cannot be loaded.",
+  "sim": 0.4
+ },
+ {
+  "k": "editorLayoutHint",
+  "en": "Drag to move. Pinch with two fingers to resize.",
+  "tr": "ખસેડવા માટે ખેંચો. કદ બદલવા બે આંગળીથી પિંચ કરો.",
+  "back": "Pull to move. Pinch with two fingers to change size.",
+  "sim": 0.74
+ },
+ {
+  "k": "languageSystemDefault",
+  "en": "System default",
+  "tr": "સિસ્ટમ ડિફોલ્ટ",
+  "back": "System Default",
+  "sim": 1.0
+ },
+ {
+  "k": "languageSheetTitle",
+  "en": "Language",
+  "tr": "ભાષા",
+  "back": "language",
+  "sim": 1.0
+ },
+ {
+  "k": "themeSheetTitle",
+  "en": "Theme",
+  "tr": "થીમ",
+  "back": "theme",
+  "sim": 1.0
+ },
+ {
+  "k": "themeOptionSystem",
+  "en": "System default",
+  "tr": "સિસ્ટમ ડિફોલ્ટ",
+  "back": "System Default",
+  "sim": 1.0
+ },
+ {
+  "k": "themeOptionLight",
+  "en": "Light",
+  "tr": "લાઇટ",
+  "back": "Light",
+  "sim": 1.0
+ },
+ {
+  "k": "themeOptionDark",
+  "en": "Dark",
+  "tr": "ડાર્ક",
+  "back": "The dark",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsLinkNotReady",
+  "en": "This link isn't set up yet.",
+  "tr": "આ લિંક હજી સેટ કરવામાં આવી નથી.",
+  "back": "This link has not yet been set.",
+  "sim": 0.46
+ },
+ {
+  "k": "settingsLinkOpenFailed",
+  "en": "Could not open link.",
+  "tr": "લિંક ખોલી શકાઈ નથી.",
+  "back": "The link could not be opened.",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsRestoreRequested",
+  "en": "Restore requested — check back in a moment.",
+  "tr": "પુનઃસ્થાપનાની વિનંતી કરી — થોડીવાર પછી જુઓ.",
+  "back": "Request a restoration  See you in a few minutes.",
+  "sim": 0.25
+ },
+ {
+  "k": "settingsRestoreFailed",
+  "en": "Restore failed.",
+  "tr": "પુનઃસ્થાપના નિષ્ફળ.",
+  "back": "Failed restoration.",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsShareFailed",
+  "en": "Could not share.",
+  "tr": "શેર કરી શકાયું નથી.",
+  "back": "Could not be shared.",
+  "sim": 0.57
+ },
+ {
+  "k": "settingsShareAppMessage",
+  "en": "Remove photo backgrounds instantly with PhotoSur — free, no watermark.",
+  "tr": "PhotoSur સાથે ફોટાના બૅકગ્રાઉન્ડ તરત દૂર કરો — મફત, વોટરમાર્ક નથી.",
+  "back": "Immediately remove the background of photos with PhotoSur  Free, not a watermark.",
+  "sim": 0.48
+ },
+ {
+  "k": "paywallTitle",
+  "en": "Go Ad-Free",
+  "tr": "જાહેરાત-મુક્ત બનો",
+  "back": "Become an Advertiser-Free Person",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallAlreadyAdFree",
+  "en": "You're already ad-free. Thank you!",
+  "tr": "તમે પહેલેથી જાહેરાત-મુક્ત છો. આભાર!",
+  "back": "You are already ad-free. Thank you!",
+  "sim": 0.73
+ },
+ {
+  "k": "paywallPlanFreeTitle",
+  "en": "Free",
+  "tr": "મફત",
+  "back": "Free of charge",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPlanAdFreeTitle",
+  "en": "Ad-Free",
+  "tr": "જાહેરાત-મુક્ત",
+  "back": "Advertising-free",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPlanAdFreePrice",
+  "en": "One-time purchase",
+  "tr": "એક વારની ખરીદી",
+  "back": "The purchase of a turn",
+  "sim": 0.29
+ },
+ {
+  "k": "paywallFeatureAllFeatures",
+  "en": "All features",
+  "tr": "બધી સુવિધાઓ",
+  "back": "All the features",
+  "sim": 0.8
+ },
+ {
+  "k": "paywallFeatureAdSupported",
+  "en": "Ad-supported",
+  "tr": "જાહેરાતો સાથે",
+  "back": "with advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureZeroAds",
+  "en": "Zero ads",
+  "tr": "કોઈ જાહેરાત નહીં",
+  "back": "There is no advertisement.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPurchaseButton",
+  "en": "Remove Ads",
+  "tr": "જાહેરાતો દૂર કરો",
+  "back": "Remove advertisements",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPurchaseButtonPrice",
+  "en": "Remove Ads — {price}",
+  "tr": "જાહેરાતો દૂર કરો — {price}",
+  "back": "Remove ads  [price]",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "ખરીદી પુનઃસ્થાપિત કરો",
+  "back": "Restore purchases",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallProductUnavailable",
+  "en": "Ad removal is not available right now.",
+  "tr": "જાહેરાતો દૂર કરવાનું હાલમાં ઉપલબ્ધ નથી.",
+  "back": "Ad removal is not currently available.",
+  "sim": 0.77
+ },
+ {
+  "k": "paywallPurchaseFailed",
+  "en": "Purchase failed.",
+  "tr": "ખરીદી નિષ્ફળ.",
+  "back": "The purchase failed.",
+  "sim": 0.8
+ },
+ {
+  "k": "errorScreenTitle",
+  "en": "Something went wrong",
+  "tr": "કંઈક ખોટું થયું",
+  "back": "Something went wrong.",
+  "sim": 1.0
+ },
+ {
+  "k": "errorScreenBody",
+  "en": "Try again, or restart the app if this keeps happening.",
+  "tr": "ફરી પ્રયાસ કરો, અથવા આમ થતું રહે તો એપ ફરી શરૂ કરો.",
+  "back": "Try again, or restart the app if this continues.",
+  "sim": 0.84
+ },
+ {
+  "k": "errorScreenGoBack",
+  "en": "Go back",
+  "tr": "પાછા જાઓ",
+  "back": "Go back",
+  "sim": 1.0
+ },
+ {
+  "k": "errorScreenReportEmail",
+  "en": "Report via {email}",
+  "tr": "{email} દ્વારા જાણ કરો",
+  "back": "Report by [email]",
+  "sim": 0.67
+ },
+ {
+  "k": "unsupportedTitle",
+  "en": "Device Not Supported",
+  "tr": "ડિવાઇસ સપોર્ટેડ નથી",
+  "back": "The device is not supported",
+  "sim": 0.75
+ },
+ {
+  "k": "unsupportedNoCameraMessage",
+  "en": "This device doesn't have a camera available.",
+  "tr": "આ ડિવાઇસ પર કેમેરા ઉપલબ્ધ નથી.",
+  "back": "The camera is not available on this device.",
+  "sim": 0.27
+ },
+ {
+  "k": "unsupportedLowMemoryMessage",
+  "en": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
+  "tr": "PhotoSur નું એડિટર વિશ્વસનીય રીતે ચલાવવા માટે આ ડિવાઇસ પર પૂરતી મેમરી નથી.",
+  "back": "PhotoSur's editor does not have enough memory on this device to run reliably.",
+  "sim": 0.5
+ },
+ {
+  "k": "unsupportedManualImportHint",
+  "en": "You can still import a photo from your gallery and use the manual brush tool.",
+  "tr": "તમે હજી પણ ગેલેરીમાંથી ફોટો ઇમ્પોર્ટ કરીને મેન્યુઅલ બ્રશ ટૂલ વાપરી શકો છો.",
+  "back": "You can still use the manual brush tool by importing a photo from the gallery.",
+  "sim": 0.53
+ },
+ {
+  "k": "unsupportedUseGalleryButton",
+  "en": "Import from Gallery",
+  "tr": "ગેલેરીમાંથી ઇમ્પોર્ટ",
+  "back": "Import from Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "homeBatchButton",
+  "en": "Batch",
+  "tr": "બૅચ",
+  "back": "Batch",
+  "sim": 1.0
+ },
+ {
+  "k": "batchTitle",
+  "en": "Batch cut-out",
+  "tr": "બૅચ કટ-આઉટ",
+  "back": "Batch cut-out",
+  "sim": 1.0
+ },
+ {
+  "k": "batchOutputTransparent",
+  "en": "Transparent PNG",
+  "tr": "પારદર્શક PNG",
+  "back": "Transparent PNG",
+  "sim": 1.0
+ },
+ {
+  "k": "batchOutputWhite",
+  "en": "White background (JPG)",
+  "tr": "સફેદ બૅકગ્રાઉન્ડ (JPG)",
+  "back": "White background (JPG)",
+  "sim": 1.0
+ },
+ {
+  "k": "batchStart",
+  "en": "Start",
+  "tr": "શરૂ કરો",
+  "back": "How to Start",
+  "sim": 0.5
+ },
+ {
+  "k": "batchStop",
+  "en": "Stop",
+  "tr": "રોકો",
+  "back": "Stop it",
+  "sim": 0.67
+ },
+ {
+  "k": "batchDone",
+  "en": "Done",
+  "tr": "પૂર્ણ",
+  "back": "complete",
+  "sim": 0.0
+ },
+ {
+  "k": "batchProgress",
+  "en": "{done} of {total} done",
+  "tr": "{total} માંથી {done} પૂર્ણ",
+  "back": "[total] from [done] complete",
+  "sim": 0.25
+ },
+ {
+  "k": "batchSaved",
+  "en": "{count} saved to your gallery",
+  "tr": "{count} ફોટા તમારી ગેલેરીમાં સાચવ્યા",
+  "back": "[count] Photos saved to your gallery",
+  "sim": 0.91
+ },
+ {
+  "k": "batchSomeFailed",
+  "en": "{count} could not be processed",
+  "tr": "{count} ફોટા પ્રોસેસ થઈ શક્યા નથી",
+  "back": "[count] Photos could not be processed",
+  "sim": 0.91
+ },
+ {
+  "k": "batchTooMany",
+  "en": "Up to {max} photos at a time",
+  "tr": "એક સમયે વધુમાં વધુ {max} ફોટા",
+  "back": "Maximum [max] photos at a time",
+  "sim": 0.77
+ },
+ {
+  "k": "backgroundAddCustom",
+  "en": "Add custom background",
+  "tr": "કસ્ટમ બૅકગ્રાઉન્ડ ઉમેરો",
+  "back": "Add a custom background",
+  "sim": 0.86
+ },
+ {
+  "k": "backgroundCustomColor",
+  "en": "Custom color",
+  "tr": "કસ્ટમ રંગ",
+  "back": "Custom color",
+  "sim": 1.0
+ },
+ {
+  "k": "colorSaturation",
+  "en": "Saturation",
+  "tr": "સંતૃપ્તિ",
+  "back": "Satisfaction",
+  "sim": 0.0
+ },
+ {
+  "k": "colorBrightness",
+  "en": "Brightness",
+  "tr": "તેજસ્વિતા",
+  "back": "The brightness",
+  "sim": 0.67
+ },
+ {
+  "k": "colorHexLabel",
+  "en": "Hex code",
+  "tr": "હેક્સ કોડ",
+  "back": "Hex code",
+  "sim": 1.0
+ },
+ {
+  "k": "colorPickerDone",
+  "en": "Done",
+  "tr": "પૂર્ણ",
+  "back": "complete",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceLabel",
+  "en": "Marketplace",
+  "tr": "માર્કેટપ્લેસ",
+  "back": "Marketplace",
+  "sim": 1.0
+ },
+ {
+  "k": "exportMarketplaceWhiteFill",
+  "en": "Pure white background, product fills the frame",
+  "tr": "શુદ્ધ સફેદ બૅકગ્રાઉન્ડ, પ્રોડક્ટ ફ્રેમ ભરે છે",
+  "back": "Pure white background, filling the product frame",
+  "sim": 0.71
+ },
+ {
+  "k": "exportMarketplaceSizeCap",
+  "en": "File kept under {size} MB",
+  "tr": "ફાઇલ {size} MB થી ઓછી",
+  "back": "File [size] less than MB",
+  "sim": 0.6
+ },
+ {
+  "k": "editorToolTemplates",
+  "en": "Templates",
+  "tr": "ટેમ્પલેટ",
+  "back": "Template",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTitle",
+  "en": "Choose a template",
+  "tr": "ટેમ્પલેટ પસંદ કરો",
+  "back": "Select a template",
+  "sim": 0.67
+ },
+ {
+  "k": "templatesStudio",
+  "en": "Studio",
+  "tr": "સ્ટુડિયો",
+  "back": "The studio",
+  "sim": 0.67
+ },
+ {
+  "k": "templatesColorBlock",
+  "en": "Color block",
+  "tr": "કલર બ્લોક",
+  "back": "Color block",
+  "sim": 1.0
+ },
+ {
+  "k": "templatesTextures",
+  "en": "Textures",
+  "tr": "ટેક્સચર",
+  "back": "Texture",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesLight",
+  "en": "Light & shadow",
+  "tr": "પ્રકાશ અને પડછાયો",
+  "back": "Light and Shadow",
+  "sim": 0.8
+ },
+ {
+  "k": "templatesPatterns",
+  "en": "Gradients & patterns",
+  "tr": "ગ્રેડિયન્ટ અને પેટર્ન",
+  "back": "gradients and patterns",
+  "sim": 0.8
+ },
+ {
+  "k": "hdGetAction",
+  "en": "Get HD cut-out",
+  "tr": "HD કટઆઉટ મેળવો",
+  "back": "Get an HD cut out",
+  "sim": 0.5
+ },
+ {
+  "k": "hdRedoAction",
+  "en": "Redo cut-out in HD",
+  "tr": "HD માં કટઆઉટ ફરી કરો",
+  "back": "Re-cut out in HD",
+  "sim": 0.5
+ },
+ {
+  "k": "hdDownloading",
+  "en": "HD cut-out in progress… {percent}%",
+  "tr": "HD કટઆઉટ ચાલી રહ્યું છે… {percent}%",
+  "back": "HD cutout going on... [percent]%",
+  "sim": 0.6
+ },
+ {
+  "k": "hdDownloadingShort",
+  "en": "HD cut-out… {percent}%",
+  "tr": "HD કટઆઉટ… {percent}%",
+  "back": "HD cut out... [percent]%",
+  "sim": 0.57
+ },
+ {
+  "k": "hdConfirmTitle",
+  "en": "Download HD cut-out model?",
+  "tr": "HD કટઆઉટ મૉડલ ડાઉનલોડ કરવું?",
+  "back": "Downloading an HD cut-out model?",
+  "sim": 0.67
+ },
+ {
+  "k": "hdConfirmBody",
+  "en": "Cleaner edges on tricky objects like shoes, bags and bottles. It downloads once, stays on your phone and then works offline. Mobile data charges may apply.",
+  "tr": "બૂટ, બેગ અને બોટલ જેવી અઘરી વસ્તુઓની કિનારીઓ વધુ સ્વચ્છ. એક જ વાર ડાઉનલોડ થાય છે, ફોનમાં રહે છે અને પછી ઑફલાઇન ચાલે છે. મોબાઇલ ડેટા ચાર્જ લાગી શકે છે.",
+  "back": "The edges of heavy items such as boots, bags and bottles are cleaner. Once downloaded, stay on the phone and then run offline. Mobile data may charge.",
+  "sim": 0.49
+ },
+ {
+  "k": "hdDownload",
+  "en": "Download",
+  "tr": "ડાઉનલોડ કરો",
+  "back": "Download the following:",
+  "sim": 0.5
+ },
+ {
+  "k": "hdFailed",
+  "en": "HD cut-out didn’t finish. Check your connection and try again.",
+  "tr": "HD કટઆઉટ પૂર્ણ થયું નથી. કનેક્શન તપાસો અને ફરી પ્રયાસ કરો.",
+  "back": "HD cutout is not complete. Check the connection and try again.",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsHdTitle",
+  "en": "HD cut-out model",
+  "tr": "HD કટઆઉટ મૉડલ",
+  "back": "HD cut-out model",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsHdNotInstalled",
+  "en": "Not downloaded",
+  "tr": "ડાઉનલોડ કર્યું નથી",
+  "back": "Not downloaded",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsHdInstalled",
+  "en": "Installed · works offline",
+  "tr": "ઇન્સ્ટૉલ છે · ઑફલાઇન ચાલે છે",
+  "back": "Installed · Running offline",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsHdRemove",
+  "en": "Remove",
+  "tr": "દૂર કરો",
+  "back": "Remove",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsReplayIntro",
+  "en": "Replay intro",
+  "tr": "ઇન્ટ્રો ફરી જુઓ",
+  "back": "Look at the intro again.",
+  "sim": 0.29
+ },
+ {
+  "k": "homeSeeAll",
+  "en": "See all",
+  "tr": "બધું જુઓ",
+  "back": "Look at everything.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportActionEdit",
+  "en": "Edit again",
+  "tr": "ફરી સંપાદિત કરો",
+  "back": "Re-edit",
+  "sim": 0.0
+ },
+ {
+  "k": "exportActionDelete",
+  "en": "Delete",
+  "tr": "કાઢી નાખો",
+  "back": "Delete",
+  "sim": 1.0
+ },
+ {
+  "k": "exportMoreOptions",
+  "en": "More options",
+  "tr": "વધુ વિકલ્પો",
+  "back": "More options",
+  "sim": 1.0
+ },
+ {
+  "k": "exportDeleteTitle",
+  "en": "Delete this export?",
+  "tr": "આ એક્સપોર્ટ કાઢી નાખવું?",
+  "back": "Deleting this export?",
+  "sim": 0.67
+ },
+ {
+  "k": "exportDeleteBody",
+  "en": "Exported images are removed from this phone. Your original photos and anything saved to your gallery are not affected.",
+  "tr": "એક્સપોર્ટ કરેલી છબીઓ આ ફોનમાંથી દૂર થાય છે. તમારા મૂળ ફોટા અને ગેલેરીમાં સાચવેલું કંઈ પણ અસર પામતું નથી.",
+  "back": "Exported images are removed from this phone. Nothing saved in your original photos and gallery is affected.",
+  "sim": 0.72
+ },
+ {
+  "k": "exportSavedToGallery",
+  "en": "Saved to your gallery",
+  "tr": "તમારી ગેલેરીમાં સાચવ્યું",
+  "back": "Save in your gallery",
+  "sim": 0.5
+ },
+ {
+  "k": "exportSaveFailed",
+  "en": "Could not save to the gallery.",
+  "tr": "ગેલેરીમાં સાચવી શકાયું નથી.",
+  "back": "Could not be saved in the gallery.",
+  "sim": 0.62
+ },
+ {
+  "k": "exportUnavailable",
+  "en": "Unavailable",
+  "tr": "ઉપલબ્ધ નથી",
+  "back": "Not available",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsGroupThisWeek",
+  "en": "This week",
+  "tr": "આ અઠવાડિયે",
+  "back": "This week",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsGroupEarlier",
+  "en": "Earlier",
+  "tr": "પહેલાંનું",
+  "back": "The previous one",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsStorageUsed",
+  "en": "{size} used on this phone",
+  "tr": "આ ફોનમાં {size} વપરાયું",
+  "back": "[size] used in this phone",
+  "sim": 0.8
+ },
+ {
+  "k": "exportsSelect",
+  "en": "Select",
+  "tr": "પસંદ કરો",
+  "back": "Select",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDone",
+  "en": "Done",
+  "tr": "થઈ ગયું",
+  "back": "It's been done.",
+  "sim": 0.5
+ },
+ {
+  "k": "exportsSelectedCount",
+  "en": "{count} selected",
+  "tr": "{count} પસંદ કર્યા",
+  "back": "[count] selected",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDeleteSelectedTitle",
+  "en": "Delete {count} exports?",
+  "tr": "{count} એક્સપોર્ટ કાઢી નાખવા?",
+  "back": "[count] Delete the export?",
+  "sim": 0.29
+ },
+ {
+  "k": "exportsDeleteAll",
+  "en": "Delete all exports",
+  "tr": "બધા એક્સપોર્ટ કાઢી નાખો",
+  "back": "Delete all exports",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDeleteAllTitle",
+  "en": "Delete all exports?",
+  "tr": "બધા એક્સપોર્ટ કાઢી નાખવા?",
+  "back": "Delete all exports?",
+  "sim": 1.0
+ },
+ {
+  "k": "helpTitle",
+  "en": "Help & how to use",
+  "tr": "મદદ અને ઉપયોગની રીત",
+  "back": "Help and How to Use It",
+  "sim": 0.8
+ },
+ {
+  "k": "helpIntro",
+  "en": "Tap a topic to read how it works.",
+  "tr": "કોઈ વિષય પર ટૅપ કરો અને તે કેવી રીતે કામ કરે છે તે વાંચો.",
+  "back": "Tap on a topic and read how it works.",
+  "sim": 0.82
+ },
+ {
+  "k": "helpStartTitle",
+  "en": "Getting started",
+  "tr": "શરૂઆત કરો",
+  "back": "How can I help you?",
+  "sim": 0.0
+ },
+ {
+  "k": "helpStart1",
+  "en": "On the home screen, tap Camera to take a photo or Gallery to pick one. Batch cuts out many photos at once.",
+  "tr": "હોમ સ્ક્રીન પર ફોટો લેવા માટે કેમેરા અથવા ફોટો પસંદ કરવા માટે ગેલેરી ટૅપ કરો. બૅચ એકસાથે ઘણા ફોટોના કટ-આઉટ બનાવે છે.",
+  "back": "Tap Gallery to select a camera or photo to take a photo on the home screen. The batch creates a cut-out of many photos together.",
+  "sim": 0.3
+ },
+ {
+  "k": "helpStart2",
+  "en": "Every photo opens in Crop & Rotate first, then in the editor. Your original photo is never changed.",
+  "tr": "દરેક ફોટો પહેલા ક્રોપ અને ફેરવો માં ખુલે છે, પછી એડિટરમાં. તમારો મૂળ ફોટો ક્યારેય બદલાતો નથી.",
+  "back": "Each photo opens first in crop and rotate, then in the editor. Your original photo never changes.",
+  "sim": 0.76
+ },
+ {
+  "k": "helpStart3",
+  "en": "When you are happy, tap Export in the editor. Recent Exports on the home screen lists everything you have exported.",
+  "tr": "સંતોષ થાય ત્યારે એડિટરમાં એક્સપોર્ટ ટૅપ કરો. હોમ સ્ક્રીન પરનું તાજેતરના એક્સપોર્ટ તમે એક્સપોર્ટ કરેલું બધું બતાવે છે.",
+  "back": "Tap Export in the editor when satisfied. The most recent export on the home screen shows everything you exported.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpCropTitle",
+  "en": "Crop & Rotate",
+  "tr": "ક્રોપ અને ફેરવો",
+  "back": "Crop and turn",
+  "sim": 0.4
+ },
+ {
+  "k": "helpCrop1",
+  "en": "Turn the photo left or right in 90° steps, and drag the frame to choose the part you want to keep.",
+  "tr": "ફોટોને ૯૦°ના પગલાંમાં ડાબે અથવા જમણે ફેરવો અને રાખવાનો ભાગ પસંદ કરવા ફ્રેમને ખેંચો.",
+  "back": "Turn the photo 90° to the left or right and drag the frame to select the part to hold.",
+  "sim": 0.7
+ },
+ {
+  "k": "helpCrop2",
+  "en": "Free lets you shape the frame as you like. 1:1, 4:5 and 9:16 lock its shape. Tap Continue to open the editor.",
+  "tr": "મુક્ત તમને ફ્રેમને ગમે તે આકાર આપવા દે છે. ૧:૧, ૪:૫ અને ૯:૧૬ તેનો આકાર લૉક કરે છે. એડિટર ખોલવા ચાલુ રાખો ટૅપ કરો.",
+  "back": "Free allows you to change the shape of the frame. 1:1, 4:5, and 9:16 lock the shape of the frame.",
+  "sim": 0.57
+ },
+ {
+  "k": "helpCutoutTitle",
+  "en": "Cut-out",
+  "tr": "કટ-આઉટ",
+  "back": "Cut-out",
+  "sim": 1.0
+ },
+ {
+  "k": "helpCutout1",
+  "en": "When the editor opens, PhotoSur finds the main subject and removes the background automatically, on your phone. No internet is needed.",
+  "tr": "એડિટર ખુલે ત્યારે PhotoSur મુખ્ય વિષય શોધે છે અને તમારા ફોન પર જ આપમેળે બૅકગ્રાઉન્ડ કાઢી નાખે છે. ઇન્ટરનેટની જરૂર નથી.",
+  "back": "When the editor opens, PhotoSur finds the main subject and automatically deletes the background on your phone. No Internet is required.",
+  "sim": 0.86
+ },
+ {
+  "k": "helpCutout2",
+  "en": "Edge Smoothness softens the edge of the cut-out, from 0 to 20 pixels.",
+  "tr": "કિનારીની નરમાઈ કટ-આઉટની કિનારીને ૦ થી ૨૦ પિક્સેલ સુધી નરમ બનાવે છે.",
+  "back": "The soft edge of the cut-out makes the edge of the cut-out soft by 0 to 20 pixels.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpCutout3",
+  "en": "The eye button at the top shows your original photo so you can compare. Tap it again to go back. The brush is paused while the original is shown.",
+  "tr": "ઉપરનું આંખનું બટન સરખામણી માટે તમારો મૂળ ફોટો બતાવે છે. પાછા જવા ફરી ટૅપ કરો. મૂળ ફોટો દેખાય ત્યાં સુધી બ્રશ થોભેલું રહે છે.",
+  "back": "The eye button above shows your original photo for comparison. Tap again to go back. The brush stops until the original photo appears.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpCutout4",
+  "en": "For difficult subjects such as glass, shoes, bags and bottles, tap Get HD cut-out. The HD model downloads once, stays on your phone and then works offline. Once it is installed, every new cut-out uses it automatically. To redo the photo you have open, tap Redo cut-out in HD.",
+  "tr": "કાચ, જૂતાં, બૅગ અને બોટલ જેવા મુશ્કેલ વિષયો માટે HD કટઆઉટ મેળવો ટૅપ કરો. HD મૉડલ ફક્ત એક જ વાર ડાઉનલોડ થાય છે, તમારા ફોન પર રહે છે અને પછી ઑફલાઇન ચાલે છે. ઇન્સ્ટૉલ થયા પછી દરેક નવો કટ-આઉટ તેને આપમેળે વાપરે છે. ખુલ્લો ફોટો ફરીથી કરવા HD માં કટઆઉટ ફરી કરો ટૅપ કરો.",
+  "back": "The HD model is downloaded only once, stays on your phone, and then runs offline. Each new cut-out uses it automatically after installation.",
+  "sim": 0.44
+ },
+ {
+  "k": "helpBrushTitle",
+  "en": "Brush",
+  "tr": "બ્રશ",
+  "back": "brush",
+  "sim": 1.0
+ },
+ {
+  "k": "helpBrush1",
+  "en": "Erase removes parts of the subject. Restore brings back parts the cut-out removed.",
+  "tr": "ભૂંસો વિષયના કેટલાક ભાગ દૂર કરે છે. પાછું લાવો કટ-આઉટે દૂર કરેલા ભાગો પાછા લાવે છે.",
+  "back": "Remove some parts of the subject. Bring back cut-out removes parts.",
+  "sim": 0.5
+ },
+ {
+  "k": "helpBrush2",
+  "en": "Drag one finger to paint. Use two fingers to zoom, up to 8 times, and to move the photo. The brush keeps its size on screen, so zooming in gives finer control.",
+  "tr": "રંગવા માટે એક આંગળીથી ખેંચો. ૮ ગણું ઝૂમ કરવા અને ફોટો ખસેડવા બે આંગળીઓ વાપરો. બ્રશ સ્ક્રીન પર પોતાનું કદ જાળવે છે, તેથી ઝૂમ કરવાથી તમે વધુ ચોક્કસ કામ કરી શકો છો.",
+  "back": "Draw with one finger to paint. Use two fingers to zoom in eight times and move the photo. The brush retains its size on the screen, so zooming allows you to do a more precise job.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpBrush3",
+  "en": "Brush Size goes from 1 to 50. Opacity sets how strongly each stroke applies.",
+  "tr": "બ્રશનું કદ ૧ થી ૫૦ સુધી છે. અપારદર્શકતા નક્કી કરે છે કે દરેક સ્ટ્રોક કેટલો ઘેરો હશે.",
+  "back": "The size of the brush varies from 1 to 50. The opacity determines how dark each stroke will be.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpBrush4",
+  "en": "Undo and Redo step through your brush strokes. Reset clears all brush strokes and goes back to the automatic cut-out; it asks you to confirm first.",
+  "tr": "પૂર્વવત્ અને ફરી કરો તમારા બ્રશ સ્ટ્રોકમાંથી આગળ-પાછળ જાય છે. રીસેટ બધા સ્ટ્રોક ભૂંસીને સ્વચાલિત કટ-આઉટ પર પાછું જાય છે; પહેલાં પુષ્ટિ પૂછવામાં આવે છે.",
+  "back": "Reset goes back and forth from your brush stroke by deleting all strokes and returning to automatic cut-out; confirmation is asked first.",
+  "sim": 0.42
+ },
+ {
+  "k": "helpBackgroundTitle",
+  "en": "Background",
+  "tr": "બૅકગ્રાઉન્ડ",
+  "back": "Background",
+  "sim": 1.0
+ },
+ {
+  "k": "helpBackground1",
+  "en": "Choose what goes behind your subject: transparent, white, black, a gradient, a colour, a blurred copy of your photo, or your own photo.",
+  "tr": "વિષયની પાછળ શું હોય તે પસંદ કરો: પારદર્શક, સફેદ, કાળો, ગ્રેડિયન્ટ, કોઈ રંગ, તમારા ફોટાની ઝાંખી નકલ અથવા તમારો પોતાનો ફોટો.",
+  "back": "Choose what is behind the subject: transparent, white, black, gradient, any color, an overview copy of your photo or your own photo.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpBackground2",
+  "en": "Only one background is used at a time. Your latest choice replaces the earlier one.",
+  "tr": "એક સમયે ફક્ત એક જ બૅકગ્રાઉન્ડ વપરાય છે. તમારી છેલ્લી પસંદગી પાછલીને બદલી નાખે છે.",
+  "back": "Only one background is used at a time. Your last choice replaces the previous one.",
+  "sim": 0.87
+ },
+ {
+  "k": "helpBackground3",
+  "en": "Add custom background lets you pick a photo from your gallery. Custom color opens a colour picker. The Blur slider goes from 0 to 25.",
+  "tr": "કસ્ટમ બૅકગ્રાઉન્ડ ઉમેરો તમને ગેલેરીમાંથી ફોટો પસંદ કરવા દે છે. કસ્ટમ રંગ રંગ પસંદગીકર્તા ખોલે છે. બ્લર સ્લાઇડર ૦ થી ૨૫ સુધી છે.",
+  "back": "Adding a custom background allows you to select a photo from a gallery. Opens a custom color selector. Blur sliders range from 0 to 25.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpBackground4",
+  "en": "Transparent shows a checkerboard while you edit. Export as PNG to keep it transparent.",
+  "tr": "પારદર્શક સંપાદન દરમિયાન ચેસબોર્ડ જેવી ભાત બતાવે છે. પારદર્શકતા જાળવવા PNG તરીકે એક્સપોર્ટ કરો.",
+  "back": "Displays a chessboard-like layout during transparent editing. Export as PNG to maintain transparency.",
+  "sim": 0.37
+ },
+ {
+  "k": "helpTemplatesTitle",
+  "en": "Templates",
+  "tr": "ટેમ્પલેટ",
+  "back": "Template",
+  "sim": 0.0
+ },
+ {
+  "k": "helpTemplates1",
+  "en": "Templates are ready-made backgrounds in five groups: Studio, Color block, Textures, Light & shadow, and Gradients & patterns. Five scenes are shown in the panel; tap the Templates button to see them all.",
+  "tr": "ટેમ્પલેટ એટલે પાંચ જૂથોમાં તૈયાર બૅકગ્રાઉન્ડ: સ્ટુડિયો, કલર બ્લોક, ટેક્સચર, પ્રકાશ અને પડછાયો અને ગ્રેડિયન્ટ અને પેટર્ન. પૅનલમાં પાંચ દૃશ્યો દેખાય છે; બધા જોવા ટેમ્પલેટ બટન પર ટૅપ કરો.",
+  "back": "A template is a set of backgrounds in five groups: studio, color block, texture, light and shadow, and gradient and pattern. The panel displays five views; tap the template button to see all.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpTemplates2",
+  "en": "Choosing a template works like choosing your own photo as the background: it replaces your earlier background choice.",
+  "tr": "ટેમ્પલેટ પસંદ કરવું એ તમારો પોતાનો ફોટો બૅકગ્રાઉન્ડ તરીકે પસંદ કરવા જેવું જ છે: તે તમારી અગાઉની બૅકગ્રાઉન્ડ પસંદગીને બદલે છે.",
+  "back": "Choosing a template is similar to choosing your own photo as a background: It replaces your previous background preference.",
+  "sim": 0.7
+ },
+ {
+  "k": "helpLayoutTitle",
+  "en": "Layout",
+  "tr": "લેઆઉટ",
+  "back": "layout",
+  "sim": 1.0
+ },
+ {
+  "k": "helpLayout1",
+  "en": "Drag the subject on the photo to move it. Pinch with two fingers to resize it.",
+  "tr": "વિષયને ખસેડવા ફોટા પર ખેંચો. કદ બદલવા બે આંગળીઓથી પિંચ કરો.",
+  "back": "Drag to the photo to move the subject. Pinch with two fingers to change size.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpLayout2",
+  "en": "Choose Original, 1:1, 4:5 or 9:16 to set the shape of the final picture.",
+  "tr": "અંતિમ છબીનો આકાર નક્કી કરવા મૂળ, ૧:૧, ૪:૫ અથવા ૯:૧૬ પસંદ કરો.",
+  "back": "Select the original, 1:1, 4:5, or 9:16 to make the final image size.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpLayout3",
+  "en": "Size sets how big the subject is, from 20% to 300%. Shadow sets how strong its shadow is. Auto-center puts the subject back in the middle. Reset undoes moving and resizing.",
+  "tr": "કદ નક્કી કરે છે કે વિષય કેટલો મોટો હોય, ૨૦% થી ૩૦૦%. પડછાયો નક્કી કરે છે કે તેનો પડછાયો કેટલો ઘેરો હોય. ઑટો-સેન્ટર વિષયને પાછો વચ્ચે લાવે છે. રીસેટ ખસેડવાનું અને કદ બદલવાનું પૂર્વવત્ કરે છે.",
+  "back": "The size determines how large the subject is, 20% to 300%. The shadow determines how dark its shadow is. Auto-center brings the subject back in between. Reset prevents moving and resizing.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpLayout4",
+  "en": "This shape is used when the export size is Original. If you choose a size preset or a marketplace in the export sheet, that decides the final shape instead.",
+  "tr": "એક્સપોર્ટનું કદ મૂળ હોય ત્યારે આ આકાર લાગુ પડે છે. જો તમે એક્સપોર્ટ શીટમાં પહેલેથી નક્કી કદ અથવા માર્કેટપ્લેસ પસંદ કરો, તો અંતિમ આકાર તે જ નક્કી કરે છે.",
+  "back": "This shape applies when the export size is original. If you select a pre-determined size or marketplace in the export sheet, the final shape determines it.",
+  "sim": 0.76
+ },
+ {
+  "k": "helpExportTitle",
+  "en": "Export",
+  "tr": "એક્સપોર્ટ",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "helpExport1",
+  "en": "Tap Export to open the export sheet. Nothing is applied until you tap Save to Gallery or Share, so you can change your choices as often as you like.",
+  "tr": "એક્સપોર્ટ શીટ ખોલવા એક્સપોર્ટ ટૅપ કરો. તમે ગેલેરીમાં સાચવો અથવા શેર ટૅપ ન કરો ત્યાં સુધી કંઈ લાગુ પડતું નથી, તેથી તમે તમારી પસંદગીઓ ગમે તેટલી વાર બદલી શકો છો.",
+  "back": "Nothing applies until you save in the gallery or tap Share, so you can change your preferences as often as you want.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpExport2",
+  "en": "PNG keeps transparency. JPG makes smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a small modern format; if your phone cannot make it, the file is saved as JPG. For JPG and WEBP, the Quality slider trades file size for detail.",
+  "tr": "PNG પારદર્શકતા જાળવે છે. JPG નાની ફાઇલો આપે છે પણ પારદર્શક ન હોઈ શકે, તેથી પારદર્શક બૅકગ્રાઉન્ડ સફેદ બની જાય છે. WEBP આધુનિક, સંક્ષિપ્ત ફૉર્મેટ છે; તમારો ફોન તે બનાવી ન શકે તો ફાઇલ JPG તરીકે સાચવાય છે. JPG અને WEBP માટે ગુણવત્તા સ્લાઇડર ફાઇલના કદ અને વિગત વચ્ચે સંતુલન રાખે છે.",
+  "back": "PNG maintains transparency. JPG offers small files but may not be transparent, so the transparent background becomes white. WEBP is a modern, concise format; if your phone cannot create it, the file is saved as JPG. The quality slider for JPG and WEBP maintains a balance between file size and detail.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpExport3",
+  "en": "Original keeps your photo’s size, with the shape chosen in Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. Custom lets you type a width and height in pixels.",
+  "tr": "મૂળ તમારા ફોટાનું કદ લેઆઉટમાં પસંદ કરેલા આકાર સાથે જાળવે છે. ૧:૧ એટલે ૧૦૮૦ × ૧૦૮૦, ૪:૫ એટલે ૧૦૮૦ × ૧૩૫૦ અને ૯:૧૬ એટલે ૧૦૮૦ × ૧૯૨૦. કસ્ટમ તમને પિક્સેલમાં પહોળાઈ અને ઊંચાઈ દાખલ કરવા દે છે.",
+  "back": "The root maintains the size of your photo with the selected shape in the layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350, and 9:16 is 1080 × 1920. Custom allows you to enter width and height in pixels.",
+  "sim": 0.72
+ },
+ {
+  "k": "helpExport4",
+  "en": "Marketplace presets set size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG kept under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices, and choosing a format or size afterwards switches the marketplace off. Marketplace rules can change, so check your marketplace’s current requirements.",
+  "tr": "માર્કેટપ્લેસ પ્રીસેટ કદ, ફૉર્મેટ અને ગુણવત્તા નક્કી કરે છે: Amazon ૨૦૦૦ × ૨૦૦૦ JPG, eBay ૧૬૦૦ × ૧૬૦૦ JPG, Etsy ૨૬૬૭ × ૨૦૦૦ JPG ૧ MB થી ઓછું, અને Shopify ૨૦૪૮ × ૨૦૪૮ PNG. એક પસંદ કરવાથી તમારી ફૉર્મેટ અને કદની પસંદગી બદલાય છે; પછી ફૉર્મેટ અથવા કદ પસંદ કરો તો માર્કેટપ્લેસની પસંદગી રદ થાય છે. માર્કેટપ્લેસના નિયમો બદલાઈ શકે છે, તેથી તમારા માર્કેટપ્લેસની હાલની જરૂરિયાતો તપાસી લો.",
+  "back": "Marketplace presets size, format, and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG less than 1 MB, and Shopify 248 × 248 PNG. Choosing one changes your format and size preference; then choosing a format or size cancels the marketplace preference. Marketplace rules may change, so check your current marketplace needs.",
+  "sim": 0.77
+ },
+ {
+  "k": "helpExport5",
+  "en": "Amazon also uses a pure white background with no shadow and fits the subject to fill most of the frame. Your background choice in the editor is not changed. The other marketplaces keep your background.",
+  "tr": "Amazon પડછાયા વગરનું શુદ્ધ સફેદ બૅકગ્રાઉન્ડ પણ વાપરે છે અને વિષયને એવી રીતે ગોઠવે છે કે તે ફ્રેમનો મોટા ભાગનો હિસ્સો ભરે. એડિટરમાં તમારી બૅકગ્રાઉન્ડ પસંદગી બદલાતી નથી. બાકીના માર્કેટપ્લેસ તમારું બૅકગ્રાઉન્ડ જાળવે છે.",
+  "back": "Amazon also uses a pure white background without shadows and arranges the subject in such a way that it covers most of the frame. Your background preferences in the editor do not change. The rest of the marketplace maintains your background.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpExport6",
+  "en": "Save to Gallery and Share both save the picture to your gallery and to Recent Exports. Share also opens your phone’s share menu. If saving to the gallery is not possible, the share menu opens instead. After exporting you return to the home screen.",
+  "tr": "ગેલેરીમાં સાચવો અને શેર બંને છબીને તમારી ગેલેરીમાં અને તાજેતરના એક્સપોર્ટ માં સાચવે છે. શેર ઉપરાંત તમારા ફોનનું શેર મેનૂ પણ ખોલે છે. ગેલેરીમાં સાચવવાનું શક્ય ન હોય તો તેની જગ્યાએ શેર મેનૂ ખુલે છે. એક્સપોર્ટ પછી તમે હોમ સ્ક્રીન પર પાછા આવો છો.",
+  "back": "Save in Gallery and share both save the image in your gallery and in recent export. In addition to share, the share menu of your phone also opens. If it is not possible to save in the gallery, the share menu opens instead. After export you return to the home screen.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpExport7",
+  "en": "Unless you have removed ads, an ad can appear after an export, at most once every two minutes.",
+  "tr": "જો તમે જાહેરાતો દૂર કરી ન હોય, તો એક્સપોર્ટ પછી એક જાહેરાત દેખાઈ શકે છે, વધુમાં વધુ દર બે મિનિટે એક વાર.",
+  "back": "If you have not removed the ads, an ad may appear after export, at most once every two minutes.",
+  "sim": 0.81
+ },
+ {
+  "k": "helpBatchTitle",
+  "en": "Batch",
+  "tr": "બૅચ",
+  "back": "Batch",
+  "sim": 1.0
+ },
+ {
+  "k": "helpBatch1",
+  "en": "Batch cuts out up to 30 photos in one go. Tap Batch on the home screen and pick your photos. The back button is turned off while a batch runs.",
+  "tr": "બૅચ એકસાથે ૩૦ ફોટો સુધીના કટ-આઉટ બનાવે છે. હોમ સ્ક્રીન પર બૅચ ટૅપ કરો અને તમારા ફોટો પસંદ કરો. બૅચ ચાલતી હોય ત્યારે પાછળ જવાનું બટન બંધ રહે છે.",
+  "back": "The batch creates cutouts of up to 30 photos at a time. Tap the batch on the home screen and select your photo. The back button is turned off when the batch is running.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpBatch2",
+  "en": "All photos in a batch share one setup: one background and one marketplace. You cannot choose differently for each photo.",
+  "tr": "બૅચના બધા ફોટો એક જ સેટિંગ વહેંચે છે: એક બૅકગ્રાઉન્ડ અને એક માર્કેટપ્લેસ. તમે દરેક ફોટા માટે અલગ અલગ પસંદ કરી શકતા નથી.",
+  "back": "All photos in the batch share the same setting: a background and a marketplace. You can't choose differently for each photo.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpBatch3",
+  "en": "Backgrounds work as in the editor: your own photo, a colour, a template, white, transparent, black, blur or a gradient. Only one applies, and your latest choice replaces the earlier one.",
+  "tr": "બૅકગ્રાઉન્ડ એડિટરની જેમ જ કામ કરે છે: તમારો પોતાનો ફોટો, રંગ, ટેમ્પલેટ, સફેદ, પારદર્શક, કાળો, બ્લર અથવા ગ્રેડિયન્ટ. ફક્ત એક જ લાગુ પડે છે, અને તમારી છેલ્લી પસંદગી પાછલીને બદલી નાખે છે.",
+  "back": "Works just like a background editor: your own photo, color, template, white, transparent, black, blur, or gradient. Only one applies, and replaces your last choice with the previous one.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpBatch4",
+  "en": "The file format is chosen for you. With a marketplace, the photos follow that marketplace’s size and format. Without one, a transparent background gives PNG and any other background gives JPG, at the original size.",
+  "tr": "ફાઇલ ફૉર્મેટ તમારા માટે પસંદ થાય છે. માર્કેટપ્લેસ સાથે ફોટો તેનું કદ અને ફૉર્મેટ અનુસરે છે. માર્કેટપ્લેસ વગર પારદર્શક બૅકગ્રાઉન્ડથી PNG મળે છે અને બીજા દરેક બૅકગ્રાઉન્ડથી JPG, મૂળ કદમાં.",
+  "back": "The file format is chosen for you. A photo with a marketplace follows its size and format. PNG comes from a transparent background without a marketplace and JPG from every other background, in the original size.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpBatch5",
+  "en": "Choosing Amazon switches the background to White; if you then choose another background, Amazon is switched off. eBay, Etsy and Shopify keep your background, but a JPG cannot be transparent, so it gets a white background.",
+  "tr": "Amazon પસંદ કરવાથી બૅકગ્રાઉન્ડ સફેદ થઈ જાય છે; પછી બીજું બૅકગ્રાઉન્ડ પસંદ કરો તો Amazon ની પસંદગી રદ થાય છે. eBay, Etsy અને Shopify તમારું બૅકગ્રાઉન્ડ જાળવે છે, પણ JPG પારદર્શક ન હોઈ શકે, તેથી તેને સફેદ બૅકગ્રાઉન્ડ મળે છે.",
+  "back": "Choosing Amazon turns the background white; then choosing another background cancels Amazon's selection. eBay, Etsy, and Shopify maintain your background, but JPG may not be transparent, so it gets a white background.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpBatch6",
+  "en": "If the HD model is installed, every photo in the batch is cut out with it. The Get HD cut-out button next to Templates downloads it.",
+  "tr": "જો HD મૉડલ ઇન્સ્ટૉલ હોય, તો બૅચનો દરેક ફોટો તેનાથી જ કાપવામાં આવે છે. ટેમ્પલેટ પાસેનું HD કટઆઉટ મેળવો બટન તેને ડાઉનલોડ કરે છે.",
+  "back": "If an HD model is installed, each photo of the batch is cut from it. The Get HD Cut Out button next to the template downloads it.",
+  "sim": 0.72
+ },
+ {
+  "k": "helpBatch7",
+  "en": "Each photo is saved to your gallery and to Recent Exports as soon as it finishes. Stop ends the batch after the current photo, and photos already finished stay saved. If a photo fails, the batch carries on and tells you how many could not be processed. Done takes you back to the home screen; it does not save anything.",
+  "tr": "દરેક ફોટો પૂરો થતાં જ તમારી ગેલેરીમાં અને તાજેતરના એક્સપોર્ટ માં સાચવાય છે. રોકો ચાલુ ફોટા પછી બૅચ સમાપ્ત કરે છે, અને જે ફોટો પહેલેથી પૂરા થયા છે તે સાચવેલા રહે છે. કોઈ ફોટો નિષ્ફળ જાય તો બૅચ ચાલુ રહે છે અને કેટલા પ્રોસેસ ન થઈ શક્યા તે જણાવે છે. પૂર્ણ તમને હોમ સ્ક્રીન પર પાછા લઈ જાય છે; તે કંઈ સાચવતું નથી.",
+  "back": "Each photo is saved in your gallery as soon as it's finished and in the most recent export. Stop the current photo finishes the batch, and the photo that's already finished remains saved. If a photo fails, the batch continues and tells you how many processes failed. Full takes you back to the home screen; it doesn't save anything.",
+  "sim": 0.64
+ },
+ {
+  "k": "helpLibraryTitle",
+  "en": "Your exports",
+  "tr": "તમારા એક્સપોર્ટ",
+  "back": "Your Export",
+  "sim": 0.5
+ },
+ {
+  "k": "helpLibrary1",
+  "en": "Recent Exports on the home screen shows your latest exports. Tap See all for every export, grouped as Today, Yesterday, This week and Earlier.",
+  "tr": "હોમ સ્ક્રીન પરનું તાજેતરના એક્સપોર્ટ તમારા સૌથી નવા એક્સપોર્ટ બતાવે છે. બધા જોવા બધું જુઓ ટૅપ કરો, જે આજે, ગઈકાલે, આ અઠવાડિયે અને પહેલાંનું માં જૂથબદ્ધ છે.",
+  "back": "The latest export on the home screen shows your latest export. Tap See Everything, which is grouped into Today, Yesterday, This Week and the previous one.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpLibrary2",
+  "en": "Tap an export to open it full screen. Swipe to move between exports and pinch to zoom. The bar at the bottom has Share, Save to Gallery, Edit again and Delete.",
+  "tr": "એક્સપોર્ટને ફુલ સ્ક્રીનમાં ખોલવા તેના પર ટૅપ કરો. એક્સપોર્ટ વચ્ચે બદલવા સ્વાઇપ કરો અને ઝૂમ માટે પિંચ કરો. નીચેની પટ્ટી શેર, ગેલેરીમાં સાચવો, ફરી સંપાદિત કરો અને કાઢી નાખો આપે છે.",
+  "back": "Tap on it to open the export to the full screen. Swipe between exports to switch and pinch for zoom. The following bar allows you to share, save, re-edit, and delete in the gallery.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpLibrary3",
+  "en": "The three-dot button on a tile opens the same actions. Edit again opens the exported picture as a new photo, so earlier brush strokes are not restored.",
+  "tr": "થંબનેલ પરનું ત્રણ-ટપકાંનું બટન એ જ ક્રિયાઓ ખોલે છે. ફરી સંપાદિત કરો એક્સપોર્ટ કરેલી છબીને નવા ફોટા તરીકે ખોલે છે, તેથી અગાઉના બ્રશ સ્ટ્રોક પાછા આવતા નથી.",
+  "back": "The three-point button on the thumbnail opens the same actions. Re-edit opens the exported image as a new photo, so the previous brushstroke doesn't come back.",
+  "sim": 0.57
+ },
+ {
+  "k": "helpLibrary4",
+  "en": "Select lets you choose several exports to share together or delete. Delete all exports removes every export from this phone.",
+  "tr": "પસંદ કરો તમને ઘણા એક્સપોર્ટ પસંદ કરીને તેમને એકસાથે શેર અથવા કાઢી નાખવા દે છે. બધા એક્સપોર્ટ કાઢી નાખો આ ફોન પરથી બધા એક્સપોર્ટ દૂર કરે છે.",
+  "back": "Select allows you to share or delete multiple exports by selecting them together. Delete all exports Delete all exports from this phone.",
+  "sim": 0.57
+ },
+ {
+  "k": "helpLibrary5",
+  "en": "Deleting removes exports from PhotoSur only. Pictures already saved to your gallery are not affected. The bottom of the See all screen shows how much space exports use on this phone.",
+  "tr": "કાઢી નાખવું એક્સપોર્ટને ફક્ત PhotoSur માંથી દૂર કરે છે. તમારી ગેલેરીમાં પહેલેથી સાચવેલી છબીઓને અડવામાં આવતું નથી. બધું જુઓ ના તળિયે તમે જોઈ શકો છો કે આ ફોન પર એક્સપોર્ટ કેટલી જગ્યા રોકે છે.",
+  "back": "Deleting only removes exports from PhotoSur. The images already saved in your gallery are not displayed. At the bottom of everything you see, you can see how much space exports take up on this phone.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpPrivacyTitle",
+  "en": "Privacy & ads",
+  "tr": "ગોપનીયતા અને જાહેરાતો",
+  "back": "Privacy and Advertising",
+  "sim": 0.4
+ },
+ {
+  "k": "helpPrivacy1",
+  "en": "Your photos are processed on your phone and are not uploaded. There is no account and no watermark.",
+  "tr": "તમારા ફોટો તમારા ફોન પર જ પ્રોસેસ થાય છે અને અપલોડ થતા નથી. કોઈ ખાતું નથી અને કોઈ વૉટરમાર્ક નથી.",
+  "back": "Your photo is processed on your phone and not uploaded. There are no accounts and no watermarks.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpPrivacy2",
+  "en": "PhotoSur is free with every feature included, supported by ads. A banner appears at the bottom of some screens, and an ad can appear after an export.",
+  "tr": "PhotoSur મફત છે, બધી સુવિધાઓ સાથે, અને જાહેરાતોથી ચાલે છે. કેટલીક સ્ક્રીનના તળિયે બૅનર દેખાય છે, અને એક્સપોર્ટ પછી એક જાહેરાત આવી શકે છે.",
+  "back": "PhotoSur is free, with all the features, and runs with ads. Some banners appear at the bottom of the screen, and an ad may appear after export.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpPrivacy3",
+  "en": "Go Ad-Free in Settings is a one-time purchase that removes the ads. It does not unlock anything else, because every feature is already free. Restore Purchases brings it back on a new phone.",
+  "tr": "સેટિંગ્સમાં જાહેરાત-મુક્ત બનો એ એક વારની ખરીદી છે જે જાહેરાતો દૂર કરે છે. તે બીજું કંઈ અનલૉક કરતી નથી, કારણ કે બધી સુવિધાઓ પહેલેથી મફત છે. ખરીદી પુનઃસ્થાપિત કરો તેને નવા ફોન પર પાછી લાવે છે.",
+  "back": "Be Ad-Free in Settings is a one-time purchase that removes ads. It doesn't unlock anything else, because all features are already free. Restore the purchase brings it back to a new phone.",
+  "sim": 0.74
+ },
+ {
+  "k": "helpSettingsTitle",
+  "en": "Settings",
+  "tr": "સેટિંગ્સ",
+  "back": "Settings",
+  "sim": 1.0
+ },
+ {
+  "k": "helpSettings1",
+  "en": "Theme can follow your phone, or be Light or Dark. Language changes the language of the app. Both are also in the home screen header.",
+  "tr": "થીમ તમારા ફોનને અનુસરી શકે છે, અથવા લાઇટ કે ડાર્ક હોઈ શકે છે. ભાષા ઍપની ભાષા બદલે છે. બંને હોમ સ્ક્રીનના હેડરમાં પણ છે.",
+  "back": "The theme can follow your phone, or it can be light or dark. Language changes the language of the app. Both are also in the headers of the home screen.",
+  "sim": 0.87
+ },
+ {
+  "k": "helpSettings2",
+  "en": "Edit reminders: if you leave the app with an unfinished edit, PhotoSur can remind you three hours later. Switch this off in Settings.",
+  "tr": "એડિટ રિમાઇન્ડર: અધૂરા સંપાદન સાથે તમે ઍપ છોડો તો PhotoSur ત્રણ કલાક પછી યાદ અપાવી શકે છે. તેને સેટિંગ્સમાં બંધ કરો.",
+  "back": "Edit Reminder: If you leave the app with incomplete editing, PhotoSur may recall after three hours. Turn it off in settings.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpSettings3",
+  "en": "HD cut-out model shows whether it is installed. Remove deletes it from your phone to free space; you can download it again at any time.",
+  "tr": "HD કટઆઉટ મૉડલ બતાવે છે કે તે ઇન્સ્ટૉલ છે કે નહીં. દૂર કરો જગ્યા ખાલી કરવા તેને તમારા ફોન પરથી કાઢી નાખે છે; તમે તેને ગમે ત્યારે ફરી ડાઉનલોડ કરી શકો છો.",
+  "back": "The HD cut-out model shows if it's installed or not. Remove deletes it from your phone to clear space; you can re-download it anytime.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpSettings4",
+  "en": "Replay intro shows the welcome screens again. Support opens the support page. Animated home background turns the moving picture at the top of the home screen on or off.",
+  "tr": "ઇન્ટ્રો ફરી જુઓ સ્વાગત સ્ક્રીન ફરી બતાવે છે. સપોર્ટ સપોર્ટ પેજ ખોલે છે. હોમનું એનિમેટેડ બૅકગ્રાઉન્ડ હોમ સ્ક્રીનની ઉપરની ચાલતી તસવીરને ચાલુ કે બંધ કરે છે.",
+  "back": "Introduction See again shows the welcome screen again. Opens the support support page. The animated background of the home turns on or off the moving image above the home screen.",
+  "sim": 0.54
+ },
+ {
+  "k": "helpFixTitle",
+  "en": "If something goes wrong",
+  "tr": "કંઈક ખોટું થાય તો",
+  "back": "If something goes wrong",
+  "sim": 1.0
+ },
+ {
+  "k": "helpFix1",
+  "en": "If the automatic cut-out cannot run on a very old or low-memory phone, the brush still works, so you can finish the picture by hand.",
+  "tr": "ખૂબ જૂના અથવા ઓછી મેમરીવાળા ફોન પર સ્વચાલિત કટ-આઉટ ચાલી ન શકે તો પણ બ્રશ કામ કરે છે, તેથી તમે છબી હાથથી પૂરી કરી શકો છો.",
+  "back": "The brush works even if the automatic cut-out cannot run on a very old or low-memory phone, so you can complete the image by hand.",
+  "sim": 0.76
+ },
+ {
+  "k": "helpFix2",
+  "en": "If the HD download stops, check your connection and try again. It continues where it left off.",
+  "tr": "HD ડાઉનલોડ અટકી જાય તો તમારું કનેક્શન તપાસો અને ફરી પ્રયાસ કરો. તે જ્યાં અટક્યું હતું ત્યાંથી આગળ ચાલે છે.",
+  "back": "If the HD download stops, check your connection and try again. It runs beyond where it stopped.",
+  "sim": 0.82
+ },
+ {
+  "k": "helpFix3",
+  "en": "For anything else, open Support from Settings.",
+  "tr": "બીજી કોઈ પણ બાબત માટે સેટિંગ્સમાંથી સપોર્ટ ખોલો.",
+  "back": "Open support from settings for anything else.",
+  "sim": 0.57
+ }
+]

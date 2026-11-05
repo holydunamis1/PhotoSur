@@ -1,0 +1,1773 @@
+[
+ {
+  "k": "onboardingPage1Title",
+  "en": "Remove backgrounds instantly. All features free.",
+  "tr": "Xóa nền ngay lập tức. Mọi tính năng đều miễn phí.",
+  "back": "Remove the background immediately. All the features are free.",
+  "sim": 0.53
+ },
+ {
+  "k": "onboardingPage1Body",
+  "en": "Open a photo and our on-device AI removes the background automatically — no internet required. You can also swap in your own custom background.",
+  "tr": "Mở ảnh và AI ngay trên thiết bị sẽ tự động xóa nền — không cần internet. Bạn cũng có thể thay bằng nền tùy chỉnh của riêng mình.",
+  "back": "Screen and AI right on the device will automatically delete the background without the need for internet. You can also replace it with your own custom background.",
+  "sim": 0.48
+ },
+ {
+  "k": "onboardingPage2Title",
+  "en": "Fine-tune with the brush",
+  "tr": "Tinh chỉnh bằng cọ",
+  "back": "Adjusted with palms",
+  "sim": 0.29
+ },
+ {
+  "k": "onboardingPage2Body",
+  "en": "Paint away what the AI missed or restore what you want to keep. Then crop, rotate, move and resize.",
+  "tr": "Dùng cọ xóa phần AI bỏ sót, hoặc khôi phục phần bạn muốn giữ. Sau đó cắt, xoay, di chuyển và đổi kích thước.",
+  "back": "Use a brick to remove the missing AI part, or restore the part you want to keep, then cut, spin, move, and resize.",
+  "sim": 0.57
+ },
+ {
+  "k": "onboardingPage3Title",
+  "en": "Studio-ready backgrounds",
+  "tr": "Nền chuẩn studio",
+  "back": "The studio standard",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingPage3Body",
+  "en": "Choose a colour, gradient, template or your own photo, with a natural shadow. Marketplace presets for Amazon, eBay, Etsy and Shopify set size and format for you.",
+  "tr": "Chọn một màu, dải màu chuyển, mẫu hoặc ảnh của riêng bạn, kèm bóng đổ tự nhiên. Các cài đặt sẵn cho Amazon, eBay, Etsy và Shopify tự đặt kích thước và định dạng cho bạn.",
+  "back": "Choose your own color, color band, pattern, or photo, with natural shading. Available settings for Amazon, eBay, Etsy, and Shopify automatically set the size and format for you.",
+  "sim": 0.65
+ },
+ {
+  "k": "onboardingPage4Title",
+  "en": "Batch it, export it, keep it private",
+  "tr": "Hàng loạt, đúng định dạng, riêng tư tuyệt đối",
+  "back": "It's mass-produced, well-formatted, completely private.",
+  "sim": 0.17
+ },
+ {
+  "k": "onboardingPage4Body",
+  "en": "Cut out up to 30 photos at once and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "tr": "Tách nền tối đa 30 ảnh cùng lúc và xuất dưới dạng PNG, JPG hoặc WEBP. Ảnh của bạn không bao giờ rời khỏi điện thoại. Có sẵn trong 43 ngôn ngữ.",
+  "back": "Capture up to 30 images at a time and export them as PNG, JPG or WEBP. Your images never leave your phone. Available in 43 languages.",
+  "sim": 0.78
+ },
+ {
+  "k": "onboardingNext",
+  "en": "Next",
+  "tr": "Tiếp",
+  "back": "The next one.",
+  "sim": 0.5
+ },
+ {
+  "k": "onboardingGetStarted",
+  "en": "Get Started",
+  "tr": "Bắt đầu",
+  "back": "Let's get started.",
+  "sim": 0.8
+ },
+ {
+  "k": "homeCameraButton",
+  "en": "Camera",
+  "tr": "Máy ảnh",
+  "back": "The camera.",
+  "sim": 0.67
+ },
+ {
+  "k": "homeGalleryButton",
+  "en": "Gallery",
+  "tr": "Thư viện",
+  "back": "The library",
+  "sim": 0.0
+ },
+ {
+  "k": "dateToday",
+  "en": "Today",
+  "tr": "Hôm nay",
+  "back": "It's today.",
+  "sim": 0.67
+ },
+ {
+  "k": "dateYesterday",
+  "en": "Yesterday",
+  "tr": "Hôm qua",
+  "back": "Yesterday.",
+  "sim": 1.0
+ },
+ {
+  "k": "homeRecentExports",
+  "en": "Recent Exports",
+  "tr": "Ảnh xuất gần đây",
+  "back": "Recently published.",
+  "sim": 0.0
+ },
+ {
+  "k": "homeEmptyStateMessage",
+  "en": "Tap Camera or Gallery to start.",
+  "tr": "Chạm vào Máy ảnh hoặc Thư viện để bắt đầu.",
+  "back": "Touch the Camera or Library to get started.",
+  "sim": 0.43
+ },
+ {
+  "k": "homeExportUnavailable",
+  "en": "This export is no longer available.",
+  "tr": "Ảnh xuất này không còn khả dụng.",
+  "back": "This exhibit is no longer available.",
+  "sim": 0.83
+ },
+ {
+  "k": "homeShareFailed",
+  "en": "Could not share this export.",
+  "tr": "Không thể chia sẻ ảnh xuất này.",
+  "back": "I can't share this photo.",
+  "sim": 0.4
+ },
+ {
+  "k": "homeGalleryOpenFailed",
+  "en": "Could not open gallery.",
+  "tr": "Không thể mở thư viện.",
+  "back": "I can't open the library.",
+  "sim": 0.22
+ },
+ {
+  "k": "cameraTitle",
+  "en": "Camera",
+  "tr": "Máy ảnh",
+  "back": "The camera.",
+  "sim": 0.67
+ },
+ {
+  "k": "cameraPermissionDenied",
+  "en": "Camera access is needed to take a photo. Please allow access.",
+  "tr": "Cần quyền truy cập máy ảnh để chụp ảnh. Vui lòng cho phép truy cập.",
+  "back": "I need access to the camera to take pictures.",
+  "sim": 0.3
+ },
+ {
+  "k": "cameraPermissionPermanentlyDenied",
+  "en": "Camera access was denied. Enable it in Settings to continue.",
+  "tr": "Quyền truy cập máy ảnh đã bị từ chối. Hãy bật lại trong Cài đặt để tiếp tục.",
+  "back": "Camera access has been denied.",
+  "sim": 0.4
+ },
+ {
+  "k": "cameraPermissionRestricted",
+  "en": "Camera access is restricted on this device.",
+  "tr": "Quyền truy cập máy ảnh bị hạn chế trên thiết bị này.",
+  "back": "Camera access is restricted on this device.",
+  "sim": 1.0
+ },
+ {
+  "k": "cameraNoCameraFound",
+  "en": "No camera found on this device.",
+  "tr": "Không tìm thấy máy ảnh trên thiết bị này.",
+  "back": "Can't find the camera on this device.",
+  "sim": 0.62
+ },
+ {
+  "k": "cameraStartFailed",
+  "en": "Could not start the camera.",
+  "tr": "Không thể khởi động máy ảnh.",
+  "back": "Can't start the camera.",
+  "sim": 0.67
+ },
+ {
+  "k": "cameraCaptureFailed",
+  "en": "Could not capture photo.",
+  "tr": "Không thể chụp ảnh.",
+  "back": "I can't take a picture.",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraOpenSettings",
+  "en": "Open Settings",
+  "tr": "Mở Cài đặt",
+  "back": "Open the Settings",
+  "sim": 0.8
+ },
+ {
+  "k": "cameraFlashTooltip",
+  "en": "Flash",
+  "tr": "Đèn flash",
+  "back": "Flashing lights",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraGalleryTooltip",
+  "en": "Gallery",
+  "tr": "Thư viện",
+  "back": "The library",
+  "sim": 0.0
+ },
+ {
+  "k": "cropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Cắt và xoay",
+  "back": "Cut and spin",
+  "sim": 0.0
+ },
+ {
+  "k": "cropLoadFailed",
+  "en": "Could not load the image.",
+  "tr": "Không thể tải ảnh.",
+  "back": "I can't get it up.",
+  "sim": 0.0
+ },
+ {
+  "k": "cropRotateFailed",
+  "en": "Could not rotate the image.",
+  "tr": "Không thể xoay ảnh.",
+  "back": "Can't turn it around.",
+  "sim": 0.0
+ },
+ {
+  "k": "cropFailed",
+  "en": "Crop failed.",
+  "tr": "Cắt ảnh thất bại.",
+  "back": "The shoot failed.",
+  "sim": 0.4
+ },
+ {
+  "k": "cropSaveFailed",
+  "en": "Could not save the cropped image.",
+  "tr": "Không thể lưu ảnh đã cắt.",
+  "back": "Can't save the cut.",
+  "sim": 0.4
+ },
+ {
+  "k": "cropAspectFree",
+  "en": "Free",
+  "tr": "Tự do",
+  "back": "Freedom",
+  "sim": 0.0
+ },
+ {
+  "k": "cropContinue",
+  "en": "Continue",
+  "tr": "Tiếp tục",
+  "back": "Keep going.",
+  "sim": 0.0
+ },
+ {
+  "k": "editorSegmentationFailedMessage",
+  "en": "Your device doesn't support automatic background removal. Use the manual brush below.",
+  "tr": "Thiết bị của bạn không hỗ trợ tự động xóa nền. Hãy dùng cục tẩy thủ công bên dưới.",
+  "back": "Your device doesn't support automatic background removal.",
+  "sim": 0.74
+ },
+ {
+  "k": "brushErase",
+  "en": "Erase",
+  "tr": "Xóa",
+  "back": "Get rid of it.",
+  "sim": 0.0
+ },
+ {
+  "k": "brushRestore",
+  "en": "Restore",
+  "tr": "Khôi phục",
+  "back": "Restored",
+  "sim": 0.0
+ },
+ {
+  "k": "brushSizeLabel",
+  "en": "Brush Size",
+  "tr": "Kích thước cọ",
+  "back": "The size of a palm tree",
+  "sim": 0.25
+ },
+ {
+  "k": "brushOpacityLabel",
+  "en": "Opacity",
+  "tr": "Độ mờ đục",
+  "back": "It's very dim.",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundWhite",
+  "en": "White",
+  "tr": "Trắng",
+  "back": "It's white.",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundTransparent",
+  "en": "Transparent",
+  "tr": "Trong suốt",
+  "back": "Across the board.",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundBlack",
+  "en": "Black",
+  "tr": "Đen",
+  "back": "It's black.",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundBlurLabel",
+  "en": "Blur",
+  "tr": "Làm mờ",
+  "back": "It's blurry.",
+  "sim": 0.0
+ },
+ {
+  "k": "edgeFeatherLabel",
+  "en": "Edge Smoothness",
+  "tr": "Độ mịn viền",
+  "back": "The smoothness of the curve",
+  "sim": 0.29
+ },
+ {
+  "k": "toolbarUndo",
+  "en": "Undo",
+  "tr": "Hoàn tác",
+  "back": "Activities",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarRedo",
+  "en": "Redo",
+  "tr": "Làm lại",
+  "back": "Do it again.",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarReset",
+  "en": "Reset",
+  "tr": "Đặt lại",
+  "back": "Put it back.",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarExport",
+  "en": "Export",
+  "tr": "Xuất",
+  "back": "Get out of here.",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmTitle",
+  "en": "Reset edits?",
+  "tr": "Đặt lại chỉnh sửa?",
+  "back": "Putting it back together?",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmBody",
+  "en": "This clears your manual brush strokes. This cannot be undone.",
+  "tr": "Thao tác này xóa các nét cọ thủ công của bạn và không thể hoàn tác.",
+  "back": "This operation wipes out your handmade marks and can't be completed.",
+  "sim": 0.29
+ },
+ {
+  "k": "resetConfirmCancel",
+  "en": "Cancel",
+  "tr": "Hủy",
+  "back": "Deleted",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmConfirm",
+  "en": "Reset",
+  "tr": "Đặt lại",
+  "back": "Put it back.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportTitle",
+  "en": "Export",
+  "tr": "Xuất ảnh",
+  "back": "Get the picture out.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportQualityLabel",
+  "en": "Quality: {value}",
+  "tr": "Chất lượng: {value}",
+  "back": "Quality: [value]",
+  "sim": 1.0
+ },
+ {
+  "k": "exportResizeLabel",
+  "en": "Resize",
+  "tr": "Đổi kích thước",
+  "back": "Change the size",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeOriginal",
+  "en": "Original",
+  "tr": "Gốc",
+  "back": "It sucks.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeCustom",
+  "en": "Custom",
+  "tr": "Tùy chỉnh",
+  "back": "It's customized.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportWidthLabel",
+  "en": "Width (px)",
+  "tr": "Chiều rộng (px)",
+  "back": "Width (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportHeightLabel",
+  "en": "Height (px)",
+  "tr": "Chiều cao (px)",
+  "back": "Height (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSaveToGallery",
+  "en": "Save to Gallery",
+  "tr": "Lưu vào Thư viện",
+  "back": "Saved by the Library",
+  "sim": 0.0
+ },
+ {
+  "k": "exportShare",
+  "en": "Share",
+  "tr": "Chia sẻ",
+  "back": "Sharing",
+  "sim": 0.0
+ },
+ {
+  "k": "exportSuccess",
+  "en": "Exported!",
+  "tr": "Đã xuất xong!",
+  "back": "It's out!",
+  "sim": 0.0
+ },
+ {
+  "k": "exportFailed",
+  "en": "Export failed. Please try again.",
+  "tr": "Xuất ảnh thất bại. Vui lòng thử lại.",
+  "back": "The picture failed, please try again.",
+  "sim": 0.73
+ },
+ {
+  "k": "exportInProgress",
+  "en": "Exporting…",
+  "tr": "Đang xuất…",
+  "back": "On the way out...",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTitle",
+  "en": "Settings",
+  "tr": "Cài đặt",
+  "back": "Installed",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTheme",
+  "en": "Theme",
+  "tr": "Giao diện",
+  "back": "Get to know me.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLanguage",
+  "en": "Language",
+  "tr": "Ngôn ngữ",
+  "back": "The language",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Khôi phục giao dịch mua",
+  "back": "Restore the purchase transaction",
+  "sim": 0.33
+ },
+ {
+  "k": "settingsGoAdFree",
+  "en": "Go Ad-Free",
+  "tr": "Gỡ quảng cáo",
+  "back": "Mix the ads.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsPrivacyPolicy",
+  "en": "Privacy Policy",
+  "tr": "Chính sách quyền riêng tư",
+  "back": "Privacy policy",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsSupport",
+  "en": "Support",
+  "tr": "Hỗ trợ",
+  "back": "Support",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRateApp",
+  "en": "Rate App",
+  "tr": "Đánh giá ứng dụng",
+  "back": "Application evaluation",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsShareApp",
+  "en": "Share App",
+  "tr": "Chia sẻ ứng dụng",
+  "back": "Sharing apps",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLicenses",
+  "en": "Open-source licenses",
+  "tr": "Giấy phép mã nguồn mở",
+  "back": "Open source license",
+  "sim": 0.0
+ },
+ {
+  "k": "reminderChannelName",
+  "en": "Edit reminders",
+  "tr": "Nhắc nhở chỉnh sửa",
+  "back": "Reminds me of the editing",
+  "sim": 0.0
+ },
+ {
+  "k": "reminderChannelDescription",
+  "en": "Reminders about edits you have not finished.",
+  "tr": "Nhắc về những chỉnh sửa bạn chưa hoàn tất.",
+  "back": "Remind yourself of your unfinished edits.",
+  "sim": 0.15
+ },
+ {
+  "k": "reminderTitle",
+  "en": "Your edit is waiting",
+  "tr": "Bản chỉnh sửa của bạn đang chờ",
+  "back": "Your editing is waiting.",
+  "sim": 0.75
+ },
+ {
+  "k": "reminderBody",
+  "en": "Pick up where you left off and export your photo.",
+  "tr": "Tiếp tục từ chỗ bạn dừng và xuất ảnh của bạn.",
+  "back": "Continue from where you stopped and take your photo.",
+  "sim": 0.53
+ },
+ {
+  "k": "settingsReminders",
+  "en": "Edit reminders",
+  "tr": "Nhắc nhở chỉnh sửa",
+  "back": "Reminds me of the editing",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsAnimatedBackground",
+  "en": "Animated home background",
+  "tr": "Nền động trang chủ",
+  "back": "Home page dynamics",
+  "sim": 0.33
+ },
+ {
+  "k": "settingsRemindersSubtitle",
+  "en": "Remind me about unfinished edits",
+  "tr": "Nhắc tôi về các chỉnh sửa chưa xong",
+  "back": "Remind me of the unfinished edits.",
+  "sim": 0.73
+ },
+ {
+  "k": "settingsRemindersBlocked",
+  "en": "Notifications are turned off for PhotoSur in your phone's settings.",
+  "tr": "Thông báo của PhotoSur đang tắt trong cài đặt điện thoại của bạn.",
+  "back": "PhotoSur's notification is switching off in your phone settings.",
+  "sim": 0.42
+ },
+ {
+  "k": "editorBrushHint",
+  "en": "Drag to paint. Pinch with two fingers to zoom.",
+  "tr": "Kéo để vẽ. Chụm hai ngón tay để phóng to.",
+  "back": "Pull to draw. Pull two fingers to magnify.",
+  "sim": 0.47
+ },
+ {
+  "k": "editorToolCutout",
+  "en": "Cut-out",
+  "tr": "Tách nền",
+  "back": "The background.",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBrush",
+  "en": "Brush",
+  "tr": "Cọ",
+  "back": "It's a tree.",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBackground",
+  "en": "Background",
+  "tr": "Nền",
+  "back": "The good.",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolLayout",
+  "en": "Layout",
+  "tr": "Bố cục",
+  "back": "The police station.",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutAutoCenter",
+  "en": "Auto-center",
+  "tr": "Tự căn giữa",
+  "back": "It's the middle ground.",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutSizeLabel",
+  "en": "Size",
+  "tr": "Kích thước",
+  "back": "Size",
+  "sim": 1.0
+ },
+ {
+  "k": "layoutShadowLabel",
+  "en": "Shadow",
+  "tr": "Bóng đổ",
+  "back": "The fall.",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundPhoto",
+  "en": "Photo",
+  "tr": "Ảnh",
+  "back": "It's him.",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundPhotoFailed",
+  "en": "Could not load that photo.",
+  "tr": "Không thể tải ảnh đó.",
+  "back": "I can't upload that photo.",
+  "sim": 0.4
+ },
+ {
+  "k": "editorLayoutHint",
+  "en": "Drag to move. Pinch with two fingers to resize.",
+  "tr": "Kéo để di chuyển. Chụm hai ngón tay để đổi kích thước.",
+  "back": "Pull it to move. Pull two fingers to change size.",
+  "sim": 0.53
+ },
+ {
+  "k": "languageSystemDefault",
+  "en": "System default",
+  "tr": "Mặc định hệ thống",
+  "back": "Default system",
+  "sim": 0.5
+ },
+ {
+  "k": "languageSheetTitle",
+  "en": "Language",
+  "tr": "Ngôn ngữ",
+  "back": "The language",
+  "sim": 0.67
+ },
+ {
+  "k": "themeSheetTitle",
+  "en": "Theme",
+  "tr": "Giao diện",
+  "back": "Get to know me.",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionSystem",
+  "en": "System default",
+  "tr": "Mặc định hệ thống",
+  "back": "Default system",
+  "sim": 0.5
+ },
+ {
+  "k": "themeOptionLight",
+  "en": "Light",
+  "tr": "Sáng",
+  "back": "It's early in the morning.",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionDark",
+  "en": "Dark",
+  "tr": "Tối",
+  "back": "In the middle of the night.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLinkNotReady",
+  "en": "This link isn't set up yet.",
+  "tr": "Liên kết này chưa được thiết lập.",
+  "back": "This link hasn't been established.",
+  "sim": 0.36
+ },
+ {
+  "k": "settingsLinkOpenFailed",
+  "en": "Could not open link.",
+  "tr": "Không thể mở liên kết.",
+  "back": "Can't open the link.",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsRestoreRequested",
+  "en": "Restore requested — check back in a moment.",
+  "tr": "Đã yêu cầu khôi phục — hãy kiểm tra lại sau giây lát.",
+  "back": "Requested restore. Check it again in a second.",
+  "sim": 0.53
+ },
+ {
+  "k": "settingsRestoreFailed",
+  "en": "Restore failed.",
+  "tr": "Khôi phục thất bại.",
+  "back": "Recovering the failure.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsShareFailed",
+  "en": "Could not share.",
+  "tr": "Không thể chia sẻ.",
+  "back": "I can't share.",
+  "sim": 0.33
+ },
+ {
+  "k": "settingsShareAppMessage",
+  "en": "Remove photo backgrounds instantly with PhotoSur — free, no watermark.",
+  "tr": "Xóa nền ảnh ngay lập tức với PhotoSur — miễn phí, không có watermark.",
+  "back": "Immediately remove the background with PhotoSur  free, no watermark.",
+  "sim": 0.67
+ },
+ {
+  "k": "paywallTitle",
+  "en": "Go Ad-Free",
+  "tr": "Gỡ quảng cáo",
+  "back": "Mix the ads.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallAlreadyAdFree",
+  "en": "You're already ad-free. Thank you!",
+  "tr": "Bạn đã gỡ quảng cáo rồi. Cảm ơn bạn!",
+  "back": "You've removed the ad. Thank you!",
+  "sim": 0.36
+ },
+ {
+  "k": "paywallPlanFreeTitle",
+  "en": "Free",
+  "tr": "Miễn phí",
+  "back": "It's free.",
+  "sim": 0.67
+ },
+ {
+  "k": "paywallPlanAdFreeTitle",
+  "en": "Ad-Free",
+  "tr": "Không quảng cáo",
+  "back": "No advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPlanAdFreePrice",
+  "en": "One-time purchase",
+  "tr": "Mua một lần",
+  "back": "Buy it once.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureAllFeatures",
+  "en": "All features",
+  "tr": "Tất cả tính năng",
+  "back": "All the features.",
+  "sim": 0.8
+ },
+ {
+  "k": "paywallFeatureAdSupported",
+  "en": "Ad-supported",
+  "tr": "Có quảng cáo",
+  "back": "There's an advertisement.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureZeroAds",
+  "en": "Zero ads",
+  "tr": "Không quảng cáo",
+  "back": "No advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPurchaseButton",
+  "en": "Remove Ads",
+  "tr": "Gỡ quảng cáo",
+  "back": "Mix the ads.",
+  "sim": 0.4
+ },
+ {
+  "k": "paywallPurchaseButtonPrice",
+  "en": "Remove Ads — {price}",
+  "tr": "Gỡ quảng cáo — {price}",
+  "back": "Put in the ad  [price]",
+  "sim": 0.25
+ },
+ {
+  "k": "paywallRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Khôi phục giao dịch mua",
+  "back": "Restore the purchase transaction",
+  "sim": 0.33
+ },
+ {
+  "k": "paywallProductUnavailable",
+  "en": "Ad removal is not available right now.",
+  "tr": "Hiện chưa thể gỡ quảng cáo.",
+  "back": "I can't get the ads off yet.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPurchaseFailed",
+  "en": "Purchase failed.",
+  "tr": "Mua hàng thất bại.",
+  "back": "A failed purchase.",
+  "sim": 0.4
+ },
+ {
+  "k": "errorScreenTitle",
+  "en": "Something went wrong",
+  "tr": "Đã xảy ra lỗi",
+  "back": "There's been an error.",
+  "sim": 0.0
+ },
+ {
+  "k": "errorScreenBody",
+  "en": "Try again, or restart the app if this keeps happening.",
+  "tr": "Hãy thử lại, hoặc khởi động lại ứng dụng nếu sự cố vẫn tiếp diễn.",
+  "back": "Try again, or restart the app if the problem persists.",
+  "sim": 0.7
+ },
+ {
+  "k": "errorScreenGoBack",
+  "en": "Go back",
+  "tr": "Quay lại",
+  "back": "Turn around.",
+  "sim": 0.0
+ },
+ {
+  "k": "errorScreenReportEmail",
+  "en": "Report via {email}",
+  "tr": "Báo cáo qua {email}",
+  "back": "Report by [email]",
+  "sim": 0.67
+ },
+ {
+  "k": "unsupportedTitle",
+  "en": "Device Not Supported",
+  "tr": "Thiết bị không được hỗ trợ",
+  "back": "Device not supported",
+  "sim": 1.0
+ },
+ {
+  "k": "unsupportedNoCameraMessage",
+  "en": "This device doesn't have a camera available.",
+  "tr": "Thiết bị này không có máy ảnh khả dụng.",
+  "back": "This device doesn't have a camera available.",
+  "sim": 1.0
+ },
+ {
+  "k": "unsupportedLowMemoryMessage",
+  "en": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
+  "tr": "Thiết bị này không đủ bộ nhớ để chạy trình chỉnh sửa của PhotoSur một cách ổn định.",
+  "back": "This device does not have enough memory to run PhotoSur's editor steadily.",
+  "sim": 0.78
+ },
+ {
+  "k": "unsupportedManualImportHint",
+  "en": "You can still import a photo from your gallery and use the manual brush tool.",
+  "tr": "Bạn vẫn có thể nhập ảnh từ thư viện và dùng cọ thủ công.",
+  "back": "You can still import photos from the library and use a handheld.",
+  "sim": 0.52
+ },
+ {
+  "k": "unsupportedUseGalleryButton",
+  "en": "Import from Gallery",
+  "tr": "Nhập từ Thư viện",
+  "back": "Entry from the Library",
+  "sim": 0.29
+ },
+ {
+  "k": "homeBatchButton",
+  "en": "Batch",
+  "tr": "Hàng loạt",
+  "back": "The series",
+  "sim": 0.0
+ },
+ {
+  "k": "batchTitle",
+  "en": "Batch cut-out",
+  "tr": "Tách nền hàng loạt",
+  "back": "The backdrop of the series",
+  "sim": 0.0
+ },
+ {
+  "k": "batchOutputTransparent",
+  "en": "Transparent PNG",
+  "tr": "PNG trong suốt",
+  "back": "PNG is transparent",
+  "sim": 0.4
+ },
+ {
+  "k": "batchOutputWhite",
+  "en": "White background (JPG)",
+  "tr": "Nền trắng (JPG)",
+  "back": "The white web (JPG)",
+  "sim": 0.57
+ },
+ {
+  "k": "batchStart",
+  "en": "Start",
+  "tr": "Bắt đầu",
+  "back": "Let's get started.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchStop",
+  "en": "Stop",
+  "tr": "Dừng",
+  "back": "Stop it!",
+  "sim": 0.67
+ },
+ {
+  "k": "batchDone",
+  "en": "Done",
+  "tr": "Xong",
+  "back": "You're right.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchProgress",
+  "en": "{done} of {total} done",
+  "tr": "Đã xong {done}/{total}",
+  "back": "It's finished.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchSaved",
+  "en": "{count} saved to your gallery",
+  "tr": "Đã lưu {count} ảnh vào thư viện",
+  "back": "I saved the [count] to the library.",
+  "sim": 0.33
+ },
+ {
+  "k": "batchSomeFailed",
+  "en": "{count} could not be processed",
+  "tr": "Không xử lý được {count} ảnh",
+  "back": "Can't handle the photo count.",
+  "sim": 0.2
+ },
+ {
+  "k": "batchTooMany",
+  "en": "Up to {max} photos at a time",
+  "tr": "Tối đa {max} ảnh mỗi lần",
+  "back": "Maximum [max] shot each time",
+  "sim": 0.33
+ },
+ {
+  "k": "backgroundAddCustom",
+  "en": "Add custom background",
+  "tr": "Thêm nền tùy chỉnh",
+  "back": "Added custom background",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundCustomColor",
+  "en": "Custom color",
+  "tr": "Màu tùy chỉnh",
+  "back": "Customized colour",
+  "sim": 0.0
+ },
+ {
+  "k": "colorSaturation",
+  "en": "Saturation",
+  "tr": "Độ bão hòa",
+  "back": "Saturated",
+  "sim": 0.0
+ },
+ {
+  "k": "colorBrightness",
+  "en": "Brightness",
+  "tr": "Độ sáng",
+  "back": "The brightness",
+  "sim": 0.67
+ },
+ {
+  "k": "colorHexLabel",
+  "en": "Hex code",
+  "tr": "Mã hex",
+  "back": "Hex code",
+  "sim": 1.0
+ },
+ {
+  "k": "colorPickerDone",
+  "en": "Done",
+  "tr": "Xong",
+  "back": "You're right.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceLabel",
+  "en": "Marketplace",
+  "tr": "Sàn thương mại",
+  "back": "Commercial floors",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceWhiteFill",
+  "en": "Pure white background, product fills the frame",
+  "tr": "Nền trắng tinh, sản phẩm lấp đầy khung hình",
+  "back": "Pure white, full-frame product",
+  "sim": 0.55
+ },
+ {
+  "k": "exportMarketplaceSizeCap",
+  "en": "File kept under {size} MB",
+  "tr": "Tệp dưới {size} MB",
+  "back": "Files below [size] MB",
+  "sim": 0.44
+ },
+ {
+  "k": "editorToolTemplates",
+  "en": "Templates",
+  "tr": "Mẫu",
+  "back": "Sample",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTitle",
+  "en": "Choose a template",
+  "tr": "Chọn một mẫu",
+  "back": "Choose a sample.",
+  "sim": 0.67
+ },
+ {
+  "k": "templatesColorBlock",
+  "en": "Color block",
+  "tr": "Khối màu",
+  "back": "The Colors",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTextures",
+  "en": "Textures",
+  "tr": "Chất liệu",
+  "back": "Materials",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesLight",
+  "en": "Light & shadow",
+  "tr": "Ánh sáng & bóng đổ",
+  "back": "Light & shadows pouring",
+  "sim": 0.4
+ },
+ {
+  "k": "templatesPatterns",
+  "en": "Gradients & patterns",
+  "tr": "Chuyển sắc & hoa văn",
+  "back": "Color shift & painting",
+  "sim": 0.0
+ },
+ {
+  "k": "hdGetAction",
+  "en": "Get HD cut-out",
+  "tr": "Tải tách nền HD",
+  "back": "Download the HD backdrop",
+  "sim": 0.29
+ },
+ {
+  "k": "hdRedoAction",
+  "en": "Redo cut-out in HD",
+  "tr": "Tách nền lại bằng HD",
+  "back": "Background with HD.",
+  "sim": 0.29
+ },
+ {
+  "k": "hdDownloading",
+  "en": "HD cut-out in progress… {percent}%",
+  "tr": "Đang tách nền HD… {percent}%",
+  "back": "I'm breaking up the HD... [percent] %",
+  "sim": 0.36
+ },
+ {
+  "k": "hdDownloadingShort",
+  "en": "HD cut-out… {percent}%",
+  "tr": "Tách nền HD… {percent}%",
+  "back": "The HD background... [percent] percent",
+  "sim": 0.5
+ },
+ {
+  "k": "hdConfirmTitle",
+  "en": "Download HD cut-out model?",
+  "tr": "Tải mô hình tách nền HD?",
+  "back": "Download the HD split model?",
+  "sim": 0.67
+ },
+ {
+  "k": "hdConfirmBody",
+  "en": "Cleaner edges on tricky objects like shoes, bags and bottles. It downloads once, stays on your phone and then works offline. Mobile data charges may apply.",
+  "tr": "Viền sạch hơn với vật thể khó như giày, túi và chai. Chỉ tải một lần, lưu trên điện thoại rồi dùng được ngoại tuyến. Có thể phát sinh phí dữ liệu di động.",
+  "back": "It's cleaner with hard objects like shoes, bags, and bottles. It's just a one-time download, it's saved on your phone and used offline.",
+  "sim": 0.49
+ },
+ {
+  "k": "hdDownload",
+  "en": "Download",
+  "tr": "Tải xuống",
+  "back": "Download it now.",
+  "sim": 0.5
+ },
+ {
+  "k": "hdFailed",
+  "en": "HD cut-out didn’t finish. Check your connection and try again.",
+  "tr": "Tách nền HD chưa hoàn tất. Hãy kiểm tra kết nối và thử lại.",
+  "back": "The HD scan is not complete. Check the connection and try again.",
+  "sim": 0.55
+ },
+ {
+  "k": "settingsHdTitle",
+  "en": "HD cut-out model",
+  "tr": "Mô hình tách nền HD",
+  "back": "HD-based split model",
+  "sim": 0.33
+ },
+ {
+  "k": "settingsHdNotInstalled",
+  "en": "Not downloaded",
+  "tr": "Chưa tải",
+  "back": "Unloaded",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsHdInstalled",
+  "en": "Installed · works offline",
+  "tr": "Đã cài · dùng được ngoại tuyến",
+  "back": "Installed · Used offline",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsHdRemove",
+  "en": "Remove",
+  "tr": "Xóa",
+  "back": "Get rid of it.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsReplayIntro",
+  "en": "Replay intro",
+  "tr": "Xem lại phần giới thiệu",
+  "back": "Look at the introduction.",
+  "sim": 0.0
+ },
+ {
+  "k": "homeSeeAll",
+  "en": "See all",
+  "tr": "Xem tất cả",
+  "back": "See all of it.",
+  "sim": 0.67
+ },
+ {
+  "k": "exportActionEdit",
+  "en": "Edit again",
+  "tr": "Chỉnh sửa lại",
+  "back": "Repaired",
+  "sim": 0.0
+ },
+ {
+  "k": "exportActionDelete",
+  "en": "Delete",
+  "tr": "Xóa",
+  "back": "Get rid of it.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMoreOptions",
+  "en": "More options",
+  "tr": "Thêm tùy chọn",
+  "back": "Additional options",
+  "sim": 0.5
+ },
+ {
+  "k": "exportDeleteTitle",
+  "en": "Delete this export?",
+  "tr": "Xóa bản xuất này?",
+  "back": "Delete this edition?",
+  "sim": 0.67
+ },
+ {
+  "k": "exportDeleteBody",
+  "en": "Exported images are removed from this phone. Your original photos and anything saved to your gallery are not affected.",
+  "tr": "Ảnh đã xuất sẽ bị xóa khỏi điện thoại này. Ảnh gốc và những gì đã lưu trong thư viện không bị ảnh hưởng.",
+  "back": "The original and what was stored in the library were unaffected.",
+  "sim": 0.13
+ },
+ {
+  "k": "exportSavedToGallery",
+  "en": "Saved to your gallery",
+  "tr": "Đã lưu vào thư viện",
+  "back": "It's stored in the library.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportSaveFailed",
+  "en": "Could not save to the gallery.",
+  "tr": "Không thể lưu vào thư viện.",
+  "back": "It can't be stored in the library.",
+  "sim": 0.15
+ },
+ {
+  "k": "exportUnavailable",
+  "en": "Unavailable",
+  "tr": "Không khả dụng",
+  "back": "It's not available.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsGroupThisWeek",
+  "en": "This week",
+  "tr": "Tuần này",
+  "back": "This week.",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsGroupEarlier",
+  "en": "Earlier",
+  "tr": "Trước đó",
+  "back": "Before that.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsStorageUsed",
+  "en": "{size} used on this phone",
+  "tr": "Đã dùng {size} trên điện thoại này",
+  "back": "I've used [size] on this phone.",
+  "sim": 0.73
+ },
+ {
+  "k": "exportsSelect",
+  "en": "Select",
+  "tr": "Chọn",
+  "back": "Choose it.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsDone",
+  "en": "Done",
+  "tr": "Xong",
+  "back": "You're right.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsSelectedCount",
+  "en": "{count} selected",
+  "tr": "Đã chọn {count}",
+  "back": "Selected [count]",
+  "sim": 0.5
+ },
+ {
+  "k": "exportsDeleteSelectedTitle",
+  "en": "Delete {count} exports?",
+  "tr": "Xóa {count} bản xuất?",
+  "back": "Deleted the edition?",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsDeleteAll",
+  "en": "Delete all exports",
+  "tr": "Xóa tất cả bản xuất",
+  "back": "Delete all editions",
+  "sim": 0.67
+ },
+ {
+  "k": "exportsDeleteAllTitle",
+  "en": "Delete all exports?",
+  "tr": "Xóa tất cả bản xuất?",
+  "back": "Delete all the editions?",
+  "sim": 0.57
+ },
+ {
+  "k": "helpTitle",
+  "en": "Help & how to use",
+  "tr": "Trợ giúp và hướng dẫn sử dụng",
+  "back": "Assistance and instructions for use",
+  "sim": 0.22
+ },
+ {
+  "k": "helpIntro",
+  "en": "Tap a topic to read how it works.",
+  "tr": "Chạm vào một chủ đề để đọc cách nó hoạt động.",
+  "back": "Tap on a subject to read how it works.",
+  "sim": 0.82
+ },
+ {
+  "k": "helpStartTitle",
+  "en": "Getting started",
+  "tr": "Bắt đầu",
+  "back": "Let's get started.",
+  "sim": 0.4
+ },
+ {
+  "k": "helpStart1",
+  "en": "On the home screen, tap Camera to take a photo or Gallery to pick one. Batch cuts out many photos at once.",
+  "tr": "Ở màn hình chính, chạm Máy ảnh để chụp ảnh hoặc Thư viện để chọn ảnh. Hàng loạt tách nền nhiều ảnh cùng lúc.",
+  "back": "On the main screen, tap Camera to take photos or Library to select photos.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpStart2",
+  "en": "Every photo opens in Crop & Rotate first, then in the editor. Your original photo is never changed.",
+  "tr": "Mỗi ảnh mở trước tiên trong Cắt và xoay, rồi đến trình chỉnh sửa. Ảnh gốc của bạn không bao giờ bị thay đổi.",
+  "back": "Each photo opens first in Cut and Spin, then to the editor.",
+  "sim": 0.41
+ },
+ {
+  "k": "helpStart3",
+  "en": "When you are happy, tap Export in the editor. Recent Exports on the home screen lists everything you have exported.",
+  "tr": "Khi hài lòng, chạm Xuất trong trình chỉnh sửa. Ảnh xuất gần đây ở màn hình chính liệt kê mọi thứ bạn đã xuất.",
+  "back": "When you're satisfied, tap Exit in the editor. The most recent image on the home screen lists everything you've published.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpCropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Cắt và xoay",
+  "back": "Cut and spin",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCrop1",
+  "en": "Turn the photo left or right in 90° steps, and drag the frame to choose the part you want to keep.",
+  "tr": "Xoay ảnh sang trái hoặc phải từng bước 90° và kéo khung để chọn phần bạn muốn giữ lại.",
+  "back": "Turn the image to the left or take 90 degrees and drag the frame to select the part you want to hold.",
+  "sim": 0.7
+ },
+ {
+  "k": "helpCrop2",
+  "en": "Free lets you shape the frame as you like. 1:1, 4:5 and 9:16 lock its shape. Tap Continue to open the editor.",
+  "tr": "Tự do cho phép bạn tạo hình khung tùy ý. 1:1, 4:5 và 9:16 khóa hình dạng của khung. Chạm Tiếp tục để mở trình chỉnh sửa.",
+  "back": "Freedom allows you to create any frame you want. 1:1, 4:5 and 9:16 lock the shape of the frame. Tap Continue to open the editing process.",
+  "sim": 0.58
+ },
+ {
+  "k": "helpCutoutTitle",
+  "en": "Cut-out",
+  "tr": "Tách nền",
+  "back": "The background.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCutout1",
+  "en": "When the editor opens, PhotoSur finds the main subject and removes the background automatically, on your phone. No internet is needed.",
+  "tr": "Khi trình chỉnh sửa mở ra, PhotoSur tìm chủ thể chính và tự động xóa nền ngay trên điện thoại của bạn. Không cần internet.",
+  "back": "When the editor opens, PhotoSur finds the main subject and automatically deletes the background right on your phone.",
+  "sim": 0.77
+ },
+ {
+  "k": "helpCutout2",
+  "en": "Edge Smoothness softens the edge of the cut-out, from 0 to 20 pixels.",
+  "tr": "Độ mịn viền làm mềm viền của phần tách nền, từ 0 đến 20 pixel.",
+  "back": "The smoothness of the curve softened the curve of the background split, from 0 to 20 pixels.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpCutout3",
+  "en": "The eye button at the top shows your original photo so you can compare. Tap it again to go back. The brush is paused while the original is shown.",
+  "tr": "Nút hình con mắt ở trên cùng hiển thị ảnh gốc để so sánh. Chạm lại để quay về. Cọ tạm dừng khi ảnh gốc đang hiển thị.",
+  "back": "The eye button at the top shows the original image for comparison. Touch back to turn back. It stops when the original image is showing.",
+  "sim": 0.37
+ },
+ {
+  "k": "helpCutout4",
+  "en": "For difficult subjects such as glass, shoes, bags and bottles, tap Get HD cut-out. The HD model downloads once, stays on your phone and then works offline. Once it is installed, every new cut-out uses it automatically. To redo the photo you have open, tap Redo cut-out in HD.",
+  "tr": "Với các chủ thể khó, như kính, giày, túi và chai, hãy chạm Tải tách nền HD. Mô hình HD chỉ tải một lần, nằm lại trên điện thoại rồi chạy ngoại tuyến. Khi đã cài, mỗi lần tách nền mới đều tự động dùng nó. Để làm lại ảnh đang mở, chạm Tách nền lại bằng HD.",
+  "back": "For difficult objects, such as glasses, shoes, bags and bottles, tap Download HD backgrounds. The HD model only loads once, rests on the phone and runs offline. Once installed, each new backgrounds removal automatically uses it. To recreate the image that's open, tap Backgrounds in HD.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpBrushTitle",
+  "en": "Brush",
+  "tr": "Cọ",
+  "back": "It's a tree.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBrush1",
+  "en": "Erase removes parts of the subject. Restore brings back parts the cut-out removed.",
+  "tr": "Xóa loại bỏ các phần của chủ thể. Khôi phục đưa trở lại những phần mà việc tách nền đã loại bỏ.",
+  "back": "Remove the parts of the subject. Restore the parts that the background separation removed.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpBrush2",
+  "en": "Drag one finger to paint. Use two fingers to zoom, up to 8 times, and to move the photo. The brush keeps its size on screen, so zooming in gives finer control.",
+  "tr": "Kéo một ngón tay để vẽ. Dùng hai ngón để phóng to, tối đa 8 lần, và di chuyển ảnh. Cọ giữ nguyên kích thước trên màn hình, nên khi phóng to bạn làm việc chính xác hơn.",
+  "back": "Pull one finger to draw. Use two fingers to magnify, up to eight times, and move the image. They keep the size on the screen, so when you magnify you work more accurately.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpBrush3",
+  "en": "Brush Size goes from 1 to 50. Opacity sets how strongly each stroke applies.",
+  "tr": "Kích thước cọ từ 1 đến 50. Độ mờ đục quyết định mỗi nét cọ đậm đến đâu.",
+  "back": "The size of the palms ranges from 1 to 50, and the dimness determines the depth of each palms.",
+  "sim": 0.36
+ },
+ {
+  "k": "helpBrush4",
+  "en": "Undo and Redo step through your brush strokes. Reset clears all brush strokes and goes back to the automatic cut-out; it asks you to confirm first.",
+  "tr": "Hoàn tác và Làm lại đi qua các nét cọ của bạn. Đặt lại xóa mọi nét cọ và quay về phần tách nền tự động; bạn sẽ được yêu cầu xác nhận trước.",
+  "back": "Activate and Re-create through your bricks. Reset all the bricks and go back to the automatic background separator; you'll be prompted to confirm in advance.",
+  "sim": 0.47
+ },
+ {
+  "k": "helpBackgroundTitle",
+  "en": "Background",
+  "tr": "Nền",
+  "back": "The good.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBackground1",
+  "en": "Choose what goes behind your subject: transparent, white, black, a gradient, a colour, a blurred copy of your photo, or your own photo.",
+  "tr": "Chọn thứ nằm phía sau chủ thể: trong suốt, trắng, đen, chuyển sắc, một màu, bản sao làm mờ của ảnh hoặc chính ảnh của bạn.",
+  "back": "Choose what's behind the subject: transparent, white, black, translucent, a color, a blurred copy of the photo or your photo itself.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpBackground2",
+  "en": "Only one background is used at a time. Your latest choice replaces the earlier one.",
+  "tr": "Mỗi lần chỉ dùng một nền. Lựa chọn gần nhất của bạn thay thế lựa chọn trước.",
+  "back": "Use only one background each time. Your closest option replaces the previous one.",
+  "sim": 0.57
+ },
+ {
+  "k": "helpBackground3",
+  "en": "Add custom background lets you pick a photo from your gallery. Custom color opens a colour picker. The Blur slider goes from 0 to 25.",
+  "tr": "Thêm nền tùy chỉnh cho phép bạn chọn ảnh từ thư viện. Màu tùy chỉnh mở bộ chọn màu. Thanh trượt Làm mờ từ 0 đến 25.",
+  "back": "Add a custom panel that lets you select photos from the library. Custom color opens the color selector.",
+  "sim": 0.42
+ },
+ {
+  "k": "helpBackground4",
+  "en": "Transparent shows a checkerboard while you edit. Export as PNG to keep it transparent.",
+  "tr": "Trong suốt hiển thị hình ô bàn cờ khi chỉnh sửa. Hãy xuất ở dạng PNG để giữ độ trong suốt.",
+  "back": "It's always showing the shape of the chessboard when it's edited.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpTemplatesTitle",
+  "en": "Templates",
+  "tr": "Mẫu",
+  "back": "Sample",
+  "sim": 0.0
+ },
+ {
+  "k": "helpTemplates1",
+  "en": "Templates are ready-made backgrounds in five groups: Studio, Color block, Textures, Light & shadow, and Gradients & patterns. Five scenes are shown in the panel; tap the Templates button to see them all.",
+  "tr": "Mẫu là các nền dựng sẵn, chia làm năm nhóm: Studio, Khối màu, Chất liệu, Ánh sáng & bóng đổ và Chuyển sắc & hoa văn. Bảng hiển thị năm cảnh; chạm nút Mẫu để xem tất cả.",
+  "back": "Templates are pre-built settings, divided into five groups: Studio, Colors, Materials, Light & Shadows and Color Shift & Painting. The table displays five scenes; tap the Template button to view all.",
+  "sim": 0.43
+ },
+ {
+  "k": "helpTemplates2",
+  "en": "Choosing a template works like choosing your own photo as the background: it replaces your earlier background choice.",
+  "tr": "Chọn một mẫu giống như chọn ảnh của riêng bạn làm nền: nó thay thế lựa chọn nền trước đó của bạn.",
+  "back": "Choosing a pattern is like choosing your own photo as a background: it replaces your previous background choice.",
+  "sim": 0.78
+ },
+ {
+  "k": "helpLayoutTitle",
+  "en": "Layout",
+  "tr": "Bố cục",
+  "back": "The police station.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpLayout1",
+  "en": "Drag the subject on the photo to move it. Pinch with two fingers to resize it.",
+  "tr": "Kéo chủ thể trên ảnh để di chuyển. Chụm hai ngón tay để đổi kích thước.",
+  "back": "Pull the subject on the photo to move. Pull two fingers to change size.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpLayout2",
+  "en": "Choose Original, 1:1, 4:5 or 9:16 to set the shape of the final picture.",
+  "tr": "Chọn Gốc, 1:1, 4:5 hoặc 9:16 để đặt hình dạng của ảnh cuối.",
+  "back": "Choose Go, 1:1, 4:5, or 9:16 to set the shape of the final image.",
+  "sim": 0.86
+ },
+ {
+  "k": "helpLayout3",
+  "en": "Size sets how big the subject is, from 20% to 300%. Shadow sets how strong its shadow is. Auto-center puts the subject back in the middle. Reset undoes moving and resizing.",
+  "tr": "Kích thước quyết định chủ thể lớn đến đâu, từ 20% đến 300%. Bóng đổ quyết định bóng đậm đến đâu. Tự căn giữa đưa chủ thể về giữa. Đặt lại hoàn tác các lần di chuyển và đổi kích thước.",
+  "back": "The wave determines the thickness of the ball, the center of the rotation, the center of the object, the rearrangement of the movements and the rearrangement of the size.",
+  "sim": 0.03
+ },
+ {
+  "k": "helpLayout4",
+  "en": "This shape is used when the export size is Original. If you choose a size preset or a marketplace in the export sheet, that decides the final shape instead.",
+  "tr": "Hình dạng này được dùng khi kích thước xuất là Gốc. Nếu bạn chọn kích thước định sẵn hoặc một sàn thương mại trong bảng xuất, thì lựa chọn đó quyết định hình dạng cuối cùng.",
+  "back": "This format is used when the export size is Gok. If you select a default size or a trading floor in the export table, that choice determines the final shape.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpExportTitle",
+  "en": "Export",
+  "tr": "Xuất",
+  "back": "Get out of here.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpExport1",
+  "en": "Tap Export to open the export sheet. Nothing is applied until you tap Save to Gallery or Share, so you can change your choices as often as you like.",
+  "tr": "Chạm Xuất để mở bảng xuất. Không có gì được áp dụng cho đến khi bạn chạm Lưu vào Thư viện hoặc Chia sẻ, nên bạn có thể đổi lựa chọn bao nhiêu lần tùy ý.",
+  "back": "Nothing applies until you tap Save on Library or Share, so you can switch options as many times as you want.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpExport2",
+  "en": "PNG keeps transparency. JPG makes smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a small modern format; if your phone cannot make it, the file is saved as JPG. For JPG and WEBP, the Quality slider trades file size for detail.",
+  "tr": "PNG giữ độ trong suốt. JPG cho tệp nhỏ hơn nhưng không thể trong suốt, nên nền trong suốt sẽ thành màu trắng. WEBP là định dạng hiện đại, gọn nhẹ; nếu điện thoại không tạo được, tệp sẽ được lưu dạng JPG. Với JPG và WEBP, thanh trượt Chất lượng cân bằng giữa dung lượng tệp và độ chi tiết.",
+  "back": "PNG maintains transparency. JPG for smaller files but cannot be transparent, so the transparent background will be white. WEBP is a modern, lightweight format; if the phone fails to create it, the file will be saved as JPG. With JPG and WEBP, the Quality slider balances between file capacity and detail.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpExport3",
+  "en": "Original keeps your photo’s size, with the shape chosen in Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. Custom lets you type a width and height in pixels.",
+  "tr": "Gốc giữ nguyên kích thước ảnh của bạn, với hình dạng đã chọn trong Bố cục. 1:1 là 1080 × 1080, 4:5 là 1080 × 1350 và 9:16 là 1080 × 1920. Tùy chỉnh cho phép bạn nhập chiều rộng và chiều cao theo pixel.",
+  "back": "Keep the size of your image intact, with the shape selected in Points. 1:1 is 1080×1080, 4:5 is 1080×1350 and 9:16 is 1080×20. Customization allows you to enter width and height per pixel.",
+  "sim": 0.48
+ },
+ {
+  "k": "helpExport4",
+  "en": "Marketplace presets set size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG kept under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices, and choosing a format or size afterwards switches the marketplace off. Marketplace rules can change, so check your marketplace’s current requirements.",
+  "tr": "Cài đặt sẵn của sàn thương mại quy định kích thước, định dạng và chất lượng: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG dưới 1 MB và Shopify 2048 × 2048 PNG. Chọn một sàn sẽ thay thế lựa chọn định dạng và kích thước của bạn; nếu sau đó bạn chọn định dạng hoặc kích thước, sàn sẽ bị bỏ chọn. Quy định của sàn thương mại có thể thay đổi, vì vậy hãy kiểm tra yêu cầu hiện hành của sàn bạn dùng.",
+  "back": "The pre-set of the trading floor specifies size, format, and quality: Amazon 2000×2000 JPG, eBay 1600×1600 JPG, Etsy 2667×2000 JPG under 1 MB, and Shopify 2048×2048 PNG. Choose a floor that will replace your choice of format and size; if you then choose a format or size, the floor will be removed. The rules of the trading floor may change, so check the current requirements of the floor you use.",
+  "sim": 0.49
+ },
+ {
+  "k": "helpExport5",
+  "en": "Amazon also uses a pure white background with no shadow and fits the subject to fill most of the frame. Your background choice in the editor is not changed. The other marketplaces keep your background.",
+  "tr": "Amazon còn dùng nền trắng tinh không có bóng và điều chỉnh chủ thể để lấp đầy phần lớn khung hình. Lựa chọn nền của bạn trong trình chỉnh sửa không thay đổi. Các sàn khác giữ nguyên nền của bạn.",
+  "back": "Amazon also uses a shadeless white background and subject adjustment to fill most of the frame. Your background selection in the editor does not change. Other floors keep your background intact.",
+  "sim": 0.73
+ },
+ {
+  "k": "helpExport6",
+  "en": "Save to Gallery and Share both save the picture to your gallery and to Recent Exports. Share also opens your phone’s share menu. If saving to the gallery is not possible, the share menu opens instead. After exporting you return to the home screen.",
+  "tr": "Lưu vào Thư viện và Chia sẻ đều lưu ảnh vào thư viện của bạn và vào Ảnh xuất gần đây. Chia sẻ còn mở thêm menu chia sẻ của điện thoại. Nếu không thể lưu vào thư viện, menu chia sẻ sẽ mở thay thế. Sau khi xuất, bạn quay về màn hình chính.",
+  "back": "Save to Library and Share both save photos to your library and to Recent Photos. Share also opens the phone's share menu. If you can't save to the library, the share menu will open instead. After you exit, you go back to the main screen.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpExport7",
+  "en": "Unless you have removed ads, an ad can appear after an export, at most once every two minutes.",
+  "tr": "Nếu bạn chưa gỡ quảng cáo, một quảng cáo có thể xuất hiện sau khi xuất, tối đa hai phút một lần.",
+  "back": "If you haven't deleted the ad, an ad may appear after publication, up to two minutes at a time.",
+  "sim": 0.38
+ },
+ {
+  "k": "helpBatchTitle",
+  "en": "Batch",
+  "tr": "Hàng loạt",
+  "back": "The series",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBatch1",
+  "en": "Batch cuts out up to 30 photos in one go. Tap Batch on the home screen and pick your photos. The back button is turned off while a batch runs.",
+  "tr": "Hàng loạt tách nền tối đa 30 ảnh cùng lúc. Chạm Hàng loạt ở màn hình chính và chọn ảnh. Nút Quay lại bị tắt trong khi một lô đang chạy.",
+  "back": "Separate the background by up to 30 images at a time. Tap Separate on the main screen and select the photo. The Reverse button is turned off while a batch is running.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpBatch2",
+  "en": "All photos in a batch share one setup: one background and one marketplace. You cannot choose differently for each photo.",
+  "tr": "Mọi ảnh trong một lô dùng chung một thiết lập: một nền và một sàn thương mại. Bạn không thể chọn khác nhau cho từng ảnh.",
+  "back": "Every photo in a batch shares a setup: a background and a trading floor. You can't choose different for each photo.",
+  "sim": 0.54
+ },
+ {
+  "k": "helpBatch3",
+  "en": "Backgrounds work as in the editor: your own photo, a colour, a template, white, transparent, black, blur or a gradient. Only one applies, and your latest choice replaces the earlier one.",
+  "tr": "Các nền hoạt động như trong trình chỉnh sửa: ảnh của bạn, một màu, một mẫu, trắng, trong suốt, đen, làm mờ hoặc chuyển sắc. Chỉ một nền có hiệu lực, và lựa chọn gần nhất của bạn thay thế lựa chọn trước.",
+  "back": "The backgrounds work as in the editor: your photo, one color, one pattern, white, transparent, black, blurred or translucent. Only one background works, and your closest option replaces the previous one.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpBatch4",
+  "en": "The file format is chosen for you. With a marketplace, the photos follow that marketplace’s size and format. Without one, a transparent background gives PNG and any other background gives JPG, at the original size.",
+  "tr": "Định dạng tệp được chọn giúp bạn. Với một sàn thương mại, ảnh theo kích thước và định dạng của sàn đó. Không có sàn, nền trong suốt cho ra PNG và mọi nền khác cho ra JPG, ở kích thước gốc.",
+  "back": "The selected file format helps you. With a trading floor, the image is the size and format of that floor. No floor, the transparent background gives PNG and any other background gives JPG, in the original size.",
+  "sim": 0.64
+ },
+ {
+  "k": "helpBatch5",
+  "en": "Choosing Amazon switches the background to White; if you then choose another background, Amazon is switched off. eBay, Etsy and Shopify keep your background, but a JPG cannot be transparent, so it gets a white background.",
+  "tr": "Chọn Amazon sẽ đổi nền sang Trắng; nếu sau đó bạn chọn nền khác, Amazon sẽ bị bỏ chọn. eBay, Etsy và Shopify giữ nền của bạn, nhưng JPG không thể trong suốt nên được thêm nền trắng.",
+  "back": "Choose Amazon to change the background to White; if you then choose another background, Amazon will be dropped. eBay, Etsy and Shopify keep your background, but JPG cannot be transparent so white background should be added.",
+  "sim": 0.75
+ },
+ {
+  "k": "helpBatch6",
+  "en": "If the HD model is installed, every photo in the batch is cut out with it. The Get HD cut-out button next to Templates downloads it.",
+  "tr": "Nếu mô hình HD đã được cài, mọi ảnh trong lô đều được tách nền bằng nó. Nút Tải tách nền HD cạnh Mẫu sẽ tải nó về.",
+  "back": "If the HD model is installed, every photo in the batch is backed up with it.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpBatch7",
+  "en": "Each photo is saved to your gallery and to Recent Exports as soon as it finishes. Stop ends the batch after the current photo, and photos already finished stay saved. If a photo fails, the batch carries on and tells you how many could not be processed. Done takes you back to the home screen; it does not save anything.",
+  "tr": "Mỗi ảnh được lưu vào thư viện và Ảnh xuất gần đây ngay khi hoàn tất. Dừng kết thúc lô sau ảnh đang xử lý, và các ảnh đã hoàn tất vẫn được giữ lại. Nếu một ảnh lỗi, lô vẫn tiếp tục và cho bạn biết có bao nhiêu ảnh không xử lý được. Xong đưa bạn về màn hình chính; nó không lưu gì cả.",
+  "back": "Each photo is saved to the library and recently exported as soon as it's finished. Stop the end of the batch after the photo is being processed, and the finished photos are still stored. If there's an error, the batch continues and tells you how many photos are unprocessed. It takes you to the main screen; it saves nothing.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpLibraryTitle",
+  "en": "Your exports",
+  "tr": "Ảnh bạn đã xuất",
+  "back": "You're out of here.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpLibrary1",
+  "en": "Recent Exports on the home screen shows your latest exports. Tap See all for every export, grouped as Today, Yesterday, This week and Earlier.",
+  "tr": "Ảnh xuất gần đây ở màn hình chính hiển thị các bản xuất mới nhất. Chạm Xem tất cả để xem hết, được nhóm thành Hôm nay, Hôm qua, Tuần này và Trước đó.",
+  "back": "Recent images on the main screen show the latest releases. Tap View All to view all, grouped into Today, Yesterday, This Week and Before.",
+  "sim": 0.54
+ },
+ {
+  "k": "helpLibrary2",
+  "en": "Tap an export to open it full screen. Swipe to move between exports and pinch to zoom. The bar at the bottom has Share, Save to Gallery, Edit again and Delete.",
+  "tr": "Chạm vào một bản xuất để mở toàn màn hình. Vuốt để chuyển giữa các bản xuất và chụm để phóng to. Thanh dưới có Chia sẻ, Lưu vào Thư viện, Chỉnh sửa lại và Xóa.",
+  "back": "Tap on a print to open the full screen. Tap to switch between the prints and the plug to enlarge. The bottom button has Sharing, Save to Library, Reedit and Delete.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpLibrary3",
+  "en": "The three-dot button on a tile opens the same actions. Edit again opens the exported picture as a new photo, so earlier brush strokes are not restored.",
+  "tr": "Nút ba chấm trên ảnh thu nhỏ mở cùng các thao tác đó. Chỉnh sửa lại mở ảnh đã xuất như một ảnh mới, nên các nét cọ trước đó không được khôi phục.",
+  "back": "The three-point button on the thumbnail opens with those operations.",
+  "sim": 0.22
+ },
+ {
+  "k": "helpLibrary4",
+  "en": "Select lets you choose several exports to share together or delete. Delete all exports removes every export from this phone.",
+  "tr": "Chọn cho phép bạn chọn nhiều bản xuất để chia sẻ hoặc xóa cùng lúc. Xóa tất cả bản xuất gỡ mọi bản xuất khỏi điện thoại này.",
+  "back": "The option allows you to select multiple outputs to share or delete at the same time. Delete all outputs and remove all outputs from this phone.",
+  "sim": 0.43
+ },
+ {
+  "k": "helpLibrary5",
+  "en": "Deleting removes exports from PhotoSur only. Pictures already saved to your gallery are not affected. The bottom of the See all screen shows how much space exports use on this phone.",
+  "tr": "Việc xóa chỉ gỡ các bản xuất khỏi PhotoSur. Những ảnh đã lưu trong thư viện của bạn không bị động đến. Ở cuối Xem tất cả, bạn thấy các bản xuất chiếm bao nhiêu dung lượng trên điện thoại này.",
+  "back": "The deletion is just removing the copies from PhotoSur. The photos that were saved in your library were not affected. At the end of View All, you see how much space the copies take up on this phone.",
+  "sim": 0.43
+ },
+ {
+  "k": "helpPrivacyTitle",
+  "en": "Privacy & ads",
+  "tr": "Quyền riêng tư và quảng cáo",
+  "back": "Privacy and advertising rights",
+  "sim": 0.33
+ },
+ {
+  "k": "helpPrivacy1",
+  "en": "Your photos are processed on your phone and are not uploaded. There is no account and no watermark.",
+  "tr": "Ảnh của bạn được xử lý ngay trên điện thoại và không bị tải lên. Không có tài khoản và không có hình mờ.",
+  "back": "Your picture is processed right on the phone and it's not uploaded. There's no account and there's no blur.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpPrivacy2",
+  "en": "PhotoSur is free with every feature included, supported by ads. A banner appears at the bottom of some screens, and an ad can appear after an export.",
+  "tr": "PhotoSur miễn phí, đầy đủ mọi tính năng, và được duy trì nhờ quảng cáo. Một biểu ngữ xuất hiện ở cuối một số màn hình, và một quảng cáo có thể hiện ra sau khi xuất.",
+  "back": "PhotoSur is free, full-featured, and maintained by advertising. A banner appears at the end of some screens, and an ad may appear after publication.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpPrivacy3",
+  "en": "Go Ad-Free in Settings is a one-time purchase that removes the ads. It does not unlock anything else, because every feature is already free. Restore Purchases brings it back on a new phone.",
+  "tr": "Gỡ quảng cáo trong Cài đặt là giao dịch mua một lần để loại bỏ quảng cáo. Nó không mở khóa thêm gì khác, vì mọi tính năng đều đã miễn phí. Khôi phục giao dịch mua lấy lại nó trên điện thoại mới.",
+  "back": "Putting an ad in Settings is a one-time purchase transaction to remove the ad. It doesn't unlock anything else, because all the features are now free. Restore the buy-back transaction on the new phone.",
+  "sim": 0.51
+ },
+ {
+  "k": "helpSettingsTitle",
+  "en": "Settings",
+  "tr": "Cài đặt",
+  "back": "Installed",
+  "sim": 0.0
+ },
+ {
+  "k": "helpSettings1",
+  "en": "Theme can follow your phone, or be Light or Dark. Language changes the language of the app. Both are also in the home screen header.",
+  "tr": "Giao diện có thể theo điện thoại của bạn, hoặc Sáng hoặc Tối. Ngôn ngữ đổi ngôn ngữ của ứng dụng. Cả hai cũng có ở thanh tiêu đề màn hình chính.",
+  "back": "The interface can be on your phone, or Morning or Night. The language of the app changes. Both are also on the main screen header bar.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpSettings2",
+  "en": "Edit reminders: if you leave the app with an unfinished edit, PhotoSur can remind you three hours later. Switch this off in Settings.",
+  "tr": "Nhắc nhở chỉnh sửa: nếu bạn thoát ứng dụng khi còn một bản chỉnh sửa dang dở, PhotoSur có thể nhắc bạn sau ba giờ. Hãy tắt tính năng này trong Cài đặt.",
+  "back": "Edit Reminder: If you exit the app while an editing error occurs, PhotoSur can remind you after three hours. Turn off this feature in Settings.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpSettings3",
+  "en": "HD cut-out model shows whether it is installed. Remove deletes it from your phone to free space; you can download it again at any time.",
+  "tr": "Mô hình tách nền HD cho biết nó đã được cài hay chưa. Xóa gỡ nó khỏi điện thoại để giải phóng dung lượng; bạn có thể tải lại bất cứ lúc nào.",
+  "back": "The HD partition model tells you if it's installed. Remove it from the phone to free up space; you can download it again anytime.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpSettings4",
+  "en": "Replay intro shows the welcome screens again. Support opens the support page. Animated home background turns the moving picture at the top of the home screen on or off.",
+  "tr": "Xem lại phần giới thiệu hiển thị lại các màn hình chào mừng. Hỗ trợ mở trang hỗ trợ. Nền động trang chủ bật hoặc tắt hình ảnh chuyển động ở đầu màn hình chính.",
+  "back": "Re-view the introduction showing the welcome screens. Support to open the support page. The homepage animation button turns on or off the moving image at the top of the main screen.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpFixTitle",
+  "en": "If something goes wrong",
+  "tr": "Nếu có sự cố",
+  "back": "If there's a problem",
+  "sim": 0.25
+ },
+ {
+  "k": "helpFix1",
+  "en": "If the automatic cut-out cannot run on a very old or low-memory phone, the brush still works, so you can finish the picture by hand.",
+  "tr": "Nếu việc tách nền tự động không chạy được trên điện thoại rất cũ hoặc ít bộ nhớ, cọ vẫn hoạt động, nên bạn có thể hoàn thiện ảnh bằng tay.",
+  "back": "If the automatic background separation doesn't work on a very old phone or low memory, the palm is still working, so you can finish the photo manually.",
+  "sim": 0.58
+ },
+ {
+  "k": "helpFix2",
+  "en": "If the HD download stops, check your connection and try again. It continues where it left off.",
+  "tr": "Nếu việc tải HD bị dừng, hãy kiểm tra kết nối và thử lại. Nó sẽ tiếp tục từ chỗ đã dừng.",
+  "back": "If the HD download is stopped, check the connection and try again.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpFix3",
+  "en": "For anything else, open Support from Settings.",
+  "tr": "Với mọi vấn đề khác, hãy mở Hỗ trợ từ Cài đặt.",
+  "back": "For any other issues, open Installation Support.",
+  "sim": 0.43
+ }
+]

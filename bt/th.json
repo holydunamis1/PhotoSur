@@ -1,0 +1,1780 @@
+[
+ {
+  "k": "onboardingPage1Title",
+  "en": "Remove backgrounds instantly. All features free.",
+  "tr": "ลบพื้นหลังทันที ทุกฟีเจอร์ใช้ฟรี",
+  "back": "Remove the background instantly. All the features are free to use.",
+  "sim": 0.59
+ },
+ {
+  "k": "onboardingPage1Body",
+  "en": "Open a photo and our on-device AI removes the background automatically — no internet required. You can also swap in your own custom background.",
+  "tr": "เปิดรูปภาพ แล้ว AI ในเครื่องจะลบพื้นหลังให้อัตโนมัติ ไม่ต้องใช้อินเทอร์เน็ต คุณยังเปลี่ยนเป็นพื้นหลังที่กำหนดเองได้ด้วย",
+  "back": "Open the image, and the AI in the machine will automatically remove the background without the Internet, and you can also change it to a custom background.",
+  "sim": 0.44
+ },
+ {
+  "k": "onboardingPage2Title",
+  "en": "Fine-tune with the brush",
+  "tr": "ปรับแต่งละเอียดด้วยแปรง",
+  "back": "A fine-tuning with a brush.",
+  "sim": 0.44
+ },
+ {
+  "k": "onboardingPage2Body",
+  "en": "Paint away what the AI missed or restore what you want to keep. Then crop, rotate, move and resize.",
+  "tr": "ใช้แปรงลบส่วนที่ AI พลาด หรือกู้คืนส่วนที่ต้องการเก็บไว้ จากนั้นครอป หมุน ย้าย และปรับขนาด",
+  "back": "Use a negative filter on the AI missing parts or recover the parts you want to store, then crop, rotate, move, and scale.",
+  "sim": 0.52
+ },
+ {
+  "k": "onboardingPage3Title",
+  "en": "Studio-ready backgrounds",
+  "tr": "พื้นหลังระดับสตูดิโอ",
+  "back": "The studio level backdrop.",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingPage3Body",
+  "en": "Choose a colour, gradient, template or your own photo, with a natural shadow. Marketplace presets for Amazon, eBay, Etsy and Shopify set size and format for you.",
+  "tr": "เลือกสี ไล่เฉดสี เทมเพลต หรือรูปของคุณเอง พร้อมเงาธรรมชาติ ค่าที่ตั้งไว้ล่วงหน้าสำหรับ Amazon, eBay, Etsy และ Shopify จะกำหนดขนาดและรูปแบบให้คุณ",
+  "back": "Choose a color, a shade, a template, or your own photo with natural shades. Pre-set prices for Amazon, eBay, Etsy, and Shopify will determine the size and shape for you.",
+  "sim": 0.67
+ },
+ {
+  "k": "onboardingPage4Title",
+  "en": "Batch it, export it, keep it private",
+  "tr": "ทำทีละหลายรูป เลือกรูปแบบได้ และเป็นส่วนตัว",
+  "back": "You can do a lot of things, you can choose patterns, and you can do it personally.",
+  "sim": 0.08
+ },
+ {
+  "k": "onboardingPage4Body",
+  "en": "Cut out up to 30 photos at once and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "tr": "ลบพื้นหลังได้สูงสุด 30 รูปในครั้งเดียว และส่งออกเป็น PNG, JPG หรือ WEBP รูปของคุณไม่เคยออกจากโทรศัพท์ รองรับ 43 ภาษา",
+  "back": "Remove the background for up to 30 images at a time and export them as PNG, JPG or WEBP. Your images never leave your phone, receive 43 languages.",
+  "sim": 0.68
+ },
+ {
+  "k": "onboardingNext",
+  "en": "Next",
+  "tr": "ถัดไป",
+  "back": "The next one.",
+  "sim": 0.5
+ },
+ {
+  "k": "onboardingGetStarted",
+  "en": "Get Started",
+  "tr": "เริ่มต้นใช้งาน",
+  "back": "Start working.",
+  "sim": 0.0
+ },
+ {
+  "k": "homeCameraButton",
+  "en": "Camera",
+  "tr": "กล้อง",
+  "back": "The camera.",
+  "sim": 0.67
+ },
+ {
+  "k": "homeGalleryButton",
+  "en": "Gallery",
+  "tr": "แกลเลอรี",
+  "back": "The gallery.",
+  "sim": 0.67
+ },
+ {
+  "k": "dateToday",
+  "en": "Today",
+  "tr": "วันนี้",
+  "back": "It's today.",
+  "sim": 0.67
+ },
+ {
+  "k": "dateYesterday",
+  "en": "Yesterday",
+  "tr": "เมื่อวาน",
+  "back": "Yesterday.",
+  "sim": 1.0
+ },
+ {
+  "k": "homeRecentExports",
+  "en": "Recent Exports",
+  "tr": "ไฟล์ที่ส่งออกล่าสุด",
+  "back": "The most recent file shipped.",
+  "sim": 0.29
+ },
+ {
+  "k": "homeEmptyStateMessage",
+  "en": "Tap Camera or Gallery to start.",
+  "tr": "แตะกล้องหรือแกลเลอรีเพื่อเริ่มต้น",
+  "back": "Take a camera or a gallery to start with.",
+  "sim": 0.67
+ },
+ {
+  "k": "homeExportUnavailable",
+  "en": "This export is no longer available.",
+  "tr": "ไฟล์ที่ส่งออกนี้ไม่พร้อมใช้งานแล้ว",
+  "back": "This export file is out of order.",
+  "sim": 0.46
+ },
+ {
+  "k": "homeShareFailed",
+  "en": "Could not share this export.",
+  "tr": "ไม่สามารถแชร์ไฟล์ที่ส่งออกนี้ได้",
+  "back": "I can't share this export file.",
+  "sim": 0.55
+ },
+ {
+  "k": "homeGalleryOpenFailed",
+  "en": "Could not open gallery.",
+  "tr": "ไม่สามารถเปิดแกลเลอรีได้",
+  "back": "I can't open the gallery.",
+  "sim": 0.44
+ },
+ {
+  "k": "cameraTitle",
+  "en": "Camera",
+  "tr": "กล้อง",
+  "back": "The camera.",
+  "sim": 0.67
+ },
+ {
+  "k": "cameraPermissionDenied",
+  "en": "Camera access is needed to take a photo. Please allow access.",
+  "tr": "ต้องได้รับสิทธิ์เข้าถึงกล้องเพื่อถ่ายภาพ โปรดอนุญาตการเข้าถึง",
+  "back": "We need access to the camera to take pictures. Please allow access.",
+  "sim": 0.52
+ },
+ {
+  "k": "cameraPermissionPermanentlyDenied",
+  "en": "Camera access was denied. Enable it in Settings to continue.",
+  "tr": "การเข้าถึงกล้องถูกปฏิเสธ เปิดใช้ในการตั้งค่าเพื่อดำเนินการต่อ",
+  "back": "Access to the camera is denied, used to configure to proceed.",
+  "sim": 0.29
+ },
+ {
+  "k": "cameraPermissionRestricted",
+  "en": "Camera access is restricted on this device.",
+  "tr": "การเข้าถึงกล้องถูกจำกัดบนอุปกรณ์นี้",
+  "back": "Camera access is restricted to this device.",
+  "sim": 0.86
+ },
+ {
+  "k": "cameraNoCameraFound",
+  "en": "No camera found on this device.",
+  "tr": "ไม่พบกล้องบนอุปกรณ์นี้",
+  "back": "There's no camera on this device.",
+  "sim": 0.83
+ },
+ {
+  "k": "cameraStartFailed",
+  "en": "Could not start the camera.",
+  "tr": "ไม่สามารถเริ่มกล้องได้",
+  "back": "Can't start the camera.",
+  "sim": 0.67
+ },
+ {
+  "k": "cameraCaptureFailed",
+  "en": "Could not capture photo.",
+  "tr": "ไม่สามารถถ่ายภาพได้",
+  "back": "I can't take a picture.",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraOpenSettings",
+  "en": "Open Settings",
+  "tr": "เปิดการตั้งค่า",
+  "back": "Open the settings.",
+  "sim": 0.8
+ },
+ {
+  "k": "cameraFlashTooltip",
+  "en": "Flash",
+  "tr": "แฟลช",
+  "back": "It's a flash.",
+  "sim": 0.5
+ },
+ {
+  "k": "cameraGalleryTooltip",
+  "en": "Gallery",
+  "tr": "แกลเลอรี",
+  "back": "The gallery.",
+  "sim": 0.67
+ },
+ {
+  "k": "cropTitle",
+  "en": "Crop & Rotate",
+  "tr": "ครอบตัดและหมุน",
+  "back": "Round cut and spin.",
+  "sim": 0.0
+ },
+ {
+  "k": "cropLoadFailed",
+  "en": "Could not load the image.",
+  "tr": "ไม่สามารถโหลดรูปภาพได้",
+  "back": "I can't upload the photos.",
+  "sim": 0.2
+ },
+ {
+  "k": "cropRotateFailed",
+  "en": "Could not rotate the image.",
+  "tr": "ไม่สามารถหมุนรูปภาพได้",
+  "back": "Can't turn the image around.",
+  "sim": 0.4
+ },
+ {
+  "k": "cropFailed",
+  "en": "Crop failed.",
+  "tr": "ครอบตัดไม่สำเร็จ",
+  "back": "Family cutting failed.",
+  "sim": 0.4
+ },
+ {
+  "k": "cropSaveFailed",
+  "en": "Could not save the cropped image.",
+  "tr": "ไม่สามารถบันทึกรูปที่ครอบตัดได้",
+  "back": "I can't record a full cut.",
+  "sim": 0.0
+ },
+ {
+  "k": "cropAspectFree",
+  "en": "Free",
+  "tr": "อิสระ",
+  "back": "It's free.",
+  "sim": 0.67
+ },
+ {
+  "k": "cropContinue",
+  "en": "Continue",
+  "tr": "ดำเนินการต่อ",
+  "back": "Keep going.",
+  "sim": 0.0
+ },
+ {
+  "k": "editorSegmentationFailedMessage",
+  "en": "Your device doesn't support automatic background removal. Use the manual brush below.",
+  "tr": "อุปกรณ์ของคุณไม่รองรับการลบพื้นหลังอัตโนมัติ ใช้แปรงแมนนวลด้านล่าง",
+  "back": "Your device doesn't support automatic background erasure using the bottom scrubber.",
+  "sim": 0.61
+ },
+ {
+  "k": "brushErase",
+  "en": "Erase",
+  "tr": "ลบ",
+  "back": "This is negative.",
+  "sim": 0.0
+ },
+ {
+  "k": "brushRestore",
+  "en": "Restore",
+  "tr": "เรียกคืน",
+  "back": "Call it back.",
+  "sim": 0.0
+ },
+ {
+  "k": "brushSizeLabel",
+  "en": "Brush Size",
+  "tr": "ขนาดแปรง",
+  "back": "It's the size of a brush.",
+  "sim": 0.25
+ },
+ {
+  "k": "brushOpacityLabel",
+  "en": "Opacity",
+  "tr": "ความทึบ",
+  "back": "The depth.",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundWhite",
+  "en": "White",
+  "tr": "ขาว",
+  "back": "It's white.",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundTransparent",
+  "en": "Transparent",
+  "tr": "โปร่งใส",
+  "back": "It's clear.",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundBlack",
+  "en": "Black",
+  "tr": "ดำ",
+  "back": "The stars.",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundBlurLabel",
+  "en": "Blur",
+  "tr": "เบลอ",
+  "back": "I'm not lying.",
+  "sim": 0.0
+ },
+ {
+  "k": "edgeFeatherLabel",
+  "en": "Edge Smoothness",
+  "tr": "ความนุ่มของขอบ",
+  "back": "The softness of the edge.",
+  "sim": 0.29
+ },
+ {
+  "k": "toolbarUndo",
+  "en": "Undo",
+  "tr": "เลิกทำ",
+  "back": "Don't do that.",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarRedo",
+  "en": "Redo",
+  "tr": "ทำซ้ำ",
+  "back": "Do it again.",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarReset",
+  "en": "Reset",
+  "tr": "รีเซ็ต",
+  "back": "Reset it.",
+  "sim": 0.67
+ },
+ {
+  "k": "toolbarExport",
+  "en": "Export",
+  "tr": "ส่งออก",
+  "back": "Get out of here.",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmTitle",
+  "en": "Reset edits?",
+  "tr": "รีเซ็ตการแก้ไข?",
+  "back": "Reset the fix?",
+  "sim": 0.4
+ },
+ {
+  "k": "resetConfirmBody",
+  "en": "This clears your manual brush strokes. This cannot be undone.",
+  "tr": "การดำเนินการนี้จะล้างลายเส้นแปรงที่คุณวาดเอง และไม่สามารถย้อนกลับได้",
+  "back": "This procedure will wash the paint off of the brush line that you've drawn and it can't be reversed.",
+  "sim": 0.21
+ },
+ {
+  "k": "resetConfirmCancel",
+  "en": "Cancel",
+  "tr": "ยกเลิก",
+  "back": "Cancel it.",
+  "sim": 0.67
+ },
+ {
+  "k": "resetConfirmConfirm",
+  "en": "Reset",
+  "tr": "รีเซ็ต",
+  "back": "Reset it.",
+  "sim": 0.67
+ },
+ {
+  "k": "exportTitle",
+  "en": "Export",
+  "tr": "ส่งออก",
+  "back": "Get out of here.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportQualityLabel",
+  "en": "Quality: {value}",
+  "tr": "คุณภาพ: {value}",
+  "back": "Quality: [value]",
+  "sim": 1.0
+ },
+ {
+  "k": "exportResizeLabel",
+  "en": "Resize",
+  "tr": "ปรับขนาด",
+  "back": "Scale it up.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeOriginal",
+  "en": "Original",
+  "tr": "ต้นฉบับ",
+  "back": "It's a tree.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeCustom",
+  "en": "Custom",
+  "tr": "กำหนดเอง",
+  "back": "Set yourself up.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportWidthLabel",
+  "en": "Width (px)",
+  "tr": "ความกว้าง (px)",
+  "back": "The width (px)",
+  "sim": 0.8
+ },
+ {
+  "k": "exportHeightLabel",
+  "en": "Height (px)",
+  "tr": "ความสูง (px)",
+  "back": "Height (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSaveToGallery",
+  "en": "Save to Gallery",
+  "tr": "บันทึกลงแกลเลอรี",
+  "back": "It's the gallery.",
+  "sim": 0.33
+ },
+ {
+  "k": "exportShare",
+  "en": "Share",
+  "tr": "แชร์",
+  "back": "I'm not going anywhere.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportSuccess",
+  "en": "Exported!",
+  "tr": "ส่งออกแล้ว!",
+  "back": "Get out of here!",
+  "sim": 0.0
+ },
+ {
+  "k": "exportFailed",
+  "en": "Export failed. Please try again.",
+  "tr": "ส่งออกไม่สำเร็จ โปรดลองอีกครั้ง",
+  "back": "Unsuccessful shipment. Try again.",
+  "sim": 0.44
+ },
+ {
+  "k": "exportInProgress",
+  "en": "Exporting…",
+  "tr": "กำลังส่งออก…",
+  "back": "We're shipping out...",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTitle",
+  "en": "Settings",
+  "tr": "การตั้งค่า",
+  "back": "The settings.",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsTheme",
+  "en": "Theme",
+  "tr": "ธีม",
+  "back": "The theme.",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsLanguage",
+  "en": "Language",
+  "tr": "ภาษา",
+  "back": "The language.",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "กู้คืนการซื้อ",
+  "back": "Pay back the purchase.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsGoAdFree",
+  "en": "Go Ad-Free",
+  "tr": "ลบโฆษณา",
+  "back": "Remove the ad.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsPrivacyPolicy",
+  "en": "Privacy Policy",
+  "tr": "นโยบายความเป็นส่วนตัว",
+  "back": "Privacy policy.",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsSupport",
+  "en": "Support",
+  "tr": "การสนับสนุน",
+  "back": "Support",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRateApp",
+  "en": "Rate App",
+  "tr": "ให้คะแนนแอป",
+  "back": "Score the app.",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsShareApp",
+  "en": "Share App",
+  "tr": "แชร์แอป",
+  "back": "Sharp.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLicenses",
+  "en": "Open-source licenses",
+  "tr": "สัญญาอนุญาตโอเพนซอร์ส",
+  "back": "The license is open source.",
+  "sim": 0.0
+ },
+ {
+  "k": "reminderChannelName",
+  "en": "Edit reminders",
+  "tr": "การเตือนการแก้ไข",
+  "back": "Warning for correction.",
+  "sim": 0.0
+ },
+ {
+  "k": "reminderChannelDescription",
+  "en": "Reminders about edits you have not finished.",
+  "tr": "การเตือนเกี่ยวกับงานแก้ไขที่คุณยังทำไม่เสร็จ",
+  "back": "A reminder about a fix you haven't finished.",
+  "sim": 0.4
+ },
+ {
+  "k": "reminderTitle",
+  "en": "Your edit is waiting",
+  "tr": "งานแก้ไขของคุณกำลังรออยู่",
+  "back": "Your corrections are waiting.",
+  "sim": 0.5
+ },
+ {
+  "k": "reminderBody",
+  "en": "Pick up where you left off and export your photo.",
+  "tr": "ทำต่อจากที่ค้างไว้แล้วส่งออกรูปของคุณ",
+  "back": "Go ahead and send out your picture.",
+  "sim": 0.24
+ },
+ {
+  "k": "settingsReminders",
+  "en": "Edit reminders",
+  "tr": "การเตือนการแก้ไข",
+  "back": "Warning for correction.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsAnimatedBackground",
+  "en": "Animated home background",
+  "tr": "พื้นหลังเคลื่อนไหวหน้าแรก",
+  "back": "Background moving forward.",
+  "sim": 0.33
+ },
+ {
+  "k": "settingsRemindersSubtitle",
+  "en": "Remind me about unfinished edits",
+  "tr": "เตือนฉันเมื่อมีงานแก้ไขที่ยังไม่เสร็จ",
+  "back": "Remind me when there's an unfinished fix.",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsRemindersBlocked",
+  "en": "Notifications are turned off for PhotoSur in your phone's settings.",
+  "tr": "การแจ้งเตือนของ PhotoSur ถูกปิดในการตั้งค่าโทรศัพท์ของคุณ",
+  "back": "PhotoSur's alert was turned off in your phone settings.",
+  "sim": 0.53
+ },
+ {
+  "k": "editorBrushHint",
+  "en": "Drag to paint. Pinch with two fingers to zoom.",
+  "tr": "ลากเพื่อวาด บีบสองนิ้วเพื่อซูม",
+  "back": "Draw to draw, two-inch beep to zoom.",
+  "sim": 0.38
+ },
+ {
+  "k": "editorToolCutout",
+  "en": "Cut-out",
+  "tr": "ตัดภาพ",
+  "back": "I'm going to take pictures.",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBrush",
+  "en": "Brush",
+  "tr": "แปรง",
+  "back": "The frog.",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBackground",
+  "en": "Background",
+  "tr": "พื้นหลัง",
+  "back": "The background.",
+  "sim": 0.67
+ },
+ {
+  "k": "editorToolLayout",
+  "en": "Layout",
+  "tr": "เลย์เอาต์",
+  "back": "Lay it down.",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutAutoCenter",
+  "en": "Auto-center",
+  "tr": "จัดกึ่งกลางอัตโนมัติ",
+  "back": "It's a half-automatic.",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutSizeLabel",
+  "en": "Size",
+  "tr": "ขนาด",
+  "back": "The size.",
+  "sim": 0.67
+ },
+ {
+  "k": "layoutShadowLabel",
+  "en": "Shadow",
+  "tr": "เงา",
+  "back": "It's all right.",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundPhoto",
+  "en": "Photo",
+  "tr": "รูปภาพ",
+  "back": "It's the picture.",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundPhotoFailed",
+  "en": "Could not load that photo.",
+  "tr": "ไม่สามารถโหลดรูปภาพนั้นได้",
+  "back": "I can't upload that image.",
+  "sim": 0.2
+ },
+ {
+  "k": "editorLayoutHint",
+  "en": "Drag to move. Pinch with two fingers to resize.",
+  "tr": "ลากเพื่อย้าย บีบสองนิ้วเพื่อปรับขนาด",
+  "back": "Pull to move a two-inch beep to scale.",
+  "sim": 0.35
+ },
+ {
+  "k": "languageSystemDefault",
+  "en": "System default",
+  "tr": "ค่าเริ่มต้นของระบบ",
+  "back": "The starting value of the system.",
+  "sim": 0.25
+ },
+ {
+  "k": "languageSheetTitle",
+  "en": "Language",
+  "tr": "ภาษา",
+  "back": "The language.",
+  "sim": 0.67
+ },
+ {
+  "k": "themeSheetTitle",
+  "en": "Theme",
+  "tr": "ธีม",
+  "back": "The theme.",
+  "sim": 0.67
+ },
+ {
+  "k": "themeOptionSystem",
+  "en": "System default",
+  "tr": "ค่าเริ่มต้นของระบบ",
+  "back": "The starting value of the system.",
+  "sim": 0.25
+ },
+ {
+  "k": "themeOptionLight",
+  "en": "Light",
+  "tr": "สว่าง",
+  "back": "It's light.",
+  "sim": 0.67
+ },
+ {
+  "k": "themeOptionDark",
+  "en": "Dark",
+  "tr": "มืด",
+  "back": "It's dark.",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsLinkNotReady",
+  "en": "This link isn't set up yet.",
+  "tr": "ลิงก์นี้ยังไม่ได้ตั้งค่า",
+  "back": "This link isn't set yet.",
+  "sim": 0.91
+ },
+ {
+  "k": "settingsLinkOpenFailed",
+  "en": "Could not open link.",
+  "tr": "ไม่สามารถเปิดลิงก์ได้",
+  "back": "I can't get the link.",
+  "sim": 0.22
+ },
+ {
+  "k": "settingsRestoreRequested",
+  "en": "Restore requested — check back in a moment.",
+  "tr": "ส่งคำขอกู้คืนแล้ว โปรดตรวจสอบอีกครั้งในอีกสักครู่",
+  "back": "Send the ransom note back. Please check again in a minute.",
+  "sim": 0.33
+ },
+ {
+  "k": "settingsRestoreFailed",
+  "en": "Restore failed.",
+  "tr": "กู้คืนไม่สำเร็จ",
+  "back": "It's not recovered.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsShareFailed",
+  "en": "Could not share.",
+  "tr": "ไม่สามารถแชร์ได้",
+  "back": "I can't share.",
+  "sim": 0.33
+ },
+ {
+  "k": "settingsShareAppMessage",
+  "en": "Remove photo backgrounds instantly with PhotoSur — free, no watermark.",
+  "tr": "ลบพื้นหลังรูปภาพได้ทันทีด้วย PhotoSur ฟรี ไม่มีลายน้ำ",
+  "back": "Remove the background of the photo instantly with PhotoSur free, no watermarks.",
+  "sim": 0.67
+ },
+ {
+  "k": "paywallTitle",
+  "en": "Go Ad-Free",
+  "tr": "ลบโฆษณา",
+  "back": "Remove the ad.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallAlreadyAdFree",
+  "en": "You're already ad-free. Thank you!",
+  "tr": "คุณลบโฆษณาแล้ว ขอบคุณ!",
+  "back": "You canceled the ad. Thank you!",
+  "sim": 0.36
+ },
+ {
+  "k": "paywallPlanFreeTitle",
+  "en": "Free",
+  "tr": "ฟรี",
+  "back": "It's free.",
+  "sim": 0.67
+ },
+ {
+  "k": "paywallPlanAdFreeTitle",
+  "en": "Ad-Free",
+  "tr": "ไม่มีโฆษณา",
+  "back": "There's no advertising.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPlanAdFreePrice",
+  "en": "One-time purchase",
+  "tr": "ซื้อครั้งเดียว",
+  "back": "Buy it once.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureAllFeatures",
+  "en": "All features",
+  "tr": "ทุกฟีเจอร์",
+  "back": "All the fighters.",
+  "sim": 0.4
+ },
+ {
+  "k": "paywallFeatureAdSupported",
+  "en": "Ad-supported",
+  "tr": "มีโฆษณา",
+  "back": "There's an advertisement.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureZeroAds",
+  "en": "Zero ads",
+  "tr": "ไม่มีโฆษณาเลย",
+  "back": "There's no advertising.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPurchaseButton",
+  "en": "Remove Ads",
+  "tr": "ลบโฆษณา",
+  "back": "Remove the ad.",
+  "sim": 0.4
+ },
+ {
+  "k": "paywallPurchaseButtonPrice",
+  "en": "Remove Ads — {price}",
+  "tr": "ลบโฆษณา — {price}",
+  "back": "Take away the ad.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "กู้คืนการซื้อ",
+  "back": "Pay back the purchase.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallProductUnavailable",
+  "en": "Ad removal is not available right now.",
+  "tr": "ขณะนี้ยังไม่สามารถลบโฆษณาได้",
+  "back": "I can't delete the ad at the moment.",
+  "sim": 0.13
+ },
+ {
+  "k": "paywallPurchaseFailed",
+  "en": "Purchase failed.",
+  "tr": "การซื้อไม่สำเร็จ",
+  "back": "The purchase failed.",
+  "sim": 0.8
+ },
+ {
+  "k": "errorScreenTitle",
+  "en": "Something went wrong",
+  "tr": "เกิดข้อผิดพลาด",
+  "back": "There's been a mistake.",
+  "sim": 0.0
+ },
+ {
+  "k": "errorScreenBody",
+  "en": "Try again, or restart the app if this keeps happening.",
+  "tr": "ลองอีกครั้ง หรือรีสตาร์ทแอปหากปัญหายังคงอยู่",
+  "back": "Try again, or restart the troubleshooting app.",
+  "sim": 0.71
+ },
+ {
+  "k": "errorScreenGoBack",
+  "en": "Go back",
+  "tr": "กลับ",
+  "back": "Get back in the car.",
+  "sim": 0.29
+ },
+ {
+  "k": "errorScreenReportEmail",
+  "en": "Report via {email}",
+  "tr": "รายงานผ่าน {email}",
+  "back": "Report by [email]",
+  "sim": 0.67
+ },
+ {
+  "k": "unsupportedTitle",
+  "en": "Device Not Supported",
+  "tr": "ไม่รองรับอุปกรณ์นี้",
+  "back": "I don't approve of this device.",
+  "sim": 0.22
+ },
+ {
+  "k": "unsupportedNoCameraMessage",
+  "en": "This device doesn't have a camera available.",
+  "tr": "อุปกรณ์นี้ไม่มีกล้องที่ใช้งานได้",
+  "back": "This device doesn't have a working camera.",
+  "sim": 0.86
+ },
+ {
+  "k": "unsupportedLowMemoryMessage",
+  "en": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
+  "tr": "อุปกรณ์นี้มีหน่วยความจำไม่เพียงพอที่จะเรียกใช้ตัวแก้ไขของ PhotoSur ได้อย่างเสถียร",
+  "back": "This device does not have enough memory units to permanently use PhotoSur's editors.",
+  "sim": 0.58
+ },
+ {
+  "k": "unsupportedManualImportHint",
+  "en": "You can still import a photo from your gallery and use the manual brush tool.",
+  "tr": "คุณยังนำเข้ารูปจากแกลเลอรีและใช้แปรงแมนนวลได้",
+  "back": "You can also import photos from the gallery and use a rolling mill.",
+  "sim": 0.5
+ },
+ {
+  "k": "unsupportedUseGalleryButton",
+  "en": "Import from Gallery",
+  "tr": "นำเข้าจากแกลเลอรี",
+  "back": "Imported from the gallery.",
+  "sim": 0.57
+ },
+ {
+  "k": "homeBatchButton",
+  "en": "Batch",
+  "tr": "เป็นชุด",
+  "back": "It's a suit.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchTitle",
+  "en": "Batch cut-out",
+  "tr": "ตัดพื้นหลังเป็นชุด",
+  "back": "Cut the background into a suit.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchOutputTransparent",
+  "en": "Transparent PNG",
+  "tr": "PNG โปร่งใส",
+  "back": "PNG is clear.",
+  "sim": 0.4
+ },
+ {
+  "k": "batchOutputWhite",
+  "en": "White background (JPG)",
+  "tr": "พื้นหลังสีขาว (JPG)",
+  "back": "The white background (JPG)",
+  "sim": 0.86
+ },
+ {
+  "k": "batchStart",
+  "en": "Start",
+  "tr": "เริ่ม",
+  "back": "Let's get this started.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchStop",
+  "en": "Stop",
+  "tr": "หยุด",
+  "back": "Stop it!",
+  "sim": 0.67
+ },
+ {
+  "k": "batchDone",
+  "en": "Done",
+  "tr": "เสร็จสิ้น",
+  "back": "It's all over.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchProgress",
+  "en": "{done} of {total} done",
+  "tr": "เสร็จแล้ว {done} จาก {total}",
+  "back": "Finished from [total]",
+  "sim": 0.29
+ },
+ {
+  "k": "batchSaved",
+  "en": "{count} saved to your gallery",
+  "tr": "บันทึก {count} รูปลงแกลเลอรีแล้ว",
+  "back": "It's a gallery record.",
+  "sim": 0.22
+ },
+ {
+  "k": "batchSomeFailed",
+  "en": "{count} could not be processed",
+  "tr": "ประมวลผล {count} รูปไม่ได้",
+  "back": "Can't process the image.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchTooMany",
+  "en": "Up to {max} photos at a time",
+  "tr": "ได้สูงสุด {max} รูปต่อครั้ง",
+  "back": "Get the maximum [max] image at a time.",
+  "sim": 0.53
+ },
+ {
+  "k": "backgroundAddCustom",
+  "en": "Add custom background",
+  "tr": "เพิ่มพื้นหลังที่กำหนดเอง",
+  "back": "Add the designated background.",
+  "sim": 0.57
+ },
+ {
+  "k": "backgroundCustomColor",
+  "en": "Custom color",
+  "tr": "สีที่กำหนดเอง",
+  "back": "It's your own color.",
+  "sim": 0.33
+ },
+ {
+  "k": "colorSaturation",
+  "en": "Saturation",
+  "tr": "ความอิ่มตัว",
+  "back": "The saturation.",
+  "sim": 0.67
+ },
+ {
+  "k": "colorBrightness",
+  "en": "Brightness",
+  "tr": "ความสว่าง",
+  "back": "The light.",
+  "sim": 0.0
+ },
+ {
+  "k": "colorHexLabel",
+  "en": "Hex code",
+  "tr": "รหัสเลขฐานสิบหก",
+  "back": "The base number is 16.",
+  "sim": 0.0
+ },
+ {
+  "k": "colorPickerDone",
+  "en": "Done",
+  "tr": "เสร็จสิ้น",
+  "back": "It's all over.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceLabel",
+  "en": "Marketplace",
+  "tr": "มาร์เก็ตเพลส",
+  "back": "It's the market place.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceWhiteFill",
+  "en": "Pure white background, product fills the frame",
+  "tr": "พื้นหลังขาวบริสุทธิ์ สินค้าเต็มเฟรม",
+  "back": "Pure white background, full-frame merchandise.",
+  "sim": 0.5
+ },
+ {
+  "k": "exportMarketplaceSizeCap",
+  "en": "File kept under {size} MB",
+  "tr": "ไฟล์ไม่เกิน {size} MB",
+  "back": "The file does not exceed [size] MB",
+  "sim": 0.5
+ },
+ {
+  "k": "editorToolTemplates",
+  "en": "Templates",
+  "tr": "เทมเพลต",
+  "back": "The Temple.",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTitle",
+  "en": "Choose a template",
+  "tr": "เลือกเทมเพลต",
+  "back": "Choose the template.",
+  "sim": 0.67
+ },
+ {
+  "k": "templatesStudio",
+  "en": "Studio",
+  "tr": "สตูดิโอ",
+  "back": "The studio.",
+  "sim": 0.67
+ },
+ {
+  "k": "templatesColorBlock",
+  "en": "Color block",
+  "tr": "บล็อกสี",
+  "back": "The colored block.",
+  "sim": 0.4
+ },
+ {
+  "k": "templatesTextures",
+  "en": "Textures",
+  "tr": "พื้นผิว",
+  "back": "The surface.",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesLight",
+  "en": "Light & shadow",
+  "tr": "แสงและเงา",
+  "back": "Light and shadow.",
+  "sim": 0.8
+ },
+ {
+  "k": "templatesPatterns",
+  "en": "Gradients & patterns",
+  "tr": "ไล่เฉดสีและลวดลาย",
+  "back": "It's a bit of a blur and a sparkle.",
+  "sim": 0.0
+ },
+ {
+  "k": "hdGetAction",
+  "en": "Get HD cut-out",
+  "tr": "รับการตัดภาพ HD",
+  "back": "Get an HD cut.",
+  "sim": 0.57
+ },
+ {
+  "k": "hdRedoAction",
+  "en": "Redo cut-out in HD",
+  "tr": "ตัดภาพใหม่ด้วย HD",
+  "back": "Re-cutting the image in HD.",
+  "sim": 0.44
+ },
+ {
+  "k": "hdDownloading",
+  "en": "HD cut-out in progress… {percent}%",
+  "tr": "การตัดภาพ HD กำลังดำเนินการ… {percent}%",
+  "back": "HD imaging is ongoing... [percent] %",
+  "sim": 0.4
+ },
+ {
+  "k": "hdDownloadingShort",
+  "en": "HD cut-out… {percent}%",
+  "tr": "การตัดภาพ HD… {percent}%",
+  "back": "The cutting of the HD... [percent] %",
+  "sim": 0.44
+ },
+ {
+  "k": "hdConfirmTitle",
+  "en": "Download HD cut-out model?",
+  "tr": "ดาวน์โหลดโมเดลตัดภาพ HD ไหม",
+  "back": "Do you download the cutting-edge HD model?",
+  "sim": 0.55
+ },
+ {
+  "k": "hdConfirmBody",
+  "en": "Cleaner edges on tricky objects like shoes, bags and bottles. It downloads once, stays on your phone and then works offline. Mobile data charges may apply.",
+  "tr": "ขอบคมสะอาดขึ้นกับวัตถุที่ตัดยาก เช่น รองเท้า กระเป๋า และขวด ดาวน์โหลดครั้งเดียว เก็บไว้ในโทรศัพท์ แล้วใช้งานออฟไลน์ได้ อาจมีค่าบริการข้อมูลมือถือ",
+  "back": "Cleaning the edges of hard-cut items like shoes, bags, and bottles, downloading them once, storing them on your phone, and using them offline, could cost you mobile data services.",
+  "sim": 0.51
+ },
+ {
+  "k": "hdDownload",
+  "en": "Download",
+  "tr": "ดาวน์โหลด",
+  "back": "Downloadable",
+  "sim": 0.0
+ },
+ {
+  "k": "hdFailed",
+  "en": "HD cut-out didn’t finish. Check your connection and try again.",
+  "tr": "การตัดภาพ HD ไม่เสร็จสมบูรณ์ ตรวจสอบการเชื่อมต่อแล้วลองอีกครั้ง",
+  "back": "Cutting HD is not complete, check the connection and try again.",
+  "sim": 0.57
+ },
+ {
+  "k": "settingsHdTitle",
+  "en": "HD cut-out model",
+  "tr": "โมเดลตัดภาพ HD",
+  "back": "The model cuts the HD image.",
+  "sim": 0.22
+ },
+ {
+  "k": "settingsHdNotInstalled",
+  "en": "Not downloaded",
+  "tr": "ยังไม่ได้ดาวน์โหลด",
+  "back": "Not downloaded yet.",
+  "sim": 0.8
+ },
+ {
+  "k": "settingsHdInstalled",
+  "en": "Installed · works offline",
+  "tr": "ติดตั้งแล้ว · ใช้งานออฟไลน์ได้",
+  "back": "It's installed. It works offline.",
+  "sim": 0.75
+ },
+ {
+  "k": "settingsHdRemove",
+  "en": "Remove",
+  "tr": "ลบ",
+  "back": "This is negative.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsReplayIntro",
+  "en": "Replay intro",
+  "tr": "ดูบทแนะนำอีกครั้ง",
+  "back": "See the introduction again.",
+  "sim": 0.0
+ },
+ {
+  "k": "homeSeeAll",
+  "en": "See all",
+  "tr": "ดูทั้งหมด",
+  "back": "Look at all of them.",
+  "sim": 0.29
+ },
+ {
+  "k": "exportActionEdit",
+  "en": "Edit again",
+  "tr": "แก้ไขอีกครั้ง",
+  "back": "Fix it again.",
+  "sim": 0.4
+ },
+ {
+  "k": "exportActionDelete",
+  "en": "Delete",
+  "tr": "ลบ",
+  "back": "This is negative.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMoreOptions",
+  "en": "More options",
+  "tr": "ตัวเลือกเพิ่มเติม",
+  "back": "Additional options.",
+  "sim": 0.5
+ },
+ {
+  "k": "exportDeleteTitle",
+  "en": "Delete this export?",
+  "tr": "ลบการส่งออกนี้ไหม",
+  "back": "Remove this shipment?",
+  "sim": 0.33
+ },
+ {
+  "k": "exportDeleteBody",
+  "en": "Exported images are removed from this phone. Your original photos and anything saved to your gallery are not affected.",
+  "tr": "รูปที่ส่งออกจะถูกลบออกจากโทรศัพท์เครื่องนี้ รูปต้นฉบับและสิ่งที่บันทึกไว้ในแกลเลอรีจะไม่ได้รับผลกระทบ",
+  "back": "The exported images will be deleted from this machine phone, the original images and what is recorded in the gallery will not be affected.",
+  "sim": 0.47
+ },
+ {
+  "k": "exportSavedToGallery",
+  "en": "Saved to your gallery",
+  "tr": "บันทึกลงแกลเลอรีแล้ว",
+  "back": "The gallery's on fire.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportSaveFailed",
+  "en": "Could not save to the gallery.",
+  "tr": "บันทึกลงแกลเลอรีไม่ได้",
+  "back": "You can't take the gallery.",
+  "sim": 0.36
+ },
+ {
+  "k": "exportUnavailable",
+  "en": "Unavailable",
+  "tr": "ใช้งานไม่ได้",
+  "back": "It's not working.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsGroupThisWeek",
+  "en": "This week",
+  "tr": "สัปดาห์นี้",
+  "back": "This week.",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsGroupEarlier",
+  "en": "Earlier",
+  "tr": "ก่อนหน้า",
+  "back": "Before that.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsStorageUsed",
+  "en": "{size} used on this phone",
+  "tr": "ใช้พื้นที่ {size} บนโทรศัพท์เครื่องนี้",
+  "back": "Use the [size] area on this machine phone.",
+  "sim": 0.62
+ },
+ {
+  "k": "exportsSelect",
+  "en": "Select",
+  "tr": "เลือก",
+  "back": "Choose it.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsDone",
+  "en": "Done",
+  "tr": "เสร็จ",
+  "back": "It's finished.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsSelectedCount",
+  "en": "{count} selected",
+  "tr": "เลือกแล้ว {count}",
+  "back": "It's all right.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsDeleteSelectedTitle",
+  "en": "Delete {count} exports?",
+  "tr": "ลบการส่งออก {count} รายการไหม",
+  "back": "Subtract the export [count] list?",
+  "sim": 0.25
+ },
+ {
+  "k": "exportsDeleteAll",
+  "en": "Delete all exports",
+  "tr": "ลบการส่งออกทั้งหมด",
+  "back": "Subtract all shipments.",
+  "sim": 0.33
+ },
+ {
+  "k": "exportsDeleteAllTitle",
+  "en": "Delete all exports?",
+  "tr": "ลบการส่งออกทั้งหมดไหม",
+  "back": "Subtract all shipments?",
+  "sim": 0.33
+ },
+ {
+  "k": "helpTitle",
+  "en": "Help & how to use",
+  "tr": "ความช่วยเหลือและวิธีใช้งาน",
+  "back": "Help and how to use it.",
+  "sim": 0.8
+ },
+ {
+  "k": "helpIntro",
+  "en": "Tap a topic to read how it works.",
+  "tr": "แตะหัวข้อเพื่ออ่านว่าทำงานอย่างไร",
+  "back": "Hit the headline to read how it works.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpStartTitle",
+  "en": "Getting started",
+  "tr": "เริ่มต้นใช้งาน",
+  "back": "Start working.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpStart1",
+  "en": "On the home screen, tap Camera to take a photo or Gallery to pick one. Batch cuts out many photos at once.",
+  "tr": "ในหน้าจอหลัก แตะ กล้อง เพื่อถ่ายภาพ หรือ แกลเลอรี เพื่อเลือกภาพ เป็นชุด จะตัดภาพหลายภาพพร้อมกัน",
+  "back": "On the main screen, the camera to take pictures, or the gallery to select images as a set, to cut multiple images at once.",
+  "sim": 0.48
+ },
+ {
+  "k": "helpStart2",
+  "en": "Every photo opens in Crop & Rotate first, then in the editor. Your original photo is never changed.",
+  "tr": "ทุกภาพจะเปิดใน ครอบตัดและหมุน ก่อน แล้วจึงเข้าสู่ตัวแก้ไข ภาพต้นฉบับของคุณจะไม่ถูกเปลี่ยนแปลงเลย",
+  "back": "Each image will be opened in a round cut and spin before then go to the editor, your original image will not be changed at all.",
+  "sim": 0.33
+ },
+ {
+  "k": "helpStart3",
+  "en": "When you are happy, tap Export in the editor. Recent Exports on the home screen lists everything you have exported.",
+  "tr": "เมื่อพอใจแล้ว แตะ ส่งออก ในตัวแก้ไข ไฟล์ที่ส่งออกล่าสุด ในหน้าจอหลักจะแสดงทุกอย่างที่คุณส่งออก",
+  "back": "When you're satisfied, tap export in the editor, the most recent exported file on the home screen will display everything you export.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpCropTitle",
+  "en": "Crop & Rotate",
+  "tr": "ครอบตัดและหมุน",
+  "back": "Round cut and spin.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCrop1",
+  "en": "Turn the photo left or right in 90° steps, and drag the frame to choose the part you want to keep.",
+  "tr": "หมุนภาพไปทางซ้ายหรือขวาทีละ 90° และลากกรอบเพื่อเลือกส่วนที่ต้องการเก็บไว้",
+  "back": "Turn the image 90 degrees to the left or right and drag the frame to select the part you want to store.",
+  "sim": 0.7
+ },
+ {
+  "k": "helpCrop2",
+  "en": "Free lets you shape the frame as you like. 1:1, 4:5 and 9:16 lock its shape. Tap Continue to open the editor.",
+  "tr": "อิสระ ให้คุณกำหนดรูปร่างของกรอบได้ตามต้องการ 1:1, 4:5 และ 9:16 จะล็อกรูปร่างของกรอบ แตะ ดำเนินการต่อ เพื่อเปิดตัวแก้ไข",
+  "back": "Free allow you to set the frame shape as desired 1:1, 4:5 and 9:16 will lock the frame shape, move on to unlock the fix.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpCutoutTitle",
+  "en": "Cut-out",
+  "tr": "ตัดภาพ",
+  "back": "I'm going to take pictures.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCutout1",
+  "en": "When the editor opens, PhotoSur finds the main subject and removes the background automatically, on your phone. No internet is needed.",
+  "tr": "เมื่อตัวแก้ไขเปิดขึ้น PhotoSur จะค้นหาวัตถุหลักและลบพื้นหลังโดยอัตโนมัติบนโทรศัพท์ของคุณ ไม่ต้องใช้อินเทอร์เน็ต",
+  "back": "When the PhotoSur editor is turned on, it automatically searches for the main object and deletes the background on your phone, not the Internet.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpCutout2",
+  "en": "Edge Smoothness softens the edge of the cut-out, from 0 to 20 pixels.",
+  "tr": "ความนุ่มของขอบ ทำให้ขอบของภาพที่ตัดนุ่มลง ตั้งแต่ 0 ถึง 20 พิกเซล",
+  "back": "The softness of the edge makes the edge of the cut down from 0 to 20 pixels.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpCutout3",
+  "en": "The eye button at the top shows your original photo so you can compare. Tap it again to go back. The brush is paused while the original is shown.",
+  "tr": "ปุ่มรูปตาด้านบนจะแสดงภาพต้นฉบับเพื่อเปรียบเทียบ แตะอีกครั้งเพื่อกลับ แปรงจะหยุดชั่วคราวขณะที่แสดงภาพต้นฉบับ",
+  "back": "The upper eyeball button will display the original image to compare hit back again to turn the bar will stop temporarily while displaying the original image",
+  "sim": 0.4
+ },
+ {
+  "k": "helpCutout4",
+  "en": "For difficult subjects such as glass, shoes, bags and bottles, tap Get HD cut-out. The HD model downloads once, stays on your phone and then works offline. Once it is installed, every new cut-out uses it automatically. To redo the photo you have open, tap Redo cut-out in HD.",
+  "tr": "สำหรับวัตถุที่ตัดยาก เช่น แก้ว รองเท้า กระเป๋า และขวด แตะ รับการตัดภาพ HD โมเดล HD จะดาวน์โหลดเพียงครั้งเดียว เก็บไว้บนโทรศัพท์ของคุณ แล้วใช้งานได้แบบออฟไลน์ เมื่อติดตั้งแล้ว การตัดภาพใหม่ทุกครั้งจะใช้โมเดลนี้โดยอัตโนมัติ หากต้องการทำภาพที่เปิดอยู่ใหม่ แตะ ตัดภาพใหม่ด้วย HD",
+  "back": "For hard-cut objects like glasses, shoes, bags, and bottles, the HD model will only be downloaded once, stored on your phone, and then used offline once installed.",
+  "sim": 0.45
+ },
+ {
+  "k": "helpBrushTitle",
+  "en": "Brush",
+  "tr": "แปรง",
+  "back": "The frog.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBrush1",
+  "en": "Erase removes parts of the subject. Restore brings back parts the cut-out removed.",
+  "tr": "ลบ จะเอาบางส่วนของวัตถุออก เรียกคืน จะนำส่วนที่การตัดภาพเอาออกกลับมา",
+  "back": "Minus removes some of the object, recalls returns the part that the image was removed from.",
+  "sim": 0.34
+ },
+ {
+  "k": "helpBrush2",
+  "en": "Drag one finger to paint. Use two fingers to zoom, up to 8 times, and to move the photo. The brush keeps its size on screen, so zooming in gives finer control.",
+  "tr": "ลากนิ้วเดียวเพื่อระบาย ใช้สองนิ้วเพื่อซูมได้สูงสุด 8 เท่า และเลื่อนภาพ แปรงจะคงขนาดเดิมบนหน้าจอ ดังนั้นเมื่อซูมเข้าคุณจะทำงานได้ละเอียดขึ้น",
+  "back": "One finger to zoom in, two fingers to zoom in, up to eight times, and move the image, the bracket stays the same size on the screen, so when you zoom in, you can work more precisely.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpBrush3",
+  "en": "Brush Size goes from 1 to 50. Opacity sets how strongly each stroke applies.",
+  "tr": "ขนาดแปรง มีตั้งแต่ 1 ถึง 50 ความทึบ กำหนดว่าแต่ละเส้นจะเข้มเพียงใด",
+  "back": "The brush size ranges from 1 to 50 degrees, depending on how tight each line is.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpBrush4",
+  "en": "Undo and Redo step through your brush strokes. Reset clears all brush strokes and goes back to the automatic cut-out; it asks you to confirm first.",
+  "tr": "เลิกทำ และ ทำซ้ำ จะไล่ไปตามเส้นแปรงของคุณ รีเซ็ต จะลบเส้นแปรงทั้งหมดและกลับไปที่การตัดภาพอัตโนมัติ โดยจะขอให้ยืนยันก่อน",
+  "back": "Stop and repeat, follow your brush line, reset, remove all brush lines, and go back to auto-cutting, asking for confirmation first.",
+  "sim": 0.43
+ },
+ {
+  "k": "helpBackgroundTitle",
+  "en": "Background",
+  "tr": "พื้นหลัง",
+  "back": "The background.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpBackground1",
+  "en": "Choose what goes behind your subject: transparent, white, black, a gradient, a colour, a blurred copy of your photo, or your own photo.",
+  "tr": "เลือกสิ่งที่อยู่ด้านหลังวัตถุของคุณ: โปร่งใส ขาว ดำ ไล่เฉดสี สี สำเนาภาพที่เบลอ หรือภาพของคุณเอง",
+  "back": "Choose what's behind your object: bright white, blue, pale, colorful, colorful, focused, or your own image.",
+  "sim": 0.36
+ },
+ {
+  "k": "helpBackground2",
+  "en": "Only one background is used at a time. Your latest choice replaces the earlier one.",
+  "tr": "ใช้พื้นหลังได้ครั้งละหนึ่งแบบเท่านั้น ตัวเลือกล่าสุดของคุณจะแทนที่ตัวเลือกก่อนหน้า",
+  "back": "You can only use the background one at a time, and your last choice will replace the previous one.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpBackground3",
+  "en": "Add custom background lets you pick a photo from your gallery. Custom color opens a colour picker. The Blur slider goes from 0 to 25.",
+  "tr": "เพิ่มพื้นหลังที่กำหนดเอง ให้คุณเลือกภาพจากแกลเลอรี สีที่กำหนดเอง จะเปิดตัวเลือกสี แถบเลื่อน เบลอ มีค่าตั้งแต่ 0 ถึง 25",
+  "back": "Add a custom background so that you can select images from the custom color gallery, then open the color selection, and move the blade to a value of 0 to 25.",
+  "sim": 0.39
+ },
+ {
+  "k": "helpBackground4",
+  "en": "Transparent shows a checkerboard while you edit. Export as PNG to keep it transparent.",
+  "tr": "โปร่งใส จะแสดงลายตารางหมากรุกขณะแก้ไข ส่งออกเป็น PNG เพื่อคงความโปร่งใสไว้",
+  "back": "Transparent will display the chessboard text while editing, exported as PNG to maintain transparency.",
+  "sim": 0.36
+ },
+ {
+  "k": "helpTemplatesTitle",
+  "en": "Templates",
+  "tr": "เทมเพลต",
+  "back": "The Temple.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpTemplates1",
+  "en": "Templates are ready-made backgrounds in five groups: Studio, Color block, Textures, Light & shadow, and Gradients & patterns. Five scenes are shown in the panel; tap the Templates button to see them all.",
+  "tr": "เทมเพลตคือพื้นหลังสำเร็จรูปห้ากลุ่ม ได้แก่ สตูดิโอ บล็อกสี พื้นผิว แสงและเงา และ ไล่เฉดสีและลวดลาย แผงจะแสดงห้าฉาก แตะปุ่ม เทมเพลต เพื่อดูทั้งหมด",
+  "back": "The template is a finished backdrop of five groups: the studio, the color blocks, the surface, the light and shadows, and the color blur and the painting. The map will show you five scenes, tap the template button to view all of them.",
+  "sim": 0.35
+ },
+ {
+  "k": "helpTemplates2",
+  "en": "Choosing a template works like choosing your own photo as the background: it replaces your earlier background choice.",
+  "tr": "การเลือกเทมเพลตก็เหมือนกับการเลือกภาพของคุณเองเป็นพื้นหลัง คือจะแทนที่ตัวเลือกพื้นหลังก่อนหน้าของคุณ",
+  "back": "Choosing a template is like choosing your own image as a background, replacing your previous background.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpLayoutTitle",
+  "en": "Layout",
+  "tr": "เลย์เอาต์",
+  "back": "Lay it down.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpLayout1",
+  "en": "Drag the subject on the photo to move it. Pinch with two fingers to resize it.",
+  "tr": "ลากวัตถุไปบนภาพเพื่อย้าย บีบด้วยสองนิ้วเพื่อเปลี่ยนขนาด",
+  "back": "Drag objects onto the image to move the beam with two fingers to resize.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpLayout2",
+  "en": "Choose Original, 1:1, 4:5 or 9:16 to set the shape of the final picture.",
+  "tr": "เลือก ต้นฉบับ, 1:1, 4:5 หรือ 9:16 เพื่อกำหนดรูปร่างของภาพสุดท้าย",
+  "back": "Select the original, 1:1, 4:5 or 9:16 to determine the shape of the final image.",
+  "sim": 0.76
+ },
+ {
+  "k": "helpLayout3",
+  "en": "Size sets how big the subject is, from 20% to 300%. Shadow sets how strong its shadow is. Auto-center puts the subject back in the middle. Reset undoes moving and resizing.",
+  "tr": "ขนาด กำหนดว่าวัตถุใหญ่เพียงใด ตั้งแต่ 20% ถึง 300% เงา กำหนดว่าเงาของวัตถุเข้มเพียงใด จัดกึ่งกลางอัตโนมัติ จะนำวัตถุกลับมาไว้ตรงกลาง รีเซ็ต จะย้อนการเลื่อนและการเปลี่ยนขนาด",
+  "back": "The size determines how large the object is, from 20% to 300%, the shadow determines how dense the object is, the automatic mid-range moves the object back to the center, resets the shift and resizes the object.",
+  "sim": 0.44
+ },
+ {
+  "k": "helpLayout4",
+  "en": "This shape is used when the export size is Original. If you choose a size preset or a marketplace in the export sheet, that decides the final shape instead.",
+  "tr": "รูปร่างนี้ใช้เมื่อขนาดการส่งออกเป็น ต้นฉบับ หากคุณเลือกขนาดที่ตั้งไว้ล่วงหน้าหรือมาร์เก็ตเพลสในหน้าส่งออก ตัวเลือกนั้นจะกำหนดรูปร่างสุดท้าย",
+  "back": "This format is used when the export size is the original format. If you select a pre-set size or market plus on the export page, that option determines the final format.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpExportTitle",
+  "en": "Export",
+  "tr": "ส่งออก",
+  "back": "Get out of here.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpExport1",
+  "en": "Tap Export to open the export sheet. Nothing is applied until you tap Save to Gallery or Share, so you can change your choices as often as you like.",
+  "tr": "แตะ ส่งออก เพื่อเปิดหน้าส่งออก จะยังไม่มีการนำไปใช้จนกว่าคุณจะแตะ บันทึกลงแกลเลอรี หรือ แชร์ คุณจึงเปลี่ยนตัวเลือกกี่ครั้งก็ได้",
+  "back": "Touch Export to open the Export page, you won't be able to use it until you touch the Gallery button or the Sharp button, so you can change your options as many times as you want.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpExport2",
+  "en": "PNG keeps transparency. JPG makes smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a small modern format; if your phone cannot make it, the file is saved as JPG. For JPG and WEBP, the Quality slider trades file size for detail.",
+  "tr": "PNG คงความโปร่งใสไว้ JPG ให้ไฟล์เล็กกว่าแต่โปร่งใสไม่ได้ ดังนั้นพื้นหลังโปร่งใสจะกลายเป็นสีขาว WEBP เป็นรูปแบบสมัยใหม่ที่กะทัดรัด หากโทรศัพท์สร้างไม่ได้ ไฟล์จะถูกบันทึกเป็น JPG สำหรับ JPG และ WEBP แถบเลื่อน คุณภาพ จะปรับสมดุลระหว่างขนาดไฟล์กับรายละเอียด",
+  "back": "PNG maintains the JPG transparency so that the files are smaller but not transparent, so the transparent background becomes white. WEBP is a modern format that is imperfect. If the phone doesn't create it, the file will be saved as JPG for JPG and WEBP, then the quality will be balanced between file size and detail.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpExport3",
+  "en": "Original keeps your photo’s size, with the shape chosen in Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. Custom lets you type a width and height in pixels.",
+  "tr": "ต้นฉบับ คงขนาดภาพของคุณไว้ ด้วยรูปร่างที่เลือกในเลย์เอาต์ 1:1 คือ 1080 × 1080, 4:5 คือ 1080 × 1350 และ 9:16 คือ 1080 × 1920 กำหนดเอง ให้คุณกรอกความกว้างและความสูงเป็นพิกเซล",
+  "back": "The original sizes your image with the shapes you choose in the 1:1 layout are 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920 so you can adjust the width and height in pixels.",
+  "sim": 0.66
+ },
+ {
+  "k": "helpExport4",
+  "en": "Marketplace presets set size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG kept under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices, and choosing a format or size afterwards switches the marketplace off. Marketplace rules can change, so check your marketplace’s current requirements.",
+  "tr": "ค่าที่ตั้งไว้ล่วงหน้าของมาร์เก็ตเพลสจะกำหนดขนาด รูปแบบ และคุณภาพ: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG ไม่เกิน 1 MB และ Shopify 2048 × 2048 PNG การเลือกอย่างใดอย่างหนึ่งจะแทนที่ตัวเลือกรูปแบบและขนาดของคุณ หากภายหลังคุณเลือกรูปแบบหรือขนาด มาร์เก็ตเพลสจะถูกยกเลิกการเลือก กฎของมาร์เก็ตเพลสอาจเปลี่ยนแปลงได้ จึงควรตรวจสอบข้อกำหนดปัจจุบันของมาร์เก็ตเพลสที่คุณใช้",
+  "back": "The pre-set prices of Marketplace Plus will determine the size, model and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG no more than 1 MB and Shopify 2048 × 2048 PNG any selection will replace your choice of model and size if you later choose a model or size Marketplace Plus will cancel your choice the rules of Marketplace Plus may change so you should check the current rules of Marketplace Plus you use",
+  "sim": 0.52
+ },
+ {
+  "k": "helpExport5",
+  "en": "Amazon also uses a pure white background with no shadow and fits the subject to fill most of the frame. Your background choice in the editor is not changed. The other marketplaces keep your background.",
+  "tr": "Amazon ยังใช้พื้นหลังสีขาวล้วนไม่มีเงา และปรับวัตถุให้เต็มส่วนใหญ่ของกรอบ ตัวเลือกพื้นหลังของคุณในตัวแก้ไขจะไม่เปลี่ยน มาร์เก็ตเพลสอื่นจะคงพื้นหลังของคุณไว้",
+  "back": "Amazon also uses an all-white, shadeless background and customizes most of the frames. Your background selection in the editor won't change the marketplace.",
+  "sim": 0.48
+ },
+ {
+  "k": "helpExport6",
+  "en": "Save to Gallery and Share both save the picture to your gallery and to Recent Exports. Share also opens your phone’s share menu. If saving to the gallery is not possible, the share menu opens instead. After exporting you return to the home screen.",
+  "tr": "บันทึกลงแกลเลอรี และ แชร์ ต่างก็บันทึกภาพลงแกลเลอรีของคุณและใน ไฟล์ที่ส่งออกล่าสุด แชร์ จะเปิดเมนูแชร์ของโทรศัพท์ด้วย หากบันทึกลงแกลเลอรีไม่ได้ เมนูแชร์จะเปิดขึ้นแทน หลังส่งออก คุณจะกลับไปที่หน้าจอหลัก",
+  "back": "If the gallery is not stored, the menu will be turned on instead. Once you've shipped it, you'll go back to the home screen.",
+  "sim": 0.35
+ },
+ {
+  "k": "helpExport7",
+  "en": "Unless you have removed ads, an ad can appear after an export, at most once every two minutes.",
+  "tr": "หากคุณยังไม่ได้ลบโฆษณา อาจมีโฆษณาปรากฏหลังการส่งออก อย่างมากสองนาทีครั้ง",
+  "back": "If you haven't deleted the ad, there may be an ad that appears after delivery at most two minutes.",
+  "sim": 0.43
+ },
+ {
+  "k": "helpBatchTitle",
+  "en": "Batch",
+  "tr": "เป็นชุด",
+  "back": "It's a suit.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBatch1",
+  "en": "Batch cuts out up to 30 photos in one go. Tap Batch on the home screen and pick your photos. The back button is turned off while a batch runs.",
+  "tr": "เป็นชุด ตัดภาพได้สูงสุด 30 ภาพพร้อมกัน แตะ เป็นชุด ในหน้าจอหลักแล้วเลือกภาพของคุณ ปุ่มย้อนกลับจะถูกปิดขณะที่ชุดกำลังทำงาน",
+  "back": "It's a set that cuts up to 30 images at a time, hangs in a set on the main screen, then selects your image, and the reverse button will be turned off while the set is running.",
+  "sim": 0.42
+ },
+ {
+  "k": "helpBatch2",
+  "en": "All photos in a batch share one setup: one background and one marketplace. You cannot choose differently for each photo.",
+  "tr": "ทุกภาพในชุดใช้การตั้งค่าเดียวกัน: พื้นหลังหนึ่งแบบและมาร์เก็ตเพลสหนึ่งแห่ง คุณเลือกต่างกันสำหรับแต่ละภาพไม่ได้",
+  "back": "All the images in the set use the same settings: one background and one marketplace. You can't choose different for each image.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpBatch3",
+  "en": "Backgrounds work as in the editor: your own photo, a colour, a template, white, transparent, black, blur or a gradient. Only one applies, and your latest choice replaces the earlier one.",
+  "tr": "พื้นหลังทำงานเหมือนในตัวแก้ไข: ภาพของคุณเอง สี เทมเพลต ขาว โปร่งใส ดำ เบลอ หรือไล่เฉดสี มีผลได้เพียงแบบเดียว และตัวเลือกล่าสุดของคุณจะแทนที่ตัวเลือกก่อนหน้า",
+  "back": "The background works just like in the editor: your own image, your own template color, bright white, pale, or pale, only has one effect, and your last choice will replace the previous one.",
+  "sim": 0.47
+ },
+ {
+  "k": "helpBatch4",
+  "en": "The file format is chosen for you. With a marketplace, the photos follow that marketplace’s size and format. Without one, a transparent background gives PNG and any other background gives JPG, at the original size.",
+  "tr": "รูปแบบไฟล์จะถูกเลือกให้คุณ หากใช้มาร์เก็ตเพลส ภาพจะเป็นไปตามขนาดและรูปแบบของมาร์เก็ตเพลสนั้น หากไม่ใช้ พื้นหลังโปร่งใสจะได้ PNG และพื้นหลังอื่นทั้งหมดจะได้ JPG ในขนาดต้นฉบับ",
+  "back": "The file format will be chosen for you if you use Marketplace Plus, the image will be the size and format of Marketplace Plus, if you don't use a transparent background, you get PNG and all the other backgrounds get JPG in the original size.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpBatch5",
+  "en": "Choosing Amazon switches the background to White; if you then choose another background, Amazon is switched off. eBay, Etsy and Shopify keep your background, but a JPG cannot be transparent, so it gets a white background.",
+  "tr": "การเลือก Amazon จะเปลี่ยนพื้นหลังเป็น ขาว หากภายหลังคุณเลือกพื้นหลังอื่น Amazon จะถูกยกเลิกการเลือก eBay, Etsy และ Shopify คงพื้นหลังของคุณไว้ แต่ JPG โปร่งใสไม่ได้ จึงได้พื้นหลังสีขาว",
+  "back": "Amazon will turn the background into white if you later choose another background. Amazon will remove eBay, Etsy and Shopify to keep your background, but the JPG is not transparent, so it's a white background.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpBatch6",
+  "en": "If the HD model is installed, every photo in the batch is cut out with it. The Get HD cut-out button next to Templates downloads it.",
+  "tr": "หากติดตั้งโมเดล HD แล้ว ทุกภาพในชุดจะถูกตัดด้วยโมเดลนี้ ปุ่ม รับการตัดภาพ HD ที่อยู่ข้าง เทมเพลต จะดาวน์โหลดโมเดล",
+  "back": "If you install an HD model, then every image in the set will be cut with this model, and the HD cut button next to the template will download the model.",
+  "sim": 0.25
+ },
+ {
+  "k": "helpBatch7",
+  "en": "Each photo is saved to your gallery and to Recent Exports as soon as it finishes. Stop ends the batch after the current photo, and photos already finished stay saved. If a photo fails, the batch carries on and tells you how many could not be processed. Done takes you back to the home screen; it does not save anything.",
+  "tr": "แต่ละภาพจะถูกบันทึกลงแกลเลอรีและใน ไฟล์ที่ส่งออกล่าสุด ทันทีที่เสร็จ หยุด จะจบชุดหลังภาพที่กำลังทำอยู่ และภาพที่เสร็จแล้วจะยังคงถูกบันทึกไว้ หากภาพใดล้มเหลว ชุดจะทำงานต่อและบอกคุณว่ามีกี่ภาพที่ประมวลผลไม่ได้ เสร็จสิ้น พาคุณกลับไปหน้าจอหลัก โดยไม่บันทึกอะไร",
+  "back": "Each image is captured in the gallery and in the most recent exported file, as soon as it's finished, the finished image will be finished after the work is done, and the finished image will still be recorded. If any image fails, the image will continue to work and tell you how many images are unprocessed, complete, and you'll go back to the main screen without recording anything.",
+  "sim": 0.39
+ },
+ {
+  "k": "helpLibraryTitle",
+  "en": "Your exports",
+  "tr": "ไฟล์ที่คุณส่งออก",
+  "back": "The file you sent out.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpLibrary1",
+  "en": "Recent Exports on the home screen shows your latest exports. Tap See all for every export, grouped as Today, Yesterday, This week and Earlier.",
+  "tr": "ไฟล์ที่ส่งออกล่าสุด ในหน้าจอหลักแสดงไฟล์ที่ส่งออกล่าสุดของคุณ แตะ ดูทั้งหมด เพื่อดูทั้งหมด จัดกลุ่มเป็น วันนี้ เมื่อวาน สัปดาห์นี้ และ ก่อนหน้า",
+  "back": "The latest exported files on the main screen show your latest exported files tap all to view all grouped into today, yesterday, this week and before",
+  "sim": 0.52
+ },
+ {
+  "k": "helpLibrary2",
+  "en": "Tap an export to open it full screen. Swipe to move between exports and pinch to zoom. The bar at the bottom has Share, Save to Gallery, Edit again and Delete.",
+  "tr": "แตะไฟล์ที่ส่งออกเพื่อเปิดแบบเต็มหน้าจอ ปัดเพื่อสลับระหว่างไฟล์ และบีบเพื่อซูม แถบด้านล่างมี แชร์ บันทึกลงแกลเลอรี แก้ไขอีกครั้ง และ ลบ",
+  "back": "Tap the exported file to open the full screen, tap to switch between the file and the beep to zoom, and the bottom button has a charger, a gallery capture button, re-edit and subtract.",
+  "sim": 0.46
+ },
+ {
+  "k": "helpLibrary3",
+  "en": "The three-dot button on a tile opens the same actions. Edit again opens the exported picture as a new photo, so earlier brush strokes are not restored.",
+  "tr": "ปุ่มสามจุดบนภาพขนาดย่อจะเปิดการทำงานเดียวกัน แก้ไขอีกครั้ง จะเปิดภาพที่ส่งออกเป็นภาพใหม่ ดังนั้นเส้นแปรงก่อนหน้าจะไม่ถูกเรียกคืน",
+  "back": "The three-point button on the flat screen will open the same function, re-edit will open the exported image as a new image, so the previous brush line will not be recovered.",
+  "sim": 0.45
+ },
+ {
+  "k": "helpLibrary4",
+  "en": "Select lets you choose several exports to share together or delete. Delete all exports removes every export from this phone.",
+  "tr": "เลือก ให้คุณเลือกหลายไฟล์เพื่อแชร์หรือลบพร้อมกัน ลบการส่งออกทั้งหมด จะนำไฟล์ที่ส่งออกทั้งหมดออกจากโทรศัพท์เครื่องนี้",
+  "back": "Select so that you can select multiple files to share or delete simultaneously minus all the exports will take all the exports out of this machine phone.",
+  "sim": 0.43
+ },
+ {
+  "k": "helpLibrary5",
+  "en": "Deleting removes exports from PhotoSur only. Pictures already saved to your gallery are not affected. The bottom of the See all screen shows how much space exports use on this phone.",
+  "tr": "การลบจะนำไฟล์ที่ส่งออกออกจาก PhotoSur เท่านั้น ภาพที่บันทึกไว้ในแกลเลอรีของคุณแล้วจะไม่ถูกแตะต้อง ที่ด้านล่างของ ดูทั้งหมด คุณจะเห็นว่าไฟล์ที่ส่งออกใช้พื้นที่บนโทรศัพท์เครื่องนี้เท่าใด",
+  "back": "Deleting will only take the exported files out of PhotoSur, the images recorded in your gallery, and they won't be touched at the bottom of the whole look, you'll see how much space the exported files take up on this machine phone.",
+  "sim": 0.41
+ },
+ {
+  "k": "helpPrivacyTitle",
+  "en": "Privacy & ads",
+  "tr": "ความเป็นส่วนตัวและโฆษณา",
+  "back": "Privacy and advertising.",
+  "sim": 0.4
+ },
+ {
+  "k": "helpPrivacy1",
+  "en": "Your photos are processed on your phone and are not uploaded. There is no account and no watermark.",
+  "tr": "ภาพของคุณถูกประมวลผลบนโทรศัพท์ของคุณและไม่ถูกอัปโหลด ไม่มีบัญชีและไม่มีลายน้ำ",
+  "back": "Your pictures were processed on your phone and not uploaded, no accounts and no footage.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpPrivacy2",
+  "en": "PhotoSur is free with every feature included, supported by ads. A banner appears at the bottom of some screens, and an ad can appear after an export.",
+  "tr": "PhotoSur ใช้งานฟรี มีทุกฟีเจอร์ และมีโฆษณาเป็นรายได้ แบนเนอร์จะปรากฏที่ด้านล่างของบางหน้าจอ และอาจมีโฆษณาปรากฏหลังการส่งออก",
+  "back": "PhotoSur is free to use with all the features and advertisements as revenue banners will appear at the bottom of some screen and there may be advertisements appearing after shipping",
+  "sim": 0.39
+ },
+ {
+  "k": "helpPrivacy3",
+  "en": "Go Ad-Free in Settings is a one-time purchase that removes the ads. It does not unlock anything else, because every feature is already free. Restore Purchases brings it back on a new phone.",
+  "tr": "ลบโฆษณา ในการตั้งค่าเป็นการซื้อครั้งเดียวที่ลบโฆษณา ไม่ได้ปลดล็อกอย่างอื่น เพราะทุกฟีเจอร์ใช้งานฟรีอยู่แล้ว กู้คืนการซื้อ จะนำกลับมาบนโทรศัพท์เครื่องใหม่",
+  "back": "Remove the ad in the one-time purchase setting. Remove the ad without unlocking anything else, because all the features are already free to use.",
+  "sim": 0.32
+ },
+ {
+  "k": "helpSettingsTitle",
+  "en": "Settings",
+  "tr": "การตั้งค่า",
+  "back": "The settings.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpSettings1",
+  "en": "Theme can follow your phone, or be Light or Dark. Language changes the language of the app. Both are also in the home screen header.",
+  "tr": "ธีม จะตามโทรศัพท์ของคุณ หรือเป็น สว่าง หรือ มืด ก็ได้ ภาษา เปลี่ยนภาษาของแอป ทั้งสองอย่างอยู่ที่ส่วนหัวของหน้าจอหลักด้วย",
+  "back": "The theme will follow your phone, whether it's light or dark, the language changes the language of the app, both of which are in the head of the main screen.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpSettings2",
+  "en": "Edit reminders: if you leave the app with an unfinished edit, PhotoSur can remind you three hours later. Switch this off in Settings.",
+  "tr": "การเตือนการแก้ไข: หากคุณออกจากแอปขณะที่ยังแก้ไขไม่เสร็จ PhotoSur อาจเตือนคุณอีกครั้งหลังจากสามชั่วโมง ปิดได้ในการตั้งค่า",
+  "back": "Correctional Warning: If you leave the app while still unfinished, PhotoSur may warn you again after three hours to turn off the settings.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpSettings3",
+  "en": "HD cut-out model shows whether it is installed. Remove deletes it from your phone to free space; you can download it again at any time.",
+  "tr": "โมเดลตัดภาพ HD แสดงว่าติดตั้งแล้วหรือไม่ ลบ จะลบออกจากโทรศัพท์เพื่อคืนพื้นที่ คุณดาวน์โหลดใหม่ได้ทุกเมื่อ",
+  "back": "The cut-off HD model shows whether it's installed or not, removing it from the phone to restore space. You can download it again anytime.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpSettings4",
+  "en": "Replay intro shows the welcome screens again. Support opens the support page. Animated home background turns the moving picture at the top of the home screen on or off.",
+  "tr": "ดูบทแนะนำอีกครั้ง จะแสดงหน้าจอต้อนรับอีกครั้ง การสนับสนุน จะเปิดหน้าสนับสนุน พื้นหลังเคลื่อนไหวหน้าแรกใช้เปิดหรือปิดภาพเคลื่อนไหวที่ด้านบนของหน้าแรก",
+  "back": "See the introduction again will display the welcome screen again support will open the support page the first moving background use the opening or closing of the moving image at the top of the first page",
+  "sim": 0.46
+ },
+ {
+  "k": "helpFixTitle",
+  "en": "If something goes wrong",
+  "tr": "หากเกิดปัญหา",
+  "back": "If there's a problem,",
+  "sim": 0.25
+ },
+ {
+  "k": "helpFix1",
+  "en": "If the automatic cut-out cannot run on a very old or low-memory phone, the brush still works, so you can finish the picture by hand.",
+  "tr": "หากการตัดภาพอัตโนมัติทำงานไม่ได้บนโทรศัพท์ที่เก่ามากหรือมีหน่วยความจำน้อย แปรงยังคงใช้งานได้ คุณจึงทำภาพให้เสร็จด้วยมือได้",
+  "back": "If autocuts don't work on a very old phone, or if there's a small memory unit, the plug is still working, you can finish the image manually.",
+  "sim": 0.46
+ },
+ {
+  "k": "helpFix2",
+  "en": "If the HD download stops, check your connection and try again. It continues where it left off.",
+  "tr": "หากการดาวน์โหลด HD หยุด ให้ตรวจสอบการเชื่อมต่อแล้วลองอีกครั้ง การดาวน์โหลดจะต่อจากจุดที่หยุดไว้",
+  "back": "If the HD download stops, check the connection and try again.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpFix3",
+  "en": "For anything else, open Support from Settings.",
+  "tr": "สำหรับเรื่องอื่น ๆ เปิด การสนับสนุน จากการตั้งค่า",
+  "back": "For other issues, open support from the settings.",
+  "sim": 0.67
+ }
+]

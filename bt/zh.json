@@ -1,0 +1,1787 @@
+[
+ {
+  "k": "onboardingPage1Title",
+  "en": "Remove backgrounds instantly. All features free.",
+  "tr": "秒速去除背景，全部功能免费。",
+  "back": "It's free to remove the background in seconds.",
+  "sim": 0.14
+ },
+ {
+  "k": "onboardingPage1Body",
+  "en": "Open a photo and our on-device AI removes the background automatically — no internet required. You can also swap in your own custom background.",
+  "tr": "打开照片，设备上的 AI 会自动去除背景，无需联网。你还可以换成自己的自定义背景。",
+  "back": "If you open a photo, the AI on the device automatically removes the background without connecting to the internet.",
+  "sim": 0.38
+ },
+ {
+  "k": "onboardingPage2Title",
+  "en": "Fine-tune with the brush",
+  "tr": "用画笔精细调整",
+  "back": "A fine-tuning with a pencil",
+  "sim": 0.22
+ },
+ {
+  "k": "onboardingPage2Body",
+  "en": "Paint away what the AI missed or restore what you want to keep. Then crop, rotate, move and resize.",
+  "tr": "用画笔擦掉 AI 漏掉的部分，或恢复你想保留的部分。然后裁剪、旋转、移动和调整大小。",
+  "back": "Use a pen to erase the missing part of the AI or restore the part you want to keep. Then cut, spin, move and resize.",
+  "sim": 0.55
+ },
+ {
+  "k": "onboardingPage3Title",
+  "en": "Studio-ready backgrounds",
+  "tr": "影棚级背景",
+  "back": "Shadow level background",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingPage3Body",
+  "en": "Choose a colour, gradient, template or your own photo, with a natural shadow. Marketplace presets for Amazon, eBay, Etsy and Shopify set size and format for you.",
+  "tr": "选择颜色、渐变、模板或你自己的照片，并带有自然阴影。Amazon、eBay、Etsy 和 Shopify 的预设会为你设置尺寸和格式。",
+  "back": "Choose colors, gradients, templates, or your own photos, with natural shadows. Amazon, eBay, Etsy, and Shopify pre-set sizes and formats for you.",
+  "sim": 0.57
+ },
+ {
+  "k": "onboardingPage4Title",
+  "en": "Batch it, export it, keep it private",
+  "tr": "批量处理、格式随心、完全私密",
+  "back": "Mass-processing, format-appropriate, completely private",
+  "sim": 0.18
+ },
+ {
+  "k": "onboardingPage4Body",
+  "en": "Cut out up to 30 photos at once and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "tr": "一次最多可抠 30 张照片，并导出为 PNG、JPG 或 WEBP。你的照片绝不会离开手机。支持 43 种语言。",
+  "back": "You can take up to 30 photos at a time and export them to PNG, JPG or WEBP. Your photos will never leave your phone. Support for 43 languages.",
+  "sim": 0.7
+ },
+ {
+  "k": "onboardingNext",
+  "en": "Next",
+  "tr": "下一步",
+  "back": "The next step",
+  "sim": 0.5
+ },
+ {
+  "k": "onboardingGetStarted",
+  "en": "Get Started",
+  "tr": "开始使用",
+  "back": "Starting to use",
+  "sim": 0.0
+ },
+ {
+  "k": "homeCameraButton",
+  "en": "Camera",
+  "tr": "相机",
+  "back": "Cameras",
+  "sim": 0.0
+ },
+ {
+  "k": "homeGalleryButton",
+  "en": "Gallery",
+  "tr": "相册",
+  "back": "The booklet",
+  "sim": 0.0
+ },
+ {
+  "k": "dateToday",
+  "en": "Today",
+  "tr": "今天",
+  "back": "It's today.",
+  "sim": 0.67
+ },
+ {
+  "k": "dateYesterday",
+  "en": "Yesterday",
+  "tr": "昨天",
+  "back": "Yesterday",
+  "sim": 1.0
+ },
+ {
+  "k": "homeRecentExports",
+  "en": "Recent Exports",
+  "tr": "最近导出",
+  "back": "Recently exported",
+  "sim": 0.0
+ },
+ {
+  "k": "homeEmptyStateMessage",
+  "en": "Tap Camera or Gallery to start.",
+  "tr": "点按“相机”或“相册”开始。",
+  "back": "Start with the camera button or click the photo button.",
+  "sim": 0.25
+ },
+ {
+  "k": "homeExportUnavailable",
+  "en": "This export is no longer available.",
+  "tr": "此导出文件已不可用。",
+  "back": "This export file is no longer available.",
+  "sim": 0.92
+ },
+ {
+  "k": "homeShareFailed",
+  "en": "Could not share this export.",
+  "tr": "无法分享此导出文件。",
+  "back": "I can't share this export file.",
+  "sim": 0.55
+ },
+ {
+  "k": "homeGalleryOpenFailed",
+  "en": "Could not open gallery.",
+  "tr": "无法打开相册。",
+  "back": "I can't open the book.",
+  "sim": 0.22
+ },
+ {
+  "k": "cameraTitle",
+  "en": "Camera",
+  "tr": "相机",
+  "back": "Cameras",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraPermissionDenied",
+  "en": "Camera access is needed to take a photo. Please allow access.",
+  "tr": "拍照需要相机权限，请允许访问。",
+  "back": "Photography requires camera permissions, please allow access.",
+  "sim": 0.44
+ },
+ {
+  "k": "cameraPermissionPermanentlyDenied",
+  "en": "Camera access was denied. Enable it in Settings to continue.",
+  "tr": "相机权限已被拒绝，请在设置中开启后继续。",
+  "back": "Camera permissions have been declined, please continue after opening in settings.",
+  "sim": 0.29
+ },
+ {
+  "k": "cameraPermissionRestricted",
+  "en": "Camera access is restricted on this device.",
+  "tr": "此设备已限制相机访问。",
+  "back": "This device has restricted camera access.",
+  "sim": 0.31
+ },
+ {
+  "k": "cameraNoCameraFound",
+  "en": "No camera found on this device.",
+  "tr": "此设备上未找到相机。",
+  "back": "No camera was found on the device.",
+  "sim": 0.77
+ },
+ {
+  "k": "cameraStartFailed",
+  "en": "Could not start the camera.",
+  "tr": "无法启动相机。",
+  "back": "I can't start the camera.",
+  "sim": 0.6
+ },
+ {
+  "k": "cameraCaptureFailed",
+  "en": "Could not capture photo.",
+  "tr": "无法拍摄照片。",
+  "back": "I can't take pictures.",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraOpenSettings",
+  "en": "Open Settings",
+  "tr": "打开设置",
+  "back": "Open the settings",
+  "sim": 0.8
+ },
+ {
+  "k": "cameraFlashTooltip",
+  "en": "Flash",
+  "tr": "闪光灯",
+  "back": "Flashing lights",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraGalleryTooltip",
+  "en": "Gallery",
+  "tr": "相册",
+  "back": "The booklet",
+  "sim": 0.0
+ },
+ {
+  "k": "cropTitle",
+  "en": "Crop & Rotate",
+  "tr": "裁剪与旋转",
+  "back": "Cutting and spinning",
+  "sim": 0.0
+ },
+ {
+  "k": "cropLoadFailed",
+  "en": "Could not load the image.",
+  "tr": "无法加载图片。",
+  "back": "I can't upload pictures.",
+  "sim": 0.0
+ },
+ {
+  "k": "cropRotateFailed",
+  "en": "Could not rotate the image.",
+  "tr": "无法旋转图片。",
+  "back": "I can't rotate the image.",
+  "sim": 0.6
+ },
+ {
+  "k": "cropFailed",
+  "en": "Crop failed.",
+  "tr": "裁剪失败。",
+  "back": "Cutting is a failure.",
+  "sim": 0.0
+ },
+ {
+  "k": "cropSaveFailed",
+  "en": "Could not save the cropped image.",
+  "tr": "无法保存裁剪后的图片。",
+  "back": "It is not possible to save images after cutting.",
+  "sim": 0.27
+ },
+ {
+  "k": "cropAspectFree",
+  "en": "Free",
+  "tr": "自由",
+  "back": "Freedom",
+  "sim": 0.0
+ },
+ {
+  "k": "cropContinue",
+  "en": "Continue",
+  "tr": "继续",
+  "back": "Keep going",
+  "sim": 0.0
+ },
+ {
+  "k": "editorSegmentationFailedMessage",
+  "en": "Your device doesn't support automatic background removal. Use the manual brush below.",
+  "tr": "你的设备不支持自动去除背景。请使用下方的手动橡皮擦。",
+  "back": "Your device does not support automatic background removal. Please use the manual scrubbing below.",
+  "sim": 0.77
+ },
+ {
+  "k": "brushErase",
+  "en": "Erase",
+  "tr": "擦除",
+  "back": "Erased",
+  "sim": 0.0
+ },
+ {
+  "k": "brushRestore",
+  "en": "Restore",
+  "tr": "恢复",
+  "back": "Rehabilitation",
+  "sim": 0.0
+ },
+ {
+  "k": "brushSizeLabel",
+  "en": "Brush Size",
+  "tr": "画笔大小",
+  "back": "The size of the pencil",
+  "sim": 0.29
+ },
+ {
+  "k": "brushOpacityLabel",
+  "en": "Opacity",
+  "tr": "不透明度",
+  "back": "The lack of transparency",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundWhite",
+  "en": "White",
+  "tr": "白色",
+  "back": "It's white.",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundTransparent",
+  "en": "Transparent",
+  "tr": "透明",
+  "back": "Transparency",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundBlack",
+  "en": "Black",
+  "tr": "黑色",
+  "back": "It's black.",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundBlurLabel",
+  "en": "Blur",
+  "tr": "模糊",
+  "back": "It's not clear.",
+  "sim": 0.0
+ },
+ {
+  "k": "edgeFeatherLabel",
+  "en": "Edge Smoothness",
+  "tr": "边缘柔和度",
+  "back": "Flexible edges",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarUndo",
+  "en": "Undo",
+  "tr": "撤销",
+  "back": "Repealed",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarRedo",
+  "en": "Redo",
+  "tr": "重做",
+  "back": "Do it again",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarReset",
+  "en": "Reset",
+  "tr": "重置",
+  "back": "Repositioning",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarExport",
+  "en": "Export",
+  "tr": "导出",
+  "back": "Exported",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmTitle",
+  "en": "Reset edits?",
+  "tr": "重置编辑？",
+  "back": "Re-edited?",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmBody",
+  "en": "This clears your manual brush strokes. This cannot be undone.",
+  "tr": "这将清除你的手动画笔笔触，且无法撤销。",
+  "back": "This will clear your handwritten pencil and it will not be repealed.",
+  "sim": 0.27
+ },
+ {
+  "k": "resetConfirmCancel",
+  "en": "Cancel",
+  "tr": "取消",
+  "back": "Cancelled",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmConfirm",
+  "en": "Reset",
+  "tr": "重置",
+  "back": "Repositioning",
+  "sim": 0.0
+ },
+ {
+  "k": "exportTitle",
+  "en": "Export",
+  "tr": "导出",
+  "back": "Exported",
+  "sim": 0.0
+ },
+ {
+  "k": "exportQualityLabel",
+  "en": "Quality: {value}",
+  "tr": "质量：{value}",
+  "back": "Quality:[value]",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeLabel",
+  "en": "Resize",
+  "tr": "调整大小",
+  "back": "Adjusting the size",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeOriginal",
+  "en": "Original",
+  "tr": "原始",
+  "back": "The original",
+  "sim": 0.67
+ },
+ {
+  "k": "exportResizeCustom",
+  "en": "Custom",
+  "tr": "自定义",
+  "back": "Self-definition",
+  "sim": 0.0
+ },
+ {
+  "k": "exportWidthLabel",
+  "en": "Width (px)",
+  "tr": "宽度 (px)",
+  "back": "Width (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportHeightLabel",
+  "en": "Height (px)",
+  "tr": "高度 (px)",
+  "back": "Height (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSaveToGallery",
+  "en": "Save to Gallery",
+  "tr": "保存到相册",
+  "back": "Saved to Photographs",
+  "sim": 0.33
+ },
+ {
+  "k": "exportShare",
+  "en": "Share",
+  "tr": "分享",
+  "back": "Sharing",
+  "sim": 0.0
+ },
+ {
+  "k": "exportSuccess",
+  "en": "Exported!",
+  "tr": "导出成功！",
+  "back": "Successful export!",
+  "sim": 0.0
+ },
+ {
+  "k": "exportFailed",
+  "en": "Export failed. Please try again.",
+  "tr": "导出失败，请重试。",
+  "back": "If you fail, please try again.",
+  "sim": 0.55
+ },
+ {
+  "k": "exportInProgress",
+  "en": "Exporting…",
+  "tr": "正在导出…",
+  "back": "It's being exported...",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTitle",
+  "en": "Settings",
+  "tr": "设置",
+  "back": "Set up",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTheme",
+  "en": "Theme",
+  "tr": "主题",
+  "back": "Subjects",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLanguage",
+  "en": "Language",
+  "tr": "语言",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "恢复购买",
+  "back": "Restored purchases",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsGoAdFree",
+  "en": "Go Ad-Free",
+  "tr": "移除广告",
+  "back": "Removing ads",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsPrivacyPolicy",
+  "en": "Privacy Policy",
+  "tr": "隐私政策",
+  "back": "Privacy Policy",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsSupport",
+  "en": "Support",
+  "tr": "客服支持",
+  "back": "Customer support",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsRateApp",
+  "en": "Rate App",
+  "tr": "为应用评分",
+  "back": "Application scores",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsShareApp",
+  "en": "Share App",
+  "tr": "分享应用",
+  "back": "Shared applications",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLicenses",
+  "en": "Open-source licenses",
+  "tr": "开源许可",
+  "back": "Open source license",
+  "sim": 0.0
+ },
+ {
+  "k": "reminderChannelName",
+  "en": "Edit reminders",
+  "tr": "编辑提醒",
+  "back": "Editor's note",
+  "sim": 0.0
+ },
+ {
+  "k": "reminderChannelDescription",
+  "en": "Reminders about edits you have not finished.",
+  "tr": "关于未完成编辑的提醒。",
+  "back": "A reminder about unfinished editing.",
+  "sim": 0.17
+ },
+ {
+  "k": "reminderTitle",
+  "en": "Your edit is waiting",
+  "tr": "你的编辑还在等你",
+  "back": "Your editor is still waiting for you.",
+  "sim": 0.55
+ },
+ {
+  "k": "reminderBody",
+  "en": "Pick up where you left off and export your photo.",
+  "tr": "从上次停下的地方继续，导出你的照片吧。",
+  "back": "Continue from the last stop and export your photos.",
+  "sim": 0.32
+ },
+ {
+  "k": "settingsReminders",
+  "en": "Edit reminders",
+  "tr": "编辑提醒",
+  "back": "Editor's note",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsAnimatedBackground",
+  "en": "Animated home background",
+  "tr": "主页动态背景",
+  "back": "The dynamic background of the home page",
+  "sim": 0.2
+ },
+ {
+  "k": "settingsRemindersSubtitle",
+  "en": "Remind me about unfinished edits",
+  "tr": "提醒我未完成的编辑",
+  "back": "Reminds me of the unfinished editing",
+  "sim": 0.36
+ },
+ {
+  "k": "settingsRemindersBlocked",
+  "en": "Notifications are turned off for PhotoSur in your phone's settings.",
+  "tr": "PhotoSur 的通知已在手机设置中关闭。",
+  "back": "PhotoSur's notification has been turned off in the phone settings.",
+  "sim": 0.4
+ },
+ {
+  "k": "editorBrushHint",
+  "en": "Drag to paint. Pinch with two fingers to zoom.",
+  "tr": "拖动即可涂抹，双指捏合可缩放。",
+  "back": "It can be painted by pulling, and it can be shortened by pinching the fingers.",
+  "sim": 0.08
+ },
+ {
+  "k": "editorToolCutout",
+  "en": "Cut-out",
+  "tr": "抠图",
+  "back": "The map",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBrush",
+  "en": "Brush",
+  "tr": "画笔",
+  "back": "Pencils",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBackground",
+  "en": "Background",
+  "tr": "背景",
+  "back": "Background",
+  "sim": 1.0
+ },
+ {
+  "k": "editorToolLayout",
+  "en": "Layout",
+  "tr": "布局",
+  "back": "The layout",
+  "sim": 0.67
+ },
+ {
+  "k": "layoutAutoCenter",
+  "en": "Auto-center",
+  "tr": "自动居中",
+  "back": "Autonomous residence",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutSizeLabel",
+  "en": "Size",
+  "tr": "大小",
+  "back": "Size",
+  "sim": 1.0
+ },
+ {
+  "k": "layoutShadowLabel",
+  "en": "Shadow",
+  "tr": "阴影",
+  "back": "Shadows",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundPhoto",
+  "en": "Photo",
+  "tr": "照片",
+  "back": "The photo",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundPhotoFailed",
+  "en": "Could not load that photo.",
+  "tr": "无法加载该照片。",
+  "back": "I can't upload the photo.",
+  "sim": 0.2
+ },
+ {
+  "k": "editorLayoutHint",
+  "en": "Drag to move. Pinch with two fingers to resize.",
+  "tr": "拖动可移动，双指捏合可缩放。",
+  "back": "It can be moved by pulling and pinching with both fingers.",
+  "sim": 0.2
+ },
+ {
+  "k": "languageSystemDefault",
+  "en": "System default",
+  "tr": "跟随系统",
+  "back": "Follow the system",
+  "sim": 0.4
+ },
+ {
+  "k": "languageSheetTitle",
+  "en": "Language",
+  "tr": "语言",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "themeSheetTitle",
+  "en": "Theme",
+  "tr": "主题",
+  "back": "Subjects",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionSystem",
+  "en": "System default",
+  "tr": "跟随系统",
+  "back": "Follow the system",
+  "sim": 0.4
+ },
+ {
+  "k": "themeOptionLight",
+  "en": "Light",
+  "tr": "浅色",
+  "back": "It's light in color.",
+  "sim": 0.4
+ },
+ {
+  "k": "themeOptionDark",
+  "en": "Dark",
+  "tr": "深色",
+  "back": "It's deep.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLinkNotReady",
+  "en": "This link isn't set up yet.",
+  "tr": "此链接尚未设置。",
+  "back": "This link has not yet been set.",
+  "sim": 0.46
+ },
+ {
+  "k": "settingsLinkOpenFailed",
+  "en": "Could not open link.",
+  "tr": "无法打开链接。",
+  "back": "I can't open the link.",
+  "sim": 0.44
+ },
+ {
+  "k": "settingsRestoreRequested",
+  "en": "Restore requested — check back in a moment.",
+  "tr": "已请求恢复，请稍后再查看。",
+  "back": "It's been requested to restore, please check back later.",
+  "sim": 0.38
+ },
+ {
+  "k": "settingsRestoreFailed",
+  "en": "Restore failed.",
+  "tr": "恢复失败。",
+  "back": "I'm going to try to recover from my failure.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsShareFailed",
+  "en": "Could not share.",
+  "tr": "无法分享。",
+  "back": "I can't share it.",
+  "sim": 0.29
+ },
+ {
+  "k": "settingsShareAppMessage",
+  "en": "Remove photo backgrounds instantly with PhotoSur — free, no watermark.",
+  "tr": "用 PhotoSur 一键去除照片背景——免费，无水印。",
+  "back": "PhotoSur is free and waterproof.",
+  "sim": 0.29
+ },
+ {
+  "k": "paywallTitle",
+  "en": "Go Ad-Free",
+  "tr": "移除广告",
+  "back": "Removing ads",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallAlreadyAdFree",
+  "en": "You're already ad-free. Thank you!",
+  "tr": "你已经移除了广告，谢谢！",
+  "back": "You've already removed the ad, thank you!",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPlanFreeTitle",
+  "en": "Free",
+  "tr": "免费",
+  "back": "Free of charge",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPlanAdFreeTitle",
+  "en": "Ad-Free",
+  "tr": "无广告",
+  "back": "No advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPlanAdFreePrice",
+  "en": "One-time purchase",
+  "tr": "一次性购买",
+  "back": "One-time purchase",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallFeatureAllFeatures",
+  "en": "All features",
+  "tr": "全部功能",
+  "back": "All the functionality",
+  "sim": 0.4
+ },
+ {
+  "k": "paywallFeatureAdSupported",
+  "en": "Ad-supported",
+  "tr": "含广告",
+  "back": "Includes advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureZeroAds",
+  "en": "Zero ads",
+  "tr": "零广告",
+  "back": "Zero advertising",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPurchaseButton",
+  "en": "Remove Ads",
+  "tr": "移除广告",
+  "back": "Removing ads",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPurchaseButtonPrice",
+  "en": "Remove Ads — {price}",
+  "tr": "移除广告 — {price}",
+  "back": "Removing ads - Price",
+  "sim": 0.67
+ },
+ {
+  "k": "paywallRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "恢复购买",
+  "back": "Restored purchases",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallProductUnavailable",
+  "en": "Ad removal is not available right now.",
+  "tr": "暂时无法购买“移除广告”。",
+  "back": "I can't afford to buy tickets for a while to remove advertisements.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPurchaseFailed",
+  "en": "Purchase failed.",
+  "tr": "购买失败。",
+  "back": "It's a failure to buy.",
+  "sim": 0.0
+ },
+ {
+  "k": "errorScreenTitle",
+  "en": "Something went wrong",
+  "tr": "出了点问题",
+  "back": "There's a problem.",
+  "sim": 0.0
+ },
+ {
+  "k": "errorScreenBody",
+  "en": "Try again, or restart the app if this keeps happening.",
+  "tr": "请重试；如果问题持续，请重启应用。",
+  "back": "Please try again; if the problem persists, restart the application.",
+  "sim": 0.4
+ },
+ {
+  "k": "errorScreenGoBack",
+  "en": "Go back",
+  "tr": "返回",
+  "back": "Going back",
+  "sim": 0.5
+ },
+ {
+  "k": "errorScreenReportEmail",
+  "en": "Report via {email}",
+  "tr": "通过 {email} 反馈",
+  "back": "Feedback by [email]",
+  "sim": 0.33
+ },
+ {
+  "k": "unsupportedTitle",
+  "en": "Device Not Supported",
+  "tr": "设备不受支持",
+  "back": "Equipment not supported",
+  "sim": 0.67
+ },
+ {
+  "k": "unsupportedNoCameraMessage",
+  "en": "This device doesn't have a camera available.",
+  "tr": "此设备没有可用的相机。",
+  "back": "This device does not have a camera available.",
+  "sim": 0.8
+ },
+ {
+  "k": "unsupportedLowMemoryMessage",
+  "en": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
+  "tr": "此设备内存不足，无法稳定运行 PhotoSur 编辑器。",
+  "back": "The device has a poor memory and is unable to run the PhotoSur editor steadily.",
+  "sim": 0.38
+ },
+ {
+  "k": "unsupportedManualImportHint",
+  "en": "You can still import a photo from your gallery and use the manual brush tool.",
+  "tr": "你仍可从相册导入照片并使用手动画笔。",
+  "back": "You can still import photos from the photo book and use a handwritten pen.",
+  "sim": 0.48
+ },
+ {
+  "k": "unsupportedUseGalleryButton",
+  "en": "Import from Gallery",
+  "tr": "从相册导入",
+  "back": "Imported from the brochure",
+  "sim": 0.29
+ },
+ {
+  "k": "homeBatchButton",
+  "en": "Batch",
+  "tr": "批量",
+  "back": "The quantity",
+  "sim": 0.0
+ },
+ {
+  "k": "batchTitle",
+  "en": "Batch cut-out",
+  "tr": "批量抠图",
+  "back": "Bulk charts",
+  "sim": 0.0
+ },
+ {
+  "k": "batchOutputTransparent",
+  "en": "Transparent PNG",
+  "tr": "透明 PNG",
+  "back": "Transparent PNG",
+  "sim": 1.0
+ },
+ {
+  "k": "batchOutputWhite",
+  "en": "White background (JPG)",
+  "tr": "白色背景（JPG）",
+  "back": "It's a white background (JPG)",
+  "sim": 0.75
+ },
+ {
+  "k": "batchStart",
+  "en": "Start",
+  "tr": "开始",
+  "back": "Starting",
+  "sim": 0.0
+ },
+ {
+  "k": "batchStop",
+  "en": "Stop",
+  "tr": "停止",
+  "back": "Stop it!",
+  "sim": 0.67
+ },
+ {
+  "k": "batchDone",
+  "en": "Done",
+  "tr": "完成",
+  "back": "Completed",
+  "sim": 0.0
+ },
+ {
+  "k": "batchProgress",
+  "en": "{done} of {total} done",
+  "tr": "已完成 {done}/{total}",
+  "back": "[Done]/[total]",
+  "sim": 0.0
+ },
+ {
+  "k": "batchSaved",
+  "en": "{count} saved to your gallery",
+  "tr": "已将 {count} 张保存到相册",
+  "back": "The [count] has been saved to the directory",
+  "sim": 0.46
+ },
+ {
+  "k": "batchSomeFailed",
+  "en": "{count} could not be processed",
+  "tr": "有 {count} 张无法处理",
+  "back": "There are [count] tabs that can't be dealt with",
+  "sim": 0.29
+ },
+ {
+  "k": "batchTooMany",
+  "en": "Up to {max} photos at a time",
+  "tr": "一次最多 {max} 张照片",
+  "back": "Maximum number of [max] photos taken at a time",
+  "sim": 0.62
+ },
+ {
+  "k": "backgroundAddCustom",
+  "en": "Add custom background",
+  "tr": "添加自定义背景",
+  "back": "Adding a custom background",
+  "sim": 0.57
+ },
+ {
+  "k": "backgroundCustomColor",
+  "en": "Custom color",
+  "tr": "自定义颜色",
+  "back": "Customized colors",
+  "sim": 0.0
+ },
+ {
+  "k": "colorSaturation",
+  "en": "Saturation",
+  "tr": "饱和度",
+  "back": "C and D",
+  "sim": 0.0
+ },
+ {
+  "k": "colorBrightness",
+  "en": "Brightness",
+  "tr": "亮度",
+  "back": "The brightness",
+  "sim": 0.67
+ },
+ {
+  "k": "colorHexLabel",
+  "en": "Hex code",
+  "tr": "十六进制代码",
+  "back": "16 code of conduct",
+  "sim": 0.33
+ },
+ {
+  "k": "colorPickerDone",
+  "en": "Done",
+  "tr": "完成",
+  "back": "Completed",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceLabel",
+  "en": "Marketplace",
+  "tr": "电商平台",
+  "back": "E-commerce platforms",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceSummary",
+  "en": "{width} × {height} px · {format}",
+  "tr": "{width} × {height} 像素 · {format}",
+  "back": "[width] × [height] pixels · [format]",
+  "sim": 0.75
+ },
+ {
+  "k": "exportMarketplaceWhiteFill",
+  "en": "Pure white background, product fills the frame",
+  "tr": "纯白背景，产品占满画面",
+  "back": "White background, full of images",
+  "sim": 0.33
+ },
+ {
+  "k": "exportMarketplaceSizeCap",
+  "en": "File kept under {size} MB",
+  "tr": "文件小于 {size} MB",
+  "back": "Files smaller than [size] MB",
+  "sim": 0.4
+ },
+ {
+  "k": "editorToolTemplates",
+  "en": "Templates",
+  "tr": "模板",
+  "back": "Templates",
+  "sim": 1.0
+ },
+ {
+  "k": "templatesTitle",
+  "en": "Choose a template",
+  "tr": "选择模板",
+  "back": "Select a template",
+  "sim": 0.67
+ },
+ {
+  "k": "templatesStudio",
+  "en": "Studio",
+  "tr": "影棚",
+  "back": "Shadow shed",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesColorBlock",
+  "en": "Color block",
+  "tr": "色块",
+  "back": "It's the color.",
+  "sim": 0.4
+ },
+ {
+  "k": "templatesTextures",
+  "en": "Textures",
+  "tr": "纹理",
+  "back": "Textures",
+  "sim": 1.0
+ },
+ {
+  "k": "templatesLight",
+  "en": "Light & shadow",
+  "tr": "光影",
+  "back": "Shadows",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesPatterns",
+  "en": "Gradients & patterns",
+  "tr": "渐变与图案",
+  "back": "Progression and patterns",
+  "sim": 0.4
+ },
+ {
+  "k": "hdGetAction",
+  "en": "Get HD cut-out",
+  "tr": "获取高清抠图",
+  "back": "Get high-definition maps",
+  "sim": 0.33
+ },
+ {
+  "k": "hdRedoAction",
+  "en": "Redo cut-out in HD",
+  "tr": "用高清重新抠图",
+  "back": "Re-mapping in high definition",
+  "sim": 0.25
+ },
+ {
+  "k": "hdDownloading",
+  "en": "HD cut-out in progress… {percent}%",
+  "tr": "高清抠图进行中… {percent}%",
+  "back": "High-definition mapping in the middle... [percent] %",
+  "sim": 0.36
+ },
+ {
+  "k": "hdDownloadingShort",
+  "en": "HD cut-out… {percent}%",
+  "tr": "高清抠图… {percent}%",
+  "back": "High-definition chart... [percent] %",
+  "sim": 0.33
+ },
+ {
+  "k": "hdConfirmTitle",
+  "en": "Download HD cut-out model?",
+  "tr": "下载高清抠图模型？",
+  "back": "How do you download a high-definition map model?",
+  "sim": 0.33
+ },
+ {
+  "k": "hdConfirmBody",
+  "en": "Cleaner edges on tricky objects like shoes, bags and bottles. It downloads once, stays on your phone and then works offline. Mobile data charges may apply.",
+  "tr": "鞋子、包、瓶子等复杂物体的边缘更干净。只需下载一次，保存在手机上，之后可离线使用。可能产生移动数据流量费用。",
+  "back": "The edges of complex objects such as shoes, bags, bottles, etc. are cleaner. It is only necessary to download it once, keep it on your phone, and then use it offline.",
+  "sim": 0.46
+ },
+ {
+  "k": "hdDownload",
+  "en": "Download",
+  "tr": "下载",
+  "back": "Downloaded",
+  "sim": 0.0
+ },
+ {
+  "k": "hdFailed",
+  "en": "HD cut-out didn’t finish. Check your connection and try again.",
+  "tr": "高清抠图未完成。请检查网络后重试。",
+  "back": "High-definition mapping is not complete. Please check the network post-test.",
+  "sim": 0.1
+ },
+ {
+  "k": "settingsHdTitle",
+  "en": "HD cut-out model",
+  "tr": "高清抠图模型",
+  "back": "High-definition mapping model",
+  "sim": 0.33
+ },
+ {
+  "k": "settingsHdNotInstalled",
+  "en": "Not downloaded",
+  "tr": "未下载",
+  "back": "Not downloaded",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsHdInstalled",
+  "en": "Installed · works offline",
+  "tr": "已安装 · 可离线使用",
+  "back": "Installed · Offline use",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsHdRemove",
+  "en": "Remove",
+  "tr": "移除",
+  "back": "Removing",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsReplayIntro",
+  "en": "Replay intro",
+  "tr": "重新观看介绍",
+  "back": "Reviewing and introducing",
+  "sim": 0.0
+ },
+ {
+  "k": "homeSeeAll",
+  "en": "See all",
+  "tr": "查看全部",
+  "back": "See all of them.",
+  "sim": 0.67
+ },
+ {
+  "k": "exportActionEdit",
+  "en": "Edit again",
+  "tr": "再次编辑",
+  "back": "Re-edited",
+  "sim": 0.0
+ },
+ {
+  "k": "exportActionDelete",
+  "en": "Delete",
+  "tr": "删除",
+  "back": "Deleted",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMoreOptions",
+  "en": "More options",
+  "tr": "更多选项",
+  "back": "More options",
+  "sim": 1.0
+ },
+ {
+  "k": "exportDeleteTitle",
+  "en": "Delete this export?",
+  "tr": "删除此导出？",
+  "back": "Remove this output?",
+  "sim": 0.33
+ },
+ {
+  "k": "exportDeleteBody",
+  "en": "Exported images are removed from this phone. Your original photos and anything saved to your gallery are not affected.",
+  "tr": "导出的图片将从这部手机中移除。你的原始照片和已保存到相册的内容不受影响。",
+  "back": "The imported images will be removed from this phone. Your original photos and the content saved to the photo book will be unaffected.",
+  "sim": 0.52
+ },
+ {
+  "k": "exportSavedToGallery",
+  "en": "Saved to your gallery",
+  "tr": "已保存到相册",
+  "back": "It's saved to the library.",
+  "sim": 0.44
+ },
+ {
+  "k": "exportSaveFailed",
+  "en": "Could not save to the gallery.",
+  "tr": "无法保存到相册。",
+  "back": "It's not possible to save it to the library.",
+  "sim": 0.53
+ },
+ {
+  "k": "exportUnavailable",
+  "en": "Unavailable",
+  "tr": "不可用",
+  "back": "Not to be used",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsGroupThisWeek",
+  "en": "This week",
+  "tr": "本周",
+  "back": "This week.",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsGroupEarlier",
+  "en": "Earlier",
+  "tr": "更早",
+  "back": "Sooner or later.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsStorageUsed",
+  "en": "{size} used on this phone",
+  "tr": "此手机已占用 {size}",
+  "back": "This phone has taken on [size]",
+  "sim": 0.36
+ },
+ {
+  "k": "exportsSelect",
+  "en": "Select",
+  "tr": "选择",
+  "back": "Choice",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsDone",
+  "en": "Done",
+  "tr": "完成",
+  "back": "Completed",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsSelectedCount",
+  "en": "{count} selected",
+  "tr": "已选择 {count} 项",
+  "back": "Selected item [count]",
+  "sim": 0.4
+ },
+ {
+  "k": "exportsDeleteSelectedTitle",
+  "en": "Delete {count} exports?",
+  "tr": "删除 {count} 个导出？",
+  "back": "Remove the [count] output?",
+  "sim": 0.29
+ },
+ {
+  "k": "exportsDeleteAll",
+  "en": "Delete all exports",
+  "tr": "删除所有导出",
+  "back": "Delete all exports",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDeleteAllTitle",
+  "en": "Delete all exports?",
+  "tr": "删除所有导出？",
+  "back": "Delete all exports?",
+  "sim": 1.0
+ },
+ {
+  "k": "helpTitle",
+  "en": "Help & how to use",
+  "tr": "帮助与使用方法",
+  "back": "Help and Use",
+  "sim": 0.57
+ },
+ {
+  "k": "helpIntro",
+  "en": "Tap a topic to read how it works.",
+  "tr": "点按一个主题，阅读它的工作方式。",
+  "back": "Read how it works by topic.",
+  "sim": 0.57
+ },
+ {
+  "k": "helpStartTitle",
+  "en": "Getting started",
+  "tr": "开始使用",
+  "back": "Starting to use",
+  "sim": 0.0
+ },
+ {
+  "k": "helpStart1",
+  "en": "On the home screen, tap Camera to take a photo or Gallery to pick one. Batch cuts out many photos at once.",
+  "tr": "在主页上，点按相机拍照，或点按相册选择照片。批量可一次抠出多张照片。",
+  "back": "On the homepage, select photos by camera, or select photos by photo.",
+  "sim": 0.24
+ },
+ {
+  "k": "helpStart2",
+  "en": "Every photo opens in Crop & Rotate first, then in the editor. Your original photo is never changed.",
+  "tr": "每张照片会先在裁剪与旋转中打开，然后进入编辑器。你的原始照片绝不会被更改。",
+  "back": "Each photo opens during the cut and spin and then goes to the editor. Your original photo will never be changed.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpStart3",
+  "en": "When you are happy, tap Export in the editor. Recent Exports on the home screen lists everything you have exported.",
+  "tr": "满意后，在编辑器中点按导出。主页上的最近导出会列出你导出过的所有内容。",
+  "back": "When you're satisfied, click Export in the editor. The most recent directory on the home page lists all the content you've exported.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpCropTitle",
+  "en": "Crop & Rotate",
+  "tr": "裁剪与旋转",
+  "back": "Cutting and spinning",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCrop1",
+  "en": "Turn the photo left or right in 90° steps, and drag the frame to choose the part you want to keep.",
+  "tr": "以 90° 为单位向左或向右旋转照片，并拖动裁剪框选择要保留的部分。",
+  "back": "Rotate the photo to the left or to the right by 90° and drag the part of the cut-out box that you want to keep.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpCrop2",
+  "en": "Free lets you shape the frame as you like. 1:1, 4:5 and 9:16 lock its shape. Tap Continue to open the editor.",
+  "tr": "自由可让你把裁剪框调成任意形状。1:1、4:5 和 9:16 会锁定其形状。点按继续即可打开编辑器。",
+  "back": "Freedom allows you to adjust the cutting frames to any shape. 1:1, 4:5, and 9:16 lock the shape.",
+  "sim": 0.4
+ },
+ {
+  "k": "helpCutoutTitle",
+  "en": "Cut-out",
+  "tr": "抠图",
+  "back": "The map",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCutout1",
+  "en": "When the editor opens, PhotoSur finds the main subject and removes the background automatically, on your phone. No internet is needed.",
+  "tr": "编辑器打开后，PhotoSur 会找到主体，并在你的手机上自动去除背景。无需联网。",
+  "back": "Once the editor is turned on, PhotoSur will find the subject and automatically remove the background from your phone.",
+  "sim": 0.5
+ },
+ {
+  "k": "helpCutout2",
+  "en": "Edge Smoothness softens the edge of the cut-out, from 0 to 20 pixels.",
+  "tr": "边缘柔和度可在 0 到 20 像素之间柔化抠图的边缘。",
+  "back": "The edge softness can be the edge of a graph between 0 and 20 pixels.",
+  "sim": 0.5
+ },
+ {
+  "k": "helpCutout3",
+  "en": "The eye button at the top shows your original photo so you can compare. Tap it again to go back. The brush is paused while the original is shown.",
+  "tr": "顶部的眼睛按钮会显示原始照片以便对比。再次点按即可返回。显示原图期间，画笔会暂停。",
+  "back": "The eye button at the top will display the original photo for comparison. Once again, the point can be returned. During the display of the original, the pencil will be suspended.",
+  "sim": 0.4
+ },
+ {
+  "k": "helpCutout4",
+  "en": "For difficult subjects such as glass, shoes, bags and bottles, tap Get HD cut-out. The HD model downloads once, stays on your phone and then works offline. Once it is installed, every new cut-out uses it automatically. To redo the photo you have open, tap Redo cut-out in HD.",
+  "tr": "对于玻璃、鞋子、包和瓶子等较难处理的主体，请点按获取高清抠图。高清模型只需下载一次，会保存在你的手机上，之后可离线使用。安装后，每次新的抠图都会自动使用它。要重新处理当前打开的照片，请点按用高清重新抠图。",
+  "back": "For more difficult objects such as glass, shoes, bags and bottles, please click on the high-resolution map. The high-resolution model will be stored on your mobile phone once downloaded and can be used offline. Once installed, the new map will automatically use it. If you want to re-process your current open photos, click on the high-resolution map.",
+  "sim": 0.38
+ },
+ {
+  "k": "helpBrushTitle",
+  "en": "Brush",
+  "tr": "画笔",
+  "back": "Pencils",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBrush1",
+  "en": "Erase removes parts of the subject. Restore brings back parts the cut-out removed.",
+  "tr": "擦除会去掉主体的一部分。恢复会找回抠图去掉的部分。",
+  "back": "Erase will remove part of the subject. Restore will find the part of the map that has been removed.",
+  "sim": 0.44
+ },
+ {
+  "k": "helpBrush2",
+  "en": "Drag one finger to paint. Use two fingers to zoom, up to 8 times, and to move the photo. The brush keeps its size on screen, so zooming in gives finer control.",
+  "tr": "用一根手指拖动即可涂抹。用两根手指最多可放大 8 倍并移动照片。画笔在屏幕上的大小保持不变，因此放大后可以更精细地操作。",
+  "back": "It can be painted with a single finger pull. With two fingers, it can be magnified up to eight times and moved the photo. The size of the pencil on the screen remains the same, so it can be handled more precisely after magnification.",
+  "sim": 0.37
+ },
+ {
+  "k": "helpBrush3",
+  "en": "Brush Size goes from 1 to 50. Opacity sets how strongly each stroke applies.",
+  "tr": "画笔大小范围为 1 到 50。不透明度决定每一笔的浓淡。",
+  "back": "The size of the pencil ranges from 1 to 50. The opacity of each pencil determines the fade.",
+  "sim": 0.44
+ },
+ {
+  "k": "helpBrush4",
+  "en": "Undo and Redo step through your brush strokes. Reset clears all brush strokes and goes back to the automatic cut-out; it asks you to confirm first.",
+  "tr": "撤销和重做会在你的画笔笔触之间前进和后退。重置会清除所有笔触并回到自动抠图；系统会先请你确认。",
+  "back": "Revocation and rework will go back and forth between your pencil touches. Reposition will remove all pen touches and return to the automatic drawing map; the system will ask you to confirm first.",
+  "sim": 0.37
+ },
+ {
+  "k": "helpBackgroundTitle",
+  "en": "Background",
+  "tr": "背景",
+  "back": "Background",
+  "sim": 1.0
+ },
+ {
+  "k": "helpBackground1",
+  "en": "Choose what goes behind your subject: transparent, white, black, a gradient, a colour, a blurred copy of your photo, or your own photo.",
+  "tr": "选择主体后面放什么：透明、白色、黑色、渐变、一种颜色、你照片的模糊副本，或你自己的照片。",
+  "back": "Choose what to put behind the subject: transparency, white, black, gradient, a color, a blurry copy of your photo, or your own photo.",
+  "sim": 0.74
+ },
+ {
+  "k": "helpBackground2",
+  "en": "Only one background is used at a time. Your latest choice replaces the earlier one.",
+  "tr": "同一时间只使用一个背景。你最后的选择会取代之前的选择。",
+  "back": "Use only one context at a time. Your last choice will replace the previous one.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpBackground3",
+  "en": "Add custom background lets you pick a photo from your gallery. Custom color opens a colour picker. The Blur slider goes from 0 to 25.",
+  "tr": "添加自定义背景可让你从相册中选一张照片。自定义颜色会打开取色器。模糊滑块范围为 0 到 25。",
+  "back": "Adding a custom background allows you to select a photo from the directory. Custom colors open the color filter. The blurred slider range is 0 to 25.",
+  "sim": 0.5
+ },
+ {
+  "k": "helpBackground4",
+  "en": "Transparent shows a checkerboard while you edit. Export as PNG to keep it transparent.",
+  "tr": "透明在编辑时会显示棋盘格。请导出为 PNG 以保留透明。",
+  "back": "Transparency displays the board graph when editing. Please export it as PNG to maintain transparency.",
+  "sim": 0.28
+ },
+ {
+  "k": "helpTemplatesTitle",
+  "en": "Templates",
+  "tr": "模板",
+  "back": "Templates",
+  "sim": 1.0
+ },
+ {
+  "k": "helpTemplates1",
+  "en": "Templates are ready-made backgrounds in five groups: Studio, Color block, Textures, Light & shadow, and Gradients & patterns. Five scenes are shown in the panel; tap the Templates button to see them all.",
+  "tr": "模板是分为五组的现成背景：影棚、色块、纹理、光影，以及渐变与图案。面板中会显示五个场景；点按模板按钮可查看全部。",
+  "back": "Templates are divided into five groups of ready-made backgrounds: shadows, blocks, textures, shadows, and gradients and patterns. The panel displays five scenes; all can be viewed by clicking on the template button.",
+  "sim": 0.38
+ },
+ {
+  "k": "helpTemplates2",
+  "en": "Choosing a template works like choosing your own photo as the background: it replaces your earlier background choice.",
+  "tr": "选择模板就像把你自己的照片选作背景：它会取代你之前的背景选择。",
+  "back": "Selecting a template is like selecting your own photo as a background: it will replace your previous background choices.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpLayoutTitle",
+  "en": "Layout",
+  "tr": "布局",
+  "back": "The layout",
+  "sim": 0.67
+ },
+ {
+  "k": "helpLayout1",
+  "en": "Drag the subject on the photo to move it. Pinch with two fingers to resize it.",
+  "tr": "在照片上拖动主体即可移动。用两根手指捏合可调整大小。",
+  "back": "It is possible to move the dragging subject in the photo. The size can be adjusted with two fingers pressed together.",
+  "sim": 0.38
+ },
+ {
+  "k": "helpLayout2",
+  "en": "Choose Original, 1:1, 4:5 or 9:16 to set the shape of the final picture.",
+  "tr": "选择原始、1:1、4:5 或 9:16，设定最终图片的形状。",
+  "back": "Select the original, 1:1, 4:5, or 9:16, and set the shape of the final image.",
+  "sim": 0.76
+ },
+ {
+  "k": "helpLayout3",
+  "en": "Size sets how big the subject is, from 20% to 300%. Shadow sets how strong its shadow is. Auto-center puts the subject back in the middle. Reset undoes moving and resizing.",
+  "tr": "大小决定主体的大小，范围为 20% 到 300%。阴影决定阴影的浓淡。自动居中会把主体移回中间。重置会撤销移动和大小调整。",
+  "back": "The size determines the size of the subject, ranging from 20% to 300%. Shadow determines the dimming of the shadow. Automatic residence moves the subject back to the middle.",
+  "sim": 0.47
+ },
+ {
+  "k": "helpLayout4",
+  "en": "This shape is used when the export size is Original. If you choose a size preset or a marketplace in the export sheet, that decides the final shape instead.",
+  "tr": "当导出大小为原始时，会使用这个形状。如果你在导出面板中选择了预设尺寸或电商平台，则由它决定最终形状。",
+  "back": "This shape is used when the export size is original. If you select a default size or e-commerce platform in the export panel, it determines the final shape.",
+  "sim": 0.74
+ },
+ {
+  "k": "helpExportTitle",
+  "en": "Export",
+  "tr": "导出",
+  "back": "Exported",
+  "sim": 0.0
+ },
+ {
+  "k": "helpExport1",
+  "en": "Tap Export to open the export sheet. Nothing is applied until you tap Save to Gallery or Share, so you can change your choices as often as you like.",
+  "tr": "点按导出可打开导出面板。在你点按保存到相册或分享之前不会应用任何设置，因此你可以随意更改选择。",
+  "back": "You can open the Export Panel by pointing out. You can change the options at any time by not applying any settings until you save or share to the directory.",
+  "sim": 0.24
+ },
+ {
+  "k": "helpExport2",
+  "en": "PNG keeps transparency. JPG makes smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a small modern format; if your phone cannot make it, the file is saved as JPG. For JPG and WEBP, the Quality slider trades file size for detail.",
+  "tr": "PNG 会保留透明。JPG 文件更小，但无法透明，因此透明背景会变成白色。WEBP 是一种现代、紧凑的格式；如果你的手机无法生成该格式，文件会保存为 JPG。对于 JPG 和 WEBP，质量滑块用于在文件大小与细节之间取得平衡。",
+  "back": "PNG maintains transparency. JPG files are smaller but not transparent, so the transparent background turns white. WEBP is a modern, compact format; if your phone is unable to generate the format, the file is saved as JPG. For JPG and WEBP, quality sliders are used to balance file size and detail.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpExport3",
+  "en": "Original keeps your photo’s size, with the shape chosen in Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. Custom lets you type a width and height in pixels.",
+  "tr": "原始会保持你照片的大小，并采用你在布局中选择的形状。1:1 为 1080 × 1080，4:5 为 1080 × 1350，9:16 为 1080 × 1920。自定义可让你以像素输入宽度和高度。",
+  "back": "The original keeps the size of your photo and the shape you choose in the layout. 1:1 is 1080 × 1080, 4: 5 is 1080 × 1350, 9:16 is 1080 × 1920; customization allows you to input width and height with pixels.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpExport4",
+  "en": "Marketplace presets set size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG kept under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices, and choosing a format or size afterwards switches the marketplace off. Marketplace rules can change, so check your marketplace’s current requirements.",
+  "tr": "电商平台预设会规定尺寸、格式和质量：Amazon 为 2000 × 2000 JPG，eBay 为 1600 × 1600 JPG，Etsy 为 2667 × 2000 JPG 且小于 1 MB，Shopify 为 2048 × 2048 PNG。选择其一会取代你的格式和尺寸选择；之后若再选择格式或尺寸，电商平台会被取消选中。电商平台规则可能变化，请查看你所用平台的最新要求。",
+  "back": "E-commerce platforms are set to specify sizes, formats, and quality: Amazon for 2000×2000 JPG, eBay for 1600×1600 JPG, Etsy for 2667×2000 JPG and less than 1 MB, Shopify for 2048×2048 PNG. Choose one that will replace your format and size choices; then if you choose the format or size again, the e-commerce platform will be deleted.",
+  "sim": 0.41
+ },
+ {
+  "k": "helpExport5",
+  "en": "Amazon also uses a pure white background with no shadow and fits the subject to fill most of the frame. Your background choice in the editor is not changed. The other marketplaces keep your background.",
+  "tr": "Amazon 还会使用无阴影的纯白背景，并调整主体使其占满画面的大部分。你在编辑器中的背景选择不会改变。其他电商平台会保留你的背景。",
+  "back": "Amazon will also use a pure white background with no shadows, and adjust the subject to fill most of the image. Your choice of background in the editor will not change. Other e-commerce platforms will keep your background.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpExport6",
+  "en": "Save to Gallery and Share both save the picture to your gallery and to Recent Exports. Share also opens your phone’s share menu. If saving to the gallery is not possible, the share menu opens instead. After exporting you return to the home screen.",
+  "tr": "保存到相册和分享都会把图片保存到你的相册和最近导出中。分享还会额外打开手机的分享菜单。如果无法保存到相册，则会改为打开分享菜单。导出后，你会回到主页。",
+  "back": "Save to photo and share save to your photo and recently exported. Sharing also opens the sharing menu for your phone. If you can't save to photo, it will be changed to open the sharing menu. After exporting, you will return to the homepage.",
+  "sim": 0.41
+ },
+ {
+  "k": "helpExport7",
+  "en": "Unless you have removed ads, an ad can appear after an export, at most once every two minutes.",
+  "tr": "如果你没有移除广告，导出后可能会出现一条广告，最多每两分钟一次。",
+  "back": "If you don't remove an ad, an ad may appear after exporting, at most once every two minutes.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpBatchTitle",
+  "en": "Batch",
+  "tr": "批量",
+  "back": "The quantity",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBatch1",
+  "en": "Batch cuts out up to 30 photos in one go. Tap Batch on the home screen and pick your photos. The back button is turned off while a batch runs.",
+  "tr": "批量一次最多可抠出 30 张照片。在主页上点按批量并选择照片。批量运行期间，返回按钮会被禁用。",
+  "back": "A maximum of 30 photos can be taken in a batch at a time. At the top of the main page, select the photo by batch. During batch operation, return buttons will be disabled.",
+  "sim": 0.16
+ },
+ {
+  "k": "helpBatch2",
+  "en": "All photos in a batch share one setup: one background and one marketplace. You cannot choose differently for each photo.",
+  "tr": "一个批量中的所有照片共用同一项设置：一个背景和一个电商平台。你无法为每张照片分别选择。",
+  "back": "All the photos in a batch share the same setting: a background and an e-commerce platform.",
+  "sim": 0.44
+ },
+ {
+  "k": "helpBatch3",
+  "en": "Backgrounds work as in the editor: your own photo, a colour, a template, white, transparent, black, blur or a gradient. Only one applies, and your latest choice replaces the earlier one.",
+  "tr": "背景的工作方式与编辑器相同：你自己的照片、颜色、模板、白色、透明、黑色、模糊或渐变。同一时间只有一个生效，你最后的选择会取代之前的选择。",
+  "back": "The background works the same way as an editor: your own photos, colors, templates, white, transparent, black, blurred or gradient. At the same time, only one thing works and your last choice replaces the previous one.",
+  "sim": 0.51
+ },
+ {
+  "k": "helpBatch4",
+  "en": "The file format is chosen for you. With a marketplace, the photos follow that marketplace’s size and format. Without one, a transparent background gives PNG and any other background gives JPG, at the original size.",
+  "tr": "文件格式会替你选好。选择电商平台后，照片会遵循其尺寸和格式。没有电商平台时，透明背景生成 PNG，其他背景生成 JPG，大小为原始尺寸。",
+  "back": "The file format is best for you. After choosing the e-commerce platform, the photos will follow its size and format. When there is no e-commerce platform, the transparent background generates PNG, while other backgrounds generate JPG, which is the original size.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpBatch5",
+  "en": "Choosing Amazon switches the background to White; if you then choose another background, Amazon is switched off. eBay, Etsy and Shopify keep your background, but a JPG cannot be transparent, so it gets a white background.",
+  "tr": "选择 Amazon 会把背景切换为白色；如果之后再选其他背景，Amazon 会被取消选中。eBay、Etsy 和 Shopify 会保留你的背景，但 JPG 无法透明，因此会使用白色背景。",
+  "back": "If you select Amazon, the background will be changed to white; if you choose another background, Amazon will be deleted. eBay, Etsy and Shopify will keep your background, but JPG is not transparent and will use white background.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpBatch6",
+  "en": "If the HD model is installed, every photo in the batch is cut out with it. The Get HD cut-out button next to Templates downloads it.",
+  "tr": "如果已安装高清模型，批量中的每张照片都会用它抠图。模板旁边的获取高清抠图按钮可下载它。",
+  "back": "If a high-resolution model is installed, each photo in the batch will be mapped using it. The high-resolution mapping button next to the template can be downloaded.",
+  "sim": 0.49
+ },
+ {
+  "k": "helpBatch7",
+  "en": "Each photo is saved to your gallery and to Recent Exports as soon as it finishes. Stop ends the batch after the current photo, and photos already finished stay saved. If a photo fails, the batch carries on and tells you how many could not be processed. Done takes you back to the home screen; it does not save anything.",
+  "tr": "每张照片一完成就会保存到你的相册和最近导出中。停止会在当前这张照片之后结束批量，已完成的照片仍会保留。如果某张照片失败，批量会继续，并告诉你有多少张未能处理。完成会带你回到主页，它本身不保存任何内容。",
+  "back": "Each photo will be saved to your directory and most recently exported once it's finished. Stopping will end the batch after the current photo, and the finished photo will still be retained. If a photo fails, the batch will continue and tell you how many copies have not been processed.",
+  "sim": 0.47
+ },
+ {
+  "k": "helpLibraryTitle",
+  "en": "Your exports",
+  "tr": "你的导出",
+  "back": "Your exports",
+  "sim": 1.0
+ },
+ {
+  "k": "helpLibrary1",
+  "en": "Recent Exports on the home screen shows your latest exports. Tap See all for every export, grouped as Today, Yesterday, This week and Earlier.",
+  "tr": "主页上的最近导出会显示你最新的导出。点按查看全部可查看所有内容，并按今天、昨天、本周和更早分组。",
+  "back": "The most recent directories on the homepage show your latest exports. Click All to view all content and sort by today, yesterday, this week and earlier.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpLibrary2",
+  "en": "Tap an export to open it full screen. Swipe to move between exports and pinch to zoom. The bar at the bottom has Share, Save to Gallery, Edit again and Delete.",
+  "tr": "点按某个导出即可全屏打开。滑动可在各导出之间切换，捏合可放大。底部栏提供分享、保存到相册、再次编辑和删除。",
+  "back": "The point can be opened on a full screen with one output. Sliding can be switched between outputs, pinched and magnified. The bottom of the box provides sharing, saving to a photo, re-editing and deleting.",
+  "sim": 0.24
+ },
+ {
+  "k": "helpLibrary3",
+  "en": "The three-dot button on a tile opens the same actions. Edit again opens the exported picture as a new photo, so earlier brush strokes are not restored.",
+  "tr": "缩略图上的三点按钮可打开相同的操作。再次编辑会把导出的图片作为新照片打开，因此之前的画笔笔触不会恢复。",
+  "back": "The three-point shortening button on the chart opens the same operation. Again, the editor opens the exported image as a new photo, so the previous pencil touches will not be restored.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpLibrary4",
+  "en": "Select lets you choose several exports to share together or delete. Delete all exports removes every export from this phone.",
+  "tr": "选择可让你选取多个导出，一起分享或删除。删除所有导出会从这部手机上移除所有导出。",
+  "back": "The option allows you to select multiple outputs, share them together, or delete them.",
+  "sim": 0.29
+ },
+ {
+  "k": "helpLibrary5",
+  "en": "Deleting removes exports from PhotoSur only. Pictures already saved to your gallery are not affected. The bottom of the See all screen shows how much space exports use on this phone.",
+  "tr": "删除只会把导出从 PhotoSur 中移除。已保存到你相册的图片不会受影响。在查看全部的底部，你可以看到导出在这部手机上占用了多少空间。",
+  "back": "Deleting will only remove the exports from PhotoSur. Images that have been saved to your archive will not be affected. By looking at the whole bottom, you can see how much space the exports take up on this phone.",
+  "sim": 0.54
+ },
+ {
+  "k": "helpPrivacyTitle",
+  "en": "Privacy & ads",
+  "tr": "隐私与广告",
+  "back": "Privacy and Advertising",
+  "sim": 0.4
+ },
+ {
+  "k": "helpPrivacy1",
+  "en": "Your photos are processed on your phone and are not uploaded. There is no account and no watermark.",
+  "tr": "你的照片在手机上处理，不会上传。没有账号，也没有水印。",
+  "back": "Your photos are processed on your mobile phone, not uploaded. There are no accounts, no watermarks.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpPrivacy2",
+  "en": "PhotoSur is free with every feature included, supported by ads. A banner appears at the bottom of some screens, and an ad can appear after an export.",
+  "tr": "PhotoSur 免费，包含全部功能，并靠广告维持。部分屏幕底部会显示横幅，导出后可能会出现一条广告。",
+  "back": "PhotoSur is free, full-featured, and ad-supported. Some banners will appear at the bottom of the screen, and an advertisement may appear after export.",
+  "sim": 0.48
+ },
+ {
+  "k": "helpPrivacy3",
+  "en": "Go Ad-Free in Settings is a one-time purchase that removes the ads. It does not unlock anything else, because every feature is already free. Restore Purchases brings it back on a new phone.",
+  "tr": "设置中的移除广告是一次性购买，可移除广告。它不会解锁其他任何内容，因为所有功能本来就是免费的。恢复购买可在新手机上找回它。",
+  "back": "Removing ads in the settings is a one-time purchase, removable ads. It does not unlock any other content, as all features are free.",
+  "sim": 0.43
+ },
+ {
+  "k": "helpSettingsTitle",
+  "en": "Settings",
+  "tr": "设置",
+  "back": "Set up",
+  "sim": 0.0
+ },
+ {
+  "k": "helpSettings1",
+  "en": "Theme can follow your phone, or be Light or Dark. Language changes the language of the app. Both are also in the home screen header.",
+  "tr": "主题可以跟随你的手机，也可以设为浅色或深色。语言用于更改应用的语言。这两项也在主页的标题栏中。",
+  "back": "The theme can be followed by your phone, or it can be set to light or dark colors. The language is used to change the language of the application. Both are also in the title box of the home page.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpSettings2",
+  "en": "Edit reminders: if you leave the app with an unfinished edit, PhotoSur can remind you three hours later. Switch this off in Settings.",
+  "tr": "编辑提醒：如果你在编辑未完成时离开应用，PhotoSur 可能会在三小时后提醒你。你可以在设置中关闭。",
+  "back": "Editor's Note: If you leave the app when editing is not complete, PhotoSur may remind you after three hours.",
+  "sim": 0.48
+ },
+ {
+  "k": "helpSettings3",
+  "en": "HD cut-out model shows whether it is installed. Remove deletes it from your phone to free space; you can download it again at any time.",
+  "tr": "高清抠图模型会显示是否已安装。移除会把它从你的手机上删除以释放空间；你可以随时重新下载。",
+  "back": "A high-definition map model will show if it's installed. Removing will remove it from your phone to free up space; you can download it again anytime.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpSettings4",
+  "en": "Replay intro shows the welcome screens again. Support opens the support page. Animated home background turns the moving picture at the top of the home screen on or off.",
+  "tr": "重新观看介绍会再次显示欢迎界面。客服支持会打开支持页面。主页动态背景可开启或关闭主页顶部的动态图片。",
+  "back": "Reviewing the introduction will display the welcome interface again. Customer support will open the support page. The dynamic background of the home page will open or close the dynamic image at the top of the home page.",
+  "sim": 0.45
+ },
+ {
+  "k": "helpFixTitle",
+  "en": "If something goes wrong",
+  "tr": "遇到问题时",
+  "back": "When faced with problems",
+  "sim": 0.0
+ },
+ {
+  "k": "helpFix1",
+  "en": "If the automatic cut-out cannot run on a very old or low-memory phone, the brush still works, so you can finish the picture by hand.",
+  "tr": "如果自动抠图无法在非常旧或内存很小的手机上运行，画笔仍然可用，你可以手动完成图片。",
+  "back": "If you can't run an automatic map on a very old or memory-poor phone, and a pencil is still available, you can complete the picture manually.",
+  "sim": 0.51
+ },
+ {
+  "k": "helpFix2",
+  "en": "If the HD download stops, check your connection and try again. It continues where it left off.",
+  "tr": "如果高清下载中断，请检查网络连接后重试。它会从中断处继续。",
+  "back": "If a high-definition download disruption occurs, please check the network connection and try again. It will continue from the disruption.",
+  "sim": 0.38
+ },
+ {
+  "k": "helpFix3",
+  "en": "For anything else, open Support from Settings.",
+  "tr": "如有其他问题，请在设置中打开客服支持。",
+  "back": "If there are other problems, please open customer support in the settings.",
+  "sim": 0.32
+ }
+]

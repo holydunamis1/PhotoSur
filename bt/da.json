@@ -1,0 +1,1738 @@
+[
+ {
+  "k": "onboardingPage1Title",
+  "en": "Remove backgrounds instantly. All features free.",
+  "tr": "Fjern baggrunde med det samme. Alle funktioner gratis.",
+  "back": "Remove backgrounds immediately, all features are free.",
+  "sim": 0.77
+ },
+ {
+  "k": "onboardingPage1Body",
+  "en": "Open a photo and our on-device AI removes the background automatically — no internet required. You can also swap in your own custom background.",
+  "tr": "Åbn et foto, og AI'en på din enhed fjerner automatisk baggrunden — uden internet. Du kan også skifte til din egen baggrund.",
+  "back": "Open a photo, and the AI on your device automatically removes the background  without the internet.",
+  "sim": 0.46
+ },
+ {
+  "k": "onboardingPage2Title",
+  "en": "Fine-tune with the brush",
+  "tr": "Finjuster med penslen",
+  "back": "Fine adjustment with the brush",
+  "sim": 0.67
+ },
+ {
+  "k": "onboardingPage2Body",
+  "en": "Paint away what the AI missed or restore what you want to keep. Then crop, rotate, move and resize.",
+  "tr": "Slet med penslen det, AI’en overså, eller gendan det, du vil beholde. Beskær, roter, flyt og tilpas størrelsen bagefter.",
+  "back": "Remove with the brush what the AI missed, or repeat what you want to keep, cut, rotate, move and adjust the size afterwards.",
+  "sim": 0.62
+ },
+ {
+  "k": "onboardingPage3Title",
+  "en": "Studio-ready backgrounds",
+  "tr": "Baggrunde i studiekvalitet",
+  "back": "Backgrounds in the quality of studies",
+  "sim": 0.25
+ },
+ {
+  "k": "onboardingPage3Body",
+  "en": "Choose a colour, gradient, template or your own photo, with a natural shadow. Marketplace presets for Amazon, eBay, Etsy and Shopify set size and format for you.",
+  "tr": "Vælg en farve, en overgang, en skabelon eller dit eget foto, med en naturlig skygge. Forudindstillinger til Amazon, eBay, Etsy og Shopify vælger størrelse og format for dig.",
+  "back": "Choose a color, a transition, a template, or your own photo, with a natural shadow. Pre-sets for Amazon, eBay, Etsy, and Shopify choose the size and format for you.",
+  "sim": 0.82
+ },
+ {
+  "k": "onboardingPage4Title",
+  "en": "Batch it, export it, keep it private",
+  "tr": "Flere ad gangen, i det format du vil, helt privat",
+  "back": "Several at a time, in the format you want, completely private.",
+  "sim": 0.11
+ },
+ {
+  "k": "onboardingPage4Body",
+  "en": "Cut out up to 30 photos at once and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "tr": "Fritlæg op til 30 fotos ad gangen og eksportér som PNG, JPG eller WEBP. Dine fotos forlader aldrig din telefon. Fås på 43 sprog.",
+  "back": "Free up to 30 photos at a time and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "sim": 0.88
+ },
+ {
+  "k": "onboardingNext",
+  "en": "Next",
+  "tr": "Næste",
+  "back": "Next",
+  "sim": 1.0
+ },
+ {
+  "k": "onboardingGetStarted",
+  "en": "Get Started",
+  "tr": "Kom i gang",
+  "back": "Let's get on with it.",
+  "sim": 0.29
+ },
+ {
+  "k": "homeCameraButton",
+  "en": "Camera",
+  "tr": "Kamera",
+  "back": "The camera",
+  "sim": 0.67
+ },
+ {
+  "k": "homeGalleryButton",
+  "en": "Gallery",
+  "tr": "Galleri",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "dateToday",
+  "en": "Today",
+  "tr": "I dag",
+  "back": "Today",
+  "sim": 1.0
+ },
+ {
+  "k": "dateYesterday",
+  "en": "Yesterday",
+  "tr": "I går",
+  "back": "Yesterday",
+  "sim": 1.0
+ },
+ {
+  "k": "homeRecentExports",
+  "en": "Recent Exports",
+  "tr": "Seneste eksporter",
+  "back": "Recent exports",
+  "sim": 1.0
+ },
+ {
+  "k": "homeEmptyStateMessage",
+  "en": "Tap Camera or Gallery to start.",
+  "tr": "Tryk på Kamera eller Galleri for at starte.",
+  "back": "Press Camera or Gallery to start.",
+  "sim": 0.83
+ },
+ {
+  "k": "homeExportUnavailable",
+  "en": "This export is no longer available.",
+  "tr": "Denne eksport er ikke længere tilgængelig.",
+  "back": "This export is no longer available.",
+  "sim": 1.0
+ },
+ {
+  "k": "homeShareFailed",
+  "en": "Could not share this export.",
+  "tr": "Eksporten kunne ikke deles.",
+  "back": "Exports could not be divided.",
+  "sim": 0.4
+ },
+ {
+  "k": "homeGalleryOpenFailed",
+  "en": "Could not open gallery.",
+  "tr": "Galleriet kunne ikke åbnes.",
+  "back": "The gallery couldn't open.",
+  "sim": 0.25
+ },
+ {
+  "k": "cameraTitle",
+  "en": "Camera",
+  "tr": "Kamera",
+  "back": "The camera",
+  "sim": 0.67
+ },
+ {
+  "k": "cameraPermissionDenied",
+  "en": "Camera access is needed to take a photo. Please allow access.",
+  "tr": "Der kræves adgang til kameraet for at tage et foto. Giv venligst adgang.",
+  "back": "We need access to the camera to take a picture.",
+  "sim": 0.38
+ },
+ {
+  "k": "cameraPermissionPermanentlyDenied",
+  "en": "Camera access was denied. Enable it in Settings to continue.",
+  "tr": "Adgang til kameraet blev afvist. Slå den til i Indstillinger for at fortsætte.",
+  "back": "Access to the camera has been denied.",
+  "sim": 0.24
+ },
+ {
+  "k": "cameraPermissionRestricted",
+  "en": "Camera access is restricted on this device.",
+  "tr": "Adgang til kameraet er begrænset på denne enhed.",
+  "back": "Access to the camera is restricted on this device.",
+  "sim": 0.75
+ },
+ {
+  "k": "cameraNoCameraFound",
+  "en": "No camera found on this device.",
+  "tr": "Der blev ikke fundet noget kamera på denne enhed.",
+  "back": "No cameras were found on this device.",
+  "sim": 0.77
+ },
+ {
+  "k": "cameraStartFailed",
+  "en": "Could not start the camera.",
+  "tr": "Kameraet kunne ikke startes.",
+  "back": "The camera couldn't start.",
+  "sim": 0.44
+ },
+ {
+  "k": "cameraCaptureFailed",
+  "en": "Could not capture photo.",
+  "tr": "Fotoet kunne ikke tages.",
+  "back": "The photo couldn't be taken.",
+  "sim": 0.22
+ },
+ {
+  "k": "cameraOpenSettings",
+  "en": "Open Settings",
+  "tr": "Åbn Indstillinger",
+  "back": "Open the settings",
+  "sim": 0.8
+ },
+ {
+  "k": "cameraFlashTooltip",
+  "en": "Flash",
+  "tr": "Blitz",
+  "back": "Blitz",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraGalleryTooltip",
+  "en": "Gallery",
+  "tr": "Galleri",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "cropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Beskær og roter",
+  "back": "Cutting and rotating",
+  "sim": 0.0
+ },
+ {
+  "k": "cropLoadFailed",
+  "en": "Could not load the image.",
+  "tr": "Billedet kunne ikke indlæses.",
+  "back": "The image couldn't be loaded.",
+  "sim": 0.4
+ },
+ {
+  "k": "cropRotateFailed",
+  "en": "Could not rotate the image.",
+  "tr": "Billedet kunne ikke roteres.",
+  "back": "The image could not be rotated.",
+  "sim": 0.36
+ },
+ {
+  "k": "cropFailed",
+  "en": "Crop failed.",
+  "tr": "Beskæringen mislykkedes.",
+  "back": "The cut was a failure.",
+  "sim": 0.0
+ },
+ {
+  "k": "cropSaveFailed",
+  "en": "Could not save the cropped image.",
+  "tr": "Det beskårne billede kunne ikke gemmes.",
+  "back": "The sliced image couldn't be hidden.",
+  "sim": 0.33
+ },
+ {
+  "k": "cropAspectFree",
+  "en": "Free",
+  "tr": "Frit",
+  "back": "Free of charge",
+  "sim": 0.5
+ },
+ {
+  "k": "cropContinue",
+  "en": "Continue",
+  "tr": "Fortsæt",
+  "back": "Keep going.",
+  "sim": 0.0
+ },
+ {
+  "k": "editorSegmentationFailedMessage",
+  "en": "Your device doesn't support automatic background removal. Use the manual brush below.",
+  "tr": "Din enhed understøtter ikke automatisk fjernelse af baggrund. Brug det manuelle viskelæder nedenfor.",
+  "back": "Your device does not support automatic background removal.",
+  "sim": 0.6
+ },
+ {
+  "k": "brushErase",
+  "en": "Erase",
+  "tr": "Slet",
+  "back": "Slightly",
+  "sim": 0.0
+ },
+ {
+  "k": "brushRestore",
+  "en": "Restore",
+  "tr": "Gendan",
+  "back": "Recycling",
+  "sim": 0.0
+ },
+ {
+  "k": "brushSizeLabel",
+  "en": "Brush Size",
+  "tr": "Penselstørrelse",
+  "back": "Pencil size",
+  "sim": 0.5
+ },
+ {
+  "k": "brushOpacityLabel",
+  "en": "Opacity",
+  "tr": "Uigennemsigtighed",
+  "back": "Transparency",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundWhite",
+  "en": "White",
+  "tr": "Hvid",
+  "back": "White",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundTransparent",
+  "en": "Transparent",
+  "tr": "Gennemsigtig",
+  "back": "Transparency",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundBlack",
+  "en": "Black",
+  "tr": "Sort",
+  "back": "Black",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundBlurLabel",
+  "en": "Blur",
+  "tr": "Sløring",
+  "back": "Flat-rolled products",
+  "sim": 0.0
+ },
+ {
+  "k": "edgeFeatherLabel",
+  "en": "Edge Smoothness",
+  "tr": "Kantblødhed",
+  "back": "External bleeding",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarUndo",
+  "en": "Undo",
+  "tr": "Fortryd",
+  "back": "I want you to resign.",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarRedo",
+  "en": "Redo",
+  "tr": "Gentag",
+  "back": "Repeat",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarReset",
+  "en": "Reset",
+  "tr": "Nulstil",
+  "back": "This is not the case.",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarExport",
+  "en": "Export",
+  "tr": "Eksportér",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmTitle",
+  "en": "Reset edits?",
+  "tr": "Nulstil redigeringer?",
+  "back": "What are you doing? Zero-style editing?",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmBody",
+  "en": "This clears your manual brush strokes. This cannot be undone.",
+  "tr": "Dette rydder dine manuelle penselstrøg. Det kan ikke fortrydes.",
+  "back": "This will clear your manual brush strokes.",
+  "sim": 0.59
+ },
+ {
+  "k": "resetConfirmCancel",
+  "en": "Cancel",
+  "tr": "Annuller",
+  "back": "Cancellation",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmConfirm",
+  "en": "Reset",
+  "tr": "Nulstil",
+  "back": "This is not the case.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportTitle",
+  "en": "Export",
+  "tr": "Eksportér",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "exportQualityLabel",
+  "en": "Quality: {value}",
+  "tr": "Kvalitet: {value}",
+  "back": "Quality: [value]",
+  "sim": 1.0
+ },
+ {
+  "k": "exportResizeLabel",
+  "en": "Resize",
+  "tr": "Tilpas størrelse",
+  "back": "Size adjustment",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeCustom",
+  "en": "Custom",
+  "tr": "Brugerdefineret",
+  "back": "User-defined",
+  "sim": 0.0
+ },
+ {
+  "k": "exportWidthLabel",
+  "en": "Width (px)",
+  "tr": "Bredde (px)",
+  "back": "Width (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportHeightLabel",
+  "en": "Height (px)",
+  "tr": "Højde (px)",
+  "back": "Height (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSaveToGallery",
+  "en": "Save to Gallery",
+  "tr": "Gem i Galleri",
+  "back": "Stored in Gallery",
+  "sim": 0.33
+ },
+ {
+  "k": "exportShare",
+  "en": "Share",
+  "tr": "Del",
+  "back": "Part of",
+  "sim": 0.0
+ },
+ {
+  "k": "exportSuccess",
+  "en": "Exported!",
+  "tr": "Eksporteret!",
+  "back": "Exported!",
+  "sim": 1.0
+ },
+ {
+  "k": "exportFailed",
+  "en": "Export failed. Please try again.",
+  "tr": "Eksporten mislykkedes. Prøv igen.",
+  "back": "Export failed, try again.",
+  "sim": 0.89
+ },
+ {
+  "k": "exportInProgress",
+  "en": "Exporting…",
+  "tr": "Eksporterer…",
+  "back": "Exporting...",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsTitle",
+  "en": "Settings",
+  "tr": "Indstillinger",
+  "back": "Settings",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsTheme",
+  "en": "Theme",
+  "tr": "Tema",
+  "back": "Subjects",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLanguage",
+  "en": "Language",
+  "tr": "Sprog",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Gendan køb",
+  "back": "Buy again",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsGoAdFree",
+  "en": "Go Ad-Free",
+  "tr": "Fjern reklamer",
+  "back": "Remove ads",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsPrivacyPolicy",
+  "en": "Privacy Policy",
+  "tr": "Privatlivspolitik",
+  "back": "Privacy policy",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRateApp",
+  "en": "Rate App",
+  "tr": "Bedøm appen",
+  "back": "Assess the app",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsShareApp",
+  "en": "Share App",
+  "tr": "Del appen",
+  "back": "Share the app",
+  "sim": 0.8
+ },
+ {
+  "k": "settingsLicenses",
+  "en": "Open-source licenses",
+  "tr": "Open source-licenser",
+  "back": "Open source licenses",
+  "sim": 0.4
+ },
+ {
+  "k": "reminderChannelName",
+  "en": "Edit reminders",
+  "tr": "Påmindelser om redigering",
+  "back": "Reminders of editing",
+  "sim": 0.4
+ },
+ {
+  "k": "reminderChannelDescription",
+  "en": "Reminders about edits you have not finished.",
+  "tr": "Påmindelser om redigeringer, du ikke er færdig med.",
+  "back": "Reminds me of edits you haven't finished.",
+  "sim": 0.43
+ },
+ {
+  "k": "reminderTitle",
+  "en": "Your edit is waiting",
+  "tr": "Din redigering venter",
+  "back": "Your editing is waiting.",
+  "sim": 0.75
+ },
+ {
+  "k": "reminderBody",
+  "en": "Pick up where you left off and export your photo.",
+  "tr": "Fortsæt, hvor du slap, og eksportér dit foto.",
+  "back": "Go back to where you left off and export your photo.",
+  "sim": 0.76
+ },
+ {
+  "k": "settingsReminders",
+  "en": "Edit reminders",
+  "tr": "Påmindelser om redigering",
+  "back": "Reminders of editing",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsAnimatedBackground",
+  "en": "Animated home background",
+  "tr": "Animeret startbaggrund",
+  "back": "Animated starting background",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsRemindersSubtitle",
+  "en": "Remind me about unfinished edits",
+  "tr": "Mind mig om uafsluttede redigeringer",
+  "back": "Remind me of unfinished edits.",
+  "sim": 0.8
+ },
+ {
+  "k": "settingsRemindersBlocked",
+  "en": "Notifications are turned off for PhotoSur in your phone's settings.",
+  "tr": "Notifikationer er slået fra for PhotoSur i din telefons indstillinger.",
+  "back": "Notifications are turned off for PhotoSur in your phone settings.",
+  "sim": 0.9
+ },
+ {
+  "k": "editorBrushHint",
+  "en": "Drag to paint. Pinch with two fingers to zoom.",
+  "tr": "Træk for at male. Knib med to fingre for at zoome.",
+  "back": "Pull to paint, pinch with two fingers to zoom in.",
+  "sim": 0.84
+ },
+ {
+  "k": "editorToolCutout",
+  "en": "Cut-out",
+  "tr": "Frilæg",
+  "back": "Free movement of goods",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBrush",
+  "en": "Brush",
+  "tr": "Pensel",
+  "back": "Brushes and brushes",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBackground",
+  "en": "Background",
+  "tr": "Baggrund",
+  "back": "Background",
+  "sim": 1.0
+ },
+ {
+  "k": "layoutAutoCenter",
+  "en": "Auto-center",
+  "tr": "Centrér auto",
+  "back": "Center car",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutSizeLabel",
+  "en": "Size",
+  "tr": "Størrelse",
+  "back": "Size",
+  "sim": 1.0
+ },
+ {
+  "k": "layoutShadowLabel",
+  "en": "Shadow",
+  "tr": "Skygge",
+  "back": "Shadows",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundPhoto",
+  "en": "Photo",
+  "tr": "Foto",
+  "back": "This is a photo.",
+  "sim": 0.4
+ },
+ {
+  "k": "backgroundPhotoFailed",
+  "en": "Could not load that photo.",
+  "tr": "Fotoet kunne ikke indlæses.",
+  "back": "The photo couldn't be uploaded.",
+  "sim": 0.2
+ },
+ {
+  "k": "editorLayoutHint",
+  "en": "Drag to move. Pinch with two fingers to resize.",
+  "tr": "Træk for at flytte. Knib med to fingre for at ændre størrelsen.",
+  "back": "Pull to move, pinch with two fingers to change size.",
+  "sim": 0.74
+ },
+ {
+  "k": "languageSystemDefault",
+  "en": "System default",
+  "tr": "Systemstandard",
+  "back": "Standard of the system",
+  "sim": 0.33
+ },
+ {
+  "k": "languageSheetTitle",
+  "en": "Language",
+  "tr": "Sprog",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "themeSheetTitle",
+  "en": "Theme",
+  "tr": "Tema",
+  "back": "Subjects",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionSystem",
+  "en": "System default",
+  "tr": "Systemstandard",
+  "back": "Standard of the system",
+  "sim": 0.33
+ },
+ {
+  "k": "themeOptionLight",
+  "en": "Light",
+  "tr": "Lyst",
+  "back": "I want to hear it.",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionDark",
+  "en": "Dark",
+  "tr": "Mørkt",
+  "back": "It's dark.",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsLinkNotReady",
+  "en": "This link isn't set up yet.",
+  "tr": "Dette link er ikke sat op endnu.",
+  "back": "This link hasn't been set up yet.",
+  "sim": 0.77
+ },
+ {
+  "k": "settingsLinkOpenFailed",
+  "en": "Could not open link.",
+  "tr": "Linket kunne ikke åbnes.",
+  "back": "The link couldn't be opened.",
+  "sim": 0.22
+ },
+ {
+  "k": "settingsRestoreRequested",
+  "en": "Restore requested — check back in a moment.",
+  "tr": "Gendannelse anmodet — kig forbi om lidt.",
+  "back": "Restoration requested  check by in a moment.",
+  "sim": 0.71
+ },
+ {
+  "k": "settingsRestoreFailed",
+  "en": "Restore failed.",
+  "tr": "Gendannelsen mislykkedes.",
+  "back": "The restoration failed.",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsShareFailed",
+  "en": "Could not share.",
+  "tr": "Kunne ikke deles.",
+  "back": "Couldn't be shared.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsShareAppMessage",
+  "en": "Remove photo backgrounds instantly with PhotoSur — free, no watermark.",
+  "tr": "Fjern fotobaggrunde med det samme med PhotoSur — gratis og uden vandmærke.",
+  "back": "Remove photo backgrounds immediately with PhotoSur  free of charge and without watermark.",
+  "sim": 0.67
+ },
+ {
+  "k": "paywallTitle",
+  "en": "Go Ad-Free",
+  "tr": "Fjern reklamer",
+  "back": "Remove ads",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallAlreadyAdFree",
+  "en": "You're already ad-free. Thank you!",
+  "tr": "Du er allerede reklamefri. Tak!",
+  "back": "You're already ad-free.",
+  "sim": 0.75
+ },
+ {
+  "k": "paywallPlanFreeTitle",
+  "en": "Free",
+  "tr": "Gratis",
+  "back": "Free of charge",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPlanAdFreeTitle",
+  "en": "Ad-Free",
+  "tr": "Reklamefri",
+  "back": "Advertising free",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPlanAdFreePrice",
+  "en": "One-time purchase",
+  "tr": "Engangskøb",
+  "back": "One-off purchases",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureAllFeatures",
+  "en": "All features",
+  "tr": "Alle funktioner",
+  "back": "All functions",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallFeatureAdSupported",
+  "en": "Ad-supported",
+  "tr": "Med reklamer",
+  "back": "With advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureZeroAds",
+  "en": "Zero ads",
+  "tr": "Ingen reklamer",
+  "back": "No advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPurchaseButton",
+  "en": "Remove Ads",
+  "tr": "Fjern reklamer",
+  "back": "Remove ads",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallPurchaseButtonPrice",
+  "en": "Remove Ads — {price}",
+  "tr": "Fjern reklamer — {price}",
+  "back": "Remove advertisements  [price]",
+  "sim": 0.67
+ },
+ {
+  "k": "paywallRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Gendan køb",
+  "back": "Buy again",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallProductUnavailable",
+  "en": "Ad removal is not available right now.",
+  "tr": "Fjernelse af reklamer er ikke tilgængelig lige nu.",
+  "back": "Removal of advertisements is not available at this time.",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPurchaseFailed",
+  "en": "Purchase failed.",
+  "tr": "Købet mislykkedes.",
+  "back": "The purchase failed.",
+  "sim": 0.8
+ },
+ {
+  "k": "errorScreenTitle",
+  "en": "Something went wrong",
+  "tr": "Noget gik galt",
+  "back": "Something went wrong.",
+  "sim": 1.0
+ },
+ {
+  "k": "errorScreenBody",
+  "en": "Try again, or restart the app if this keeps happening.",
+  "tr": "Prøv igen, eller genstart appen, hvis det fortsætter.",
+  "back": "Try again, or restart the app if it continues.",
+  "sim": 0.74
+ },
+ {
+  "k": "errorScreenGoBack",
+  "en": "Go back",
+  "tr": "Gå tilbage",
+  "back": "Get back in there.",
+  "sim": 0.33
+ },
+ {
+  "k": "errorScreenReportEmail",
+  "en": "Report via {email}",
+  "tr": "Rapportér via {email}",
+  "back": "Report by [email]",
+  "sim": 0.67
+ },
+ {
+  "k": "unsupportedTitle",
+  "en": "Device Not Supported",
+  "tr": "Enheden understøttes ikke",
+  "back": "The unit is not supported",
+  "sim": 0.5
+ },
+ {
+  "k": "unsupportedNoCameraMessage",
+  "en": "This device doesn't have a camera available.",
+  "tr": "Denne enhed har ikke et tilgængeligt kamera.",
+  "back": "This device does not have a camera available.",
+  "sim": 0.8
+ },
+ {
+  "k": "unsupportedLowMemoryMessage",
+  "en": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
+  "tr": "Denne enhed har ikke nok hukommelse til at køre PhotoSurs editor pålideligt.",
+  "back": "This device does not have enough memory to run PhotoSur's editor reliably.",
+  "sim": 0.87
+ },
+ {
+  "k": "unsupportedManualImportHint",
+  "en": "You can still import a photo from your gallery and use the manual brush tool.",
+  "tr": "Du kan stadig importere et foto fra galleriet og bruge det manuelle penselværktøj.",
+  "back": "You can still import a photo from the gallery and use the manual brush tool.",
+  "sim": 0.93
+ },
+ {
+  "k": "unsupportedUseGalleryButton",
+  "en": "Import from Gallery",
+  "tr": "Importér fra Galleri",
+  "back": "Imported from Gallery",
+  "sim": 0.67
+ },
+ {
+  "k": "homeBatchButton",
+  "en": "Batch",
+  "tr": "Parti",
+  "back": "Party",
+  "sim": 0.0
+ },
+ {
+  "k": "batchTitle",
+  "en": "Batch cut-out",
+  "tr": "Frilæg i parti",
+  "back": "Release in batches",
+  "sim": 0.0
+ },
+ {
+  "k": "batchOutputTransparent",
+  "en": "Transparent PNG",
+  "tr": "Gennemsigtig PNG",
+  "back": "Transparent PNG",
+  "sim": 1.0
+ },
+ {
+  "k": "batchOutputWhite",
+  "en": "White background (JPG)",
+  "tr": "Hvid baggrund (JPG)",
+  "back": "White background (JPG)",
+  "sim": 1.0
+ },
+ {
+  "k": "batchDone",
+  "en": "Done",
+  "tr": "Færdig",
+  "back": "Finished",
+  "sim": 0.0
+ },
+ {
+  "k": "batchProgress",
+  "en": "{done} of {total} done",
+  "tr": "{done} af {total} færdige",
+  "back": "[done] of [total] finished",
+  "sim": 0.75
+ },
+ {
+  "k": "batchSaved",
+  "en": "{count} saved to your gallery",
+  "tr": "{count} gemt i dit galleri",
+  "back": "[count] hidden in your gallery",
+  "sim": 0.6
+ },
+ {
+  "k": "batchSomeFailed",
+  "en": "{count} could not be processed",
+  "tr": "{count} kunne ikke behandles",
+  "back": "[count] could not be processed",
+  "sim": 1.0
+ },
+ {
+  "k": "batchTooMany",
+  "en": "Up to {max} photos at a time",
+  "tr": "Op til {max} billeder ad gangen",
+  "back": "Up to [max] images at a time",
+  "sim": 0.86
+ },
+ {
+  "k": "backgroundAddCustom",
+  "en": "Add custom background",
+  "tr": "Tilføj egen baggrund",
+  "back": "Add your own background",
+  "sim": 0.57
+ },
+ {
+  "k": "backgroundCustomColor",
+  "en": "Custom color",
+  "tr": "Egen farve",
+  "back": "Own colour",
+  "sim": 0.0
+ },
+ {
+  "k": "colorSaturation",
+  "en": "Saturation",
+  "tr": "Mætning",
+  "back": "Fertilization",
+  "sim": 0.0
+ },
+ {
+  "k": "colorBrightness",
+  "en": "Brightness",
+  "tr": "Lysstyrke",
+  "back": "Light intensity",
+  "sim": 0.0
+ },
+ {
+  "k": "colorHexLabel",
+  "en": "Hex code",
+  "tr": "Hex-kode",
+  "back": "Hex code",
+  "sim": 1.0
+ },
+ {
+  "k": "colorPickerDone",
+  "en": "Done",
+  "tr": "Færdig",
+  "back": "Finished",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceLabel",
+  "en": "Marketplace",
+  "tr": "Markedsplads",
+  "back": "Market location",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceWhiteFill",
+  "en": "Pure white background, product fills the frame",
+  "tr": "Helt hvid baggrund, produktet fylder billedet",
+  "back": "All white background, the product completes the picture",
+  "sim": 0.53
+ },
+ {
+  "k": "exportMarketplaceSizeCap",
+  "en": "File kept under {size} MB",
+  "tr": "Filen under {size} MB",
+  "back": "The file is under [size] MB",
+  "sim": 0.73
+ },
+ {
+  "k": "editorToolTemplates",
+  "en": "Templates",
+  "tr": "Skabeloner",
+  "back": "Manufacture from materials of any heading",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTitle",
+  "en": "Choose a template",
+  "tr": "Vælg en skabelon",
+  "back": "Choose a template",
+  "sim": 1.0
+ },
+ {
+  "k": "templatesStudio",
+  "en": "Studio",
+  "tr": "Studie",
+  "back": "Study",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesColorBlock",
+  "en": "Color block",
+  "tr": "Farveblokke",
+  "back": "Colour blocks",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTextures",
+  "en": "Textures",
+  "tr": "Teksturer",
+  "back": "Texts and drawings",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesLight",
+  "en": "Light & shadow",
+  "tr": "Lys og skygge",
+  "back": "Light and shadow",
+  "sim": 0.8
+ },
+ {
+  "k": "templatesPatterns",
+  "en": "Gradients & patterns",
+  "tr": "Farveforløb og mønstre",
+  "back": "Color patterns and patterns",
+  "sim": 0.33
+ },
+ {
+  "k": "hdGetAction",
+  "en": "Get HD cut-out",
+  "tr": "Hent HD-frilæg",
+  "back": "Get the HD release.",
+  "sim": 0.57
+ },
+ {
+  "k": "hdRedoAction",
+  "en": "Redo cut-out in HD",
+  "tr": "Lav frilægningen om i HD",
+  "back": "Reducing the release to HD",
+  "sim": 0.22
+ },
+ {
+  "k": "hdDownloading",
+  "en": "HD cut-out in progress… {percent}%",
+  "tr": "HD-frilæg i gang… {percent} %",
+  "back": "HD release on... [percent] %",
+  "sim": 0.44
+ },
+ {
+  "k": "hdDownloadingShort",
+  "en": "HD cut-out… {percent}%",
+  "tr": "HD-frilæg… {percent} %",
+  "back": "High frequency frequency... [percentage] %",
+  "sim": 0.0
+ },
+ {
+  "k": "hdConfirmTitle",
+  "en": "Download HD cut-out model?",
+  "tr": "Hent HD-frilægningsmodellen?",
+  "back": "Did you get the HD release model?",
+  "sim": 0.36
+ },
+ {
+  "k": "hdConfirmBody",
+  "en": "Cleaner edges on tricky objects like shoes, bags and bottles. It downloads once, stays on your phone and then works offline. Mobile data charges may apply.",
+  "tr": "Renere kanter på svære objekter som sko, tasker og flasker. Hentes én gang, bliver på din telefon og virker derefter offline. Der kan påløbe udgifter til mobildata.",
+  "back": "Cleaner edges on heavy objects like shoes, bags, and bottles. Picked up once, stayed on your phone, and then went offline.",
+  "sim": 0.68
+ },
+ {
+  "k": "hdDownload",
+  "en": "Download",
+  "tr": "Hent",
+  "back": "Get it.",
+  "sim": 0.0
+ },
+ {
+  "k": "hdFailed",
+  "en": "HD cut-out didn’t finish. Check your connection and try again.",
+  "tr": "HD-frilæg blev ikke færdig. Tjek din forbindelse, og prøv igen.",
+  "back": "I didn't finish the HD release, so check your connection and try again.",
+  "sim": 0.7
+ },
+ {
+  "k": "settingsHdTitle",
+  "en": "HD cut-out model",
+  "tr": "HD-frilægningsmodel",
+  "back": "HD release model",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsHdNotInstalled",
+  "en": "Not downloaded",
+  "tr": "Ikke hentet",
+  "back": "Not picked up",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsHdInstalled",
+  "en": "Installed · works offline",
+  "tr": "Installeret · virker offline",
+  "back": "Installed · operates offline",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsHdRemove",
+  "en": "Remove",
+  "tr": "Fjern",
+  "back": "Removing",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsReplayIntro",
+  "en": "Replay intro",
+  "tr": "Afspil introen igen",
+  "back": "Play the intro again.",
+  "sim": 0.33
+ },
+ {
+  "k": "homeSeeAll",
+  "en": "See all",
+  "tr": "Se alle",
+  "back": "See all of you.",
+  "sim": 0.67
+ },
+ {
+  "k": "exportActionEdit",
+  "en": "Edit again",
+  "tr": "Rediger igen",
+  "back": "Editing again",
+  "sim": 0.5
+ },
+ {
+  "k": "exportActionDelete",
+  "en": "Delete",
+  "tr": "Slet",
+  "back": "Slightly",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMoreOptions",
+  "en": "More options",
+  "tr": "Flere valg",
+  "back": "More choices",
+  "sim": 0.5
+ },
+ {
+  "k": "exportDeleteTitle",
+  "en": "Delete this export?",
+  "tr": "Slet denne eksport?",
+  "back": "Cut off this export?",
+  "sim": 0.57
+ },
+ {
+  "k": "exportDeleteBody",
+  "en": "Exported images are removed from this phone. Your original photos and anything saved to your gallery are not affected.",
+  "tr": "Eksporterede billeder fjernes fra denne telefon. Dine originale fotos og det, du har gemt i galleriet, påvirkes ikke.",
+  "back": "Exported photos are removed from this phone, and your original photos and what you have stored in the gallery will not be affected.",
+  "sim": 0.62
+ },
+ {
+  "k": "exportSavedToGallery",
+  "en": "Saved to your gallery",
+  "tr": "Gemt i galleriet",
+  "back": "Hidden in the gallery",
+  "sim": 0.25
+ },
+ {
+  "k": "exportSaveFailed",
+  "en": "Could not save to the gallery.",
+  "tr": "Kunne ikke gemme i galleriet.",
+  "back": "Couldn't hide in the gallery.",
+  "sim": 0.36
+ },
+ {
+  "k": "exportUnavailable",
+  "en": "Unavailable",
+  "tr": "Ikke tilgængelig",
+  "back": "Not available",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsGroupThisWeek",
+  "en": "This week",
+  "tr": "Denne uge",
+  "back": "This week",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsGroupEarlier",
+  "en": "Earlier",
+  "tr": "Tidligere",
+  "back": "Previously on",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsStorageUsed",
+  "en": "{size} used on this phone",
+  "tr": "{size} brugt på denne telefon",
+  "back": "[size] used on this phone",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsSelect",
+  "en": "Select",
+  "tr": "Vælg",
+  "back": "Choose",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsDone",
+  "en": "Done",
+  "tr": "Færdig",
+  "back": "Finished",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsSelectedCount",
+  "en": "{count} selected",
+  "tr": "{count} valgt",
+  "back": "[count] selected",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDeleteSelectedTitle",
+  "en": "Delete {count} exports?",
+  "tr": "Slet {count} eksporter?",
+  "back": "Exports are not counted?",
+  "sim": 0.29
+ },
+ {
+  "k": "exportsDeleteAll",
+  "en": "Delete all exports",
+  "tr": "Slet alle eksporter",
+  "back": "Excluding all exports",
+  "sim": 0.67
+ },
+ {
+  "k": "exportsDeleteAllTitle",
+  "en": "Delete all exports?",
+  "tr": "Slet alle eksporter?",
+  "back": "All the exports?",
+  "sim": 0.67
+ },
+ {
+  "k": "helpTitle",
+  "en": "Help & how to use",
+  "tr": "Hjælp og vejledning",
+  "back": "Help and Guidance",
+  "sim": 0.29
+ },
+ {
+  "k": "helpIntro",
+  "en": "Tap a topic to read how it works.",
+  "tr": "Tryk på et emne for at læse, hvordan det fungerer.",
+  "back": "Press a subject to read how it works.",
+  "sim": 0.75
+ },
+ {
+  "k": "helpStartTitle",
+  "en": "Getting started",
+  "tr": "Kom i gang",
+  "back": "Let's get on with it.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpStart1",
+  "en": "On the home screen, tap Camera to take a photo or Gallery to pick one. Batch cuts out many photos at once.",
+  "tr": "På startskærmen trykker du på Kamera for at tage et foto eller Galleri for at vælge et. Parti frilægger mange fotos på én gang.",
+  "back": "On the home screen, you press Camera to take a photo or Gallery to choose one.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpStart2",
+  "en": "Every photo opens in Crop & Rotate first, then in the editor. Your original photo is never changed.",
+  "tr": "Hvert foto åbner først i Beskær og roter og derefter i editoren. Dit originale foto ændres aldrig.",
+  "back": "Each photo opens first in the cut and rotate and then in the editor.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpStart3",
+  "en": "When you are happy, tap Export in the editor. Recent Exports on the home screen lists everything you have exported.",
+  "tr": "Når du er tilfreds, trykker du på Eksportér i editoren. Seneste eksporter på startskærmen viser alt, hvad du har eksporteret.",
+  "back": "When you're satisfied, press Export in the editor, and the latest exports on the home screen show everything you've exported.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpCropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Beskær og roter",
+  "back": "Cutting and rotating",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCrop1",
+  "en": "Turn the photo left or right in 90° steps, and drag the frame to choose the part you want to keep.",
+  "tr": "Roter fotoet til venstre eller højre i trin på 90°, og træk i rammen for at vælge den del, du vil beholde.",
+  "back": "Rotate the photo to the left or right in 90 degrees and drag the frame to select the part you want to keep.",
+  "sim": 0.82
+ },
+ {
+  "k": "helpCrop2",
+  "en": "Free lets you shape the frame as you like. 1:1, 4:5 and 9:16 lock its shape. Tap Continue to open the editor.",
+  "tr": "Frit lader dig give rammen den form, du vil. 1:1, 4:5 og 9:16 låser dens form. Tryk på Fortsæt for at åbne editoren.",
+  "back": "Free to give the frame the shape you want. 1:1, 4:5 and 9:16 lock its shape. Press Continue to open the editor.",
+  "sim": 0.73
+ },
+ {
+  "k": "helpCutoutTitle",
+  "en": "Cut-out",
+  "tr": "Frilæg",
+  "back": "Free movement of goods",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCutout1",
+  "en": "When the editor opens, PhotoSur finds the main subject and removes the background automatically, on your phone. No internet is needed.",
+  "tr": "Når editoren åbner, finder PhotoSur hovedmotivet og fjerner baggrunden automatisk, på din telefon. Du behøver ikke internet.",
+  "back": "When the editor opens, PhotoSur finds the main motif and automatically removes the background on your phone.",
+  "sim": 0.79
+ },
+ {
+  "k": "helpCutout2",
+  "en": "Edge Smoothness softens the edge of the cut-out, from 0 to 20 pixels.",
+  "tr": "Kantblødhed gør kanten af frilægningen blødere, fra 0 til 20 pixel.",
+  "back": "Edge softness makes the edge of the release softer, from 0 to 20 pixels.",
+  "sim": 0.74
+ },
+ {
+  "k": "helpCutout3",
+  "en": "The eye button at the top shows your original photo so you can compare. Tap it again to go back. The brush is paused while the original is shown.",
+  "tr": "Øjeknappen øverst viser dit originale foto til sammenligning. Tryk på den igen for at gå tilbage. Penslen er sat på pause, mens originalen vises.",
+  "back": "The eye button at the top shows your original photo for comparison. Press it again to go back. The pencil is paused while the original appears.",
+  "sim": 0.76
+ },
+ {
+  "k": "helpCutout4",
+  "en": "For difficult subjects such as glass, shoes, bags and bottles, tap Get HD cut-out. The HD model downloads once, stays on your phone and then works offline. Once it is installed, every new cut-out uses it automatically. To redo the photo you have open, tap Redo cut-out in HD.",
+  "tr": "Til svære motiver som glas, sko, tasker og flasker trykker du på Hent HD-frilæg. HD-modellen hentes kun én gang, bliver på din telefon og virker derefter offline. Når den er installeret, bruger hver ny frilægning den automatisk. For at lave det åbne foto om trykker du på Lav frilægningen om i HD.",
+  "back": "For heavy objects like glass, shoes, bags, and bottles, you press Get HD release. The HD model is only downloaded once, stays on your phone, and then works offline. When it's installed, every new release uses it automatically. To make the open photo, you press Lower the release to HD.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpBrushTitle",
+  "en": "Brush",
+  "tr": "Pensel",
+  "back": "Brushes and brushes",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBrush1",
+  "en": "Erase removes parts of the subject. Restore brings back parts the cut-out removed.",
+  "tr": "Slet fjerner dele af motivet. Gendan bringer dele tilbage, som frilægningen fjernede.",
+  "back": "Gendan brings back parts that the release removed.",
+  "sim": 0.48
+ },
+ {
+  "k": "helpBrush2",
+  "en": "Drag one finger to paint. Use two fingers to zoom, up to 8 times, and to move the photo. The brush keeps its size on screen, so zooming in gives finer control.",
+  "tr": "Træk med én finger for at male. Brug to fingre til at zoome, op til 8 gange, og til at flytte fotoet. Penslen bevarer sin størrelse på skærmen, så når du zoomer ind, kan du arbejde mere præcist.",
+  "back": "Draw with one finger to paint. Use two fingers to zoom in, up to eight times, and move the photo. The pencil retains its size on the screen, so when you zoom in, you can work more accurately.",
+  "sim": 0.66
+ },
+ {
+  "k": "helpBrush3",
+  "en": "Brush Size goes from 1 to 50. Opacity sets how strongly each stroke applies.",
+  "tr": "Penselstørrelse går fra 1 til 50. Uigennemsigtighed bestemmer, hvor kraftigt hvert penselstrøg er.",
+  "back": "Brush size ranges from 1 to 50. Transparency determines the intensity of each brush stroke.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpBrush4",
+  "en": "Undo and Redo step through your brush strokes. Reset clears all brush strokes and goes back to the automatic cut-out; it asks you to confirm first.",
+  "tr": "Fortryd og Gentag går gennem dine penselstrøg. Nulstil sletter alle penselstrøg og vender tilbage til den automatiske frilægning; du bliver først bedt om bekræftelse.",
+  "back": "Resign and Repeat will go through your brush strokes, and again, delete all brush strokes and return to the automatic release; you'll only be asked for confirmation.",
+  "sim": 0.45
+ },
+ {
+  "k": "helpBackgroundTitle",
+  "en": "Background",
+  "tr": "Baggrund",
+  "back": "Background",
+  "sim": 1.0
+ },
+ {
+  "k": "helpBackground1",
+  "en": "Choose what goes behind your subject: transparent, white, black, a gradient, a colour, a blurred copy of your photo, or your own photo.",
+  "tr": "Vælg, hvad der skal være bag dit motiv: gennemsigtig, hvid, sort, et farveforløb, en farve, en sløret kopi af dit foto eller dit eget foto.",
+  "back": "Choose what should be behind your subject: transparent, white, black, a color scheme, a color, a veiled copy of your photo or your own photo.",
+  "sim": 0.79
+ },
+ {
+  "k": "helpBackground2",
+  "en": "Only one background is used at a time. Your latest choice replaces the earlier one.",
+  "tr": "Der bruges kun én baggrund ad gangen. Dit seneste valg erstatter det forrige.",
+  "back": "You only use one background at a time, and your last choice replaces the previous one.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpBackground3",
+  "en": "Add custom background lets you pick a photo from your gallery. Custom color opens a colour picker. The Blur slider goes from 0 to 25.",
+  "tr": "Tilføj egen baggrund lader dig vælge et foto fra dit galleri. Egen farve åbner en farvevælger. Skyderen Sløring går fra 0 til 25.",
+  "back": "Add your own background, let you choose a photo from your gallery, your own color opens a color selector, the blurb goes from 0 to 25.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpBackground4",
+  "en": "Transparent shows a checkerboard while you edit. Export as PNG to keep it transparent.",
+  "tr": "Gennemsigtig viser et skakternet mønster under redigering. Eksportér som PNG for at bevare gennemsigtigheden.",
+  "back": "Clearly displays a grid pattern during editing. Export as PNG to maintain transparency.",
+  "sim": 0.37
+ },
+ {
+  "k": "helpTemplatesTitle",
+  "en": "Templates",
+  "tr": "Skabeloner",
+  "back": "Manufacture from materials of any heading",
+  "sim": 0.0
+ },
+ {
+  "k": "helpTemplates1",
+  "en": "Templates are ready-made backgrounds in five groups: Studio, Color block, Textures, Light & shadow, and Gradients & patterns. Five scenes are shown in the panel; tap the Templates button to see them all.",
+  "tr": "Skabeloner er færdige baggrunde i fem grupper: Studie, Farveblokke, Teksturer, Lys og skygge og Farveforløb og mønstre. Der vises fem scener i panelet; tryk på knappen Skabeloner for at se dem alle.",
+  "back": "Templates are finished backgrounds in five groups: study, color blocks, textures, light and shadow, and color sequences and patterns. Five scenes are displayed in the panel; press the Templates button to view them all.",
+  "sim": 0.74
+ },
+ {
+  "k": "helpTemplates2",
+  "en": "Choosing a template works like choosing your own photo as the background: it replaces your earlier background choice.",
+  "tr": "At vælge en skabelon er det samme som at vælge dit eget foto som baggrund: den erstatter dit tidligere baggrundsvalg.",
+  "back": "Choosing a template is like choosing your own photo as a background: it replaces your previous background choices.",
+  "sim": 0.78
+ },
+ {
+  "k": "helpLayout1",
+  "en": "Drag the subject on the photo to move it. Pinch with two fingers to resize it.",
+  "tr": "Træk motivet hen over fotoet for at flytte det. Knib med to fingre for at ændre størrelsen.",
+  "back": "Pull the subject over the photo to move it. Knuckle with two fingers to change the size.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpLayout2",
+  "en": "Choose Original, 1:1, 4:5 or 9:16 to set the shape of the final picture.",
+  "tr": "Vælg Original, 1:1, 4:5 eller 9:16 for at bestemme formen på det færdige billede.",
+  "back": "Select Original, 1:1, 4:5, or 9:16 to determine the shape of the finished image.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpLayout3",
+  "en": "Size sets how big the subject is, from 20% to 300%. Shadow sets how strong its shadow is. Auto-center puts the subject back in the middle. Reset undoes moving and resizing.",
+  "tr": "Størrelse bestemmer, hvor stort motivet er, fra 20 % til 300 %. Skygge bestemmer, hvor kraftig dens skygge er. Centrér auto flytter motivet tilbage til midten. Nulstil fortryder flytninger og størrelsesændringer.",
+  "back": "Size determines the size of the subject, from 20% to 300%. Shadow determines the intensity of its shadow. Centering automatically moves the subject back to the center. Zero mode regrets movements and changes in size.",
+  "sim": 0.42
+ },
+ {
+  "k": "helpLayout4",
+  "en": "This shape is used when the export size is Original. If you choose a size preset or a marketplace in the export sheet, that decides the final shape instead.",
+  "tr": "Denne form gælder, når eksportstørrelsen er Original. Vælger du en færdig størrelse eller en markedsplads i eksportarket, er det den, der afgør den endelige form.",
+  "back": "This form applies where the export size is Original. If you choose a finished size or a market place in the export carton, it is you who decide on the final form.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpExportTitle",
+  "en": "Export",
+  "tr": "Eksportér",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "helpExport1",
+  "en": "Tap Export to open the export sheet. Nothing is applied until you tap Save to Gallery or Share, so you can change your choices as often as you like.",
+  "tr": "Tryk på Eksportér for at åbne eksportarket. Intet anvendes, før du trykker på Gem i Galleri eller Del, så du kan ændre dine valg, så mange gange du vil.",
+  "back": "Press Export to open the export sheet. Nothing is used until you press Save in Gallery or Share, so you can change your choices as many times as you want.",
+  "sim": 0.78
+ },
+ {
+  "k": "helpExport2",
+  "en": "PNG keeps transparency. JPG makes smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a small modern format; if your phone cannot make it, the file is saved as JPG. For JPG and WEBP, the Quality slider trades file size for detail.",
+  "tr": "PNG bevarer gennemsigtighed. JPG giver mindre filer, men kan ikke være gennemsigtig, så en gennemsigtig baggrund bliver hvid. WEBP er et moderne, kompakt format; kan din telefon ikke oprette det, gemmes filen som JPG. For JPG og WEBP afvejer skyderen Kvalitet filstørrelse mod detaljer.",
+  "back": "PNG maintains transparency. JPG provides smaller files, but can't be transparent so that a transparent background becomes white. WEBP is a modern, compact format; if your phone can't create it, the file is saved as JPG. For JPG and WEBP, the quality shooter balances file size against detail.",
+  "sim": 0.8
+ },
+ {
+  "k": "helpExport3",
+  "en": "Original keeps your photo’s size, with the shape chosen in Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. Custom lets you type a width and height in pixels.",
+  "tr": "Original beholder dit fotos størrelse, med den form du valgte i Layout. 1:1 er 1080 × 1080, 4:5 er 1080 × 1350 og 9:16 er 1080 × 1920. Brugerdefineret lader dig indtaste bredde og højde i pixel.",
+  "back": "Original keeps the size of your photo, with the shape you chose in the layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350, and 9:16 is 1080 × 1920.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpExport4",
+  "en": "Marketplace presets set size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG kept under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices, and choosing a format or size afterwards switches the marketplace off. Marketplace rules can change, so check your marketplace’s current requirements.",
+  "tr": "Forindstillinger til markedspladser fastsætter størrelse, format og kvalitet: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG under 1 MB og Shopify 2048 × 2048 PNG. Hvis du vælger en, erstatter den dine valg af format og størrelse; vælger du bagefter et format eller en størrelse, fravælges markedspladsen. Markedspladsernes regler kan ændre sig, så tjek de aktuelle krav for din.",
+  "back": "Settings for marketplaces determine size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG under 1 MB, and Shopify 2048 × 2048 PNG. If you choose one, it replaces your choice of format and size; if you choose a format or a size, the marketplace is omitted. Marketplace rules may change, so check the current requirements for yours.",
+  "sim": 0.72
+ },
+ {
+  "k": "helpExport5",
+  "en": "Amazon also uses a pure white background with no shadow and fits the subject to fill most of the frame. Your background choice in the editor is not changed. The other marketplaces keep your background.",
+  "tr": "Amazon bruger også en helt hvid baggrund uden skygge og tilpasser motivet, så det fylder det meste af billedet. Dit baggrundsvalg i editoren ændres ikke. De andre markedspladser beholder din baggrund.",
+  "back": "Amazon also uses a completely white background with no shadows and customizes the subject so that it fills most of the image.",
+  "sim": 0.49
+ },
+ {
+  "k": "helpExport6",
+  "en": "Save to Gallery and Share both save the picture to your gallery and to Recent Exports. Share also opens your phone’s share menu. If saving to the gallery is not possible, the share menu opens instead. After exporting you return to the home screen.",
+  "tr": "Gem i Galleri og Del gemmer begge billedet i dit galleri og i Seneste eksporter. Del åbner desuden telefonens delingsmenu. Kan det ikke gemmes i galleriet, åbner delingsmenuen i stedet. Efter eksporten kommer du tilbage til startskærmen.",
+  "back": "Save in Gallery and Share stores both the image in your gallery and in Recent Exports. Part also opens the phone's sharing menu. If it can't be saved in the gallery, the sharing menu opens instead. After exporting, you'll return to the home screen.",
+  "sim": 0.66
+ },
+ {
+  "k": "helpExport7",
+  "en": "Unless you have removed ads, an ad can appear after an export, at most once every two minutes.",
+  "tr": "Hvis du ikke har fjernet reklamerne, kan der vises en annonce efter en eksport, højst én gang hvert andet minut.",
+  "back": "If you have not removed the advertisements, an advertisement may be displayed after an export, at most once every two minutes.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpBatchTitle",
+  "en": "Batch",
+  "tr": "Parti",
+  "back": "Party",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBatch1",
+  "en": "Batch cuts out up to 30 photos in one go. Tap Batch on the home screen and pick your photos. The back button is turned off while a batch runs.",
+  "tr": "Parti frilægger op til 30 fotos på én gang. Tryk på Parti på startskærmen, og vælg dine fotos. Tilbage-knappen er slået fra, mens et parti kører.",
+  "back": "Party releases up to 30 photos at a time, press Party on the start screen, and select your photos, and the back button is turned off while a party is running.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpBatch2",
+  "en": "All photos in a batch share one setup: one background and one marketplace. You cannot choose differently for each photo.",
+  "tr": "Alle fotos i et parti deler én indstilling: én baggrund og én markedsplads. Du kan ikke vælge forskelligt for hvert foto.",
+  "back": "All photos in a batch share one setting: one background and one marketplace. You can't choose differently for each photo.",
+  "sim": 0.9
+ },
+ {
+  "k": "helpBatch3",
+  "en": "Backgrounds work as in the editor: your own photo, a colour, a template, white, transparent, black, blur or a gradient. Only one applies, and your latest choice replaces the earlier one.",
+  "tr": "Baggrunde fungerer som i editoren: dit eget foto, en farve, en skabelon, hvid, gennemsigtig, sort, sløret eller et farveforløb. Kun én gælder, og dit seneste valg erstatter det forrige.",
+  "back": "Backgrounds work as in the editor: your own photo, a color, a template, white, transparent, black, veil, or a color scheme. Only one applies, and your last choice replaces the previous one.",
+  "sim": 0.83
+ },
+ {
+  "k": "helpBatch4",
+  "en": "The file format is chosen for you. With a marketplace, the photos follow that marketplace’s size and format. Without one, a transparent background gives PNG and any other background gives JPG, at the original size.",
+  "tr": "Filformatet vælges for dig. Med en markedsplads følger fotos dens størrelse og format. Uden markedsplads giver en gennemsigtig baggrund PNG, og enhver anden baggrund giver JPG, i original størrelse.",
+  "back": "The file format is selected for you. With a marketplace, the photo follows its size and format. Outside the marketplace, a transparent PNG background is provided, and any other background provides JPG, in its original size.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpBatch5",
+  "en": "Choosing Amazon switches the background to White; if you then choose another background, Amazon is switched off. eBay, Etsy and Shopify keep your background, but a JPG cannot be transparent, so it gets a white background.",
+  "tr": "Vælger du Amazon, sættes baggrunden til Hvid; vælger du bagefter en anden baggrund, fravælges Amazon. eBay, Etsy og Shopify beholder din baggrund, men en JPG kan ikke være gennemsigtig og får derfor en hvid baggrund.",
+  "back": "If you choose Amazon, the background is set to White; if you choose another background afterwards, Amazon is omitted. eBay, Etsy and Shopify keep your background, but a JPG can't be transparent and therefore gets a white background.",
+  "sim": 0.76
+ },
+ {
+  "k": "helpBatch6",
+  "en": "If the HD model is installed, every photo in the batch is cut out with it. The Get HD cut-out button next to Templates downloads it.",
+  "tr": "Hvis HD-modellen er installeret, frilægges hvert foto i partiet med den. Knappen Hent HD-frilæg ved siden af Skabeloner henter den.",
+  "back": "If the HD model is installed, every photo in the batch with it will be unloaded.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpBatch7",
+  "en": "Each photo is saved to your gallery and to Recent Exports as soon as it finishes. Stop ends the batch after the current photo, and photos already finished stay saved. If a photo fails, the batch carries on and tells you how many could not be processed. Done takes you back to the home screen; it does not save anything.",
+  "tr": "Hvert foto gemmes i dit galleri og i Seneste eksporter, så snart det er færdigt. Stop afslutter partiet efter det igangværende foto, og fotos, der allerede er færdige, forbliver gemt. Fejler et foto, fortsætter partiet og fortæller dig, hvor mange der ikke kunne behandles. Færdig bringer dig tilbage til startskærmen; den gemmer ikke noget.",
+  "back": "Every photo is saved in your gallery and in Last Export as soon as it's finished. Stop closes the batch after the current photo, and photos that are already finished remain saved. Misses a photo, the batch continues and tells you how many that couldn't be processed. Finished brings you back to the home screen; it doesn't store anything.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpLibraryTitle",
+  "en": "Your exports",
+  "tr": "Dine eksporter",
+  "back": "Your exports",
+  "sim": 1.0
+ },
+ {
+  "k": "helpLibrary1",
+  "en": "Recent Exports on the home screen shows your latest exports. Tap See all for every export, grouped as Today, Yesterday, This week and Earlier.",
+  "tr": "Seneste eksporter på startskærmen viser dine nyeste eksporter. Tryk på Se alle for at se alle, grupperet i I dag, I går, Denne uge og Tidligere.",
+  "back": "The latest exports on the home screen show your latest exports. Click See All to see all, grouped into Today, Yesterday, This Week and Earlier.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpLibrary2",
+  "en": "Tap an export to open it full screen. Swipe to move between exports and pinch to zoom. The bar at the bottom has Share, Save to Gallery, Edit again and Delete.",
+  "tr": "Tryk på en eksport for at åbne den i fuld skærm. Stryg for at skifte mellem eksporter, og knib for at zoome. Den nederste bjælke tilbyder Del, Gem i Galleri, Rediger igen og Slet.",
+  "back": "Press an export to open it in full-screen, make sure to switch between exports, and click on the zoom button.",
+  "sim": 0.39
+ },
+ {
+  "k": "helpLibrary3",
+  "en": "The three-dot button on a tile opens the same actions. Edit again opens the exported picture as a new photo, so earlier brush strokes are not restored.",
+  "tr": "Knappen med tre prikker på et miniaturebillede åbner de samme handlinger. Rediger igen åbner det eksporterede billede som et nyt foto, så tidligere penselstrøg ikke gendannes.",
+  "back": "The three-dot button on a thumbnail image opens the same actions, and re-editing opens the exported image as a new photo, so that previous brush strokes are not recovered.",
+  "sim": 0.75
+ },
+ {
+  "k": "helpLibrary4",
+  "en": "Select lets you choose several exports to share together or delete. Delete all exports removes every export from this phone.",
+  "tr": "Vælg lader dig markere flere eksporter for at dele eller slette dem sammen. Slet alle eksporter fjerner alle eksporter fra denne telefon.",
+  "back": "Select allows you to select multiple exports to share or delete them together.",
+  "sim": 0.42
+ },
+ {
+  "k": "helpLibrary5",
+  "en": "Deleting removes exports from PhotoSur only. Pictures already saved to your gallery are not affected. The bottom of the See all screen shows how much space exports use on this phone.",
+  "tr": "Sletning fjerner kun eksporter fra PhotoSur. Billeder, der allerede er gemt i dit galleri, berøres ikke. Nederst i Se alle kan du se, hvor meget plads eksporterne fylder på denne telefon.",
+  "back": "Deletion will only remove exports from PhotoSur. Images that are already stored in your gallery will not be affected. At the bottom of the View all you can see how much space the exports fill on this phone.",
+  "sim": 0.58
+ },
+ {
+  "k": "helpPrivacyTitle",
+  "en": "Privacy & ads",
+  "tr": "Privatliv og reklamer",
+  "back": "Private life and advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "helpPrivacy1",
+  "en": "Your photos are processed on your phone and are not uploaded. There is no account and no watermark.",
+  "tr": "Dine fotos behandles på din telefon og uploades ikke. Der er ingen konto og intet vandmærke.",
+  "back": "Your photos are processed on your phone and not uploaded, there's no account and no watermark.",
+  "sim": 0.88
+ },
+ {
+  "k": "helpPrivacy2",
+  "en": "PhotoSur is free with every feature included, supported by ads. A banner appears at the bottom of some screens, and an ad can appear after an export.",
+  "tr": "PhotoSur er gratis, med alle funktioner inkluderet, og finansieres af reklamer. Nederst på nogle skærme vises et banner, og efter en eksport kan der vises en annonce.",
+  "back": "PhotoSur is free, with all features included, and funded by advertising. At the bottom of some screens, a banner appears, and after an export, an ad may appear.",
+  "sim": 0.58
+ },
+ {
+  "k": "helpPrivacy3",
+  "en": "Go Ad-Free in Settings is a one-time purchase that removes the ads. It does not unlock anything else, because every feature is already free. Restore Purchases brings it back on a new phone.",
+  "tr": "Fjern reklamer i Indstillinger er et engangskøb, der fjerner annoncerne. Det låser intet andet op, fordi alle funktioner allerede er gratis. Gendan køb henter det tilbage på en ny telefon.",
+  "back": "Remove ads in Settings is a one-time purchase that removes the ads. It doesn't unlock anything else because all the features are already free.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpSettingsTitle",
+  "en": "Settings",
+  "tr": "Indstillinger",
+  "back": "Settings",
+  "sim": 1.0
+ },
+ {
+  "k": "helpSettings1",
+  "en": "Theme can follow your phone, or be Light or Dark. Language changes the language of the app. Both are also in the home screen header.",
+  "tr": "Tema kan følge din telefon eller være Lyst eller Mørkt. Sprog ændrer appens sprog. Begge findes også i startskærmens overskrift.",
+  "back": "The theme can follow your phone, or it can be Light or Dark, language changes the language of the app, and both can be found in the title of the home screen.",
+  "sim": 0.77
+ },
+ {
+  "k": "helpSettings2",
+  "en": "Edit reminders: if you leave the app with an unfinished edit, PhotoSur can remind you three hours later. Switch this off in Settings.",
+  "tr": "Påmindelser om redigering: hvis du forlader appen med en ufærdig redigering, kan PhotoSur minde dig om den tre timer senere. Slå det fra i Indstillinger.",
+  "back": "Edit Reminders: If you leave the app with an unfinished edit, PhotoSur can remind you of it three hours later.",
+  "sim": 0.84
+ },
+ {
+  "k": "helpSettings3",
+  "en": "HD cut-out model shows whether it is installed. Remove deletes it from your phone to free space; you can download it again at any time.",
+  "tr": "HD-frilægningsmodel viser, om den er installeret. Fjern sletter den fra din telefon for at frigøre plads; du kan hente den igen når som helst.",
+  "back": "The HD release model shows if it's installed. Remove it from your phone to free up space; you can retrieve it anytime.",
+  "sim": 0.64
+ },
+ {
+  "k": "helpSettings4",
+  "en": "Replay intro shows the welcome screens again. Support opens the support page. Animated home background turns the moving picture at the top of the home screen on or off.",
+  "tr": "Afspil introen igen viser velkomstskærmene en gang til. Support åbner supportsiden. Animeret startbaggrund slår det bevægelige billede øverst på startskærmen til eller fra.",
+  "back": "Play the intro again showing the welcome screens once again. Support opens the support page. The animated start background turns the moving image at the top of the start screen to or from.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpFixTitle",
+  "en": "If something goes wrong",
+  "tr": "Hvis noget går galt",
+  "back": "If something goes wrong",
+  "sim": 1.0
+ },
+ {
+  "k": "helpFix1",
+  "en": "If the automatic cut-out cannot run on a very old or low-memory phone, the brush still works, so you can finish the picture by hand.",
+  "tr": "Hvis den automatiske frilægning ikke kan køre på en meget gammel telefon eller en med lidt hukommelse, virker penslen stadig, så du kan færdiggøre billedet i hånden.",
+  "back": "If the automatic release can't run on a very old phone or one with little memory, the brush still works so you can finish the picture in your hand.",
+  "sim": 0.74
+ },
+ {
+  "k": "helpFix2",
+  "en": "If the HD download stops, check your connection and try again. It continues where it left off.",
+  "tr": "Hvis HD-hentningen stopper, så tjek din forbindelse, og prøv igen. Den fortsætter, hvor den slap.",
+  "back": "If the HD pickup stops, check your connection and try again.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpFix3",
+  "en": "For anything else, open Support from Settings.",
+  "tr": "Til alt andet åbner du Support i Indstillinger.",
+  "back": "For everything else, open Support in Settings.",
+  "sim": 0.71
+ }
+]

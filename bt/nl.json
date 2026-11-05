@@ -1,0 +1,1745 @@
+[
+ {
+  "k": "onboardingPage1Title",
+  "en": "Remove backgrounds instantly. All features free.",
+  "tr": "Verwijder achtergronden direct. Alle functies gratis.",
+  "back": "Remove backgrounds immediately, all features are free.",
+  "sim": 0.77
+ },
+ {
+  "k": "onboardingPage1Body",
+  "en": "Open a photo and our on-device AI removes the background automatically — no internet required. You can also swap in your own custom background.",
+  "tr": "Open een foto en onze AI op je apparaat verwijdert de achtergrond automatisch — zonder internet. Je kunt ook een eigen achtergrond kiezen.",
+  "back": "Open a photo, and our AI on your device will automatically remove the background without the internet.",
+  "sim": 0.45
+ },
+ {
+  "k": "onboardingPage2Title",
+  "en": "Fine-tune with the brush",
+  "tr": "Verfijn met het penseel",
+  "back": "Finish with the brush",
+  "sim": 0.75
+ },
+ {
+  "k": "onboardingPage2Body",
+  "en": "Paint away what the AI missed or restore what you want to keep. Then crop, rotate, move and resize.",
+  "tr": "Veeg met het penseel weg wat de AI heeft gemist, of herstel wat je wilt houden. Daarna bijsnijden, draaien, verplaatsen en het formaat aanpassen.",
+  "back": "Erase with the brush what the AI missed, or restore what you want to keep, then cut, spin, move, and adjust the size.",
+  "sim": 0.67
+ },
+ {
+  "k": "onboardingPage3Title",
+  "en": "Studio-ready backgrounds",
+  "tr": "Achtergronden als in een studio",
+  "back": "Backgrounds like in a studio",
+  "sim": 0.29
+ },
+ {
+  "k": "onboardingPage3Body",
+  "en": "Choose a colour, gradient, template or your own photo, with a natural shadow. Marketplace presets for Amazon, eBay, Etsy and Shopify set size and format for you.",
+  "tr": "Kies een kleur, verloop, sjabloon of je eigen foto, met een natuurlijke schaduw. Voorinstellingen voor Amazon, eBay, Etsy en Shopify bepalen het formaat en de bestandsindeling voor je.",
+  "back": "Choose a color, route, template, or your own photo, with a natural shade. Amazon, eBay, Etsy, and Shopify settings determine the format and file format for you.",
+  "sim": 0.7
+ },
+ {
+  "k": "onboardingPage4Title",
+  "en": "Batch it, export it, keep it private",
+  "tr": "In bulk, in jouw formaat, helemaal privé",
+  "back": "In bulk, in your size, all private.",
+  "sim": 0.14
+ },
+ {
+  "k": "onboardingPage4Body",
+  "en": "Cut out up to 30 photos at once and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "tr": "Maak tot 30 foto’s tegelijk vrij en exporteer als PNG, JPG of WEBP. Je foto’s verlaten je telefoon nooit. Beschikbaar in 43 talen.",
+  "back": "Free up to 30 photos at a time and export them as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "sim": 0.86
+ },
+ {
+  "k": "onboardingNext",
+  "en": "Next",
+  "tr": "Volgende",
+  "back": "The following:",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingGetStarted",
+  "en": "Get Started",
+  "tr": "Aan de slag",
+  "back": "Let's get to work.",
+  "sim": 0.33
+ },
+ {
+  "k": "homeGalleryButton",
+  "en": "Gallery",
+  "tr": "Galerij",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "dateToday",
+  "en": "Today",
+  "tr": "Vandaag",
+  "back": "Today",
+  "sim": 1.0
+ },
+ {
+  "k": "dateYesterday",
+  "en": "Yesterday",
+  "tr": "Gisteren",
+  "back": "Yesterday",
+  "sim": 1.0
+ },
+ {
+  "k": "homeRecentExports",
+  "en": "Recent Exports",
+  "tr": "Recente exports",
+  "back": "Recent exports",
+  "sim": 1.0
+ },
+ {
+  "k": "homeEmptyStateMessage",
+  "en": "Tap Camera or Gallery to start.",
+  "tr": "Tik op Camera of Galerij om te beginnen.",
+  "back": "Tap Camera or Gallery to get started.",
+  "sim": 0.77
+ },
+ {
+  "k": "homeExportUnavailable",
+  "en": "This export is no longer available.",
+  "tr": "Deze export is niet meer beschikbaar.",
+  "back": "This export is no longer available.",
+  "sim": 1.0
+ },
+ {
+  "k": "homeShareFailed",
+  "en": "Could not share this export.",
+  "tr": "Deze export kon niet worden gedeeld.",
+  "back": "This export could not be shared.",
+  "sim": 0.36
+ },
+ {
+  "k": "homeGalleryOpenFailed",
+  "en": "Could not open gallery.",
+  "tr": "De galerij kon niet worden geopend.",
+  "back": "The gallery couldn't be opened.",
+  "sim": 0.22
+ },
+ {
+  "k": "cameraPermissionDenied",
+  "en": "Camera access is needed to take a photo. Please allow access.",
+  "tr": "Cameratoegang is nodig om een foto te maken. Geef toegang.",
+  "back": "Camera access is required to take a photo.",
+  "sim": 0.74
+ },
+ {
+  "k": "cameraPermissionPermanentlyDenied",
+  "en": "Camera access was denied. Enable it in Settings to continue.",
+  "tr": "Cameratoegang is geweigerd. Zet het aan in Instellingen om door te gaan.",
+  "back": "Camera access has been denied.",
+  "sim": 0.4
+ },
+ {
+  "k": "cameraPermissionRestricted",
+  "en": "Camera access is restricted on this device.",
+  "tr": "Cameratoegang is beperkt op dit apparaat.",
+  "back": "Camera access is restricted to this device.",
+  "sim": 0.86
+ },
+ {
+  "k": "cameraNoCameraFound",
+  "en": "No camera found on this device.",
+  "tr": "Geen camera gevonden op dit apparaat.",
+  "back": "No camera found on this device.",
+  "sim": 1.0
+ },
+ {
+  "k": "cameraStartFailed",
+  "en": "Could not start the camera.",
+  "tr": "De camera kon niet worden gestart.",
+  "back": "The camera couldn't start.",
+  "sim": 0.44
+ },
+ {
+  "k": "cameraCaptureFailed",
+  "en": "Could not capture photo.",
+  "tr": "De foto kon niet worden gemaakt.",
+  "back": "The photo couldn't be taken.",
+  "sim": 0.22
+ },
+ {
+  "k": "cameraOpenSettings",
+  "en": "Open Settings",
+  "tr": "Instellingen openen",
+  "back": "Opening up institutions",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraFlashTooltip",
+  "en": "Flash",
+  "tr": "Flits",
+  "back": "Flashing",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraGalleryTooltip",
+  "en": "Gallery",
+  "tr": "Galerij",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "cropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Bijsnijden en draaien",
+  "back": "Cutting and spinning",
+  "sim": 0.0
+ },
+ {
+  "k": "cropLoadFailed",
+  "en": "Could not load the image.",
+  "tr": "De afbeelding kon niet worden geladen.",
+  "back": "The image couldn't be loaded.",
+  "sim": 0.4
+ },
+ {
+  "k": "cropRotateFailed",
+  "en": "Could not rotate the image.",
+  "tr": "De afbeelding kon niet worden gedraaid.",
+  "back": "The image could not be turned.",
+  "sim": 0.36
+ },
+ {
+  "k": "cropFailed",
+  "en": "Crop failed.",
+  "tr": "Bijsnijden mislukt.",
+  "back": "Biting failed.",
+  "sim": 0.5
+ },
+ {
+  "k": "cropSaveFailed",
+  "en": "Could not save the cropped image.",
+  "tr": "De bijgesneden afbeelding kon niet worden opgeslagen.",
+  "back": "The sliced image could not be stored.",
+  "sim": 0.31
+ },
+ {
+  "k": "cropAspectFree",
+  "en": "Free",
+  "tr": "Vrij",
+  "back": "Free",
+  "sim": 1.0
+ },
+ {
+  "k": "cropContinue",
+  "en": "Continue",
+  "tr": "Doorgaan",
+  "back": "Keep going",
+  "sim": 0.0
+ },
+ {
+  "k": "editorSegmentationFailedMessage",
+  "en": "Your device doesn't support automatic background removal. Use the manual brush below.",
+  "tr": "Je apparaat ondersteunt geen automatische achtergrondverwijdering. Gebruik de handmatige gum hieronder.",
+  "back": "Your device does not support automatic background removal. Use the manual gum below.",
+  "sim": 0.8
+ },
+ {
+  "k": "brushErase",
+  "en": "Erase",
+  "tr": "Wissen",
+  "back": "Knowledge",
+  "sim": 0.0
+ },
+ {
+  "k": "brushRestore",
+  "en": "Restore",
+  "tr": "Herstellen",
+  "back": "Repair",
+  "sim": 0.0
+ },
+ {
+  "k": "brushSizeLabel",
+  "en": "Brush Size",
+  "tr": "Penseelgrootte",
+  "back": "Pencil size",
+  "sim": 0.5
+ },
+ {
+  "k": "brushOpacityLabel",
+  "en": "Opacity",
+  "tr": "Dekking",
+  "back": "Coverage",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundWhite",
+  "en": "White",
+  "tr": "Wit",
+  "back": "White",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundTransparent",
+  "en": "Transparent",
+  "tr": "Transparant",
+  "back": "Transparent",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundBlack",
+  "en": "Black",
+  "tr": "Zwart",
+  "back": "It 's black .",
+  "sim": 0.5
+ },
+ {
+  "k": "backgroundBlurLabel",
+  "en": "Blur",
+  "tr": "Vervaging",
+  "back": "Fading",
+  "sim": 0.0
+ },
+ {
+  "k": "edgeFeatherLabel",
+  "en": "Edge Smoothness",
+  "tr": "Randzachtheid",
+  "back": "Roughness",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarUndo",
+  "en": "Undo",
+  "tr": "Ongedaan maken",
+  "back": "Undoing",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarRedo",
+  "en": "Redo",
+  "tr": "Opnieuw",
+  "back": "It's all over again.",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarReset",
+  "en": "Reset",
+  "tr": "Resetten",
+  "back": "Resetting",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarExport",
+  "en": "Export",
+  "tr": "Exporteren",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmTitle",
+  "en": "Reset edits?",
+  "tr": "Bewerkingen resetten?",
+  "back": "Reset operations?",
+  "sim": 0.5
+ },
+ {
+  "k": "resetConfirmBody",
+  "en": "This clears your manual brush strokes. This cannot be undone.",
+  "tr": "Hiermee worden je handmatige penseelstreken gewist. Dit kan niet ongedaan worden gemaakt.",
+  "back": "This will wipe your manual brush strokes, which can't be reversed.",
+  "sim": 0.57
+ },
+ {
+  "k": "resetConfirmCancel",
+  "en": "Cancel",
+  "tr": "Annuleren",
+  "back": "Cancellation",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmConfirm",
+  "en": "Reset",
+  "tr": "Resetten",
+  "back": "Resetting",
+  "sim": 0.0
+ },
+ {
+  "k": "exportTitle",
+  "en": "Export",
+  "tr": "Exporteren",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "exportQualityLabel",
+  "en": "Quality: {value}",
+  "tr": "Kwaliteit: {value}",
+  "back": "Quality: [value]",
+  "sim": 1.0
+ },
+ {
+  "k": "exportResizeLabel",
+  "en": "Resize",
+  "tr": "Formaat wijzigen",
+  "back": "Changing the format",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeOriginal",
+  "en": "Original",
+  "tr": "Origineel",
+  "back": "Originally",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeCustom",
+  "en": "Custom",
+  "tr": "Aangepast",
+  "back": "Adapted",
+  "sim": 0.0
+ },
+ {
+  "k": "exportWidthLabel",
+  "en": "Width (px)",
+  "tr": "Breedte (px)",
+  "back": "Width (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportHeightLabel",
+  "en": "Height (px)",
+  "tr": "Hoogte (px)",
+  "back": "Height (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSaveToGallery",
+  "en": "Save to Gallery",
+  "tr": "Opslaan in Galerij",
+  "back": "Storage in Gallery",
+  "sim": 0.33
+ },
+ {
+  "k": "exportShare",
+  "en": "Share",
+  "tr": "Delen",
+  "back": "Shares",
+  "sim": 0.0
+ },
+ {
+  "k": "exportSuccess",
+  "en": "Exported!",
+  "tr": "Geëxporteerd!",
+  "back": "Exported!",
+  "sim": 1.0
+ },
+ {
+  "k": "exportFailed",
+  "en": "Export failed. Please try again.",
+  "tr": "Exporteren mislukt. Probeer het opnieuw.",
+  "back": "Export failed, try again.",
+  "sim": 0.89
+ },
+ {
+  "k": "exportInProgress",
+  "en": "Exporting…",
+  "tr": "Exporteren…",
+  "back": "Exporting...",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsTitle",
+  "en": "Settings",
+  "tr": "Instellingen",
+  "back": "Institutions",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTheme",
+  "en": "Theme",
+  "tr": "Thema",
+  "back": "Subject matter",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLanguage",
+  "en": "Language",
+  "tr": "Taal",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Aankopen herstellen",
+  "back": "Recovering purchases",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsGoAdFree",
+  "en": "Go Ad-Free",
+  "tr": "Advertenties verwijderen",
+  "back": "Removal of advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsPrivacyPolicy",
+  "en": "Privacy Policy",
+  "tr": "Privacybeleid",
+  "back": "Privacy policy",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsSupport",
+  "en": "Support",
+  "tr": "Ondersteuning",
+  "back": "Support",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRateApp",
+  "en": "Rate App",
+  "tr": "App beoordelen",
+  "back": "App ratings",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsShareApp",
+  "en": "Share App",
+  "tr": "App delen",
+  "back": "App Sharing",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsLicenses",
+  "en": "Open-source licenses",
+  "tr": "Open-sourcelicenties",
+  "back": "Open source licenses",
+  "sim": 0.4
+ },
+ {
+  "k": "reminderChannelName",
+  "en": "Edit reminders",
+  "tr": "Bewerkingsherinneringen",
+  "back": "Operating memories",
+  "sim": 0.0
+ },
+ {
+  "k": "reminderChannelDescription",
+  "en": "Reminders about edits you have not finished.",
+  "tr": "Herinneringen aan bewerkingen die je niet hebt afgerond.",
+  "back": "Memories of operations you didn't complete.",
+  "sim": 0.15
+ },
+ {
+  "k": "reminderTitle",
+  "en": "Your edit is waiting",
+  "tr": "Je bewerking wacht op je",
+  "back": "Your editing is waiting for you.",
+  "sim": 0.6
+ },
+ {
+  "k": "reminderBody",
+  "en": "Pick up where you left off and export your photo.",
+  "tr": "Ga verder waar je gebleven was en exporteer je foto.",
+  "back": "Go back to where you were staying and export your photo.",
+  "sim": 0.57
+ },
+ {
+  "k": "settingsReminders",
+  "en": "Edit reminders",
+  "tr": "Bewerkingsherinneringen",
+  "back": "Operating memories",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsAnimatedBackground",
+  "en": "Animated home background",
+  "tr": "Geanimeerde startachtergrond",
+  "back": "Animated starting background",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsRemindersSubtitle",
+  "en": "Remind me about unfinished edits",
+  "tr": "Herinner me aan onafgeronde bewerkingen",
+  "back": "Reminds me of incomplete operations",
+  "sim": 0.2
+ },
+ {
+  "k": "settingsRemindersBlocked",
+  "en": "Notifications are turned off for PhotoSur in your phone's settings.",
+  "tr": "Meldingen voor PhotoSur staan uit in de instellingen van je telefoon.",
+  "back": "PhotoSur messages are in your phone's settings.",
+  "sim": 0.59
+ },
+ {
+  "k": "editorBrushHint",
+  "en": "Drag to paint. Pinch with two fingers to zoom.",
+  "tr": "Sleep om te schilderen. Knijp met twee vingers om te zoomen.",
+  "back": "Pull to paint, squeeze with two fingers to zoom.",
+  "sim": 0.78
+ },
+ {
+  "k": "editorToolCutout",
+  "en": "Cut-out",
+  "tr": "Uitsnede",
+  "back": "Cut-off",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBrush",
+  "en": "Brush",
+  "tr": "Penseel",
+  "back": "Pencil and pencils",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBackground",
+  "en": "Background",
+  "tr": "Achtergrond",
+  "back": "This is not the case.",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolLayout",
+  "en": "Layout",
+  "tr": "Indeling",
+  "back": "Classification",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutAutoCenter",
+  "en": "Auto-center",
+  "tr": "Automatisch centreren",
+  "back": "Automated centering",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutSizeLabel",
+  "en": "Size",
+  "tr": "Grootte",
+  "back": "Size",
+  "sim": 1.0
+ },
+ {
+  "k": "layoutShadowLabel",
+  "en": "Shadow",
+  "tr": "Schaduw",
+  "back": "Shadow",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundPhoto",
+  "en": "Photo",
+  "tr": "Foto",
+  "back": "This is a photo.",
+  "sim": 0.4
+ },
+ {
+  "k": "backgroundPhotoFailed",
+  "en": "Could not load that photo.",
+  "tr": "Die foto kon niet worden geladen.",
+  "back": "That photo couldn't be uploaded.",
+  "sim": 0.4
+ },
+ {
+  "k": "editorLayoutHint",
+  "en": "Drag to move. Pinch with two fingers to resize.",
+  "tr": "Sleep om te verplaatsen. Knijp met twee vingers om het formaat te wijzigen.",
+  "back": "Pull to move, squeeze with two fingers to change size.",
+  "sim": 0.63
+ },
+ {
+  "k": "languageSystemDefault",
+  "en": "System default",
+  "tr": "Systeemstandaard",
+  "back": "Standard of the system",
+  "sim": 0.33
+ },
+ {
+  "k": "languageSheetTitle",
+  "en": "Language",
+  "tr": "Taal",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "themeSheetTitle",
+  "en": "Theme",
+  "tr": "Thema",
+  "back": "Subject matter",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionSystem",
+  "en": "System default",
+  "tr": "Systeemstandaard",
+  "back": "Standard of the system",
+  "sim": 0.33
+ },
+ {
+  "k": "themeOptionLight",
+  "en": "Light",
+  "tr": "Licht",
+  "back": "Light",
+  "sim": 1.0
+ },
+ {
+  "k": "themeOptionDark",
+  "en": "Dark",
+  "tr": "Donker",
+  "back": "It 's dark .",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsLinkNotReady",
+  "en": "This link isn't set up yet.",
+  "tr": "Deze link is nog niet ingesteld.",
+  "back": "This link hasn't been set yet.",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsLinkOpenFailed",
+  "en": "Could not open link.",
+  "tr": "De link kon niet worden geopend.",
+  "back": "The link couldn't be opened.",
+  "sim": 0.22
+ },
+ {
+  "k": "settingsRestoreRequested",
+  "en": "Restore requested — check back in a moment.",
+  "tr": "Herstel aangevraagd — kijk zo nog even.",
+  "back": "Repair requested. Look at that.",
+  "sim": 0.17
+ },
+ {
+  "k": "settingsRestoreFailed",
+  "en": "Restore failed.",
+  "tr": "Herstellen mislukt.",
+  "back": "Failure to repair.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsShareFailed",
+  "en": "Could not share.",
+  "tr": "Delen is mislukt.",
+  "back": "Sharing has failed.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsShareAppMessage",
+  "en": "Remove photo backgrounds instantly with PhotoSur — free, no watermark.",
+  "tr": "Verwijder direct achtergronden van foto's met PhotoSur — gratis, zonder watermerk.",
+  "back": "Immediately remove backgrounds from photos with PhotoSur  free of charge, without watermark.",
+  "sim": 0.57
+ },
+ {
+  "k": "paywallTitle",
+  "en": "Go Ad-Free",
+  "tr": "Advertenties verwijderen",
+  "back": "Removal of advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallAlreadyAdFree",
+  "en": "You're already ad-free. Thank you!",
+  "tr": "Je hebt al geen advertenties meer. Bedankt!",
+  "back": "You don't have any more ads.",
+  "sim": 0.18
+ },
+ {
+  "k": "paywallPlanFreeTitle",
+  "en": "Free",
+  "tr": "Gratis",
+  "back": "Free of charge",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPlanAdFreeTitle",
+  "en": "Ad-Free",
+  "tr": "Zonder advertenties",
+  "back": "No advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPlanAdFreePrice",
+  "en": "One-time purchase",
+  "tr": "Eenmalige aankoop",
+  "back": "One-time purchase",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallFeatureAllFeatures",
+  "en": "All features",
+  "tr": "Alle functies",
+  "back": "All functions",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallFeatureAdSupported",
+  "en": "Ad-supported",
+  "tr": "Met advertenties",
+  "back": "With advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureZeroAds",
+  "en": "Zero ads",
+  "tr": "Geen advertenties",
+  "back": "No advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPurchaseButton",
+  "en": "Remove Ads",
+  "tr": "Advertenties verwijderen",
+  "back": "Removal of advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPurchaseButtonPrice",
+  "en": "Remove Ads — {price}",
+  "tr": "Advertenties verwijderen — {price}",
+  "back": "Remove advertisements  [price]",
+  "sim": 0.67
+ },
+ {
+  "k": "paywallRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Aankopen herstellen",
+  "back": "Recovering purchases",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallProductUnavailable",
+  "en": "Ad removal is not available right now.",
+  "tr": "Advertenties verwijderen is nu niet beschikbaar.",
+  "back": "Removing ads is not available at this time.",
+  "sim": 0.4
+ },
+ {
+  "k": "paywallPurchaseFailed",
+  "en": "Purchase failed.",
+  "tr": "Aankoop mislukt.",
+  "back": "The purchase failed.",
+  "sim": 0.8
+ },
+ {
+  "k": "errorScreenTitle",
+  "en": "Something went wrong",
+  "tr": "Er ging iets mis",
+  "back": "Something went wrong.",
+  "sim": 1.0
+ },
+ {
+  "k": "errorScreenBody",
+  "en": "Try again, or restart the app if this keeps happening.",
+  "tr": "Probeer het opnieuw, of start de app opnieuw op als het probleem blijft.",
+  "back": "Try it again, or restart the app if the problem persists.",
+  "sim": 0.67
+ },
+ {
+  "k": "errorScreenGoBack",
+  "en": "Go back",
+  "tr": "Terug",
+  "back": "Back to the drawing board.",
+  "sim": 0.29
+ },
+ {
+  "k": "errorScreenReportEmail",
+  "en": "Report via {email}",
+  "tr": "Melden via {email}",
+  "back": "Please contact us at [email protected]",
+  "sim": 0.22
+ },
+ {
+  "k": "unsupportedTitle",
+  "en": "Device Not Supported",
+  "tr": "Apparaat niet ondersteund",
+  "back": "Device not supported",
+  "sim": 1.0
+ },
+ {
+  "k": "unsupportedNoCameraMessage",
+  "en": "This device doesn't have a camera available.",
+  "tr": "Dit apparaat heeft geen beschikbare camera.",
+  "back": "This device doesn't have a camera available.",
+  "sim": 1.0
+ },
+ {
+  "k": "unsupportedLowMemoryMessage",
+  "en": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
+  "tr": "Dit apparaat heeft niet genoeg geheugen om de editor van PhotoSur betrouwbaar te draaien.",
+  "back": "This device does not have enough memory to run the PhotoSur editor reliably.",
+  "sim": 0.75
+ },
+ {
+  "k": "unsupportedManualImportHint",
+  "en": "You can still import a photo from your gallery and use the manual brush tool.",
+  "tr": "Je kunt nog steeds een foto uit je galerij importeren en het handmatige penseel gebruiken.",
+  "back": "You can still import a photo from your gallery and use the manual brush.",
+  "sim": 0.97
+ },
+ {
+  "k": "unsupportedUseGalleryButton",
+  "en": "Import from Gallery",
+  "tr": "Importeren uit Galerij",
+  "back": "Imported from Gallery",
+  "sim": 0.67
+ },
+ {
+  "k": "batchTitle",
+  "en": "Batch cut-out",
+  "tr": "Batch-uitsnede",
+  "back": "Batch-cutting",
+  "sim": 0.0
+ },
+ {
+  "k": "batchOutputTransparent",
+  "en": "Transparent PNG",
+  "tr": "Transparante PNG",
+  "back": "Transparent PNG",
+  "sim": 1.0
+ },
+ {
+  "k": "batchOutputWhite",
+  "en": "White background (JPG)",
+  "tr": "Witte achtergrond (JPG)",
+  "back": "White background (JPG)",
+  "sim": 1.0
+ },
+ {
+  "k": "batchStart",
+  "en": "Start",
+  "tr": "Starten",
+  "back": "Starting",
+  "sim": 0.0
+ },
+ {
+  "k": "batchStop",
+  "en": "Stop",
+  "tr": "Stoppen",
+  "back": "Stopping",
+  "sim": 0.0
+ },
+ {
+  "k": "batchDone",
+  "en": "Done",
+  "tr": "Klaar",
+  "back": "I 'm ready .",
+  "sim": 0.0
+ },
+ {
+  "k": "batchProgress",
+  "en": "{done} of {total} done",
+  "tr": "{done} van {total} klaar",
+  "back": "[done] of [total] finished",
+  "sim": 0.75
+ },
+ {
+  "k": "batchSaved",
+  "en": "{count} saved to your gallery",
+  "tr": "{count} opgeslagen in je galerij",
+  "back": "[count] stored in your gallery",
+  "sim": 0.6
+ },
+ {
+  "k": "batchSomeFailed",
+  "en": "{count} could not be processed",
+  "tr": "{count} konden niet worden verwerkt",
+  "back": "[count] could not be processed",
+  "sim": 1.0
+ },
+ {
+  "k": "batchTooMany",
+  "en": "Up to {max} photos at a time",
+  "tr": "Maximaal {max} foto’s tegelijk",
+  "back": "Maximum [max] photos at the same time",
+  "sim": 0.57
+ },
+ {
+  "k": "backgroundAddCustom",
+  "en": "Add custom background",
+  "tr": "Eigen achtergrond toevoegen",
+  "back": "Add your own background",
+  "sim": 0.57
+ },
+ {
+  "k": "backgroundCustomColor",
+  "en": "Custom color",
+  "tr": "Eigen kleur",
+  "back": "Own colour",
+  "sim": 0.0
+ },
+ {
+  "k": "colorSaturation",
+  "en": "Saturation",
+  "tr": "Verzadiging",
+  "back": "Satisfaction",
+  "sim": 0.0
+ },
+ {
+  "k": "colorBrightness",
+  "en": "Brightness",
+  "tr": "Helderheid",
+  "back": "Clearness",
+  "sim": 0.0
+ },
+ {
+  "k": "colorHexLabel",
+  "en": "Hex code",
+  "tr": "Hexcode",
+  "back": "Hex code",
+  "sim": 1.0
+ },
+ {
+  "k": "colorPickerDone",
+  "en": "Done",
+  "tr": "Klaar",
+  "back": "I 'm ready .",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceLabel",
+  "en": "Marketplace",
+  "tr": "Marktplaats",
+  "back": "Marketplace",
+  "sim": 1.0
+ },
+ {
+  "k": "exportMarketplaceWhiteFill",
+  "en": "Pure white background, product fills the frame",
+  "tr": "Zuiver witte achtergrond, product vult het beeld",
+  "back": "Purely white background, product completes the image",
+  "sim": 0.57
+ },
+ {
+  "k": "exportMarketplaceSizeCap",
+  "en": "File kept under {size} MB",
+  "tr": "Bestand kleiner dan {size} MB",
+  "back": "Inventory smaller than [size] MB",
+  "sim": 0.4
+ },
+ {
+  "k": "editorToolTemplates",
+  "en": "Templates",
+  "tr": "Sjablonen",
+  "back": "Manufacture from materials of any heading",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTitle",
+  "en": "Choose a template",
+  "tr": "Kies een sjabloon",
+  "back": "Select a template",
+  "sim": 0.67
+ },
+ {
+  "k": "templatesColorBlock",
+  "en": "Color block",
+  "tr": "Kleurvlakken",
+  "back": "Colour surfaces",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTextures",
+  "en": "Textures",
+  "tr": "Texturen",
+  "back": "Textures",
+  "sim": 1.0
+ },
+ {
+  "k": "templatesLight",
+  "en": "Light & shadow",
+  "tr": "Licht & schaduw",
+  "back": "Light and shadow",
+  "sim": 0.8
+ },
+ {
+  "k": "templatesPatterns",
+  "en": "Gradients & patterns",
+  "tr": "Verlopen & patronen",
+  "back": "Tracks and patterns",
+  "sim": 0.4
+ },
+ {
+  "k": "hdGetAction",
+  "en": "Get HD cut-out",
+  "tr": "HD-uitsnede ophalen",
+  "back": "Picking up the HD cut",
+  "sim": 0.25
+ },
+ {
+  "k": "hdRedoAction",
+  "en": "Redo cut-out in HD",
+  "tr": "Uitsnede opnieuw in HD",
+  "back": "Re-cutting in HD",
+  "sim": 0.57
+ },
+ {
+  "k": "hdDownloading",
+  "en": "HD cut-out in progress… {percent}%",
+  "tr": "HD-uitsnede bezig… {percent}%",
+  "back": "HD cutting is going on... [percentage] %",
+  "sim": 0.18
+ },
+ {
+  "k": "hdDownloadingShort",
+  "en": "HD cut-out… {percent}%",
+  "tr": "HD-uitsnede… {percent}%",
+  "back": "HD cutting... [percentage] %",
+  "sim": 0.33
+ },
+ {
+  "k": "hdConfirmTitle",
+  "en": "Download HD cut-out model?",
+  "tr": "HD-uitsnedemodel downloaden?",
+  "back": "You want to download the HD model?",
+  "sim": 0.55
+ },
+ {
+  "k": "hdConfirmBody",
+  "en": "Cleaner edges on tricky objects like shoes, bags and bottles. It downloads once, stays on your phone and then works offline. Mobile data charges may apply.",
+  "tr": "Schonere randen bij lastige objecten zoals schoenen, tassen en flessen. Wordt één keer gedownload, blijft op je telefoon en werkt daarna offline. Kosten voor mobiele data kunnen van toepassing zijn.",
+  "back": "Cleaner edges for difficult objects like shoes, bags and bottles. Once downloaded, stay on your phone and then work offline.",
+  "sim": 0.65
+ },
+ {
+  "k": "hdDownload",
+  "en": "Download",
+  "tr": "Downloaden",
+  "back": "Downloads",
+  "sim": 0.0
+ },
+ {
+  "k": "hdFailed",
+  "en": "HD cut-out didn’t finish. Check your connection and try again.",
+  "tr": "De HD-uitsnede is niet voltooid. Controleer je verbinding en probeer het opnieuw.",
+  "back": "The HD cut isn't complete, so check your connection and try again.",
+  "sim": 0.64
+ },
+ {
+  "k": "settingsHdTitle",
+  "en": "HD cut-out model",
+  "tr": "HD-uitsnedemodel",
+  "back": "High frequency (HD) decrease model",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsHdNotInstalled",
+  "en": "Not downloaded",
+  "tr": "Niet gedownload",
+  "back": "Not downloaded",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsHdInstalled",
+  "en": "Installed · works offline",
+  "tr": "Geïnstalleerd · werkt offline",
+  "back": "Installed · works offline",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsHdRemove",
+  "en": "Remove",
+  "tr": "Verwijderen",
+  "back": "Removing",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsReplayIntro",
+  "en": "Replay intro",
+  "tr": "Introductie opnieuw bekijken",
+  "back": "Reviewing the Introduction",
+  "sim": 0.0
+ },
+ {
+  "k": "homeSeeAll",
+  "en": "See all",
+  "tr": "Alles bekijken",
+  "back": "Looking at everything",
+  "sim": 0.0
+ },
+ {
+  "k": "exportActionEdit",
+  "en": "Edit again",
+  "tr": "Opnieuw bewerken",
+  "back": "Re-edited",
+  "sim": 0.0
+ },
+ {
+  "k": "exportActionDelete",
+  "en": "Delete",
+  "tr": "Verwijderen",
+  "back": "Removing",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMoreOptions",
+  "en": "More options",
+  "tr": "Meer opties",
+  "back": "More options",
+  "sim": 1.0
+ },
+ {
+  "k": "exportDeleteTitle",
+  "en": "Delete this export?",
+  "tr": "Deze export verwijderen?",
+  "back": "Remove this export?",
+  "sim": 0.67
+ },
+ {
+  "k": "exportDeleteBody",
+  "en": "Exported images are removed from this phone. Your original photos and anything saved to your gallery are not affected.",
+  "tr": "Geëxporteerde afbeeldingen worden van deze telefoon verwijderd. Je originele foto’s en alles wat in je galerij is opgeslagen, blijft ongewijzigd.",
+  "back": "Exported images will be removed from this phone, and your original photos and everything stored in your gallery will remain unchanged.",
+  "sim": 0.6
+ },
+ {
+  "k": "exportSavedToGallery",
+  "en": "Saved to your gallery",
+  "tr": "Opgeslagen in je galerij",
+  "back": "Hanged in your gallery",
+  "sim": 0.5
+ },
+ {
+  "k": "exportSaveFailed",
+  "en": "Could not save to the gallery.",
+  "tr": "Kon niet in de galerij opslaan.",
+  "back": "Couldn't keep it in the gallery.",
+  "sim": 0.33
+ },
+ {
+  "k": "exportUnavailable",
+  "en": "Unavailable",
+  "tr": "Niet beschikbaar",
+  "back": "Not available",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsGroupThisWeek",
+  "en": "This week",
+  "tr": "Deze week",
+  "back": "This week",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsGroupEarlier",
+  "en": "Earlier",
+  "tr": "Eerder",
+  "back": "Previously on",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsStorageUsed",
+  "en": "{size} used on this phone",
+  "tr": "{size} gebruikt op deze telefoon",
+  "back": "[size] used on this phone",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsSelect",
+  "en": "Select",
+  "tr": "Selecteren",
+  "back": "Select",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDone",
+  "en": "Done",
+  "tr": "Klaar",
+  "back": "I 'm ready .",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsSelectedCount",
+  "en": "{count} selected",
+  "tr": "{count} geselecteerd",
+  "back": "[count] selected",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDeleteSelectedTitle",
+  "en": "Delete {count} exports?",
+  "tr": "{count} exports verwijderen?",
+  "back": "[count] removing exports?",
+  "sim": 0.67
+ },
+ {
+  "k": "exportsDeleteAll",
+  "en": "Delete all exports",
+  "tr": "Alle exports verwijderen",
+  "back": "Remove all exports",
+  "sim": 0.67
+ },
+ {
+  "k": "exportsDeleteAllTitle",
+  "en": "Delete all exports?",
+  "tr": "Alle exports verwijderen?",
+  "back": "Remove all exports?",
+  "sim": 0.67
+ },
+ {
+  "k": "helpTitle",
+  "en": "Help & how to use",
+  "tr": "Help en uitleg",
+  "back": "Help and explanation",
+  "sim": 0.29
+ },
+ {
+  "k": "helpIntro",
+  "en": "Tap a topic to read how it works.",
+  "tr": "Tik op een onderwerp om te lezen hoe het werkt.",
+  "back": "Tap on a subject to read how it works.",
+  "sim": 0.82
+ },
+ {
+  "k": "helpStartTitle",
+  "en": "Getting started",
+  "tr": "Aan de slag",
+  "back": "Let's get to work.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpStart1",
+  "en": "On the home screen, tap Camera to take a photo or Gallery to pick one. Batch cuts out many photos at once.",
+  "tr": "Tik op het startscherm op Camera om een foto te maken of op Galerij om er een te kiezen. Batch maakt veel foto’s tegelijk vrij.",
+  "back": "Tap the home screen on Camera to take a photo or on Gallery to choose one. Batch releases many photos at once.",
+  "sim": 0.77
+ },
+ {
+  "k": "helpStart2",
+  "en": "Every photo opens in Crop & Rotate first, then in the editor. Your original photo is never changed.",
+  "tr": "Elke foto opent eerst in Bijsnijden en draaien en daarna in de editor. Je originele foto wordt nooit gewijzigd.",
+  "back": "Every photo opens first in Sniping and Spinning and then in the editor.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpStart3",
+  "en": "When you are happy, tap Export in the editor. Recent Exports on the home screen lists everything you have exported.",
+  "tr": "Als je tevreden bent, tik je in de editor op Exporteren. Recente exports op het startscherm toont alles wat je hebt geëxporteerd.",
+  "back": "If you're satisfied, tap the editor on Export. Recent exports on the home screen show everything you've exported.",
+  "sim": 0.58
+ },
+ {
+  "k": "helpCropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Bijsnijden en draaien",
+  "back": "Cutting and spinning",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCrop1",
+  "en": "Turn the photo left or right in 90° steps, and drag the frame to choose the part you want to keep.",
+  "tr": "Draai de foto naar links of rechts in stappen van 90° en sleep het kader om het deel te kiezen dat je wilt houden.",
+  "back": "Turn the photo to the left or right in 90° steps and drag the frame to choose the part you want to hold.",
+  "sim": 0.91
+ },
+ {
+  "k": "helpCrop2",
+  "en": "Free lets you shape the frame as you like. 1:1, 4:5 and 9:16 lock its shape. Tap Continue to open the editor.",
+  "tr": "Vrij laat je het kader elke vorm geven. 1:1, 4:5 en 9:16 leggen de vorm vast. Tik op Doorgaan om de editor te openen.",
+  "back": "You're free to let the frame take any shape. 1:1, 4:5 and 9:16 capture the shape.",
+  "sim": 0.42
+ },
+ {
+  "k": "helpCutoutTitle",
+  "en": "Cut-out",
+  "tr": "Uitsnede",
+  "back": "Cut-off",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCutout1",
+  "en": "When the editor opens, PhotoSur finds the main subject and removes the background automatically, on your phone. No internet is needed.",
+  "tr": "Zodra de editor opent, vindt PhotoSur het hoofdonderwerp en verwijdert automatisch de achtergrond, op je telefoon. Je hebt geen internet nodig.",
+  "back": "Once the editor opens, PhotoSur finds the main subject and automatically removes the background on your phone.",
+  "sim": 0.79
+ },
+ {
+  "k": "helpCutout2",
+  "en": "Edge Smoothness softens the edge of the cut-out, from 0 to 20 pixels.",
+  "tr": "Randzachtheid maakt de rand van de uitsnede zachter, van 0 tot 20 pixels.",
+  "back": "Roughness makes the edge of the cut softer, from 0 to 20 pixels.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpCutout3",
+  "en": "The eye button at the top shows your original photo so you can compare. Tap it again to go back. The brush is paused while the original is shown.",
+  "tr": "De oogknop bovenaan toont je originele foto om te vergelijken. Tik er nog eens op om terug te gaan. Het penseel is gepauzeerd zolang het origineel zichtbaar is.",
+  "back": "The eye button at the top shows your original photo to compare, then press it again to go back, and the brush is paused as long as the original is visible.",
+  "sim": 0.77
+ },
+ {
+  "k": "helpCutout4",
+  "en": "For difficult subjects such as glass, shoes, bags and bottles, tap Get HD cut-out. The HD model downloads once, stays on your phone and then works offline. Once it is installed, every new cut-out uses it automatically. To redo the photo you have open, tap Redo cut-out in HD.",
+  "tr": "Voor lastige onderwerpen, zoals glas, schoenen, tassen en flessen, tik je op HD-uitsnede ophalen. Het HD-model wordt één keer gedownload, blijft op je telefoon staan en werkt daarna offline. Eenmaal geïnstalleerd gebruikt elke nieuwe uitsnede het automatisch. Om de geopende foto opnieuw te doen, tik je op Uitsnede opnieuw in HD.",
+  "back": "For tricky subjects like glass, shoes, bags and bottles, you tap the HD size pick up. The HD model is downloaded once, stays on your phone, and then works offline. Once installed, each new size automatically uses it. To redo the opened photo, you tap the HD size again.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpBrushTitle",
+  "en": "Brush",
+  "tr": "Penseel",
+  "back": "Pencil and pencils",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBrush1",
+  "en": "Erase removes parts of the subject. Restore brings back parts the cut-out removed.",
+  "tr": "Wissen haalt delen van het onderwerp weg. Herstellen brengt delen terug die de uitsnede had verwijderd.",
+  "back": "Knowledge removes parts of the subject, repair returns parts that the cut had removed.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpBrush2",
+  "en": "Drag one finger to paint. Use two fingers to zoom, up to 8 times, and to move the photo. The brush keeps its size on screen, so zooming in gives finer control.",
+  "tr": "Sleep met één vinger om te schilderen. Gebruik twee vingers om in te zoomen, tot 8 keer, en om de foto te verschuiven. Het penseel houdt dezelfde grootte op het scherm, dus inzoomen geeft je meer precisie.",
+  "back": "Pull with one finger to paint. Use two fingers to zoom in, up to eight times, and to shift the image. The brush keeps the same size on the screen, so zooming gives you more precision.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpBrush3",
+  "en": "Brush Size goes from 1 to 50. Opacity sets how strongly each stroke applies.",
+  "tr": "Penseelgrootte loopt van 1 tot 50. Dekking bepaalt hoe sterk elke streek is.",
+  "back": "Pencil sizes range from 1 to 50. Coverage determines the strength of each region.",
+  "sim": 0.36
+ },
+ {
+  "k": "helpBrush4",
+  "en": "Undo and Redo step through your brush strokes. Reset clears all brush strokes and goes back to the automatic cut-out; it asks you to confirm first.",
+  "tr": "Ongedaan maken en Opnieuw stappen door je penseelstreken. Resetten wist alle streken en gaat terug naar de automatische uitsnede; eerst wordt om bevestiging gevraagd.",
+  "back": "Undo and re-step through your brush strokes. Reset wipes all strokes and goes back to the automatic cut; first, confirmation is requested.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpBackgroundTitle",
+  "en": "Background",
+  "tr": "Achtergrond",
+  "back": "This is not the case.",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBackground1",
+  "en": "Choose what goes behind your subject: transparent, white, black, a gradient, a colour, a blurred copy of your photo, or your own photo.",
+  "tr": "Kies wat er achter je onderwerp zit: transparant, wit, zwart, een kleurverloop, een kleur, een onscherpe kopie van je foto of je eigen foto.",
+  "back": "Choose what's behind your subject: transparent, white, black, a color pattern, a color, a blurry copy of your photo or your own photo.",
+  "sim": 0.78
+ },
+ {
+  "k": "helpBackground2",
+  "en": "Only one background is used at a time. Your latest choice replaces the earlier one.",
+  "tr": "Er wordt telkens één achtergrond gebruikt. Je laatste keuze vervangt de vorige.",
+  "back": "Each time you use one background, your last choice replaces the previous one.",
+  "sim": 0.5
+ },
+ {
+  "k": "helpBackground3",
+  "en": "Add custom background lets you pick a photo from your gallery. Custom color opens a colour picker. The Blur slider goes from 0 to 25.",
+  "tr": "Eigen achtergrond toevoegen laat je een foto uit je galerij kiezen. Eigen kleur opent een kleurkiezer. De schuif Vervaging loopt van 0 tot 25.",
+  "back": "Adding your own background lets you choose a photo from your gallery, your own color opens a color picker, the fading slide goes from 0 to 25.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpBackground4",
+  "en": "Transparent shows a checkerboard while you edit. Export as PNG to keep it transparent.",
+  "tr": "Transparant toont tijdens het bewerken een dambordpatroon. Exporteer als PNG om de transparantie te behouden.",
+  "back": "Transparent displays a damming pattern during editing.",
+  "sim": 0.19
+ },
+ {
+  "k": "helpTemplatesTitle",
+  "en": "Templates",
+  "tr": "Sjablonen",
+  "back": "Manufacture from materials of any heading",
+  "sim": 0.0
+ },
+ {
+  "k": "helpTemplates1",
+  "en": "Templates are ready-made backgrounds in five groups: Studio, Color block, Textures, Light & shadow, and Gradients & patterns. Five scenes are shown in the panel; tap the Templates button to see them all.",
+  "tr": "Sjablonen zijn kant-en-klare achtergronden in vijf groepen: Studio, Kleurvlakken, Texturen, Licht & schaduw en Verlopen & patronen. In het paneel staan vijf scènes; tik op de knop Sjablonen om ze allemaal te zien.",
+  "back": "Templates are ready-to-use backgrounds in five groups: Studio, Color Surfaces, Textures, Light & Shadow and Running & Patterns.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpTemplates2",
+  "en": "Choosing a template works like choosing your own photo as the background: it replaces your earlier background choice.",
+  "tr": "Een sjabloon kiezen werkt hetzelfde als je eigen foto als achtergrond kiezen: het vervangt je eerdere achtergrondkeuze.",
+  "back": "Choosing a template works the same way as choosing your own photo as a background: it replaces your previous choice of background.",
+  "sim": 0.7
+ },
+ {
+  "k": "helpLayoutTitle",
+  "en": "Layout",
+  "tr": "Indeling",
+  "back": "Classification",
+  "sim": 0.0
+ },
+ {
+  "k": "helpLayout1",
+  "en": "Drag the subject on the photo to move it. Pinch with two fingers to resize it.",
+  "tr": "Sleep het onderwerp over de foto om het te verplaatsen. Knijp met twee vingers om het formaat te wijzigen.",
+  "back": "Drag the subject over the photo to move it, squeeze with two fingers to change the format.",
+  "sim": 0.73
+ },
+ {
+  "k": "helpLayout2",
+  "en": "Choose Original, 1:1, 4:5 or 9:16 to set the shape of the final picture.",
+  "tr": "Kies Origineel, 1:1, 4:5 of 9:16 om de vorm van de uiteindelijke afbeelding in te stellen.",
+  "back": "Choose Original, 1:1, 4:5, or 9:16 to set the shape of the final image.",
+  "sim": 0.93
+ },
+ {
+  "k": "helpLayout3",
+  "en": "Size sets how big the subject is, from 20% to 300%. Shadow sets how strong its shadow is. Auto-center puts the subject back in the middle. Reset undoes moving and resizing.",
+  "tr": "Grootte bepaalt hoe groot het onderwerp is, van 20% tot 300%. Schaduw bepaalt hoe sterk de schaduw is. Automatisch centreren zet het onderwerp terug in het midden. Resetten maakt verplaatsen en formaatwijzigingen ongedaan.",
+  "back": "Size determines the size of the subject, from 20% to 300%. Shadow determines how strong the shadow is. Automatic centering puts the subject back in the center. Resets undo movements and format changes.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpLayout4",
+  "en": "This shape is used when the export size is Original. If you choose a size preset or a marketplace in the export sheet, that decides the final shape instead.",
+  "tr": "Deze vorm geldt wanneer de exportgrootte Origineel is. Kies je in het exportvenster een vaste grootte of een marktplaats, dan bepaalt die de uiteindelijke vorm.",
+  "back": "This form applies when the export size is Original. If you select a fixed size or a marketplace in the export window, it determines the final form.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpExportTitle",
+  "en": "Export",
+  "tr": "Exporteren",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "helpExport1",
+  "en": "Tap Export to open the export sheet. Nothing is applied until you tap Save to Gallery or Share, so you can change your choices as often as you like.",
+  "tr": "Tik op Exporteren om het exportvenster te openen. Er wordt niets toegepast totdat je op Opslaan in galerij of Delen tikt, dus je kunt je keuzes zo vaak wijzigen als je wilt.",
+  "back": "Tap Export to open the export window. Nothing applies until you tap Save in Gallery or Share, so you can change your choices as many times as you want.",
+  "sim": 0.79
+ },
+ {
+  "k": "helpExport2",
+  "en": "PNG keeps transparency. JPG makes smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a small modern format; if your phone cannot make it, the file is saved as JPG. For JPG and WEBP, the Quality slider trades file size for detail.",
+  "tr": "PNG behoudt transparantie. JPG geeft kleinere bestanden maar kan niet transparant zijn, dus een transparante achtergrond wordt wit. WEBP is een compact, modern formaat; als je telefoon het niet kan maken, wordt het bestand als JPG opgeslagen. Bij JPG en WEBP weegt de schuif Kwaliteit bestandsgrootte af tegen detail.",
+  "back": "PNG maintains transparency. JPG gives smaller files but can't be transparent, so a transparent background becomes white. WEBP is a compact, modern format; if your phone can't make it, the file is stored as JPG. In JPG and WEBP, the Quality slider weighs file size against detail.",
+  "sim": 0.81
+ },
+ {
+  "k": "helpExport3",
+  "en": "Original keeps your photo’s size, with the shape chosen in Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. Custom lets you type a width and height in pixels.",
+  "tr": "Origineel behoudt de grootte van je foto, met de vorm die je in Indeling koos. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 en 9:16 is 1080 × 1920. Aangepast laat je breedte en hoogte in pixels invoeren.",
+  "back": "Originally, it keeps the size of your photo, with the shape you chose in Sorting. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350, and 9:16 is 1080 × 1920.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpExport4",
+  "en": "Marketplace presets set size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG kept under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices, and choosing a format or size afterwards switches the marketplace off. Marketplace rules can change, so check your marketplace’s current requirements.",
+  "tr": "Marktplaatsvoorinstellingen bepalen grootte, formaat en kwaliteit: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG onder 1 MB en Shopify 2048 × 2048 PNG. Een keuze vervangt je keuzes voor formaat en grootte; kies je daarna een formaat of grootte, dan wordt de marktplaats uitgezet. Marktplaatsregels kunnen veranderen, dus controleer de actuele eisen van jouw marktplaats.",
+  "back": "Marketplace presets determine size, size and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG under 1 MB and Shopify 2048 × 2048 PNG. A choice replaces your choices for size and size; then you choose a size or size, and the marketplace is deleted. Marketplace rules may change, so check the current requirements of your marketplace.",
+  "sim": 0.7
+ },
+ {
+  "k": "helpExport5",
+  "en": "Amazon also uses a pure white background with no shadow and fits the subject to fill most of the frame. Your background choice in the editor is not changed. The other marketplaces keep your background.",
+  "tr": "Amazon gebruikt ook een zuiver witte achtergrond zonder schaduw en past het onderwerp aan zodat het het grootste deel van het beeld vult. Je achtergrondkeuze in de editor blijft ongewijzigd. De andere marktplaatsen houden je achtergrond.",
+  "back": "Amazon also uses a pure white background with no shadows and adapts the subject so that it fills most of the image.",
+  "sim": 0.53
+ },
+ {
+  "k": "helpExport6",
+  "en": "Save to Gallery and Share both save the picture to your gallery and to Recent Exports. Share also opens your phone’s share menu. If saving to the gallery is not possible, the share menu opens instead. After exporting you return to the home screen.",
+  "tr": "Opslaan in galerij en Delen slaan de afbeelding allebei op in je galerij en in Recente exports. Delen opent bovendien het deelmenu van je telefoon. Als opslaan in de galerij niet lukt, opent het deelmenu in plaats daarvan. Na het exporteren ga je terug naar het startscherm.",
+  "back": "Save in gallery and Share save the image both in your gallery and in Recent Exports. Also, Share opens the submenu of your phone. If Save in the gallery fails, it opens the submenu instead. After exporting, you go back to the home screen.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpExport7",
+  "en": "Unless you have removed ads, an ad can appear after an export, at most once every two minutes.",
+  "tr": "Als je de advertenties niet hebt verwijderd, kan na een export een advertentie verschijnen, hooguit eens per twee minuten.",
+  "back": "If you have not removed the advertisements, an advertisement may appear after an export, at most once every two minutes.",
+  "sim": 0.74
+ },
+ {
+  "k": "helpBatch1",
+  "en": "Batch cuts out up to 30 photos in one go. Tap Batch on the home screen and pick your photos. The back button is turned off while a batch runs.",
+  "tr": "Batch maakt tot 30 foto’s tegelijk vrij. Tik op het startscherm op Batch en kies je foto’s. De knop Terug is uitgeschakeld terwijl een batch loopt.",
+  "back": "Batch releases up to 30 photos at a time. Tap the Start screen on Batch and select your photos. The Back button is turned off while a batch is running.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpBatch2",
+  "en": "All photos in a batch share one setup: one background and one marketplace. You cannot choose differently for each photo.",
+  "tr": "Alle foto’s in een batch delen één instelling: één achtergrond en één marktplaats. Je kunt niet per foto iets anders kiezen.",
+  "back": "All the photos in a batch share one setting: one background and one marketplace.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpBatch3",
+  "en": "Backgrounds work as in the editor: your own photo, a colour, a template, white, transparent, black, blur or a gradient. Only one applies, and your latest choice replaces the earlier one.",
+  "tr": "Achtergronden werken zoals in de editor: je eigen foto, een kleur, een sjabloon, wit, transparant, zwart, vervaagd of een kleurverloop. Er geldt er maar één, en je laatste keuze vervangt de vorige.",
+  "back": "Backgrounds work like in the editor: your own photo, a color, a template, white, transparent, black, blurred, or a color scheme. There's only one, and your last choice replaces the previous one.",
+  "sim": 0.76
+ },
+ {
+  "k": "helpBatch4",
+  "en": "The file format is chosen for you. With a marketplace, the photos follow that marketplace’s size and format. Without one, a transparent background gives PNG and any other background gives JPG, at the original size.",
+  "tr": "Het bestandsformaat wordt voor je gekozen. Met een marktplaats volgen de foto’s de grootte en het formaat daarvan. Zonder marktplaats geeft een transparante achtergrond PNG en elke andere achtergrond JPG, op de oorspronkelijke grootte.",
+  "back": "The file format is chosen for you. With a marketplace, the photos track its size and format. Without a marketplace, a transparent background gives PNG and any other background JPG, to the original size.",
+  "sim": 0.84
+ },
+ {
+  "k": "helpBatch5",
+  "en": "Choosing Amazon switches the background to White; if you then choose another background, Amazon is switched off. eBay, Etsy and Shopify keep your background, but a JPG cannot be transparent, so it gets a white background.",
+  "tr": "Amazon kiezen zet de achtergrond op Wit; kies je daarna een andere achtergrond, dan wordt Amazon uitgezet. eBay, Etsy en Shopify houden je achtergrond, maar een JPG kan niet transparant zijn en krijgt dus een witte achtergrond.",
+  "back": "Amazon choosing puts the background on White; then you choose another background, then Amazon is deleted. eBay, Etsy, and Shopify keep your background, but a JPG can't be transparent, so it gets a white background.",
+  "sim": 0.79
+ },
+ {
+  "k": "helpBatch6",
+  "en": "If the HD model is installed, every photo in the batch is cut out with it. The Get HD cut-out button next to Templates downloads it.",
+  "tr": "Als het HD-model is geïnstalleerd, wordt elke foto in de batch ermee vrijgemaakt. De knop HD-uitsnede ophalen naast Sjablonen downloadt het.",
+  "back": "When the HD model is installed, every photo in the batch is released with it, and the HD cut button next to Templates downloads it.",
+  "sim": 0.82
+ },
+ {
+  "k": "helpBatch7",
+  "en": "Each photo is saved to your gallery and to Recent Exports as soon as it finishes. Stop ends the batch after the current photo, and photos already finished stay saved. If a photo fails, the batch carries on and tells you how many could not be processed. Done takes you back to the home screen; it does not save anything.",
+  "tr": "Elke foto wordt opgeslagen in je galerij en in Recente exports zodra hij klaar is. Stoppen beëindigt de batch na de huidige foto, en foto’s die al klaar zijn blijven opgeslagen. Mislukt een foto, dan gaat de batch door en zie je hoeveel er niet verwerkt konden worden. Klaar brengt je terug naar het startscherm; het slaat niets op.",
+  "back": "Every photo is stored in your gallery and in Recent Exports as soon as it's finished. Stopping stops the batch after the current photo, and photos that are already ready stay stored. If a photo fails, the batch goes through and you see how many of them could not be processed. Ready to take you back to the home screen; it doesn't save anything.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpLibraryTitle",
+  "en": "Your exports",
+  "tr": "Je exports",
+  "back": "Your exports",
+  "sim": 1.0
+ },
+ {
+  "k": "helpLibrary1",
+  "en": "Recent Exports on the home screen shows your latest exports. Tap See all for every export, grouped as Today, Yesterday, This week and Earlier.",
+  "tr": "Recente exports op het startscherm toont je nieuwste exports. Tik op Alles bekijken voor alle exports, gegroepeerd in Vandaag, Gisteren, Deze week en Eerder.",
+  "back": "Recent exports on the home screen shows your latest exports.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpLibrary2",
+  "en": "Tap an export to open it full screen. Swipe to move between exports and pinch to zoom. The bar at the bottom has Share, Save to Gallery, Edit again and Delete.",
+  "tr": "Tik op een export om hem schermvullend te openen. Veeg om tussen exports te wisselen en knijp om in te zoomen. De balk onderaan biedt Delen, Opslaan in galerij, Opnieuw bewerken en Verwijderen.",
+  "back": "Tap an export to open it full screen, swipe to switch between exports, and click to zoom in, and the bar at the bottom offers Sharing, Gallery Storage, Re-editing, and Removing.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpLibrary3",
+  "en": "The three-dot button on a tile opens the same actions. Edit again opens the exported picture as a new photo, so earlier brush strokes are not restored.",
+  "tr": "De knop met drie puntjes op een miniatuur opent dezelfde acties. Opnieuw bewerken opent de geëxporteerde afbeelding als nieuwe foto, dus eerdere penseelstreken worden niet teruggezet.",
+  "back": "The three-point button on a thumbnail opens the same actions, and re-editing opens the exported image as a new photo, so previous brush strokes are not reset.",
+  "sim": 0.74
+ },
+ {
+  "k": "helpLibrary4",
+  "en": "Select lets you choose several exports to share together or delete. Delete all exports removes every export from this phone.",
+  "tr": "Selecteren laat je meerdere exports kiezen om ze samen te delen of te verwijderen. Alle exports verwijderen haalt alle exports van deze telefoon.",
+  "back": "Selecting allows you to select multiple exports to share or delete, removing all exports gets all exports from this phone.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpLibrary5",
+  "en": "Deleting removes exports from PhotoSur only. Pictures already saved to your gallery are not affected. The bottom of the See all screen shows how much space exports use on this phone.",
+  "tr": "Verwijderen haalt exports alleen uit PhotoSur. Afbeeldingen die al in je galerij zijn opgeslagen blijven ongemoeid. Onderaan Alles bekijken staat hoeveel opslagruimte de exports op deze telefoon innemen.",
+  "back": "Deleting only takes exports from PhotoSur, and images that are already stored in your gallery will remain intact, and at the bottom of everything, you can see how much storage space the exports take up on this phone.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpPrivacyTitle",
+  "en": "Privacy & ads",
+  "tr": "Privacy en advertenties",
+  "back": "Privacy and advertising",
+  "sim": 0.4
+ },
+ {
+  "k": "helpPrivacy1",
+  "en": "Your photos are processed on your phone and are not uploaded. There is no account and no watermark.",
+  "tr": "Je foto’s worden op je telefoon verwerkt en niet geüpload. Er is geen account en geen watermerk.",
+  "back": "Your photos are processed on your phone and not uploaded, there's no account and no watermark.",
+  "sim": 0.88
+ },
+ {
+  "k": "helpPrivacy2",
+  "en": "PhotoSur is free with every feature included, supported by ads. A banner appears at the bottom of some screens, and an ad can appear after an export.",
+  "tr": "PhotoSur is gratis, met alle functies inbegrepen, en wordt betaald door advertenties. Onderaan sommige schermen staat een banner, en na een export kan een advertentie verschijnen.",
+  "back": "PhotoSur is free, with all features included, and is paid for by advertisements. At the bottom of some screens is a banner, and after an export an advertisement can appear.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpPrivacy3",
+  "en": "Go Ad-Free in Settings is a one-time purchase that removes the ads. It does not unlock anything else, because every feature is already free. Restore Purchases brings it back on a new phone.",
+  "tr": "Advertenties verwijderen, in Instellingen, is een eenmalige aankoop die advertenties weghaalt. Er wordt niets anders door ontgrendeld, want alle functies zijn al gratis. Aankopen herstellen haalt het terug op een nieuwe telefoon.",
+  "back": "Removing ads, in institutions, is a one-time purchase that removes ads. It doesn't unlock anything else because all the features are already free.",
+  "sim": 0.54
+ },
+ {
+  "k": "helpSettingsTitle",
+  "en": "Settings",
+  "tr": "Instellingen",
+  "back": "Institutions",
+  "sim": 0.0
+ },
+ {
+  "k": "helpSettings1",
+  "en": "Theme can follow your phone, or be Light or Dark. Language changes the language of the app. Both are also in the home screen header.",
+  "tr": "Thema kan je telefoon volgen of Licht of Donker zijn. Taal wijzigt de taal van de app. Beide staan ook in de kop van het startscherm.",
+  "back": "The theme can track your phone or be Light or Dark, language changes the language of the app, both of which are also in the head of the home screen.",
+  "sim": 0.84
+ },
+ {
+  "k": "helpSettings2",
+  "en": "Edit reminders: if you leave the app with an unfinished edit, PhotoSur can remind you three hours later. Switch this off in Settings.",
+  "tr": "Bewerkingsherinneringen: als je de app verlaat met een onafgemaakte bewerking, kan PhotoSur je drie uur later herinneren. Zet dit uit in Instellingen.",
+  "back": "Editing memories: If you leave the app with an unfinished editing, PhotoSur can remember you three hours later.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpSettings3",
+  "en": "HD cut-out model shows whether it is installed. Remove deletes it from your phone to free space; you can download it again at any time.",
+  "tr": "HD-uitsnedemodel laat zien of het is geïnstalleerd. Verwijderen haalt het van je telefoon om ruimte vrij te maken; je kunt het altijd opnieuw downloaden.",
+  "back": "HD downloader shows if it's installed. Removing takes it out of your phone to free up space; you can always download it again.",
+  "sim": 0.54
+ },
+ {
+  "k": "helpSettings4",
+  "en": "Replay intro shows the welcome screens again. Support opens the support page. Animated home background turns the moving picture at the top of the home screen on or off.",
+  "tr": "Introductie opnieuw bekijken toont de welkomstschermen nog eens. Ondersteuning opent de ondersteuningspagina. Geanimeerde startachtergrond zet de bewegende afbeelding bovenaan het startscherm aan of uit.",
+  "back": "Reviewing the introduction shows the welcome screens again. Support opens the support page. Animated startup background turns on or off the moving image at the top of the home screen.",
+  "sim": 0.75
+ },
+ {
+  "k": "helpFixTitle",
+  "en": "If something goes wrong",
+  "tr": "Als er iets misgaat",
+  "back": "If something goes wrong",
+  "sim": 1.0
+ },
+ {
+  "k": "helpFix1",
+  "en": "If the automatic cut-out cannot run on a very old or low-memory phone, the brush still works, so you can finish the picture by hand.",
+  "tr": "Als de automatische uitsnede niet kan draaien op een heel oude telefoon of een telefoon met weinig geheugen, werkt het penseel nog steeds, zodat je de afbeelding met de hand kunt afmaken.",
+  "back": "If the autocut can't run on a very old phone or a memory-poor phone, the brush will still work, so you can finish the image by hand.",
+  "sim": 0.73
+ },
+ {
+  "k": "helpFix2",
+  "en": "If the HD download stops, check your connection and try again. It continues where it left off.",
+  "tr": "Als de HD-download stopt, controleer dan je verbinding en probeer het opnieuw. Hij gaat verder waar hij gebleven was.",
+  "back": "If the HD download stops, check your connection and try again.",
+  "sim": 0.79
+ },
+ {
+  "k": "helpFix3",
+  "en": "For anything else, open Support from Settings.",
+  "tr": "Open voor al het andere Ondersteuning via Instellingen.",
+  "back": "Open to all other Institutional Support.",
+  "sim": 0.31
+ }
+]

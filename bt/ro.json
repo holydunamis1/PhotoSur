@@ -1,0 +1,1752 @@
+[
+ {
+  "k": "onboardingPage1Title",
+  "en": "Remove backgrounds instantly. All features free.",
+  "tr": "Elimină fundalurile instant. Toate funcțiile gratuite.",
+  "back": "Remove the instant background, all the free features.",
+  "sim": 0.43
+ },
+ {
+  "k": "onboardingPage1Body",
+  "en": "Open a photo and our on-device AI removes the background automatically — no internet required. You can also swap in your own custom background.",
+  "tr": "Deschide o fotografie, iar AI-ul de pe dispozitiv elimină automat fundalul — fără internet. Poți de asemenea să îl înlocuiești cu propriul fundal personalizat.",
+  "back": "It opens a photo, and the AI on the device automatically removes the background  without the internet. You can also replace it with your own custom background.",
+  "sim": 0.6
+ },
+ {
+  "k": "onboardingPage2Title",
+  "en": "Fine-tune with the brush",
+  "tr": "Rafinează cu pensula",
+  "back": "Refinish with a brush",
+  "sim": 0.5
+ },
+ {
+  "k": "onboardingPage2Body",
+  "en": "Paint away what the AI missed or restore what you want to keep. Then crop, rotate, move and resize.",
+  "tr": "Șterge cu pensula ce a ratat AI-ul sau restaurează ce vrei să păstrezi. Apoi decupează, rotește, mută și redimensionează.",
+  "back": "Erase the brush that missed the AI, or restore what you want to keep, then fill it up, rotate it, move it, and resize it.",
+  "sim": 0.64
+ },
+ {
+  "k": "onboardingPage3Title",
+  "en": "Studio-ready backgrounds",
+  "tr": "Fundaluri de calitate studio",
+  "back": "Studio-quality backgrounds",
+  "sim": 0.5
+ },
+ {
+  "k": "onboardingPage3Body",
+  "en": "Choose a colour, gradient, template or your own photo, with a natural shadow. Marketplace presets for Amazon, eBay, Etsy and Shopify set size and format for you.",
+  "tr": "Alege o culoare, un gradient, un șablon sau propria fotografie, cu o umbră naturală. Presetările pentru Amazon, eBay, Etsy și Shopify stabilesc dimensiunea și formatul pentru tine.",
+  "back": "Choose a color, a gradient, a template, or your own photograph, with a natural shade. The presets for Amazon, eBay, Etsy, and Shopify set the size and format for you.",
+  "sim": 0.81
+ },
+ {
+  "k": "onboardingPage4Title",
+  "en": "Batch it, export it, keep it private",
+  "tr": "În lot, în formatul dorit, în mod privat",
+  "back": "In batch, in the desired format, privately",
+  "sim": 0.14
+ },
+ {
+  "k": "onboardingPage4Body",
+  "en": "Cut out up to 30 photos at once and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "tr": "Decupează până la 30 de fotografii deodată și exportă ca PNG, JPG sau WEBP. Fotografiile tale nu părăsesc niciodată telefonul. Disponibil în 43 de limbi.",
+  "back": "Take up to 30 photos at once and export them as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "sim": 0.92
+ },
+ {
+  "k": "onboardingNext",
+  "en": "Next",
+  "tr": "Înainte",
+  "back": "Previously on",
+  "sim": 0.0
+ },
+ {
+  "k": "onboardingGetStarted",
+  "en": "Get Started",
+  "tr": "Începe",
+  "back": "It 's starting .",
+  "sim": 0.0
+ },
+ {
+  "k": "homeCameraButton",
+  "en": "Camera",
+  "tr": "Cameră",
+  "back": "The camera",
+  "sim": 0.67
+ },
+ {
+  "k": "homeGalleryButton",
+  "en": "Gallery",
+  "tr": "Galerie",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "dateToday",
+  "en": "Today",
+  "tr": "Astăzi",
+  "back": "Today",
+  "sim": 1.0
+ },
+ {
+  "k": "dateYesterday",
+  "en": "Yesterday",
+  "tr": "Ieri",
+  "back": "Yesterday",
+  "sim": 1.0
+ },
+ {
+  "k": "homeRecentExports",
+  "en": "Recent Exports",
+  "tr": "Exporturi recente",
+  "back": "Recent exports",
+  "sim": 1.0
+ },
+ {
+  "k": "homeEmptyStateMessage",
+  "en": "Tap Camera or Gallery to start.",
+  "tr": "Atinge Cameră sau Galerie pentru a începe.",
+  "back": "Touch Room or Gallery to get started.",
+  "sim": 0.46
+ },
+ {
+  "k": "homeExportUnavailable",
+  "en": "This export is no longer available.",
+  "tr": "Acest export nu mai este disponibil.",
+  "back": "This export is no longer available.",
+  "sim": 1.0
+ },
+ {
+  "k": "homeShareFailed",
+  "en": "Could not share this export.",
+  "tr": "Exportul nu a putut fi distribuit.",
+  "back": "Exports could not be distributed.",
+  "sim": 0.4
+ },
+ {
+  "k": "homeGalleryOpenFailed",
+  "en": "Could not open gallery.",
+  "tr": "Galeria nu a putut fi deschisă.",
+  "back": "The gallery couldn't be opened.",
+  "sim": 0.22
+ },
+ {
+  "k": "cameraTitle",
+  "en": "Camera",
+  "tr": "Cameră",
+  "back": "The camera",
+  "sim": 0.67
+ },
+ {
+  "k": "cameraPermissionDenied",
+  "en": "Camera access is needed to take a photo. Please allow access.",
+  "tr": "Este nevoie de acces la cameră pentru a face o fotografie. Te rugăm să permiți accesul.",
+  "back": "You need access to the camera to take a photo. Please allow access.",
+  "sim": 0.67
+ },
+ {
+  "k": "cameraPermissionPermanentlyDenied",
+  "en": "Camera access was denied. Enable it in Settings to continue.",
+  "tr": "Accesul la cameră a fost refuzat. Activează-l din Setări pentru a continua.",
+  "back": "Access to the camera has been denied.",
+  "sim": 0.24
+ },
+ {
+  "k": "cameraPermissionRestricted",
+  "en": "Camera access is restricted on this device.",
+  "tr": "Accesul la cameră este restricționat pe acest dispozitiv.",
+  "back": "Access to the camera is restricted on this device.",
+  "sim": 0.75
+ },
+ {
+  "k": "cameraNoCameraFound",
+  "en": "No camera found on this device.",
+  "tr": "Nu s-a găsit nicio cameră pe acest dispozitiv.",
+  "back": "No camera was found on this device.",
+  "sim": 0.92
+ },
+ {
+  "k": "cameraStartFailed",
+  "en": "Could not start the camera.",
+  "tr": "Camera nu a putut fi pornită.",
+  "back": "The camera couldn't be turned on.",
+  "sim": 0.36
+ },
+ {
+  "k": "cameraCaptureFailed",
+  "en": "Could not capture photo.",
+  "tr": "Fotografia nu a putut fi realizată.",
+  "back": "The photo couldn't have been taken.",
+  "sim": 0.2
+ },
+ {
+  "k": "cameraOpenSettings",
+  "en": "Open Settings",
+  "tr": "Deschide Setările",
+  "back": "Open the settings",
+  "sim": 0.8
+ },
+ {
+  "k": "cameraFlashTooltip",
+  "en": "Flash",
+  "tr": "Bliț",
+  "back": "Lightning",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraGalleryTooltip",
+  "en": "Gallery",
+  "tr": "Galerie",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "cropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Decupare și rotire",
+  "back": "Decoupage and rotation",
+  "sim": 0.0
+ },
+ {
+  "k": "cropLoadFailed",
+  "en": "Could not load the image.",
+  "tr": "Imaginea nu a putut fi încărcată.",
+  "back": "The image couldn't be uploaded.",
+  "sim": 0.4
+ },
+ {
+  "k": "cropRotateFailed",
+  "en": "Could not rotate the image.",
+  "tr": "Imaginea nu a putut fi rotită.",
+  "back": "The picture couldn't have been twisted.",
+  "sim": 0.18
+ },
+ {
+  "k": "cropFailed",
+  "en": "Crop failed.",
+  "tr": "Decuparea a eșuat.",
+  "back": "The decapitation failed.",
+  "sim": 0.4
+ },
+ {
+  "k": "cropSaveFailed",
+  "en": "Could not save the cropped image.",
+  "tr": "Imaginea decupată nu a putut fi salvată.",
+  "back": "The severed image could not be saved.",
+  "sim": 0.31
+ },
+ {
+  "k": "cropAspectFree",
+  "en": "Free",
+  "tr": "Liber",
+  "back": "Free",
+  "sim": 1.0
+ },
+ {
+  "k": "cropContinue",
+  "en": "Continue",
+  "tr": "Continuă",
+  "back": "Keep going.",
+  "sim": 0.0
+ },
+ {
+  "k": "editorSegmentationFailedMessage",
+  "en": "Your device doesn't support automatic background removal. Use the manual brush below.",
+  "tr": "Dispozitivul tău nu acceptă eliminarea automată a fundalului. Folosește pensula manuală de mai jos.",
+  "back": "Your device doesn't accept automatic background removal. Use the manual brush below.",
+  "sim": 0.92
+ },
+ {
+  "k": "brushErase",
+  "en": "Erase",
+  "tr": "Șterge",
+  "back": "Deleted",
+  "sim": 0.0
+ },
+ {
+  "k": "brushRestore",
+  "en": "Restore",
+  "tr": "Restaurează",
+  "back": "Restoring",
+  "sim": 0.0
+ },
+ {
+  "k": "brushSizeLabel",
+  "en": "Brush Size",
+  "tr": "Dimensiune pensulă",
+  "back": "Size of brush",
+  "sim": 0.4
+ },
+ {
+  "k": "brushOpacityLabel",
+  "en": "Opacity",
+  "tr": "Opacitate",
+  "back": "Uncertainty",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundWhite",
+  "en": "White",
+  "tr": "Alb",
+  "back": "White",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundBlack",
+  "en": "Black",
+  "tr": "Negru",
+  "back": "The black",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundBlurLabel",
+  "en": "Blur",
+  "tr": "Estompare",
+  "back": "Extinct",
+  "sim": 0.0
+ },
+ {
+  "k": "edgeFeatherLabel",
+  "en": "Edge Smoothness",
+  "tr": "Netezime margini",
+  "back": "Margin netting",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarUndo",
+  "en": "Undo",
+  "tr": "Anulează",
+  "back": "Canceling",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarRedo",
+  "en": "Redo",
+  "tr": "Refă",
+  "back": "The raft",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarReset",
+  "en": "Reset",
+  "tr": "Resetează",
+  "back": "Reset it .",
+  "sim": 0.67
+ },
+ {
+  "k": "toolbarExport",
+  "en": "Export",
+  "tr": "Exportă",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmTitle",
+  "en": "Reset edits?",
+  "tr": "Resetezi editările?",
+  "back": "Are you resetting the edits?",
+  "sim": 0.29
+ },
+ {
+  "k": "resetConfirmBody",
+  "en": "This clears your manual brush strokes. This cannot be undone.",
+  "tr": "Aceasta șterge tușele de pensulă făcute manual. Acțiunea nu poate fi anulată.",
+  "back": "It wipes out handmade brush coughs. The action can't be cancelled.",
+  "sim": 0.19
+ },
+ {
+  "k": "resetConfirmCancel",
+  "en": "Cancel",
+  "tr": "Anulează",
+  "back": "Canceling",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmConfirm",
+  "en": "Reset",
+  "tr": "Resetează",
+  "back": "Reset it .",
+  "sim": 0.67
+ },
+ {
+  "k": "exportTitle",
+  "en": "Export",
+  "tr": "Exportă",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "exportQualityLabel",
+  "en": "Quality: {value}",
+  "tr": "Calitate: {value}",
+  "back": "Quality: [value]",
+  "sim": 1.0
+ },
+ {
+  "k": "exportResizeLabel",
+  "en": "Resize",
+  "tr": "Redimensionare",
+  "back": "Redimensioning",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeCustom",
+  "en": "Custom",
+  "tr": "Personalizat",
+  "back": "Customized",
+  "sim": 0.0
+ },
+ {
+  "k": "exportWidthLabel",
+  "en": "Width (px)",
+  "tr": "Lățime (px)",
+  "back": "For the purposes of this Regulation, the following definitions shall apply:",
+  "sim": 0.0
+ },
+ {
+  "k": "exportHeightLabel",
+  "en": "Height (px)",
+  "tr": "Înălțime (px)",
+  "back": "Height (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSaveToGallery",
+  "en": "Save to Gallery",
+  "tr": "Salvează în Galerie",
+  "back": "Save in the Gallery",
+  "sim": 0.57
+ },
+ {
+  "k": "exportShare",
+  "en": "Share",
+  "tr": "Distribuie",
+  "back": "Distribution",
+  "sim": 0.0
+ },
+ {
+  "k": "exportSuccess",
+  "en": "Exported!",
+  "tr": "Exportat!",
+  "back": "Exported!",
+  "sim": 1.0
+ },
+ {
+  "k": "exportFailed",
+  "en": "Export failed. Please try again.",
+  "tr": "Exportul a eșuat. Încearcă din nou.",
+  "back": "Export failed, try again.",
+  "sim": 0.89
+ },
+ {
+  "k": "exportInProgress",
+  "en": "Exporting…",
+  "tr": "Se exportă…",
+  "back": "It exports...",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTitle",
+  "en": "Settings",
+  "tr": "Setări",
+  "back": "Set-ups",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsTheme",
+  "en": "Theme",
+  "tr": "Temă",
+  "back": "Subject",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLanguage",
+  "en": "Language",
+  "tr": "Limbă",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Restaurează achizițiile",
+  "back": "Restore the acquisitions",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsGoAdFree",
+  "en": "Go Ad-Free",
+  "tr": "Fără reclame",
+  "back": "No commercials",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsPrivacyPolicy",
+  "en": "Privacy Policy",
+  "tr": "Politica de confidențialitate",
+  "back": "The Commission shall adopt delegated acts in accordance with the opinion of the Standing Committee on Plants, Animals and Food.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsSupport",
+  "en": "Support",
+  "tr": "Asistență",
+  "back": "Assistance",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsRateApp",
+  "en": "Rate App",
+  "tr": "Evaluează aplicația",
+  "back": "Evaluate the application",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsShareApp",
+  "en": "Share App",
+  "tr": "Distribuie aplicația",
+  "back": "Distribute the application",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsLicenses",
+  "en": "Open-source licenses",
+  "tr": "Licențe open-source",
+  "back": "Open-source licences",
+  "sim": 0.5
+ },
+ {
+  "k": "reminderChannelName",
+  "en": "Edit reminders",
+  "tr": "Mementouri de editare",
+  "back": "Notes for editing",
+  "sim": 0.0
+ },
+ {
+  "k": "reminderChannelDescription",
+  "en": "Reminders about edits you have not finished.",
+  "tr": "Mementouri despre editările pe care nu le-ai terminat.",
+  "back": "Memories of the editions you didn't finish.",
+  "sim": 0.14
+ },
+ {
+  "k": "reminderTitle",
+  "en": "Your edit is waiting",
+  "tr": "Editarea ta te așteaptă",
+  "back": "Your publisher's waiting for you",
+  "sim": 0.44
+ },
+ {
+  "k": "reminderBody",
+  "en": "Pick up where you left off and export your photo.",
+  "tr": "Reia de unde ai rămas și exportă-ți fotografia.",
+  "back": "Pick up where you left off and export your photo.",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsReminders",
+  "en": "Edit reminders",
+  "tr": "Mementouri de editare",
+  "back": "Notes for editing",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsAnimatedBackground",
+  "en": "Animated home background",
+  "tr": "Fundal animat pentru ecranul principal",
+  "back": "Animated background for the main screen",
+  "sim": 0.44
+ },
+ {
+  "k": "settingsRemindersSubtitle",
+  "en": "Remind me about unfinished edits",
+  "tr": "Amintește-mi de editările neterminate",
+  "back": "Remind me of the unfinished editions",
+  "sim": 0.55
+ },
+ {
+  "k": "settingsRemindersBlocked",
+  "en": "Notifications are turned off for PhotoSur in your phone's settings.",
+  "tr": "Notificările sunt dezactivate pentru PhotoSur în setările telefonului.",
+  "back": "The notifications are disabled for PhotoSur in the phone settings.",
+  "sim": 0.6
+ },
+ {
+  "k": "editorBrushHint",
+  "en": "Drag to paint. Pinch with two fingers to zoom.",
+  "tr": "Trage pentru a picta. Ciupește cu două degete pentru a mări.",
+  "back": "Shoots to paint. Bites with two fingers to enlarge.",
+  "sim": 0.67
+ },
+ {
+  "k": "editorToolCutout",
+  "en": "Cut-out",
+  "tr": "Decupare",
+  "back": "Decoupling",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBrush",
+  "en": "Brush",
+  "tr": "Pensulă",
+  "back": "Pencil and pencil",
+  "sim": 0.0
+ },
+ {
+  "k": "editorToolBackground",
+  "en": "Background",
+  "tr": "Fundal",
+  "back": "Background",
+  "sim": 1.0
+ },
+ {
+  "k": "editorToolLayout",
+  "en": "Layout",
+  "tr": "Aspect",
+  "back": "Looking at you",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutAutoCenter",
+  "en": "Auto-center",
+  "tr": "Centrare auto",
+  "back": "Vehicle centering",
+  "sim": 0.0
+ },
+ {
+  "k": "layoutSizeLabel",
+  "en": "Size",
+  "tr": "Mărime",
+  "back": "Size",
+  "sim": 1.0
+ },
+ {
+  "k": "layoutShadowLabel",
+  "en": "Shadow",
+  "tr": "Umbră",
+  "back": "Shadow",
+  "sim": 1.0
+ },
+ {
+  "k": "backgroundPhoto",
+  "en": "Photo",
+  "tr": "Foto",
+  "back": "The photo",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundPhotoFailed",
+  "en": "Could not load that photo.",
+  "tr": "Fotografia nu a putut fi încărcată.",
+  "back": "The photo couldn't be uploaded.",
+  "sim": 0.2
+ },
+ {
+  "k": "editorLayoutHint",
+  "en": "Drag to move. Pinch with two fingers to resize.",
+  "tr": "Trage pentru a muta. Ciupește cu două degete pentru a redimensiona.",
+  "back": "Shoot to move. Bite with two fingers to resize.",
+  "sim": 0.78
+ },
+ {
+  "k": "languageSystemDefault",
+  "en": "System default",
+  "tr": "Implicit sistem",
+  "back": "Implicit system",
+  "sim": 0.5
+ },
+ {
+  "k": "languageSheetTitle",
+  "en": "Language",
+  "tr": "Limbă",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "themeSheetTitle",
+  "en": "Theme",
+  "tr": "Temă",
+  "back": "Subject",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionSystem",
+  "en": "System default",
+  "tr": "Implicit sistem",
+  "back": "Implicit system",
+  "sim": 0.5
+ },
+ {
+  "k": "themeOptionLight",
+  "en": "Light",
+  "tr": "Luminoasă",
+  "back": "Bright .",
+  "sim": 0.0
+ },
+ {
+  "k": "themeOptionDark",
+  "en": "Dark",
+  "tr": "Întunecată",
+  "back": "It 's dark .",
+  "sim": 0.5
+ },
+ {
+  "k": "settingsLinkNotReady",
+  "en": "This link isn't set up yet.",
+  "tr": "Acest link nu a fost configurat încă.",
+  "back": "This link hasn't been set up yet.",
+  "sim": 0.77
+ },
+ {
+  "k": "settingsLinkOpenFailed",
+  "en": "Could not open link.",
+  "tr": "Linkul nu a putut fi deschis.",
+  "back": "The link couldn't be opened.",
+  "sim": 0.22
+ },
+ {
+  "k": "settingsRestoreRequested",
+  "en": "Restore requested — check back in a moment.",
+  "tr": "Restaurare solicitată — revino în câteva momente.",
+  "back": "Restoration requested  return in a few moments.",
+  "sim": 0.43
+ },
+ {
+  "k": "settingsRestoreFailed",
+  "en": "Restore failed.",
+  "tr": "Restaurarea a eșuat.",
+  "back": "The restoration has failed.",
+  "sim": 0.33
+ },
+ {
+  "k": "settingsShareFailed",
+  "en": "Could not share.",
+  "tr": "Nu s-a putut distribui.",
+  "back": "It couldn't be distributed.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsShareAppMessage",
+  "en": "Remove photo backgrounds instantly with PhotoSur — free, no watermark.",
+  "tr": "Elimină instantaneu fundalul fotografiilor cu PhotoSur — gratuit, fără filigran.",
+  "back": "Remove the background of photos instantly with PhotoSur  free of charge, with no watermark.",
+  "sim": 0.61
+ },
+ {
+  "k": "paywallTitle",
+  "en": "Go Ad-Free",
+  "tr": "Fără reclame",
+  "back": "No commercials",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallAlreadyAdFree",
+  "en": "You're already ad-free. Thank you!",
+  "tr": "Folosești deja aplicația fără reclame. Mulțumim!",
+  "back": "You're already using the ad-free app.",
+  "sim": 0.55
+ },
+ {
+  "k": "paywallPlanFreeTitle",
+  "en": "Free",
+  "tr": "Gratuit",
+  "back": "Free of charge",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPlanAdFreeTitle",
+  "en": "Ad-Free",
+  "tr": "Fără reclame",
+  "back": "No commercials",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPlanAdFreePrice",
+  "en": "One-time purchase",
+  "tr": "Achiziție unică",
+  "back": "Unique acquisition",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureAllFeatures",
+  "en": "All features",
+  "tr": "Toate funcțiile",
+  "back": "All functions",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallFeatureAdSupported",
+  "en": "Ad-supported",
+  "tr": "Cu reclame",
+  "back": "With advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureZeroAds",
+  "en": "Zero ads",
+  "tr": "Zero reclame",
+  "back": "Zero advertising",
+  "sim": 0.5
+ },
+ {
+  "k": "paywallPurchaseButton",
+  "en": "Remove Ads",
+  "tr": "Elimină reclamele",
+  "back": "Remove the advertisements",
+  "sim": 0.4
+ },
+ {
+  "k": "paywallPurchaseButtonPrice",
+  "en": "Remove Ads — {price}",
+  "tr": "Elimină reclamele — {price}",
+  "back": "Remove the advertisements  [price]",
+  "sim": 0.57
+ },
+ {
+  "k": "paywallRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "Restaurează achizițiile",
+  "back": "Restore the acquisitions",
+  "sim": 0.4
+ },
+ {
+  "k": "paywallProductUnavailable",
+  "en": "Ad removal is not available right now.",
+  "tr": "Eliminarea reclamelor nu este disponibilă momentan.",
+  "back": "Ad removal is not available at this time.",
+  "sim": 0.67
+ },
+ {
+  "k": "paywallPurchaseFailed",
+  "en": "Purchase failed.",
+  "tr": "Achiziția a eșuat.",
+  "back": "The purchase failed.",
+  "sim": 0.8
+ },
+ {
+  "k": "errorScreenTitle",
+  "en": "Something went wrong",
+  "tr": "Ceva nu a funcționat",
+  "back": "Something didn't work.",
+  "sim": 0.33
+ },
+ {
+  "k": "errorScreenBody",
+  "en": "Try again, or restart the app if this keeps happening.",
+  "tr": "Încearcă din nou sau repornește aplicația dacă problema persistă.",
+  "back": "Try again or restart the application if the problem persists.",
+  "sim": 0.6
+ },
+ {
+  "k": "errorScreenGoBack",
+  "en": "Go back",
+  "tr": "Înapoi",
+  "back": "Back up .",
+  "sim": 0.5
+ },
+ {
+  "k": "errorScreenReportEmail",
+  "en": "Report via {email}",
+  "tr": "Raportează prin {email}",
+  "back": "Report by [email]",
+  "sim": 0.67
+ },
+ {
+  "k": "unsupportedTitle",
+  "en": "Device Not Supported",
+  "tr": "Dispozitiv neacceptat",
+  "back": "Disposal not accepted",
+  "sim": 0.33
+ },
+ {
+  "k": "unsupportedNoCameraMessage",
+  "en": "This device doesn't have a camera available.",
+  "tr": "Acest dispozitiv nu are o cameră disponibilă.",
+  "back": "This device doesn't have a camera available.",
+  "sim": 1.0
+ },
+ {
+  "k": "unsupportedLowMemoryMessage",
+  "en": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
+  "tr": "Acest dispozitiv nu are suficientă memorie pentru a rula editorul PhotoSur în mod fiabil.",
+  "back": "This device does not have enough memory to run the PhotoSur editor reliably.",
+  "sim": 0.75
+ },
+ {
+  "k": "unsupportedManualImportHint",
+  "en": "You can still import a photo from your gallery and use the manual brush tool.",
+  "tr": "Poți totuși să imporți o fotografie din galerie și să folosești pensula manuală.",
+  "back": "You can still import a photo from the gallery and use a manual brush.",
+  "sim": 0.83
+ },
+ {
+  "k": "unsupportedUseGalleryButton",
+  "en": "Import from Gallery",
+  "tr": "Importă din Galerie",
+  "back": "Imported from the Gallery",
+  "sim": 0.57
+ },
+ {
+  "k": "homeBatchButton",
+  "en": "Batch",
+  "tr": "Lot",
+  "back": "Lot",
+  "sim": 0.0
+ },
+ {
+  "k": "batchTitle",
+  "en": "Batch cut-out",
+  "tr": "Decupare în lot",
+  "back": "Cutting in batch",
+  "sim": 0.4
+ },
+ {
+  "k": "batchOutputTransparent",
+  "en": "Transparent PNG",
+  "tr": "PNG transparent",
+  "back": "Transparent PNG",
+  "sim": 1.0
+ },
+ {
+  "k": "batchOutputWhite",
+  "en": "White background (JPG)",
+  "tr": "Fundal alb (JPG)",
+  "back": "White background (JPG)",
+  "sim": 1.0
+ },
+ {
+  "k": "batchStart",
+  "en": "Start",
+  "tr": "Pornește",
+  "back": "It starts.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchStop",
+  "en": "Stop",
+  "tr": "Oprește",
+  "back": "Stop it.",
+  "sim": 0.67
+ },
+ {
+  "k": "batchDone",
+  "en": "Done",
+  "tr": "Gata",
+  "back": "That 's it .",
+  "sim": 0.0
+ },
+ {
+  "k": "batchProgress",
+  "en": "{done} of {total} done",
+  "tr": "{done} din {total} finalizate",
+  "back": "[Dones] of [total] completed",
+  "sim": 0.5
+ },
+ {
+  "k": "batchSaved",
+  "en": "{count} saved to your gallery",
+  "tr": "{count} salvate în galerie",
+  "back": "[count] saved in the gallery",
+  "sim": 0.6
+ },
+ {
+  "k": "batchSomeFailed",
+  "en": "{count} could not be processed",
+  "tr": "{count} nu au putut fi procesate",
+  "back": "[count] could not be processed",
+  "sim": 1.0
+ },
+ {
+  "k": "batchTooMany",
+  "en": "Up to {max} photos at a time",
+  "tr": "Până la {max} fotografii o dată",
+  "back": "Up to [max] photos once",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundAddCustom",
+  "en": "Add custom background",
+  "tr": "Adaugă fundal personalizat",
+  "back": "Add a custom background",
+  "sim": 0.86
+ },
+ {
+  "k": "backgroundCustomColor",
+  "en": "Custom color",
+  "tr": "Culoare personalizată",
+  "back": "Customized colour",
+  "sim": 0.0
+ },
+ {
+  "k": "colorSaturation",
+  "en": "Saturation",
+  "tr": "Saturație",
+  "back": "Satisfaction",
+  "sim": 0.0
+ },
+ {
+  "k": "colorBrightness",
+  "en": "Brightness",
+  "tr": "Luminozitate",
+  "back": "Lighting",
+  "sim": 0.0
+ },
+ {
+  "k": "colorHexLabel",
+  "en": "Hex code",
+  "tr": "Cod hex",
+  "back": "Hex code",
+  "sim": 1.0
+ },
+ {
+  "k": "colorPickerDone",
+  "en": "Done",
+  "tr": "Gata",
+  "back": "That 's it .",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceWhiteFill",
+  "en": "Pure white background, product fills the frame",
+  "tr": "Fundal alb pur, produsul umple cadrul",
+  "back": "Pure white background, the product fills the frame",
+  "sim": 0.93
+ },
+ {
+  "k": "exportMarketplaceSizeCap",
+  "en": "File kept under {size} MB",
+  "tr": "Fișier sub {size} MB",
+  "back": "File under [size] MB",
+  "sim": 0.89
+ },
+ {
+  "k": "editorToolTemplates",
+  "en": "Templates",
+  "tr": "Șabloane",
+  "back": "Manufacture from materials of any heading",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTitle",
+  "en": "Choose a template",
+  "tr": "Alege un șablon",
+  "back": "Choose a template",
+  "sim": 1.0
+ },
+ {
+  "k": "templatesColorBlock",
+  "en": "Color block",
+  "tr": "Blocuri de culoare",
+  "back": "Coloured blocks",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesTextures",
+  "en": "Textures",
+  "tr": "Texturi",
+  "back": "Texts and drawings",
+  "sim": 0.0
+ },
+ {
+  "k": "templatesLight",
+  "en": "Light & shadow",
+  "tr": "Lumină și umbră",
+  "back": "Light and shadow",
+  "sim": 0.8
+ },
+ {
+  "k": "templatesPatterns",
+  "en": "Gradients & patterns",
+  "tr": "Gradiente și modele",
+  "back": "Gradients and models",
+  "sim": 0.4
+ },
+ {
+  "k": "hdGetAction",
+  "en": "Get HD cut-out",
+  "tr": "Obține decuparea HD",
+  "back": "Get the HD decoupage",
+  "sim": 0.57
+ },
+ {
+  "k": "hdRedoAction",
+  "en": "Redo cut-out in HD",
+  "tr": "Refă decuparea în HD",
+  "back": "Re-cutting in HD",
+  "sim": 0.57
+ },
+ {
+  "k": "hdDownloading",
+  "en": "HD cut-out in progress… {percent}%",
+  "tr": "Decuparea HD în curs… {percent}%",
+  "back": "HD decoding in progress... [percent] %",
+  "sim": 0.8
+ },
+ {
+  "k": "hdDownloadingShort",
+  "en": "HD cut-out… {percent}%",
+  "tr": "Decuparea HD… {percent}%",
+  "back": "HD decoupage... [percentage] %",
+  "sim": 0.33
+ },
+ {
+  "k": "hdConfirmTitle",
+  "en": "Download HD cut-out model?",
+  "tr": "Descarci modelul de decupare HD?",
+  "back": "Are you downloading the HD decoding model?",
+  "sim": 0.36
+ },
+ {
+  "k": "hdConfirmBody",
+  "en": "Cleaner edges on tricky objects like shoes, bags and bottles. It downloads once, stays on your phone and then works offline. Mobile data charges may apply.",
+  "tr": "Margini mai curate la obiecte dificile, precum pantofi, genți și sticle. Se descarcă o singură dată, rămâne pe telefon și apoi funcționează offline. Se pot aplica costuri pentru date mobile.",
+  "back": "Cleaner margins for difficult objects like shoes, bags, and bottles. It's downloaded once, stays on the phone, and then runs offline.",
+  "sim": 0.6
+ },
+ {
+  "k": "hdDownload",
+  "en": "Download",
+  "tr": "Descarcă",
+  "back": "Download",
+  "sim": 1.0
+ },
+ {
+  "k": "hdFailed",
+  "en": "HD cut-out didn’t finish. Check your connection and try again.",
+  "tr": "Decuparea HD nu s-a încheiat. Verifică conexiunea și încearcă din nou.",
+  "back": "HD decoding isn't finished. Check the connection and try again.",
+  "sim": 0.6
+ },
+ {
+  "k": "settingsHdTitle",
+  "en": "HD cut-out model",
+  "tr": "Model de decupare HD",
+  "back": "HD decoding model",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsHdNotInstalled",
+  "en": "Not downloaded",
+  "tr": "Nedescărcat",
+  "back": "Unloaded",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsHdInstalled",
+  "en": "Installed · works offline",
+  "tr": "Instalat · funcționează offline",
+  "back": "Installed · operates offline",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsHdRemove",
+  "en": "Remove",
+  "tr": "Elimină",
+  "back": "Eliminated",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsReplayIntro",
+  "en": "Replay intro",
+  "tr": "Revezi introducerea",
+  "back": "Reviewing the introduction",
+  "sim": 0.0
+ },
+ {
+  "k": "homeSeeAll",
+  "en": "See all",
+  "tr": "Vezi tot",
+  "back": "You see everything.",
+  "sim": 0.4
+ },
+ {
+  "k": "exportActionEdit",
+  "en": "Edit again",
+  "tr": "Editează din nou",
+  "back": "Edit it again",
+  "sim": 0.8
+ },
+ {
+  "k": "exportActionDelete",
+  "en": "Delete",
+  "tr": "Șterge",
+  "back": "Deleted",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMoreOptions",
+  "en": "More options",
+  "tr": "Mai multe opțiuni",
+  "back": "More options",
+  "sim": 1.0
+ },
+ {
+  "k": "exportDeleteTitle",
+  "en": "Delete this export?",
+  "tr": "Ștergi acest export?",
+  "back": "Are you deleting this export?",
+  "sim": 0.5
+ },
+ {
+  "k": "exportDeleteBody",
+  "en": "Exported images are removed from this phone. Your original photos and anything saved to your gallery are not affected.",
+  "tr": "Imaginile exportate sunt eliminate de pe acest telefon. Fotografiile originale și ce ai salvat în galerie nu sunt afectate.",
+  "back": "The exported images are deleted from this phone. The original photos and what you saved in the gallery are not affected.",
+  "sim": 0.7
+ },
+ {
+  "k": "exportSavedToGallery",
+  "en": "Saved to your gallery",
+  "tr": "Salvat în galerie",
+  "back": "Saved in the gallery",
+  "sim": 0.5
+ },
+ {
+  "k": "exportSaveFailed",
+  "en": "Could not save to the gallery.",
+  "tr": "Nu s-a putut salva în galerie.",
+  "back": "He couldn't be saved in the gallery.",
+  "sim": 0.31
+ },
+ {
+  "k": "exportUnavailable",
+  "en": "Unavailable",
+  "tr": "Indisponibil",
+  "back": "Unavailable",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsGroupThisWeek",
+  "en": "This week",
+  "tr": "Săptămâna aceasta",
+  "back": "This week",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsGroupEarlier",
+  "en": "Earlier",
+  "tr": "Mai vechi",
+  "back": "It 's older .",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsStorageUsed",
+  "en": "{size} used on this phone",
+  "tr": "{size} folosiți pe acest telefon",
+  "back": "[size] use this phone",
+  "sim": 0.67
+ },
+ {
+  "k": "exportsSelect",
+  "en": "Select",
+  "tr": "Selectează",
+  "back": "Select",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDone",
+  "en": "Done",
+  "tr": "Gata",
+  "back": "That 's it .",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsSelectedCount",
+  "en": "{count} selected",
+  "tr": "{count} selectate",
+  "back": "[count] selected",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDeleteSelectedTitle",
+  "en": "Delete {count} exports?",
+  "tr": "Ștergi {count} exporturi?",
+  "back": "Are you deleting exports?",
+  "sim": 0.29
+ },
+ {
+  "k": "exportsDeleteAll",
+  "en": "Delete all exports",
+  "tr": "Șterge toate exporturile",
+  "back": "Delete all exports",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDeleteAllTitle",
+  "en": "Delete all exports?",
+  "tr": "Ștergi toate exporturile?",
+  "back": "Are you deleting all exports?",
+  "sim": 0.5
+ },
+ {
+  "k": "helpTitle",
+  "en": "Help & how to use",
+  "tr": "Ajutor și mod de utilizare",
+  "back": "Aid and way of use",
+  "sim": 0.22
+ },
+ {
+  "k": "helpIntro",
+  "en": "Tap a topic to read how it works.",
+  "tr": "Atinge un subiect ca să citești cum funcționează.",
+  "back": "Touch a subject to read how it works.",
+  "sim": 0.75
+ },
+ {
+  "k": "helpStartTitle",
+  "en": "Getting started",
+  "tr": "Primii pași",
+  "back": "The first steps",
+  "sim": 0.0
+ },
+ {
+  "k": "helpStart1",
+  "en": "On the home screen, tap Camera to take a photo or Gallery to pick one. Batch cuts out many photos at once.",
+  "tr": "Pe ecranul de start, atinge Cameră ca să faci o fotografie sau Galerie ca să alegi una. Lot decupează multe fotografii deodată.",
+  "back": "On the home screen, tap Camera to take a photo or Gallery to choose one.",
+  "sim": 0.76
+ },
+ {
+  "k": "helpStart2",
+  "en": "Every photo opens in Crop & Rotate first, then in the editor. Your original photo is never changed.",
+  "tr": "Fiecare fotografie se deschide mai întâi în Taie și rotește, apoi în editor. Fotografia originală nu este modificată niciodată.",
+  "back": "Each photo opens first in the cut and spins, then in the editor. The original photo is never altered.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpStart3",
+  "en": "When you are happy, tap Export in the editor. Recent Exports on the home screen lists everything you have exported.",
+  "tr": "Când ai terminat, atinge Exportă în editor. Exporturi recente, de pe ecranul de start, listează tot ce ai exportat.",
+  "back": "When you're done, tap Export in the editor. Recent exports, on the start screen, list everything you exported.",
+  "sim": 0.74
+ },
+ {
+  "k": "helpCropTitle",
+  "en": "Crop & Rotate",
+  "tr": "Taie și rotește",
+  "back": "Cutting and spinning",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCrop1",
+  "en": "Turn the photo left or right in 90° steps, and drag the frame to choose the part you want to keep.",
+  "tr": "Rotește fotografia la stânga sau la dreapta din 90° în 90° și trage cadrul ca să alegi partea pe care o păstrezi.",
+  "back": "Rotate the photo to the left or to the right from 90° to 90° and pull the frame to choose the part you want to keep.",
+  "sim": 0.72
+ },
+ {
+  "k": "helpCrop2",
+  "en": "Free lets you shape the frame as you like. 1:1, 4:5 and 9:16 lock its shape. Tap Continue to open the editor.",
+  "tr": "Liber îți lasă libertatea de a da cadrului orice formă. 1:1, 4:5 și 9:16 îi blochează forma. Atinge Continuă ca să deschizi editorul.",
+  "back": "Free allows you the freedom to give the frame any shape. 1:1, 4:5, and 9:16 block its shape. Tap Continue to open the editor.",
+  "sim": 0.7
+ },
+ {
+  "k": "helpCutoutTitle",
+  "en": "Cut-out",
+  "tr": "Decupare",
+  "back": "Decoupling",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCutout1",
+  "en": "When the editor opens, PhotoSur finds the main subject and removes the background automatically, on your phone. No internet is needed.",
+  "tr": "Când se deschide editorul, PhotoSur găsește subiectul principal și elimină automat fundalul, pe telefonul tău. Nu ai nevoie de internet.",
+  "back": "When you open the editor, PhotoSur finds the main subject and automatically deletes the background on your phone.",
+  "sim": 0.72
+ },
+ {
+  "k": "helpCutout2",
+  "en": "Edge Smoothness softens the edge of the cut-out, from 0 to 20 pixels.",
+  "tr": "Finețea marginilor înmoaie marginea decupării, de la 0 la 20 de pixeli.",
+  "back": "The end of the margins soften the cutting edge, from 0 to 20 pixels.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpCutout3",
+  "en": "The eye button at the top shows your original photo so you can compare. Tap it again to go back. The brush is paused while the original is shown.",
+  "tr": "Butonul în formă de ochi, din partea de sus, arată fotografia originală pentru comparație. Atinge-l din nou ca să revii. Pensula este în pauză cât timp se vede originalul.",
+  "back": "The eye-shaped button at the top shows the original photo for comparison. Touch it again to go back. The pencil is in pause while you see the original.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpCutout4",
+  "en": "For difficult subjects such as glass, shoes, bags and bottles, tap Get HD cut-out. The HD model downloads once, stays on your phone and then works offline. Once it is installed, every new cut-out uses it automatically. To redo the photo you have open, tap Redo cut-out in HD.",
+  "tr": "Pentru subiecte dificile, precum sticla, pantofii, gențile și sticlele, atinge Obține decuparea HD. Modelul HD se descarcă o singură dată, rămâne pe telefon și apoi funcționează offline. Odată instalat, fiecare decupare nouă îl folosește automat. Ca să refaci fotografia deschisă, atinge Refă decuparea în HD.",
+  "back": "For difficult subjects such as glass, shoes, bags, and glasses, tap Get HD Decoupage. The HD model is downloaded once, stays on the phone, and then runs offline. Once installed, each new decoupage uses it automatically.",
+  "sim": 0.66
+ },
+ {
+  "k": "helpBrushTitle",
+  "en": "Brush",
+  "tr": "Pensulă",
+  "back": "Pencil and pencil",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBrush1",
+  "en": "Erase removes parts of the subject. Restore brings back parts the cut-out removed.",
+  "tr": "Șterge elimină părți din subiect. Restaurează readuce părți pe care decuparea le-a scos.",
+  "back": "Erase removes parts of the subject. Restore recycled parts that the cutting removed.",
+  "sim": 0.77
+ },
+ {
+  "k": "helpBrush2",
+  "en": "Drag one finger to paint. Use two fingers to zoom, up to 8 times, and to move the photo. The brush keeps its size on screen, so zooming in gives finer control.",
+  "tr": "Trage cu un deget ca să pictezi. Folosește două degete ca să mărești, până la 8 ori, și ca să muți fotografia. Pensula își păstrează dimensiunea pe ecran, deci prin mărire poți lucra mai precis.",
+  "back": "Draw with one finger to paint. Use two fingers to magnify, up to eight times, and move the photo. The pencil keeps its size on the screen, so by magnifying you can work more precisely.",
+  "sim": 0.66
+ },
+ {
+  "k": "helpBrush3",
+  "en": "Brush Size goes from 1 to 50. Opacity sets how strongly each stroke applies.",
+  "tr": "Dimensiunea pensulei merge de la 1 la 50. Opacitatea stabilește cât de puternică este fiecare tușă.",
+  "back": "The size of the brush goes from 1 to 50. The opacity determines how strong each cough is.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpBrush4",
+  "en": "Undo and Redo step through your brush strokes. Reset clears all brush strokes and goes back to the automatic cut-out; it asks you to confirm first.",
+  "tr": "Anulează și Refă parcurg tușele de pensulă. Resetează șterge toate tușele și revine la decuparea automată; mai întâi ți se cere confirmarea.",
+  "back": "Cancel and refresh the brush coughs, reset, delete all the coughs, and go back to auto-cutting; you're first asked to confirm.",
+  "sim": 0.38
+ },
+ {
+  "k": "helpBackgroundTitle",
+  "en": "Background",
+  "tr": "Fundal",
+  "back": "Background",
+  "sim": 1.0
+ },
+ {
+  "k": "helpBackground1",
+  "en": "Choose what goes behind your subject: transparent, white, black, a gradient, a colour, a blurred copy of your photo, or your own photo.",
+  "tr": "Alege ce se află în spatele subiectului: transparent, alb, negru, un gradient, o culoare, o copie neclară a fotografiei tale sau propria ta fotografie.",
+  "back": "Choose what's behind the subject: transparent, white, black, a gradient, a color, a blurry copy of your photograph or your own photograph.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpBackground2",
+  "en": "Only one background is used at a time. Your latest choice replaces the earlier one.",
+  "tr": "Se folosește un singur fundal la un moment dat. Ultima ta alegere îl înlocuiește pe cea dinainte.",
+  "back": "You only use one background at a time. Your last choice replaces the previous one.",
+  "sim": 0.73
+ },
+ {
+  "k": "helpBackground3",
+  "en": "Add custom background lets you pick a photo from your gallery. Custom color opens a colour picker. The Blur slider goes from 0 to 25.",
+  "tr": "Adaugă fundal personalizat îți permite să alegi o fotografie din galerie. Culoare personalizată deschide un selector de culori. Cursorul Neclaritate merge de la 0 la 25.",
+  "back": "Adding a custom background allows you to choose a photo from the gallery. Custom color opens a color selector. The Blur course goes from 0 to 25.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpBackground4",
+  "en": "Transparent shows a checkerboard while you edit. Export as PNG to keep it transparent.",
+  "tr": "Transparent afișează un model în carouri în timpul editării. Exportă în PNG ca să păstrezi transparența.",
+  "back": "Transparent displays a pattern in frames during editing. Export to PNG to maintain transparency.",
+  "sim": 0.36
+ },
+ {
+  "k": "helpTemplatesTitle",
+  "en": "Templates",
+  "tr": "Șabloane",
+  "back": "Manufacture from materials of any heading",
+  "sim": 0.0
+ },
+ {
+  "k": "helpTemplates1",
+  "en": "Templates are ready-made backgrounds in five groups: Studio, Color block, Textures, Light & shadow, and Gradients & patterns. Five scenes are shown in the panel; tap the Templates button to see them all.",
+  "tr": "Șabloanele sunt fundaluri gata făcute în cinci grupuri: Studio, Culori unite, Texturi, Lumină și umbră și Gradiente și modele. În panou apar cinci scene; atinge butonul Șabloane ca să le vezi pe toate.",
+  "back": "The templates are ready-made backgrounds in five groups: Studio, Unified Colors, Texts, Light and Shadow and Gradients and Models. Five scenes appear in the panel; tap the Template button to see them all.",
+  "sim": 0.75
+ },
+ {
+  "k": "helpTemplates2",
+  "en": "Choosing a template works like choosing your own photo as the background: it replaces your earlier background choice.",
+  "tr": "Alegerea unui șablon e ca și cum ai alege propria fotografie drept fundal: înlocuiește alegerea anterioară de fundal.",
+  "back": "Choosing a template is like choosing your own photo as a background: it replaces the previous choice of background.",
+  "sim": 0.7
+ },
+ {
+  "k": "helpLayoutTitle",
+  "en": "Layout",
+  "tr": "Aspect",
+  "back": "Looking at you",
+  "sim": 0.0
+ },
+ {
+  "k": "helpLayout1",
+  "en": "Drag the subject on the photo to move it. Pinch with two fingers to resize it.",
+  "tr": "Trage subiectul pe fotografie ca să-l muți. Ciupește cu două degete ca să-i schimbi dimensiunea.",
+  "back": "Pull the subject onto the photo to move it. Bite it with two fingers to change its size.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpLayout2",
+  "en": "Choose Original, 1:1, 4:5 or 9:16 to set the shape of the final picture.",
+  "tr": "Alege Original, 1:1, 4:5 sau 9:16 ca să stabilești forma imaginii finale.",
+  "back": "Choose Original, 1:1, 4:5 or 9:16 to set the shape of the final image.",
+  "sim": 0.93
+ },
+ {
+  "k": "helpLayout3",
+  "en": "Size sets how big the subject is, from 20% to 300%. Shadow sets how strong its shadow is. Auto-center puts the subject back in the middle. Reset undoes moving and resizing.",
+  "tr": "Dimensiune stabilește cât de mare este subiectul, de la 20% la 300%. Umbră stabilește cât de puternică este umbra lui. Centrare auto readuce subiectul la mijloc. Resetează anulează mutările și redimensionările.",
+  "back": "Dimensions determine how large the subject is, from 20% to 300%. Shadow determines how strong its shadow is. Auto-centering brings the subject back to the center. Reset cancels the moves and resizations.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpLayout4",
+  "en": "This shape is used when the export size is Original. If you choose a size preset or a marketplace in the export sheet, that decides the final shape instead.",
+  "tr": "Această formă se aplică atunci când dimensiunea de export este Original. Dacă în fereastra de export alegi o dimensiune presetată sau un marketplace, acela decide forma finală.",
+  "back": "This form applies when the export size is Original. If in the export window you select a preset size or a marketplace, it decides the final form.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpExportTitle",
+  "en": "Export",
+  "tr": "Exportă",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "helpExport1",
+  "en": "Tap Export to open the export sheet. Nothing is applied until you tap Save to Gallery or Share, so you can change your choices as often as you like.",
+  "tr": "Atinge Exportă ca să deschizi fereastra de export. Nimic nu se aplică până nu atingi Salvează în galerie sau Distribuie, așa că îți poți schimba alegerile de câte ori vrei.",
+  "back": "Touch Export to open the export window. Nothing applies until you touch Save in Gallery or Distribution, so you can change your choices whenever you want.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpExport2",
+  "en": "PNG keeps transparency. JPG makes smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a small modern format; if your phone cannot make it, the file is saved as JPG. For JPG and WEBP, the Quality slider trades file size for detail.",
+  "tr": "PNG păstrează transparența. JPG produce fișiere mai mici, dar nu poate fi transparent, așa că un fundal transparent devine alb. WEBP este un format modern și compact; dacă telefonul nu îl poate crea, fișierul se salvează ca JPG. Pentru JPG și WEBP, cursorul Calitate echilibrează dimensiunea fișierului cu detaliile.",
+  "back": "PNG maintains transparency. JPG produces smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a modern and compact format; if the phone cannot create it, the file is saved as JPG. For JPG and WEBP, the Quality cursor balances the file size with the details.",
+  "sim": 0.78
+ },
+ {
+  "k": "helpExport3",
+  "en": "Original keeps your photo’s size, with the shape chosen in Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. Custom lets you type a width and height in pixels.",
+  "tr": "Original păstrează dimensiunea fotografiei, cu forma aleasă în Aspect. 1:1 înseamnă 1080 × 1080, 4:5 înseamnă 1080 × 1350 și 9:16 înseamnă 1080 × 1920. Personalizat îți permite să introduci lățimea și înălțimea în pixeli.",
+  "back": "Original keeps the size of the photo, with the shape chosen in Aspect. 1:1 means 1080 × 1080, 4:5 means 1080 × 1350 and 9:16 means 1080 × 1920. Custom allows you to enter the width and height in pixels.",
+  "sim": 0.7
+ },
+ {
+  "k": "helpExport4",
+  "en": "Marketplace presets set size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG kept under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices, and choosing a format or size afterwards switches the marketplace off. Marketplace rules can change, so check your marketplace’s current requirements.",
+  "tr": "Presetările de marketplace stabilesc dimensiunea, formatul și calitatea: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG sub 1 MB și Shopify 2048 × 2048 PNG. Alegerea unuia îți înlocuiește alegerile de format și dimensiune; dacă alegi apoi un format sau o dimensiune, marketplace-ul este deselectat. Regulile marketplace-urilor se pot schimba, așa că verifică cerințele actuale ale celui ales.",
+  "back": "Marketplace presets determine size, format, and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices; if you then choose a format or size, the marketplace is unselected.",
+  "sim": 0.77
+ },
+ {
+  "k": "helpExport5",
+  "en": "Amazon also uses a pure white background with no shadow and fits the subject to fill most of the frame. Your background choice in the editor is not changed. The other marketplaces keep your background.",
+  "tr": "Amazon folosește și un fundal alb pur, fără umbră, și ajustează subiectul ca să umple cea mai mare parte a cadrului. Alegerea ta de fundal din editor nu se schimbă. Celelalte marketplace-uri păstrează fundalul tău.",
+  "back": "Amazon also uses a pure white background, no shade, and it adjusts the subject to fill most of the frame. Your choice of editor background doesn't change. The other marketplaces keep your background.",
+  "sim": 0.74
+ },
+ {
+  "k": "helpExport6",
+  "en": "Save to Gallery and Share both save the picture to your gallery and to Recent Exports. Share also opens your phone’s share menu. If saving to the gallery is not possible, the share menu opens instead. After exporting you return to the home screen.",
+  "tr": "Salvează în galerie și Distribuie salvează amândouă imaginea în galeria ta și în Exporturi recente. Distribuie deschide în plus meniul de distribuire al telefonului. Dacă salvarea în galerie nu este posibilă, se deschide în schimb meniul de distribuire. După export, te întorci la ecranul de start.",
+  "back": "Save in the gallery and Distribution saves both the image in your gallery and in Recent Exports. Distribution also opens the distribution menu of your phone. If gallery saving is not possible, the distribution menu opens instead. After export, you go back to the home screen.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpExport7",
+  "en": "Unless you have removed ads, an ad can appear after an export, at most once every two minutes.",
+  "tr": "Dacă nu ai eliminat reclamele, după un export poate apărea o reclamă, cel mult o dată la două minute.",
+  "back": "If you have not deleted the advertisements, after an export an advertisement may appear at most once every two minutes.",
+  "sim": 0.58
+ },
+ {
+  "k": "helpBatchTitle",
+  "en": "Batch",
+  "tr": "Lot",
+  "back": "Lot",
+  "sim": 0.0
+ },
+ {
+  "k": "helpBatch1",
+  "en": "Batch cuts out up to 30 photos in one go. Tap Batch on the home screen and pick your photos. The back button is turned off while a batch runs.",
+  "tr": "Lot decupează până la 30 de fotografii deodată. Atinge Lot pe ecranul de start și alege fotografiile. Butonul Înapoi este dezactivat cât timp rulează un lot.",
+  "back": "Lot takes up to 30 photos at once. Tap Lot on the start screen and select the photos. The Back button is disabled while a lot is running.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpBatch2",
+  "en": "All photos in a batch share one setup: one background and one marketplace. You cannot choose differently for each photo.",
+  "tr": "Toate fotografiile dintr-un lot au aceeași setare: un fundal și un marketplace. Nu poți alege altceva pentru fiecare fotografie.",
+  "back": "All the photos in a batch have the same setting: a background and a marketplace. You can't choose something different for each photo.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpBatch3",
+  "en": "Backgrounds work as in the editor: your own photo, a colour, a template, white, transparent, black, blur or a gradient. Only one applies, and your latest choice replaces the earlier one.",
+  "tr": "Fundalurile funcționează ca în editor: propria fotografie, o culoare, un șablon, alb, transparent, negru, neclar sau un gradient. Se aplică doar unul, iar ultima alegere îl înlocuiește pe cel dinainte.",
+  "back": "The backgrounds work like an editor: your own photograph, a color, a template, white, transparent, black, blurry, or a gradient. Only one applies, and the last choice replaces the previous one.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpBatch4",
+  "en": "The file format is chosen for you. With a marketplace, the photos follow that marketplace’s size and format. Without one, a transparent background gives PNG and any other background gives JPG, at the original size.",
+  "tr": "Formatul fișierului este ales pentru tine. Cu un marketplace, fotografiile urmează dimensiunea și formatul acestuia. Fără marketplace, un fundal transparent dă PNG, iar orice alt fundal dă JPG, la dimensiunea originală.",
+  "back": "The file format is chosen for you. With a marketplace, the photos follow its size and format. Without a marketplace, a transparent background gives PNG, and any other background gives JPG, to the original size.",
+  "sim": 0.89
+ },
+ {
+  "k": "helpBatch5",
+  "en": "Choosing Amazon switches the background to White; if you then choose another background, Amazon is switched off. eBay, Etsy and Shopify keep your background, but a JPG cannot be transparent, so it gets a white background.",
+  "tr": "Alegerea Amazon trece fundalul pe Alb; dacă alegi apoi alt fundal, Amazon este deselectat. eBay, Etsy și Shopify păstrează fundalul tău, dar un JPG nu poate fi transparent, așa că primește fundal alb.",
+  "back": "The Amazon selection goes to the white background; if you then choose another background, Amazon is de-selected. eBay, Etsy and Shopify keep your background, but a JPG can't be transparent, so it gets the white background.",
+  "sim": 0.78
+ },
+ {
+  "k": "helpBatch6",
+  "en": "If the HD model is installed, every photo in the batch is cut out with it. The Get HD cut-out button next to Templates downloads it.",
+  "tr": "Dacă modelul HD este instalat, fiecare fotografie din lot este decupată cu el. Butonul Obține decuparea HD, de lângă Șabloane, îl descarcă.",
+  "back": "If the HD model is installed, every photo in the batch is decoupled with it.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpBatch7",
+  "en": "Each photo is saved to your gallery and to Recent Exports as soon as it finishes. Stop ends the batch after the current photo, and photos already finished stay saved. If a photo fails, the batch carries on and tells you how many could not be processed. Done takes you back to the home screen; it does not save anything.",
+  "tr": "Fiecare fotografie este salvată în galerie și în Exporturi recente de îndată ce este gata. Oprește încheie lotul după fotografia curentă, iar fotografiile deja terminate rămân salvate. Dacă o fotografie eșuează, lotul continuă și îți spune câte nu au putut fi procesate. Gata te readuce la ecranul de start; nu salvează nimic.",
+  "back": "Each photo is saved in the gallery and in Recent Exports as soon as it's ready. It stops the lot after the current photo, and the already finished photos stay saved. If a photo fails, the lot continues and tells you how much they couldn't be processed. It just brings you back to the home screen; it saves nothing.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpLibraryTitle",
+  "en": "Your exports",
+  "tr": "Exporturile tale",
+  "back": "Your exports",
+  "sim": 1.0
+ },
+ {
+  "k": "helpLibrary1",
+  "en": "Recent Exports on the home screen shows your latest exports. Tap See all for every export, grouped as Today, Yesterday, This week and Earlier.",
+  "tr": "Exporturi recente, de pe ecranul de start, arată cele mai noi exporturi. Atinge Vezi tot ca să le vezi pe toate, grupate în Astăzi, Ieri, Săptămâna aceasta și Mai vechi.",
+  "back": "Recent exports, on the home screen, shows the latest exports. Tap See Everything to see them all, grouped into Today, Yesterday, This Week and Earlier.",
+  "sim": 0.78
+ },
+ {
+  "k": "helpLibrary2",
+  "en": "Tap an export to open it full screen. Swipe to move between exports and pinch to zoom. The bar at the bottom has Share, Save to Gallery, Edit again and Delete.",
+  "tr": "Atinge un export ca să-l deschizi pe tot ecranul. Glisează ca să treci de la unul la altul și ciupește ca să mărești. Bara de jos oferă Distribuie, Salvează în galerie, Editează din nou și Șterge.",
+  "back": "Tap an export to open it all over the screen. Swipe to switch from one to the other and pin to enlarge. The bottom bar offers Distribution, Save to Gallery, Re-Edit, and Delete.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpLibrary3",
+  "en": "The three-dot button on a tile opens the same actions. Edit again opens the exported picture as a new photo, so earlier brush strokes are not restored.",
+  "tr": "Butonul cu trei puncte de pe o miniatură deschide aceleași acțiuni. Editează din nou deschide imaginea exportată ca pe o fotografie nouă, așa că tușele de pensulă anterioare nu sunt restaurate.",
+  "back": "The three-point button on a thumbnail opens the same actions. It edits again opens the exported image as a new photo, so the previous brush strokes are not restored.",
+  "sim": 0.79
+ },
+ {
+  "k": "helpLibrary4",
+  "en": "Select lets you choose several exports to share together or delete. Delete all exports removes every export from this phone.",
+  "tr": "Selectează îți permite să alegi mai multe exporturi ca să le distribui sau să le ștergi împreună. Șterge toate exporturile elimină toate exporturile de pe acest telefon.",
+  "back": "Select allows you to select multiple exports to distribute or delete together. Delete all exports deletes all exports from this phone.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpLibrary5",
+  "en": "Deleting removes exports from PhotoSur only. Pictures already saved to your gallery are not affected. The bottom of the See all screen shows how much space exports use on this phone.",
+  "tr": "Ștergerea elimină exporturile doar din PhotoSur. Imaginile deja salvate în galerie nu sunt atinse. În partea de jos a ecranului Vezi tot vezi cât spațiu ocupă exporturile pe acest telefon.",
+  "back": "The deletion deletes exports only from PhotoSur. The images already saved in the gallery are not touched. At the bottom of the screen you can still see how much space exports take up on this phone.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpPrivacyTitle",
+  "en": "Privacy & ads",
+  "tr": "Confidențialitate și reclame",
+  "back": "Confidentiality and advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "helpPrivacy1",
+  "en": "Your photos are processed on your phone and are not uploaded. There is no account and no watermark.",
+  "tr": "Fotografiile tale sunt procesate pe telefon și nu sunt încărcate. Nu există cont și nici filigran.",
+  "back": "Your photos are processed on the phone and they're not uploaded.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpPrivacy2",
+  "en": "PhotoSur is free with every feature included, supported by ads. A banner appears at the bottom of some screens, and an ad can appear after an export.",
+  "tr": "PhotoSur este gratuită, cu toate funcțiile incluse, și este susținută de reclame. În partea de jos a unor ecrane apare un banner, iar după un export poate apărea o reclamă.",
+  "back": "PhotoSur is free, with all the features included, and is supported by advertisements. At the bottom of some screens a banner appears, and after an export an advertisement may appear.",
+  "sim": 0.6
+ },
+ {
+  "k": "helpPrivacy3",
+  "en": "Go Ad-Free in Settings is a one-time purchase that removes the ads. It does not unlock anything else, because every feature is already free. Restore Purchases brings it back on a new phone.",
+  "tr": "Fără reclame, din Setări, este o achiziție unică ce elimină reclamele. Nu deblochează nimic altceva, pentru că toate funcțiile sunt deja gratuite. Restabilește achizițiile îl aduce înapoi pe un telefon nou.",
+  "back": "No ads, from Settings, it's a unique purchase that removes ads. It doesn't unlock anything else, because all the features are already free. Restores purchases brings it back to a new phone.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpSettingsTitle",
+  "en": "Settings",
+  "tr": "Setări",
+  "back": "Set-ups",
+  "sim": 0.0
+ },
+ {
+  "k": "helpSettings1",
+  "en": "Theme can follow your phone, or be Light or Dark. Language changes the language of the app. Both are also in the home screen header.",
+  "tr": "Tema poate urma telefonul tău sau poate fi Luminoasă ori Întunecată. Limba schimbă limba aplicației. Ambele se găsesc și în antetul ecranului de start.",
+  "back": "The theme can follow your phone or it can be Light or Dark. The language changes the language of the application. Both are also in the foreground of the start screen.",
+  "sim": 0.79
+ },
+ {
+  "k": "helpSettings2",
+  "en": "Edit reminders: if you leave the app with an unfinished edit, PhotoSur can remind you three hours later. Switch this off in Settings.",
+  "tr": "Mementouri de editare: dacă părăsești aplicația cu o editare neterminată, PhotoSur ți-o poate aminti după trei ore. Dezactivează opțiunea în Setări.",
+  "back": "Edit memos: if you leave the app with an unfinished edit, PhotoSur can remember it after three hours.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpSettings3",
+  "en": "HD cut-out model shows whether it is installed. Remove deletes it from your phone to free space; you can download it again at any time.",
+  "tr": "Model de decupare HD arată dacă este instalat. Elimină îl șterge de pe telefon ca să eliberezi spațiu; îl poți descărca din nou oricând.",
+  "back": "The HD decoder model shows if it's installed. Remove deletes it from your phone to free up space; you can download it again anytime.",
+  "sim": 0.73
+ },
+ {
+  "k": "helpSettings4",
+  "en": "Replay intro shows the welcome screens again. Support opens the support page. Animated home background turns the moving picture at the top of the home screen on or off.",
+  "tr": "Revezi introducerea afișează din nou ecranele de bun venit. Asistență deschide pagina de asistență. Fundal animat pentru ecranul principal pornește sau oprește imaginea în mișcare din partea de sus a ecranului principal.",
+  "back": "Reviewing the input displays the welcome screens again. Assistance opens the support page. Animated background for the main screen starts or stops the moving image from the top of the main screen.",
+  "sim": 0.56
+ },
+ {
+  "k": "helpFixTitle",
+  "en": "If something goes wrong",
+  "tr": "Dacă ceva nu merge",
+  "back": "If something goes wrong",
+  "sim": 1.0
+ },
+ {
+  "k": "helpFix1",
+  "en": "If the automatic cut-out cannot run on a very old or low-memory phone, the brush still works, so you can finish the picture by hand.",
+  "tr": "Dacă decuparea automată nu poate rula pe un telefon foarte vechi sau cu puțină memorie, pensula funcționează în continuare, așa că poți termina imaginea manual.",
+  "back": "If the autopilot can't run on a very old or memory-poor phone, the brush still works, so you can finish the image manually.",
+  "sim": 0.75
+ },
+ {
+  "k": "helpFix2",
+  "en": "If the HD download stops, check your connection and try again. It continues where it left off.",
+  "tr": "Dacă descărcarea HD se oprește, verifică conexiunea și încearcă din nou. Se reia de unde a rămas.",
+  "back": "If the HD download stops, check the connection and try again.",
+  "sim": 0.71
+ },
+ {
+  "k": "helpFix3",
+  "en": "For anything else, open Support from Settings.",
+  "tr": "Pentru orice altceva, deschide Asistență din Setări.",
+  "back": "For anything else, open the Assistance from Settings.",
+  "sim": 0.8
+ }
+]

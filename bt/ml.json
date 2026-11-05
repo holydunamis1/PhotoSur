@@ -1,0 +1,1780 @@
+[
+ {
+  "k": "onboardingPage1Title",
+  "en": "Remove backgrounds instantly. All features free.",
+  "tr": "ബാക്ക്ഗ്രൗണ്ടുകൾ തൽക്ഷണം നീക്കം ചെയ്യൂ. എല്ലാ ഫീച്ചറുകളും സൗജന്യം.",
+  "back": "Remove the background immediately, all features are free.",
+  "sim": 0.57
+ },
+ {
+  "k": "onboardingPage1Body",
+  "en": "Open a photo and our on-device AI removes the background automatically — no internet required. You can also swap in your own custom background.",
+  "tr": "ഫോട്ടോ തുറക്കൂ, നിങ്ങളുടെ ഫോണിലെ AI സ്വയം പശ്ചാത്തലം നീക്കം ചെയ്യും — ഇന്റർനെറ്റ് ആവശ്യമില്ല. നിങ്ങൾക്ക് സ്വന്തം ഇഷ്ടാനുസൃത പശ്ചാത്തലവും വയ്ക്കാം.",
+  "back": "Open the photo, and the AI will automatically remove the background on your phone. You don't need the Internet. You can also set your own custom background.",
+  "sim": 0.56
+ },
+ {
+  "k": "onboardingPage2Title",
+  "en": "Fine-tune with the brush",
+  "tr": "ബ്രഷ് ഉപയോഗിച്ച് മിനുക്കൂ",
+  "back": "Shine with the brush.",
+  "sim": 0.75
+ },
+ {
+  "k": "onboardingPage2Body",
+  "en": "Paint away what the AI missed or restore what you want to keep. Then crop, rotate, move and resize.",
+  "tr": "AI വിട്ടുപോയത് ബ്രഷ് കൊണ്ട് മായ്ക്കുക, അല്ലെങ്കിൽ സൂക്ഷിക്കാൻ ആഗ്രഹിക്കുന്നത് തിരികെ കൊണ്ടുവരിക. പിന്നീട് ക്രോപ്പ് ചെയ്യുക, തിരിക്കുക, നീക്കുക, വലുപ്പം മാറ്റുക.",
+  "back": "Eliminate the AI left behind with a brush, or bring back what you want to keep, and then crop it, spin it, move it, and resize it.",
+  "sim": 0.57
+ },
+ {
+  "k": "onboardingPage3Title",
+  "en": "Studio-ready backgrounds",
+  "tr": "സ്റ്റുഡിയോ നിലവാരമുള്ള പശ്ചാത്തലങ്ങൾ",
+  "back": "Studio-quality backgrounds",
+  "sim": 0.5
+ },
+ {
+  "k": "onboardingPage3Body",
+  "en": "Choose a colour, gradient, template or your own photo, with a natural shadow. Marketplace presets for Amazon, eBay, Etsy and Shopify set size and format for you.",
+  "tr": "ഒരു നിറം, ഗ്രേഡിയന്റ്, ടെംപ്ലേറ്റ് അല്ലെങ്കിൽ നിങ്ങളുടെ സ്വന്തം ഫോട്ടോ തിരഞ്ഞെടുക്കുക, സ്വാഭാവിക നിഴലോടെ. Amazon, eBay, Etsy, Shopify എന്നിവയ്ക്കുള്ള പ്രീസെറ്റുകൾ നിങ്ങൾക്കായി വലുപ്പവും ഫോർമാറ്റും സജ്ജമാക്കും.",
+  "back": "Choose a color, gradient, template, or your own photo, with natural shading. Presets for Amazon, eBay, Etsy, and Shopify will set the size and format for you.",
+  "sim": 0.85
+ },
+ {
+  "k": "onboardingPage4Title",
+  "en": "Batch it, export it, keep it private",
+  "tr": "ഒരുമിച്ച് ഒട്ടേറെ, ഇഷ്ടമുള്ള ഫോർമാറ്റിൽ, പൂർണ്ണമായും സ്വകാര്യം",
+  "back": "Many together, in any format, completely private.",
+  "sim": 0.14
+ },
+ {
+  "k": "onboardingPage4Body",
+  "en": "Cut out up to 30 photos at once and export as PNG, JPG or WEBP. Your photos never leave your phone. Available in 43 languages.",
+  "tr": "ഒരേസമയം 30 ഫോട്ടോകൾ വരെ പശ്ചാത്തലം നീക്കി PNG, JPG അല്ലെങ്കിൽ WEBP ആയി എക്സ്പോർട്ട് ചെയ്യുക. നിങ്ങളുടെ ഫോട്ടോകൾ ഒരിക്കലും ഫോണിന് പുറത്തുപോകില്ല. 43 ഭാഷകളിൽ ലഭ്യമാണ്.",
+  "back": "Move up to 30 photos at a time and export them as PNG, JPG or WEBP. Your photos will never leave your phone. Available in 43 languages.",
+  "sim": 0.85
+ },
+ {
+  "k": "onboardingNext",
+  "en": "Next",
+  "tr": "അടുത്തത്",
+  "back": "The next one.",
+  "sim": 0.5
+ },
+ {
+  "k": "onboardingGetStarted",
+  "en": "Get Started",
+  "tr": "തുടങ്ങാം",
+  "back": "Let's get started.",
+  "sim": 0.8
+ },
+ {
+  "k": "homeCameraButton",
+  "en": "Camera",
+  "tr": "ക്യാമറ",
+  "back": "The camera.",
+  "sim": 0.67
+ },
+ {
+  "k": "homeGalleryButton",
+  "en": "Gallery",
+  "tr": "ഗാലറി",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "dateToday",
+  "en": "Today",
+  "tr": "ഇന്ന്",
+  "back": "It's today.",
+  "sim": 0.67
+ },
+ {
+  "k": "dateYesterday",
+  "en": "Yesterday",
+  "tr": "ഇന്നലെ",
+  "back": "Yesterday.",
+  "sim": 1.0
+ },
+ {
+  "k": "homeRecentExports",
+  "en": "Recent Exports",
+  "tr": "സമീപകാല എക്സ്പോർട്ടുകൾ",
+  "back": "Recent exports",
+  "sim": 1.0
+ },
+ {
+  "k": "homeEmptyStateMessage",
+  "en": "Tap Camera or Gallery to start.",
+  "tr": "തുടങ്ങാൻ ക്യാമറയോ ഗാലറിയോ തൊടൂ.",
+  "back": "Touch the camera or the gallery to start.",
+  "sim": 0.71
+ },
+ {
+  "k": "homeExportUnavailable",
+  "en": "This export is no longer available.",
+  "tr": "ഈ എക്സ്പോർട്ട് ഇനി ലഭ്യമല്ല.",
+  "back": "This export is no longer available.",
+  "sim": 1.0
+ },
+ {
+  "k": "homeShareFailed",
+  "en": "Could not share this export.",
+  "tr": "ഈ എക്സ്പോർട്ട് പങ്കിടാൻ കഴിഞ്ഞില്ല.",
+  "back": "We couldn't share this export.",
+  "sim": 0.6
+ },
+ {
+  "k": "homeGalleryOpenFailed",
+  "en": "Could not open gallery.",
+  "tr": "ഗാലറി തുറക്കാൻ കഴിഞ്ഞില്ല.",
+  "back": "I couldn't open the gallery.",
+  "sim": 0.44
+ },
+ {
+  "k": "cameraTitle",
+  "en": "Camera",
+  "tr": "ക്യാമറ",
+  "back": "The camera.",
+  "sim": 0.67
+ },
+ {
+  "k": "cameraPermissionDenied",
+  "en": "Camera access is needed to take a photo. Please allow access.",
+  "tr": "ഫോട്ടോ എടുക്കാൻ ക്യാമറ ആക്സസ് ആവശ്യമാണ്. ദയവായി അനുവദിക്കൂ.",
+  "back": "I need camera access to take pictures.",
+  "sim": 0.44
+ },
+ {
+  "k": "cameraPermissionPermanentlyDenied",
+  "en": "Camera access was denied. Enable it in Settings to continue.",
+  "tr": "ക്യാമറ ആക്സസ് നിരസിച്ചിരിക്കുന്നു. തുടരാൻ ക്രമീകരണങ്ങളിൽ ഓണാക്കൂ.",
+  "back": "Camera access has been denied.",
+  "sim": 0.4
+ },
+ {
+  "k": "cameraPermissionRestricted",
+  "en": "Camera access is restricted on this device.",
+  "tr": "ഈ ഉപകരണത്തിൽ ക്യാമറ ആക്സസ് നിയന്ത്രിച്ചിരിക്കുന്നു.",
+  "back": "The camera access is restricted on this device.",
+  "sim": 0.93
+ },
+ {
+  "k": "cameraNoCameraFound",
+  "en": "No camera found on this device.",
+  "tr": "ഈ ഉപകരണത്തിൽ ക്യാമറ കണ്ടെത്താനായില്ല.",
+  "back": "I couldn't find the camera on this device.",
+  "sim": 0.57
+ },
+ {
+  "k": "cameraStartFailed",
+  "en": "Could not start the camera.",
+  "tr": "ക്യാമറ ആരംഭിക്കാൻ കഴിഞ്ഞില്ല.",
+  "back": "The camera couldn't start.",
+  "sim": 0.44
+ },
+ {
+  "k": "cameraCaptureFailed",
+  "en": "Could not capture photo.",
+  "tr": "ഫോട്ടോ എടുക്കാൻ കഴിഞ്ഞില്ല.",
+  "back": "I couldn't take a picture.",
+  "sim": 0.0
+ },
+ {
+  "k": "cameraOpenSettings",
+  "en": "Open Settings",
+  "tr": "ക്രമീകരണങ്ങൾ തുറക്കൂ",
+  "back": "Open the settings",
+  "sim": 0.8
+ },
+ {
+  "k": "cameraFlashTooltip",
+  "en": "Flash",
+  "tr": "ഫ്ലാഷ്",
+  "back": "The flash.",
+  "sim": 0.67
+ },
+ {
+  "k": "cameraGalleryTooltip",
+  "en": "Gallery",
+  "tr": "ഗാലറി",
+  "back": "Gallery",
+  "sim": 1.0
+ },
+ {
+  "k": "cropTitle",
+  "en": "Crop & Rotate",
+  "tr": "ക്രോപ്പും തിരിക്കലും",
+  "back": "Harvesting and rolling",
+  "sim": 0.0
+ },
+ {
+  "k": "cropLoadFailed",
+  "en": "Could not load the image.",
+  "tr": "ചിത്രം ലോഡ് ചെയ്യാൻ കഴിഞ്ഞില്ല.",
+  "back": "I couldn't load the picture.",
+  "sim": 0.4
+ },
+ {
+  "k": "cropRotateFailed",
+  "en": "Could not rotate the image.",
+  "tr": "ചിത്രം തിരിക്കാൻ കഴിഞ്ഞില്ല.",
+  "back": "I couldn't turn the picture.",
+  "sim": 0.2
+ },
+ {
+  "k": "cropFailed",
+  "en": "Crop failed.",
+  "tr": "ക്രോപ്പ് പരാജയപ്പെട്ടു.",
+  "back": "The crop failed.",
+  "sim": 0.8
+ },
+ {
+  "k": "cropSaveFailed",
+  "en": "Could not save the cropped image.",
+  "tr": "ക്രോപ്പ് ചെയ്ത ചിത്രം സേവ് ചെയ്യാൻ കഴിഞ്ഞില്ല.",
+  "back": "I couldn't save the cropped image.",
+  "sim": 0.67
+ },
+ {
+  "k": "cropAspectFree",
+  "en": "Free",
+  "tr": "ഫ്രീ",
+  "back": "It's free.",
+  "sim": 0.67
+ },
+ {
+  "k": "cropContinue",
+  "en": "Continue",
+  "tr": "തുടരുക",
+  "back": "Keep going.",
+  "sim": 0.0
+ },
+ {
+  "k": "editorSegmentationFailedMessage",
+  "en": "Your device doesn't support automatic background removal. Use the manual brush below.",
+  "tr": "നിങ്ങളുടെ ഉപകരണം സ്വയമേവ പശ്ചാത്തലം നീക്കുന്നതിനെ പിന്തുണയ്ക്കുന്നില്ല. താഴെയുള്ള മാനുവൽ ബ്രഷ് ഉപയോഗിക്കൂ.",
+  "back": "Your device does not support automatic background moving. Use the manual brush below.",
+  "sim": 0.8
+ },
+ {
+  "k": "brushErase",
+  "en": "Erase",
+  "tr": "മായ്ക്കുക",
+  "back": "Clean it up.",
+  "sim": 0.0
+ },
+ {
+  "k": "brushRestore",
+  "en": "Restore",
+  "tr": "തിരികെ",
+  "back": "I'm going back.",
+  "sim": 0.0
+ },
+ {
+  "k": "brushSizeLabel",
+  "en": "Brush Size",
+  "tr": "ബ്രഷ് വലുപ്പം",
+  "back": "Brush size",
+  "sim": 1.0
+ },
+ {
+  "k": "brushOpacityLabel",
+  "en": "Opacity",
+  "tr": "അതാര്യത",
+  "back": "Uncertainty",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundWhite",
+  "en": "White",
+  "tr": "വെള്ള",
+  "back": "The white.",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundTransparent",
+  "en": "Transparent",
+  "tr": "സുതാര്യം",
+  "back": "Transparency",
+  "sim": 0.0
+ },
+ {
+  "k": "backgroundBlack",
+  "en": "Black",
+  "tr": "കറുപ്പ്",
+  "back": "It's black.",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundBlurLabel",
+  "en": "Blur",
+  "tr": "ബ്ലർ",
+  "back": "Blear .",
+  "sim": 0.0
+ },
+ {
+  "k": "edgeFeatherLabel",
+  "en": "Edge Smoothness",
+  "tr": "അരികുകളുടെ മൃദുത്വം",
+  "back": "The softness of the edges",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarUndo",
+  "en": "Undo",
+  "tr": "പഴയപടി",
+  "back": "The other way round.",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarRedo",
+  "en": "Redo",
+  "tr": "വീണ്ടും",
+  "back": "It's over again.",
+  "sim": 0.0
+ },
+ {
+  "k": "toolbarReset",
+  "en": "Reset",
+  "tr": "റീസെറ്റ്",
+  "back": "Reset",
+  "sim": 1.0
+ },
+ {
+  "k": "toolbarExport",
+  "en": "Export",
+  "tr": "എക്സ്പോർട്ട്",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmTitle",
+  "en": "Reset edits?",
+  "tr": "എഡിറ്റുകൾ റീസെറ്റ് ചെയ്യണോ?",
+  "back": "Do you want to reset the edits?",
+  "sim": 0.44
+ },
+ {
+  "k": "resetConfirmBody",
+  "en": "This clears your manual brush strokes. This cannot be undone.",
+  "tr": "ഇത് നിങ്ങൾ കൈകൊണ്ട് വരച്ച ബ്രഷ് സ്ട്രോക്കുകൾ മായ്ക്കും. ഇത് പഴയപടിയാക്കാനാവില്ല.",
+  "back": "This will erase your hand-painted brush strokes, which is irreversible.",
+  "sim": 0.4
+ },
+ {
+  "k": "resetConfirmCancel",
+  "en": "Cancel",
+  "tr": "റദ്ദാക്കുക",
+  "back": "Cancellation",
+  "sim": 0.0
+ },
+ {
+  "k": "resetConfirmConfirm",
+  "en": "Reset",
+  "tr": "റീസെറ്റ്",
+  "back": "Reset",
+  "sim": 1.0
+ },
+ {
+  "k": "exportTitle",
+  "en": "Export",
+  "tr": "എക്സ്പോർട്ട്",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "exportQualityLabel",
+  "en": "Quality: {value}",
+  "tr": "ഗുണനിലവാരം: {value}",
+  "back": "Quality: [value]",
+  "sim": 1.0
+ },
+ {
+  "k": "exportResizeLabel",
+  "en": "Resize",
+  "tr": "വലുപ്പം മാറ്റുക",
+  "back": "Change the size",
+  "sim": 0.0
+ },
+ {
+  "k": "exportResizeOriginal",
+  "en": "Original",
+  "tr": "ഒറിജിനൽ",
+  "back": "The original",
+  "sim": 0.67
+ },
+ {
+  "k": "exportResizeCustom",
+  "en": "Custom",
+  "tr": "ഇഷ്ടാനുസൃതം",
+  "back": "Customized",
+  "sim": 0.0
+ },
+ {
+  "k": "exportWidthLabel",
+  "en": "Width (px)",
+  "tr": "വീതി (px)",
+  "back": "width (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportHeightLabel",
+  "en": "Height (px)",
+  "tr": "ഉയരം (px)",
+  "back": "Height (px)",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSaveToGallery",
+  "en": "Save to Gallery",
+  "tr": "ഗാലറിയിൽ സേവ് ചെയ്യുക",
+  "back": "Save in the gallery",
+  "sim": 0.57
+ },
+ {
+  "k": "exportShare",
+  "en": "Share",
+  "tr": "പങ്കിടുക",
+  "back": "Share",
+  "sim": 1.0
+ },
+ {
+  "k": "exportSuccess",
+  "en": "Exported!",
+  "tr": "എക്സ്പോർട്ട് ചെയ്തു!",
+  "back": "Exported!",
+  "sim": 1.0
+ },
+ {
+  "k": "exportFailed",
+  "en": "Export failed. Please try again.",
+  "tr": "എക്സ്പോർട്ട് പരാജയപ്പെട്ടു. വീണ്ടും ശ്രമിക്കൂ.",
+  "back": "Export failed, try again.",
+  "sim": 0.89
+ },
+ {
+  "k": "exportInProgress",
+  "en": "Exporting…",
+  "tr": "എക്സ്പോർട്ട് ചെയ്യുന്നു…",
+  "back": "Exporting...",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsTitle",
+  "en": "Settings",
+  "tr": "ക്രമീകരണങ്ങൾ",
+  "back": "Settings",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsTheme",
+  "en": "Theme",
+  "tr": "തീം",
+  "back": "The theme",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsLanguage",
+  "en": "Language",
+  "tr": "ഭാഷ",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "വാങ്ങലുകൾ പുനഃസ്ഥാപിക്കുക",
+  "back": "Restore purchases",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsGoAdFree",
+  "en": "Go Ad-Free",
+  "tr": "പരസ്യങ്ങൾ ഒഴിവാക്കൂ",
+  "back": "Avoid advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsPrivacyPolicy",
+  "en": "Privacy Policy",
+  "tr": "സ്വകാര്യതാ നയം",
+  "back": "Privacy policy",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsSupport",
+  "en": "Support",
+  "tr": "പിന്തുണ",
+  "back": "Support",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsRateApp",
+  "en": "Rate App",
+  "tr": "ആപ്പിന് റേറ്റിംഗ് നൽകൂ",
+  "back": "Give the app a rating.",
+  "sim": 0.29
+ },
+ {
+  "k": "settingsShareApp",
+  "en": "Share App",
+  "tr": "ആപ്പ് പങ്കിടൂ",
+  "back": "Share the app",
+  "sim": 0.8
+ },
+ {
+  "k": "settingsLicenses",
+  "en": "Open-source licenses",
+  "tr": "ഓപ്പൺ സോഴ്സ് ലൈസൻസുകൾ",
+  "back": "Open source licenses",
+  "sim": 0.4
+ },
+ {
+  "k": "reminderChannelName",
+  "en": "Edit reminders",
+  "tr": "എഡിറ്റ് ഓർമ്മപ്പെടുത്തലുകൾ",
+  "back": "Edit reminders",
+  "sim": 1.0
+ },
+ {
+  "k": "reminderChannelDescription",
+  "en": "Reminders about edits you have not finished.",
+  "tr": "നിങ്ങൾ പൂർത്തിയാക്കാത്ത എഡിറ്റുകളെക്കുറിച്ചുള്ള ഓർമ്മപ്പെടുത്തലുകൾ.",
+  "back": "Reminders of edits you haven't completed.",
+  "sim": 0.46
+ },
+ {
+  "k": "reminderTitle",
+  "en": "Your edit is waiting",
+  "tr": "നിങ്ങളുടെ എഡിറ്റ് കാത്തിരിക്കുന്നു",
+  "back": "Waiting for your editing",
+  "sim": 0.25
+ },
+ {
+  "k": "reminderBody",
+  "en": "Pick up where you left off and export your photo.",
+  "tr": "നിർത്തിയിടത്തുനിന്ന് തുടർന്ന് നിങ്ങളുടെ ഫോട്ടോ എക്സ്പോർട്ട് ചെയ്യൂ.",
+  "back": "Export your photo from the stop.",
+  "sim": 0.38
+ },
+ {
+  "k": "settingsReminders",
+  "en": "Edit reminders",
+  "tr": "എഡിറ്റ് ഓർമ്മപ്പെടുത്തലുകൾ",
+  "back": "Edit reminders",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsAnimatedBackground",
+  "en": "Animated home background",
+  "tr": "ഹോമിന്റെ അനിമേറ്റഡ് പശ്ചാത്തലം",
+  "back": "The animated backdrop of the home",
+  "sim": 0.44
+ },
+ {
+  "k": "settingsRemindersSubtitle",
+  "en": "Remind me about unfinished edits",
+  "tr": "പൂർത്തിയാകാത്ത എഡിറ്റുകൾ ഓർമ്മിപ്പിക്കൂ",
+  "back": "Remember the unfinished edits.",
+  "sim": 0.44
+ },
+ {
+  "k": "settingsRemindersBlocked",
+  "en": "Notifications are turned off for PhotoSur in your phone's settings.",
+  "tr": "നിങ്ങളുടെ ഫോൺ ക്രമീകരണങ്ങളിൽ PhotoSur-ന്റെ അറിയിപ്പുകൾ ഓഫാണ്.",
+  "back": "PhotoSur's notifications are off in your phone settings.",
+  "sim": 0.67
+ },
+ {
+  "k": "editorBrushHint",
+  "en": "Drag to paint. Pinch with two fingers to zoom.",
+  "tr": "വരയ്ക്കാൻ വലിക്കൂ. സൂം ചെയ്യാൻ രണ്ട് വിരലുകൾ കൊണ്ട് പിഞ്ച് ചെയ്യൂ.",
+  "back": "Pull to draw, zoom in with two fingers.",
+  "sim": 0.47
+ },
+ {
+  "k": "editorToolCutout",
+  "en": "Cut-out",
+  "tr": "കട്ട്-ഔട്ട്",
+  "back": "Cut-out",
+  "sim": 1.0
+ },
+ {
+  "k": "editorToolBrush",
+  "en": "Brush",
+  "tr": "ബ്രഷ്",
+  "back": "The brush",
+  "sim": 0.67
+ },
+ {
+  "k": "editorToolBackground",
+  "en": "Background",
+  "tr": "പശ്ചാത്തലം",
+  "back": "The background",
+  "sim": 0.67
+ },
+ {
+  "k": "editorToolLayout",
+  "en": "Layout",
+  "tr": "ലേഔട്ട്",
+  "back": "The layout",
+  "sim": 0.67
+ },
+ {
+  "k": "layoutAutoCenter",
+  "en": "Auto-center",
+  "tr": "ഓട്ടോ-സെന്റർ",
+  "back": "Auto-center",
+  "sim": 1.0
+ },
+ {
+  "k": "layoutSizeLabel",
+  "en": "Size",
+  "tr": "വലുപ്പം",
+  "back": "Size",
+  "sim": 1.0
+ },
+ {
+  "k": "layoutShadowLabel",
+  "en": "Shadow",
+  "tr": "നിഴൽ",
+  "back": "The shadow.",
+  "sim": 0.67
+ },
+ {
+  "k": "backgroundPhoto",
+  "en": "Photo",
+  "tr": "ഫോട്ടോ",
+  "back": "This is a photo.",
+  "sim": 0.4
+ },
+ {
+  "k": "backgroundPhotoFailed",
+  "en": "Could not load that photo.",
+  "tr": "ആ ഫോട്ടോ ലോഡ് ചെയ്യാൻ കഴിഞ്ഞില്ല.",
+  "back": "I couldn't upload that photo.",
+  "sim": 0.4
+ },
+ {
+  "k": "editorLayoutHint",
+  "en": "Drag to move. Pinch with two fingers to resize.",
+  "tr": "നീക്കാൻ വലിക്കൂ. വലുപ്പം മാറ്റാൻ രണ്ട് വിരലുകൾ കൊണ്ട് പിഞ്ച് ചെയ്യൂ.",
+  "back": "Pull it up, pinch it with two fingers to change the size.",
+  "sim": 0.48
+ },
+ {
+  "k": "languageSystemDefault",
+  "en": "System default",
+  "tr": "സിസ്റ്റം ഡിഫോൾട്ട്",
+  "back": "Default system",
+  "sim": 0.5
+ },
+ {
+  "k": "languageSheetTitle",
+  "en": "Language",
+  "tr": "ഭാഷ",
+  "back": "Language",
+  "sim": 1.0
+ },
+ {
+  "k": "themeSheetTitle",
+  "en": "Theme",
+  "tr": "തീം",
+  "back": "The theme",
+  "sim": 0.67
+ },
+ {
+  "k": "themeOptionSystem",
+  "en": "System default",
+  "tr": "സിസ്റ്റം ഡിഫോൾട്ട്",
+  "back": "Default system",
+  "sim": 0.5
+ },
+ {
+  "k": "themeOptionLight",
+  "en": "Light",
+  "tr": "ലൈറ്റ്",
+  "back": "The light.",
+  "sim": 0.67
+ },
+ {
+  "k": "themeOptionDark",
+  "en": "Dark",
+  "tr": "ഡാർക്ക്",
+  "back": "It's dark.",
+  "sim": 0.67
+ },
+ {
+  "k": "settingsLinkNotReady",
+  "en": "This link isn't set up yet.",
+  "tr": "ഈ ലിങ്ക് ഇതുവരെ സജ്ജമാക്കിയിട്ടില്ല.",
+  "back": "This link has not yet been set.",
+  "sim": 0.46
+ },
+ {
+  "k": "settingsLinkOpenFailed",
+  "en": "Could not open link.",
+  "tr": "ലിങ്ക് തുറക്കാൻ കഴിഞ്ഞില്ല.",
+  "back": "I couldn't open the link.",
+  "sim": 0.44
+ },
+ {
+  "k": "settingsRestoreRequested",
+  "en": "Restore requested — check back in a moment.",
+  "tr": "പുനഃസ്ഥാപിക്കൽ അഭ്യർത്ഥിച്ചു — അൽപ്പസമയം കഴിഞ്ഞ് നോക്കൂ.",
+  "back": "Request for restoration. See you in a few hours.",
+  "sim": 0.25
+ },
+ {
+  "k": "settingsRestoreFailed",
+  "en": "Restore failed.",
+  "tr": "പുനഃസ്ഥാപിക്കൽ പരാജയപ്പെട്ടു.",
+  "back": "Restoration has failed.",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsShareFailed",
+  "en": "Could not share.",
+  "tr": "പങ്കിടാൻ കഴിഞ്ഞില്ല.",
+  "back": "Couldn't share.",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsShareAppMessage",
+  "en": "Remove photo backgrounds instantly with PhotoSur — free, no watermark.",
+  "tr": "PhotoSur ഉപയോഗിച്ച് ഫോട്ടോ പശ്ചാത്തലങ്ങൾ ഉടനടി നീക്കൂ — സൗജന്യം, വാട്ടർമാർക്ക് ഇല്ല.",
+  "back": "Use PhotoSur to remove photo backgrounds instantly. Free of charge, no watermarks.",
+  "sim": 0.57
+ },
+ {
+  "k": "paywallTitle",
+  "en": "Go Ad-Free",
+  "tr": "പരസ്യങ്ങൾ ഒഴിവാക്കൂ",
+  "back": "Avoid advertising",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallAlreadyAdFree",
+  "en": "You're already ad-free. Thank you!",
+  "tr": "നിങ്ങൾ ഇതിനകം പരസ്യരഹിതമാണ്. നന്ദി!",
+  "back": "You're already ad-free. Thank you!",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallPlanFreeTitle",
+  "en": "Free",
+  "tr": "സൗജന്യം",
+  "back": "It's free.",
+  "sim": 0.67
+ },
+ {
+  "k": "paywallPlanAdFreeTitle",
+  "en": "Ad-Free",
+  "tr": "പരസ്യരഹിതം",
+  "back": "Advertising free",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPlanAdFreePrice",
+  "en": "One-time purchase",
+  "tr": "ഒറ്റത്തവണ വാങ്ങൽ",
+  "back": "One-time purchase",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallFeatureAllFeatures",
+  "en": "All features",
+  "tr": "എല്ലാ ഫീച്ചറുകളും",
+  "back": "All the features.",
+  "sim": 0.8
+ },
+ {
+  "k": "paywallFeatureAdSupported",
+  "en": "Ad-supported",
+  "tr": "പരസ്യങ്ങളോടെ",
+  "back": "With advertisements",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallFeatureZeroAds",
+  "en": "Zero ads",
+  "tr": "പരസ്യങ്ങളില്ല",
+  "back": "There are no advertisements.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallPurchaseButton",
+  "en": "Remove Ads",
+  "tr": "പരസ്യങ്ങൾ നീക്കൂ",
+  "back": "Remove the ads.",
+  "sim": 0.8
+ },
+ {
+  "k": "paywallPurchaseButtonPrice",
+  "en": "Remove Ads — {price}",
+  "tr": "പരസ്യങ്ങൾ നീക്കൂ — {price}",
+  "back": "I'm going to tell you what I'm going to do.",
+  "sim": 0.0
+ },
+ {
+  "k": "paywallRestorePurchases",
+  "en": "Restore Purchases",
+  "tr": "വാങ്ങലുകൾ പുനഃസ്ഥാപിക്കുക",
+  "back": "Restore purchases",
+  "sim": 1.0
+ },
+ {
+  "k": "paywallProductUnavailable",
+  "en": "Ad removal is not available right now.",
+  "tr": "പരസ്യം നീക്കം ചെയ്യൽ ഇപ്പോൾ ലഭ്യമല്ല.",
+  "back": "Ad removal is no longer available.",
+  "sim": 0.62
+ },
+ {
+  "k": "paywallPurchaseFailed",
+  "en": "Purchase failed.",
+  "tr": "വാങ്ങൽ പരാജയപ്പെട്ടു.",
+  "back": "The purchase failed.",
+  "sim": 0.8
+ },
+ {
+  "k": "errorScreenTitle",
+  "en": "Something went wrong",
+  "tr": "എന്തോ കുഴപ്പം സംഭവിച്ചു",
+  "back": "Something's wrong.",
+  "sim": 0.4
+ },
+ {
+  "k": "errorScreenBody",
+  "en": "Try again, or restart the app if this keeps happening.",
+  "tr": "വീണ്ടും ശ്രമിക്കൂ, ഇത് ആവർത്തിച്ചാൽ ആപ്പ് റീസ്റ്റാർട്ട് ചെയ്യൂ.",
+  "back": "Try again, restart the app if this happens again.",
+  "sim": 0.74
+ },
+ {
+  "k": "errorScreenGoBack",
+  "en": "Go back",
+  "tr": "തിരികെ പോകൂ",
+  "back": "Get back in there.",
+  "sim": 0.33
+ },
+ {
+  "k": "errorScreenReportEmail",
+  "en": "Report via {email}",
+  "tr": "{email} വഴി റിപ്പോർട്ട് ചെയ്യൂ",
+  "back": "Please report by [email]",
+  "sim": 0.57
+ },
+ {
+  "k": "unsupportedTitle",
+  "en": "Device Not Supported",
+  "tr": "ഉപകരണം പിന്തുണയ്ക്കുന്നില്ല",
+  "back": "The device is not supported.",
+  "sim": 0.75
+ },
+ {
+  "k": "unsupportedNoCameraMessage",
+  "en": "This device doesn't have a camera available.",
+  "tr": "ഈ ഉപകരണത്തിൽ ക്യാമറ ലഭ്യമല്ല.",
+  "back": "The camera is not available on this device.",
+  "sim": 0.27
+ },
+ {
+  "k": "unsupportedLowMemoryMessage",
+  "en": "This device doesn't have enough memory to run PhotoSur's editor reliably.",
+  "tr": "PhotoSur എഡിറ്റർ വിശ്വസനീയമായി പ്രവർത്തിപ്പിക്കാൻ ഈ ഉപകരണത്തിൽ മതിയായ മെമ്മറി ഇല്ല.",
+  "back": "This device does not have enough memory to run the PhotoSur editor reliably.",
+  "sim": 0.75
+ },
+ {
+  "k": "unsupportedManualImportHint",
+  "en": "You can still import a photo from your gallery and use the manual brush tool.",
+  "tr": "ഗാലറിയിൽ നിന്ന് ഫോട്ടോ ഇമ്പോർട്ട് ചെയ്ത് മാനുവൽ ബ്രഷ് ടൂൾ ഉപയോഗിക്കാം.",
+  "back": "You can import photos from the gallery and use the manual brush tool.",
+  "sim": 0.79
+ },
+ {
+  "k": "unsupportedUseGalleryButton",
+  "en": "Import from Gallery",
+  "tr": "ഗാലറിയിൽ നിന്ന് ഇമ്പോർട്ട്",
+  "back": "Imported from the gallery",
+  "sim": 0.57
+ },
+ {
+  "k": "homeBatchButton",
+  "en": "Batch",
+  "tr": "ബാച്ച്",
+  "back": "The batch.",
+  "sim": 0.67
+ },
+ {
+  "k": "batchTitle",
+  "en": "Batch cut-out",
+  "tr": "ബാച്ച് കട്ട്-ഔട്ട്",
+  "back": "Batch cut-out",
+  "sim": 1.0
+ },
+ {
+  "k": "batchOutputTransparent",
+  "en": "Transparent PNG",
+  "tr": "സുതാര്യമായ PNG",
+  "back": "Transparent PNG",
+  "sim": 1.0
+ },
+ {
+  "k": "batchOutputWhite",
+  "en": "White background (JPG)",
+  "tr": "വെള്ള പശ്ചാത്തലം (JPG)",
+  "back": "White background (JPG)",
+  "sim": 1.0
+ },
+ {
+  "k": "batchStart",
+  "en": "Start",
+  "tr": "ആരംഭിക്കുക",
+  "back": "Let's get started.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchStop",
+  "en": "Stop",
+  "tr": "നിർത്തുക",
+  "back": "Stop it.",
+  "sim": 0.67
+ },
+ {
+  "k": "batchDone",
+  "en": "Done",
+  "tr": "പൂർത്തിയായി",
+  "back": "It's finished.",
+  "sim": 0.0
+ },
+ {
+  "k": "batchProgress",
+  "en": "{done} of {total} done",
+  "tr": "{total}-ൽ {done} പൂർത്തിയായി",
+  "back": "Completed in [total]",
+  "sim": 0.29
+ },
+ {
+  "k": "batchSaved",
+  "en": "{count} saved to your gallery",
+  "tr": "{count} എണ്ണം ഗാലറിയിൽ സേവ് ചെയ്തു",
+  "back": "[count] number saved in the gallery",
+  "sim": 0.55
+ },
+ {
+  "k": "batchSomeFailed",
+  "en": "{count} could not be processed",
+  "tr": "{count} എണ്ണം പ്രോസസ് ചെയ്യാനായില്ല",
+  "back": "[count] Number cannot be processed",
+  "sim": 0.6
+ },
+ {
+  "k": "batchTooMany",
+  "en": "Up to {max} photos at a time",
+  "tr": "ഒരേസമയം പരമാവധി {max} ഫോട്ടോകൾ",
+  "back": "Maximum number of simultaneous [max] photos",
+  "sim": 0.31
+ },
+ {
+  "k": "backgroundAddCustom",
+  "en": "Add custom background",
+  "tr": "ഇഷ്ടാനുസൃത പശ്ചാത്തലം ചേർക്കുക",
+  "back": "Add a custom background",
+  "sim": 0.86
+ },
+ {
+  "k": "backgroundCustomColor",
+  "en": "Custom color",
+  "tr": "ഇഷ്ടാനുസൃത നിറം",
+  "back": "Customized colour",
+  "sim": 0.0
+ },
+ {
+  "k": "colorSaturation",
+  "en": "Saturation",
+  "tr": "സാച്ചുറേഷൻ",
+  "back": "Saturated",
+  "sim": 0.0
+ },
+ {
+  "k": "colorBrightness",
+  "en": "Brightness",
+  "tr": "തെളിച്ചം",
+  "back": "The brightness",
+  "sim": 0.67
+ },
+ {
+  "k": "colorHexLabel",
+  "en": "Hex code",
+  "tr": "ഹെക്സ് കോഡ്",
+  "back": "Hex code",
+  "sim": 1.0
+ },
+ {
+  "k": "colorPickerDone",
+  "en": "Done",
+  "tr": "പൂർത്തിയായി",
+  "back": "It's finished.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMarketplaceLabel",
+  "en": "Marketplace",
+  "tr": "മാർക്കറ്റ്പ്ലേസ്",
+  "back": "Marketplace",
+  "sim": 1.0
+ },
+ {
+  "k": "exportMarketplaceWhiteFill",
+  "en": "Pure white background, product fills the frame",
+  "tr": "ശുദ്ധ വെള്ള പശ്ചാത്തലം, ഉൽപ്പന്നം ഫ്രെയിം നിറയ്ക്കുന്നു",
+  "back": "Pure white background, product filling frame",
+  "sim": 0.77
+ },
+ {
+  "k": "exportMarketplaceSizeCap",
+  "en": "File kept under {size} MB",
+  "tr": "ഫയൽ {size} MB-ൽ താഴെ",
+  "back": "File size less than [size] MB",
+  "sim": 0.55
+ },
+ {
+  "k": "editorToolTemplates",
+  "en": "Templates",
+  "tr": "ടെംപ്ലേറ്റുകൾ",
+  "back": "Templates",
+  "sim": 1.0
+ },
+ {
+  "k": "templatesTitle",
+  "en": "Choose a template",
+  "tr": "ടെംപ്ലേറ്റ് തിരഞ്ഞെടുക്കുക",
+  "back": "Select the template",
+  "sim": 0.33
+ },
+ {
+  "k": "templatesStudio",
+  "en": "Studio",
+  "tr": "സ്റ്റുഡിയോ",
+  "back": "The studio.",
+  "sim": 0.67
+ },
+ {
+  "k": "templatesColorBlock",
+  "en": "Color block",
+  "tr": "കളർ ബ്ലോക്കുകൾ",
+  "back": "Color blocks",
+  "sim": 0.5
+ },
+ {
+  "k": "templatesTextures",
+  "en": "Textures",
+  "tr": "ടെക്സ്ചറുകൾ",
+  "back": "Textures",
+  "sim": 1.0
+ },
+ {
+  "k": "templatesLight",
+  "en": "Light & shadow",
+  "tr": "വെളിച്ചവും നിഴലും",
+  "back": "Light and Shadow",
+  "sim": 0.8
+ },
+ {
+  "k": "templatesPatterns",
+  "en": "Gradients & patterns",
+  "tr": "ഗ്രേഡിയന്റുകളും പാറ്റേണുകളും",
+  "back": "Gradients and patterns",
+  "sim": 0.8
+ },
+ {
+  "k": "hdGetAction",
+  "en": "Get HD cut-out",
+  "tr": "HD കട്ടൗട്ട് നേടുക",
+  "back": "Get an HD cut out",
+  "sim": 0.5
+ },
+ {
+  "k": "hdRedoAction",
+  "en": "Redo cut-out in HD",
+  "tr": "HD-യിൽ കട്ടൗട്ട് വീണ്ടും ചെയ്യുക",
+  "back": "Cut out again in HD.",
+  "sim": 0.44
+ },
+ {
+  "k": "hdDownloading",
+  "en": "HD cut-out in progress… {percent}%",
+  "tr": "HD കട്ടൗട്ട് പുരോഗമിക്കുന്നു… {percent}%",
+  "back": "HD cutout is progressing... [percent]%",
+  "sim": 0.6
+ },
+ {
+  "k": "hdDownloadingShort",
+  "en": "HD cut-out… {percent}%",
+  "tr": "HD കട്ടൗട്ട്… {percent}%",
+  "back": "HD cut out... [percent] percent",
+  "sim": 0.5
+ },
+ {
+  "k": "hdConfirmTitle",
+  "en": "Download HD cut-out model?",
+  "tr": "HD കട്ടൗട്ട് മോഡൽ ഡൗൺലോഡ് ചെയ്യണോ?",
+  "back": "Do you want to download the HD cut-out model?",
+  "sim": 0.62
+ },
+ {
+  "k": "hdConfirmBody",
+  "en": "Cleaner edges on tricky objects like shoes, bags and bottles. It downloads once, stays on your phone and then works offline. Mobile data charges may apply.",
+  "tr": "ഷൂസ്, ബാഗ്, കുപ്പി പോലുള്ള ബുദ്ധിമുട്ടുള്ള വസ്തുക്കളുടെ അരികുകൾ കൂടുതൽ വൃത്തിയായി. ഒരിക്കൽ മാത്രം ഡൗൺലോഡ് ചെയ്യും, ഫോണിൽ നിൽക്കും, പിന്നീട് ഓഫ്‌ലൈനിൽ പ്രവർത്തിക്കും. മൊബൈൽ ഡാറ്റ നിരക്കുകൾ ബാധകമായേക്കാം.",
+  "back": "The edges of difficult items such as shoes, bags and bottles have been cleaned up. They will only be downloaded once, stay on the phone, and then work offline. Mobile data rates may apply.",
+  "sim": 0.5
+ },
+ {
+  "k": "hdDownload",
+  "en": "Download",
+  "tr": "ഡൗൺലോഡ്",
+  "back": "Downloaded",
+  "sim": 0.0
+ },
+ {
+  "k": "hdFailed",
+  "en": "HD cut-out didn’t finish. Check your connection and try again.",
+  "tr": "HD കട്ടൗട്ട് പൂർത്തിയായില്ല. കണക്ഷൻ പരിശോധിച്ച് വീണ്ടും ശ്രമിക്കുക.",
+  "back": "HD disconnect is not complete, check the connection and try again.",
+  "sim": 0.57
+ },
+ {
+  "k": "settingsHdTitle",
+  "en": "HD cut-out model",
+  "tr": "HD കട്ടൗട്ട് മോഡൽ",
+  "back": "HD cut-out model",
+  "sim": 1.0
+ },
+ {
+  "k": "settingsHdNotInstalled",
+  "en": "Not downloaded",
+  "tr": "ഡൗൺലോഡ് ചെയ്തിട്ടില്ല",
+  "back": "It's not downloadable.",
+  "sim": 0.4
+ },
+ {
+  "k": "settingsHdInstalled",
+  "en": "Installed · works offline",
+  "tr": "ഇൻസ്റ്റാൾ ചെയ്തു · ഓഫ്‌ലൈനിൽ പ്രവർത്തിക്കും",
+  "back": "Installed · Off line",
+  "sim": 0.33
+ },
+ {
+  "k": "settingsHdRemove",
+  "en": "Remove",
+  "tr": "നീക്കുക",
+  "back": "Get out of here.",
+  "sim": 0.0
+ },
+ {
+  "k": "settingsReplayIntro",
+  "en": "Replay intro",
+  "tr": "ആമുഖം വീണ്ടും കാണുക",
+  "back": "See the introduction again.",
+  "sim": 0.0
+ },
+ {
+  "k": "homeSeeAll",
+  "en": "See all",
+  "tr": "എല്ലാം കാണുക",
+  "back": "See all of it.",
+  "sim": 0.67
+ },
+ {
+  "k": "exportActionEdit",
+  "en": "Edit again",
+  "tr": "വീണ്ടും എഡിറ്റ് ചെയ്യുക",
+  "back": "Edit again",
+  "sim": 1.0
+ },
+ {
+  "k": "exportActionDelete",
+  "en": "Delete",
+  "tr": "ഇല്ലാതാക്കുക",
+  "back": "Deleted",
+  "sim": 0.0
+ },
+ {
+  "k": "exportMoreOptions",
+  "en": "More options",
+  "tr": "കൂടുതൽ ഓപ്ഷനുകൾ",
+  "back": "More options",
+  "sim": 1.0
+ },
+ {
+  "k": "exportDeleteTitle",
+  "en": "Delete this export?",
+  "tr": "ഈ എക്സ്പോർട്ട് ഇല്ലാതാക്കണോ?",
+  "back": "Do you want to delete this export?",
+  "sim": 0.6
+ },
+ {
+  "k": "exportDeleteBody",
+  "en": "Exported images are removed from this phone. Your original photos and anything saved to your gallery are not affected.",
+  "tr": "എക്സ്പോർട്ട് ചെയ്ത ചിത്രങ്ങൾ ഈ ഫോണിൽ നിന്ന് നീക്കം ചെയ്യപ്പെടും. നിങ്ങളുടെ യഥാർത്ഥ ഫോട്ടോകളെയും ഗാലറിയിൽ സേവ് ചെയ്തവയെയും ബാധിക്കില്ല.",
+  "back": "Exported images will be removed from this phone without affecting your original photos or those saved in the gallery.",
+  "sim": 0.58
+ },
+ {
+  "k": "exportSavedToGallery",
+  "en": "Saved to your gallery",
+  "tr": "ഗാലറിയിൽ സേവ് ചെയ്തു",
+  "back": "Served in the gallery.",
+  "sim": 0.25
+ },
+ {
+  "k": "exportSaveFailed",
+  "en": "Could not save to the gallery.",
+  "tr": "ഗാലറിയിൽ സേവ് ചെയ്യാനായില്ല.",
+  "back": "I couldn't save it at the gallery.",
+  "sim": 0.46
+ },
+ {
+  "k": "exportUnavailable",
+  "en": "Unavailable",
+  "tr": "ലഭ്യമല്ല",
+  "back": "Not available",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsGroupThisWeek",
+  "en": "This week",
+  "tr": "ഈ ആഴ്ച",
+  "back": "This week.",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsGroupEarlier",
+  "en": "Earlier",
+  "tr": "മുമ്പത്തേത്",
+  "back": "The last one.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsStorageUsed",
+  "en": "{size} used on this phone",
+  "tr": "ഈ ഫോണിൽ {size} ഉപയോഗിച്ചു",
+  "back": "I used [size] on this phone.",
+  "sim": 0.73
+ },
+ {
+  "k": "exportsSelect",
+  "en": "Select",
+  "tr": "തിരഞ്ഞെടുക്കുക",
+  "back": "Select",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDone",
+  "en": "Done",
+  "tr": "പൂർത്തിയായി",
+  "back": "It's finished.",
+  "sim": 0.0
+ },
+ {
+  "k": "exportsSelectedCount",
+  "en": "{count} selected",
+  "tr": "{count} തിരഞ്ഞെടുത്തു",
+  "back": "[count] selected",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDeleteSelectedTitle",
+  "en": "Delete {count} exports?",
+  "tr": "{count} എക്സ്പോർട്ടുകൾ ഇല്ലാതാക്കണോ?",
+  "back": "[count] Do you want to delete exports?",
+  "sim": 0.4
+ },
+ {
+  "k": "exportsDeleteAll",
+  "en": "Delete all exports",
+  "tr": "എല്ലാ എക്സ്പോർട്ടുകളും ഇല്ലാതാക്കുക",
+  "back": "Delete all exports",
+  "sim": 1.0
+ },
+ {
+  "k": "exportsDeleteAllTitle",
+  "en": "Delete all exports?",
+  "tr": "എല്ലാ എക്സ്പോർട്ടുകളും ഇല്ലാതാക്കണോ?",
+  "back": "Do you want to delete all exports?",
+  "sim": 0.6
+ },
+ {
+  "k": "helpTitle",
+  "en": "Help & how to use",
+  "tr": "സഹായവും ഉപയോഗിക്കേണ്ട വിധവും",
+  "back": "Help and How to Use It",
+  "sim": 0.8
+ },
+ {
+  "k": "helpIntro",
+  "en": "Tap a topic to read how it works.",
+  "tr": "ഒരു വിഷയത്തിൽ ടാപ്പ് ചെയ്ത് അത് എങ്ങനെ പ്രവർത്തിക്കുന്നു എന്ന് വായിക്കുക.",
+  "back": "Tap on a topic and read how it works.",
+  "sim": 0.82
+ },
+ {
+  "k": "helpStartTitle",
+  "en": "Getting started",
+  "tr": "തുടങ്ങാം",
+  "back": "Let's get started.",
+  "sim": 0.4
+ },
+ {
+  "k": "helpStart1",
+  "en": "On the home screen, tap Camera to take a photo or Gallery to pick one. Batch cuts out many photos at once.",
+  "tr": "ഹോം സ്ക്രീനിൽ ഫോട്ടോ എടുക്കാൻ ക്യാമറ അല്ലെങ്കിൽ ഒന്ന് തിരഞ്ഞെടുക്കാൻ ഗാലറി ടാപ്പ് ചെയ്യുക. ബാച്ച് ഒരേസമയം ഒട്ടേറെ ഫോട്ടോകൾ കട്ട്-ഔട്ട് ചെയ്യും.",
+  "back": "Tap Gallery to select a camera or one to take a photo on the home screen. The batch will cut out multiple photos at once.",
+  "sim": 0.38
+ },
+ {
+  "k": "helpStart2",
+  "en": "Every photo opens in Crop & Rotate first, then in the editor. Your original photo is never changed.",
+  "tr": "ഓരോ ഫോട്ടോയും ആദ്യം ക്രോപ്പും തിരിക്കലും എന്നതിൽ തുറക്കും, പിന്നെ എഡിറ്ററിൽ. നിങ്ങളുടെ യഥാർത്ഥ ഫോട്ടോ ഒരിക്കലും മാറില്ല.",
+  "back": "Each photo opens first in the crop and spin, then in the editor. Your original photo will never change.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpStart3",
+  "en": "When you are happy, tap Export in the editor. Recent Exports on the home screen lists everything you have exported.",
+  "tr": "തൃപ്തിയായാൽ എഡിറ്ററിൽ എക്സ്പോർട്ട് ടാപ്പ് ചെയ്യുക. ഹോം സ്ക്രീനിലെ സമീപകാല എക്സ്പോർട്ടുകൾ നിങ്ങൾ എക്സ്പോർട്ട് ചെയ്തതെല്ലാം കാണിക്കും.",
+  "back": "If you're satisfied, tap Export in the editor, and your home screen will show you all the recent exports you've exported.",
+  "sim": 0.39
+ },
+ {
+  "k": "helpCropTitle",
+  "en": "Crop & Rotate",
+  "tr": "ക്രോപ്പും തിരിക്കലും",
+  "back": "Harvesting and rolling",
+  "sim": 0.0
+ },
+ {
+  "k": "helpCrop1",
+  "en": "Turn the photo left or right in 90° steps, and drag the frame to choose the part you want to keep.",
+  "tr": "ഫോട്ടോ 90° ഘട്ടങ്ങളായി ഇടത്തോട്ടോ വലത്തോട്ടോ തിരിക്കുക, സൂക്ഷിക്കേണ്ട ഭാഗം തിരഞ്ഞെടുക്കാൻ ഫ്രെയിം വലിക്കുക.",
+  "back": "Turn the photo 90° to the left or right, and drag the frame to select the part to be stored.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpCrop2",
+  "en": "Free lets you shape the frame as you like. 1:1, 4:5 and 9:16 lock its shape. Tap Continue to open the editor.",
+  "tr": "ഫ്രീ ഫ്രെയിമിന് ഇഷ്ടമുള്ള ആകൃതി നൽകാൻ അനുവദിക്കുന്നു. 1:1, 4:5, 9:16 എന്നിവ അതിന്റെ ആകൃതി ലോക്ക് ചെയ്യുന്നു. എഡിറ്റർ തുറക്കാൻ തുടരുക ടാപ്പ് ചെയ്യുക.",
+  "back": "The free frame allows you to create your desired shape. 1:1, 4:5, 9:16 locks its shape.",
+  "sim": 0.42
+ },
+ {
+  "k": "helpCutoutTitle",
+  "en": "Cut-out",
+  "tr": "കട്ട്-ഔട്ട്",
+  "back": "Cut-out",
+  "sim": 1.0
+ },
+ {
+  "k": "helpCutout1",
+  "en": "When the editor opens, PhotoSur finds the main subject and removes the background automatically, on your phone. No internet is needed.",
+  "tr": "എഡിറ്റർ തുറക്കുമ്പോൾ PhotoSur പ്രധാന വിഷയം കണ്ടെത്തി നിങ്ങളുടെ ഫോണിൽ തന്നെ സ്വയം പശ്ചാത്തലം നീക്കും. ഇന്റർനെറ്റ് വേണ്ട.",
+  "back": "When you open the editor, PhotoSur will find the main theme and automatically move the background to your phone.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpCutout2",
+  "en": "Edge Smoothness softens the edge of the cut-out, from 0 to 20 pixels.",
+  "tr": "അരികുകളുടെ മൃദുത്വം കട്ട്-ഔട്ടിന്റെ അരിക് 0 മുതൽ 20 പിക്സൽ വരെ മൃദുവാക്കുന്നു.",
+  "back": "The softness of the edges softened the arc of the cut-out by 0 to 20 pixels.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpCutout3",
+  "en": "The eye button at the top shows your original photo so you can compare. Tap it again to go back. The brush is paused while the original is shown.",
+  "tr": "മുകളിലെ കണ്ണ് ബട്ടൺ താരതമ്യത്തിനായി നിങ്ങളുടെ യഥാർത്ഥ ഫോട്ടോ കാണിക്കും. തിരികെ പോകാൻ വീണ്ടും ടാപ്പ് ചെയ്യുക. യഥാർത്ഥ ചിത്രം കാണുന്നിടത്തോളം ബ്രഷ് താൽക്കാലികമായി നിർത്തിയിരിക്കും.",
+  "back": "The upper eye button will show your original photo for comparison. Tap again to go back. The brush will pause while you see the original picture.",
+  "sim": 0.58
+ },
+ {
+  "k": "helpCutout4",
+  "en": "For difficult subjects such as glass, shoes, bags and bottles, tap Get HD cut-out. The HD model downloads once, stays on your phone and then works offline. Once it is installed, every new cut-out uses it automatically. To redo the photo you have open, tap Redo cut-out in HD.",
+  "tr": "ഗ്ലാസ്, ഷൂസ്, ബാഗുകൾ, കുപ്പികൾ എന്നിവ പോലുള്ള ബുദ്ധിമുട്ടുള്ള വിഷയങ്ങൾക്ക് HD കട്ടൗട്ട് നേടുക ടാപ്പ് ചെയ്യുക. HD മോഡൽ ഒരിക്കൽ മാത്രം ഡൗൺലോഡ് ചെയ്യും, നിങ്ങളുടെ ഫോണിൽ തന്നെ തുടരും, പിന്നെ ഓഫ്‌ലൈനായി പ്രവർത്തിക്കും. ഇൻസ്റ്റാൾ ചെയ്താൽ ഓരോ പുതിയ കട്ട്-ഔട്ടും അത് സ്വയം ഉപയോഗിക്കും. തുറന്നിരിക്കുന്ന ഫോട്ടോ വീണ്ടും ചെയ്യാൻ HD-യിൽ കട്ടൗട്ട് വീണ്ടും ചെയ്യുക ടാപ്പ് ചെയ്യുക.",
+  "back": "The HD model will download only once, stay on your phone, and then work offline. Once installed, it will automatically use each new cut-out. To retake the open photo, tap Cut Out in HD again.",
+  "sim": 0.48
+ },
+ {
+  "k": "helpBrushTitle",
+  "en": "Brush",
+  "tr": "ബ്രഷ്",
+  "back": "The brush",
+  "sim": 0.67
+ },
+ {
+  "k": "helpBrush1",
+  "en": "Erase removes parts of the subject. Restore brings back parts the cut-out removed.",
+  "tr": "മായ്ക്കുക വിഷയത്തിന്റെ ചില ഭാഗങ്ങൾ നീക്കും. തിരികെ കട്ട്-ഔട്ട് നീക്കിയ ഭാഗങ്ങൾ തിരികെ കൊണ്ടുവരും.",
+  "back": "Delete will move parts of the subject and bring back the cut-out parts.",
+  "sim": 0.54
+ },
+ {
+  "k": "helpBrush2",
+  "en": "Drag one finger to paint. Use two fingers to zoom, up to 8 times, and to move the photo. The brush keeps its size on screen, so zooming in gives finer control.",
+  "tr": "വരയ്ക്കാൻ ഒരു വിരൽ കൊണ്ട് വലിക്കുക. 8 മടങ്ങ് വരെ സൂം ചെയ്യാനും ഫോട്ടോ നീക്കാനും രണ്ട് വിരലുകൾ ഉപയോഗിക്കുക. ബ്രഷ് സ്ക്രീനിൽ അതിന്റെ വലുപ്പം നിലനിർത്തുന്നു, അതിനാൽ സൂം ചെയ്താൽ കൂടുതൽ കൃത്യമായി പ്രവർത്തിക്കാം.",
+  "back": "Draw with one finger. Zoom up to eight times and move the photo with two fingers. The brush keeps its size on the screen, so zooming can be more accurate.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpBrush3",
+  "en": "Brush Size goes from 1 to 50. Opacity sets how strongly each stroke applies.",
+  "tr": "ബ്രഷ് വലുപ്പം 1 മുതൽ 50 വരെയാണ്. അതാര്യത ഓരോ സ്ട്രോക്കും എത്ര കടുപ്പത്തിലാകണമെന്ന് നിശ്ചയിക്കുന്നു.",
+  "back": "Brush sizes range from 1 to 50, and the severity of each stroke depends on the severity.",
+  "sim": 0.45
+ },
+ {
+  "k": "helpBrush4",
+  "en": "Undo and Redo step through your brush strokes. Reset clears all brush strokes and goes back to the automatic cut-out; it asks you to confirm first.",
+  "tr": "പഴയപടി, വീണ്ടും എന്നിവ നിങ്ങളുടെ ബ്രഷ് സ്ട്രോക്കുകളിലൂടെ മുന്നോട്ടും പിന്നോട്ടും പോകുന്നു. റീസെറ്റ് എല്ലാ സ്ട്രോക്കുകളും മായ്ച്ച് സ്വയമേവയുള്ള കട്ട്-ഔട്ടിലേക്ക് മടങ്ങുന്നു; ആദ്യം സ്ഥിരീകരണം ചോദിക്കും.",
+  "back": "The reverse and reverse moves back and forth through your brush strokes. Reset clears all strokes and returns to automatic cut-out; first, confirmation is requested.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpBackgroundTitle",
+  "en": "Background",
+  "tr": "പശ്ചാത്തലം",
+  "back": "The background",
+  "sim": 0.67
+ },
+ {
+  "k": "helpBackground1",
+  "en": "Choose what goes behind your subject: transparent, white, black, a gradient, a colour, a blurred copy of your photo, or your own photo.",
+  "tr": "നിങ്ങളുടെ വിഷയത്തിന് പിന്നിൽ എന്തുണ്ടാകണമെന്ന് തിരഞ്ഞെടുക്കുക: സുതാര്യം, വെള്ള, കറുപ്പ്, ഗ്രേഡിയന്റ്, ഒരു നിറം, നിങ്ങളുടെ ഫോട്ടോയുടെ ബ്ലർ ചെയ്ത പകർപ്പ്, അല്ലെങ്കിൽ നിങ്ങളുടെ സ്വന്തം ഫോട്ടോ.",
+  "back": "Choose what's behind your subject: transparent, white, black, gradient, a color, a blurred copy of your photo, or your own photo.",
+  "sim": 0.86
+ },
+ {
+  "k": "helpBackground2",
+  "en": "Only one background is used at a time. Your latest choice replaces the earlier one.",
+  "tr": "ഒരു സമയം ഒരു പശ്ചാത്തലം മാത്രമേ ഉപയോഗിക്കൂ. നിങ്ങളുടെ അവസാന തിരഞ്ഞെടുപ്പ് മുമ്പത്തേതിനെ മാറ്റിസ്ഥാപിക്കും.",
+  "back": "Use only one background at a time and your last choice will replace the previous one.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpBackground3",
+  "en": "Add custom background lets you pick a photo from your gallery. Custom color opens a colour picker. The Blur slider goes from 0 to 25.",
+  "tr": "ഇഷ്ടാനുസൃത പശ്ചാത്തലം ചേർക്കുക ഗാലറിയിൽ നിന്ന് ഒരു ഫോട്ടോ തിരഞ്ഞെടുക്കാൻ അനുവദിക്കുന്നു. ഇഷ്ടാനുസൃത നിറം ഒരു കളർ പിക്കർ തുറക്കുന്നു. ബ്ലർ സ്ലൈഡർ 0 മുതൽ 25 വരെയാണ്.",
+  "back": "Add Custom Background allows you to select a photo from the gallery. The custom color opens a color picker. The blur slider ranges from 0 to 25.",
+  "sim": 0.77
+ },
+ {
+  "k": "helpBackground4",
+  "en": "Transparent shows a checkerboard while you edit. Export as PNG to keep it transparent.",
+  "tr": "സുതാര്യം എഡിറ്റ് ചെയ്യുമ്പോൾ ചെക്കർബോർഡ് പാറ്റേൺ കാണിക്കും. സുതാര്യത നിലനിർത്താൻ PNG ആയി എക്സ്പോർട്ട് ചെയ്യുക.",
+  "back": "When you edit transparency, the checkerboard pattern will be displayed. Export as PNG to maintain transparency.",
+  "sim": 0.4
+ },
+ {
+  "k": "helpTemplatesTitle",
+  "en": "Templates",
+  "tr": "ടെംപ്ലേറ്റുകൾ",
+  "back": "Templates",
+  "sim": 1.0
+ },
+ {
+  "k": "helpTemplates1",
+  "en": "Templates are ready-made backgrounds in five groups: Studio, Color block, Textures, Light & shadow, and Gradients & patterns. Five scenes are shown in the panel; tap the Templates button to see them all.",
+  "tr": "ടെംപ്ലേറ്റുകൾ അഞ്ച് ഗ്രൂപ്പുകളിലായി തയ്യാറായ പശ്ചാത്തലങ്ങളാണ്: സ്റ്റുഡിയോ, കളർ ബ്ലോക്കുകൾ, ടെക്സ്ചറുകൾ, വെളിച്ചവും നിഴലും, ഗ്രേഡിയന്റുകളും പാറ്റേണുകളും. പാനലിൽ അഞ്ച് ദൃശ്യങ്ങൾ കാണാം; എല്ലാം കാണാൻ ടെംപ്ലേറ്റുകൾ ബട്ടൺ ടാപ്പ് ചെയ്യുക.",
+  "back": "Templates are prepared in five groups of backgrounds: studio, color blocks, textures, light and shadow, gradients and patterns. You can see five scenes in the panel; tap the Templates button to see everything.",
+  "sim": 0.72
+ },
+ {
+  "k": "helpTemplates2",
+  "en": "Choosing a template works like choosing your own photo as the background: it replaces your earlier background choice.",
+  "tr": "ടെംപ്ലേറ്റ് തിരഞ്ഞെടുക്കുന്നത് നിങ്ങളുടെ സ്വന്തം ഫോട്ടോ പശ്ചാത്തലമായി തിരഞ്ഞെടുക്കുന്നതുപോലെ തന്നെയാണ്: അത് നിങ്ങളുടെ മുൻ പശ്ചാത്തല തിരഞ്ഞെടുപ്പിനെ മാറ്റിസ്ഥാപിക്കും.",
+  "back": "Selecting a template is like selecting your own photo as a background: it will replace your previous background selection.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpLayoutTitle",
+  "en": "Layout",
+  "tr": "ലേഔട്ട്",
+  "back": "The layout",
+  "sim": 0.67
+ },
+ {
+  "k": "helpLayout1",
+  "en": "Drag the subject on the photo to move it. Pinch with two fingers to resize it.",
+  "tr": "വിഷയം നീക്കാൻ ഫോട്ടോയ്ക്ക് മുകളിലൂടെ വലിക്കുക. വലുപ്പം മാറ്റാൻ രണ്ട് വിരലുകൾ കൊണ്ട് പിഞ്ച് ചെയ്യുക.",
+  "back": "To move the subject, pull over the photo, and pinch with two fingers to change the size.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpLayout2",
+  "en": "Choose Original, 1:1, 4:5 or 9:16 to set the shape of the final picture.",
+  "tr": "അന്തിമ ചിത്രത്തിന്റെ ആകൃതി സജ്ജീകരിക്കാൻ ഒറിജിനൽ, 1:1, 4:5 അല്ലെങ്കിൽ 9:16 തിരഞ്ഞെടുക്കുക.",
+  "back": "To set the size of the final image, select Original, 1:1, 4:5, or 9:16.",
+  "sim": 0.36
+ },
+ {
+  "k": "helpLayout3",
+  "en": "Size sets how big the subject is, from 20% to 300%. Shadow sets how strong its shadow is. Auto-center puts the subject back in the middle. Reset undoes moving and resizing.",
+  "tr": "വലുപ്പം വിഷയം എത്ര വലുതാകണമെന്ന് 20% മുതൽ 300% വരെ നിശ്ചയിക്കുന്നു. നിഴൽ അതിന്റെ നിഴൽ എത്ര കടുപ്പമാകണമെന്ന് നിശ്ചയിക്കുന്നു. ഓട്ടോ-സെന്റർ വിഷയത്തെ വീണ്ടും മധ്യത്തിലാക്കുന്നു. റീസെറ്റ് നീക്കങ്ങളും വലുപ്പമാറ്റങ്ങളും പഴയപടിയാക്കുന്നു.",
+  "back": "The size determines how large the subject should be by 20% to 300%. The shadow determines how heavy its shadow should be. The auto-center returns the subject to the center. Reset moves and resizes are reversed.",
+  "sim": 0.51
+ },
+ {
+  "k": "helpLayout4",
+  "en": "This shape is used when the export size is Original. If you choose a size preset or a marketplace in the export sheet, that decides the final shape instead.",
+  "tr": "എക്സ്പോർട്ട് വലുപ്പം ഒറിജിനൽ ആകുമ്പോൾ ഈ ആകൃതി ബാധകമാണ്. എക്സ്പോർട്ട് ഷീറ്റിൽ മുൻകൂട്ടി നിശ്ചയിച്ച വലുപ്പമോ മാർക്കറ്റ്പ്ലേസോ തിരഞ്ഞെടുത്താൽ, അന്തിമ ആകൃതി അതാണ് നിശ്ചയിക്കുന്നത്.",
+  "back": "This shape applies when the export size is original. If a pre-determined size or marketplace is selected on the export sheet, the final shape is determined.",
+  "sim": 0.69
+ },
+ {
+  "k": "helpExportTitle",
+  "en": "Export",
+  "tr": "എക്സ്പോർട്ട്",
+  "back": "Exports",
+  "sim": 0.0
+ },
+ {
+  "k": "helpExport1",
+  "en": "Tap Export to open the export sheet. Nothing is applied until you tap Save to Gallery or Share, so you can change your choices as often as you like.",
+  "tr": "എക്സ്പോർട്ട് ഷീറ്റ് തുറക്കാൻ എക്സ്പോർട്ട് ടാപ്പ് ചെയ്യുക. ഗാലറിയിൽ സേവ് ചെയ്യുക അല്ലെങ്കിൽ പങ്കിടുക ടാപ്പ് ചെയ്യുന്നതുവരെ ഒന്നും പ്രയോഗിക്കില്ല, അതിനാൽ നിങ്ങൾക്ക് തിരഞ്ഞെടുപ്പുകൾ എത്ര തവണ വേണമെങ്കിലും മാറ്റാം.",
+  "back": "To open the export sheet, tap Export. Nothing applies until you tap Save or Share in the gallery, so you can change your options as many times as you want.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpExport2",
+  "en": "PNG keeps transparency. JPG makes smaller files but cannot be transparent, so a transparent background becomes white. WEBP is a small modern format; if your phone cannot make it, the file is saved as JPG. For JPG and WEBP, the Quality slider trades file size for detail.",
+  "tr": "PNG സുതാര്യത നിലനിർത്തുന്നു. JPG ചെറിയ ഫയലുകൾ നൽകും പക്ഷേ സുതാര്യമാകാൻ കഴിയില്ല, അതിനാൽ സുതാര്യമായ പശ്ചാത്തലം വെള്ളയാകും. WEBP ആധുനികവും ചെറുതുമായ ഫോർമാറ്റാണ്; നിങ്ങളുടെ ഫോണിന് അത് സൃഷ്ടിക്കാൻ കഴിയില്ലെങ്കിൽ ഫയൽ JPG ആയി സേവ് ചെയ്യും. JPG, WEBP എന്നിവയ്ക്ക് ഗുണനിലവാര സ്ലൈഡർ ഫയൽ വലുപ്പവും വിശദാംശങ്ങളും തമ്മിൽ സന്തുലനം ചെയ്യുന്നു.",
+  "back": "PNG maintains transparency. JPG will provide small files but cannot be transparent, so the transparent background will be white. WEBP is a modern and small format; if your phone cannot create it, the file will be saved as JPG. The quality slider for JPG and WEBP balances between file size and details.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpExport3",
+  "en": "Original keeps your photo’s size, with the shape chosen in Layout. 1:1 is 1080 × 1080, 4:5 is 1080 × 1350 and 9:16 is 1080 × 1920. Custom lets you type a width and height in pixels.",
+  "tr": "ഒറിജിനൽ നിങ്ങളുടെ ഫോട്ടോയുടെ വലുപ്പം, ലേഔട്ടിൽ തിരഞ്ഞെടുത്ത ആകൃതിയോടെ നിലനിർത്തുന്നു. 1:1 എന്നാൽ 1080 × 1080, 4:5 എന്നാൽ 1080 × 1350, 9:16 എന്നാൽ 1080 × 1920. ഇഷ്ടാനുസൃതം പിക്സലിൽ വീതിയും ഉയരവും നൽകാൻ അനുവദിക്കുന്നു.",
+  "back": "The original keeps the size of your photo, with the shape chosen in the layout. 1:1 but 1080 × 1080, 4:5 but 1080 × 1350, 9:16 but 1080 × 1920.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpExport4",
+  "en": "Marketplace presets set size, format and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG kept under 1 MB, and Shopify 2048 × 2048 PNG. Choosing one replaces your format and size choices, and choosing a format or size afterwards switches the marketplace off. Marketplace rules can change, so check your marketplace’s current requirements.",
+  "tr": "മാർക്കറ്റ്പ്ലേസ് പ്രീസെറ്റുകൾ വലുപ്പം, ഫോർമാറ്റ്, ഗുണനിലവാരം എന്നിവ നിശ്ചയിക്കുന്നു: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG 1 MB-യിൽ താഴെ, Shopify 2048 × 2048 PNG. ഒന്ന് തിരഞ്ഞെടുത്താൽ നിങ്ങളുടെ ഫോർമാറ്റ്, വലുപ്പ തിരഞ്ഞെടുപ്പുകൾ മാറും; പിന്നീട് ഫോർമാറ്റോ വലുപ്പമോ തിരഞ്ഞെടുത്താൽ മാർക്കറ്റ്പ്ലേസ് തിരഞ്ഞെടുപ്പ് ഒഴിവാകും. മാർക്കറ്റ്പ്ലേസ് നിയമങ്ങൾ മാറിയേക്കാം, അതിനാൽ നിങ്ങളുടെ മാർക്കറ്റ്പ്ലേസിന്റെ നിലവിലെ ആവശ്യകതകൾ പരിശോധിക്കുക.",
+  "back": "Marketplace presets determine size, format, and quality: Amazon 2000 × 2000 JPG, eBay 1600 × 1600 JPG, Etsy 2667 × 2000 JPG under 1 MB, Shopify 2048 × 2048 PNG. Choosing one will change your format and size choices; then choosing the format or size will eliminate the marketplace choice. Marketplace rules may change, so check your current marketplace requirements.",
+  "sim": 0.81
+ },
+ {
+  "k": "helpExport5",
+  "en": "Amazon also uses a pure white background with no shadow and fits the subject to fill most of the frame. Your background choice in the editor is not changed. The other marketplaces keep your background.",
+  "tr": "Amazon നിഴലില്ലാത്ത ശുദ്ധമായ വെള്ള പശ്ചാത്തലവും ഉപയോഗിക്കുകയും, ഫ്രെയിമിന്റെ ഭൂരിഭാഗവും നിറയുന്ന വിധത്തിൽ വിഷയത്തെ ക്രമീകരിക്കുകയും ചെയ്യുന്നു. എഡിറ്ററിലെ നിങ്ങളുടെ പശ്ചാത്തല തിരഞ്ഞെടുപ്പ് മാറില്ല. മറ്റ് മാർക്കറ്റ്പ്ലേസുകൾ നിങ്ങളുടെ പശ്ചാത്തലം നിലനിർത്തും.",
+  "back": "Amazon also uses a clear, shadeless white background and adjusts the subject in a way that fills most of the frame. Your background selection in the editor will remain unchanged. Other marketplaces will keep your background.",
+  "sim": 0.65
+ },
+ {
+  "k": "helpExport6",
+  "en": "Save to Gallery and Share both save the picture to your gallery and to Recent Exports. Share also opens your phone’s share menu. If saving to the gallery is not possible, the share menu opens instead. After exporting you return to the home screen.",
+  "tr": "ഗാലറിയിൽ സേവ് ചെയ്യുക, പങ്കിടുക എന്നിവ രണ്ടും ചിത്രം നിങ്ങളുടെ ഗാലറിയിലും സമീപകാല എക്സ്പോർട്ടുകളിലും സേവ് ചെയ്യും. പങ്കിടുക അതിനുപുറമെ ഫോണിന്റെ പങ്കിടൽ മെനുവും തുറക്കും. ഗാലറിയിൽ സേവ് ചെയ്യാൻ കഴിയുന്നില്ലെങ്കിൽ പകരം പങ്കിടൽ മെനു തുറക്കും. എക്സ്പോർട്ടിന് ശേഷം നിങ്ങൾ ഹോം സ്ക്രീനിലേക്ക് മടങ്ങും.",
+  "back": "Both save and share in the gallery will save the image in your gallery and recent exports. Share will also open the phone's share menu. If you can't save in the gallery, the share menu will open instead. After export, you will return to the home screen.",
+  "sim": 0.64
+ },
+ {
+  "k": "helpExport7",
+  "en": "Unless you have removed ads, an ad can appear after an export, at most once every two minutes.",
+  "tr": "നിങ്ങൾ പരസ്യങ്ങൾ നീക്കിയിട്ടില്ലെങ്കിൽ, എക്സ്പോർട്ടിന് ശേഷം ഒരു പരസ്യം കാണാം, രണ്ട് മിനിറ്റിൽ ഒരിക്കലിൽ കൂടുതൽ അല്ല.",
+  "back": "If you haven't moved the ads, you'll see an ad after export, no more than once every two minutes.",
+  "sim": 0.54
+ },
+ {
+  "k": "helpBatchTitle",
+  "en": "Batch",
+  "tr": "ബാച്ച്",
+  "back": "The batch.",
+  "sim": 0.67
+ },
+ {
+  "k": "helpBatch1",
+  "en": "Batch cuts out up to 30 photos in one go. Tap Batch on the home screen and pick your photos. The back button is turned off while a batch runs.",
+  "tr": "ബാച്ച് ഒരേസമയം 30 ഫോട്ടോകൾ വരെ കട്ട്-ഔട്ട് ചെയ്യും. ഹോം സ്ക്രീനിൽ ബാച്ച് ടാപ്പ് ചെയ്ത് നിങ്ങളുടെ ഫോട്ടോകൾ തിരഞ്ഞെടുക്കുക. ബാച്ച് പ്രവർത്തിക്കുമ്പോൾ ബാക്ക് ബട്ടൺ പ്രവർത്തനരഹിതമായിരിക്കും.",
+  "back": "The batch will cut out up to 30 photos at a time. Tap the batch on the home screen and select your photos. The back button will be disabled when the batch is running.",
+  "sim": 0.59
+ },
+ {
+  "k": "helpBatch2",
+  "en": "All photos in a batch share one setup: one background and one marketplace. You cannot choose differently for each photo.",
+  "tr": "ഒരു ബാച്ചിലെ എല്ലാ ഫോട്ടോകളും ഒരേ ക്രമീകരണം പങ്കിടുന്നു: ഒരു പശ്ചാത്തലവും ഒരു മാർക്കറ്റ്പ്ലേസും. ഓരോ ഫോട്ടോയ്ക്കും വെവ്വേറെ തിരഞ്ഞെടുക്കാൻ കഴിയില്ല.",
+  "back": "All photos in a batch share the same setting: a background and a marketplace. Each photo cannot be selected separately.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpBatch3",
+  "en": "Backgrounds work as in the editor: your own photo, a colour, a template, white, transparent, black, blur or a gradient. Only one applies, and your latest choice replaces the earlier one.",
+  "tr": "പശ്ചാത്തലങ്ങൾ എഡിറ്ററിലെ പോലെ തന്നെ പ്രവർത്തിക്കുന്നു: നിങ്ങളുടെ സ്വന്തം ഫോട്ടോ, ഒരു നിറം, ഒരു ടെംപ്ലേറ്റ്, വെള്ള, സുതാര്യം, കറുപ്പ്, ബ്ലർ, അല്ലെങ്കിൽ ഗ്രേഡിയന്റ്. ഒന്ന് മാത്രമേ ബാധകമാകൂ, നിങ്ങളുടെ അവസാന തിരഞ്ഞെടുപ്പ് മുമ്പത്തേതിനെ മാറ്റിസ്ഥാപിക്കും.",
+  "back": "The backgrounds work the same as in the editor: your own photo, a color, a template, white, transparent, black, blur, or gradient. Only one applies, and your last choice will replace the previous one.",
+  "sim": 0.8
+ },
+ {
+  "k": "helpBatch4",
+  "en": "The file format is chosen for you. With a marketplace, the photos follow that marketplace’s size and format. Without one, a transparent background gives PNG and any other background gives JPG, at the original size.",
+  "tr": "ഫയൽ ഫോർമാറ്റ് നിങ്ങൾക്കായി തിരഞ്ഞെടുക്കപ്പെടും. മാർക്കറ്റ്പ്ലേസ് ഉണ്ടെങ്കിൽ ഫോട്ടോകൾ അതിന്റെ വലുപ്പവും ഫോർമാറ്റും പിന്തുടരും. ഇല്ലെങ്കിൽ സുതാര്യമായ പശ്ചാത്തലം PNG നൽകും, മറ്റേതൊരു പശ്ചാത്തലവും JPG നൽകും, യഥാർത്ഥ വലുപ്പത്തിൽ.",
+  "back": "The file format will be selected for you. If there is a marketplace, the photos will follow its size and format. If not, the transparent background will be provided by PNG, and any other background will be provided by JPG, in the original size.",
+  "sim": 0.61
+ },
+ {
+  "k": "helpBatch5",
+  "en": "Choosing Amazon switches the background to White; if you then choose another background, Amazon is switched off. eBay, Etsy and Shopify keep your background, but a JPG cannot be transparent, so it gets a white background.",
+  "tr": "Amazon തിരഞ്ഞെടുത്താൽ പശ്ചാത്തലം വെള്ള ആകും; പിന്നീട് മറ്റൊരു പശ്ചാത്തലം തിരഞ്ഞെടുത്താൽ Amazon തിരഞ്ഞെടുപ്പ് ഒഴിവാകും. eBay, Etsy, Shopify എന്നിവ നിങ്ങളുടെ പശ്ചാത്തലം നിലനിർത്തും, പക്ഷേ JPG സുതാര്യമാകാൻ കഴിയാത്തതിനാൽ അതിന് വെള്ള പശ്ചാത്തലം ലഭിക്കും.",
+  "back": "If you choose Amazon, the background will be white; then if you choose another background, the Amazon selection will be empty. eBay, Etsy, and Shopify will keep your background, but because JPG cannot be transparent, it will have a white background.",
+  "sim": 0.68
+ },
+ {
+  "k": "helpBatch6",
+  "en": "If the HD model is installed, every photo in the batch is cut out with it. The Get HD cut-out button next to Templates downloads it.",
+  "tr": "HD മോഡൽ ഇൻസ്റ്റാൾ ചെയ്തിട്ടുണ്ടെങ്കിൽ ബാച്ചിലെ ഓരോ ഫോട്ടോയും അതുപയോഗിച്ച് കട്ട്-ഔട്ട് ചെയ്യും. ടെംപ്ലേറ്റുകൾക്ക് അടുത്തുള്ള HD കട്ടൗട്ട് നേടുക ബട്ടൺ അത് ഡൗൺലോഡ് ചെയ്യും.",
+  "back": "If the HD model is installed, each photo in the batch will be cut-out using it. The Get HD Cut-out button next to the templates will download it.",
+  "sim": 0.74
+ },
+ {
+  "k": "helpBatch7",
+  "en": "Each photo is saved to your gallery and to Recent Exports as soon as it finishes. Stop ends the batch after the current photo, and photos already finished stay saved. If a photo fails, the batch carries on and tells you how many could not be processed. Done takes you back to the home screen; it does not save anything.",
+  "tr": "ഓരോ ഫോട്ടോയും പൂർത്തിയാകുമ്പോൾ തന്നെ നിങ്ങളുടെ ഗാലറിയിലും സമീപകാല എക്സ്പോർട്ടുകളിലും സേവ് ചെയ്യും. നിർത്തുക നിലവിലെ ഫോട്ടോയ്ക്ക് ശേഷം ബാച്ച് അവസാനിപ്പിക്കും, ഇതിനകം പൂർത്തിയായ ഫോട്ടോകൾ സേവ് ചെയ്തതായി തുടരും. ഒരു ഫോട്ടോ പരാജയപ്പെട്ടാൽ ബാച്ച് തുടരുകയും എത്രയെണ്ണം പ്രോസസ്സ് ചെയ്യാനായില്ല എന്ന് അറിയിക്കുകയും ചെയ്യും. പൂർത്തിയായി നിങ്ങളെ ഹോം സ്ക്രീനിലേക്ക് തിരികെ കൊണ്ടുപോകുന്നു; അത് ഒന്നും സേവ് ചെയ്യില്ല.",
+  "back": "Each photo will be saved to your gallery and recent exports as soon as it's finished. Stop will end the batch after the current photo, and the already finished photos will continue to be saved. If a photo fails, the batch will continue and will tell you how many have not been processed.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpLibraryTitle",
+  "en": "Your exports",
+  "tr": "നിങ്ങളുടെ എക്സ്പോർട്ടുകൾ",
+  "back": "Your exports",
+  "sim": 1.0
+ },
+ {
+  "k": "helpLibrary1",
+  "en": "Recent Exports on the home screen shows your latest exports. Tap See all for every export, grouped as Today, Yesterday, This week and Earlier.",
+  "tr": "ഹോം സ്ക്രീനിലെ സമീപകാല എക്സ്പോർട്ടുകൾ നിങ്ങളുടെ ഏറ്റവും പുതിയ എക്സ്പോർട്ടുകൾ കാണിക്കുന്നു. എല്ലാം കാണാൻ എല്ലാം കാണുക ടാപ്പ് ചെയ്യുക; അവ ഇന്ന്, ഇന്നലെ, ഈ ആഴ്ച, മുമ്പത്തേത് എന്നിങ്ങനെ ഗ്രൂപ്പ് ചെയ്തിരിക്കുന്നു.",
+  "back": "Recent exports on the home screen show your latest exports. To see everything, tap View Everything; they are grouped today, yesterday, this week, and the previous one.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpLibrary2",
+  "en": "Tap an export to open it full screen. Swipe to move between exports and pinch to zoom. The bar at the bottom has Share, Save to Gallery, Edit again and Delete.",
+  "tr": "ഒരു എക്സ്പോർട്ട് ഫുൾ സ്ക്രീനിൽ തുറക്കാൻ അതിൽ ടാപ്പ് ചെയ്യുക. എക്സ്പോർട്ടുകൾക്കിടയിൽ മാറാൻ സ്വൈപ്പ് ചെയ്യുക, സൂം ചെയ്യാൻ പിഞ്ച് ചെയ്യുക. താഴത്തെ ബാർ പങ്കിടുക, ഗാലറിയിൽ സേവ് ചെയ്യുക, വീണ്ടും എഡിറ്റ് ചെയ്യുക, ഇല്ലാതാക്കുക എന്നിവ നൽകുന്നു.",
+  "back": "Tap on it to open an export full screen. Swipe to switch between exports, pinch to zoom. Share the bottom bar, save to the gallery, re-edit, and delete.",
+  "sim": 0.64
+ },
+ {
+  "k": "helpLibrary3",
+  "en": "The three-dot button on a tile opens the same actions. Edit again opens the exported picture as a new photo, so earlier brush strokes are not restored.",
+  "tr": "തംബ്‌നെയിലിലെ മൂന്ന് ഡോട്ട് ബട്ടൺ ഇതേ പ്രവർത്തനങ്ങൾ തുറക്കുന്നു. വീണ്ടും എഡിറ്റ് ചെയ്യുക എക്സ്പോർട്ട് ചെയ്ത ചിത്രം പുതിയ ഫോട്ടോയായി തുറക്കുന്നു, അതിനാൽ മുൻപത്തെ ബ്രഷ് സ്ട്രോക്കുകൾ പുനഃസ്ഥാപിക്കില്ല.",
+  "back": "The three dot button on the button nail opens the same functions. Re-edit opens the exported image as a new photo, so the previous brush strokes will not be restored.",
+  "sim": 0.63
+ },
+ {
+  "k": "helpLibrary4",
+  "en": "Select lets you choose several exports to share together or delete. Delete all exports removes every export from this phone.",
+  "tr": "തിരഞ്ഞെടുക്കുക പല എക്സ്പോർട്ടുകളും തിരഞ്ഞെടുത്ത് ഒരുമിച്ച് പങ്കിടാനോ ഇല്ലാതാക്കാനോ അനുവദിക്കുന്നു. എല്ലാ എക്സ്പോർട്ടുകളും ഇല്ലാതാക്കുക ഈ ഫോണിൽ നിന്ന് എല്ലാ എക്സ്പോർട്ടുകളും നീക്കം ചെയ്യുന്നു.",
+  "back": "Select allows you to select multiple exports and share or delete them together. Delete All Exports removes all exports from this phone.",
+  "sim": 0.62
+ },
+ {
+  "k": "helpLibrary5",
+  "en": "Deleting removes exports from PhotoSur only. Pictures already saved to your gallery are not affected. The bottom of the See all screen shows how much space exports use on this phone.",
+  "tr": "ഇല്ലാതാക്കൽ എക്സ്പോർട്ടുകളെ PhotoSur-ൽ നിന്ന് മാത്രമേ നീക്കൂ. നിങ്ങളുടെ ഗാലറിയിൽ ഇതിനകം സേവ് ചെയ്ത ചിത്രങ്ങളെ തൊടില്ല. എല്ലാം കാണുക എന്നതിന്റെ താഴെ, ഈ ഫോണിൽ എക്സ്പോർട്ടുകൾ എത്ര സ്ഥലം എടുക്കുന്നു എന്ന് കാണാം.",
+  "back": "Delete exports only from PhotoSur. Do not touch images already saved in your gallery. Below the View All, you can see how much space exports take up on this phone.",
+  "sim": 0.52
+ },
+ {
+  "k": "helpPrivacyTitle",
+  "en": "Privacy & ads",
+  "tr": "സ്വകാര്യതയും പരസ്യങ്ങളും",
+  "back": "Privacy and advertising",
+  "sim": 0.4
+ },
+ {
+  "k": "helpPrivacy1",
+  "en": "Your photos are processed on your phone and are not uploaded. There is no account and no watermark.",
+  "tr": "നിങ്ങളുടെ ഫോട്ടോകൾ നിങ്ങളുടെ ഫോണിൽ തന്നെ പ്രോസസ്സ് ചെയ്യുന്നു, അപ്‌ലോഡ് ചെയ്യുന്നില്ല. അക്കൗണ്ടില്ല, വാട്ടർമാർക്കില്ല.",
+  "back": "Your photos are processed on your phone, not uploaded, no account, no watermark.",
+  "sim": 0.84
+ },
+ {
+  "k": "helpPrivacy2",
+  "en": "PhotoSur is free with every feature included, supported by ads. A banner appears at the bottom of some screens, and an ad can appear after an export.",
+  "tr": "PhotoSur സൗജന്യമാണ്, എല്ലാ ഫീച്ചറുകളോടും കൂടി, പരസ്യങ്ങളാൽ പിന്തുണയ്ക്കപ്പെടുന്നു. ചില സ്ക്രീനുകളുടെ താഴെ ഒരു ബാനർ കാണും, എക്സ്പോർട്ടിന് ശേഷം ഒരു പരസ്യം വരാം.",
+  "back": "PhotoSur is free, with all the features, supported by ads. A banner will appear at the bottom of some screens, and an ad may appear after export.",
+  "sim": 0.78
+ },
+ {
+  "k": "helpPrivacy3",
+  "en": "Go Ad-Free in Settings is a one-time purchase that removes the ads. It does not unlock anything else, because every feature is already free. Restore Purchases brings it back on a new phone.",
+  "tr": "ക്രമീകരണങ്ങളിലെ പരസ്യങ്ങൾ ഒഴിവാക്കൂ ഒറ്റത്തവണ വാങ്ങലാണ്, അത് പരസ്യങ്ങൾ നീക്കുന്നു. എല്ലാ ഫീച്ചറുകളും ഇതിനകം സൗജന്യമായതിനാൽ അത് മറ്റൊന്നും അൺലോക്ക് ചെയ്യുന്നില്ല. വാങ്ങലുകൾ പുനഃസ്ഥാപിക്കുക അത് പുതിയ ഫോണിൽ തിരികെ കൊണ്ടുവരും.",
+  "back": "Avoid ads in settings is a one-time purchase that moves ads. All features are already free and it doesn't unlock anything else. Restore purchases that will bring it back to the new phone.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpSettingsTitle",
+  "en": "Settings",
+  "tr": "ക്രമീകരണങ്ങൾ",
+  "back": "Settings",
+  "sim": 1.0
+ },
+ {
+  "k": "helpSettings1",
+  "en": "Theme can follow your phone, or be Light or Dark. Language changes the language of the app. Both are also in the home screen header.",
+  "tr": "തീം നിങ്ങളുടെ ഫോണിനെ പിന്തുടരാം, അല്ലെങ്കിൽ ലൈറ്റ് അല്ലെങ്കിൽ ഡാർക്ക് ആകാം. ഭാഷ ആപ്പിന്റെ ഭാഷ മാറ്റുന്നു. രണ്ടും ഹോം സ്ക്രീനിന്റെ ഹെഡറിലുമുണ്ട്.",
+  "back": "The theme can follow your phone, or it can be light or dark. The language changes the language of the app. Both are in the headline of the home screen.",
+  "sim": 0.84
+ },
+ {
+  "k": "helpSettings2",
+  "en": "Edit reminders: if you leave the app with an unfinished edit, PhotoSur can remind you three hours later. Switch this off in Settings.",
+  "tr": "എഡിറ്റ് ഓർമ്മപ്പെടുത്തലുകൾ: പൂർത്തിയാകാത്ത എഡിറ്റുമായി നിങ്ങൾ ആപ്പ് വിട്ടാൽ, PhotoSur മൂന്ന് മണിക്കൂറിന് ശേഷം ഓർമ്മിപ്പിച്ചേക്കാം. ഇത് ക്രമീകരണങ്ങളിൽ ഓഫ് ചെയ്യുക.",
+  "back": "Edit Reminders: If you leave the app with an unfinished edit, PhotoSur may remember after three hours. Turn it off in settings.",
+  "sim": 0.76
+ },
+ {
+  "k": "helpSettings3",
+  "en": "HD cut-out model shows whether it is installed. Remove deletes it from your phone to free space; you can download it again at any time.",
+  "tr": "HD കട്ടൗട്ട് മോഡൽ അത് ഇൻസ്റ്റാൾ ചെയ്തിട്ടുണ്ടോ എന്ന് കാണിക്കുന്നു. നീക്കുക സ്ഥലം ഒഴിവാക്കാൻ അത് നിങ്ങളുടെ ഫോണിൽ നിന്ന് ഇല്ലാതാക്കും; ഏത് സമയത്തും വീണ്ടും ഡൗൺലോഡ് ചെയ്യാം.",
+  "back": "The HD Cutout model shows if it's installed. Move space will remove it from your phone and you can download it again at any time.",
+  "sim": 0.72
+ },
+ {
+  "k": "helpSettings4",
+  "en": "Replay intro shows the welcome screens again. Support opens the support page. Animated home background turns the moving picture at the top of the home screen on or off.",
+  "tr": "ആമുഖം വീണ്ടും കാണുക സ്വാഗത സ്ക്രീനുകൾ വീണ്ടും കാണിക്കുന്നു. പിന്തുണ പിന്തുണ പേജ് തുറക്കുന്നു. ഹോമിന്റെ അനിമേറ്റഡ് പശ്ചാത്തലം ഹോം സ്ക്രീനിന്റെ മുകളിലെ ചലിക്കുന്ന ചിത്രം ഓണോ ഓഫോ ആക്കുന്നു.",
+  "back": "See Introduction again Welcome screens are shown again. The support support page opens. The animated background of the home makes the moving image on or off at the top of the home screen.",
+  "sim": 0.55
+ },
+ {
+  "k": "helpFixTitle",
+  "en": "If something goes wrong",
+  "tr": "എന്തെങ്കിലും തെറ്റിയാൽ",
+  "back": "If something goes wrong,",
+  "sim": 1.0
+ },
+ {
+  "k": "helpFix1",
+  "en": "If the automatic cut-out cannot run on a very old or low-memory phone, the brush still works, so you can finish the picture by hand.",
+  "tr": "വളരെ പഴയതോ മെമ്മറി കുറഞ്ഞതോ ആയ ഫോണിൽ സ്വയമേവയുള്ള കട്ട്-ഔട്ട് പ്രവർത്തിക്കാനായില്ലെങ്കിലും ബ്രഷ് പ്രവർത്തിക്കും, അതിനാൽ ചിത്രം കൈകൊണ്ട് പൂർത്തിയാക്കാം.",
+  "back": "The automatic cut-out won't work on a very old or low-memory phone, but the brush will work, so the image can be completed by hand.",
+  "sim": 0.64
+ },
+ {
+  "k": "helpFix2",
+  "en": "If the HD download stops, check your connection and try again. It continues where it left off.",
+  "tr": "HD ഡൗൺലോഡ് നിലച്ചാൽ നിങ്ങളുടെ കണക്ഷൻ പരിശോധിച്ച് വീണ്ടും ശ്രമിക്കുക. അത് നിർത്തിയിടത്തുനിന്ന് തുടരും.",
+  "back": "If the HD download stops, check your connection and try again.",
+  "sim": 0.79
+ },
+ {
+  "k": "helpFix3",
+  "en": "For anything else, open Support from Settings.",
+  "tr": "മറ്റെന്തിനും ക്രമീകരണങ്ങളിൽ നിന്ന് പിന്തുണ തുറക്കുക.",
+  "back": "Open support from settings for anything else.",
+  "sim": 0.57
+ }
+]
