@@ -65,10 +65,17 @@ void main() {
           tester.view.devicePixelRatio = 1.0;
           tester.view.physicalSize = const Size(320, 640);
           addTearDown(tester.view.reset);
+          final errors = <String>[];
+          final prev = FlutterError.onError;
+          FlutterError.onError = (d) {
+            final m = d.exceptionAsString().split('\n').first;
+            errors.add(m.length > 110 ? m.substring(0, 110) : m);
+          };
+          addTearDown(() => FlutterError.onError = prev);
           await tester.pumpWidget(_host(locale, scale, entry.value()));
           await tester.pump(const Duration(milliseconds: 100));
-          final ex = tester.takeException();
-          expect(ex, isNull, reason: '$locale x$scale ${entry.key}: $ex');
+          FlutterError.onError = prev;
+          expect(errors, isEmpty, reason: '${entry.key}: ${errors.take(2).join(' // ')}');
         });
       }
     }
