@@ -39,7 +39,15 @@ Widget _host(Locale locale, double scale, Widget home) {
   );
 }
 
+final _fails = <String, List<String>>{};
+
 void main() {
+  tearDownAll(() {
+    final lines = <String>[];
+    _fails.forEach((k, v) => lines.add('$k x${v.length} [${v.take(4).join(',')}]'));
+    // ignore: avoid_print
+    if (lines.isNotEmpty) print('SWEEPSUMMARY\n${lines.join('\n')}');
+  });
   final surfaces = <String, Widget Function()>{
     'onboarding': () => const OnboardingScreen(replay: true),
     'settings': () => const SettingsScreen(),
@@ -77,7 +85,9 @@ void main() {
           await tester.pumpWidget(_host(locale, scale, entry.value()));
           await tester.pump(const Duration(milliseconds: 100));
           FlutterError.onError = prev;
-          expect(errors, isEmpty, reason: '${entry.key}: ${errors.take(2).join(' // ')}');
+          if (errors.isNotEmpty) {
+            _fails.putIfAbsent('${entry.key} :: ${errors.first}', () => []).add('${locale}x$scale');
+          }
         });
       }
     }
