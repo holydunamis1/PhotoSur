@@ -49,9 +49,11 @@ void main() {
         const UnsupportedDeviceScreen(reason: UnsupportedReason.noCamera),
     'unsupported-lowMemory': () =>
         const UnsupportedDeviceScreen(reason: UnsupportedReason.lowMemory),
-    'dock': () => Align(
-          alignment: Alignment.bottomCenter,
-          child: EditorToolDock(selected: EditorTool.cutout, onSelected: (_) {}),
+    'dock': () => Scaffold(
+          body: Align(
+            alignment: Alignment.bottomCenter,
+            child: EditorToolDock(selected: EditorTool.cutout, onSelected: (_) {}),
+          ),
         ),
     'export-sheet': () => const Scaffold(
           body: Align(alignment: Alignment.bottomCenter, child: ExportBottomSheet()),
