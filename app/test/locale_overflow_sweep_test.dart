@@ -87,6 +87,7 @@ void main() {
           addTearDown(() => FlutterError.onError = prev);
           await tester.pumpWidget(_host(locale, scale, entry.value()));
           await tester.pump(const Duration(milliseconds: 100));
+          await tester.pump(const Duration(seconds: 11));
           FlutterError.onError = prev;
           if (errors.isNotEmpty) {
             _fails.putIfAbsent('${entry.key} :: ${errors.first}', () => []).add('${locale}x$scale');

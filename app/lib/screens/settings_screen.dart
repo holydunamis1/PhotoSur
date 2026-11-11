@@ -108,7 +108,11 @@ class SettingsScreen extends StatelessWidget {
               _Group(children: [
               ListTile(
                 title: Text(l10n.settingsTheme),
-                trailing: SegmentedButton<ThemeMode>(
+                trailing: ConstrainedBox(
+                  constraints: const BoxConstraints(maxWidth: 150),
+                  child: FittedBox(
+                    fit: BoxFit.scaleDown,
+                    child: SegmentedButton<ThemeMode>(
                   showSelectedIcon: false,
                   segments: const [
                     ButtonSegment(value: ThemeMode.light, icon: Icon(Icons.light_mode)),
@@ -120,6 +124,8 @@ class SettingsScreen extends StatelessWidget {
                     await themeProvider.setThemeMode(s.first);
                     await settingsProvider.syncThemeMode(s.first);
                   },
+                ),
+                  ),
                 ),
               ),
               ListTile(
