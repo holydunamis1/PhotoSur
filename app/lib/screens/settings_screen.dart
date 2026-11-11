@@ -132,8 +132,14 @@ class SettingsScreen extends StatelessWidget {
                 title: Text(l10n.settingsLanguage),
                 trailing: ValueListenableBuilder<UserSettings>(
                   valueListenable: settingsProvider,
-                  builder: (context, settings, _) =>
-                      Text(languageLabel(l10n, settings.language)),
+                  builder: (context, settings, _) => ConstrainedBox(
+                    constraints: const BoxConstraints(maxWidth: 140),
+                    child: Text(
+                      languageLabel(l10n, settings.language),
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ),
                 ),
                 onTap: () => showLanguageSheet(context),
               ),
