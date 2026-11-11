@@ -69,7 +69,11 @@ class UnsupportedDeviceScreen extends StatelessWidget {
       body: Column(
         children: [
           Expanded(
-            child: Padding(
+            child: LayoutBuilder(
+              builder: (context, constraints) => SingleChildScrollView(
+                child: ConstrainedBox(
+                  constraints: BoxConstraints(minHeight: constraints.maxHeight),
+                  child: Padding(
         padding: const EdgeInsets.all(24.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -100,6 +104,9 @@ class UnsupportedDeviceScreen extends StatelessWidget {
             ),
           ],
         ),
+                  ),
+                ),
+              ),
             ),
           ),
           const AdBannerSlot(personalized: false),

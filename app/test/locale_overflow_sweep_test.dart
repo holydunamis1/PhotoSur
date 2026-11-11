@@ -3,6 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:photosur/core/providers/image_edit_provider.dart';
 import 'package:photosur/core/providers/settings_provider.dart';
 import 'package:photosur/core/providers/subscription_provider.dart';
+import 'package:photosur/core/providers/theme_provider.dart';
 import 'package:photosur/core/theme/app_theme.dart';
 import 'package:photosur/generated/l10n/app_localizations.dart';
 import 'package:photosur/screens/export_bottom_sheet.dart';
@@ -23,6 +24,8 @@ Widget _host(Locale locale, double scale, Widget home) {
   return MultiProvider(
     providers: [
       Provider<ImageEditProvider>.value(value: ImageEditProvider()),
+      Provider<ThemeProvider>.value(value: ThemeProvider()),
+      Provider<SettingsProvider>.value(value: settings),
       Provider<SubscriptionProvider>.value(value: SubscriptionProvider(settings)),
     ],
     child: MaterialApp(
