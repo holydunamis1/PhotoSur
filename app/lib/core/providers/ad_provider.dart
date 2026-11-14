@@ -18,7 +18,8 @@ class AdProvider {
   );
 
   /// export_bottom_sheet.dart calls this after a successful export.
-  /// AdService itself enforces the 120s capping interval, so this method
+  /// AdService itself enforces the minimum gap between interstitials
+  /// (kInterstitialMinIntervalSeconds, saved on the phone), so this method
   /// doesn't need to duplicate that check — it just reflects whatever
   /// AdService actually did into AdLoadState for the UI.
   Future<void> maybeShowPostExportInterstitial({

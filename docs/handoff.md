@@ -2,7 +2,7 @@
 
 Read this first, then `decision.md` (why things are the way they are) and `blueprint.md` (how the app is built). Update all three as the build progresses (see "Keeping these docs current").
 
-Last updated: 2026-11-14. State described: `main` at `c91a5ab`, plus this docs branch.
+Last updated: 2026-11-14. State described: `main` at `67bb9bc` (docs merged), plus branch `verify/interstitial-gap` (batch 1, not merged until the owner says "merge").
 
 ## 1. Working rules from the owner (hard rules)
 - Owner works only from an Android phone (Chrome + GitHub mobile web). There is no local toolchain. CI is the only compiler.
@@ -54,7 +54,7 @@ Testing coverage:
 
 ## 5. Outstanding (not started unless noted)
 Approved by the owner on 2026-11-14 (build in this order, each on its own `verify/` branch, CI first, owner says "merge"):
-1. Interstitial spacing: change `kInterstitialMinIntervalSeconds` from 120 to **420 (7 minutes)**. No hourly cap. Save the last-shown timestamp on the phone so a restart does not reset it. Unit tests for the gap and the restart case.
+1. Interstitial spacing: **BUILT on `verify/interstitial-gap` (not merged).** `kInterstitialMinIntervalSeconds` is now **420 (7 minutes)**, no hourly cap. The rule lives in `app/lib/core/services/interstitial_gap.dart` (`InterstitialGap`); `AdService` uses it and the last-shown time is saved in SharedPreferences (`last_interstitial_shown_at_ms`), so a restart does not reset it. A saved time in the future (clock set back) counts as open. Tests: `app/test/interstitial_gap_test.dart`. Not verified on a phone.
 2. Storage and clean-up (all approved):
    - Start-up sweep: delete leftover temp files (batch scratch folders older than 10 min, temp images older than a day). Never touch the exports folder.
    - Orphan sweep: delete files in the exports folder that no history row points to, after a one-day wait.

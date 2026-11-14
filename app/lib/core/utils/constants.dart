@@ -71,7 +71,10 @@ const String kProdInterstitialAdUnitIdAndroid =
     kTestInterstitialAdUnitIdAndroid;
 const String kProdInterstitialAdUnitIdIos = kTestInterstitialAdUnitIdIos;
 
-const int kInterstitialMinIntervalSeconds = 120;
+/// Minimum gap between interstitials: 7 minutes (owner-approved 2026-11-14).
+/// No hourly cap. The last-shown time is saved on the phone
+/// (see core/services/interstitial_gap.dart).
+const int kInterstitialMinIntervalSeconds = 420;
 
 // ============================================================
 // FEATURE FLAGS

@@ -11,7 +11,7 @@ Flutter (Dart), provider, go_router, sqflite, tflite_flutter (on-device), google
 - `core/models`: `editable_image_state.dart` (BackgroundType, layout, base mask), `export_job.dart`.
 - `core/providers`: `image_edit_provider.dart` (editor state, undo/redo replay from base mask, auto cut-out, HD redo), `settings_provider.dart`, `theme_provider.dart`, `ad_provider.dart`, `subscription_provider.dart`, library/HD providers.
 - `core/services`: `segmentation_service.dart` (TFLite in isolate, `hdModelPath`, shared session for batch), mask refine/cleanup, `export_service.dart` (compose, flatten, size caps), `storage_service.dart` (temp/exports dirs, SQLite `export_jobs`), `export_library_service.dart`, `share_service.dart`, `model_download_service.dart` (resumable, SHA-256), marketplace presets in `core/utils/marketplace_presets.dart`, `constants.dart`.
-- `platform/`: `ad_service.dart` (banner/interstitial, interval enforced in memory), `batch_service.dart`, notification service, permission helpers.
+- `platform/`: `ad_service.dart` (banner/interstitial, 7-minute gap enforced by `core/services/interstitial_gap.dart`, last-shown time saved on the phone), `batch_service.dart`, notification service, permission helpers.
 - `screens/`: onboarding, home (+header strip), camera, crop_rotate, editor (tool panels, dock, top bar, canvas), export_bottom_sheet, batch, exports library, viewer, settings, help, paywall, unsupported_device.
 - `widgets/`: AdBannerSlot, tool panels, swatch row, colour picker, tiles.
 - `l10n/app_<lang>.arb` (264 keys); generated code in `lib/generated/l10n` (git-ignored, produced by `flutter gen-l10n`/pub get).

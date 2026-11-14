@@ -5,6 +5,7 @@ import 'package:app_tracking_transparency/app_tracking_transparency.dart';
 import 'package:flutter/foundation.dart' show debugPrint, kReleaseMode;
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
+import '../core/services/interstitial_gap.dart';
 import '../core/utils/constants.dart';
 
 /// AdMob init, ATT request, banner/interstitial load-show, capping logic.
@@ -12,7 +13,9 @@ class AdService {
   AdService._();
   static final AdService instance = AdService._();
 
-  DateTime? _lastInterstitialShownAt;
+  /// Minimum time between interstitials. The last-shown time is saved on the
+  /// phone, so it survives the app being closed.
+  final InterstitialGap _gap = InterstitialGap();
 
   /// Falls back to test IDs if production IDs still contain bracket
   /// placeholders (Section 1a pending items) — kept from the k3 rewrite,
@@ -122,11 +125,7 @@ class AdService {
   Future<bool> maybeLoadAndShowInterstitial({
     required bool personalized,
   }) async {
-    final last = _lastInterstitialShownAt;
-    if (last != null) {
-      final elapsed = DateTime.now().difference(last).inSeconds;
-      if (elapsed < kInterstitialMinIntervalSeconds) return false;
-    }
+    if (!await _gap.isOpen()) return false;
 
     await _waitUntilInitialized();
     final completer = Completer<bool>();
@@ -145,7 +144,7 @@ class AdService {
               },
             );
             ad.show();
-            _lastInterstitialShownAt = DateTime.now();
+            unawaited(_gap.markShown());
             if (!completer.isCompleted) completer.complete(true);
           },
           onAdFailedToLoad: (error) {
