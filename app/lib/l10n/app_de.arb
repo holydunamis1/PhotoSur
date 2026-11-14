@@ -263,5 +263,9 @@
   "helpFixTitle": "Wenn etwas schiefgeht",
   "helpFix1": "Kann die automatische Freistellung auf einem sehr alten oder speicherarmen Telefon nicht laufen, funktioniert der Pinsel weiterhin, sodass du das Bild von Hand fertigstellen kannst.",
   "helpFix2": "Bricht der HD-Download ab, prüfe deine Verbindung und versuche es erneut. Er setzt dort fort, wo er aufgehört hat.",
-  "helpFix3": "Für alles Weitere öffne Support in den Einstellungen."
+  "helpFix3": "Für alles Weitere öffne Support in den Einstellungen.",
+  "settingsTempFilesTitle": "Temporäre Dateien",
+  "settingsTempFilesClear": "Leeren",
+  "settingsTempFilesCleared": "Temporäre Dateien geleert",
+  "exportLowStorage": "Nicht genug freier Speicherplatz auf diesem Telefon. Gib Speicher frei und versuche es erneut."
 }

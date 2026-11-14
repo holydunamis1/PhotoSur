@@ -287,5 +287,9 @@
   "helpFixTitle": "Hvis noget går galt",
   "helpFix1": "Hvis den automatiske frilægning ikke kan køre på en meget gammel telefon eller en med lidt hukommelse, virker penslen stadig, så du kan færdiggøre billedet i hånden.",
   "helpFix2": "Hvis HD-hentningen stopper, så tjek din forbindelse, og prøv igen. Den fortsætter, hvor den slap.",
-  "helpFix3": "Til alt andet åbner du Support i Indstillinger."
+  "helpFix3": "Til alt andet åbner du Support i Indstillinger.",
+  "settingsTempFilesTitle": "Midlertidige filer",
+  "settingsTempFilesClear": "Ryd",
+  "settingsTempFilesCleared": "Midlertidige filer er ryddet",
+  "exportLowStorage": "Der er ikke nok ledig plads på telefonen. Frigør plads, og prøv igen."
 }

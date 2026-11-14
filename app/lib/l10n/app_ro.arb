@@ -287,5 +287,9 @@
   "helpFixTitle": "Dacă ceva nu merge",
   "helpFix1": "Dacă extragerea automată nu poate rula pe un telefon foarte vechi sau cu puțină memorie, pensula funcționează în continuare, așa că poți termina imaginea manual.",
   "helpFix2": "Dacă descărcarea HD se oprește, verifică conexiunea și încearcă din nou. Se reia de unde a rămas.",
-  "helpFix3": "Pentru orice altceva, deschide Asistență din Setări."
+  "helpFix3": "Pentru orice altceva, deschide Asistență din Setări.",
+  "settingsTempFilesTitle": "Fișiere temporare",
+  "settingsTempFilesClear": "Golește",
+  "settingsTempFilesCleared": "Fișierele temporare au fost șterse",
+  "exportLowStorage": "Nu este suficient spațiu liber pe telefon. Eliberează spațiu și încearcă din nou."
 }

@@ -133,5 +133,19 @@ const String kReminderChannelId = 'unfinished_edit';
 /// store release.
 const bool kShowExportDiagnostics = false;
 
+// --- Storage clean-up (owner-approved 2026-11-14) ---
+/// Temp folder: image files older than this are removed at startup.
+const Duration kTempMaxAge = Duration(days: 1);
+/// Files changed this recently are never touched (they may be in use).
+const Duration kTempActiveWindow = Duration(minutes: 10);
+/// Oldest temp images are removed past this total size (200 MB).
+const int kTempFolderCapBytes = 200 * 1024 * 1024;
+/// Exports-folder files with no history record are removed after this age.
+const Duration kOrphanMinAge = Duration(days: 1);
+/// Free space that must remain after an export or batch (50 MB).
+const int kLowStorageMarginBytes = 50 * 1024 * 1024;
+/// Rough space one batch photo needs (12 MB).
+const int kBatchPerPhotoBytes = 12 * 1024 * 1024;
+
 /// Most photos one batch run accepts (keeps memory and run time sane).
 const int kMaxBatchPhotos = 30;

@@ -263,5 +263,9 @@
   "helpFixTitle": "Nếu có sự cố",
   "helpFix1": "Nếu việc tách nền tự động không chạy được trên điện thoại rất cũ hoặc ít bộ nhớ, cọ vẫn hoạt động, nên bạn có thể hoàn thiện ảnh bằng tay.",
   "helpFix2": "Nếu việc tải HD bị dừng, hãy kiểm tra kết nối và thử lại. Nó sẽ tiếp tục từ chỗ đã dừng.",
-  "helpFix3": "Với mọi vấn đề khác, hãy mở Hỗ trợ từ Cài đặt."
+  "helpFix3": "Với mọi vấn đề khác, hãy mở Hỗ trợ từ Cài đặt.",
+  "settingsTempFilesTitle": "Tệp tạm thời",
+  "settingsTempFilesClear": "Xóa",
+  "settingsTempFilesCleared": "Đã xóa tệp tạm thời",
+  "exportLowStorage": "Điện thoại không đủ dung lượng trống. Vui lòng giải phóng bớt dung lượng rồi thử lại."
 }

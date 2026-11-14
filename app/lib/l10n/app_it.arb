@@ -263,5 +263,9 @@
   "helpFixTitle": "Se qualcosa va storto",
   "helpFix1": "Se l’estrazione automatica non riesce a funzionare su un telefono molto vecchio o con poca memoria, il pennello funziona comunque, quindi puoi completare l’immagine a mano.",
   "helpFix2": "Se il download HD si interrompe, controlla la connessione e riprova. Riprende da dove si era fermato.",
-  "helpFix3": "Per qualsiasi altro problema, apri Assistenza da Impostazioni."
+  "helpFix3": "Per qualsiasi altro problema, apri Assistenza da Impostazioni.",
+  "settingsTempFilesTitle": "File temporanei",
+  "settingsTempFilesClear": "Svuota",
+  "settingsTempFilesCleared": "File temporanei svuotati",
+  "exportLowStorage": "Spazio libero insufficiente su questo telefono. Libera dello spazio e riprova."
 }

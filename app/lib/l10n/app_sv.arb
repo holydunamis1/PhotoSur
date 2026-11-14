@@ -263,5 +263,9 @@
   "helpFixTitle": "Om något går fel",
   "helpFix1": "Om den automatiska friläggningen inte kan köras på en mycket gammal telefon eller en med lite minne fungerar penseln ändå, så du kan göra klart bilden för hand.",
   "helpFix2": "Om HD-nedladdningen stannar, kontrollera din anslutning och försök igen. Den fortsätter där den slutade.",
-  "helpFix3": "För allt annat, öppna Support i Inställningar."
+  "helpFix3": "För allt annat, öppna Support i Inställningar.",
+  "settingsTempFilesTitle": "Tillfälliga filer",
+  "settingsTempFilesClear": "Rensa",
+  "settingsTempFilesCleared": "Tillfälliga filer rensade",
+  "exportLowStorage": "Det finns inte tillräckligt med ledigt utrymme på telefonen. Frigör utrymme och försök igen."
 }

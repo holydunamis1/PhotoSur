@@ -263,5 +263,9 @@
   "helpFixTitle": "En cas de problème",
   "helpFix1": "Si le détourage automatique ne peut pas s’exécuter sur un téléphone très ancien ou à faible mémoire, le pinceau fonctionne toujours : vous pouvez terminer l’image à la main.",
   "helpFix2": "Si le téléchargement HD s’arrête, vérifiez votre connexion et réessayez. Il reprend là où il s’était arrêté.",
-  "helpFix3": "Pour tout autre problème, ouvrez Assistance depuis Réglages."
+  "helpFix3": "Pour tout autre problème, ouvrez Assistance depuis Réglages.",
+  "settingsTempFilesTitle": "Fichiers temporaires",
+  "settingsTempFilesClear": "Effacer",
+  "settingsTempFilesCleared": "Fichiers temporaires effacés",
+  "exportLowStorage": "Espace libre insuffisant sur ce téléphone. Libérez de l’espace, puis réessayez."
 }

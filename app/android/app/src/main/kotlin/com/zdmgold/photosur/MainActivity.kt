@@ -1,12 +1,24 @@
 package com.zdmgold.photosur
 
+import android.os.StatFs
 import io.flutter.embedding.android.FlutterActivity
+import io.flutter.embedding.engine.FlutterEngine
+import io.flutter.plugin.common.MethodChannel
 
-// This file never existed until now. AndroidManifest.xml (File 56)
-// references android:name=".MainActivity" and declares flutterEmbedding
-// value="2", but without this actual class file extending the real v2
-// embedding base class, Flutter's tooling has nothing to validate against
-// — this is the concrete missing piece behind the "Build failed due to
-// use of deleted Android v1 embedding" CI error, not a manifest content
-// problem.
-class MainActivity : FlutterActivity()
+class MainActivity : FlutterActivity() {
+    override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
+        super.configureFlutterEngine(flutterEngine)
+        MethodChannel(flutterEngine.dartExecutor.binaryMessenger, "photosur/storage")
+            .setMethodCallHandler { call, result ->
+                if (call.method == "freeBytes") {
+                    try {
+                        result.success(StatFs(filesDir.absolutePath).availableBytes)
+                    } catch (e: Exception) {
+                        result.success(null)
+                    }
+                } else {
+                    result.notImplemented()
+                }
+            }
+    }
+}

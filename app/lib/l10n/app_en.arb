@@ -293,5 +293,9 @@
   "helpFixTitle": "If something goes wrong",
   "helpFix1": "If the automatic cut-out cannot run on a very old or low-memory phone, the brush still works, so you can finish the picture by hand.",
   "helpFix2": "If the HD download stops, check your connection and try again. It continues where it left off.",
-  "helpFix3": "For anything else, open Support from Settings."
+  "helpFix3": "For anything else, open Support from Settings.",
+  "settingsTempFilesTitle": "Temporary files",
+  "settingsTempFilesClear": "Clear",
+  "settingsTempFilesCleared": "Temporary files cleared",
+  "exportLowStorage": "Not enough free space on this phone. Free up some storage and try again."
 }

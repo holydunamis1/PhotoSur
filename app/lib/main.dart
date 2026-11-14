@@ -1,3 +1,4 @@
+import 'core/services/storage_cleanup.dart';
 import 'dart:async' show unawaited;
 
 import 'package:flutter/foundation.dart'
@@ -57,6 +58,12 @@ Future<void> _startBackgroundServices(SettingsProvider settingsProvider) async {
       await settingsProvider.markAttPromptSeen();
     }, const Duration(seconds: 60));
   }
+
+  await _guard(
+    'storage sweep',
+    StorageCleanup.instance.runStartupSweep,
+    const Duration(seconds: 60),
+  );
 
   // Ads last: after ATT (iOS), and slowest, so it blocks nothing.
   await _guard(

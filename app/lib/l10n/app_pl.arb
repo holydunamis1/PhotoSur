@@ -263,5 +263,9 @@
   "helpFixTitle": "Gdy coś pójdzie nie tak",
   "helpFix1": "Jeśli automatyczne wycinanie nie może działać na bardzo starym telefonie lub z małą ilością pamięci, pędzel nadal działa, więc możesz dokończyć obraz ręcznie.",
   "helpFix2": "Jeśli pobieranie HD się zatrzyma, sprawdź połączenie i spróbuj ponownie. Wznawia od miejsca, w którym przerwano.",
-  "helpFix3": "W każdej innej sprawie otwórz Pomoc w Ustawieniach."
+  "helpFix3": "W każdej innej sprawie otwórz Pomoc w Ustawieniach.",
+  "settingsTempFilesTitle": "Pliki tymczasowe",
+  "settingsTempFilesClear": "Wyczyść",
+  "settingsTempFilesCleared": "Pliki tymczasowe wyczyszczone",
+  "exportLowStorage": "Na telefonie brakuje wolnego miejsca. Zwolnij trochę miejsca i spróbuj ponownie."
 }

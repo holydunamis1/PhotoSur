@@ -263,5 +263,9 @@
   "helpFixTitle": "Jika ada yang tidak kena",
   "helpFix1": "Jika potongan automatik tidak dapat berjalan pada telefon yang sangat lama atau bermemori rendah, berus tetap berfungsi, jadi anda boleh menyiapkan imej secara manual.",
   "helpFix2": "Jika muat turun HD berhenti, semak sambungan anda dan cuba lagi. Ia disambung semula dari tempat ia berhenti.",
-  "helpFix3": "Untuk perkara lain, buka Sokongan daripada Tetapan."
+  "helpFix3": "Untuk perkara lain, buka Sokongan daripada Tetapan.",
+  "settingsTempFilesTitle": "Fail sementara",
+  "settingsTempFilesClear": "Kosongkan",
+  "settingsTempFilesCleared": "Fail sementara telah dikosongkan",
+  "exportLowStorage": "Ruang kosong pada telefon ini tidak mencukupi. Kosongkan sedikit ruang dan cuba lagi."
 }

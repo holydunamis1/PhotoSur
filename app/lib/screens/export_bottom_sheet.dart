@@ -1,3 +1,5 @@
+import '../core/utils/low_storage.dart';
+import '../platform/free_space_service.dart';
 import 'dart:io';
 import 'dart:typed_data';
 
@@ -81,6 +83,20 @@ class _ExportBottomSheetState extends State<ExportBottomSheet> {
     final imageProvider = Provider.of<ImageEditProvider>(context, listen: false);
     final state = imageProvider.value;
     if (state.originalPath == null || state.imageSize == null) return;
+
+    final needed = estimateExportBytes(
+      _marketplace?.width ?? state.imageSize!.width.round(),
+      _marketplace?.height ?? state.imageSize!.height.round(),
+      _format,
+    );
+    if (!hasEnoughSpace(await readFreeBytes(), needed)) {
+      if (!mounted) return;
+      setState(() {
+        _errorMessage = l10n.exportLowStorage;
+        _errorDetail = null;
+      });
+      return;
+    }
 
     setState(() => _isExporting = true);
     var stage = 'read photo';

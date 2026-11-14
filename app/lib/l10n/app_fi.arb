@@ -287,5 +287,9 @@
   "helpFixTitle": "Jos jokin menee pieleen",
   "helpFix1": "Jos automaattinen irrotus ei voi toimia hyvin vanhalla tai vähämuistisella puhelimella, sivellin toimii silti, joten voit viimeistellä kuvan käsin.",
   "helpFix2": "Jos HD-lataus pysähtyy, tarkista yhteytesi ja yritä uudelleen. Se jatkuu siitä, mihin jäi.",
-  "helpFix3": "Kaikessa muussa avaa Tuki Asetuksista."
+  "helpFix3": "Kaikessa muussa avaa Tuki Asetuksista.",
+  "settingsTempFilesTitle": "Väliaikaiset tiedostot",
+  "settingsTempFilesClear": "Tyhjennä",
+  "settingsTempFilesCleared": "Väliaikaiset tiedostot tyhjennetty",
+  "exportLowStorage": "Puhelimessa ei ole tarpeeksi vapaata tilaa. Vapauta tilaa ja yritä uudelleen."
 }

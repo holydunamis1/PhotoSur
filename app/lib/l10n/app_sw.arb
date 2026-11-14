@@ -287,5 +287,9 @@
   "helpFixTitle": "Jambo likienda vibaya",
   "helpFix1": "Utengaji wa kiotomatiki usipoweza kufanya kazi kwenye simu ya zamani sana au yenye kumbukumbu ndogo, brashi bado inafanya kazi, kwa hivyo unaweza kumalizia picha kwa mkono.",
   "helpFix2": "Upakuaji wa HD ukisimama, angalia muunganisho wako na ujaribu tena. Huendelea pale ulipoishia.",
-  "helpFix3": "Kwa jambo lingine lolote, fungua Msaada kutoka kwenye Mipangilio."
+  "helpFix3": "Kwa jambo lingine lolote, fungua Msaada kutoka kwenye Mipangilio.",
+  "settingsTempFilesTitle": "Faili za muda",
+  "settingsTempFilesClear": "Futa",
+  "settingsTempFilesCleared": "Faili za muda zimefutwa",
+  "exportLowStorage": "Nafasi ya kuhifadhi kwenye simu hii haitoshi. Tengeneza nafasi kidogo kisha jaribu tena."
 }

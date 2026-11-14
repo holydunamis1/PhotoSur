@@ -263,5 +263,9 @@
   "helpFixTitle": "Kung may magkamali",
   "helpFix1": "Kung hindi tumakbo ang awtomatikong cutout sa napakaluma o kulang sa memory na telepono, gumagana pa rin ang brush, kaya puwede mong tapusin ang larawan nang mano-mano.",
   "helpFix2": "Kung huminto ang HD download, suriin ang koneksyon mo at subukan ulit. Magpapatuloy ito mula sa kung saan ito huminto.",
-  "helpFix3": "Para sa anupamang iba pa, buksan ang Suporta mula sa Settings."
+  "helpFix3": "Para sa anupamang iba pa, buksan ang Suporta mula sa Settings.",
+  "settingsTempFilesTitle": "Mga pansamantalang file",
+  "settingsTempFilesClear": "I-clear",
+  "settingsTempFilesCleared": "Na-clear ang mga pansamantalang file",
+  "exportLowStorage": "Kulang ang libreng espasyo sa telepono. Magbakante ng espasyo at subukang muli."
 }

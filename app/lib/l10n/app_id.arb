@@ -263,5 +263,9 @@
   "helpFixTitle": "Jika ada yang salah",
   "helpFix1": "Jika potongan otomatis tidak bisa berjalan di ponsel yang sangat lama atau bermemori kecil, kuas tetap berfungsi, sehingga Anda bisa menyelesaikan gambar secara manual.",
   "helpFix2": "Jika unduhan HD berhenti, periksa koneksi Anda dan coba lagi. Unduhan dilanjutkan dari titik terakhir.",
-  "helpFix3": "Untuk hal lainnya, buka Dukungan dari Pengaturan."
+  "helpFix3": "Untuk hal lainnya, buka Dukungan dari Pengaturan.",
+  "settingsTempFilesTitle": "File sementara",
+  "settingsTempFilesClear": "Hapus",
+  "settingsTempFilesCleared": "File sementara dihapus",
+  "exportLowStorage": "Ruang kosong di ponsel tidak cukup. Kosongkan sebagian ruang lalu coba lagi."
 }

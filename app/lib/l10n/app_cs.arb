@@ -287,5 +287,9 @@
   "helpFixTitle": "Když se něco pokazí",
   "helpFix1": "Pokud automatické vyříznutí nemůže běžet na velmi starém telefonu nebo telefonu s málem paměti, štětec funguje dál, takže obrázek můžete dokončit ručně.",
   "helpFix2": "Pokud se stahování HD zastaví, zkontrolujte připojení a zkuste to znovu. Naváže tam, kde skončilo.",
-  "helpFix3": "S čímkoli dalším otevřete Podpora v Nastavení."
+  "helpFix3": "S čímkoli dalším otevřete Podpora v Nastavení.",
+  "settingsTempFilesTitle": "Dočasné soubory",
+  "settingsTempFilesClear": "Vymazat",
+  "settingsTempFilesCleared": "Dočasné soubory byly vymazány",
+  "exportLowStorage": "V telefonu není dost volného místa. Uvolněte místo a zkuste to znovu."
 }

@@ -263,5 +263,9 @@
   "helpFixTitle": "Als er iets misgaat",
   "helpFix1": "Als de automatische uitsnede niet kan draaien op een heel oude telefoon of een telefoon met weinig geheugen, werkt het penseel nog steeds, zodat je de afbeelding met de hand kunt afmaken.",
   "helpFix2": "Als de HD-download stopt, controleer dan je verbinding en probeer het opnieuw. Hij gaat verder waar hij gebleven was.",
-  "helpFix3": "Open voor al het andere Ondersteuning via Instellingen."
+  "helpFix3": "Open voor al het andere Ondersteuning via Instellingen.",
+  "settingsTempFilesTitle": "Tijdelijke bestanden",
+  "settingsTempFilesClear": "Wissen",
+  "settingsTempFilesCleared": "Tijdelijke bestanden gewist",
+  "exportLowStorage": "Er is niet genoeg vrije ruimte op deze telefoon. Maak ruimte vrij en probeer het opnieuw."
 }

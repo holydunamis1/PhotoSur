@@ -263,5 +263,9 @@
   "helpFixTitle": "Bir şeyler ters giderse",
   "helpFix1": "Otomatik kesim çok eski veya belleği az bir telefonda çalışamazsa fırça yine de çalışır, böylece görüntüyü elle bitirebilirsiniz.",
   "helpFix2": "HD indirme durursa bağlantınızı kontrol edip yeniden deneyin. Kaldığı yerden devam eder.",
-  "helpFix3": "Başka her şey için Ayarlar’dan Destek’i açın."
+  "helpFix3": "Başka her şey için Ayarlar’dan Destek’i açın.",
+  "settingsTempFilesTitle": "Geçici dosyalar",
+  "settingsTempFilesClear": "Temizle",
+  "settingsTempFilesCleared": "Geçici dosyalar temizlendi",
+  "exportLowStorage": "Bu telefonda yeterli boş alan yok. Biraz yer açın ve tekrar deneyin."
 }

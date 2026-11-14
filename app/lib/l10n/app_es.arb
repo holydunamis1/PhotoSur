@@ -263,5 +263,9 @@
   "helpFixTitle": "Si algo sale mal",
   "helpFix1": "Si el recorte automático no puede ejecutarse en un teléfono muy antiguo o con poca memoria, el pincel sigue funcionando, así que puedes terminar la imagen a mano.",
   "helpFix2": "Si la descarga HD se detiene, revisa tu conexión e inténtalo de nuevo. Continúa donde se quedó.",
-  "helpFix3": "Para cualquier otra cosa, abre Soporte desde Ajustes."
+  "helpFix3": "Para cualquier otra cosa, abre Soporte desde Ajustes.",
+  "settingsTempFilesTitle": "Archivos temporales",
+  "settingsTempFilesClear": "Borrar",
+  "settingsTempFilesCleared": "Archivos temporales borrados",
+  "exportLowStorage": "No hay suficiente espacio libre en el teléfono. Libera espacio e inténtalo de nuevo."
 }

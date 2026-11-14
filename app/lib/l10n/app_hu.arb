@@ -287,5 +287,9 @@
   "helpFixTitle": "Ha valami nem sikerül",
   "helpFix1": "Ha az automatikus kivágás nem tud futni egy nagyon régi vagy kevés memóriájú telefonon, az ecset akkor is működik, így kézzel befejezheted a képet.",
   "helpFix2": "Ha a HD letöltés megszakad, ellenőrizd a kapcsolatot, és próbáld újra. Ott folytatódik, ahol abbamaradt.",
-  "helpFix3": "Bármi máshoz nyisd meg a Támogatás pontot a Beállításokban."
+  "helpFix3": "Bármi máshoz nyisd meg a Támogatás pontot a Beállításokban.",
+  "settingsTempFilesTitle": "Ideiglenes fájlok",
+  "settingsTempFilesClear": "Törlés",
+  "settingsTempFilesCleared": "Az ideiglenes fájlok törölve",
+  "exportLowStorage": "Nincs elég szabad hely a telefonon. Szabadíts fel helyet, és próbáld újra."
 }

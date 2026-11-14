@@ -287,5 +287,9 @@
   "helpFixTitle": "Si alguna cosa va malament",
   "helpFix1": "Si el retall automàtic no es pot executar en un telèfon molt antic o amb poca memòria, el pinzell continua funcionant, de manera que pots acabar la imatge a mà.",
   "helpFix2": "Si la baixada HD s’atura, comprova la connexió i torna-ho a provar. Continua des d’on s’havia aturat.",
-  "helpFix3": "Per a qualsevol altre problema, obre Assistència des de Configuració."
+  "helpFix3": "Per a qualsevol altre problema, obre Assistència des de Configuració.",
+  "settingsTempFilesTitle": "Fitxers temporals",
+  "settingsTempFilesClear": "Neteja",
+  "settingsTempFilesCleared": "Fitxers temporals netejats",
+  "exportLowStorage": "No hi ha prou espai lliure al telèfon. Allibera espai i torna-ho a provar."
 }

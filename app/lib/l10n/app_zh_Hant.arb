@@ -263,5 +263,9 @@
   "helpFixTitle": "遇到問題時",
   "helpFix1": "如果自動去背無法在非常舊或記憶體很小的手機上執行，筆刷仍然可用，你可以手動完成圖片。",
   "helpFix2": "如果高畫質下載中斷，請檢查網路連線後再試一次。它會從中斷處繼續。",
-  "helpFix3": "如有其他問題，請在設定中開啟支援。"
+  "helpFix3": "如有其他問題，請在設定中開啟支援。",
+  "settingsTempFilesTitle": "暫存檔案",
+  "settingsTempFilesClear": "清除",
+  "settingsTempFilesCleared": "暫存檔案已清除",
+  "exportLowStorage": "手機剩餘儲存空間不足，請釋出一些空間後再試一次。"
 }

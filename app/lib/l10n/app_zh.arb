@@ -263,5 +263,9 @@
   "helpFixTitle": "遇到问题时",
   "helpFix1": "如果自动抠图无法在非常旧或内存很小的手机上运行，画笔仍然可用，你可以手动完成图片。",
   "helpFix2": "如果高清下载中断，请检查网络连接后重试。它会从中断处继续。",
-  "helpFix3": "如有其他问题，请在设置中打开客服支持。"
+  "helpFix3": "如有其他问题，请在设置中打开客服支持。",
+  "settingsTempFilesTitle": "临时文件",
+  "settingsTempFilesClear": "清除",
+  "settingsTempFilesCleared": "临时文件已清除",
+  "exportLowStorage": "手机剩余存储空间不足，请释放一些空间后重试。"
 }

@@ -1,3 +1,6 @@
+import '../core/utils/low_storage.dart';
+import '../platform/free_space_service.dart';
+import '../widgets/toast_notification.dart';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
@@ -55,6 +58,14 @@ class _BatchScreenState extends State<BatchScreen> {
 
   Future<void> _start() async {
     if (_progress.value.running) return;
+    final l10n = AppLocalizations.of(context);
+    if (!hasEnoughSpace(
+        await readFreeBytes(), estimateBatchBytes(widget.imagePaths.length))) {
+      if (!mounted) return;
+      ToastNotification.show(context,
+          message: l10n.exportLowStorage, type: ToastType.error);
+      return;
+    }
     _stopRequested = false;
     _progress.value = BatchProgress.initial(widget.imagePaths.length)
         .copyWith(running: true);

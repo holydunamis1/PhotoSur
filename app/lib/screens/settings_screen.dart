@@ -1,3 +1,4 @@
+import '../widgets/temp_files_tile.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
@@ -184,7 +185,7 @@ class SettingsScreen extends StatelessWidget {
               ),
               ]),
               const SizedBox(height: AppSpace.l),
-              const _Group(children: [HdModelTile()]),
+              const _Group(children: [HdModelTile(), TempFilesTile()]),
               const SizedBox(height: AppSpace.l),
               _Group(children: [
               ListTile(
