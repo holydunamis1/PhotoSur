@@ -65,9 +65,9 @@ Both pipelines run `dart run build_runner build` (generates `.freezed.dart`/
   tested during the build-planning or code-generation process. See
   `segmentation_service.dart`'s doc comment and the build plan's
   Section 14 checklist.
-- **Localization**: v1 ships English-only, but the app is fully wired
-  to `AppLocalizations`/ARB-based localization (not hardcoded strings)
-  so a second language is a translation task, not a re-engineering one.
+- **Localization**: the app ships in 43 languages (ARB files in
+  `app/lib/l10n`). All non-English text is machine-translated and still
+  needs native-speaker review.
 - Several dependencies were added beyond the original build plan
   during implementation (`permission_handler`, `flutter_image_compress`,
   `crop_your_image`, `url_launcher`, `cross_file`) — each is documented

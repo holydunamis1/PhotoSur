@@ -58,13 +58,13 @@ Approved by the owner on 2026-11-14 (build in this order, each on its own `verif
 2. Storage and clean-up (all approved):
    - Start-up sweep: delete leftover temp files (batch scratch folders older than 10 min, temp images older than a day). Never touch the exports folder.
    - Orphan sweep: delete files in the exports folder that no history row points to, after a one-day wait.
-   - Temp folder cap: delete oldest temp files past a size limit (proposed 200 MB; owner approved the item, confirm the number).
+   - Temp folder cap: delete oldest temp files past a size limit (200 MB, confirmed by the owner).
    - Low-storage check before export and batch, with a plain message.
    - Settings storage row: size of temporary files with a Clear button.
    - Skip the debug-log cap (no such log exists).
    - Free-space reading may need a small new plugin: confirm with the owner before adding one.
    - About 4 new strings in 43 languages.
-3. In-app review prompt (`in_app_review`): after the 10th successful export across at least 3 different days, shown once, no cooldowns of our own (Google controls the quota). Never within the same moment as an interstitial (skip if an ad is showing or just closed; try on a later export). Settings "Rate" row stays as the manual route and never hides the prompt. Save the export count and set of days on the phone. No new strings. Open question from the owner: how batch exports count. Suggestion awaiting approval: a completed batch run counts as ONE export event regardless of photo count, only if at least one photo saved, and the prompt is never shown at the end of a batch (the batch already shows an interstitial).
+3. In-app review prompt (`in_app_review`): after the 10th successful export across at least 3 different days, shown once, no cooldowns of our own (Google controls the quota). Never within the same moment as an interstitial (skip if an ad is showing or just closed; try on a later export). Settings "Rate" row stays as the manual route and never hides the prompt. Save the export count and set of days on the phone. No new strings. Open question from the owner: how batch exports count. Owner approved 2026-11-14: a completed batch run counts as ONE export event regardless of photo count, only if at least one photo saved, and the prompt is never shown at the end of a batch (the batch already shows an interstitial).
 4. Ad consent (Google UMP): request consent info at launch before ads load; load ads only when Google says ads can be requested; if the check fails, still request ads; retry once on the next foreground; do not swallow `canRequestAds()` errors; add a Settings "Privacy choices" row shown only when required; add two sentences to the privacy page (declined consent may still show limited/non-personalized ads; if the form cannot be shown Google applies the last saved choice) and redeploy the site; keep the decision in one small function with a unit test; a few new strings in 43 languages. First check that `google_mobile_ads` 9.x includes the consent API. Cannot be fully tested without a device in an EEA region. Whether it is legally required is not decided.
 5. Languages follow-up: add widget tests for the editor tool panels, export sheet, batch, library, viewer and paywall; owner checks German, Tamil, Arabic, Thai on the phone. Native-speaker review of all 42 non-English languages (priority: es, pt, fr, hi, ar, id, zh; then onboarding, paywall, permission and HD text).
 
@@ -77,9 +77,7 @@ Release blockers (need the owner):
 - Cloudflare "Workers Builds" check showed failures on early pushes; later passed. Site serves fine.
 - U2-Net weights provenance: the HD model's weights match rembg's official `u2net.onnx` (all 231 multi-element tensors bit-identical); rembg is MIT, U-2-Net Apache-2.0. DUTS training-data terms were never checked.
 
-Known stale text to fix in a small branch:
-- `app/pubspec.yaml` description still says "Go ad-free for $0.99/mo".
-- README mentions English-only v1; the app has 43 languages.
+Stale pubspec description and README language line: fixed on 2026-11-14.
 
 Deferred on purpose: object eraser (needs MI-GAN 16 MB + GPU runtime), AI-generated backgrounds (cloud, conflicts with on-device privacy), tap-to-select subject, Blur placement under the colour row, making the repo private (safe for the HD download since the models repo is separate; first confirm Cloudflare still builds from a private repo).
 
