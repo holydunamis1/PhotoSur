@@ -153,6 +153,10 @@ void main() {
 
   testWidgets('settings screen builds with four grouped cards',
       (tester) async {
+    // Tall enough that the list builds every group (it builds lazily).
+    tester.view.physicalSize = const Size(800, 1800);
+    tester.view.devicePixelRatio = 1.0;
+    addTearDown(tester.view.reset);
     await tester.pumpWidget(
       MultiProvider(
         providers: [
@@ -175,6 +179,7 @@ void main() {
     expect(tester.takeException(), isNull);
     expect(find.byType(Card), findsNWidgets(4));
     expect(find.text('HD cut-out model'), findsOneWidget);
+    expect(find.text('Temporary files'), findsOneWidget);
     expect(find.text('Open-source licenses'), findsOneWidget);
   });
 }
