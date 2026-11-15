@@ -60,6 +60,9 @@ class AdService {
   bool _consentResolved = false;
   final Completer<void> _consentDone = Completer<void>();
 
+  /// True while Google's consent form call is open (the user may be reading it).
+  bool _formPending = false;
+
   bool _sdkStarted = false;
   bool _consentRetried = false;
   bool _lastUpdateFailed = false;
@@ -84,7 +87,9 @@ class AdService {
     },
     showFormIfRequired: () {
       final c = Completer<void>();
+      _formPending = true;
       ConsentForm.loadAndShowConsentFormIfRequired((FormError? e) {
+        _formPending = false;
         if (e == null) {
           c.complete();
         } else {
@@ -161,13 +166,17 @@ class AdService {
   }
 
   /// Lets ad loads wait for the consent check and then for SDK
-  /// initialization, but never forever. The consent wait can be long (the
-  /// form waits for the user); the SDK wait stays at 20 seconds.
-  Future<void> _waitUntilInitialized(
-      [Duration consentWait = const Duration(seconds: 20)]) async {
+  /// initialization, but never forever. Each wait is 20 seconds, except that
+  /// while Google's consent form is open (it waits for the user) the load
+  /// keeps waiting for the form to close. No long timer is involved.
+  Future<void> _waitUntilInitialized() async {
     final init = initialize();
     try {
-      await _consentDone.future.timeout(consentWait);
+      try {
+        await _consentDone.future.timeout(const Duration(seconds: 20));
+      } on TimeoutException {
+        if (_formPending) await _consentDone.future;
+      }
       await init.timeout(const Duration(seconds: 20));
     } catch (_) {
       // Proceed anyway; the load itself has its own timeout.
@@ -194,8 +203,7 @@ class AdService {
     required void Function(Ad ad) onLoaded,
     required void Function(Ad ad, LoadAdError error) onFailed,
   }) async {
-    // The consent form can wait for the user, so banners wait longer.
-    await _waitUntilInitialized(const Duration(minutes: 2));
+    await _waitUntilInitialized();
     if (!_adsAllowed || !_consentResolved) {
       return null;
     }
