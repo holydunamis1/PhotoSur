@@ -58,6 +58,7 @@ class AdService {
   /// True once the consent check has finished (whatever its outcome). No ad
   /// is requested before that.
   bool _consentResolved = false;
+  final Completer<void> _consentDone = Completer<void>();
 
   bool _sdkStarted = false;
   bool _consentRetried = false;
@@ -121,6 +122,7 @@ class AdService {
   Future<void> _applyConsent() async {
     final result = await _consent.gather();
     _consentResolved = true;
+    if (!_consentDone.isCompleted) _consentDone.complete();
     _lastUpdateFailed = result.infoUpdateFailed;
     privacyOptionsRequired.value = result.privacyOptionsRequired;
     _adsAllowed = result.adsAllowed;
@@ -158,11 +160,15 @@ class AdService {
     }
   }
 
-  /// Lets ad loads wait for SDK initialization, but never forever.
+  /// Lets ad loads wait for the consent check and then for SDK
+  /// initialization, but never forever. The consent wait can be long (the
+  /// form waits for the user); the SDK wait stays at 20 seconds.
   Future<void> _waitUntilInitialized(
-      [Duration timeout = const Duration(seconds: 20)]) async {
+      [Duration consentWait = const Duration(seconds: 20)]) async {
+    final init = initialize();
     try {
-      await initialize().timeout(timeout);
+      await _consentDone.future.timeout(consentWait);
+      await init.timeout(const Duration(seconds: 20));
     } catch (_) {
       // Proceed anyway; the load itself has its own timeout.
     }
