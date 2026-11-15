@@ -36,6 +36,11 @@ dependencies:
   # (latest stable 3.0.7).
   crypto: ^3.0.7
 
+  # --- In-app review prompt ---
+  # 2.0.12 is the latest on pub.dev's changelog (Android NPE fix; uses Play
+  # Review 2.0.2; no JNI, no extra Gradle setup).
+  in_app_review: ^2.0.12
+
   # --- Local notifications (unfinished-edit reminders) ---
   # Versions verified live on pub.dev: flutter_local_notifications latest is
   # 22.3.1; timezone ^0.11.0 is the range the plugin itself depends on.

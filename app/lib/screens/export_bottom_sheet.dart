@@ -1,3 +1,4 @@
+import 'dart:async';
 import '../core/utils/low_storage.dart';
 import '../platform/free_space_service.dart';
 import 'dart:io';
@@ -8,6 +9,7 @@ import 'package:go_router/go_router.dart';
 import 'package:path/path.dart' as p;
 import 'package:provider/provider.dart';
 
+import '../core/models/ad_load_state.dart' show AdLoadStatus;
 import '../core/models/export_job.dart';
 import '../core/providers/ad_provider.dart';
 import '../core/providers/image_edit_provider.dart';
@@ -20,6 +22,7 @@ import '../core/utils/marketplace_presets.dart';
 import '../core/models/editable_image_state.dart' show BackgroundType;
 import '../generated/l10n/app_localizations.dart';
 import '../platform/notification_service.dart';
+import '../platform/review_service.dart';
 import '../widgets/loading_overlay.dart';
 import '../widgets/primary_button.dart';
 import '../widgets/toast_notification.dart';
@@ -203,14 +206,21 @@ class _ExportBottomSheetState extends State<ExportBottomSheet> {
         ToastNotification.show(context, message: l10n.exportSuccess, type: ToastType.success);
       }
 
+      var adShown = false;
       if (context.mounted) {
         final subscriptionProvider =
             Provider.of<SubscriptionProvider>(context, listen: false);
         if (!subscriptionProvider.value) {
           final adProvider = Provider.of<AdProvider>(context, listen: false);
           await adProvider.maybeShowPostExportInterstitial(personalized: false);
+          adShown = adProvider.postExportInterstitial.value.state ==
+              AdLoadStatus.loaded;
         }
       }
+
+      // Count this export; the review prompt may follow, but never in the
+      // same flow as an interstitial.
+      unawaited(ReviewService.instance.recordExport(adShown: adShown));
 
       if (context.mounted) {
         Navigator.of(context).pop();

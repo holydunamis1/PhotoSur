@@ -1,3 +1,4 @@
+import 'dart:async';
 import '../core/utils/low_storage.dart';
 import '../platform/free_space_service.dart';
 import '../widgets/toast_notification.dart';
@@ -18,6 +19,7 @@ import '../core/utils/marketplace_presets.dart';
 import '../generated/l10n/app_localizations.dart';
 import '../core/services/segmentation_service.dart';
 import '../platform/batch_service.dart';
+import '../platform/review_service.dart';
 import '../widgets/ad_banner_slot.dart';
 import '../widgets/app_scaffold.dart';
 import '../widgets/background_selector.dart';
@@ -93,6 +95,9 @@ class _BatchScreenState extends State<BatchScreen> {
     _progress.value = _progress.value.copyWith(running: false, finished: true);
 
     if (_progress.value.doneCount > 0) {
+      // One export event for the whole run; never prompts here (the batch
+      // already shows an interstitial).
+      unawaited(ReviewService.instance.recordExport(allowPrompt: false));
       try {
         await Provider.of<AdProvider>(context, listen: false)
             .maybeShowPostExportInterstitial(personalized: false);

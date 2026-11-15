@@ -147,5 +147,11 @@ const int kLowStorageMarginBytes = 50 * 1024 * 1024;
 /// Rough space one batch photo needs (12 MB).
 const int kBatchPerPhotoBytes = 12 * 1024 * 1024;
 
+// --- In-app review prompt (owner-approved 2026-11-14) ---
+/// Successful export events needed before the prompt may show.
+const int kReviewMinExports = 10;
+/// Different calendar days those exports must span.
+const int kReviewMinDays = 3;
+
 /// Most photos one batch run accepts (keeps memory and run time sane).
 const int kMaxBatchPhotos = 30;
