@@ -67,13 +67,13 @@ class AdService {
   bool _consentRetried = false;
   bool _lastUpdateFailed = false;
 
-  /// Tests replace the real Google consent calls (there is no plugin in a
-  /// unit test, so the real calls never answer).
+  /// Unit tests have no ads plugin, so the real Google consent calls would
+  /// never answer. Tests set this to start the SDK without the consent step
+  /// (the consent sequence itself is covered by consent_flow_test.dart).
   @visibleForTesting
-  ConsentGateway? consentGatewayOverride;
+  bool skipConsentForTests = false;
 
-  late final ConsentFlow _consent =
-      ConsentFlow(consentGatewayOverride ?? _pluginGateway());
+  late final ConsentFlow _consent = ConsentFlow(_pluginGateway());
 
   ConsentGateway _pluginGateway() => ConsentGateway(
     requestInfoUpdate: () {
@@ -125,6 +125,12 @@ class AdService {
   }
 
   Future<void> _applyConsent() async {
+    if (skipConsentForTests) {
+      _consentResolved = true;
+      if (!_consentDone.isCompleted) _consentDone.complete();
+      await _startSdkIfAllowed();
+      return;
+    }
     final result = await _consent.gather();
     _consentResolved = true;
     if (!_consentDone.isCompleted) _consentDone.complete();
@@ -172,10 +178,12 @@ class AdService {
   Future<void> _waitUntilInitialized() async {
     final init = initialize();
     try {
-      try {
-        await _consentDone.future.timeout(const Duration(seconds: 20));
-      } on TimeoutException {
-        if (_formPending) await _consentDone.future;
+      if (!_consentDone.isCompleted) {
+        try {
+          await _consentDone.future.timeout(const Duration(seconds: 20));
+        } on TimeoutException {
+          if (_formPending) await _consentDone.future;
+        }
       }
       await init.timeout(const Duration(seconds: 20));
     } catch (_) {
