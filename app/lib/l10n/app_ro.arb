@@ -291,5 +291,6 @@
   "settingsTempFilesTitle": "Fișiere temporare",
   "settingsTempFilesClear": "Golește",
   "settingsTempFilesCleared": "Fișierele temporare au fost șterse",
-  "exportLowStorage": "Nu este suficient spațiu liber pe telefon. Eliberează spațiu și încearcă din nou."
+  "exportLowStorage": "Nu este suficient spațiu liber pe telefon. Eliberează spațiu și încearcă din nou.",
+  "settingsPrivacyChoices": "Opțiuni de confidențialitate"
 }

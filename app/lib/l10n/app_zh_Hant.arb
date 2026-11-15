@@ -267,5 +267,6 @@
   "settingsTempFilesTitle": "暫存檔案",
   "settingsTempFilesClear": "清除",
   "settingsTempFilesCleared": "暫存檔案已清除",
-  "exportLowStorage": "手機剩餘儲存空間不足，請釋出一些空間後再試一次。"
+  "exportLowStorage": "手機剩餘儲存空間不足，請釋出一些空間後再試一次。",
+  "settingsPrivacyChoices": "隱私權選項"
 }

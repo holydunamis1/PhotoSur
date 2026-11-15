@@ -19,6 +19,17 @@ import 'core/utils/constants.dart';
 import 'platform/model_download_service.dart';
 import 'platform/notification_service.dart';
 
+/// Retries Google's consent check once when the app returns to the
+/// foreground, if the first check failed.
+class _ConsentResumeObserver with WidgetsBindingObserver {
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.resumed) {
+      unawaited(AdService.instance.retryConsentOnResume());
+    }
+  }
+}
+
 void _boot(String step) => debugPrint('BOOT $step');
 
 /// Runs [task] but never lets it block or crash startup: failures and
@@ -69,13 +80,15 @@ Future<void> _startBackgroundServices(SettingsProvider settingsProvider) async {
   await _guard(
     'ads init',
     AdService.instance.initialize,
-    const Duration(seconds: 45),
+    // Includes Google's consent form, which waits for the user.
+    const Duration(minutes: 5),
   );
 }
 
 Future<void> main() async {
   _boot('main start');
   WidgetsFlutterBinding.ensureInitialized();
+  WidgetsBinding.instance.addObserver(_ConsentResumeObserver());
   _boot('binding ready');
 
   AppErrorHandler.init();

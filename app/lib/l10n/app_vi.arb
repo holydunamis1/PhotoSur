@@ -267,5 +267,6 @@
   "settingsTempFilesTitle": "Tệp tạm thời",
   "settingsTempFilesClear": "Xóa",
   "settingsTempFilesCleared": "Đã xóa tệp tạm thời",
-  "exportLowStorage": "Điện thoại không đủ dung lượng trống. Vui lòng giải phóng bớt dung lượng rồi thử lại."
+  "exportLowStorage": "Điện thoại không đủ dung lượng trống. Vui lòng giải phóng bớt dung lượng rồi thử lại.",
+  "settingsPrivacyChoices": "Lựa chọn quyền riêng tư"
 }

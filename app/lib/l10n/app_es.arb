@@ -267,5 +267,6 @@
   "settingsTempFilesTitle": "Archivos temporales",
   "settingsTempFilesClear": "Borrar",
   "settingsTempFilesCleared": "Archivos temporales borrados",
-  "exportLowStorage": "No hay suficiente espacio libre en el teléfono. Libera espacio e inténtalo de nuevo."
+  "exportLowStorage": "No hay suficiente espacio libre en el teléfono. Libera espacio e inténtalo de nuevo.",
+  "settingsPrivacyChoices": "Opciones de privacidad"
 }

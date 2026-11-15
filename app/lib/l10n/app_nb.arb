@@ -291,5 +291,6 @@
   "settingsTempFilesTitle": "Midlertidige filer",
   "settingsTempFilesClear": "Tøm",
   "settingsTempFilesCleared": "Midlertidige filer er tømt",
-  "exportLowStorage": "Ikke nok ledig plass på telefonen. Frigjør plass og prøv igjen."
+  "exportLowStorage": "Ikke nok ledig plass på telefonen. Frigjør plass og prøv igjen.",
+  "settingsPrivacyChoices": "Personvernvalg"
 }

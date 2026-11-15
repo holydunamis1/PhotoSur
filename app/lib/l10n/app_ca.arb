@@ -291,5 +291,6 @@
   "settingsTempFilesTitle": "Fitxers temporals",
   "settingsTempFilesClear": "Neteja",
   "settingsTempFilesCleared": "Fitxers temporals netejats",
-  "exportLowStorage": "No hi ha prou espai lliure al telèfon. Allibera espai i torna-ho a provar."
+  "exportLowStorage": "No hi ha prou espai lliure al telèfon. Allibera espai i torna-ho a provar.",
+  "settingsPrivacyChoices": "Opcions de privadesa"
 }

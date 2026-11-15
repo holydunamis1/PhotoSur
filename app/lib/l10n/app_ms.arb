@@ -267,5 +267,6 @@
   "settingsTempFilesTitle": "Fail sementara",
   "settingsTempFilesClear": "Kosongkan",
   "settingsTempFilesCleared": "Fail sementara telah dikosongkan",
-  "exportLowStorage": "Ruang kosong pada telefon ini tidak mencukupi. Kosongkan sedikit ruang dan cuba lagi."
+  "exportLowStorage": "Ruang kosong pada telefon ini tidak mencukupi. Kosongkan sedikit ruang dan cuba lagi.",
+  "settingsPrivacyChoices": "Pilihan privasi"
 }

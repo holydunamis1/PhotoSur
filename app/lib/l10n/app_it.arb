@@ -267,5 +267,6 @@
   "settingsTempFilesTitle": "File temporanei",
   "settingsTempFilesClear": "Svuota",
   "settingsTempFilesCleared": "File temporanei svuotati",
-  "exportLowStorage": "Spazio libero insufficiente su questo telefono. Libera dello spazio e riprova."
+  "exportLowStorage": "Spazio libero insufficiente su questo telefono. Libera dello spazio e riprova.",
+  "settingsPrivacyChoices": "Scelte sulla privacy"
 }

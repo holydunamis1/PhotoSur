@@ -291,5 +291,6 @@
   "settingsTempFilesTitle": "Προσωρινά αρχεία",
   "settingsTempFilesClear": "Εκκαθάριση",
   "settingsTempFilesCleared": "Τα προσωρινά αρχεία εκκαθαρίστηκαν",
-  "exportLowStorage": "Δεν υπάρχει αρκετός ελεύθερος χώρος στο τηλέφωνο. Ελευθερώστε χώρο και δοκιμάστε ξανά."
+  "exportLowStorage": "Δεν υπάρχει αρκετός ελεύθερος χώρος στο τηλέφωνο. Ελευθερώστε χώρο και δοκιμάστε ξανά.",
+  "settingsPrivacyChoices": "Επιλογές απορρήτου"
 }

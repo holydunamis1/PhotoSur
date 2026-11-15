@@ -291,5 +291,6 @@
   "settingsTempFilesTitle": "தற்காலிக கோப்புகள்",
   "settingsTempFilesClear": "அழி",
   "settingsTempFilesCleared": "தற்காலிக கோப்புகள் அழிக்கப்பட்டன",
-  "exportLowStorage": "இந்த தொலைபேசியில் போதுமான காலி இடம் இல்லை. சிறிது இடத்தை காலி செய்து மீண்டும் முயலவும்."
+  "exportLowStorage": "இந்த தொலைபேசியில் போதுமான காலி இடம் இல்லை. சிறிது இடத்தை காலி செய்து மீண்டும் முயலவும்.",
+  "settingsPrivacyChoices": "தனியுரிமை விருப்பங்கள்"
 }

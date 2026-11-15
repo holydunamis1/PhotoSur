@@ -267,5 +267,6 @@
   "settingsTempFilesTitle": "临时文件",
   "settingsTempFilesClear": "清除",
   "settingsTempFilesCleared": "临时文件已清除",
-  "exportLowStorage": "手机剩余存储空间不足，请释放一些空间后重试。"
+  "exportLowStorage": "手机剩余存储空间不足，请释放一些空间后重试。",
+  "settingsPrivacyChoices": "隐私选择"
 }

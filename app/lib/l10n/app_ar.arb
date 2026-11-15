@@ -267,5 +267,6 @@
   "settingsTempFilesTitle": "الملفات المؤقتة",
   "settingsTempFilesClear": "مسح",
   "settingsTempFilesCleared": "تم مسح الملفات المؤقتة",
-  "exportLowStorage": "لا توجد مساحة تخزين كافية على هذا الهاتف. يُرجى تحرير بعض المساحة ثم المحاولة مرة أخرى."
+  "exportLowStorage": "لا توجد مساحة تخزين كافية على هذا الهاتف. يُرجى تحرير بعض المساحة ثم المحاولة مرة أخرى.",
+  "settingsPrivacyChoices": "خيارات الخصوصية"
 }

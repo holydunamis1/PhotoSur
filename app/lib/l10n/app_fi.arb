@@ -291,5 +291,6 @@
   "settingsTempFilesTitle": "Väliaikaiset tiedostot",
   "settingsTempFilesClear": "Tyhjennä",
   "settingsTempFilesCleared": "Väliaikaiset tiedostot tyhjennetty",
-  "exportLowStorage": "Puhelimessa ei ole tarpeeksi vapaata tilaa. Vapauta tilaa ja yritä uudelleen."
+  "exportLowStorage": "Puhelimessa ei ole tarpeeksi vapaata tilaa. Vapauta tilaa ja yritä uudelleen.",
+  "settingsPrivacyChoices": "Tietosuojavalinnat"
 }

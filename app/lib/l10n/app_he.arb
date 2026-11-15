@@ -267,5 +267,6 @@
   "settingsTempFilesTitle": "קבצים זמניים",
   "settingsTempFilesClear": "ניקוי",
   "settingsTempFilesCleared": "הקבצים הזמניים נוקו",
-  "exportLowStorage": "אין מספיק מקום פנוי בטלפון. שחררו מקום ונסו שוב."
+  "exportLowStorage": "אין מספיק מקום פנוי בטלפון. שחררו מקום ונסו שוב.",
+  "settingsPrivacyChoices": "אפשרויות פרטיות"
 }

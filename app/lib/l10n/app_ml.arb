@@ -291,5 +291,6 @@
   "settingsTempFilesTitle": "താൽക്കാലിക ഫയലുകൾ",
   "settingsTempFilesClear": "മായ്ക്കുക",
   "settingsTempFilesCleared": "താൽക്കാലിക ഫയലുകൾ മായ്ച്ചു",
-  "exportLowStorage": "ഈ ഫോണിൽ ആവശ്യത്തിന് ഒഴിഞ്ഞ സ്ഥലമില്ല. കുറച്ച് സ്ഥലം ഒഴിവാക്കി വീണ്ടും ശ്രമിക്കൂ."
+  "exportLowStorage": "ഈ ഫോണിൽ ആവശ്യത്തിന് ഒഴിഞ്ഞ സ്ഥലമില്ല. കുറച്ച് സ്ഥലം ഒഴിവാക്കി വീണ്ടും ശ്രമിക്കൂ.",
+  "settingsPrivacyChoices": "സ്വകാര്യതാ ഓപ്ഷനുകൾ"
 }

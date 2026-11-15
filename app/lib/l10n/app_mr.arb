@@ -291,5 +291,6 @@
   "settingsTempFilesTitle": "तात्पुरत्या फाइल्स",
   "settingsTempFilesClear": "साफ करा",
   "settingsTempFilesCleared": "तात्पुरत्या फाइल्स साफ केल्या",
-  "exportLowStorage": "या फोनमध्ये पुरेशी मोकळी जागा नाही. थोडी जागा मोकळी करा आणि पुन्हा प्रयत्न करा."
+  "exportLowStorage": "या फोनमध्ये पुरेशी मोकळी जागा नाही. थोडी जागा मोकळी करा आणि पुन्हा प्रयत्न करा.",
+  "settingsPrivacyChoices": "गोपनीयता पर्याय"
 }

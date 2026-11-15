@@ -291,5 +291,6 @@
   "settingsTempFilesTitle": "અસ્થાયી ફાઇલો",
   "settingsTempFilesClear": "સાફ કરો",
   "settingsTempFilesCleared": "અસ્થાયી ફાઇલો સાફ થઈ ગઈ",
-  "exportLowStorage": "આ ફોનમાં પૂરતી ખાલી જગ્યા નથી. થોડી જગ્યા ખાલી કરો અને ફરી પ્રયાસ કરો."
+  "exportLowStorage": "આ ફોનમાં પૂરતી ખાલી જગ્યા નથી. થોડી જગ્યા ખાલી કરો અને ફરી પ્રયાસ કરો.",
+  "settingsPrivacyChoices": "ગોપનીયતા વિકલ્પો"
 }

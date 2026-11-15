@@ -291,5 +291,6 @@
   "settingsTempFilesTitle": "Dočasné soubory",
   "settingsTempFilesClear": "Vymazat",
   "settingsTempFilesCleared": "Dočasné soubory byly vymazány",
-  "exportLowStorage": "V telefonu není dost volného místa. Uvolněte místo a zkuste to znovu."
+  "exportLowStorage": "V telefonu není dost volného místa. Uvolněte místo a zkuste to znovu.",
+  "settingsPrivacyChoices": "Možnosti ochrany soukromí"
 }

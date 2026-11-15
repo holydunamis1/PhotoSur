@@ -267,5 +267,6 @@
   "settingsTempFilesTitle": "File sementara",
   "settingsTempFilesClear": "Hapus",
   "settingsTempFilesCleared": "File sementara dihapus",
-  "exportLowStorage": "Ruang kosong di ponsel tidak cukup. Kosongkan sebagian ruang lalu coba lagi."
+  "exportLowStorage": "Ruang kosong di ponsel tidak cukup. Kosongkan sebagian ruang lalu coba lagi.",
+  "settingsPrivacyChoices": "Pilihan privasi"
 }

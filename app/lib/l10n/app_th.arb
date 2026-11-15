@@ -267,5 +267,6 @@
   "settingsTempFilesTitle": "ไฟล์ชั่วคราว",
   "settingsTempFilesClear": "ล้าง",
   "settingsTempFilesCleared": "ล้างไฟล์ชั่วคราวแล้ว",
-  "exportLowStorage": "พื้นที่ว่างในโทรศัพท์ไม่เพียงพอ โปรดเพิ่มพื้นที่ว่างแล้วลองอีกครั้ง"
+  "exportLowStorage": "พื้นที่ว่างในโทรศัพท์ไม่เพียงพอ โปรดเพิ่มพื้นที่ว่างแล้วลองอีกครั้ง",
+  "settingsPrivacyChoices": "ตัวเลือกความเป็นส่วนตัว"
 }

@@ -291,5 +291,6 @@
   "settingsTempFilesTitle": "తాత్కాలిక ఫైళ్లు",
   "settingsTempFilesClear": "క్లియర్ చేయి",
   "settingsTempFilesCleared": "తాత్కాలిక ఫైళ్లు క్లియర్ అయ్యాయి",
-  "exportLowStorage": "ఈ ఫోన్‌లో తగినంత ఖాళీ స్థలం లేదు. కొంత స్థలాన్ని ఖాళీ చేసి మళ్లీ ప్రయత్నించండి."
+  "exportLowStorage": "ఈ ఫోన్‌లో తగినంత ఖాళీ స్థలం లేదు. కొంత స్థలాన్ని ఖాళీ చేసి మళ్లీ ప్రయత్నించండి.",
+  "settingsPrivacyChoices": "గోప్యతా ఎంపికలు"
 }

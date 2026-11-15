@@ -291,5 +291,6 @@
   "settingsTempFilesTitle": "Временни файлове",
   "settingsTempFilesClear": "Изчисти",
   "settingsTempFilesCleared": "Временните файлове са изчистени",
-  "exportLowStorage": "Няма достатъчно свободно място на телефона. Освободете място и опитайте отново."
+  "exportLowStorage": "Няма достатъчно свободно място на телефона. Освободете място и опитайте отново.",
+  "settingsPrivacyChoices": "Опции за поверителност"
 }

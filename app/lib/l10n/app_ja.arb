@@ -267,5 +267,6 @@
   "settingsTempFilesTitle": "一時ファイル",
   "settingsTempFilesClear": "削除",
   "settingsTempFilesCleared": "一時ファイルを削除しました",
-  "exportLowStorage": "このスマートフォンの空き容量が足りません。容量を空けてからもう一度お試しください。"
+  "exportLowStorage": "このスマートフォンの空き容量が足りません。容量を空けてからもう一度お試しください。",
+  "settingsPrivacyChoices": "プライバシーの選択"
 }

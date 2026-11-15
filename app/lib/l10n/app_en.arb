@@ -297,5 +297,6 @@
   "settingsTempFilesTitle": "Temporary files",
   "settingsTempFilesClear": "Clear",
   "settingsTempFilesCleared": "Temporary files cleared",
-  "exportLowStorage": "Not enough free space on this phone. Free up some storage and try again."
+  "exportLowStorage": "Not enough free space on this phone. Free up some storage and try again.",
+  "settingsPrivacyChoices": "Privacy choices"
 }

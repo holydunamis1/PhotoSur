@@ -267,5 +267,6 @@
   "settingsTempFilesTitle": "عارضی فائلیں",
   "settingsTempFilesClear": "صاف کریں",
   "settingsTempFilesCleared": "عارضی فائلیں صاف کر دی گئیں",
-  "exportLowStorage": "اس فون میں کافی خالی جگہ نہیں ہے۔ کچھ جگہ خالی کریں اور دوبارہ کوشش کریں۔"
+  "exportLowStorage": "اس فون میں کافی خالی جگہ نہیں ہے۔ کچھ جگہ خالی کریں اور دوبارہ کوشش کریں۔",
+  "settingsPrivacyChoices": "رازداری کے اختیارات"
 }

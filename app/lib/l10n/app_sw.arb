@@ -291,5 +291,6 @@
   "settingsTempFilesTitle": "Faili za muda",
   "settingsTempFilesClear": "Futa",
   "settingsTempFilesCleared": "Faili za muda zimefutwa",
-  "exportLowStorage": "Nafasi ya kuhifadhi kwenye simu hii haitoshi. Tengeneza nafasi kidogo kisha jaribu tena."
+  "exportLowStorage": "Nafasi ya kuhifadhi kwenye simu hii haitoshi. Tengeneza nafasi kidogo kisha jaribu tena.",
+  "settingsPrivacyChoices": "Chaguo za faragha"
 }

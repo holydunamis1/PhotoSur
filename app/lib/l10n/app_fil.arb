@@ -267,5 +267,6 @@
   "settingsTempFilesTitle": "Mga pansamantalang file",
   "settingsTempFilesClear": "I-clear",
   "settingsTempFilesCleared": "Na-clear ang mga pansamantalang file",
-  "exportLowStorage": "Kulang ang libreng espasyo sa telepono. Magbakante ng espasyo at subukang muli."
+  "exportLowStorage": "Kulang ang libreng espasyo sa telepono. Magbakante ng espasyo at subukang muli.",
+  "settingsPrivacyChoices": "Mga pagpipilian sa privacy"
 }

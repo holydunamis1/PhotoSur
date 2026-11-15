@@ -2,9 +2,11 @@ import 'dart:async';
 import 'dart:io' show Platform;
 
 import 'package:app_tracking_transparency/app_tracking_transparency.dart';
-import 'package:flutter/foundation.dart' show debugPrint, kReleaseMode;
+import 'package:flutter/foundation.dart'
+    show ValueNotifier, debugPrint, kReleaseMode;
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
+import '../core/services/consent_flow.dart';
 import '../core/services/interstitial_gap.dart';
 import '../core/utils/constants.dart';
 
@@ -45,18 +47,114 @@ class AdService {
   /// can take many seconds — or never call back — on some networks/devices.
   Future<void> initialize() => _initFuture ??= _initialize();
 
+  /// False only when Google's consent check says ads may not be requested.
+  /// Banner and interstitial loads do nothing while this is false.
+  bool _adsAllowed = true;
+  bool get adsAllowed => _adsAllowed;
+
+  /// True when Google requires a "Privacy choices" entry (Settings row).
+  final ValueNotifier<bool> privacyOptionsRequired = ValueNotifier(false);
+
+  /// True once the consent check has finished (whatever its outcome). No ad
+  /// is requested before that.
+  bool _consentResolved = false;
+
+  bool _sdkStarted = false;
+  bool _consentRetried = false;
+  bool _lastUpdateFailed = false;
+
+  late final ConsentFlow _consent = ConsentFlow(ConsentGateway(
+    requestInfoUpdate: () {
+      final c = Completer<void>();
+      ConsentInformation.instance.requestConsentInfoUpdate(
+        ConsentRequestParameters(),
+        () => c.complete(),
+        (FormError e) => c.completeError('${e.errorCode}: ${e.message}'),
+      );
+      return c.future.timeout(const Duration(seconds: 15));
+    },
+    showFormIfRequired: () {
+      final c = Completer<void>();
+      ConsentForm.loadAndShowConsentFormIfRequired((FormError? e) {
+        if (e == null) {
+          c.complete();
+        } else {
+          c.completeError('${e.errorCode}: ${e.message}');
+        }
+      });
+      // The form waits for the user, so there is no timeout here.
+      return c.future;
+    },
+    canRequestAds: () => ConsentInformation.instance.canRequestAds(),
+    privacyOptionsRequired: () async =>
+        await ConsentInformation.instance.getPrivacyOptionsRequirementStatus() ==
+        PrivacyOptionsRequirementStatus.required,
+    showPrivacyOptions: () {
+      final c = Completer<void>();
+      ConsentForm.showPrivacyOptionsForm((FormError? e) {
+        if (e == null) {
+          c.complete();
+        } else {
+          c.completeError('${e.errorCode}: ${e.message}');
+        }
+      });
+      return c.future;
+    },
+  ));
+
   Future<void> _initialize() async {
     try {
-      await MobileAds.instance.initialize();
+      await _applyConsent();
     } catch (e) {
       debugPrint('AdMob initialization failed: $e');
     }
   }
 
-  /// Lets ad loads wait for SDK initialization, but never forever.
-  Future<void> _waitUntilInitialized() async {
+  Future<void> _applyConsent() async {
+    final result = await _consent.gather();
+    _consentResolved = true;
+    _lastUpdateFailed = result.infoUpdateFailed;
+    privacyOptionsRequired.value = result.privacyOptionsRequired;
+    _adsAllowed = result.adsAllowed;
+    if (result.canRequestAdsError != null) {
+      debugPrint('canRequestAds error: ${result.canRequestAdsError}');
+    }
+    await _startSdkIfAllowed();
+  }
+
+  Future<void> _startSdkIfAllowed() async {
+    if (!_adsAllowed || _sdkStarted) return;
+    _sdkStarted = true;
+    await MobileAds.instance.initialize();
+  }
+
+  /// Call when the app returns to the foreground. If the first consent
+  /// check failed, tries once more; otherwise does nothing.
+  Future<void> retryConsentOnResume() async {
+    if (!_lastUpdateFailed || _consentRetried) return;
+    _consentRetried = true;
     try {
-      await initialize().timeout(const Duration(seconds: 20));
+      await _applyConsent();
+    } catch (e) {
+      debugPrint('Consent retry failed: $e');
+    }
+  }
+
+  /// Settings "Privacy choices" row.
+  Future<void> showPrivacyChoices() async {
+    _adsAllowed = await _consent.showPrivacyOptions();
+    try {
+      await _startSdkIfAllowed();
+    } catch (e) {
+      debugPrint('AdMob start after privacy choices failed: $e');
+    }
+  }
+
+  /// Lets ad loads wait for SDK initialization, but never forever.
+  Future<void> _waitUntilInitialized(
+      [Duration timeout = const Duration(seconds: 20)]) async {
+    try {
+      await initialize().timeout(timeout);
     } catch (_) {
       // Proceed anyway; the load itself has its own timeout.
     }
@@ -82,7 +180,11 @@ class AdService {
     required void Function(Ad ad) onLoaded,
     required void Function(Ad ad, LoadAdError error) onFailed,
   }) async {
-    await _waitUntilInitialized();
+    // The consent form can wait for the user, so banners wait longer.
+    await _waitUntilInitialized(const Duration(minutes: 2));
+    if (!_adsAllowed || !_consentResolved) {
+      return null;
+    }
     final banner = BannerAd(
       adUnitId: bannerAdUnitId,
       size: AdSize.banner,
@@ -128,6 +230,7 @@ class AdService {
     if (!await _gap.isOpen()) return false;
 
     await _waitUntilInitialized();
+    if (!_adsAllowed || !_consentResolved) return false;
     final completer = Completer<bool>();
     try {
       await InterstitialAd.load(

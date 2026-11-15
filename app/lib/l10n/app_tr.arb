@@ -267,5 +267,6 @@
   "settingsTempFilesTitle": "Geçici dosyalar",
   "settingsTempFilesClear": "Temizle",
   "settingsTempFilesCleared": "Geçici dosyalar temizlendi",
-  "exportLowStorage": "Bu telefonda yeterli boş alan yok. Biraz yer açın ve tekrar deneyin."
+  "exportLowStorage": "Bu telefonda yeterli boş alan yok. Biraz yer açın ve tekrar deneyin.",
+  "settingsPrivacyChoices": "Gizlilik seçenekleri"
 }

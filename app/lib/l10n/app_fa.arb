@@ -267,5 +267,6 @@
   "settingsTempFilesTitle": "فایل‌های موقت",
   "settingsTempFilesClear": "پاک کردن",
   "settingsTempFilesCleared": "فایل‌های موقت پاک شد",
-  "exportLowStorage": "فضای خالی کافی روی این گوشی نیست. کمی فضا آزاد کنید و دوباره تلاش کنید."
+  "exportLowStorage": "فضای خالی کافی روی این گوشی نیست. کمی فضا آزاد کنید و دوباره تلاش کنید.",
+  "settingsPrivacyChoices": "گزینه‌های حریم خصوصی"
 }

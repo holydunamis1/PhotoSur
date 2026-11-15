@@ -267,5 +267,6 @@
   "settingsTempFilesTitle": "Тимчасові файли",
   "settingsTempFilesClear": "Очистити",
   "settingsTempFilesCleared": "Тимчасові файли очищено",
-  "exportLowStorage": "На телефоні недостатньо вільного місця. Звільніть місце та спробуйте ще раз."
+  "exportLowStorage": "На телефоні недостатньо вільного місця. Звільніть місце та спробуйте ще раз.",
+  "settingsPrivacyChoices": "Параметри конфіденційності"
 }

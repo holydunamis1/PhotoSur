@@ -267,5 +267,6 @@
   "settingsTempFilesTitle": "Fichiers temporaires",
   "settingsTempFilesClear": "Effacer",
   "settingsTempFilesCleared": "Fichiers temporaires effacés",
-  "exportLowStorage": "Espace libre insuffisant sur ce téléphone. Libérez de l’espace, puis réessayez."
+  "exportLowStorage": "Espace libre insuffisant sur ce téléphone. Libérez de l’espace, puis réessayez.",
+  "settingsPrivacyChoices": "Choix de confidentialité"
 }

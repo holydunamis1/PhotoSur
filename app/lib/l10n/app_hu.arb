@@ -291,5 +291,6 @@
   "settingsTempFilesTitle": "Ideiglenes fájlok",
   "settingsTempFilesClear": "Törlés",
   "settingsTempFilesCleared": "Az ideiglenes fájlok törölve",
-  "exportLowStorage": "Nincs elég szabad hely a telefonon. Szabadíts fel helyet, és próbáld újra."
+  "exportLowStorage": "Nincs elég szabad hely a telefonon. Szabadíts fel helyet, és próbáld újra.",
+  "settingsPrivacyChoices": "Adatvédelmi beállítások"
 }

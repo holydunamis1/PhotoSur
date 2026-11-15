@@ -267,5 +267,6 @@
   "settingsTempFilesTitle": "Pliki tymczasowe",
   "settingsTempFilesClear": "Wyczyść",
   "settingsTempFilesCleared": "Pliki tymczasowe wyczyszczone",
-  "exportLowStorage": "Na telefonie brakuje wolnego miejsca. Zwolnij trochę miejsca i spróbuj ponownie."
+  "exportLowStorage": "Na telefonie brakuje wolnego miejsca. Zwolnij trochę miejsca i spróbuj ponownie.",
+  "settingsPrivacyChoices": "Opcje prywatności"
 }

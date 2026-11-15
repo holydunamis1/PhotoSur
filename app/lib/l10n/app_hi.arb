@@ -267,5 +267,6 @@
   "settingsTempFilesTitle": "अस्थायी फ़ाइलें",
   "settingsTempFilesClear": "साफ़ करें",
   "settingsTempFilesCleared": "अस्थायी फ़ाइलें साफ़ कर दी गईं",
-  "exportLowStorage": "इस फ़ोन में पर्याप्त खाली जगह नहीं है। कुछ जगह खाली करें और फिर कोशिश करें।"
+  "exportLowStorage": "इस फ़ोन में पर्याप्त खाली जगह नहीं है। कुछ जगह खाली करें और फिर कोशिश करें।",
+  "settingsPrivacyChoices": "गोपनीयता विकल्प"
 }

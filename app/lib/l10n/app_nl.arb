@@ -267,5 +267,6 @@
   "settingsTempFilesTitle": "Tijdelijke bestanden",
   "settingsTempFilesClear": "Wissen",
   "settingsTempFilesCleared": "Tijdelijke bestanden gewist",
-  "exportLowStorage": "Er is niet genoeg vrije ruimte op deze telefoon. Maak ruimte vrij en probeer het opnieuw."
+  "exportLowStorage": "Er is niet genoeg vrije ruimte op deze telefoon. Maak ruimte vrij en probeer het opnieuw.",
+  "settingsPrivacyChoices": "Privacykeuzes"
 }

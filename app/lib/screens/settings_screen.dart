@@ -1,3 +1,4 @@
+import '../platform/ad_service.dart';
 import '../widgets/temp_files_tile.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
@@ -200,7 +201,9 @@ class SettingsScreen extends StatelessWidget {
               ),
               ]),
               const SizedBox(height: AppSpace.l),
-              _Group(children: [
+              ValueListenableBuilder<bool>(
+                valueListenable: AdService.instance.privacyOptionsRequired,
+                builder: (context, _, __) => _Group(children: [
               ListTile(
                 title: Text(l10n.helpTitle),
                 leading: const Icon(Icons.menu_book_outlined),
@@ -216,6 +219,12 @@ class SettingsScreen extends StatelessWidget {
                 leading: const Icon(Icons.privacy_tip_outlined),
                 onTap: () => _openUrl(context, _kPrivacyPolicyUrl),
               ),
+              if (AdService.instance.privacyOptionsRequired.value)
+                ListTile(
+                  title: Text(l10n.settingsPrivacyChoices),
+                  leading: const Icon(Icons.tune_rounded),
+                  onTap: AdService.instance.showPrivacyChoices,
+                ),
               ListTile(
                 title: Text(l10n.settingsSupport),
                 leading: const Icon(Icons.help_outline),
@@ -240,6 +249,7 @@ class SettingsScreen extends StatelessWidget {
                 ),
               ),
               ]),
+              ),
             ],
           );
         },
