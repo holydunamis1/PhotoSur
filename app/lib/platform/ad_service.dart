@@ -3,7 +3,7 @@ import 'dart:io' show Platform;
 
 import 'package:app_tracking_transparency/app_tracking_transparency.dart';
 import 'package:flutter/foundation.dart'
-    show ValueNotifier, debugPrint, kReleaseMode;
+    show ValueNotifier, debugPrint, kReleaseMode, visibleForTesting;
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 import '../core/services/consent_flow.dart';
@@ -63,7 +63,15 @@ class AdService {
   bool _consentRetried = false;
   bool _lastUpdateFailed = false;
 
-  late final ConsentFlow _consent = ConsentFlow(ConsentGateway(
+  /// Tests replace the real Google consent calls (there is no plugin in a
+  /// unit test, so the real calls never answer).
+  @visibleForTesting
+  ConsentGateway? consentGatewayOverride;
+
+  late final ConsentFlow _consent =
+      ConsentFlow(consentGatewayOverride ?? _pluginGateway());
+
+  ConsentGateway _pluginGateway() => ConsentGateway(
     requestInfoUpdate: () {
       final c = Completer<void>();
       ConsentInformation.instance.requestConsentInfoUpdate(
@@ -100,7 +108,7 @@ class AdService {
       });
       return c.future;
     },
-  ));
+  );
 
   Future<void> _initialize() async {
     try {
