@@ -25,3 +25,6 @@ Append a dated entry for every pivot or upgrade. Newest at the bottom. Dates are
 
 ## 21. Storage clean-up built (2026-11-14)
 Free space is read through a small Android MethodChannel (`photosur/storage`, `StatFs`) instead of a new plugin; any failure returns null and the check is skipped, so it can never block an export. Sweeps delete image files only (jpg, jpeg, png, webp, heic, heif), never files changed in the last 10 minutes, and the orphan sweep is skipped if history cannot be read. Owner's two early exports (made before the history fix) have no records and will be removed from the app's private exports folder after a day; their gallery copies are unaffected.
+
+## 22. Review prompt built (2026-11-14)
+The prompt is marked as requested before the store sheet is called, because the store gives no signal whether it showed; a failed request is therefore not retried. It waits 2 s after the export screen closes. "Same moment as an interstitial" is implemented as: an interstitial was shown in the same export flow.
