@@ -49,7 +49,8 @@ Built and merged to `main` (all CI-green; none of it is proven on a phone except
 Testing coverage:
 - 33 test files. Widget sweep: 43 languages x 2 text scales x 8 surfaces at 320 dp, clean.
 - Emulator, real fonts: onboarding, Home, Help, language/theme sheets, Settings in all 43 languages, clean.
-- NOT covered with real fonts: editor and its tool panels, export sheet, batch, library, viewer, paywall. Also not covered by the widget sweep: tool panels, library, viewer, batch.
+- Widget sweep (test font, 320 dp, 1.3x) now also covers the five editor tool panels in 43 languages, plus batch and export viewer in 8 languages (`test/screens_sweep_test.dart`). Not covered: the full-library screen (needs the real database).
+- NOT covered with real fonts: editor and its tool panels, export sheet, batch, library, viewer, paywall.
 - Earlier emulator runs (branches `emu/*`) covered real photos through cut-out/export, HD download, batch, interruptions, odd sizes. Cut-out quality on real product photos has never been judged by the owner on shoes/bags/bottles.
 
 ## 5. Outstanding (not started unless noted)

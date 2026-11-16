@@ -31,3 +31,6 @@ The prompt is marked as requested before the store sheet is called, because the 
 
 ## 23. Ad consent built (2026-11-14)
 Unknown or failed consent checks fall through to requesting ads (only an explicit "no" from Google blocks them), as the owner specified. Ad loads wait for the check to finish: each wait is 20 s, but while the consent form is open loads keep waiting for it to close. Whether UMP is legally required for the owner's markets is still undecided; a consent message must also be created in the AdMob console for the form to appear.
+
+## 24. Batch 5 screen tests built (2026-11-16)
+The new sweep found a real overflow: the export viewer action bar used four fixed 76 dp tiles and overflowed at 320 dp / 1.3x text. Tiles now share the row width. Native-speaker review of the 42 translations remains human work.
