@@ -136,27 +136,27 @@ class _ExportViewerScreenState extends State<ExportViewerScreen> {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
-                            _BarAction(
+                            Expanded(child: _BarAction(
                               icon: Icons.ios_share_rounded,
                               label: l10n.exportShare,
                               onTap: () => shareExport(context, job),
-                            ),
-                            _BarAction(
+                            )),
+                            Expanded(child: _BarAction(
                               icon: Icons.download_rounded,
                               label: l10n.exportSaveToGallery,
                               onTap: () => saveExportToGallery(context, job),
-                            ),
-                            _BarAction(
+                            )),
+                            Expanded(child: _BarAction(
                               icon: Icons.tune_rounded,
                               label: l10n.exportActionEdit,
                               onTap: () => editExportAgain(context, job),
-                            ),
-                            _BarAction(
+                            )),
+                            Expanded(child: _BarAction(
                               icon: Icons.delete_outline_rounded,
                               label: l10n.exportActionDelete,
                               color: const Color(0xFFFF6B61),
                               onTap: _delete,
-                            ),
+                            )),
                           ],
                         ),
                       ],
@@ -252,8 +252,8 @@ class _BarAction extends StatelessWidget {
           HapticFeedback.selectionClick();
           onTap();
         },
-        child: SizedBox(
-          width: 76,
+        child: ConstrainedBox(
+          constraints: const BoxConstraints(minHeight: 48),
           child: Padding(
             padding: const EdgeInsets.symmetric(vertical: AppSpace.s),
             child: Column(
